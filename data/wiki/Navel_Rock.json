@@ -1,0 +1,32 @@
+{
+  "title": "Navel_Rock",
+  "url": "https://infinitefusion.fandom.com/wiki/Navel_Rock",
+  "lead_summary": "Navel Rock is an optional island that can only be reached after obtaining the Navel Ticket from Chuck and taking the ship from Boon Island's dock.\nAt the peak is a Static Encounter with a fused Ho-oh/Lugia.",
+  "missable_warnings": [],
+  "items": [
+    {
+      "internal_id": "PPMAX",
+      "quantity": "",
+      "name": "PP Max",
+      "location_details": "West Side when starting to climb."
+    },
+    {
+      "internal_id": "SACREDASH",
+      "quantity": "",
+      "name": "Sacred Ash",
+      "location_details": "West Side after the PP Max."
+    },
+    {
+      "internal_id": "MAXELIXIR",
+      "quantity": "",
+      "name": "Max Elixir",
+      "location_details": "East Side when Fearow start roaming."
+    }
+  ],
+  "sections": [
+    "Items",
+    "Pokémon",
+    "Layout"
+  ],
+  "raw_wikitext": "{{InfoboxLocation\n|region=Johto\n|location_image=NavelRock.png\n|connection_1_direction=south\n|connection_1_location=Boon Island\n}}\n'''Navel Rock''' is an optional island that can only be reached after obtaining the Navel Ticket from Chuck and taking the ship from [[Boon Island]]'s dock.\n\nAt the peak is a Static Encounter with a fused Ho-oh/Lugia.\n\n==Items==\n{{ItemTable/Header}}\n{{ItemTable/Data|PPMAX||PP Max|West Side when starting to climb.|PPMax_NavelRock.png}}\n{{ItemTable/Data|SACREDASH||Sacred Ash|West Side after the PP Max.|SacredAsh_NavelRock.png}}\n{{ItemTable/Data|MAXELIXIR||Max Elixir|East Side when Fearow start roaming.|MaxElixir_NavelRock.png}}\n{{ItemTable/Footer}}\n\n==Pokémon==\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Static}}\n{{EncounterTable/Data|17|Pidgeotto|Normal|Flying|35|120|Five}}\n{{EncounterTable/Data|18.18|Pidgeot/Pidgeot|Normal|Flying|50|45|One}}\n{{EncounterTable/Data|21|Spearow|Normal|Flying|35|255|Three}}\n{{EncounterTable/Data|22|Fearow|Normal|Flying|40|90|Two}}\n{{EncounterTable/Data|250.249|Ho-oh/Lugia|Fire|Flying|60|3|One}}\n{{EncounterTable/Footer}}\n\n==Layout==\nThe image below shows the path needed to reach Ho-oh/Lugia, provided by the community:\n{| class=\"roundy\" style=\"margin:auto; background: #000; border: 3px solid #{{Locationcolor/dark|water}}\"\n|-\n! style=\"background:#{{Locationcolor/light|water}}; {{roundytr|5px}}\" |Path to reach Ho-oh/Lugia\n|-\n|[[File:Path_NavelRock.png|519x1600px]]\n|-\n|}\n\n[[Category:Locations]]\n[[Category:Sevii Islands]]"
+}

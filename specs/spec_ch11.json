@@ -1,0 +1,57 @@
+{
+  "chapter_id": "ch11",
+  "title": "Act 2 - Chapter 2: Azalea Town & Ilex Forest (Hive Badge)",
+  "act": 2,
+  "hard_mode_level_cap": 62,
+  "gym_duel_limit": 5,
+  "routes_covered": [
+    "Ilex Forest",
+    "Azalea Town",
+    "Slowpoke Well",
+    "Route 33"
+  ],
+  "expected_classic_spawns": [
+    "Metapod",
+    "Butterfree",
+    "Kakuna",
+    "Beedrill",
+    "Golbat",
+    "Gloom",
+    "Parasect",
+    "Aipom",
+    "Pineco",
+    "Heracross",
+    "Phantump",
+    "Poliwag",
+    "Poliwhirl",
+    "Breloom",
+    "Slowpoke",
+    "Slowbro",
+    "Slowking",
+    "Goldeen",
+    "Magikarp",
+    "Raticate",
+    "Fearow",
+    "Arbok",
+    "Rattata"
+  ],
+  "prohibited_spawns": [
+    "Beldum",
+    "Gible",
+    "Torchic",
+    "Mudkip",
+    "Treecko",
+    "Chimchar",
+    "Piplup",
+    "Turtwig",
+    "Mewtwo",
+    "Moltres",
+    "Zapdos",
+    "Articuno"
+  ],
+  "required_starters": [
+    "Bulbasaur",
+    "Charmander",
+    "Squirtle"
+  ]
+}

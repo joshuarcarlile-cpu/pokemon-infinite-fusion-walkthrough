@@ -1,0 +1,57 @@
+{
+  "chapter_id": "ch10",
+  "title": "Act 2 - Chapter 1: Goldenrod City & Route 34 (Plain Badge)",
+  "act": 2,
+  "hard_mode_level_cap": 62,
+  "gym_duel_limit": 5,
+  "routes_covered": [
+    "Route 34",
+    "Goldenrod City"
+  ],
+  "expected_classic_spawns": [
+    "Pidgeotto",
+    "Raticate",
+    "Wigglytuff",
+    "Kadabra",
+    "Hypno",
+    "Ditto",
+    "Noctowl",
+    "Granbull",
+    "Tentacool",
+    "Tentacruel",
+    "Krabby",
+    "Magikarp",
+    "Kingler",
+    "Staryu",
+    "Kirlia"
+  ],
+  "prohibited_spawns": [
+    "Beldum",
+    "Gible",
+    "Torchic",
+    "Mudkip",
+    "Treecko",
+    "Chimchar",
+    "Piplup",
+    "Turtwig",
+    "Mewtwo",
+    "Moltres",
+    "Zapdos",
+    "Articuno"
+  ],
+  "prohibited_tools": [
+    "Scuba Gear",
+    "Jetpack",
+    "Climbing Gear"
+  ],
+  "required_items": [
+    "Plain Badge",
+    "Teleporter",
+    "TM27"
+  ],
+  "starter_teams_required": [
+    "bulbasaur",
+    "charmander",
+    "squirtle"
+  ]
+}

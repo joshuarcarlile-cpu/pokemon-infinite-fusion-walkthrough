@@ -1,0 +1,27 @@
+{
+  "title": "Cherrygrove_City",
+  "url": "https://infinitefusion.fandom.com/wiki/Cherrygrove_City",
+  "lead_summary": "Cherrygrove City is a small town that can be entered from Route 30 by the North and from Route 29 by the East.",
+  "missable_warnings": [],
+  "items": [
+    {
+      "internal_id": "MYSTICWATER",
+      "quantity": "",
+      "name": "Mystic Water",
+      "location_details": "On a small island in the South-West corner."
+    },
+    {
+      "internal_id": "AZUREFLUTE",
+      "quantity": "",
+      "name": "Azure Flute",
+      "location_details": "Given by Eusine after showing him Zapdos, Moltres, Articuno, Entei, Suicune and Raikou."
+    }
+  ],
+  "sections": [
+    "Items",
+    "Shops",
+    "Points of Interest",
+    "Big Nugget Collector"
+  ],
+  "raw_wikitext": "{{InfoboxLocation\n|region=Johto\n|location_image=CherrygroveCity.png\n|map_image=Cherrygrove_City_Map.png\n|has_pokemon_center=1\n|has_pokemart=1\n|connection_1_direction=north\n|connection_1_location=Route 30\n|connection_2_direction=east\n|connection_2_location=Route 29\n}}\n'''Cherrygrove City''' is a small town that can be entered from [[Route 30]] by the North and from [[Route 29]] by the East.\n\n==Items==\n{{ItemTable/Header}}\n{{ItemTable/Section|Found/Given}}\n{{ItemTable/Data|MYSTICWATER||Mystic Water|On a small island in the South-West corner.|MysticWater_CherrygroveCity.png}}\n{{ItemTable/Data|AZUREFLUTE||Azure Flute|Given by Eusine after showing him Zapdos, Moltres, Articuno, Entei, Suicune and Raikou.|AzureFlute_CherrygroveCity.png}}\n{{ItemTable/Footer}}\n\n===Shops===\n{{MartTable/Header}}\n{{MartTable/Section|Poké Mart Left Cashier (Town Exclusives)}}\n{{MartTable/Data|BUGGEM|Pure Gem|200}}\n{{MartTable/Data|PUREBALL|Level Ball|1000}}\n{{MartTable/General|Poké Mart Right Cashier (General Store)}}\n{{MartTable/Footer}}\n\n==Points of Interest==\n===Big Nugget Collector===\nA Backpacker in the leftmost house will purchase {{ItemIcon|BIGNUGGET}} Big Nuggets from the player for {{P$}}40,000.\n\n[[Category:Locations]]\n[[Category:Towns]]\n[[Category:Johto]]"
+}

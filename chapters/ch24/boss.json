@@ -1,0 +1,50 @@
+{
+  "leader": "Rayquaza",
+  "title": "Sky High Dragon Sovereign",
+  "gym": "Sky Pillar Apex",
+  "badge": "Celestial Mastery",
+  "hard_mode_level_cap": 92,
+  "gym_duel_limit": 6,
+  "recommended_party_level": 88,
+  "party_selection_rule": "Full 6 vs 6 Primordial Dragon Confrontation",
+  "overview": "Rayquaza coils at the cloudswept pinnacle of Sky Pillar as the celestial sovereign of the atmosphere. Commanding 150 Attack and 150 Special Attack with Air Lock, Rayquaza completely suppresses all weather effects, rendering Rain Dance and Sunny Day strategies useless. It combines STAB Outrage, setup Dragon Dance, and priority Extreme Speed to rip through defensive cores. Exploit its devastating 4x vulnerability to Ice-type attacks immediately. A well-placed Ice Beam or Blizzard from a bulky Water/Ice tank like Lapras will cleanly bypass its defenses and secure a capture opening.",
+  "roster": [
+    {
+      "species": "Rayquaza",
+      "level": 70,
+      "types": ["Dragon", "Flying"],
+      "ability": "Air Lock",
+      "item": "Life Orb",
+      "moves": ["Outrage", "Extreme Speed", "Dragon Dance", "Fly"],
+      "tactics": "Fearsome 150/150 mixed offensive titan. Air Lock cancels all weather. Threatens immediate sweeps with Dragon Dance and Outrage. Erase its health bar with a 4x Ice Beam."
+    },
+    {
+      "species": "Metagross/Altaria",
+      "level": 78,
+      "types": ["Steel", "Dragon"],
+      "ability": "Clear Body",
+      "item": "Sitrus Berry",
+      "moves": ["Meteor Mash", "Dragon Claw", "Earthquake", "Roost"],
+      "tactics": "Resilient Steel/Dragon tank resisting 9 types. Punish its Ground and Fire weaknesses with STAB Earthquakes or Flamethrowers before it boosts with Meteor Mash."
+    },
+    {
+      "species": "Dusclops/Claydol",
+      "level": 78,
+      "types": ["Ghost", "Ground"],
+      "ability": "Levitate",
+      "item": "Leftovers",
+      "moves": ["Shadow Ball", "Earth Power", "Ice Beam", "Will-O-Wisp"],
+      "tactics": "Extreme mixed bulk with Levitate immunity to Ground. Uses Will-O-Wisp to burn physical sweepers. Neutralize with special Water, Ghost, or Dark attacks."
+    }
+  ],
+  "starter_strategies": {
+    "bulbasaur": "Lead with Lapras to immediately fire a 4x STAB Ice Beam at Rayquaza, either knocking it into critical capture range or securing an immediate check. Switch Venusaur/Charizard in against Metagross/Altaria to incinerate it with Flamethrower, while Gyarados/Arbok and Alakazam/Weezing easily dispatch Dusclops/Claydol.",
+    "charmander": "Deploy Lapras or Charizard/Venusaur to control the skies with Ice Beam and Sleep Powder. Bring in Primeape/Sandslash or Gyarados/Nidoking to break Metagross/Altaria with Earthquake. Alakazam/Raichu and Snorlax provide overwhelming special offensive pressure and bulk.",
+    "squirtle": "Deploy Blastoise/Fearow and Lapras to form an impenetrable wall against Rayquaza's Outrage, striking back with 4x Ice Beam. Arbok/Primeape cripples physical switch-ins with Intimidate, and Alakazam/Weezing dissolves Dusclops/Claydol with special Psychic and Shadow Ball."
+  },
+  "rewards": [
+    "Rayquaza Capture (or Dragon Scale hold item)",
+    "Weather Trio Mastery (Groudon, Kyogre & Rayquaza)",
+    "Tier 4 Elite Four Rematch Eligibility (Lv. 91-99)"
+  ]
+}

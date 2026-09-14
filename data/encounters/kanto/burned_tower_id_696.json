@@ -1,0 +1,73 @@
+{
+  "location": "Burned Tower (ID 696)",
+  "sections": {
+    "Cave": [
+      {
+        "dex_id": "020",
+        "name": "Raticate",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "36-41",
+        "catch_rate": "127",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "092",
+        "name": "Gastly",
+        "type1": "Ghost",
+        "type2": "Poison",
+        "levels": "22-32",
+        "catch_rate": "190",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "093",
+        "name": "Haunter",
+        "type1": "Ghost",
+        "type2": "Poison",
+        "levels": "33-39",
+        "catch_rate": "90",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "110",
+        "name": "Weezing",
+        "type1": "Poison",
+        "type2": "",
+        "levels": "36",
+        "catch_rate": "60",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "126",
+        "name": "Magmar",
+        "type1": "Fire",
+        "type2": "",
+        "levels": "44",
+        "catch_rate": "45",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "200",
+        "name": "Misdreavus",
+        "type1": "Ghost",
+        "type2": "",
+        "levels": "33-39",
+        "catch_rate": "45",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

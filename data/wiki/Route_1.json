@@ -1,0 +1,28 @@
+{
+  "title": "Route_1",
+  "url": "https://infinitefusion.fandom.com/wiki/Route_1",
+  "lead_summary": "|connection_3_direction=south\n|connection_3_location=Pallet Town\n|map_image=Route_1_Map.png\n}}\nRoute 1 is a route that connects Pallet Town to Viridian City. It is the first route the player goes on. During the initial journey through the route, the player lacks pokeballs as they have to deliver Professor Oak's package in order to be given their starter set as well as unlock access to the Poké Mart.",
+  "missable_warnings": [],
+  "items": [
+    {
+      "internal_id": "POTION",
+      "quantity": "",
+      "name": "Potion",
+      "location_details": "From Poké Mart employee."
+    },
+    {
+      "internal_id": "ORANBERRY",
+      "quantity": "",
+      "name": "Oran Berry",
+      "location_details": "Left of Lass Mimi."
+    }
+  ],
+  "sections": [
+    "Items",
+    "Outfits",
+    "Pokémon",
+    "Trainers",
+    "Trivia"
+  ],
+  "raw_wikitext": "{{GlobalToggles}}\n{{InfoboxLocation\n|region=Kanto\n|location_image=Route01.png\n|connection_1_direction=north\n|connection_1_location=Viridian City\n|connection_2_direction=east\n|connection_2_location=Secret Garden\n|connection_2_restrictions=Defeat rival in [[Route 22|Route&nbsp;22]] before {{Gym|1}}\n|connection_3_direction=south\n|connection_3_location=Pallet Town\n|map_image=Route_1_Map.png\n}}\n\n'''Route 1''' is a route that connects [[Pallet Town]] to [[Viridian City]]. It is the first route the player goes on. During the initial journey through the route, the player lacks pokeballs as they have to deliver Professor Oak's package in order to be given their starter set as well as unlock access to the Poké Mart. \n\n==Items==\n{{ItemTable/Header}}\n{{ItemTable/Data|POTION||Potion|From Poké Mart employee.|Potion_Route01.png}}\n{{ItemTable/Data|ORANBERRY||Oran Berry|Left of Lass Mimi.|OranBerry_Route01.png}}\n{{ItemTable/Footer}}\n\n==Outfits==\n{{ItemTable/Header|Outfit}}\n{{ItemTable/Data/Outfit|hat|pidgey||Idle for 10 seconds.}}\n{{ItemTable/Footer/Outfit}}\n\n==Pokémon==\n<!-----------------------------------!>\n<!-- CLASSIC & EXPERT MODE POKÉMON --!>\n<!------------------------------------>\n<div class=\"classic-mode expert-mode\">\n{{EncounterTable/Header/Time}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|016|Pidgey|Normal|Flying|2-5|255|50%|50%|-}}\n{{EncounterTable/Data|019|Rattata|Normal||2-5|255|45%}}\n{{EncounterTable/Data|114|Tangela|Grass||2-3|45|5%|5%|-}}\n{{EncounterTable/Data|163|Hoothoot|Normal|Flying|2-5|255|-|-|50%}}\n{{EncounterTable/Data|258|Mime Jr.|Psychic|Fairy|2-3|145|-|-|5%}}\n{{EncounterTable/Section|Poké Radar}}\n{{EncounterTable/Data|417|Fletchling|Normal|Flying|2-5|255|50% <small>([[Poké Radar#How_it_works|long rustle]])</small>}}\n{{EncounterTable/Footer/Time}}\n</div>\n<!------------------------!>\n<!-- REMIX MODE POKÉMON --!>\n<!------------------------->\n<div class=\"remix-mode\">\n{{EncounterTable/Header/Time}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|132|Ditto|Normal||2-4|35|1%}}\n{{EncounterTable/Data|161|Sentret|Normal||2-5|255|-|-|30%}}\n{{EncounterTable/Data|163|Hoothoot|Normal|Flying|2-5|255|-|-|39%}}\n{{EncounterTable/Data|235|Smeargle|Normal||2-3|45|5%|5%|-}}\n{{EncounterTable/Data|252|Azurill|Normal|Fairy|2-4|150|10%}}\n{{EncounterTable/Data|294|Bidoof|Normal||2-5|255|35%|35%|-}}\n{{EncounterTable/Data|388|Shinx|Electric||<abbr title{{=}}\"Morning: 2-5&#10;Day: 2-5&#10;Night: 2-3\">2-5</abbr>|235|15%|15%|20%}}\n{{EncounterTable/Data|417|Fletchling|Normal|Flying|2-5|255|34%|34%|-}}\n{{EncounterTable/Section|Poké Radar}}\n{{EncounterTable/Data|417|Fletchling|Normal|Flying|2-5|255|50% <small>([[Poké Radar#How_it_works|long rustle]])</small>}}\n{{EncounterTable/Footer/Time}}\n</div>\n\n==Trainers==\n{{Trainer\n| trainerClass=LASS\n| name=Mimi\n| trainerOverworldSprite=BW (34).png\n| pokemon1=16\n| pokemon1Level=4\n| remixPokemon1=161.252\n| remixPokemon1Level=4\n| expertPokemon1=19\n| expertPokemon1Level=4\n| expertPokemon1Item=ORANBERRY\n| expertPokemon1Nature=Adamant\n| expertPokemon1Ability=[[bulbapedia:Hustle (Ability)|Hustle]]\n| expertPokemon1Move1=Quick Attack\n| expertPokemon1Move2=Tail Whip\n| expertPokemon1IVHP=31\n| expertPokemon1IVAtk=31\n| expertPokemon1IVDef=31\n| expertPokemon1IVSpA=31\n| expertPokemon1IVSpD=31\n| expertPokemon1IVSpe=31\n| expertPokemon1EVHP=64\n| expertPokemon1EVAtk=64\n| expertPokemon1EVDef=0\n| expertPokemon1EVSpA=0\n| expertPokemon1EVSpD=0\n| expertPokemon1EVSpe=0\n}}\n\n==Trivia==\nLass Mimi is an optional battle, she will only battle the battle the player if you spoken to.\n\n[[fr:Route 1]]\n[[Category:Locations]]\n[[Category:Kanto]]"
+}

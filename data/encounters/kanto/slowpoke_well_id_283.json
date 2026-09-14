@@ -1,0 +1,180 @@
+{
+  "location": "Slowpoke Well (ID 283)",
+  "sections": {
+    "Cave": [
+      {
+        "dex_id": "042",
+        "name": "Golbat",
+        "type1": "Poison",
+        "type2": "Flying",
+        "levels": "45-48",
+        "catch_rate": "90",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "dex_id": "079",
+        "name": "Slowpoke",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "40",
+        "catch_rate": "190",
+        "rates": [
+          "45%"
+        ]
+      },
+      {
+        "dex_id": "080",
+        "name": "Slowbro",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "48",
+        "catch_rate": "75",
+        "rates": [
+          "16%"
+        ]
+      },
+      {
+        "dex_id": "199",
+        "name": "Slowking",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "48",
+        "catch_rate": "70",
+        "rates": [
+          "4%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "dex_id": "079",
+        "name": "Slowpoke",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "40",
+        "catch_rate": "190",
+        "rates": [
+          "75%"
+        ]
+      },
+      {
+        "dex_id": "118",
+        "name": "Goldeen",
+        "type1": "Water",
+        "type2": "",
+        "levels": "45",
+        "catch_rate": "225",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "30",
+        "catch_rate": "255",
+        "rates": [
+          "15%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "dex_id": "079",
+        "name": "Slowpoke",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "10",
+        "catch_rate": "190",
+        "rates": [
+          "45%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "10",
+        "catch_rate": "255",
+        "rates": [
+          "55%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "dex_id": "079",
+        "name": "Slowpoke",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "20",
+        "catch_rate": "190",
+        "rates": [
+          "90%"
+        ]
+      },
+      {
+        "dex_id": "080",
+        "name": "Slowbro",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "20",
+        "catch_rate": "75",
+        "rates": [
+          "6%"
+        ]
+      },
+      {
+        "dex_id": "199",
+        "name": "Slowking",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "20",
+        "catch_rate": "70",
+        "rates": [
+          "4%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "dex_id": "079",
+        "name": "Slowpoke",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "40",
+        "catch_rate": "190",
+        "rates": [
+          "70%"
+        ]
+      },
+      {
+        "dex_id": "080",
+        "name": "Slowbro",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "40",
+        "catch_rate": "75",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "199",
+        "name": "Slowking",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "40",
+        "catch_rate": "70",
+        "rates": [
+          "10%"
+        ]
+      }
+    ]
+  }
+}

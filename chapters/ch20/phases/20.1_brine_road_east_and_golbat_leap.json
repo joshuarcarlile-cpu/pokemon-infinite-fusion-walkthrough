@@ -1,0 +1,66 @@
+{
+  "name": "Brine Road East & The Golbat Leap",
+  "summary": "Equip the Golbat Boots obtained in Johto's Ice Mountains to leap across the ruptured deck chasm of the Old Shipwreck, unlocking the eastern half of Brine Road. Surf east through sparkling island channels towards Kin Island. Collect valuable training supplies including Carbos, HP Up, a Big Pearl, a hidden Heart Scale, and TM16 Light Screen resting on an offshore reef. Take note of the dense pod of Corsola blocking the southern channel towards the Water Labyrinth — they will require a predator to disperse.",
+  "items": [
+    {
+      "name": "TM16 Light Screen",
+      "method": "On a small coral sandbar on the eastern perimeter",
+      "type": "Technical Machine"
+    },
+    {
+      "name": "Carbos",
+      "method": "Floating near the northern rocky shoals",
+      "type": "Vitamin"
+    },
+    {
+      "name": "HP Up",
+      "method": "Hidden in the coral reef near the central channel",
+      "type": "Vitamin"
+    },
+    {
+      "name": "Big Pearl",
+      "method": "On an islet south of the Kin Island sea gate",
+      "type": "Valuable"
+    },
+    {
+      "name": "Heart Scale",
+      "method": "Hidden in the shallows near the Corsola blockage",
+      "type": "Hold Item"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Swimmer Toby",
+      "title": "Swimmer",
+      "reward": "P1,160",
+      "pokemon": [
+        {
+          "species": "Golduck",
+          "level": 57,
+          "types": ["Water"]
+        },
+        {
+          "species": "Sharpedo",
+          "level": 58,
+          "types": ["Water", "Dark"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Surf": [
+      { "species": "Tentacool", "levels": "20-40", "rate": "15%" },
+      { "species": "Horsea", "levels": "25-30", "rate": "30%" },
+      { "species": "Corsola", "levels": "40-45", "rate": "20%" },
+      { "species": "Mantine", "levels": "50", "rate": "5%" },
+      { "species": "Bruxish", "levels": "35-45", "rate": "10%" },
+      { "species": "Luvdisc", "levels": "25-30", "rate": "20%" }
+    ],
+    "Super Rod": [
+      { "species": "Shellder", "levels": "40", "rate": "30%" },
+      { "species": "Chinchou", "levels": "40", "rate": "60%" },
+      { "species": "Lanturn", "levels": "40", "rate": "3%" },
+      { "species": "Luvdisc", "levels": "40", "rate": "7%" }
+    ]
+  }
+}

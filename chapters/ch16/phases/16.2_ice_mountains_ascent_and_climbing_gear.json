@@ -1,0 +1,56 @@
+{
+  "name": "Ice Mountains Ascent and Climbing Gear",
+  "summary": "Ascend the snow-blown ridges of the Ice Mountains linking Route 44 to Blackthorn City. Use Golbat Boots to clear chasms along the treacherous icy paths. Defeat Delivery Man Klaus to secure the Red Scarf, and challenge Skier Roxanne along the snowy verges. Gather valuable frozen treasures: the Never-Melt Ice next to the cavern, the Ice Stone on the western plateau, and the Icy Rock near the lower staircase. At the mountain summit, speak with the mountaineering hiker to claim the Climbing Gear, the permanent HM replacement tool for Rock Climb.",
+  "items": [
+    {
+      "name": "Climbing Gear",
+      "method": "Given by the hiker standing atop the Rock Climb mountain summit (HM Rock Climb replacement tool)",
+      "type": "Key Item"
+    },
+    {
+      "name": "Never-Melt Ice",
+      "method": "Located lying on the ground directly adjacent to the northeastern cavern entrance",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Ice Stone",
+      "method": "Found on the snowy ground along the western mountain plateau",
+      "type": "Evolution Item"
+    },
+    {
+      "name": "Icy Rock",
+      "method": "Tucked into the grassy verge near the Route 44 entrance staircase",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Red Scarf",
+      "method": "Dropped by Delivery Man Klaus upon defeat along the mountain trail",
+      "type": "Hold Item"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Delivery Man Klaus",
+      "team": [
+        {"species": "Shuckle/Bellossom", "level": 50, "types": ["Bug", "Grass"]},
+        {"species": "Latios/Stantler", "level": 50, "types": ["Dragon", "Normal"]},
+        {"species": "Porygon2/Delibird", "level": 50, "types": ["Normal", "Ice"]}
+      ]
+    },
+    {
+      "name": "Skier Roxanne",
+      "team": [
+        {"species": "Jynx/Torchic", "level": 56, "types": ["Ice", "Fire"]}
+      ]
+    }
+  ],
+  "encounters": {
+    "Ice Mountains Mountain Slopes": [
+      {"dex_id": "215", "name": "Sneasel", "types": ["Dark", "Ice"], "levels": "45-52", "rates": "25%"},
+      {"dex_id": "217", "name": "Ursaring", "types": ["Normal"], "levels": "48-55", "rates": "25%"},
+      {"dex_id": "221", "name": "Piloswine", "types": ["Ice", "Ground"], "levels": "48-55", "rates": "20%"},
+      {"dex_id": "225", "name": "Delibird", "types": ["Ice", "Flying"], "levels": "44-50", "rates": "15%"},
+      {"dex_id": "227", "name": "Skarmory", "types": ["Steel", "Flying"], "levels": "46-52", "rates": "15%"}
+    ]
+  }
+}

@@ -1,0 +1,500 @@
+{
+  "title": "Route_18",
+  "url": "https://infinitefusion.fandom.com/wiki/Route_18",
+  "lead_summary": "This connects Route 17 to Fuchsia City.\nAlthough there is water, there is no fishing catch table.\nThe Berry farm can be reached once the player obtained Surf (or its HM Replacement Item).",
+  "missable_warnings": [],
+  "items": [
+    {
+      "internal_id": "SWIFTWING",
+      "quantity": "",
+      "name": "Swift Wing",
+      "location_details": "Given by Biker Maurice after defeating him."
+    },
+    {
+      "internal_id": "POWERHERB",
+      "quantity": "",
+      "name": "Power Herb",
+      "location_details": "Across the river, by a small patch of grass."
+    },
+    {
+      "internal_id": "machine_GRASS",
+      "quantity": "",
+      "name": "TM53 Energy Ball",
+      "location_details": "On the island with Bird Keeper Marlon."
+    },
+    {
+      "internal_id": "BABIRIBERRY",
+      "quantity": "2-5",
+      "name": "Babiri Berry",
+      "location_details": "Random chance to be given by Aroma Lady Miranda after defeating her."
+    },
+    {
+      "internal_id": "CHILANBERRY",
+      "quantity": "2-5",
+      "name": "Chilan Berry",
+      "location_details": "Random chance to be given by Aroma Lady Miranda after defeating her."
+    },
+    {
+      "internal_id": "CHOPLEBERRY",
+      "quantity": "2-5",
+      "name": "Chople Berry",
+      "location_details": "Random chance to be given by Aroma Lady Miranda after defeating her."
+    },
+    {
+      "internal_id": "COBABERRY",
+      "quantity": "2-5",
+      "name": "Coba Berry",
+      "location_details": "Random chance to be given by Aroma Lady Miranda after defeating her."
+    },
+    {
+      "internal_id": "COLBURBERRY",
+      "quantity": "2-5",
+      "name": "Colbur Berry",
+      "location_details": "Random chance to be given by Aroma Lady Miranda after defeating her."
+    },
+    {
+      "internal_id": "HABANBERRY",
+      "quantity": "2-5",
+      "name": "Haban Berry",
+      "location_details": "Random chance to be given by Aroma Lady Miranda after defeating her."
+    },
+    {
+      "internal_id": "KASIBBERRY",
+      "quantity": "2-5",
+      "name": "Kasib Berry",
+      "location_details": "Random chance to be given by Aroma Lady Miranda after defeating her."
+    },
+    {
+      "internal_id": "KEBIABERRY",
+      "quantity": "2-5",
+      "name": "Kebia Berry",
+      "location_details": "Random chance to be given by Aroma Lady Miranda after defeating her."
+    },
+    {
+      "internal_id": "PAYAPABERRY",
+      "quantity": "2-5",
+      "name": "Payapa Berry",
+      "location_details": "Random chance to be given by Aroma Lady Miranda after defeating her."
+    },
+    {
+      "internal_id": "RINDOBERRY",
+      "quantity": "2-5",
+      "name": "Rindo Berry",
+      "location_details": "Random chance to be given by Aroma Lady Miranda after defeating her."
+    },
+    {
+      "internal_id": "SHUCABERRY",
+      "quantity": "2-5",
+      "name": "Shuca Berry",
+      "location_details": "Random chance to be given by Aroma Lady Miranda after defeating her."
+    },
+    {
+      "internal_id": "TANGABERRY",
+      "quantity": "2-5",
+      "name": "Tanga Berry",
+      "location_details": "Random chance to be given by Aroma Lady Miranda after defeating her."
+    },
+    {
+      "internal_id": "WACANBERRY",
+      "quantity": "2-5",
+      "name": "Wacan Berry",
+      "location_details": "Random chance to be given by Aroma Lady Miranda after defeating her."
+    },
+    {
+      "internal_id": "YACHEBERRY",
+      "quantity": "2-5",
+      "name": "Yache Berry",
+      "location_details": "Random chance to be given by Aroma Lady Miranda after defeating her."
+    },
+    {
+      "internal_id": "AGUAVBERRY",
+      "quantity": "2-6",
+      "name": "Aguav Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "APICOTBERRY",
+      "quantity": "2-6",
+      "name": "Apicot Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "ASPEARBERRY",
+      "quantity": "2-6",
+      "name": "Aspear Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "BABIRIBERRY",
+      "quantity": "2-6",
+      "name": "Babiri Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "CHERIBERRY",
+      "quantity": "2-6",
+      "name": "Cheri Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "CHESTOBERRY",
+      "quantity": "2-6",
+      "name": "Chesto Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "CHILANBERRY",
+      "quantity": "2-6",
+      "name": "Chilan Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "CHOPLEBERRY",
+      "quantity": "2-6",
+      "name": "Chople Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "COBABERRY",
+      "quantity": "2-6",
+      "name": "Coba Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "COLBURBERRY",
+      "quantity": "2-6",
+      "name": "Colbur Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "CUSTAPBERRY",
+      "quantity": "2-6",
+      "name": "Custap Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "ENIGMABERRY",
+      "quantity": "2-6",
+      "name": "Enigma Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "FIGYBERRY",
+      "quantity": "2-6",
+      "name": "Figy Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "GANLONBERRY",
+      "quantity": "2-6",
+      "name": "Ganlon Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "GREPABERRY",
+      "quantity": "2-6",
+      "name": "Grepa Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "HABANBERRY",
+      "quantity": "2-6",
+      "name": "Haban Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "HONDEWBERRY",
+      "quantity": "2-6",
+      "name": "Hondew Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "IAPAPABERRY",
+      "quantity": "2-6",
+      "name": "Iapapa Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "JABOCABERRY",
+      "quantity": "2-6",
+      "name": "Jaboca Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "KASIBBERRY",
+      "quantity": "2-6",
+      "name": "Kasib Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "KEBIABERRY",
+      "quantity": "2-6",
+      "name": "Kebia Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "KELPSYBERRY",
+      "quantity": "2-6",
+      "name": "Kelpsy Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "LANSATBERRY",
+      "quantity": "2-6",
+      "name": "Lansat Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "LEPPABERRY",
+      "quantity": "2-6",
+      "name": "Leppa Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "LIECHIBERRY",
+      "quantity": "2-6",
+      "name": "Liechi Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "LUMBERRY",
+      "quantity": "2-6",
+      "name": "Lum Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "MAGOBERRY",
+      "quantity": "2-6",
+      "name": "Mago Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "MICLEBERRY",
+      "quantity": "2-6",
+      "name": "Micle Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "PAYAPABERRY",
+      "quantity": "2-6",
+      "name": "Payapa Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "PECHABERRY",
+      "quantity": "2-6",
+      "name": "Pecha Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "PERSIMBERRY",
+      "quantity": "2-6",
+      "name": "Persim Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "PETAYABERRY",
+      "quantity": "2-6",
+      "name": "Petaya Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "QUALOTBERRY",
+      "quantity": "2-6",
+      "name": "Qualot Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "RAWSTBERRY",
+      "quantity": "2-6",
+      "name": "Rawst Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "RINDOBERRY",
+      "quantity": "2-6",
+      "name": "Rindo Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "ROWAPBERRY",
+      "quantity": "2-6",
+      "name": "Rowap Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "SALACBERRY",
+      "quantity": "2-6",
+      "name": "Salac Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "SHUCABERRY",
+      "quantity": "2-6",
+      "name": "Shuca Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "SITRUSBERRY",
+      "quantity": "2-6",
+      "name": "Sitrus Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "TAMATOBERRY",
+      "quantity": "2-6",
+      "name": "Tamato Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "TANGABERRY",
+      "quantity": "2-6",
+      "name": "Tanga Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "WACANBERRY",
+      "quantity": "2-6",
+      "name": "Wacan Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "WIKIBERRY",
+      "quantity": "2-6",
+      "name": "Wiki Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "YACHEBERRY",
+      "quantity": "2-6",
+      "name": "Yache Berry",
+      "location_details": "Given by man in the farmhouse, random chance daily."
+    },
+    {
+      "internal_id": "BABIRIBERRY",
+      "quantity": "1-4",
+      "name": "Babiri Berry",
+      "location_details": "On the berry bushes on the island, random chance daily."
+    },
+    {
+      "internal_id": "CHILANBERRY",
+      "quantity": "1-4",
+      "name": "Chilan Berry",
+      "location_details": "On the berry bushes on the island, random chance daily."
+    },
+    {
+      "internal_id": "CHOPLEBERRY",
+      "quantity": "1-4",
+      "name": "Chople Berry",
+      "location_details": "On the berry bushes on the island, random chance daily."
+    },
+    {
+      "internal_id": "COBABERRY",
+      "quantity": "1-4",
+      "name": "Coba Berry",
+      "location_details": "On the berry bushes on the island, random chance daily."
+    },
+    {
+      "internal_id": "COLBURBERRY",
+      "quantity": "1-4",
+      "name": "Colbur Berry",
+      "location_details": "On the berry bushes on the island, random chance daily."
+    },
+    {
+      "internal_id": "GREPABERRY",
+      "quantity": "1-4",
+      "name": "Grepa Berry",
+      "location_details": "On the berry bushes at the farm, random chance daily."
+    },
+    {
+      "internal_id": "HABANBERRY",
+      "quantity": "1-4",
+      "name": "Haban Berry",
+      "location_details": "On the berry bushes on the island, random chance daily."
+    },
+    {
+      "internal_id": "HONDEWBERRY",
+      "quantity": "1-4",
+      "name": "Hondew Berry",
+      "location_details": "On the berry bushes at the farm, random chance daily."
+    },
+    {
+      "internal_id": "KASIBBERRY",
+      "quantity": "1-4",
+      "name": "Kasib Berry",
+      "location_details": "On the berry bushes on the island, random chance daily."
+    },
+    {
+      "internal_id": "KEBIABERRY",
+      "quantity": "1-4",
+      "name": "Kebia Berry",
+      "location_details": "On the berry bushes on the island, random chance daily."
+    },
+    {
+      "internal_id": "KELPSYBERRY",
+      "quantity": "1-4",
+      "name": "Kelpsy Berry",
+      "location_details": "On the berry bushes at the farm, random chance daily."
+    },
+    {
+      "internal_id": "PAYAPABERRY",
+      "quantity": "1-4",
+      "name": "Payapa Berry",
+      "location_details": "On the berry bushes on the island, random chance daily."
+    },
+    {
+      "internal_id": "QUALOTBERRY",
+      "quantity": "1-4",
+      "name": "Qualot Berry",
+      "location_details": "On the berry bushes at the farm, random chance daily."
+    },
+    {
+      "internal_id": "RINDOBERRY",
+      "quantity": "1-4",
+      "name": "Rindo Berry",
+      "location_details": "On the berry bushes on the island, random chance daily."
+    },
+    {
+      "internal_id": "SHUCABERRY",
+      "quantity": "1-4",
+      "name": "Shuca Berry",
+      "location_details": "On the berry bushes on the island, random chance daily."
+    },
+    {
+      "internal_id": "TAMATOBERRY",
+      "quantity": "1-4",
+      "name": "Tamato Berry",
+      "location_details": "On the berry bushes at the farm, random chance daily."
+    },
+    {
+      "internal_id": "TANGABERRY",
+      "quantity": "1-4",
+      "name": "Tanga Berry",
+      "location_details": "On the berry bushes on the island, random chance daily."
+    },
+    {
+      "internal_id": "WACANBERRY",
+      "quantity": "1-4",
+      "name": "Wacan Berry",
+      "location_details": "On the berry bushes on the island, random chance daily."
+    },
+    {
+      "internal_id": "YACHEBERRY",
+      "quantity": "1-4",
+      "name": "Yache Berry",
+      "location_details": "On the berry bushes on the island, random chance daily."
+    }
+  ],
+  "sections": [
+    "Items",
+    "Shops",
+    "Pokémon",
+    "Trainers",
+    "Points of Interest",
+    "Sucker Punch Move Tutor",
+    "Berry Farm",
+    "Daily Berries",
+    "Mulch Collector"
+  ],
+  "raw_wikitext": "{{GlobalToggles}}\n{{InfoboxLocation\n|region=Kanto\n|location_image=Route18.png\n|map_image=Route_18_Map.png\n|connection_1_direction=west\n|connection_1_location=Route 17\n|connection_1_restrictions=%bicycle%\n|connection_2_direction=east\n|connection_2_location=Fuchsia City\n}}\nThis connects [[Route 17]] to [[Fuchsia City]].\n\nAlthough there is water, there is no fishing catch table.\n\nThe Berry farm can be reached once the player obtained Surf (or its HM Replacement Item).\n\n==Items==\n{{ItemTable/Header}}\n{{ItemTable/Data|SWIFTWING||Swift Wing|Given by Biker Maurice after defeating him.|SwiftWing_Route18.png}}\n{{ItemTable/Data|POWERHERB||Power Herb|Across the river, by a small patch of grass.|PowerHerb_Route18.png}}\n{{ItemTable/Data|machine_GRASS||TM53 Energy Ball|On the island with Bird Keeper Marlon.|TM53_Route18.png}}\n{{ItemTable/Data|BABIRIBERRY|2-5|Babiri Berry|Random chance to be given by Aroma Lady Miranda after defeating her.|}}\n{{ItemTable/Data|CHILANBERRY|2-5|Chilan Berry|Random chance to be given by Aroma Lady Miranda after defeating her.|}}\n{{ItemTable/Data|CHOPLEBERRY|2-5|Chople Berry|Random chance to be given by Aroma Lady Miranda after defeating her.|}}\n{{ItemTable/Data|COBABERRY|2-5|Coba Berry|Random chance to be given by Aroma Lady Miranda after defeating her.|}}\n{{ItemTable/Data|COLBURBERRY|2-5|Colbur Berry|Random chance to be given by Aroma Lady Miranda after defeating her.|}}\n{{ItemTable/Data|HABANBERRY|2-5|Haban Berry|Random chance to be given by Aroma Lady Miranda after defeating her.|}}\n{{ItemTable/Data|KASIBBERRY|2-5|Kasib Berry|Random chance to be given by Aroma Lady Miranda after defeating her.|}}\n{{ItemTable/Data|KEBIABERRY|2-5|Kebia Berry|Random chance to be given by Aroma Lady Miranda after defeating her.|}}\n{{ItemTable/Data|PAYAPABERRY|2-5|Payapa Berry|Random chance to be given by Aroma Lady Miranda after defeating her.|}}\n{{ItemTable/Data|RINDOBERRY|2-5|Rindo Berry|Random chance to be given by Aroma Lady Miranda after defeating her.|}}\n{{ItemTable/Data|SHUCABERRY|2-5|Shuca Berry|Random chance to be given by Aroma Lady Miranda after defeating her.|}}\n{{ItemTable/Data|TANGABERRY|2-5|Tanga Berry|Random chance to be given by Aroma Lady Miranda after defeating her.|}}\n{{ItemTable/Data|WACANBERRY|2-5|Wacan Berry|Random chance to be given by Aroma Lady Miranda after defeating her.|}}\n{{ItemTable/Data|YACHEBERRY|2-5|Yache Berry|Random chance to be given by Aroma Lady Miranda after defeating her.|}}\n{{ItemTable/Section|Farm}}\n{{ItemTable/Data|AGUAVBERRY|2-6|Aguav Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|APICOTBERRY|2-6|Apicot Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|ASPEARBERRY|2-6|Aspear Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|BABIRIBERRY|2-6|Babiri Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|CHERIBERRY|2-6|Cheri Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|CHESTOBERRY|2-6|Chesto Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|CHILANBERRY|2-6|Chilan Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|CHOPLEBERRY|2-6|Chople Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|COBABERRY|2-6|Coba Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|COLBURBERRY|2-6|Colbur Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|CUSTAPBERRY|2-6|Custap Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|ENIGMABERRY|2-6|Enigma Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|FIGYBERRY|2-6|Figy Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|GANLONBERRY|2-6|Ganlon Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|GREPABERRY|2-6|Grepa Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|HABANBERRY|2-6|Haban Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|HONDEWBERRY|2-6|Hondew Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|IAPAPABERRY|2-6|Iapapa Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|JABOCABERRY|2-6|Jaboca Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|KASIBBERRY|2-6|Kasib Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|KEBIABERRY|2-6|Kebia Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|KELPSYBERRY|2-6|Kelpsy Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|LANSATBERRY|2-6|Lansat Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|LEPPABERRY|2-6|Leppa Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|LIECHIBERRY|2-6|Liechi Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|LUMBERRY|2-6|Lum Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|MAGOBERRY|2-6|Mago Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|MICLEBERRY|2-6|Micle Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|PAYAPABERRY|2-6|Payapa Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|PECHABERRY|2-6|Pecha Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|PERSIMBERRY|2-6|Persim Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|PETAYABERRY|2-6|Petaya Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|QUALOTBERRY|2-6|Qualot Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|RAWSTBERRY|2-6|Rawst Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|RINDOBERRY|2-6|Rindo Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|ROWAPBERRY|2-6|Rowap Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|SALACBERRY|2-6|Salac Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|SHUCABERRY|2-6|Shuca Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|SITRUSBERRY|2-6|Sitrus Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|TAMATOBERRY|2-6|Tamato Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|TANGABERRY|2-6|Tanga Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|WACANBERRY|2-6|Wacan Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|WIKIBERRY|2-6|Wiki Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Data|YACHEBERRY|2-6|Yache Berry|Given by man in the farmhouse, random chance daily.|}}\n{{ItemTable/Section|Berry Bushes}}\n{{ItemTable/Data|BABIRIBERRY|1-4|Babiri Berry|On the berry bushes on the island, random chance daily.|}}\n{{ItemTable/Data|CHILANBERRY|1-4|Chilan Berry|On the berry bushes on the island, random chance daily.|}}\n{{ItemTable/Data|CHOPLEBERRY|1-4|Chople Berry|On the berry bushes on the island, random chance daily.|}}\n{{ItemTable/Data|COBABERRY|1-4|Coba Berry|On the berry bushes on the island, random chance daily.|}}\n{{ItemTable/Data|COLBURBERRY|1-4|Colbur Berry|On the berry bushes on the island, random chance daily.|}}\n{{ItemTable/Data|GREPABERRY|1-4|Grepa Berry|On the berry bushes at the farm, random chance daily.|}}\n{{ItemTable/Data|HABANBERRY|1-4|Haban Berry|On the berry bushes on the island, random chance daily.|}}\n{{ItemTable/Data|HONDEWBERRY|1-4|Hondew Berry|On the berry bushes at the farm, random chance daily.|}}\n{{ItemTable/Data|KASIBBERRY|1-4|Kasib Berry|On the berry bushes on the island, random chance daily.|}}\n{{ItemTable/Data|KEBIABERRY|1-4|Kebia Berry|On the berry bushes on the island, random chance daily.|}}\n{{ItemTable/Data|KELPSYBERRY|1-4|Kelpsy Berry|On the berry bushes at the farm, random chance daily.|}}\n{{ItemTable/Data|PAYAPABERRY|1-4|Payapa Berry|On the berry bushes on the island, random chance daily.|}}\n{{ItemTable/Data|QUALOTBERRY|1-4|Qualot Berry|On the berry bushes at the farm, random chance daily.|}}\n{{ItemTable/Data|RINDOBERRY|1-4|Rindo Berry|On the berry bushes on the island, random chance daily.|}}\n{{ItemTable/Data|SHUCABERRY|1-4|Shuca Berry|On the berry bushes on the island, random chance daily.|}}\n{{ItemTable/Data|TAMATOBERRY|1-4|Tamato Berry|On the berry bushes at the farm, random chance daily.|}}\n{{ItemTable/Data|TANGABERRY|1-4|Tanga Berry|On the berry bushes on the island, random chance daily.|}}\n{{ItemTable/Data|WACANBERRY|1-4|Wacan Berry|On the berry bushes on the island, random chance daily.|}}\n{{ItemTable/Data|YACHEBERRY|1-4|Yache Berry|On the berry bushes on the island, random chance daily.|}}\n{{ItemTable/Footer}}\n\n===Shops===\n{{MartTable/Header/Basic}}\n{{MartTable/Section|Outside Farm}}\n{{MartTable/Data/Basic|MOOMOOMILK|Moomoo Milk|200}}\n{{MartTable/Footer}}\n\n==Pokémon==\n<!-----------------------------------!>\n<!-- CLASSIC & EXPERT MODE POKÉMON --!>\n<!------------------------------------>\n<div class=\"classic-mode expert-mode\">\n{{EncounterTable/Header/Time}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|019|Rattata|Normal||22|255|5%}}\n{{EncounterTable/Data|020|Raticate|Normal||25-29|127|15%}}\n{{EncounterTable/Data|021|Spearow|Normal|Flying|20-22|255|20%|20%|-}}\n{{EncounterTable/Data|022|Fearow|Normal|Flying|25-29|90|15%|15%|-}}\n{{EncounterTable/Data|041|Zubat|Poison|Flying|20-22|255|-|-|30%}}\n{{EncounterTable/Data|042|Golbat|Poison|Flying|25-29|90|-|-|15%}}\n{{EncounterTable/Data|049|Venomoth|Bug|Poison|24-28|75|-|-|35%}}\n{{EncounterTable/Data|084|Doduo|Normal|Flying|24-28|190|35%|35%|-}}\n{{EncounterTable/Data|241|Miltank|Normal||25|45|10%|10%|-}}\n{{EncounterTable/Section|Surf}}\n{{EncounterTable/Data|072|Tentacool|Water|Poison|5-40|190|50%}}\n{{EncounterTable/Data|073|Tentacruel|Water|Poison|20-25|60|10%}}\n{{EncounterTable/Data|118|Goldeen|Water||20-25|225|30%}}\n{{EncounterTable/Data|119|Seaking|Water||30|60|10%}}\n{{EncounterTable/Section|Poké Radar}}\n{{EncounterTable/Data|413|Ferroseed|Steel|Grass|22-25|255|50% <small>([[Poké Radar#How_it_works|long rustle]])</small>}}\n{{EncounterTable/Section|Pumpkins}}\n{{EncounterTable/Data|489|Pumpkaboo|Ghost|Grass|17-27|120|-|-|10%}}\n{{EncounterTable/Footer/Time}}\n</div>\n<!------------------------!>\n<!-- REMIX MODE POKÉMON --!>\n<!------------------------->\n<div class=\"remix-mode\">\n{{EncounterTable/Header/Time}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|022|Fearow|Normal|Flying|<abbr title{{=}}\"Morning: 25&#10;Day: 25&#10;Night: 25-29\">25-29</abbr>|90|10%|10%|30%}}\n{{EncounterTable/Data|084|Doduo|Normal|Flying|25-29|190|15%|15%|-}}\n{{EncounterTable/Data|162|Furret|Normal||25-29|90|15%|15%|-}}\n{{EncounterTable/Data|200|Misdreavus|Ghost||25-29|45|-|-|15%}}\n{{EncounterTable/Data|203|Girafarig|Normal|Psychic|20-22|60|20%|20%|-}}\n{{EncounterTable/Data|234|Stantler|Normal||22|45|5%|15%|15%}}\n{{EncounterTable/Data|241|Miltank|Normal||24-28|45|34%|24%|24%}}\n{{EncounterTable/Data|279|Torchic|Fire||25-26|45|1%}}\n{{EncounterTable/Data|452|Bewear|Normal|Fighting|26-29|70|-|-|15%}}\n{{EncounterTable/Section|Surf}}\n{{EncounterTable/Data|120|Staryu|Water||20-25|225|30%}}\n{{EncounterTable/Data|224|Octillery|Water||30|75|10%}}\n{{EncounterTable/Data|436|Carvanha|Water|Dark|20-25|225|10%}}\n{{EncounterTable/Data|454|Mareanie|Poison|Water|5-30|190|30%}}\n{{EncounterTable/Data|469|Bruxish|Water|Psychic|5-40|80|20%}}\n{{EncounterTable/Section|Old Rod}}\n{{EncounterTable/Data|060|Poliwag|Water||5|255|20%}}\n{{EncounterTable/Data|394|Feebas|Water||5|255|39%}}\n{{EncounterTable/Data|434|Trubbish|Poison||5|190|1%}}\n{{EncounterTable/Data|436|Carvanha|Water|Dark|5|225|20%}}\n{{EncounterTable/Data|454|Mareanie|Poison|Water|5|190|20%}}\n{{EncounterTable/Section|Good Rod}}\n{{EncounterTable/Data|060|Poliwag|Water||5-15|255|10%}}\n{{EncounterTable/Data|223|Remoraid|Water||5-15|190|35%}}\n{{EncounterTable/Data|453|Dhelmise|Ghost|Grass|5-15|25|20%}}\n{{EncounterTable/Data|469|Bruxish|Water|Psychic|5-15|80|35%}}\n{{EncounterTable/Section|Super Rod}}\n{{EncounterTable/Data|060|Poliwag|Water||15-35|255|10%}}\n{{EncounterTable/Data|098|Krabby|Water||15-35|225|35%}}\n{{EncounterTable/Data|437|Sharpedo|Water|Dark|15-25|60|18%}}\n{{EncounterTable/Data|453|Dhelmise|Ghost|Grass|15-35|25|35%}}\n{{EncounterTable/Data|455|Toxapex|Poison|Water|35-45|75|2%}}\n{{EncounterTable/Section|Poké Radar}}\n{{EncounterTable/Data|413|Ferroseed|Steel|Grass|22-25|255|50% <small>([[Poké Radar#How_it_works|long rustle]])</small>}}\n{{EncounterTable/Section|Pumpkins}}\n{{EncounterTable/Data|489|Pumpkaboo|Ghost|Grass|17-27|120|-|-|10%}}\n{{EncounterTable/Footer/Time}}\n</div>\n\n==Trainers==\n{{Trainer\n| trainerClass=BIKER\n| name=Maurice\n| trainerOverworldSprite=BWBiker.png\n| postBattleAction=Gives {{ItemIcon|SWIFTWING}} {{#invoke:ItemHelper|name|SWIFTWING}} x1\n| pokemon1=171.28\n| pokemon1Level=35\n| remixPokemon1=396.410\n| remixPokemon1Level=32\n| remixPokemon2=87.370\n| remixPokemon2Level=32\n| remixPokemon3=426.437\n| remixPokemon3Level=35\n| expertPokemon1=68.76\n| expertPokemon1Level=35\n| expertPokemon1Item=FLAMEORB\n| expertPokemon1Nature=Adamant\n| expertPokemon1Ability=[[bulbapedia:Guts (Ability)|Guts]]\n| expertPokemon1Move1=Earthquake\n| expertPokemon1Move2=Rock Tomb\n| expertPokemon1Move3=Revenge\n| expertPokemon1Move4=Ice Punch\n| expertPokemon1IVHP=31\n| expertPokemon1IVAtk=31\n| expertPokemon1IVDef=31\n| expertPokemon1IVSpA=31\n| expertPokemon1IVSpD=31\n| expertPokemon1IVSpe=31\n| expertPokemon1EVHP=252\n| expertPokemon1EVAtk=252\n| expertPokemon1EVDef=4\n| expertPokemon1EVSpA=0\n| expertPokemon1EVSpD=0\n| expertPokemon1EVSpe=0\n}}\n\n{{Trainer\n| trainerClass=BIKER\n| name=Isaac\n| trainerOverworldSprite=BW055.png\n| postBattleAction=Rematch\n| pokemon1=88\n| pokemon1Level=32\n| pokemon2=109\n| pokemon2Level=32\n| pokemon3=86.88\n| pokemon3Level=32\n| remixPokemon1=373.219\n| remixPokemon1Level=32\n| remixPokemon1Ability=[[bulbapedia:Magma Armor (Ability)|Magma Armor]]\n| remixPokemon2=113.247\n| remixPokemon2Level=32\n| expertPokemon1=89.217\n| expertPokemon1Level=36\n| expertPokemon1Item=FLAMEORB\n| expertPokemon1Nature=Adamant\n| expertPokemon1Ability=[[bulbapedia:Guts (Ability)|Guts]]\n| expertPokemon1Move1=Toxic\n| expertPokemon1Move2=Frustration\n| expertPokemon1Move3=Hammer Arm\n| expertPokemon1Move4=Disable\n| expertPokemon1IVHP=31\n| expertPokemon1IVAtk=31\n| expertPokemon1IVDef=31\n| expertPokemon1IVSpA=31\n| expertPokemon1IVSpD=31\n| expertPokemon1IVSpe=31\n| expertPokemon1EVHP=252\n| expertPokemon1EVAtk=252\n| expertPokemon1EVDef=0\n| expertPokemon1EVSpA=0\n| expertPokemon1EVSpD=4\n| expertPokemon1EVSpe=0\n| expertPokemon2=119.28\n| expertPokemon2Level=36\n| expertPokemon2Item=SITRUSBERRY\n| expertPokemon2Nature=Adamant\n| expertPokemon2Ability=[[bulbapedia:Water Veil (Ability)|Water Veil]]\n| expertPokemon2Move1=Megahorn\n| expertPokemon2Move2=Poison Jab\n| expertPokemon2Move3=Waterfall\n| expertPokemon2Move4=Magnitude\n| expertPokemon2IVHP=31\n| expertPokemon2IVAtk=31\n| expertPokemon2IVDef=31\n| expertPokemon2IVSpA=31\n| expertPokemon2IVSpD=31\n| expertPokemon2IVSpe=31\n| expertPokemon2EVHP=4\n| expertPokemon2EVAtk=252\n| expertPokemon2EVDef=0\n| expertPokemon2EVSpA=0\n| expertPokemon2EVSpD=0\n| expertPokemon2EVSpe=252\n| expertPokemon3=49.25\n| expertPokemon3Level=36\n| expertPokemon3Item=LIGHTBALL\n| expertPokemon3Nature=Modest\n| expertPokemon3Ability=[[bulbapedia:Tinted Lens (Ability)|Tinted Lens]]\n| expertPokemon3Move1=Quiver Dance\n| expertPokemon3Move2=Discharge\n| expertPokemon3Move3=Bug Buzz\n| expertPokemon3Move4=Psybeam\n| expertPokemon3IVHP=31\n| expertPokemon3IVAtk=31\n| expertPokemon3IVDef=31\n| expertPokemon3IVSpA=31\n| expertPokemon3IVSpD=31\n| expertPokemon3IVSpe=31\n| expertPokemon3EVHP=4\n| expertPokemon3EVAtk=0\n| expertPokemon3EVDef=0\n| expertPokemon3EVSpA=252\n| expertPokemon3EVSpD=0\n| expertPokemon3EVSpe=252\n}}\n\n{{Trainer\n| trainerClass=AROMALADY\n| name=Miranda\n| trainerOverworldSprite=BWAomalady.png\n| postBattleAction=Gives 2 to 5 of a random berry out of <span style=\"display: inline-block;\">{{ItemIcon|BABIRIBERRY}} {{#invoke:ItemHelper|name|BABIRIBERRY}}</span>, <span style=\"display: inline-block;\">{{ItemIcon|CHILANBERRY}} {{#invoke:ItemHelper|name|CHILANBERRY}}</span>, <span style=\"display: inline-block;\">{{ItemIcon|CHOPLEBERRY}} {{#invoke:ItemHelper|name|CHOPLEBERRY}}</span>, <span style=\"display: inline-block;\">{{ItemIcon|COBABERRY}} {{#invoke:ItemHelper|name|COBABERRY}}</span>, <span style=\"display: inline-block;\">{{ItemIcon|COLBURBERRY}} {{#invoke:ItemHelper|name|COLBURBERRY}}</span>, <span style=\"display: inline-block;\">{{ItemIcon|HABANBERRY}} {{#invoke:ItemHelper|name|HABANBERRY}}</span>, <span style=\"display: inline-block;\">{{ItemIcon|KASIBBERRY}} {{#invoke:ItemHelper|name|KASIBBERRY}}</span>, <span style=\"display: inline-block;\">{{ItemIcon|KEBIABERRY}} {{#invoke:ItemHelper|name|KEBIABERRY}}</span>, <span style=\"display: inline-block;\">{{ItemIcon|PAYAPABERRY}} {{#invoke:ItemHelper|name|PAYAPABERRY}}</span>, <span style=\"display: inline-block;\">{{ItemIcon|RINDOBERRY}} {{#invoke:ItemHelper|name|RINDOBERRY}}</span>, <span style=\"display: inline-block;\">{{ItemIcon|SHUCABERRY}} {{#invoke:ItemHelper|name|SHUCABERRY}}</span>, <span style=\"display: inline-block;\">{{ItemIcon|TANGABERRY}} {{#invoke:ItemHelper|name|TANGABERRY}}</span>, <span style=\"display: inline-block;\">{{ItemIcon|WACANBERRY}} {{#invoke:ItemHelper|name|WACANBERRY}}</span> or <span style=\"display: inline-block;\">{{ItemIcon|YACHEBERRY}} {{#invoke:ItemHelper|name|YACHEBERRY}}</span>\n| pokemon1=70\n| pokemon1Level=36\n| pokemon1Item=SITRUSBERRY\n| pokemon2=123.47\n| pokemon2Level=36\n| pokemon2Item=OCCABERRY\n| remixPokemon1=192.338\n| remixPokemon1Level=36\n| remixPokemon1Item=SITRUSBERRY\n| remixPokemon2=188.398\n| remixPokemon2Level=36\n| remixPokemon2Item=OCCABERRY\n| remixPokemon3=477.154\n| remixPokemon3Level=36\n| remixPokemon3Item=SITRUSBERRY\n| expertPokemon1=71.53\n| expertPokemon1Level=36\n| expertPokemon1Item=SITRUSBERRY\n| expertPokemon1Nature=Adamant\n| expertPokemon1Ability=[[bulbapedia:Technician (Ability)|Technician]]\n| expertPokemon1Move1=Fake Out\n| expertPokemon1Move2=Taunt\n| expertPokemon1Move3=Razor Leaf\n| expertPokemon1Move4=Play Rough\n| expertPokemon1IVHP=31\n| expertPokemon1IVAtk=31\n| expertPokemon1IVDef=31\n| expertPokemon1IVSpA=31\n| expertPokemon1IVSpD=31\n| expertPokemon1IVSpe=31\n| expertPokemon1EVHP=4\n| expertPokemon1EVAtk=252\n| expertPokemon1EVDef=0\n| expertPokemon1EVSpA=0\n| expertPokemon1EVSpD=0\n| expertPokemon1EVSpe=252\n| expertPokemon2=57.123\n| expertPokemon2Level=36\n| expertPokemon2Item=SITRUSBERRY\n| expertPokemon2Nature=Adamant\n| expertPokemon2Ability=[[bulbapedia:Technician (Ability)|Technician]]\n| expertPokemon2Move1=Fury Cutter\n| expertPokemon2Move2=Karate Chop\n| expertPokemon2Move3=Assurance\n| expertPokemon2Move4=Quick Attack\n| expertPokemon2IVHP=31\n| expertPokemon2IVAtk=31\n| expertPokemon2IVDef=31\n| expertPokemon2IVSpA=31\n| expertPokemon2IVSpD=31\n| expertPokemon2IVSpe=31\n| expertPokemon2EVHP=4\n| expertPokemon2EVAtk=252\n| expertPokemon2EVDef=0\n| expertPokemon2EVSpA=0\n| expertPokemon2EVSpD=0\n| expertPokemon2EVSpe=252\n}}\n\n{{Trainer\n| trainerClass=CAMPER\n| name=Michael\n| trainerOverworldSprite=BWBackpacker_male.png\n| postBattleAction=Rematch\n| pokemon1=84\n| pokemon1Level=36\n| pokemon2=108.190\n| pokemon2Level=36\n| remixPokemon1=463.62\n| remixPokemon1Level=35\n| remixPokemon2=311.290\n| remixPokemon2Level=35\n| remixPokemon3=82.107\n| remixPokemon3Level=36\n| remixPokemon4=6.141\n| remixPokemon4Level=36\n| expertPokemon1=85.15\n| expertPokemon1Level=36\n| expertPokemon1Item=SITRUSBERRY\n| expertPokemon1Nature=Adamant\n| expertPokemon1Ability=[[bulbapedia:Sniper (Ability)|Sniper]]\n| expertPokemon1Move1=Poison Jab\n| expertPokemon1Move2=Toxic Spikes\n| expertPokemon1Move3=X-Scissor\n| expertPokemon1Move4=Brave Bird\n| expertPokemon1IVHP=31\n| expertPokemon1IVAtk=31\n| expertPokemon1IVDef=31\n| expertPokemon1IVSpA=31\n| expertPokemon1IVSpD=31\n| expertPokemon1IVSpe=31\n| expertPokemon1EVHP=4\n| expertPokemon1EVAtk=252\n| expertPokemon1EVDef=0\n| expertPokemon1EVSpA=0\n| expertPokemon1EVSpD=0\n| expertPokemon1EVSpe=252\n| expertPokemon2=254.62\n| expertPokemon2Level=36\n| expertPokemon2Item=SITRUSBERRY\n| expertPokemon2Nature=Adamant\n| expertPokemon2Ability=[[bulbapedia:Technician (Ability)|Technician]]\n| expertPokemon2Move1=Circle Throw\n| expertPokemon2Move2=Double Hit\n| expertPokemon2Move3=Rock Tomb\n| expertPokemon2Move4=Aerial Ace\n| expertPokemon2IVHP=31\n| expertPokemon2IVAtk=31\n| expertPokemon2IVDef=31\n| expertPokemon2IVSpA=31\n| expertPokemon2IVSpD=31\n| expertPokemon2IVSpe=31\n| expertPokemon2EVHP=4\n| expertPokemon2EVAtk=252\n| expertPokemon2EVDef=0\n| expertPokemon2EVSpA=0\n| expertPokemon2EVSpD=0\n| expertPokemon2EVSpe=252\n}}\n\n{{Trainer\n| trainerClass=BIRDKEEPER\n| name=Marlon\n| trainerOverworldSprite=BW005.png\n| postBattleAction=Rematch with a different name and team (Birdkeeper Carter)\n| pokemon1=21\n| pokemon1Level=33\n| pokemon2=84\n| pokemon2Level=33\n| pokemon3=7.22\n| pokemon3Level=33\n| remixPokemon1=432.12\n| remixPokemon1Level=33\n| remixPokemon2=433.277\n| remixPokemon2Level=33\n| remixPokemon3=256.143\n| remixPokemon3Level=33\n| expertPokemon1=22.51\n| expertPokemon1Level=33\n| expertPokemon1Item=SCOPELENS\n| expertPokemon1Nature=Adamant\n| expertPokemon1Ability=[[bulbapedia:Sniper (Ability)|Sniper]]\n| expertPokemon1Move1=Night Slash\n| expertPokemon1Move2=Focus Energy\n| expertPokemon1Move3=Pluck\n| expertPokemon1Move4=Drill Run\n| expertPokemon1IVHP=31\n| expertPokemon1IVAtk=31\n| expertPokemon1IVDef=31\n| expertPokemon1IVSpA=31\n| expertPokemon1IVSpD=31\n| expertPokemon1IVSpe=31\n| expertPokemon1EVHP=4\n| expertPokemon1EVAtk=252\n| expertPokemon1EVDef=0\n| expertPokemon1EVSpA=0\n| expertPokemon1EVSpD=0\n| expertPokemon1EVSpe=252\n| expertPokemon2=83.106\n| expertPokemon2Level=33\n| expertPokemon2Item=STICK\n| expertPokemon2Nature=Adamant\n| expertPokemon2Ability=[[bulbapedia:Reckless (Ability)|Reckless]]\n| expertPokemon2Move1=Brave Bird\n| expertPokemon2Move2=High Jump Kick\n| expertPokemon2Move3=Night Slash\n| expertPokemon2Move4=Poison Jab\n| expertPokemon2IVHP=31\n| expertPokemon2IVAtk=31\n| expertPokemon2IVDef=31\n| expertPokemon2IVSpA=31\n| expertPokemon2IVSpD=31\n| expertPokemon2IVSpe=31\n| expertPokemon2EVHP=4\n| expertPokemon2EVAtk=252\n| expertPokemon2EVDef=0\n| expertPokemon2EVSpA=0\n| expertPokemon2EVSpD=0\n| expertPokemon2EVSpe=252\n| expertPokemon3=15.85\n| expertPokemon3Level=34\n| expertPokemon3Item=SILVERPOWDER\n| expertPokemon3Nature=Adamant\n| expertPokemon3Ability=[[bulbapedia:Swarm (Ability)|Swarm]]\n| expertPokemon3Move1=X-Scissor\n| expertPokemon3Move2=Pluck\n| expertPokemon3Move3=Assurance\n| expertPokemon3Move4=Acupressure\n| expertPokemon3IVHP=31\n| expertPokemon3IVAtk=31\n| expertPokemon3IVDef=31\n| expertPokemon3IVSpA=31\n| expertPokemon3IVSpD=31\n| expertPokemon3IVSpe=31\n| expertPokemon3EVHP=4\n| expertPokemon3EVAtk=252\n| expertPokemon3EVDef=0\n| expertPokemon3EVSpA=0\n| expertPokemon3EVSpD=0\n| expertPokemon3EVSpe=252\n}}\n\n{{Trainer\n| trainerClass=BIRDKEEPER\n| name=Carter\n| trainerOverworldSprite=BW005.png\n| pokemon1=17\n| pokemon1Level=33\n| pokemon2=84\n| pokemon2Level=33\n| pokemon3=108.17\n| pokemon3Level=33\n| remixPokemon1=180.418\n| remixPokemon1Level=33\n| remixPokemon2=386.83\n| remixPokemon2Level=33\n| expertPokemon1=49.363\n| expertPokemon1Level=33\n| expertPokemon1Item=FOCUSSASH\n| expertPokemon1Nature=Timid\n| expertPokemon1Ability=[[bulbapedia:Compound Eyes (Ability)|Compound Eyes]]\n| expertPokemon1Move1=Thunder\n| expertPokemon1Move2=Sticky Web\n| expertPokemon1Move3=Sleep Powder\n| expertPokemon1Move4=Quiver Dance\n| expertPokemon1IVHP=31\n| expertPokemon1IVAtk=31\n| expertPokemon1IVDef=31\n| expertPokemon1IVSpA=31\n| expertPokemon1IVSpD=31\n| expertPokemon1IVSpe=31\n| expertPokemon1EVHP=6\n| expertPokemon1EVAtk=0\n| expertPokemon1EVDef=0\n| expertPokemon1EVSpA=252\n| expertPokemon1EVSpD=0\n| expertPokemon1EVSpe=252\n| expertPokemon2=83.356\n| expertPokemon2Level=33\n| expertPokemon2Item=STICK\n| expertPokemon2Nature=Adamant\n| expertPokemon2Ability=[[bulbapedia:Speed Boost (Ability)|Speed Boost]]\n| expertPokemon2Move1=Swords Dance\n| expertPokemon2Move2=X-Scissor\n| expertPokemon2Move3=Brave Bird\n| expertPokemon2Move4=Knock Off\n| expertPokemon2IVHP=31\n| expertPokemon2IVAtk=31\n| expertPokemon2IVDef=31\n| expertPokemon2IVSpA=31\n| expertPokemon2IVSpD=31\n| expertPokemon2IVSpe=31\n| expertPokemon2EVHP=4\n| expertPokemon2EVAtk=252\n| expertPokemon2EVDef=0\n| expertPokemon2EVSpA=0\n| expertPokemon2EVSpD=0\n| expertPokemon2EVSpe=252\n| expertPokemon3=264.273\n| expertPokemon3Level=33\n| expertPokemon3Item=NORMALGEM\n| expertPokemon3Nature=Adamant\n| expertPokemon3Ability=[[bulbapedia:Immunity (Ability)|Immunity]]\n| expertPokemon3Move1=Frustration\n| expertPokemon3Move2=Acrobatics\n| expertPokemon3Move3=Crabhammer\n| expertPokemon3Move4=Knock Off\n| expertPokemon3IVHP=31\n| expertPokemon3IVAtk=31\n| expertPokemon3IVDef=31\n| expertPokemon3IVSpA=31\n| expertPokemon3IVSpD=31\n| expertPokemon3IVSpe=31\n| expertPokemon3EVHP=252\n| expertPokemon3EVAtk=252\n| expertPokemon3EVDef=0\n| expertPokemon3EVSpA=0\n| expertPokemon3EVSpD=0\n| expertPokemon3EVSpe=4\n}}\n\n{{Trainer\n| trainerClass=FARMER\n| name=Craig\n| trainerOverworldSprite=BW027.png\n| postBattleAction=Rematch\n| pokemon1=83.88\n| pokemon1Level=44\n| remixPokemon1=318.213\n| remixPokemon1Level=40\n| remixPokemon1Item=BERRYJUICE\n| remixPokemon2=87.182\n| remixPokemon2Level=40\n| expertPokemon1=210.24\n| expertPokemon1Level=56\n| expertPokemon1Item=LEFTOVERS\n| expertPokemon1Nature=Adamant\n| expertPokemon1Ability=[[bulbapedia:Rattled (Ability)|Rattled]]\n| expertPokemon1Move1=Coil\n| expertPokemon1Move2=Play Rough\n| expertPokemon1Move3=Gunk Shot\n| expertPokemon1Move4=Glare\n| expertPokemon1IVHP=31\n| expertPokemon1IVAtk=31\n| expertPokemon1IVDef=31\n| expertPokemon1IVSpA=31\n| expertPokemon1IVSpD=31\n| expertPokemon1IVSpe=31\n| expertPokemon1EVHP=252\n| expertPokemon1EVAtk=252\n| expertPokemon1EVDef=4\n| expertPokemon1EVSpA=0\n| expertPokemon1EVSpD=0\n| expertPokemon1EVSpe=0\n}}\n\n{{Trainer\n| trainerClass=FARMER\n| name=Dwight\n| trainerOverworldSprite=BW027.png\n| pokemon1=102\n| pokemon1Level=34\n| pokemon2=241.128\n| pokemon2Level=38\n| remixPokemon1=355.371\n| remixPokemon1Level=34\n| remixPokemon2=481.478\n| remixPokemon2Level=38\n| remixPokemon3=112.439\n| remixPokemon3Level=36\n| expertPokemon1=62.241\n| expertPokemon1Level=34\n| expertPokemon1Item=SITRUSBERRY\n| expertPokemon1Nature=Adamant\n| expertPokemon1Ability=[[bulbapedia:Sap Sipper (Ability)|Sap Sipper]]\n| expertPokemon1Move1=Belly Drum\n| expertPokemon1Move2=Brick Break\n| expertPokemon1Move3=Body Slam\n| expertPokemon1Move4=Milk Drink\n| expertPokemon1IVHP=31\n| expertPokemon1IVAtk=31\n| expertPokemon1IVDef=31\n| expertPokemon1IVSpA=31\n| expertPokemon1IVSpD=31\n| expertPokemon1IVSpe=31\n| expertPokemon1EVHP=4\n| expertPokemon1EVAtk=252\n| expertPokemon1EVDef=0\n| expertPokemon1EVSpA=0\n| expertPokemon1EVSpD=0\n| expertPokemon1EVSpe=252\n| expertPokemon2=272.103\n| expertPokemon2Level=38\n| expertPokemon2Item=CUSTAPBERRY\n| expertPokemon2Nature=Modest\n| expertPokemon2Ability=[[bulbapedia:Harvest (Ability)|Harvest]]\n| expertPokemon2Move1=Ice Beam\n| expertPokemon2Move2=Psyshock\n| expertPokemon2Move3=Natural Gift\n| expertPokemon2Move4=Water Pulse\n| expertPokemon2IVHP=31\n| expertPokemon2IVAtk=31\n| expertPokemon2IVDef=31\n| expertPokemon2IVSpA=31\n| expertPokemon2IVSpD=31\n| expertPokemon2IVSpe=31\n| expertPokemon2EVHP=4\n| expertPokemon2EVAtk=0\n| expertPokemon2EVDef=0\n| expertPokemon2EVSpA=252\n| expertPokemon2EVSpD=0\n| expertPokemon2EVSpe=252\n}}\n\n== Points of Interest ==\n=== Sucker Punch Move Tutor ===\nOn the upper floor of the Gate leading to [[Route 18]] is a Burgler who will teach [[bulbapedia:Sucker Punch (move)|Sucker Punch]] to the player's Pokémon for {{P$}}5,000.\n\n=== Berry Farm ===\n==== Daily Berries ====\nThe elderly man at the farm will give some random berries each day.\n\n==== Mulch Collector ====\nThe elderly woman at the farm will purchase mulch from the player.\n\n{| class=\"IFTable\"\n! colspan=\"2\" | Mulch !! Payment\n|-\n| {{ItemIcon|DAMPMULCH}} || Damp Mulch || {{P$}}1,800\n|-\n| {{ItemIcon|GOOEYMULCH}} || Gooey Mulch || {{P$}}4,000\n|-\n| {{ItemIcon|GROWTHMULCH}} || Growth Mulch || {{P$}}3,000\n|-\n| {{ItemIcon|STABLEMULCH}} || Stable Mulch || {{P$}}1,000\n|-\n! colspan=\"3\" height=\"10\" |\n|}\n\n[[Category:Locations]]\n[[Category:Kanto]]"
+}

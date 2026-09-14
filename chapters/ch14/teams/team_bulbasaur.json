@@ -1,0 +1,128 @@
+{
+  "starter": "Bulbasaur",
+  "name": "Team Bulbasaur: Spectral Grounding & Slumbering Fortress",
+  "archetype": "Ghost immunity pivoting, Sleep status control, and Dark physical wallbreaking.",
+  "gym_duel_core": [1, 2, 3, 4, 5],
+  "gym_duel_rationale": "Morty's 5v5 Ghost hybrid battle prompts the player to select 5 active Pokémon: Venusaur/Charizard levels to Cap 67 to anchor the frontline, using STAB Flamethrower to burn down Weavile/Shedinja and using Sleep Powder to neutralize Snorlax/Aegislash's Swords Dance setup; Gyarados/Arbok enters to trigger Intimidate, dropping Hitmonchan/Dusknoir's Attack while using STAB Crunch against Snorlax/Aegislash and Clefable/Spiritomb; Alakazam/Weezing dismantles Clefable/Spiritomb with super-effective Sludge Bomb and hits Hitmonchan/Dusknoir with STAB Psychic; Snorlax brings complete 100% immunity to all Ghost-type attacks (Shadow Ball, Shadow Punch, Shadow Claw deal zero damage!), freely tanking hits and crushing Snorlax/Aegislash with super-effective Crunch; and Pidgeot leverages its Normal typing for Ghost immunity while striking Hitmonchan/Dusknoir with super-effective Air Slash.",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Venusaur/Charizard",
+      "types": ["Grass", "Fire"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 67,
+      "ability": "Overgrow",
+      "held_item": "Charcoal",
+      "role": "Fire Wallbreaker & Status Anchor",
+      "current_reached_moveset": [
+        "Flamethrower",
+        "Petal Dance",
+        "Sleep Powder",
+        "Synthesis"
+      ],
+      "progression_notes": "530 BST starter hybrid elevated to Cap 67. STAB Flamethrower melts Weavile/Shedinja instantly. Sleep Powder pacifies setup sweepers."
+    },
+    {
+      "slot": 2,
+      "species": "Gyarados/Arbok",
+      "types": ["Water", "Poison"],
+      "status": "Active in Party (Retained from Ch 13)",
+      "current_level": 66,
+      "ability": "Intimidate",
+      "held_item": "Black Glasses",
+      "role": "Intimidate Dark Breaker",
+      "current_reached_moveset": [
+        "Aqua Tail",
+        "Crunch",
+        "Dragon Dance",
+        "Glare"
+      ],
+      "progression_notes": "513 BST Intimidate pivot. Drops Hitmonchan/Dusknoir's Attack on switch-in. STAB Crunch deals crushing super-effective damage to Snorlax/Aegislash."
+    },
+    {
+      "slot": 3,
+      "species": "Alakazam/Weezing",
+      "types": ["Psychic", "Poison"],
+      "status": "Active in Party (Retained from Ch 13)",
+      "current_level": 66,
+      "ability": "Levitate",
+      "held_item": "Poison Barb",
+      "role": "Levitate Anti-Fairy Cannon",
+      "current_reached_moveset": [
+        "Psychic",
+        "Sludge Bomb",
+        "Recover",
+        "Calm Mind"
+      ],
+      "progression_notes": "495 BST special sweeper with 118 SpA. STAB Sludge Bomb effortlessly obliterates Clefable/Spiritomb, while STAB Psychic targets Hitmonchan/Dusknoir."
+    },
+    {
+      "slot": 4,
+      "species": "Snorlax",
+      "types": ["Normal"],
+      "status": "Active in Party (Retained from Ch 13)",
+      "current_level": 66,
+      "ability": "Thick Fat",
+      "held_item": "Leftovers",
+      "role": "Ghost-Immune Tank & Dark Crusher",
+      "current_reached_moveset": [
+        "Body Slam",
+        "Rest",
+        "Sleep Talk",
+        "Crunch"
+      ],
+      "progression_notes": "Colossal 160 HP tank. 100% immune to Ghost moves, completely nullifying Morty's Shadow Balls. Super-effective Crunch destroys Snorlax/Aegislash."
+    },
+    {
+      "slot": 5,
+      "species": "Pidgeot",
+      "types": ["Normal", "Flying"],
+      "status": "Active in Party (Retained from Ch 13)",
+      "current_level": 65,
+      "ability": "Keen Eye",
+      "held_item": "Sharp Beak",
+      "role": "Ghost-Immune Aerial Striker",
+      "current_reached_moveset": [
+        "Air Slash",
+        "Roost",
+        "Tailwind",
+        "Quick Attack"
+      ],
+      "progression_notes": "Ghost-immune Flying scout. Immune to all Ghost attacks. STAB Air Slash targets Hitmonchan/Dusknoir's Flying weakness for heavy damage."
+    },
+    {
+      "slot": 6,
+      "species": "Kingler/Primeape",
+      "types": ["Water", "Fighting"],
+      "status": "Active in Party (Retained from Ch 13)",
+      "current_level": 64,
+      "ability": "Hyper Cutter",
+      "held_item": "Mystic Water",
+      "role": "Physical Water Breaker",
+      "current_reached_moveset": [
+        "Close Combat",
+        "Crabhammer",
+        "Cross Chop",
+        "Protect"
+      ],
+      "progression_notes": "500 BST physical bruiser. Retained for route water offense with Crabhammer; benched during Morty's duel due to Ghost fighting immunities."
+    }
+  ],
+  "flex_bench": [
+    {
+      "species": "Butterfree",
+      "role": "Compound Eyes Sleep Pivot",
+      "rationale": "97.5% accurate Sleep Powder and Quiver Dance setup against bulky route trainers."
+    },
+    {
+      "species": "Electabuzz",
+      "role": "Electric Speed Sweeper",
+      "rationale": "High-speed Electric coverage packing Discharge and Light Screen against opposing aerial foes."
+    },
+    {
+      "species": "Hitmonlee",
+      "role": "Reckless Fighting Breaker",
+      "rationale": "High Jump Kick physical breaker capable of substituting into the active party for Fighting STAB."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "Route 3",
+  "summary": "The rocky winding pathway east of Pewter City leading directly to Mt. Moon. Visit the Pokémon Center outside the cave entrance to purchase the $500 Magikarp, build funds against trainers, and catch early Fairy encounters.",
+  "items": [
+    {
+      "name": "Magikarp (Special Purchase)",
+      "method": "Purchase for 500 Pokedollars from the salesman inside the Route 3 Pokémon Center before Mt. Moon",
+      "type": "Gift Pokémon"
+    },
+    {
+      "name": "Oran Berry (x2)",
+      "method": "Pick from the berry patch near the central path",
+      "type": "Consumable"
+    },
+    {
+      "name": "Potion",
+      "method": "Hidden in the rock wall behind Youngster Calvin",
+      "type": "Consumable"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Youngster Ben",
+      "team": [
+        {"species": "Rattata", "level": 11},
+        {"species": "Ekans", "level": 11}
+      ],
+      "reward": "176 Pokedollars"
+    },
+    {
+      "name": "Youngster Calvin",
+      "team": [
+        {"species": "Spearow", "level": 14}
+      ],
+      "reward": "224 Pokedollars"
+    },
+    {
+      "name": "Lass Janice",
+      "team": [
+        {"species": "Pidgey", "level": 9},
+        {"species": "Pidgey", "level": 9},
+        {"species": "Colossoil/Pidgey", "level": 10}
+      ],
+      "reward": "160 Pokedollars"
+    }
+  ],
+  "encounters": {
+    "Grass": [
+      {"dex_id": "016", "name": "Pidgey", "types": ["Normal", "Flying"], "levels": "6-7", "rates": "20% Morning / 20% Day"},
+      {"dex_id": "021", "name": "Spearow", "types": ["Normal", "Flying"], "levels": "6-8", "rates": "20% Morning / 20% Day / 25% Night"},
+      {"dex_id": "029", "name": "Nidoran♀", "types": ["Poison"], "levels": "6-7", "rates": "10% All Times"},
+      {"dex_id": "032", "name": "Nidoran♂", "types": ["Poison"], "levels": "6-7", "rates": "10% All Times"},
+      {"dex_id": "052", "name": "Meowth", "types": ["Normal"], "levels": "7", "rates": "10% Night"},
+      {"dex_id": "056", "name": "Mankey", "types": ["Fighting"], "levels": "7", "rates": "10% Morning / 10% Day"},
+      {"dex_id": "163", "name": "Hoothoot", "types": ["Normal", "Flying"], "levels": "6-7", "rates": "25% Night"},
+      {"dex_id": "173", "name": "Cleffa", "types": ["Fairy"], "levels": "3-7", "rates": "20% Night"},
+      {"dex_id": "174", "name": "Igglybuff", "types": ["Normal", "Fairy"], "levels": "3-7", "rates": "20% Morning / 20% Day"}
+    ],
+    "Special Purchase": [
+      {"dex_id": "129", "name": "Magikarp", "types": ["Water"], "levels": "5", "rates": "$500 Route 3 Center Salesman (Before Mt. Moon)"}
+    ],
+    "Poké Radar": [
+      {"dex_id": "400", "name": "Budew", "types": ["Grass", "Poison"], "levels": "4-9", "rates": "50% Radar"}
+    ]
+  },
+  "navigation_notes": "Enter the Route 3 Pokémon Center right outside Mt. Moon's entrance to purchase the $500 Magikarp! Magikarp evolves into Gyarados at Lv. 20 (well under Misty's Lv. 25 cap) for early Intimidate and massive Attack."
+}

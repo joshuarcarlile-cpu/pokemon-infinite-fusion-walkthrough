@@ -1,0 +1,125 @@
+{
+  "location": "Flooded Cave (ID 149)",
+  "sections": {
+    "Cave": [
+      {
+        "dex_id": "041",
+        "name": "Zubat",
+        "type1": "Poison",
+        "type2": "Flying",
+        "levels": "25",
+        "catch_rate": "255",
+        "rates": [
+          "55%"
+        ]
+      },
+      {
+        "dex_id": "074",
+        "name": "Geodude",
+        "type1": "Rock",
+        "type2": "Ground",
+        "levels": "25-30",
+        "catch_rate": "255",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "dex_id": "079",
+        "name": "Slowpoke",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "20-26",
+        "catch_rate": "190",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "255",
+        "rates": [
+          "99%"
+        ]
+      },
+      {
+        "dex_id": "148",
+        "name": "Dragonair",
+        "type1": "Dragon",
+        "type2": "",
+        "levels": "30",
+        "catch_rate": "45",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5",
+        "catch_rate": "255",
+        "rates": [
+          "100%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "255",
+        "rates": [
+          "98%"
+        ]
+      },
+      {
+        "dex_id": "147",
+        "name": "Dratini",
+        "type1": "Dragon",
+        "type2": "",
+        "levels": "15",
+        "catch_rate": "45",
+        "rates": [
+          "2%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "50",
+        "catch_rate": "255",
+        "rates": [
+          "99%"
+        ]
+      },
+      {
+        "dex_id": "148",
+        "name": "Dragonair",
+        "type1": "Dragon",
+        "type2": "",
+        "levels": "50",
+        "catch_rate": "45",
+        "rates": [
+          "1%"
+        ]
+      }
+    ]
+  }
+}

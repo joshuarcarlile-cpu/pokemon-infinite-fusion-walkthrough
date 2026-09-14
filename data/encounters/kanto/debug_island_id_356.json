@@ -1,0 +1,18 @@
+{
+  "location": "Debug Island (ID 356)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "132",
+        "name": "Ditto",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "35",
+        "rates": [
+          "100%"
+        ]
+      }
+    ]
+  }
+}

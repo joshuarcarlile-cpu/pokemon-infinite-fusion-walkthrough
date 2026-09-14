@@ -1,0 +1,213 @@
+{
+  "location": "Offshore Road (ID 762)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "074",
+        "name": "Geodude",
+        "type1": "Rock",
+        "type2": "Ground",
+        "levels": "30-34",
+        "catch_rate": "255",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "dex_id": "075",
+        "name": "Graveler",
+        "type1": "Rock",
+        "type2": "Ground",
+        "levels": "36-39",
+        "catch_rate": "120",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "098",
+        "name": "Krabby",
+        "type1": "Water",
+        "type2": "",
+        "levels": "33-36",
+        "catch_rate": "225",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "dex_id": "327",
+        "name": "Honedge",
+        "type1": "Steel",
+        "type2": "Ghost",
+        "levels": "16-22",
+        "catch_rate": "222",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "dex_id": "471",
+        "name": "Jangmo-o",
+        "type1": "Dragon",
+        "type2": "",
+        "levels": "25",
+        "catch_rate": "45",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "dex_id": "072",
+        "name": "Tentacool",
+        "type1": "Water",
+        "type2": "Poison",
+        "levels": "32-35",
+        "catch_rate": "190",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "073",
+        "name": "Tentacruel",
+        "type1": "Water",
+        "type2": "Poison",
+        "levels": "35-38",
+        "catch_rate": "60",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "dex_id": "086",
+        "name": "Seel",
+        "type1": "Water",
+        "type2": "",
+        "levels": "35",
+        "catch_rate": "190",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "387",
+        "name": "Wailmer",
+        "type1": "Water",
+        "type2": "",
+        "levels": "32-34",
+        "catch_rate": "125",
+        "rates": [
+          "30%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "dex_id": "116",
+        "name": "Horsea",
+        "type1": "Water",
+        "type2": "",
+        "levels": "10",
+        "catch_rate": "225",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "10",
+        "catch_rate": "255",
+        "rates": [
+          "80%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "dex_id": "117",
+        "name": "Seadra",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "75",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "255",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "dex_id": "211",
+        "name": "Qwilfish",
+        "type1": "Water",
+        "type2": "Poison",
+        "levels": "20",
+        "catch_rate": "45",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "dex_id": "117",
+        "name": "Seadra",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "75",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "dex_id": "130",
+        "name": "Gyarados",
+        "type1": "Water",
+        "type2": "Flying",
+        "levels": "40",
+        "catch_rate": "45",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "223",
+        "name": "Remoraid",
+        "type1": "Water",
+        "type2": "",
+        "levels": "40",
+        "catch_rate": "190",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "224",
+        "name": "Octillery",
+        "type1": "Water",
+        "type2": "",
+        "levels": "40",
+        "catch_rate": "75",
+        "rates": [
+          "10%"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "location": "Route 33 (ID 284)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "019",
+        "name": "Rattata",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "45",
+        "catch_rate": "255",
+        "rates": [
+          "-",
+          "-",
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "020",
+        "name": "Raticate",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "43",
+        "catch_rate": "127",
+        "rates": [
+          "30%",
+          "30%",
+          "40%"
+        ]
+      },
+      {
+        "dex_id": "022",
+        "name": "Fearow",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "40-43",
+        "catch_rate": "90",
+        "rates": [
+          "20%",
+          "20%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "024",
+        "name": "Arbok",
+        "type1": "Poison",
+        "type2": "",
+        "levels": "40-44",
+        "catch_rate": "90",
+        "rates": [
+          "15%",
+          "15%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "042",
+        "name": "Golbat",
+        "type1": "Poison",
+        "type2": "Flying",
+        "levels": "44",
+        "catch_rate": "90",
+        "rates": [
+          "-",
+          "-",
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "188",
+        "name": "Skiploom",
+        "type1": "Grass",
+        "type2": "Flying",
+        "levels": "40-42",
+        "catch_rate": "120",
+        "rates": [
+          "30%",
+          "30%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "189",
+        "name": "Jumpluff",
+        "type1": "Grass",
+        "type2": "Flying",
+        "levels": "45",
+        "catch_rate": "45",
+        "rates": [
+          "5%",
+          "5%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "198",
+        "name": "Murkrow",
+        "type1": "Dark",
+        "type2": "Flying",
+        "levels": "40",
+        "catch_rate": "30",
+        "rates": [
+          "-",
+          "-",
+          "20%"
+        ]
+      }
+    ],
+    "Pok\u00e9 Radar": [
+      {
+        "dex_id": "389",
+        "name": "Luxio",
+        "type1": "Electric",
+        "type2": "",
+        "levels": "40-45",
+        "catch_rate": "120",
+        "rates": [
+          "50% <small>([[Pok\u00e9 Radar#How_it_works",
+          "long rustle]])</small>"
+        ]
+      }
+    ]
+  }
+}

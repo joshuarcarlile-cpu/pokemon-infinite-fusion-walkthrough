@@ -1,0 +1,128 @@
+{
+  "starter": "Bulbasaur",
+  "name": "Team Bulbasaur: Glacial Lance & Dragon-Slaying Bulwark",
+  "archetype": "4x Ice super-effective dragon execution, Sleep status pacification, and Fighting wallbreaking.",
+  "gym_duel_core": [1, 2, 3, 4, 5],
+  "gym_duel_rationale": "Clair's 5v5 dragon duel prompts the player to select 5 active Pokémon from the party: Lapras rotates into the duel core as the primary dragon slayer, using STAB Ice Beam to land devastating 4x super-effective OHKOs on both Donphan/Dragonair and ace Garchomp/Aerodactyl; Venusaur/Charizard levels to Cap 68 to command the frontline, using Sleep Powder to instantly shut down Dragon Dance setup while melting Glaceon/Kingdra and Ariados/Charizard with STAB Flamethrower; Kingler/Primeape enters the duel core to deliver lethal STAB Close Combat against Glaceon/Kingdra; Gyarados/Arbok applies Intimidate to blunt physical assault and batters foes with Aqua Tail; and Alakazam/Weezing leverages Levitate to ignore Ground attacks while executing Ariados/Charizard with STAB Psychic.",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Venusaur/Charizard",
+      "types": ["Grass", "Fire"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 68,
+      "ability": "Overgrow",
+      "held_item": "Charcoal",
+      "role": "Starter Anchor & Status Control",
+      "current_reached_moveset": [
+        "Flamethrower",
+        "Petal Dance",
+        "Sleep Powder",
+        "Synthesis"
+      ],
+      "progression_notes": "530 BST starter hybrid elevated to Cap 68. Sleep Powder shuts down opposing Dragon Dance boosts. STAB Flamethrower melts Glaceon/Kingdra and Ariados/Charizard."
+    },
+    {
+      "slot": 2,
+      "species": "Lapras",
+      "types": ["Water", "Ice"],
+      "status": "Active in Party (Rotated into Duel Core)",
+      "current_level": 67,
+      "ability": "Water Absorb",
+      "held_item": "Never-Melt Ice",
+      "role": "4x Ice Dragon Slayer & Special Sponge",
+      "current_reached_moveset": [
+        "Ice Beam",
+        "Hydro Pump",
+        "Confuse Ray",
+        "Body Slam"
+      ],
+      "progression_notes": "535 BST Water/Ice fortress elevated to Lv. 67. STAB Ice Beam delivers catastrophic 4x super-effective damage to obliterate Donphan/Dragonair and ace Garchomp/Aerodactyl."
+    },
+    {
+      "slot": 3,
+      "species": "Kingler/Primeape",
+      "types": ["Water", "Fighting"],
+      "status": "Active in Party (Retained from Ch 15)",
+      "current_level": 67,
+      "ability": "Hyper Cutter",
+      "held_item": "Black Belt",
+      "role": "Fighting Wallbreaker & Physical Bruiser",
+      "current_reached_moveset": [
+        "Close Combat",
+        "Crabhammer",
+        "Cross Chop",
+        "Protect"
+      ],
+      "progression_notes": "500 BST physical wallbreaker. STAB Close Combat lands devastating super-effective damage to shatter Glaceon/Kingdra."
+    },
+    {
+      "slot": 4,
+      "species": "Gyarados/Arbok",
+      "types": ["Water", "Poison"],
+      "status": "Active in Party (Retained from Ch 15)",
+      "current_level": 67,
+      "ability": "Intimidate",
+      "held_item": "Mystic Water",
+      "role": "Intimidate Physical Pivot",
+      "current_reached_moveset": [
+        "Aqua Tail",
+        "Crunch",
+        "Dragon Dance",
+        "Glare"
+      ],
+      "progression_notes": "513 BST Intimidate pivot. Cuts physical attack on entry to blunt Garchomp/Aerodactyl and Feraligatr/Gyarados."
+    },
+    {
+      "slot": 5,
+      "species": "Alakazam/Weezing",
+      "types": ["Psychic", "Poison"],
+      "status": "Active in Party (Retained from Ch 15)",
+      "current_level": 67,
+      "ability": "Levitate",
+      "held_item": "Twisted Spoon",
+      "role": "Levitate Ground-Immune Sweeper",
+      "current_reached_moveset": [
+        "Psychic",
+        "Sludge Bomb",
+        "Recover",
+        "Calm Mind"
+      ],
+      "progression_notes": "495 BST Levitate pivot with 118 SpA. Immune to Magnitude via Levitate. STAB Psychic cleanly executes Ariados/Charizard."
+    },
+    {
+      "slot": 6,
+      "species": "Snorlax",
+      "types": ["Normal"],
+      "status": "Active in Party (Benched for Gym Duel)",
+      "current_level": 67,
+      "ability": "Thick Fat",
+      "held_item": "Leftovers",
+      "role": "Route Travel Tank & Sustained Sponge",
+      "current_reached_moveset": [
+        "Body Slam",
+        "Rest",
+        "Sleep Talk",
+        "Crunch"
+      ],
+      "progression_notes": "Colossal 160 HP tank. Benched during the 5v5 duel in favor of 4x offensive counter-picks, but serves as route travel sponge."
+    }
+  ],
+  "flex_bench": [
+    {
+      "species": "Butterfree",
+      "role": "Compound Eyes Sleep Pivot",
+      "rationale": "97.5% accurate Sleep Powder and Quiver Dance setup against bulky route trainers."
+    },
+    {
+      "species": "Electabuzz",
+      "role": "Electric Speed Sweeper",
+      "rationale": "High-speed Electric coverage packing Discharge and Light Screen against opposing aerial foes."
+    },
+    {
+      "species": "Hitmonlee",
+      "role": "Reckless Fighting Breaker",
+      "rationale": "High Jump Kick physical breaker capable of substituting into the active party for Fighting STAB."
+    }
+  ]
+}

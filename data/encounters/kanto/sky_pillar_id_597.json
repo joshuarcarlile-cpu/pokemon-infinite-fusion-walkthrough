@@ -1,0 +1,40 @@
+{
+  "location": "Sky Pillar (ID 597)",
+  "sections": {
+    "Cave": [
+      {
+        "dex_id": "042",
+        "name": "Golbat",
+        "type1": "Poison",
+        "type2": "Flying",
+        "levels": "48-50",
+        "catch_rate": "90",
+        "rates": [
+          "50%"
+        ]
+      },
+      {
+        "dex_id": "300",
+        "name": "Mawile",
+        "type1": "Steel",
+        "type2": "Fairy",
+        "levels": "48-50",
+        "catch_rate": "45",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "dex_id": "325",
+        "name": "Nosepass",
+        "type1": "Rock",
+        "type2": "",
+        "levels": "47-50",
+        "catch_rate": "255",
+        "rates": [
+          "25%"
+        ]
+      }
+    ]
+  }
+}

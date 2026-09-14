@@ -1,0 +1,58 @@
+{
+  "name": "Union Cave Subterranean Transit",
+  "summary": "Enter the winding caverns of Union Cave from Route 33 heading north toward Route 32. Delve through three subterranean strata to secure powerful rock and evolution items, and locate the northwest B1F stairwells that connect directly to Chamber D and Chamber E of the ancient Ruins of Alph.",
+  "items": [
+    {
+      "name": "TM67 Retaliate",
+      "method": "Found resting on a small raised rock ledge in the northwest corner of 1F",
+      "type": "Technical Machine"
+    },
+    {
+      "name": "Dusk Stone",
+      "method": "Lying on the cavern floor near the northwest B1F stairwell entrance",
+      "type": "Evolution Stone"
+    },
+    {
+      "name": "TM23 Smack Down",
+      "method": "Located on the elevated eastern rock terrace on B2F",
+      "type": "Technical Machine"
+    },
+    {
+      "name": "Rock Gem",
+      "method": "Gifted by Hiker Leonard on B2F following your victory",
+      "type": "Gem"
+    },
+    {
+      "name": "Boost Ball",
+      "method": "Bundle of 10 special Pokéballs gifted by Pokémaniac Larry on B1F after catching 100 species",
+      "type": "Pokéball"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Hiker Daniel",
+      "team": [
+        {"species": "Onix/Geodude", "level": 50, "types": ["Rock", "Ground"]},
+        {"species": "Graveler", "level": 52, "types": ["Rock", "Ground"]}
+      ]
+    },
+    {
+      "name": "Pokémaniac Larry",
+      "team": [
+        {"species": "Slowpoke/Lickitung", "level": 49, "types": ["Water", "Normal"]},
+        {"species": "Marowak", "level": 51, "types": ["Ground"]}
+      ]
+    }
+  ],
+  "encounters": {
+    "Cave (Classic)": [
+      {"dex_id": "075", "name": "Graveler", "types": ["Rock", "Ground"], "levels": "44", "rates": "25%"},
+      {"dex_id": "028", "name": "Sandslash", "types": ["Ground"], "levels": "42-44", "rates": "20%"},
+      {"dex_id": "042", "name": "Golbat", "types": ["Poison", "Flying"], "levels": "44", "rates": "20%"},
+      {"dex_id": "095", "name": "Onix", "types": ["Rock", "Ground"], "levels": "43", "rates": "15%"},
+      {"dex_id": "195", "name": "Quagsire", "types": ["Water", "Ground"], "levels": "44", "rates": "10%"},
+      {"dex_id": "213", "name": "Shuckle", "types": ["Bug", "Rock"], "levels": "40", "rates": "5%"},
+      {"dex_id": "020", "name": "Raticate", "types": ["Normal"], "levels": "44", "rates": "5%"}
+    ]
+  }
+}

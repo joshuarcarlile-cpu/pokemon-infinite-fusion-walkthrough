@@ -1,0 +1,64 @@
+{
+  "name": "Birth Island Deoxys & Creation Dragons",
+  "summary": "Conclude the extraterrestrial research on Kin Island by investigating the meteor crater atop Bond Bridge waterfall. Collect the scattered spaceship fragments and take the harbor vessel to Birth Island to solve the triangular obelisk sequence, challenging alien lifeform Deoxys (Lv. 70). Additionally, with Mt. Silver cleared, the spacetime rift has caused the Creation Trio to solidify across the world: use Rock Climb on Boon Island to challenge Dialga (Lv. 75), ascend behind Blackthorn City for Palkia (Lv. 75), and scale the cliffs of Route 4 for Giratina (Lv. 75).",
+  "items": [
+    {
+      "name": "Adamant Orb",
+      "method": "Found on the elevated rock bluff directly behind Dialga on Boon Island",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Lustrous Orb",
+      "method": "Found on the misty cliff plateau behind Palkia in Blackthorn City",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Griseous Orb",
+      "method": "Found in the shadowy cave opening behind Giratina on Route 4",
+      "type": "Hold Item"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Mythic Ranger Jackie",
+      "title": "Pokémon Ranger",
+      "reward": "P4,600",
+      "pokemon": [
+        {
+          "species": "Lucario/Gallade",
+          "level": 74,
+          "types": ["Fighting", "Psychic"]
+        },
+        {
+          "species": "Togekiss/Roserade",
+          "level": 74,
+          "types": ["Fairy", "Grass"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Special": [
+      {
+        "species": "Deoxys",
+        "levels": "70",
+        "rate": "Birth Island Obelisk Puzzle Event"
+      },
+      {
+        "species": "Dialga",
+        "levels": "75",
+        "rate": "Boon Island Rock Climb Summit Event"
+      },
+      {
+        "species": "Palkia",
+        "levels": "75",
+        "rate": "Blackthorn City Mountain Ledge Event"
+      },
+      {
+        "species": "Giratina",
+        "levels": "75",
+        "rate": "Route 4 High Cliffs Event"
+      }
+    ]
+  }
+}

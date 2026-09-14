@@ -1,0 +1,77 @@
+{
+  "leader": "Champion Blue",
+  "title": "Grand Champion of Indigo Plateau",
+  "gym": "Indigo Plateau Apex Arena",
+  "badge": "Supreme Pokémon Master",
+  "hard_mode_level_cap": 100,
+  "gym_duel_limit": 6,
+  "recommended_party_level": 100,
+  "party_selection_rule": "Full 6 vs 6 Flat Level 100 Champion Rematch",
+  "overview": "Rival Blue returns to head the Tier 5 Elite Four Rematch at Indigo Plateau with an absolute Level 100 competitive squad. His team synergizes aggressive weather, Speed Boost momentum, and formidable physical wallbreakers: lead Tyranitar/Arcanine sets Sand Stream to bolster Special Defense; Aegislash/Aerodactyl leverages Stance Change with high-velocity Flying/Steel coverage; Alakazam/Blaziken cascades Speed boosts with blistering special mixed offense; and his ace Blastoise/Charizard anchors with dual elemental mastery. Victory demands tight defensive switching, priority counter-play, and seamless type-immunity pivoting.",
+  "roster": [
+    {
+      "species": "Tyranitar/Arcanine",
+      "level": 100,
+      "types": ["Rock", "Fire"],
+      "ability": "Sand Stream",
+      "item": "Smooth Rock",
+      "moves": ["Stone Edge", "Flare Blitz", "Earthquake", "Crunch"],
+      "tactics": "Sets permanent Sandstorm with high physical bulk. Invalidate it immediately with 4x STAB Water or Ground attacks like Crabhammer, Surf, or Earthquake."
+    },
+    {
+      "species": "Aegislash/Aerodactyl",
+      "level": 100,
+      "types": ["Steel", "Flying"],
+      "ability": "Stance Change",
+      "item": "Life Orb",
+      "moves": ["Iron Head", "Brave Bird", "King's Shield", "Sacred Sword"],
+      "tactics": "Switches between 150 defenses in Shield Forme and 150 offenses in Blade Forme. Beware King's Shield attack drops on physical contact; strike in Blade Forme with Fire or Electric moves."
+    },
+    {
+      "species": "Alakazam/Blaziken",
+      "level": 100,
+      "types": ["Psychic", "Fighting"],
+      "ability": "Speed Boost",
+      "item": "Focus Sash",
+      "moves": ["Focus Blast", "Psychic", "High Jump Kick", "Shadow Ball"],
+      "tactics": "Gains +1 Speed at the end of every turn with Speed Boost. Focus Sash prevents an OHKO. Neutralize its momentum immediately with priority attacks (Extreme Speed, Aqua Jet) or paralysis."
+    },
+    {
+      "species": "Gyarados/Dragonite",
+      "level": 100,
+      "types": ["Water", "Flying"],
+      "ability": "Intimidate",
+      "item": "Leftovers",
+      "moves": ["Dragon Dance", "Waterfall", "Outrage", "Earthquake"],
+      "tactics": "Intimidate lowers your lead's Attack before setting up Dragon Dance. Obliterate it with a 4x Electric attack like Thunderbolt or Thunder from Magnezone or Jolteon."
+    },
+    {
+      "species": "Snorlax/Slaking",
+      "level": 100,
+      "types": ["Normal"],
+      "ability": "Thick Fat",
+      "item": "Choice Band",
+      "moves": ["Giga Impact", "Hammer Arm", "Body Slam", "Crunch"],
+      "tactics": "Immense 160 Attack and colossal HP. Choice Band delivers terrifying physical blows. Use Ghost immunity pivots or heavy physical Fighting counters like Close Combat."
+    },
+    {
+      "species": "Blastoise/Charizard",
+      "level": 100,
+      "types": ["Water", "Flying"],
+      "ability": "Torrent",
+      "item": "Mystic Water",
+      "moves": ["Hydro Pump", "Air Slash", "Dragon Pulse", "Roost"],
+      "tactics": "Blue's ace combines high mixed bulk and sustained recovery. Shock it instantly with 4x Electric attacks or overwhelm it with fast Rock artillery."
+    }
+  ],
+  "starter_strategies": {
+    "bulbasaur": "Lead with Kingler/Primeape to shatter Tyranitar/Arcanine with Crabhammer. Pivot Gyarados/Arbok in to Intimidate Snorlax/Slaking and Alakazam/Blaziken, crippling them with Glare paralysis. Lapras and Alakazam/Weezing wipe out Aegislash and Blastoise/Charizard, while Venusaur/Charizard provides late-game status and Flamethrower sweeps.",
+    "charmander": "Lead with Primeape/Sandslash to drop Tyranitar/Arcanine with Earthquake. Alakazam/Raichu outspeeds and vaporizes Gyarados/Dragonite and Blastoise/Charizard with 4x Thunderbolt. Charizard/Venusaur torches Aegislash/Aerodactyl with Flamethrower, while Snorlax sponges powerful special attacks.",
+    "squirtle": "Jolteon/Sandslash is your primary sweeper, erasing Gyarados/Dragonite and Blastoise/Charizard with 4x Discharge/Thunderbolt. Blastoise/Fearow walls physical threats with Roost, while Arbok/Primeape and Alakazam/Weezing cleanly dismantle Snorlax/Slaking and Tyranitar/Arcanine."
+  },
+  "rewards": [
+    "Tier 5 Indigo Plateau Championship Title (Supreme Master)",
+    "Unrestricted Super DNA Splicer Mastery for Legendary Triple Fusions",
+    "Complete Sandbox Battle Supremacy"
+  ]
+}

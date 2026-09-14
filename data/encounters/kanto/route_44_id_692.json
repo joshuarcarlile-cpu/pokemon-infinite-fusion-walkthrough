@@ -1,0 +1,202 @@
+{
+  "location": "Route 44 (ID 692)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "069",
+        "name": "Bellsprout",
+        "type1": "Grass",
+        "type2": "Poison",
+        "levels": "33-38",
+        "catch_rate": "255",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "070",
+        "name": "Weepinbell",
+        "type1": "Grass",
+        "type2": "Poison",
+        "levels": "43",
+        "catch_rate": "120",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "dex_id": "108",
+        "name": "Lickitung",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "44-46",
+        "catch_rate": "45",
+        "rates": [
+          "13%"
+        ]
+      },
+      {
+        "dex_id": "114",
+        "name": "Tangela",
+        "type1": "Grass",
+        "type2": "",
+        "levels": "44-46",
+        "catch_rate": "45",
+        "rates": [
+          "28%"
+        ]
+      },
+      {
+        "dex_id": "264",
+        "name": "Lickilicky",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "55",
+        "catch_rate": "30",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "dex_id": "266",
+        "name": "Tangrowth",
+        "type1": "Grass",
+        "type2": "",
+        "levels": "55",
+        "catch_rate": "30",
+        "rates": [
+          "2%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "dex_id": "060",
+        "name": "Poliwag",
+        "type1": "Water",
+        "type2": "",
+        "levels": "15-30",
+        "catch_rate": "255",
+        "rates": [
+          "90%"
+        ]
+      },
+      {
+        "dex_id": "061",
+        "name": "Poliwhirl",
+        "type1": "Water",
+        "type2": "",
+        "levels": "35",
+        "catch_rate": "120",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "dex_id": "060",
+        "name": "Poliwag",
+        "type1": "Water",
+        "type2": "",
+        "levels": "10",
+        "catch_rate": "255",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "10",
+        "catch_rate": "255",
+        "rates": [
+          "80%"
+        ]
+      },
+      {
+        "dex_id": "223",
+        "name": "Remoraid",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5",
+        "catch_rate": "190",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "dex_id": "061",
+        "name": "Poliwhirl",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "120",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "255",
+        "rates": [
+          "75%"
+        ]
+      },
+      {
+        "dex_id": "223",
+        "name": "Remoraid",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "190",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "dex_id": "061",
+        "name": "Poliwhirl",
+        "type1": "Water",
+        "type2": "",
+        "levels": "40",
+        "catch_rate": "120",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "255",
+        "rates": [
+          "70%"
+        ]
+      },
+      {
+        "dex_id": "223",
+        "name": "Remoraid",
+        "type1": "Water",
+        "type2": "",
+        "levels": "40",
+        "catch_rate": "190",
+        "rates": [
+          "20%"
+        ]
+      }
+    ]
+  }
+}

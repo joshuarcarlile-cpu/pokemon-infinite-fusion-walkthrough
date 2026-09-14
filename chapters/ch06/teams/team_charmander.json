@@ -1,0 +1,147 @@
+{
+  "starter": "Charmander",
+  "name": "Team Charmander: Hyper-Offense & Dark Annihilators",
+  "archetype": "Special Fire/Psychic high-speed artillery, Dark/Ground immunity pivots, and physical Intimidate breakers.",
+  "gym_duel_core": [1, 2, 3, 4],
+  "gym_duel_rationale": "Sabrina's high-speed Psychic arsenal demands total type immunity and unstoppable offensive pressure. Enter the arena with Houndoom/Dugtrio (Dark/Ground powerhouse whose Dark typing completely negates Sabrina's Psychic STAB while firing STAB Foul Play, Nasty Plot, and +1 Sucker Punch priority), Snorlax (540 BST sponge with 160 HP and 110 SpD ignoring Special attacks and crippling sweepers with Body Slam), Charizard/Alakazam (505 BST titan with 117 SpA and 113 Speed outspeeding Sabrina's roster to fire STAB Flamethrower and Psychic), and Gyarados/Primeape (Intimidate physical breaker carrying super-effective Crunch and STAB Waterfall).",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Charizard/Alakazam",
+      "types": ["Fire", "Psychic"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 44,
+      "ability": "Blaze",
+      "held_item": "Charcoal",
+      "role": "High-Velocity Special Sweeper & Gym Duelist",
+      "current_reached_moveset": [
+        "Flamethrower",
+        "Psychic",
+        "Air Slash",
+        "Calm Mind"
+      ],
+      "progression_notes": "505 BST special demon with 117 SpA and 113 Speed. Outspeeds Sabrina's entire roster. Sets up Calm Mind and shreds foes with STAB Flamethrower and STAB Psychic."
+    },
+    {
+      "slot": 2,
+      "species": "Houndoom/Dugtrio",
+      "types": ["Dark", "Ground"],
+      "status": "Active in Party (Retained from Ch 5)",
+      "current_level": 44,
+      "ability": "Arena Trap",
+      "held_item": "Black Glasses",
+      "role": "Psychic-Immune Sweeper & Gym Duelist",
+      "current_reached_moveset": [
+        "Foul Play",
+        "Sucker Punch",
+        "Earthquake",
+        "Nasty Plot"
+      ],
+      "progression_notes": "470 BST predator with 105 Speed. Complete immunity to Psychic moves. STAB Sucker Punch provides crucial priority against Gengar/Alakazam, while Foul Play punishes physical threats."
+    },
+    {
+      "slot": 3,
+      "species": "Snorlax",
+      "types": ["Normal"],
+      "status": "Active in Party (Awakened on Route 12/16)",
+      "current_level": 44,
+      "ability": "Thick Fat",
+      "held_item": "Leftovers",
+      "role": "Special Wall & Gym Duelist",
+      "current_reached_moveset": [
+        "Body Slam",
+        "Amnesia",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "progression_notes": "540 BST juggernaut with 160 HP and 110 SpD. Thick Fat neutralizes Ice and Fire attacks. Amnesia walls Sabrina's special barrage while Body Slam paralyses fast psychic sweepers."
+    },
+    {
+      "slot": 4,
+      "species": "Gyarados/Primeape",
+      "types": ["Water", "Fighting"],
+      "status": "Active in Party (Retained from Ch 5)",
+      "current_level": 44,
+      "ability": "Intimidate",
+      "held_item": "Mystic Water",
+      "role": "Intimidate Breaker & Gym Duelist",
+      "current_reached_moveset": [
+        "Crunch",
+        "Aqua Tail",
+        "Close Combat",
+        "Ice Fang"
+      ],
+      "progression_notes": "510 BST physical powerhouse with 115 Attack. Intimidate softens physical hits, while super-effective Crunch tears through Sabrina's Psychic core."
+    },
+    {
+      "slot": 5,
+      "species": "Vileplume/Pidgeot",
+      "types": ["Grass", "Flying"],
+      "status": "Active in Party (Retained from Ch 5)",
+      "current_level": 43,
+      "ability": "Chlorophyll",
+      "held_item": "Miracle Seed",
+      "role": "Grass/Flying Status Pivot",
+      "current_reached_moveset": [
+        "Giga Drain",
+        "Sleep Powder",
+        "Wing Attack",
+        "Feather Dance"
+      ],
+      "progression_notes": "485 BST pivot. Sleep Powder halts aggressive setup, and STAB Giga Drain dismantles Water-type fusions like Alakazam/Slowbro."
+    },
+    {
+      "slot": 6,
+      "species": "Raichu/Sandslash",
+      "types": ["Electric", "Ground"],
+      "status": "Active in Party (Retained from Ch 5)",
+      "current_level": 43,
+      "ability": "Static",
+      "held_item": "Magnet",
+      "role": "Electric/Ground Physical Sweeper",
+      "current_reached_moveset": [
+        "Spark",
+        "Magnitude",
+        "Slash",
+        "Swords Dance"
+      ],
+      "progression_notes": "470 BST physical fortress with 95 Speed. Immune to Electric moves. Sets up Swords Dance and fires devastating STAB Earthquake."
+    }
+  ],
+  "flex_bench": [
+    {
+      "slot": 1,
+      "species": "Lapras",
+      "types": ["Water", "Ice"],
+      "status": "Flex Bench (Gift from Silph Co. 7F)",
+      "current_level": 42,
+      "ability": "Water Absorb",
+      "held_item": "Never-Melt Ice",
+      "role": "Specially Bulky Water/Ice Tank",
+      "current_reached_moveset": [
+        "Ice Beam",
+        "Body Slam",
+        "Confuse Ray",
+        "Rain Dance"
+      ],
+      "progression_notes": "535 BST tank with 130 HP. Free gift from Silph Co. Water Absorb completely neutralizes water attacks."
+    },
+    {
+      "slot": 2,
+      "species": "Hitmonlee",
+      "types": ["Fighting"],
+      "status": "Flex Bench (Choice from Fighting Dojo)",
+      "current_level": 42,
+      "ability": "Reckless",
+      "held_item": "Black Belt",
+      "role": "High-Velocity Physical Wallbreaker",
+      "current_reached_moveset": [
+        "High Jump Kick",
+        "Brick Break",
+        "Fake Out",
+        "Mind Reader"
+      ],
+      "progression_notes": "455 BST kicking master with 120 Attack and 110 SpD. Reckless boosts High Jump Kick into a devastating single-target nuke."
+    }
+  ]
+}

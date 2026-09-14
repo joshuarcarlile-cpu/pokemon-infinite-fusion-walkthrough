@@ -1,0 +1,54 @@
+{
+  "name": "Fuchsia Gym (Koga Duel)",
+  "summary": "Step into Fuchsia City Gym, protected by an intricate maze of invisible glass walls. Battle through Ninja Tamers and Jugglers to reach the inner sanctum. When challenged, select your 4 designated Pokémon from your active party to challenge Ninja Master Koga to a 4v4 battle for the Soul Badge under the Level 42 cap.",
+  "items": [
+    {
+      "name": "Soul Badge",
+      "method": "Defeat Gym Leader Koga in a 4v4 arena battle",
+      "type": "Key Item"
+    },
+    {
+      "name": "TM06 Toxic",
+      "method": "Reward from Koga upon earning the Soul Badge",
+      "type": "TM"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Juggler Nate",
+      "team": [
+        {
+          "species": "Zubat/Ekans",
+          "level": 35,
+          "types": ["Poison"]
+        },
+        {
+          "species": "Arbok/Grimer",
+          "level": 37,
+          "types": ["Poison"]
+        }
+      ]
+    },
+    {
+      "name": "Tamer Phil",
+      "team": [
+        {
+          "species": "Paras/Venonat",
+          "level": 36,
+          "types": ["Bug", "Poison"]
+        },
+        {
+          "species": "Golbat/Venomoth",
+          "level": 37,
+          "types": ["Poison", "Flying"]
+        }
+      ]
+    }
+  ],
+  "wild_encounters": [],
+  "navigation_notes": [
+    "Follow the perimeter walls clockwise and look closely for slight floor seams to navigate the invisible maze.",
+    "Hard Mode Rule: Party size must strictly match Koga's 4 active members (4 vs 4). Box your 5th and 6th slots before speaking to Koga.",
+    "Equip Pecha Berries or Antidotes on all duelists to mitigate turn-1 Toxic and Sludge Bomb poison status."
+  ]
+}

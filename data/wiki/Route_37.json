@@ -1,0 +1,55 @@
+{
+  "title": "Route_37",
+  "url": "https://infinitefusion.fandom.com/wiki/Route_37",
+  "lead_summary": "Route 37 is a route that connects Ecruteak City to Route 36.",
+  "missable_warnings": [],
+  "items": [
+    {
+      "internal_id": "FOCUSSASH",
+      "quantity": "",
+      "name": "Focus Sash",
+      "location_details": "On the ground on the East."
+    },
+    {
+      "internal_id": "CORNNBERRY",
+      "quantity": "1-2",
+      "name": "Cornn Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "GREPABERRY",
+      "quantity": "1-2",
+      "name": "Grepa Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "HONDEWBERRY",
+      "quantity": "1-2",
+      "name": "Hondew Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "KELPSYBERRY",
+      "quantity": "1-2",
+      "name": "Kelpsy Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "QUALOTBERRY",
+      "quantity": "1-2",
+      "name": "Qualot Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "TAMATOBERRY",
+      "quantity": "1-2",
+      "name": "Tamato Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    }
+  ],
+  "sections": [
+    "Items",
+    "Pokémon"
+  ],
+  "raw_wikitext": "{{GlobalToggles}}\n{{InfoboxLocation\n|region=Johto\n|location_image=Route37.png\n|map_image=Route_37_Map.png\n|connection_1_direction=north\n|connection_1_location=Ecruteak City\n|connection_2_direction=south\n|connection_2_location=Route 36\n}}\n'''Route 37''' is a route that connects [[Ecruteak City]] to [[Route 36]].\n\n==Items==\n{{ItemTable/Header}}\n{{ItemTable/Data|FOCUSSASH||Focus Sash|On the ground on the East.|FocusSash_Route37.png}}\n{{ItemTable/Section|Berry Bushes}}\n{{ItemTable/Data|CORNNBERRY|1-2|Cornn Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|GREPABERRY|1-2|Grepa Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|HONDEWBERRY|1-2|Hondew Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|KELPSYBERRY|1-2|Kelpsy Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|QUALOTBERRY|1-2|Qualot Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|TAMATOBERRY|1-2|Tamato Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Footer}}\n\n==Pokémon==\n<!-----------------------------------!>\n<!-- CLASSIC & EXPERT MODE POKÉMON --!>\n<!------------------------------------>\n<div class=\"classic-mode expert-mode\">\n{{EncounterTable/Header/Time}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|017|Pidgeotto|Normal|Flying|41-49|120|30%|30%|-}}\n{{EncounterTable/Data|037|Vulpix|Fire||40-48|190|10%}}\n{{EncounterTable/Data|058|Growlithe|Fire||40-48|190|10%}}\n{{EncounterTable/Data|164|Noctowl|Normal|Flying|41-48|90|-|-|20%}}\n{{EncounterTable/Data|168|Ariados|Bug|Poison|41-49|90|-|-|25%}}\n{{EncounterTable/Data|234|Stantler|Normal||47-51|45|30%}}\n{{EncounterTable/Data|257|Bonsly|Rock||35|255|20%|20%|5%}}\n{{EncounterTable/Footer/Time}}\n</div>\n<!------------------------!>\n<!-- REMIX MODE POKÉMON --!>\n<!------------------------->\n<div class=\"remix-mode\">\n{{EncounterTable/Header/Time}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|037|Vulpix|Fire||40-48|190|10%}}\n{{EncounterTable/Data|058|Growlithe|Fire||40-48|190|10%}}\n{{EncounterTable/Data|168|Ariados|Bug|Poison|41-49|90|-|-|25%}}\n{{EncounterTable/Data|203|Girafarig|Normal|Psychic|35|60|20%|20%|-}}\n{{EncounterTable/Data|234|Stantler|Normal||47-51|45|30%}}\n{{EncounterTable/Data|391|Lairon|Steel|Rock|35|90|-|-|5%}}\n{{EncounterTable/Data|408|Cottonee|Grass|Fairy|41-49|190|30%|30%|-}}\n{{EncounterTable/Data|452|Bewear|Normal|Fighting|41-48|70|-|-|20%}}\n{{EncounterTable/Footer/Time}}\n</div>\n\n[[Category:Locations]]\n[[Category:Johto]]"
+}

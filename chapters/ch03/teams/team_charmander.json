@@ -1,0 +1,134 @@
+{
+  "starter": "Charmander",
+  "name": "Team Charmander: Hyper-Offense & Ground Breakers",
+  "archetype": "Electric-immune Fire/Ground starter sweeper, dual Ground physical breakers, and Intimidate aerial pivots.",
+  "gym_duel_core": [1, 2, 3],
+  "gym_duel_rationale": "Lt. Surge enforces a strict 3v3 duel. Enter the arena with Charmeleon/Dugtrio (106 Base Speed, 100% Electric immunity, STAB Flame Burst and Magnitude, plus fixed 40 damage Dragon Rage), Primeape/Sandslash (445 BST, Vital Spirit sleep immunity, and STAB Cross Chop + Magnitude), and Kadabra/Geodude (100% Electric immunity special artillery with Psybeam and Reflect).",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Charmeleon/Dugtrio",
+      "types": ["Fire", "Ground"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 28,
+      "ability": "Blaze",
+      "held_item": "Charcoal",
+      "role": "Electric-Immune Speed Sweeper & Gym Duelist",
+      "current_reached_moveset": [
+        "Flame Burst",
+        "Magnitude",
+        "Dragon Rage",
+        "Sucker Punch"
+      ],
+      "progression_notes": "Permanent starter anchor spliced with Diglett/Dugtrio from Diglett's Cave. 106 Base Speed Fire/Ground sweeper that completely ignores Electric attacks while hitting back with super-effective Magnitude."
+    },
+    {
+      "slot": 2,
+      "species": "Primeape/Sandslash",
+      "types": ["Fighting", "Ground"],
+      "status": "Active in Party (Route 3 & Mt. Moon Splice)",
+      "current_level": 28,
+      "ability": "Vital Spirit",
+      "held_item": "Soft Sand",
+      "role": "Sleep-Immune Physical Juggernaut & Gym Duelist",
+      "current_reached_moveset": [
+        "Cross Chop",
+        "Magnitude",
+        "Slash",
+        "Fury Swipes"
+      ],
+      "progression_notes": "Combines Primeape's raw physical power with Sandslash's defensive bulk. Vital Spirit prevents sleep moves, while STAB Magnitude and Cross Chop punch through steel and rock."
+    },
+    {
+      "slot": 3,
+      "species": "Kadabra/Geodude",
+      "types": ["Psychic", "Ground"],
+      "status": "Active in Party (Route 24 & Mt. Moon Splice)",
+      "current_level": 28,
+      "ability": "Synchronize",
+      "held_item": "Twisted Spoon",
+      "role": "Electric-Immune Special Artillery & Gym Duelist",
+      "current_reached_moveset": [
+        "Psybeam",
+        "Magnitude",
+        "Reflect",
+        "Rock Polish"
+      ],
+      "progression_notes": "Splicing freed Kadabra with Geodude yields a 90 SpA special attacker with 100% Electric immunity that sets Reflect screens against physical retaliation."
+    },
+    {
+      "slot": 4,
+      "species": "Bellsprout/Butterfree",
+      "types": ["Grass", "Flying"],
+      "status": "Active in Party (Retained from Ch 2)",
+      "current_level": 27,
+      "ability": "Compound Eyes",
+      "held_item": "Miracle Seed",
+      "role": "Grass Status Pivot & Sleep Controller",
+      "current_reached_moveset": [
+        "Vine Whip",
+        "Psybeam",
+        "Sleep Powder",
+        "Acid"
+      ],
+      "progression_notes": "Retained from Chapter 2. Compound Eyes ensures 97.5% accurate Sleep Powder, while Grass/Flying typing quad-resists Grass and resists Water."
+    },
+    {
+      "slot": 5,
+      "species": "Gyarados/Fearow",
+      "types": ["Water", "Flying"],
+      "status": "Active in Party (Route 4 & Route 9 Splice)",
+      "current_level": 27,
+      "ability": "Intimidate",
+      "held_item": "Mystic Water",
+      "role": "Physical Wallbreaker & Intimidate Pivot",
+      "current_reached_moveset": [
+        "Bite",
+        "Ice Fang",
+        "Aerial Ace",
+        "Drill Run"
+      ],
+      "progression_notes": "495 BST powerhouse with 101 Attack and 93 Speed. Intimidate cripples enemy physical sweepers, while Drill Run and Aerial Ace provide superb open-route coverage."
+    }
+  ],
+  "flex_bench": [
+    {
+      "slot": "B1",
+      "species": "Clefairy/Zubat",
+      "types": ["Fairy", "Poison"],
+      "current_level": 26,
+      "ability": "Magic Guard",
+      "held_item": "Silk Scarf",
+      "role": "Defensive Fairy/Poison Pivot",
+      "why_use": "Excellent defensive typing with Magic Guard immunity to indirect passive damage."
+    },
+    {
+      "slot": "B2",
+      "species": "Meowth/Pidgey",
+      "types": ["Normal", "Flying"],
+      "current_level": 26,
+      "ability": "Pickup",
+      "held_item": "Silk Scarf",
+      "role": "Pickup Utility & Pay Day Farmer",
+      "why_use": "Gathers bonus consumable items after battle and earns extra prize money via Pay Day."
+    }
+  ],
+  "fusion_lifecycle": {
+    "active_fusions": [
+      "Charmeleon/Dugtrio (106 Speed Fire/Ground starter anchor with 100% Electric immunity)",
+      "Primeape/Sandslash (103 Attack Fighting/Ground juggernaut with Vital Spirit)",
+      "Kadabra/Geodude (Psychic/Ground special sweeper with Reflect)",
+      "Bellsprout/Butterfree (Compound Eyes 97.5% accurate Sleep Powder support)",
+      "Gyarados/Fearow (495 BST Intimidate physical sweeper with Drill Run)"
+    ],
+    "unfuse_recommendations": [
+      "1. Visit the Vermilion City Poké Mart and pay $300 to unfuse Charmeleon/Kadabra from Chapter 2, separating Charmeleon and Kadabra.",
+      "2. Catch a high-speed Diglett in Diglett's Cave and splice with Charmeleon to create Charmeleon/Dugtrio, completely immunizing your starter against Surge's Electric blitz.",
+      "3. Splice the freed Kadabra with Geodude to form Kadabra/Geodude for Ground/Psychic duel coverage."
+    ],
+    "upcoming_fusions": [
+      "Charizard/Kadabra (Re-splice Charizard with Kadabra at Lv. 36 for an apex 112 SpA Fire/Psychic sweeper)",
+      "Jolteon/Houndour (Fast Fire/Electric special glass cannon via Celadon evolution stones)"
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "starter": "Squirtle",
+  "name": "Team Squirtle: Bulky Balance & Weather Inversion",
+  "archetype": "Water/Flying aerial starter tank, 120 Speed Ground/Fighting breaker, and Fire/Ground physical wallbreaker.",
+  "gym_duel_core": [1, 2, 3, 4],
+  "gym_duel_rationale": "Koga enforces a strict 4v4 duel. Enter with Blastoise/Fearow (496 BST Water/Flying with 92 Speed and Roost recovery; completely immune to Ground moves and Toxic Spikes while destroying Bug/Poison foes with STAB Drill Peck), Dugtrio/Primeape (blazing 120 Speed Ground/Fighting sweeper with natural 100 BP Earthquake and Close Combat to demolish grounded Poison foes), Flareon/Sandslash (505 BST physical breaker with 110 Attack, Swords Dance, and Fire Fang/Lava Plume to incinerate Beedrill/Scyther), and Kadabra/Haunter (407 BST with 118 SpA, Levitate Ground immunity, and STAB Psychic to cleanly OHKO Chansey/Muk before Acid Armor can stack).",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Blastoise/Fearow",
+      "types": ["Water", "Flying"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 42,
+      "ability": "Torrent",
+      "held_item": "Mystic Water",
+      "role": "Aerial Tank & Gym Duelist",
+      "current_reached_moveset": [
+        "Drill Peck",
+        "Rain Dance",
+        "Roost",
+        "Water Pulse"
+      ],
+      "progression_notes": "496 BST with 92 Speed and 90 SpD. Immune to Ground and Toxic Spikes. STAB Drill Peck hits Bug/Poison foes for super-effective damage while Roost sustains through poison damage."
+    },
+    {
+      "slot": 2,
+      "species": "Dugtrio/Primeape",
+      "types": ["Ground", "Fighting"],
+      "status": "Active in Party (Retained from Ch 4)",
+      "current_level": 41,
+      "ability": "Arena Trap",
+      "held_item": "Soft Sand",
+      "role": "Blazing Physical Sweeper & Gym Duelist",
+      "current_reached_moveset": [
+        "Earthquake",
+        "Close Combat",
+        "Sucker Punch",
+        "Cross Chop"
+      ],
+      "progression_notes": "439 BST speedster boasting 120 Base Speed and 95 Attack. Natural 100 BP Earthquake combined with Close Combat easily breaks grounded Poison targets."
+    },
+    {
+      "slot": 3,
+      "species": "Flareon/Sandslash",
+      "types": ["Fire", "Ground"],
+      "status": "Active in Party (Retained from Ch 4)",
+      "current_level": 41,
+      "ability": "Flash Fire",
+      "held_item": "Charcoal",
+      "role": "High-Attack Physical Breaker & Gym Duelist",
+      "current_reached_moveset": [
+        "Fire Fang",
+        "Magnitude",
+        "Lava Plume",
+        "Swords Dance"
+      ],
+      "progression_notes": "505 BST featuring 110 Base Attack, 93 Defense, and Swords Dance boosting. Incinerates Bug/Steel targets with Fire Fang and provides Ground coverage."
+    },
+    {
+      "slot": 4,
+      "species": "Kadabra/Haunter",
+      "types": ["Psychic", "Poison"],
+      "status": "Active in Party (Retained from Ch 4)",
+      "current_level": 41,
+      "ability": "Levitate",
+      "held_item": "Twisted Spoon",
+      "role": "Rapid Special Artillery & Gym Duelist",
+      "current_reached_moveset": [
+        "Psychic",
+        "Shadow Ball",
+        "Recover",
+        "Reflect"
+      ],
+      "progression_notes": "407 BST with 118 Special Attack and 98 Speed. Levitate removes Ground weakness while STAB Psychic easily bypasses physical defense to dismantle Chansey/Muk."
+    },
+    {
+      "slot": 5,
+      "species": "Vileplume/Poliwrath",
+      "types": ["Grass", "Fighting"],
+      "status": "Active in Party (Retained from Ch 4)",
+      "current_level": 40,
+      "ability": "Chlorophyll",
+      "held_item": "Miracle Seed",
+      "role": "Bulky Grass/Fighting Drain Bruiser",
+      "current_reached_moveset": [
+        "Giga Drain",
+        "Submission",
+        "Sleep Powder",
+        "Moonlight"
+      ],
+      "progression_notes": "510 BST with 91 Defense and 90 SpD. Completely absorbs incoming Grass and Water attacks, providing bulk for open-world water route traversal."
+    }
+  ],
+  "flex_bench": [
+    {
+      "slot": "B1",
+      "species": "Butterfree/Beedrill",
+      "types": ["Bug", "Poison"],
+      "current_level": 38,
+      "ability": "Compound Eyes",
+      "held_item": "Silver Powder",
+      "role": "97.5% Accuracy Sleep Catcher",
+      "why_use": "Retained for capturing rare Safari Zone targets with Compound Eyes boosted 97.5% accurate Sleep Powder."
+    },
+    {
+      "slot": "B2",
+      "species": "Clefable/Golbat",
+      "types": ["Fairy", "Flying"],
+      "current_level": 38,
+      "ability": "Magic Guard",
+      "held_item": "Silk Scarf",
+      "role": "Bulky Fairy Wall & Hazard Pivot",
+      "why_use": "Combines Clefable's Magic Guard passive (immune to Toxic ticks, indirect damage, and hazards) with Golbat's aerial mobility."
+    }
+  ],
+  "fusion_lifecycle": {
+    "active_fusions": [
+      "Blastoise/Fearow (496 BST Water/Flying starter with 4x Drill Peck and Roost)",
+      "Dugtrio/Primeape (439 BST 120 Spe Ground/Fighting sweeper with Earthquake and Close Combat)",
+      "Flareon/Sandslash (505 BST 110 Atk Fire/Ground wallbreaker with Swords Dance)",
+      "Kadabra/Haunter (407 BST 118 SpA Levitate Psychic/Poison sweeper)",
+      "Vileplume/Poliwrath (510 BST Grass/Fighting drain bruiser with Moonlight)"
+    ],
+    "unfuse_recommendations": [
+      "1. Maintain current party fusions; the lineup holds ideal Ground, Psychic, and Flying counters for Koga's arena.",
+      "2. Once Linking Cords are obtained from Hotel Quests, unfuse Kadabra/Haunter at any Mart ($300) to evolve Kadabra into Alakazam and Haunter into Gengar before re-splicing."
+    ],
+    "upcoming_fusions": [
+      "Blastoise/Alakazam (Endgame Special titan once Linking Cord is applied)",
+      "Vileplume/Machamp (Physical fighting tank)"
+    ]
+  }
+}

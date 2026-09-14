@@ -1,0 +1,117 @@
+{
+  "starter": "Charmander",
+  "name": "Team Charmander: Hyper-Offense & Glass Cannon Synergy",
+  "archetype": "Fast special sweepers, Fire/Psychic glass cannons, and Grass/Flying tech pivots to conquer Water gyms.",
+  "gym_duel_core": [1, 2],
+  "gym_duel_rationale": "Misty enforces a strict 2v2 duel. Enter the arena with Bellsprout/Butterfree (Grass/Flying quad-resists Grass, resists Water, and uses Compound Eyes 97.5% Sleep Powder + Vine Whip to dismantle Misty) and Charmeleon/Kadabra (blistering 96 Speed Fire/Psychic glass cannon cleaning up with high SpA Psybeam).",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Charmeleon/Kadabra",
+      "types": ["Fire", "Psychic"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 24,
+      "ability": "Blaze",
+      "held_item": "Twisted Spoon",
+      "role": "High-Speed Glass Cannon & Gym Duelist",
+      "current_reached_moveset": [
+        "Psybeam",
+        "Fire Fang",
+        "Confusion",
+        "Disable"
+      ],
+      "progression_notes": "High-velocity glass cannon pairing Charmeleon with Kadabra. Yields 96 Base Speed and 93 Special Attack with dual Fire/Psychic STAB and Disable tempo control."
+    },
+    {
+      "slot": 2,
+      "species": "Bellsprout/Butterfree",
+      "types": ["Grass", "Flying"],
+      "status": "Active in Party (Route 24 Catch & Splice)",
+      "current_level": 24,
+      "ability": "Compound Eyes",
+      "held_item": "Miracle Seed",
+      "role": "Grass Status Pivot & Gym Duelist",
+      "current_reached_moveset": [
+        "Vine Whip",
+        "Psybeam",
+        "Acid",
+        "Sleep Powder"
+      ],
+      "progression_notes": "Fusing Route 24 Bellsprout with Butterfree gives Grass/Flying typing that quad-resists Mega Drain and resists Water Pulse. Compound Eyes ensures 97.5% accurate Sleep Powder."
+    },
+    {
+      "slot": 3,
+      "species": "Mankey/Sandshrew",
+      "types": ["Fighting", "Ground"],
+      "status": "Active in Party (Route 22 & Route 4 Splice)",
+      "current_level": 23,
+      "ability": "Vital Spirit",
+      "held_item": "Soft Sand",
+      "role": "Sleep-Immune Physical Breaker",
+      "current_reached_moveset": [
+        "Low Kick",
+        "Karate Chop",
+        "Magnitude",
+        "Fury Swipes"
+      ],
+      "progression_notes": "Combines Mankey's physical power with Sandshrew's Ground coverage and physical defense. Vital Spirit grants immunity to sleep moves."
+    },
+    {
+      "slot": 4,
+      "species": "Gyarados/Fearow",
+      "types": ["Water", "Flying"],
+      "status": "Active in Party (Route 4 Purchase & Splice)",
+      "current_level": 23,
+      "ability": "Intimidate",
+      "held_item": "Mystic Water",
+      "role": "Intimidate Physical Aerial Pivot",
+      "current_reached_moveset": [
+        "Bite",
+        "Aerial Ace",
+        "Thrash",
+        "Twister"
+      ],
+      "progression_notes": "Evolved from the Route 3 $500 Magikarp at Lv. 20 and spliced with Spearow. Intimidate cripples enemy attackers while Bite deals heavy damage."
+    }
+  ],
+  "flex_bench": [
+    {
+      "slot": "B1",
+      "species": "Oddish/Poliwag",
+      "types": ["Grass", "Water"],
+      "current_level": 22,
+      "ability": "Water Absorb",
+      "held_item": "Miracle Seed",
+      "role": "Water Absorb Defensive Pivot",
+      "why_use": "Route 24 Oddish spliced with Poliwag absorbs incoming Water attacks completely while providing secondary powder support."
+    },
+    {
+      "slot": "B2",
+      "species": "Clefairy/Zubat",
+      "types": ["Fairy", "Flying"],
+      "current_level": 22,
+      "ability": "Magic Guard",
+      "held_item": "Silk Scarf",
+      "role": "Magic Guard Hazard Absorber",
+      "why_use": "Mt. Moon Clefairy with Magic Guard ignores entry hazard chip and status passive damage."
+    }
+  ],
+  "fusion_lifecycle": {
+    "active_fusions": [
+      "Charmeleon/Kadabra (96 Spe Fire/Psychic starter glass cannon with STAB Psybeam)",
+      "Bellsprout/Butterfree (Grass/Flying Misty counter with 97.5% Sleep Powder and Vine Whip)",
+      "Mankey/Sandshrew (Fighting/Ground sleep-immune breaker with Low Kick and Magnitude)",
+      "Gyarados/Fearow (Water/Flying Intimidate physical pivot with Bite and Aerial Ace)"
+    ],
+    "unfuse_recommendations": [
+      "1. Purchase Super Splicers at Cerulean Poké Mart ($300 at any Mart).",
+      "2. Splice Charmeleon with Route 24 Kadabra for 96 Speed Fire/Psychic STAB.",
+      "3. Splice Route 24 Bellsprout with Butterfree for 97.5% accurate Sleep Powder to hard-counter Misty.",
+      "4. Evolve Route 3 Magikarp to Gyarados (Lv. 20) and splice with Spearow for early Intimidate aerial utility."
+    ],
+    "upcoming_fusions": [
+      "Charmeleon/Dugtrio (Chapter 3 Vermilion City starter splice for 100% Electric immunity against Surge)",
+      "Primeape/Sandslash (Physical fighting/ground fortress in Chapter 3)"
+    ]
+  }
+}

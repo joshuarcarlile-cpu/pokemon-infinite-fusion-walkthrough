@@ -1,0 +1,128 @@
+{
+  "starter": "Squirtle",
+  "name": "Team Squirtle: Aerial Tides & Seismic Dominance",
+  "archetype": "Ground immunities, Levitate Psychic artillery, and Intimidate Water pivots.",
+  "gym_duel_core": [1, 2, 3, 4, 6],
+  "gym_duel_rationale": "Giovanni relies on powerful Ground, Rock, and Fighting moves. When challenged, select your 5 designated Pokémon: Blastoise/Fearow (complete Ground immunity while Hydro Pump and Aqua Tail drown his Rock/Ground types), Alakazam/Weezing (Levitate grants total immunity to Earthquake while STAB Psychic obliterates his Fighting types), Jolteon/Sandslash (blazing speed and Volt Absorb to nullify Electabuzz/Dugtrio while returning lethal Earthquakes), Arbok/Primeape (Intimidate cuts physical Attack while Close Combat crushes Rhydon/Snorlax), and Lapras (Water Absorb neutralizes Surf while STAB Ice Beam freezes Giovanni's Ground titans).",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Blastoise/Fearow",
+      "types": ["Water", "Flying"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 54,
+      "ability": "Torrent",
+      "held_item": "Mystic Water",
+      "role": "Ground-Immune Aerial Cannon",
+      "current_reached_moveset": [
+        "Hydro Pump",
+        "Drill Peck",
+        "Aqua Tail",
+        "Roost"
+      ],
+      "progression_notes": "517 BST Water/Flying juggernaut. Completely immune to Ground-type Earthquakes. High-powered STAB Hydro Pump and Aqua Tail demolish Golem/Machamp and Rhydon/Snorlax, while Roost provides reliable recovery."
+    },
+    {
+      "slot": 2,
+      "species": "Alakazam/Weezing",
+      "types": ["Psychic", "Poison"],
+      "status": "Active in Party (Retained from Ch 7)",
+      "current_level": 53,
+      "ability": "Levitate",
+      "held_item": "Twisted Spoon",
+      "role": "Levitate Special Wallbreaker",
+      "current_reached_moveset": [
+        "Psychic",
+        "Sludge Bomb",
+        "Recover",
+        "Calm Mind"
+      ],
+      "progression_notes": "495 BST Levitate pivot with 118 SpA. Levitate makes it 100% immune to Giovanni's Earthquakes, allowing free Calm Mind boosts and STAB Psychic sweeps against Primeape/Nidoking."
+    },
+    {
+      "slot": 3,
+      "species": "Jolteon/Sandslash",
+      "types": ["Electric", "Ground"],
+      "status": "Active in Party (Retained from Ch 7)",
+      "current_level": 53,
+      "ability": "Volt Absorb",
+      "held_item": "Soft Sand",
+      "role": "Fast Electric/Ground Sweeper",
+      "current_reached_moveset": [
+        "Discharge",
+        "Earthquake",
+        "Pin Missile",
+        "Swords Dance"
+      ],
+      "progression_notes": "488 BST high-Speed sweeper. Volt Absorb provides an Electric immunity, completely shutting down Electabuzz/Dugtrio. STAB Earthquake flattens opposing Ground and Steel threats."
+    },
+    {
+      "slot": 4,
+      "species": "Arbok/Primeape",
+      "types": ["Poison", "Fighting"],
+      "status": "Active in Party (Retained from Ch 7)",
+      "current_level": 53,
+      "ability": "Intimidate",
+      "held_item": "Black Belt",
+      "role": "Intimidate Fighting Bruiser",
+      "current_reached_moveset": [
+        "Close Combat",
+        "Gunk Shot",
+        "Cross Chop",
+        "Glare"
+      ],
+      "progression_notes": "473 BST Intimidate bruiser. Weakens Giovanni's physical attackers upon entry and paralyzes threats with Glare. STAB Close Combat delivers massive super-effective damage to Rhydon/Snorlax."
+    },
+    {
+      "slot": 5,
+      "species": "Snorlax",
+      "types": ["Normal"],
+      "status": "Active in Party (Retained from Ch 7)",
+      "current_level": 53,
+      "ability": "Thick Fat",
+      "held_item": "Leftovers",
+      "role": "Thick Fat Normal Sponge",
+      "current_reached_moveset": [
+        "Body Slam",
+        "Rest",
+        "Sleep Talk",
+        "Heavy Slam"
+      ],
+      "progression_notes": "Colossal 160 HP normal sponge. Body Slam provides consistent damage and paralysis, while Rest and Sleep Talk easily absorb Sandstorm and passive damage."
+    },
+    {
+      "slot": 6,
+      "species": "Lapras",
+      "types": ["Water", "Ice"],
+      "status": "Active in Party (Retained from Ch 7)",
+      "current_level": 52,
+      "ability": "Water Absorb",
+      "held_item": "NeverMeltIce",
+      "role": "Ice Artillery & Water Pivot",
+      "current_reached_moveset": [
+        "Ice Beam",
+        "Hydro Pump",
+        "Body Slam",
+        "Confuse Ray"
+      ],
+      "progression_notes": "535 BST Water/Ice wall. Water Absorb completely absorbs incoming Surf attacks, while STAB Ice Beam freezes Giovanni's Ground and Flying hybrids with super-effective damage."
+    }
+  ],
+  "flex_bench": [
+    {
+      "species": "Venusaur",
+      "role": "Chlorophyll Sleep Seed Pivot",
+      "rationale": "High-bulk Grass anchor with Sleep Powder, Leech Seed, and Synthesis."
+    },
+    {
+      "species": "Gyarados",
+      "role": "Intimidate Dragon Dance Sweeper",
+      "rationale": "Ground-immune Water sweeper setting up Dragon Dance to sweep."
+    },
+    {
+      "species": "Hitmontop",
+      "role": "Technician Rapid Spinner",
+      "rationale": "Triple Kick and Rapid Spin utility to control entry hazards."
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "location": "Vermillion City (ID 19)",
+  "sections": {
+    "Surf": [
+      {
+        "dex_id": "072",
+        "name": "Tentacool",
+        "type1": "Water",
+        "type2": "Poison",
+        "levels": "5-40",
+        "catch_rate": "190",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "dex_id": "073",
+        "name": "Tentacruel",
+        "type1": "Water",
+        "type2": "Poison",
+        "levels": "35-40",
+        "catch_rate": "60",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "118",
+        "name": "Goldeen",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-35",
+        "catch_rate": "225",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "119",
+        "name": "Seaking",
+        "type1": "Water",
+        "type2": "",
+        "levels": "35-40",
+        "catch_rate": "60",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "dex_id": "072",
+        "name": "Tentacool",
+        "type1": "Water",
+        "type2": "Poison",
+        "levels": "5",
+        "catch_rate": "190",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "090",
+        "name": "Shellder",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5",
+        "catch_rate": "190",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "098",
+        "name": "Krabby",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5",
+        "catch_rate": "225",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "120",
+        "name": "Staryu",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5",
+        "catch_rate": "225",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5",
+        "catch_rate": "255",
+        "rates": [
+          "60%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "dex_id": "098",
+        "name": "Krabby",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-15",
+        "catch_rate": "225",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "116",
+        "name": "Horsea",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-15",
+        "catch_rate": "225",
+        "rates": [
+          "29%"
+        ]
+      },
+      {
+        "dex_id": "120",
+        "name": "Staryu",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-15",
+        "catch_rate": "225",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-15",
+        "catch_rate": "255",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "488",
+        "name": "Torkoal",
+        "type1": "Fire",
+        "type2": "",
+        "levels": "5-15",
+        "catch_rate": "90",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "dex_id": "090",
+        "name": "Shellder",
+        "type1": "Water",
+        "type2": "",
+        "levels": "15-25",
+        "catch_rate": "190",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "098",
+        "name": "Krabby",
+        "type1": "Water",
+        "type2": "",
+        "levels": "15-35",
+        "catch_rate": "225",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "116",
+        "name": "Horsea",
+        "type1": "Water",
+        "type2": "",
+        "levels": "15-35",
+        "catch_rate": "225",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "120",
+        "name": "Staryu",
+        "type1": "Water",
+        "type2": "",
+        "levels": "15-25",
+        "catch_rate": "225",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-15",
+        "catch_rate": "255",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "130",
+        "name": "Gyarados",
+        "type1": "Water",
+        "type2": "Flying",
+        "levels": "15-25",
+        "catch_rate": "45",
+        "rates": [
+          "9%"
+        ]
+      },
+      {
+        "dex_id": "488",
+        "name": "Torkoal",
+        "type1": "Fire",
+        "type2": "",
+        "levels": "25-35",
+        "catch_rate": "90",
+        "rates": [
+          "1%"
+        ]
+      }
+    ]
+  }
+}

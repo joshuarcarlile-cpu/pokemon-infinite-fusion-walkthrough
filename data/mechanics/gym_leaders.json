@@ -1,0 +1,4827 @@
+{
+  "classic": {
+    "ELITEFOUR_Lance": {
+      "id_number": 336,
+      "trainer_type": "ELITEFOUR_Lance",
+      "real_name": "Lance",
+      "items": [],
+      "pokemon": [
+        {
+          "species": "DRAGONITE",
+          "level": 50
+        },
+        {
+          "species": "AERODACTYL",
+          "level": 50
+        },
+        {
+          "species": "GYARADOS",
+          "level": 50
+        }
+      ]
+    },
+    "LEADER_Brock": {
+      "id_number": 356,
+      "trainer_type": "LEADER_Brock",
+      "real_name": "Brock",
+      "items": [],
+      "pokemon": [
+        {
+          "species": "B16H74",
+          "level": 9,
+          "moves": [
+            "GUST",
+            "SANDATTACK",
+            "ROCKTOMB",
+            "ROCKPOLISH"
+          ],
+          "ability_index": 0
+        },
+        {
+          "species": "B95H50",
+          "level": 12,
+          "moves": [
+            "ROCKTOMB",
+            "BIND",
+            "DIG",
+            "RAGE"
+          ]
+        }
+      ]
+    },
+    "LEADER_Misty": {
+      "id_number": 358,
+      "trainer_type": "LEADER_Misty",
+      "real_name": "Misty",
+      "items": [
+        "SUPERPOTION"
+      ],
+      "pokemon": [
+        {
+          "species": "B118H39",
+          "level": 19,
+          "moves": [
+            "WATERPULSE",
+            "DISARMINGVOICE",
+            "SING",
+            "HORNATTACK"
+          ],
+          "ability_index": 1,
+          "item": "MYSTICWATER"
+        },
+        {
+          "species": "B120H43",
+          "level": 22,
+          "moves": [
+            "WATERPULSE",
+            "RECOVER",
+            "MEGADRAIN",
+            "STUNSPORE"
+          ],
+          "ability_index": 3,
+          "item": "MYSTICWATER"
+        }
+      ]
+    },
+    "LEADER_Surge": {
+      "id_number": 360,
+      "trainer_type": "LEADER_Surge",
+      "real_name": "Lt. Surge",
+      "items": [
+        "SUPERPOTION",
+        "SUPERPOTION"
+      ],
+      "pokemon": [
+        {
+          "species": "B98H100",
+          "level": 24,
+          "moves": [
+            "METALCLAW",
+            "BUBBLE",
+            "LIGHTSCREEN",
+            "SPARK"
+          ],
+          "ability_index": 1,
+          "item": "MAGNET"
+        },
+        {
+          "species": "B50H25",
+          "level": 24,
+          "moves": [
+            "SANDATTACK",
+            "MUDSLAP",
+            "QUICKATTACK",
+            "THUNDERSHOCK"
+          ],
+          "ability_index": 1,
+          "item": "MAGNET"
+        },
+        {
+          "species": "B125H26",
+          "level": 26,
+          "moves": [
+            "THUNDERPUNCH",
+            "THUNDERWAVE",
+            "QUICKATTACK",
+            "DOUBLETEAM"
+          ],
+          "ability_index": 0,
+          "item": "SITRUSBERRY"
+        }
+      ]
+    },
+    "LEADER_Erika": {
+      "id_number": 362,
+      "trainer_type": "LEADER_Erika",
+      "real_name": "Erika",
+      "items": [
+        "HYPERPOTION"
+      ],
+      "pokemon": [
+        {
+          "species": "B84H103",
+          "level": 33,
+          "moves": [
+            "PLUCK",
+            "FURYATTACK",
+            "SEEDBOMB",
+            "HYPNOSIS"
+          ],
+          "ability_index": 1,
+          "item": "MIRACLESEED"
+        },
+        {
+          "species": "B57H114",
+          "level": 33,
+          "moves": [
+            "ANCIENTPOWER",
+            "SEISMICTOSS",
+            "MEGADRAIN",
+            "SLEEPPOWDER"
+          ],
+          "ability_index": 0,
+          "item": "MIRACLESEED"
+        },
+        {
+          "species": "B71H45",
+          "level": 35,
+          "moves": [
+            "SYNTHESIS",
+            "SUNNYDAY",
+            "SOLARBEAM",
+            "POISONPOWDER"
+          ],
+          "ability_index": 4,
+          "item": "SITRUSBERRY"
+        }
+      ]
+    },
+    "LEADER_Koga": {
+      "id_number": 365,
+      "trainer_type": "LEADER_Koga",
+      "real_name": "Koga",
+      "items": [
+        "HYPERPOTION"
+      ],
+      "pokemon": [
+        {
+          "species": "B88H49",
+          "level": 35,
+          "moves": [
+            "SIGNALBEAM",
+            "SLUDGEBOMB",
+            "FLING",
+            "DISABLE"
+          ],
+          "ability_index": 1,
+          "item": "POISONBARB"
+        },
+        {
+          "species": "B109H81",
+          "level": 36,
+          "moves": [
+            "SLUDGEBOMB",
+            "SELFDESTRUCT",
+            "SONICBOOM",
+            "SUPERSONIC"
+          ],
+          "ability_index": 0,
+          "item": "POISONBARB"
+        },
+        {
+          "species": "B123H15",
+          "level": 36,
+          "moves": [
+            "AGILITY",
+            "PINMISSILE",
+            "POISONJAB",
+            "TOXICSPIKES"
+          ],
+          "ability_index": 0,
+          "item": "POISONBARB"
+        },
+        {
+          "species": "B89H113",
+          "level": 38,
+          "moves": [
+            "TOXIC",
+            "DOUBLETEAM",
+            "TAKEDOWN",
+            "ACIDARMOR"
+          ],
+          "ability_index": 1,
+          "item": "BLACKSLUDGE"
+        }
+      ]
+    },
+    "LEADER_Sabrina": {
+      "id_number": 367,
+      "trainer_type": "LEADER_Sabrina",
+      "real_name": "Sabrina",
+      "items": [
+        "MAXPOTION",
+        "MAXPOTION"
+      ],
+      "pokemon": [
+        {
+          "species": "B122H97",
+          "level": 41,
+          "moves": [
+            "NASTYPLOT",
+            "BATONPASS",
+            "HYPNOSIS",
+            "PSYCHIC"
+          ],
+          "ability_index": 0,
+          "item": "TWISTEDSPOON"
+        },
+        {
+          "species": "B197H196",
+          "level": 41,
+          "moves": [
+            "MOONLIGHT",
+            "FUTURESIGHT",
+            "DARKPULSE",
+            "LIGHTSCREEN"
+          ],
+          "ability_index": 0,
+          "item": "TWISTEDSPOON"
+        },
+        {
+          "species": "B80H65",
+          "level": 42,
+          "moves": [
+            "PSYCHOCUT",
+            "SURF",
+            "RECOVER",
+            "AMNESIA"
+          ],
+          "ability_index": 0,
+          "item": "TWISTEDSPOON"
+        },
+        {
+          "species": "B65H94",
+          "level": 45,
+          "moves": [
+            "DESTINYBOND",
+            "SHADOWBALL",
+            "PSYCHOCUT",
+            "CALMMIND"
+          ],
+          "ability_index": 1,
+          "item": "TWISTEDSPOON"
+        }
+      ]
+    },
+    "LEADER_Blaine": {
+      "id_number": 369,
+      "trainer_type": "LEADER_Blaine",
+      "real_name": "Blaine",
+      "items": [
+        "FULLRESTORE"
+      ],
+      "pokemon": [
+        {
+          "species": "B78H44",
+          "level": 47,
+          "moves": [
+            "SUNNYDAY",
+            "SOLARBEAM",
+            "FLAMETHROWER",
+            "TOXIC"
+          ],
+          "ability_index": 1,
+          "item": "CHARCOAL"
+        },
+        {
+          "species": "B59H38",
+          "level": 47,
+          "moves": [
+            "ROAR",
+            "FIREFANG",
+            "CONFUSERAY",
+            "THUNDERFANG"
+          ],
+          "ability_index": 0,
+          "item": "CHARCOAL"
+        },
+        {
+          "species": "B112H126",
+          "level": 49,
+          "moves": [
+            "FIREPUNCH",
+            "DRILLRUN",
+            "CONFUSERAY",
+            "HAMMERARM"
+          ],
+          "ability_index": 0,
+          "item": "PASSHOBERRY"
+        },
+        {
+          "species": "B142H6",
+          "level": 51,
+          "moves": [
+            "CRUNCH",
+            "SKYDROP",
+            "FIREBLAST",
+            "HYPERBEAM"
+          ],
+          "ability_index": 0,
+          "item": "CHARCOAL"
+        }
+      ]
+    },
+    "LEADER_Giovanni": {
+      "id_number": 371,
+      "trainer_type": "LEADER_Giovanni",
+      "real_name": "Giovanni",
+      "items": [
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE"
+      ],
+      "pokemon": [
+        {
+          "species": "B131H265",
+          "level": 50,
+          "moves": [
+            "SURF",
+            "BULLDOZE",
+            "SANDSTORM",
+            "SING"
+          ],
+          "ability_index": 1,
+          "item": "SMOOTHROCK",
+          "poke_ball": "ULTRABALL"
+        },
+        {
+          "species": "B51H125",
+          "level": 50,
+          "moves": [
+            "BULLDOZE",
+            "LIGHTSCREEN",
+            "THUNDERWAVE",
+            "DISCHARGE"
+          ],
+          "ability_index": 0,
+          "item": "SOFTSAND",
+          "poke_ball": "ULTRABALL"
+        },
+        {
+          "species": "B68H76",
+          "level": 52,
+          "moves": [
+            "EARTHQUAKE",
+            "DYNAMICPUNCH",
+            "COUNTER",
+            "SCARYFACE"
+          ],
+          "ability_index": 0,
+          "item": "SOFTSAND",
+          "poke_ball": "ULTRABALL"
+        },
+        {
+          "species": "B34H57",
+          "level": 54,
+          "moves": [
+            "EARTHQUAKE",
+            "CLOSECOMBAT",
+            "MEGAHORN",
+            "SWAGGER"
+          ],
+          "ability_index": 1,
+          "item": "SOFTSAND",
+          "poke_ball": "ULTRABALL"
+        },
+        {
+          "species": "B143H112",
+          "level": 54,
+          "moves": [
+            "EARTHQUAKE",
+            "REST",
+            "SNORE",
+            "HORNDRILL"
+          ],
+          "ability_index": 0,
+          "item": "SOFTSAND",
+          "poke_ball": "ULTRABALL"
+        }
+      ]
+    },
+    "ELITEFOUR_Lorelei": {
+      "id_number": 373,
+      "trainer_type": "ELITEFOUR_Lorelei",
+      "real_name": "Lorelei",
+      "items": [
+        "FULLRESTORE",
+        "FULLRESTORE"
+      ],
+      "pokemon": [
+        {
+          "species": "B87H126",
+          "level": 54,
+          "moves": [
+            "BUBBLEBEAM",
+            "FLAMETHROWER",
+            "HAIL",
+            "PROTECT"
+          ],
+          "ability_index": 1,
+          "item": "NEVERMELTICE"
+        },
+        {
+          "species": "B80H221",
+          "level": 54,
+          "moves": [
+            "HAIL",
+            "SLACKOFF",
+            "TAKEDOWN",
+            "ICEFANG"
+          ],
+          "ability_index": 1,
+          "item": "NEVERMELTICE"
+        },
+        {
+          "species": "B91H73",
+          "level": 53,
+          "moves": [
+            "SPIKES",
+            "STEALTHROCK",
+            "WATERPULSE",
+            "ICICLECRASH"
+          ],
+          "ability_index": 0,
+          "item": "NEVERMELTICE"
+        },
+        {
+          "species": "B266H124",
+          "level": 57,
+          "moves": [
+            "LEECHSEED",
+            "DRAININGKISS",
+            "SLEEPPOWDER",
+            "ICEPUNCH"
+          ],
+          "ability_index": 1,
+          "item": "NEVERMELTICE"
+        },
+        {
+          "species": "B131H262",
+          "level": 57,
+          "moves": [
+            "PERISHSONG",
+            "NIGHTSLASH",
+            "SURF",
+            "EMBARGO"
+          ],
+          "ability_index": 1,
+          "item": "NEVERMELTICE"
+        }
+      ]
+    },
+    "ELITEFOUR_Bruno": {
+      "id_number": 376,
+      "trainer_type": "ELITEFOUR_Bruno",
+      "real_name": "Bruno",
+      "items": [
+        "FULLRESTORE",
+        "FULLRESTORE"
+      ],
+      "pokemon": [
+        {
+          "species": "B125H68",
+          "level": 53,
+          "moves": [
+            "THUNDERPUNCH",
+            "CROSSCHOP",
+            "DISCHARGE",
+            "FOCUSENERGY"
+          ],
+          "ability_index": 1,
+          "item": "BLACKBELT"
+        },
+        {
+          "species": "B214H212",
+          "level": 57,
+          "moves": [
+            "XSCISSOR",
+            "SWORDSDANCE",
+            "CLOSECOMBAT",
+            "AGILITY"
+          ],
+          "ability_index": 1,
+          "item": "BLACKBELT"
+        },
+        {
+          "species": "B107H105",
+          "level": 54,
+          "moves": [
+            "DYNAMICPUNCH",
+            "BONEMERANG",
+            "DOUBLETEAM",
+            "COUNTER"
+          ],
+          "ability_index": 0,
+          "item": "BLACKBELT"
+        },
+        {
+          "species": "B68H208",
+          "level": 53,
+          "moves": [
+            "SANDSTORM",
+            "IRONTAIL",
+            "SUBMISSION",
+            "CRUNCH"
+          ],
+          "ability_index": 1,
+          "item": "BLACKBELT"
+        },
+        {
+          "species": "B95H263",
+          "level": 57,
+          "moves": [
+            "ZAPCANNON",
+            "MAGNETRISE",
+            "LOCKON",
+            "IRONTAIL"
+          ],
+          "ability_index": 1,
+          "item": "BLACKBELT"
+        }
+      ]
+    },
+    "ELITEFOUR_Agatha": {
+      "id_number": 379,
+      "trainer_type": "ELITEFOUR_Agatha",
+      "real_name": "Agatha",
+      "items": [
+        "FULLRESTORE",
+        "FULLRESTORE"
+      ],
+      "pokemon": [
+        {
+          "species": "B169H255",
+          "level": 57,
+          "moves": [
+            "WINGATTACK",
+            "SHADOWBALL",
+            "CONFUSERAY",
+            "MEANLOOK"
+          ],
+          "ability_index": 1,
+          "item": "SPELLTAG"
+        },
+        {
+          "species": "B229H94",
+          "level": 55,
+          "moves": [
+            "INFERNO",
+            "SPITE",
+            "DESTINYBOND",
+            "SHADOWBALL"
+          ],
+          "ability_index": 0,
+          "item": "SPELLTAG"
+        },
+        {
+          "species": "B93H197",
+          "level": 55,
+          "moves": [
+            "GUARDSWAP",
+            "DARKPULSE",
+            "MOONLIGHT",
+            "NIGHTSHADE"
+          ],
+          "ability_index": 0,
+          "item": "SPELLTAG"
+        },
+        {
+          "species": "B94H143",
+          "level": 58,
+          "moves": [
+            "REST",
+            "CURSE",
+            "BODYSLAM",
+            "SHADOWPUNCH"
+          ],
+          "ability_index": 2,
+          "item": "SPELLTAG"
+        },
+        {
+          "species": "B94H202",
+          "level": 55,
+          "moves": [
+            "DESTINYBOND",
+            "COUNTER",
+            "MIRRORCOAT",
+            "CURSE"
+          ],
+          "ability_index": 1,
+          "item": "SPELLTAG"
+        }
+      ]
+    },
+    "CHAMPION": {
+      "id_number": 385,
+      "trainer_type": "CHAMPION",
+      "real_name": "Blue",
+      "items": [
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE"
+      ],
+      "pokemon": [
+        {
+          "species": "B18H34",
+          "level": 59,
+          "moves": [
+            "EARTHQUAKE",
+            "WINGATTACK",
+            "DOUBLETEAM",
+            "SWORDSDANCE"
+          ],
+          "ability_index": 1,
+          "item": "LAXINCENSE"
+        },
+        {
+          "species": "B103H128",
+          "level": 59,
+          "moves": [
+            "ZENHEADBUTT",
+            "GIGAIMPACT",
+            "SCARYFACE",
+            "SWAGGER"
+          ],
+          "ability_index": 2,
+          "item": "KINGSROCK"
+        },
+        {
+          "species": "B268H112",
+          "level": 60,
+          "moves": [
+            "FIREBLAST",
+            "DRILLRUN",
+            "WILLOWISP",
+            "STONEEDGE"
+          ],
+          "ability_index": 1,
+          "item": "ABSORBBULB"
+        },
+        {
+          "species": "B130H267",
+          "level": 61,
+          "moves": [
+            "RAINDANCE",
+            "THUNDERPUNCH",
+            "WATERFALL",
+            "DRAGONDANCE"
+          ],
+          "ability_index": 2,
+          "item": "DAMPROCK"
+        },
+        {
+          "species": "B65H121",
+          "level": 58,
+          "moves": [
+            "PSYCHIC",
+            "REFLECT",
+            "SURF",
+            "COSMICPOWER"
+          ],
+          "ability_index": 1,
+          "item": "WISEGLASSES"
+        },
+        {
+          "species": "MEW",
+          "level": 62,
+          "moves": [
+            "HYDROCANNON",
+            "FLAREBLITZ",
+            "PROTECT",
+            "FLY"
+          ],
+          "ability_index": 0,
+          "item": "LEFTOVERS"
+        }
+      ]
+    },
+    "LEADER_Whitney": {
+      "id_number": 394,
+      "trainer_type": "LEADER_Whitney",
+      "real_name": "Whitney",
+      "items": [
+        "FULLRESTORE",
+        "FULLRESTORE"
+      ],
+      "pokemon": [
+        {
+          "species": "B210H108",
+          "level": 55,
+          "moves": [
+            "PLAYROUGH",
+            "LICK",
+            "CHIPAWAY",
+            "CHARM"
+          ],
+          "item": "SILKSCARF"
+        },
+        {
+          "species": "B171H203",
+          "level": 55,
+          "moves": [
+            "SPARK",
+            "DOUBLEHIT",
+            "POWERSWAP",
+            "AQUARING"
+          ],
+          "ability_index": 0,
+          "item": "SILKSCARF"
+        },
+        {
+          "species": "B115H206",
+          "level": 56,
+          "moves": [
+            "DOUBLEHIT",
+            "COIL",
+            "DIG",
+            "DIZZYPUNCH"
+          ],
+          "ability_index": 2,
+          "item": "SILKSCARF"
+        },
+        {
+          "species": "B128H190",
+          "level": 56,
+          "moves": [
+            "TICKLE",
+            "TAKEDOWN",
+            "WORKUP",
+            "REST"
+          ],
+          "item": "LUMBERRY"
+        },
+        {
+          "species": "B241H113",
+          "level": 58,
+          "moves": [
+            "METRONOME",
+            "REFRESH",
+            "ROLLOUT",
+            "MILKDRINK"
+          ],
+          "item": "EVIOLITE"
+        }
+      ]
+    },
+    "LEADER_Kurt": {
+      "id_number": 396,
+      "trainer_type": "LEADER_Kurt",
+      "real_name": "Kurt",
+      "items": [
+        "FULLRESTORE",
+        "FULLRESTORE"
+      ],
+      "pokemon": [
+        {
+          "species": "B168H15",
+          "level": 56,
+          "moves": [
+            "SPIDERWEB",
+            "TWINEEDLE",
+            "SHADOWSNEAK",
+            "QUIVERDANCE"
+          ],
+          "item": "SILVERPOWDER"
+        },
+        {
+          "species": "B91H205",
+          "level": 56,
+          "moves": [
+            "IRONDEFENSE",
+            "SPIKECANNON",
+            "EXPLOSION",
+            "BUGBITE"
+          ],
+          "ability_index": 0,
+          "item": "SILVERPOWDER"
+        },
+        {
+          "species": "B212H80",
+          "level": 58,
+          "moves": [
+            "RECOVER",
+            "PSYCHUP",
+            "XSCISSOR",
+            "IRONDEFENSE"
+          ],
+          "item": "SILVERPOWDER"
+        },
+        {
+          "species": "B230H270",
+          "level": 58,
+          "moves": [
+            "DRAGONPULSE",
+            "SUPERSONIC",
+            "UTURN",
+            "DOUBLETEAM"
+          ],
+          "item": "SILVERPOWDER"
+        },
+        {
+          "species": "B213H242",
+          "level": 62,
+          "moves": [
+            "POWERTRICK",
+            "MINIMIZE",
+            "BUGBITE",
+            "SOFTBOILED"
+          ],
+          "item": "LEFTOVERS"
+        }
+      ]
+    },
+    "LEADER_Falkner": {
+      "id_number": 398,
+      "trainer_type": "LEADER_Falkner",
+      "real_name": "Falkner",
+      "items": [
+        "FULLRESTORE",
+        "FULLRESTORE"
+      ],
+      "pokemon": [
+        {
+          "species": "B164H178",
+          "level": 58,
+          "moves": [
+            "LUCKYCHANT",
+            "PSYCHIC",
+            "REFLECT",
+            "AIRSLASH"
+          ],
+          "ability_index": 0,
+          "item": "SHARPBEAK"
+        },
+        {
+          "species": "B256H210",
+          "level": 58,
+          "moves": [
+            "ROAR",
+            "FAIRYWIND",
+            "NIGHTSLASH",
+            "FEATHERDANCE"
+          ],
+          "ability_index": 3,
+          "item": "SHARPBEAK"
+        },
+        {
+          "species": "B229H227",
+          "level": 60,
+          "moves": [
+            "FLAMETHROWER",
+            "FAINTATTACK",
+            "STEELWING",
+            "DEFOG"
+          ],
+          "ability_index": 1,
+          "item": "AIRBALLOON"
+        },
+        {
+          "species": "B269H105",
+          "level": 61,
+          "moves": [
+            "BONERUSH",
+            "FOCUSENERGY",
+            "AIRSLASH",
+            "PROTECT"
+          ],
+          "ability_index": 3,
+          "item": "SHARPBEAK"
+        },
+        {
+          "species": "B18H217",
+          "level": 63,
+          "moves": [
+            "WINGATTACK",
+            "FURYSWIPES",
+            "REST",
+            "SCARYFACE"
+          ],
+          "ability_index": 1,
+          "item": "SHARPBEAK"
+        }
+      ]
+    },
+    "LEADER_Clair": {
+      "id_number": 400,
+      "trainer_type": "LEADER_Clair",
+      "real_name": "Clair",
+      "items": [
+        "FULLRESTORE",
+        "FULLRESTORE"
+      ],
+      "pokemon": [
+        {
+          "species": "B130H160",
+          "level": 62,
+          "moves": [
+            "CRUNCH",
+            "FIREFANG",
+            "SCREECH",
+            "AQUATAIL"
+          ],
+          "ability_index": 0,
+          "item": "DRAGONFANG"
+        },
+        {
+          "species": "B148H232",
+          "level": 62,
+          "moves": [
+            "THUNDERWAVE",
+            "DRAGONPULSE",
+            "MAGNITUDE",
+            "AQUARING"
+          ],
+          "ability_index": 0,
+          "item": "DRAGONFANG"
+        },
+        {
+          "species": "B230H272",
+          "level": 63,
+          "moves": [
+            "ICEBEAM",
+            "MIRRORCOAT",
+            "SMOKESCREEN",
+            "TWISTER"
+          ],
+          "ability_index": 3,
+          "item": "DRAGONFANG"
+        },
+        {
+          "species": "B6H168",
+          "level": 63,
+          "moves": [
+            "SPIDERWEB",
+            "FLAREBLITZ",
+            "PINMISSILE",
+            "OUTRAGE"
+          ],
+          "ability_index": 2,
+          "item": "DRAGONFANG"
+        },
+        {
+          "species": "B142H299",
+          "level": 66,
+          "moves": [
+            "DUALCHOP",
+            "DRAGONDANCE",
+            "IRONHEAD",
+            "CRUNCH"
+          ],
+          "ability_index": 0,
+          "item": "DRAGONFANG"
+        }
+      ]
+    },
+    "LEADER_Morty": {
+      "id_number": 402,
+      "trainer_type": "LEADER_Morty",
+      "real_name": "Morty",
+      "items": [
+        "FULLRESTORE",
+        "FULLRESTORE"
+      ],
+      "pokemon": [
+        {
+          "species": "B338H94",
+          "level": 65,
+          "moves": [
+            "MEANLOOK",
+            "PURSUIT",
+            "SHADOWBALL",
+            "CURSE"
+          ],
+          "ability_index": 0,
+          "item": "SPELLTAG"
+        },
+        {
+          "species": "B289H262",
+          "level": 63,
+          "moves": [
+            "GRUDGE",
+            "NIGHTSLASH",
+            "HEALBLOCK",
+            "SHADOWSNEAK"
+          ],
+          "ability_index": 0,
+          "item": "FOCUSSASH"
+        },
+        {
+          "species": "B295H36",
+          "level": 65,
+          "moves": [
+            "CURSE",
+            "ATTRACT",
+            "MINIMIZE",
+            "OMINOUSWIND"
+          ],
+          "ability_index": 1,
+          "item": "SPELLTAG"
+        },
+        {
+          "species": "B329H143",
+          "level": 64,
+          "moves": [
+            "SWORDSDANCE",
+            "KINGSSHIELD",
+            "BODYSLAM",
+            "SHADOWPUNCH"
+          ],
+          "ability_index": 1,
+          "item": "LEFTOVERS"
+        },
+        {
+          "species": "B313H107",
+          "level": 67,
+          "moves": [
+            "DRAINPUNCH",
+            "SHADOWCLAW",
+            "BULKUP",
+            "THUNDERPUNCH"
+          ],
+          "ability_index": 1,
+          "item": "BIGROOT"
+        }
+      ]
+    },
+    "LEADER_Pryce": {
+      "id_number": 404,
+      "trainer_type": "LEADER_Pryce",
+      "real_name": "Pryce",
+      "items": [
+        "FULLRESTORE",
+        "FULLRESTORE"
+      ],
+      "pokemon": [
+        {
+          "species": "B199H87",
+          "level": 65,
+          "moves": [
+            "NASTYPLOT",
+            "BATONPASS",
+            "SAFEGUARD",
+            "ICESHARD"
+          ],
+          "ability_index": 0,
+          "item": "LEFTOVERS"
+        },
+        {
+          "species": "B308H274",
+          "level": 64,
+          "moves": [
+            "HAIL",
+            "PROTECT",
+            "IRONDEFENSE",
+            "EARTHQUAKE"
+          ],
+          "ability_index": 1,
+          "item": "ICYROCK"
+        },
+        {
+          "species": "B262H321",
+          "level": 65,
+          "moves": [
+            "CLOSECOMBAT",
+            "FLAREBLITZ",
+            "ICEPUNCH",
+            "NIGHTSLASH"
+          ],
+          "ability_index": 0,
+          "item": "NEVERMELTICE"
+        },
+        {
+          "species": "B91H326",
+          "level": 65,
+          "moves": [
+            "ICICLESPEAR",
+            "SPIKECANNON",
+            "IRONDEFENSE",
+            "REST"
+          ],
+          "ability_index": 3,
+          "item": "ROCKYHELMET"
+        },
+        {
+          "species": "B314H124",
+          "level": 65,
+          "moves": [
+            "PSYCHIC",
+            "BLIZZARD",
+            "SURF",
+            "FAKETEARS"
+          ],
+          "ability_index": 0,
+          "item": "WISEGLASSES"
+        }
+      ]
+    },
+    "LEADER_Jasmine": {
+      "id_number": 406,
+      "trainer_type": "LEADER_Jasmine",
+      "real_name": "Jasmine",
+      "items": [
+        "FULLRESTORE",
+        "FULLRESTORE"
+      ],
+      "pokemon": [
+        {
+          "species": "B85H227",
+          "level": 66,
+          "moves": [
+            "STEELWING",
+            "WHIRLWIND",
+            "AIRSLASH",
+            "SPIKES"
+          ],
+          "ability_index": 1,
+          "item": "METALCOAT"
+        },
+        {
+          "species": "B112H293",
+          "level": 67,
+          "moves": [
+            "STONEEDGE",
+            "MAGNETRISE",
+            "METEORMASH",
+            "IRONDEFENSE"
+          ],
+          "ability_index": 1,
+          "item": "EVIOLITE"
+        },
+        {
+          "species": "B9H263",
+          "level": 66,
+          "moves": [
+            "IRONDEFENSE",
+            "HYDROCANNON",
+            "LOCKON",
+            "MIRRORSHOT"
+          ],
+          "ability_index": 1,
+          "item": "ZOOMLENS"
+        },
+        {
+          "species": "B331H212",
+          "level": 67,
+          "moves": [
+            "SWORDSDANCE",
+            "NIGHTSLASH",
+            "XSCISSOR",
+            "FOCUSENERGY"
+          ],
+          "ability_index": 0,
+          "item": "RAZORCLAW"
+        },
+        {
+          "species": "B208H333",
+          "level": 68,
+          "moves": [
+            "EARTHQUAKE",
+            "DOUBLEEDGE",
+            "HEAVYSLAM",
+            "HEADSMASH"
+          ],
+          "ability_index": 0,
+          "item": "METALCOAT"
+        }
+      ]
+    },
+    "LEADER_Chuck": {
+      "id_number": 408,
+      "trainer_type": "LEADER_Chuck",
+      "real_name": "Chuck",
+      "items": [
+        "FULLRESTORE",
+        "FULLRESTORE"
+      ],
+      "pokemon": [
+        {
+          "species": "B68H141",
+          "level": 62,
+          "moves": [
+            "DYNAMICPUNCH",
+            "WATERFALL",
+            "STONEEDGE",
+            "SLASH"
+          ],
+          "ability_index": 3,
+          "item": "MUSCLEBAND"
+        },
+        {
+          "species": "B321H281",
+          "level": 62,
+          "moves": [
+            "CLOSECOMBAT",
+            "BLAZEKICK",
+            "BRAVEBIRD",
+            "TAUNT"
+          ],
+          "ability_index": 0,
+          "item": "EXPERTBELT"
+        },
+        {
+          "species": "B57H62",
+          "level": 64,
+          "moves": [
+            "CIRCLETHROW",
+            "BELLYDRUM",
+            "CLOSECOMBAT",
+            "THRASH"
+          ],
+          "ability_index": 3,
+          "item": "EXPERTBELT"
+        },
+        {
+          "species": "B334H296",
+          "level": 63,
+          "moves": [
+            "AURASPHERE",
+            "DRAGONPULSE",
+            "DETECT",
+            "EARTHPOWER"
+          ],
+          "ability_index": 1,
+          "item": "WISEGLASSES"
+        },
+        {
+          "species": "B143H107",
+          "level": 64,
+          "moves": [
+            "REST",
+            "DIZZYPUNCH",
+            "SKYUPPERCUT",
+            "COUNTER"
+          ],
+          "ability_index": 1,
+          "item": "LEFTOVERS"
+        }
+      ]
+    },
+    "CHAMPION_Sinnoh": {
+      "id_number": 668,
+      "trainer_type": "CHAMPION_Sinnoh",
+      "real_name": "Cynthia",
+      "items": [],
+      "pokemon": [
+        {
+          "species": "B295H275",
+          "level": 71,
+          "moves": [
+            "CURSE",
+            "RECOVER",
+            "SHADOWBALL",
+            "TRIATTACK"
+          ],
+          "ability_index": 1,
+          "item": "SITRUSBERRY"
+        },
+        {
+          "species": "B272H269",
+          "level": 71,
+          "moves": [
+            "DAZZLINGGLEAM",
+            "ICEBEAM",
+            "LIGHTSCREEN",
+            "THUNDERWAVE"
+          ],
+          "ability_index": 1,
+          "item": "LEFTOVERS"
+        },
+        {
+          "species": "B135H335",
+          "level": 71,
+          "moves": [
+            "THUNDER",
+            "MIRRORCOAT",
+            "SCALD",
+            "RAINDANCE"
+          ],
+          "ability_index": 0,
+          "item": "DAMPROCK"
+        },
+        {
+          "species": "B273H352",
+          "level": 72,
+          "moves": [
+            "AERIALACE",
+            "MAGICALLEAF",
+            "ROCKBLAST",
+            "POISONFANG"
+          ],
+          "ability_index": 5,
+          "item": "EXPERTBELT"
+        },
+        {
+          "species": "B299H134",
+          "level": 73,
+          "moves": [
+            "EARTHQUAKE",
+            "DRAGONCLAW",
+            "AQUATAIL",
+            "SWORDSDANCE"
+          ],
+          "ability_index": 1,
+          "item": "RINDOBERRY"
+        }
+      ]
+    }
+  },
+  "expert": {
+    "LEADER_Brock": {
+      "id_number": 15,
+      "trainer_type": "LEADER_Brock",
+      "real_name": "Brock",
+      "items": [
+        "POTION",
+        "POTION"
+      ],
+      "pokemon": [
+        {
+          "species": "B138H114",
+          "level": 10,
+          "moves": [
+            "SLEEPPOWDER",
+            "ABSORB",
+            "WATERGUN",
+            "INGRAIN"
+          ],
+          "ability": "SHELLARMOR",
+          "item": "ORANBERRY",
+          "nature": "MODEST",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 4
+          }
+        },
+        {
+          "species": "B305H461",
+          "level": 12,
+          "moves": [
+            "FRUSTRATION",
+            "ROCKTOMB",
+            "FOCUSENERGY",
+            "ASSURANCE"
+          ],
+          "ability": "REFRIGERATE",
+          "item": "ORANBERRY",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        }
+      ]
+    },
+    "LEADER_Misty": {
+      "id_number": 57,
+      "trainer_type": "LEADER_Misty",
+      "real_name": "Misty",
+      "items": [
+        "SUPERPOTION",
+        "SUPERPOTION",
+        "SUPERPOTION"
+      ],
+      "pokemon": [
+        {
+          "species": "B25H113",
+          "level": 19,
+          "moves": [
+            "NASTYPLOT",
+            "DISCHARGE",
+            "SOFTBOILED",
+            "MOONBLAST"
+          ],
+          "ability": "SERENEGRACE",
+          "item": "LIGHTBALL",
+          "happiness": 0,
+          "nature": "TIMID",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 6,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B104H184",
+          "level": 22,
+          "moves": [
+            "AQUATAIL",
+            "BONEMERANG",
+            "DEFENSECURL",
+            "ROLLOUT"
+          ],
+          "ability": "SAPSIPPER",
+          "item": "THICKCLUB",
+          "nature": "ADAMANT",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        }
+      ]
+    },
+    "LEADER_Surge": {
+      "id_number": 97,
+      "trainer_type": "LEADER_Surge",
+      "real_name": "Lt. Surge",
+      "items": [
+        "SUPERPOTION",
+        "SUPERPOTION",
+        "SUPERPOTION"
+      ],
+      "pokemon": [
+        {
+          "species": "B101H260",
+          "level": 24,
+          "moves": [
+            "ODORSLEUTH",
+            "BODYSLAM",
+            "SPARK",
+            "EXPLOSION"
+          ],
+          "ability": "AFTERMATH",
+          "item": "LIFEORB",
+          "nature": "ADAMANT",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 4
+          }
+        },
+        {
+          "species": "B224H86",
+          "level": 24,
+          "moves": [
+            "FOCUSENERGY",
+            "ICESHARD",
+            "AQUAJET",
+            "GUNKSHOT"
+          ],
+          "ability": "SNIPER",
+          "item": "SCOPELENS",
+          "nature": "ADAMANT",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 4
+          }
+        },
+        {
+          "species": "B107H125",
+          "level": 26,
+          "moves": [
+            "THUNDERPUNCH",
+            "BULLETPUNCH",
+            "ICEPUNCH",
+            "MACHPUNCH"
+          ],
+          "ability": "IRONFIST",
+          "item": "SITRUSBERRY",
+          "nature": "ADAMANT",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        }
+      ]
+    },
+    "LEADER_Erika": {
+      "id_number": 188,
+      "trainer_type": "LEADER_Erika",
+      "real_name": "Erika",
+      "items": [
+        "HYPERPOTION",
+        "SUPERPOTION",
+        "HYPERPOTION"
+      ],
+      "pokemon": [
+        {
+          "species": "B148H36",
+          "level": 35,
+          "moves": [
+            "DAZZLINGGLEAM",
+            "DRAGONBREATH",
+            "WISH",
+            "WATERPULSE"
+          ],
+          "ability": "MAGICGUARD",
+          "item": "LIFEORB",
+          "nature": "MODEST",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 4,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B233H103",
+          "level": 36,
+          "moves": [
+            "SUNNYDAY",
+            "SOLARBEAM",
+            "PSYCHIC",
+            "PROTECT"
+          ],
+          "ability": "HARVEST",
+          "item": "STARFBERRY",
+          "nature": "MODEST",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 4
+          }
+        },
+        {
+          "species": "B49H263",
+          "level": 38,
+          "moves": [
+            "QUIVERDANCE",
+            "SLUDGEBOMB",
+            "GIGADRAIN",
+            "THUNDERBOLT"
+          ],
+          "ability": "TINTEDLENS",
+          "item": "AIRBALLOON",
+          "nature": "MODEST",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        }
+      ]
+    },
+    "LEADER_Koga": {
+      "id_number": 250,
+      "trainer_type": "LEADER_Koga",
+      "real_name": "Koga",
+      "items": [
+        "HYPERPOTION",
+        "HYPERPOTION",
+        "HYPERPOTION"
+      ],
+      "pokemon": [
+        {
+          "species": "B212H415",
+          "level": 37,
+          "moves": [
+            "DRAGONDANCE",
+            "DUALCHOP",
+            "METALCLAW",
+            "AERIALACE"
+          ],
+          "ability": "TECHNICIAN",
+          "item": "AIRBALLOON",
+          "nature": "ADAMANT",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B34H362",
+          "level": 37,
+          "moves": [
+            "SHADOWBALL",
+            "SLUDGEBOMB",
+            "EARTHPOWER",
+            "NASTYPLOT"
+          ],
+          "ability": "SHEERFORCE",
+          "item": "LIFEORB",
+          "nature": "MODEST",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B18H374",
+          "level": 38,
+          "moves": [
+            "QUIVERDANCE",
+            "AIRSLASH",
+            "FIERYDANCE",
+            "BUGBUZZ"
+          ],
+          "ability": "SWARM",
+          "item": "SILVERPOWDER",
+          "nature": "MODEST",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B214H437",
+          "level": 39,
+          "moves": [
+            "CRUNCH",
+            "REVERSAL",
+            "WATERFALL",
+            "MEGAHORN"
+          ],
+          "ability": "SPEEDBOOST",
+          "item": "FOCUSSASH",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        }
+      ]
+    },
+    "LEADER_Sabrina": {
+      "id_number": 293,
+      "trainer_type": "LEADER_Sabrina",
+      "real_name": "Sabrina",
+      "items": [
+        "MAXPOTION",
+        "MAXPOTION",
+        "MAXPOTION",
+        "MAXPOTION"
+      ],
+      "pokemon": [
+        {
+          "species": "B237H208",
+          "level": 44,
+          "moves": [
+            "BULKUP",
+            "MACHPUNCH",
+            "BULLETPUNCH",
+            "STEALTHROCK"
+          ],
+          "ability": "TECHNICIAN",
+          "item": "SITRUSBERRY",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 252,
+            "DEFENSE": 4,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B55H275",
+          "level": 45,
+          "moves": [
+            "NASTYPLOT",
+            "DISCHARGE",
+            "TRIATTACK",
+            "HYDROPUMP"
+          ],
+          "ability": "ADAPTABILITY",
+          "item": "MYSTICWATER",
+          "nature": "MODEST",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B105H288",
+          "level": 46,
+          "moves": [
+            "PSYCHOCUT",
+            "BONEMERANG",
+            "CLOSECOMBAT",
+            "LEAFBLADE"
+          ],
+          "ability": "JUSTIFIED",
+          "item": "THICKCLUB",
+          "nature": "JOLLY",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B274H293",
+          "level": 48,
+          "moves": [
+            "METEORMASH",
+            "EARTHQUAKE",
+            "ICESHARD",
+            "ZENHEADBUTT"
+          ],
+          "ability": "THICKFAT",
+          "item": "ASSAULTVEST",
+          "nature": "ADAMANT",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 4
+          }
+        }
+      ]
+    },
+    "LEADER_Blaine": {
+      "id_number": 357,
+      "trainer_type": "LEADER_Blaine",
+      "real_name": "Blaine",
+      "items": [
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE"
+      ],
+      "pokemon": [
+        {
+          "species": "B318H131",
+          "level": 48,
+          "moves": [
+            "SURF",
+            "EARTHQUAKE",
+            "ICESHARD",
+            "GIGADRAIN"
+          ],
+          "ability": "WATERABSORB",
+          "item": "RINDOBERRY",
+          "nature": "SERIOUS",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B38H269",
+          "level": 48,
+          "moves": [
+            "FLAMETHROWER",
+            "MOONBLAST",
+            "AURASPHERE",
+            "SOLARBEAM"
+          ],
+          "ability": "DROUGHT",
+          "item": "CHARCOAL",
+          "nature": "MODEST",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B268H3",
+          "level": 51,
+          "moves": [
+            "FIREBLAST",
+            "SOLARBEAM",
+            "THUNDERBOLT",
+            "SYNTHESIS"
+          ],
+          "ability": "CHLOROPHYLL",
+          "item": "CHARCOAL",
+          "nature": "MODEST",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B329H372",
+          "level": 51,
+          "moves": [
+            "SHADOWCLAW",
+            "FLAMECHARGE",
+            "SWORDSDANCE",
+            "KINGSSHIELD"
+          ],
+          "ability": "STANCECHANGE",
+          "item": "LEFTOVERS",
+          "nature": "ADAMANT",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        }
+      ]
+    },
+    "LEADER_Giovanni": {
+      "id_number": 381,
+      "trainer_type": "LEADER_Giovanni",
+      "real_name": "Giovanni",
+      "items": [
+        "MAXPOTION",
+        "MAXPOTION",
+        "MAXPOTION",
+        "MAXPOTION",
+        "MAXPOTION",
+        "MAXPOTION"
+      ],
+      "pokemon": [
+        {
+          "species": "B274H20",
+          "level": 53,
+          "moves": [
+            "FACADE",
+            "EARTHQUAKE",
+            "ICESHARD",
+            "STEALTHROCK"
+          ],
+          "ability": "GUTS",
+          "item": "FLAMEORB",
+          "nature": "ADAMANT",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B364H453",
+          "level": 53,
+          "moves": [
+            "SHADOWCLAW",
+            "GYROBALL",
+            "POWERWHIP",
+            "EARTHQUAKE"
+          ],
+          "ability": "STEELWORKER",
+          "item": "ASSAULTVEST",
+          "nature": "BRAVE",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 0
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 252,
+            "DEFENSE": 4,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B248H34",
+          "level": 53,
+          "moves": [
+            "DRAGONDANCE",
+            "CRUNCH",
+            "EARTHQUAKE",
+            "POISONJAB"
+          ],
+          "ability": "SHEERFORCE",
+          "item": "LIFEORB",
+          "nature": "JOLLY",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B360H295",
+          "level": 53,
+          "moves": [
+            "NASTYPLOT",
+            "DARKPULSE",
+            "MOONBLAST",
+            "SPORE"
+          ],
+          "ability": "PRANKSTER",
+          "item": "BABIRIBERRY",
+          "nature": "MODEST",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B368H53",
+          "level": 55,
+          "moves": [
+            "COVET",
+            "DUALCHOP",
+            "DRAGONDANCE",
+            "BITE"
+          ],
+          "ability": "TECHNICIAN",
+          "item": "NORMALGEM",
+          "nature": "ADAMANT",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        }
+      ]
+    },
+    "ELITEFOUR_Lorelei": {
+      "id_number": 424,
+      "trainer_type": "ELITEFOUR_Lorelei",
+      "real_name": "Lorelei",
+      "items": [
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "MAXELIXIR",
+        "MAXELIXIR",
+        "MAXELIXIR",
+        "MAXELIXIR",
+        "MAXELIXIR"
+      ],
+      "pokemon": [
+        {
+          "species": "B169H373",
+          "level": 60,
+          "moves": [
+            "UTURN",
+            "TAUNT",
+            "ROOST",
+            "ACROBATICS"
+          ],
+          "ability": "DISGUISE",
+          "item": "EJECTBUTTON",
+          "happiness": 0,
+          "nature": "JOLLY",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 4,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B205H289",
+          "level": 58,
+          "moves": [
+            "STEALTHROCK",
+            "TOXIC",
+            "SPIKES",
+            "TOXICSPIKES"
+          ],
+          "ability": "WONDERGUARD",
+          "item": "MENTALHERB",
+          "nature": "JOLLY",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 4,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B198H47",
+          "level": 58,
+          "moves": [
+            "HAZE",
+            "SPORE",
+            "TORMENT",
+            "FOULPLAY"
+          ],
+          "ability": "PRANKSTER",
+          "item": "FOCUSSASH",
+          "nature": "JOLLY",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 0,
+            "DEFENSE": 4,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B36H353",
+          "level": 59,
+          "moves": [
+            "SOFTBOILED",
+            "MINIMIZE",
+            "DRAININGKISS",
+            "BATONPASS"
+          ],
+          "ability": "UNAWARE",
+          "item": "SITRUSBERRY",
+          "nature": "MODEST",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 4
+          }
+        },
+        {
+          "species": "B312H242",
+          "level": 59,
+          "moves": [
+            "MINIMIZE",
+            "SOFTBOILED",
+            "NIGHTSHADE",
+            "DISABLE"
+          ],
+          "ability": "PRESSURE",
+          "item": "EVIOLITE",
+          "nature": "BOLD",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 0,
+            "DEFENSE": 252,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 4,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B326H195",
+          "level": 60,
+          "moves": [
+            "STOCKPILE",
+            "DIVE",
+            "TOXIC",
+            "RECOVER"
+          ],
+          "ability": "UNAWARE",
+          "item": "LEFTOVERS",
+          "nature": "ADAMANT",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 252,
+            "DEFENSE": 4,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 0
+          }
+        }
+      ]
+    },
+    "ELITEFOUR_Bruno": {
+      "id_number": 425,
+      "trainer_type": "ELITEFOUR_Bruno",
+      "real_name": "Bruno",
+      "items": [
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE"
+      ],
+      "pokemon": [
+        {
+          "species": "B262H237",
+          "level": 59,
+          "moves": [
+            "BEATUP",
+            "ICESHARD",
+            "TRIPLEKICK",
+            "SWORDSDANCE"
+          ],
+          "ability": "TECHNICIAN",
+          "item": "FOCUSSASH",
+          "nature": "JOLLY",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B106H136",
+          "level": 59,
+          "moves": [
+            "FLAREBLITZ",
+            "HIJUMPKICK",
+            "STONEEDGE",
+            "BULKUP"
+          ],
+          "ability": "RECKLESS",
+          "item": "LIFEORB",
+          "nature": "JOLLY",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B25H367",
+          "level": 60,
+          "moves": [
+            "THUNDER",
+            "ENERGYBALL",
+            "SHADOWBALL",
+            "FIREBLAST"
+          ],
+          "ability": "SHADOWTAG",
+          "item": "LIGHTBALL",
+          "nature": "TIMID",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B339H296",
+          "level": 60,
+          "moves": [
+            "EXTREMESPEED",
+            "METEORMASH",
+            "EARTHQUAKE",
+            "SWORDSDANCE"
+          ],
+          "ability": "PIXILATE",
+          "item": "SHUCABERRY",
+          "nature": "ADAMANT",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 252,
+            "DEFENSE": 4,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B275H134",
+          "level": 61,
+          "moves": [
+            "HYPERVOICE",
+            "HYDROPUMP",
+            "SHADOWBALL",
+            "THUNDER"
+          ],
+          "ability": "ADAPTABILITY",
+          "item": "CHOPLEBERRY",
+          "nature": "TIMID",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B149H309",
+          "level": 63,
+          "moves": [
+            "EXTREMESPEED",
+            "NIGHTSLASH",
+            "BULKUP",
+            "EARTHQUAKE"
+          ],
+          "ability": "MULTISCALE",
+          "item": "WEAKNESSPOLICY",
+          "nature": "ADAMANT",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 252,
+            "DEFENSE": 4,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 0
+          }
+        }
+      ]
+    },
+    "ELITEFOUR_Agatha": {
+      "id_number": 426,
+      "trainer_type": "ELITEFOUR_Agatha",
+      "real_name": "Agatha",
+      "items": [
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE"
+      ],
+      "pokemon": [
+        {
+          "species": "B368H168",
+          "level": 61,
+          "moves": [
+            "MEGAHORN",
+            "DRAGONCLAW",
+            "TAUNT",
+            "STICKYWEB"
+          ],
+          "ability": "MOLDBREAKER",
+          "item": "SITRUSBERRY",
+          "nature": "ADAMANT",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B212H160",
+          "level": 61,
+          "moves": [
+            "SWORDSDANCE",
+            "BULLDOZE",
+            "AQUAJET",
+            "BULLETPUNCH"
+          ],
+          "ability": "TECHNICIAN",
+          "item": "LIFEORB",
+          "nature": "ADAMANT",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 4
+          }
+        },
+        {
+          "species": "B91H383",
+          "level": 62,
+          "moves": [
+            "SWORDSDANCE",
+            "ICESHARD",
+            "QUICKATTACK",
+            "AQUAJET"
+          ],
+          "ability": "SIMPLE",
+          "item": "FOCUSSASH",
+          "nature": "ADAMANT",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B373H105",
+          "level": 62,
+          "moves": [
+            "BELLYDRUM",
+            "BONEMERANG",
+            "ROCKSLIDE",
+            "SHADOWSNEAK"
+          ],
+          "ability": "DISGUISE",
+          "item": "THICKCLUB",
+          "nature": "ADAMANT",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B270H287",
+          "level": 62,
+          "moves": [
+            "STOREDPOWER",
+            "FOCUSBLAST",
+            "QUIVERDANCE",
+            "AIRSLASH"
+          ],
+          "ability": "SPEEDBOOST",
+          "item": "FOCUSSASH",
+          "nature": "MODEST",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B456H265",
+          "level": 63,
+          "moves": [
+            "CURSE",
+            "EARTHQUAKE",
+            "ACROBATICS",
+            "STONEEDGE"
+          ],
+          "ability": "UNBURDEN",
+          "item": "WHITEHERB",
+          "nature": "ADAMANT",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        }
+      ]
+    },
+    "CHAMPION": {
+      "id_number": 428,
+      "trainer_type": "CHAMPION",
+      "real_name": "Blue",
+      "items": [
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE"
+      ],
+      "pokemon": [
+        {
+          "species": "B371H363",
+          "level": 63,
+          "moves": [
+            "STICKYWEB",
+            "BUGBUZZ",
+            "DAZZLINGGLEAM",
+            "THUNDERWAVE"
+          ],
+          "ability": "PRANKSTER",
+          "item": "FOCUSSASH",
+          "nature": "TIMID",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B377H242",
+          "level": 63,
+          "moves": [
+            "TRIATTACK",
+            "DRAGONBREATH",
+            "FIREBLAST",
+            "CALMMIND"
+          ],
+          "ability": "SERENEGRACE",
+          "item": "LEFTOVERS",
+          "nature": "MODEST",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 4
+          }
+        },
+        {
+          "species": "B212H368",
+          "level": 63,
+          "moves": [
+            "DRAGONDANCE",
+            "DUALCHOP",
+            "AERIALACE",
+            "BULLETPUNCH"
+          ],
+          "ability": "TECHNICIAN",
+          "item": "LIFEORB",
+          "nature": "ADAMANT",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B372H184",
+          "level": 64,
+          "moves": [
+            "BELLYDRUM",
+            "ACROBATICS",
+            "AQUAJET",
+            "BRICKBREAK"
+          ],
+          "ability": "HUGEPOWER",
+          "item": "SITRUSBERRY",
+          "nature": "ADAMANT",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 0,
+            "ATTACK": 252,
+            "DEFENSE": 4,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B149H339",
+          "level": 64,
+          "moves": [
+            "EXTREMESPEED",
+            "DRAGONDANCE",
+            "EARTHQUAKE",
+            "WATERFALL"
+          ],
+          "ability": "PIXILATE",
+          "item": "PIXIEPLATE",
+          "nature": "ADAMANT",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "MEW",
+          "level": 65,
+          "item": "SITRUSBERRY",
+          "nature": "SERIOUS",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 0,
+            "DEFENSE": 252,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 4,
+            "SPEED": 0
+          }
+        }
+      ]
+    },
+    "LEADER_Whitney": {
+      "id_number": 435,
+      "trainer_type": "LEADER_Whitney",
+      "real_name": "Whitney",
+      "items": [
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE"
+      ],
+      "pokemon": [
+        {
+          "species": "B273H309",
+          "level": 60,
+          "moves": [
+            "STEALTHROCK",
+            "BODYSLAM",
+            "UTURN",
+            "EARTHQUAKE"
+          ],
+          "ability": "POISONHEAL",
+          "item": "TOXICORB",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 4
+          }
+        },
+        {
+          "species": "B141H184",
+          "level": 60,
+          "moves": [
+            "KNOCKOFF",
+            "CRABHAMMER",
+            "STONEEDGE",
+            "PLAYROUGH"
+          ],
+          "ability": "HUGEPOWER",
+          "item": "LIFEORB",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B321H363",
+          "level": 63,
+          "moves": [
+            "FOCUSBLAST",
+            "THUNDER",
+            "BUGBUZZ",
+            "NASTYPLOT"
+          ],
+          "ability": "COMPOUNDEYES",
+          "item": "WIDELENS",
+          "happiness": 0,
+          "nature": "MODEST",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B455H446",
+          "level": 63,
+          "moves": [
+            "DRAGONTAIL",
+            "LIQUIDATION",
+            "EARTHQUAKE",
+            "POISONJAB"
+          ],
+          "ability": "SAPSIPPER",
+          "item": "LEFTOVERS",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 4,
+            "DEFENSE": 252,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B248H269",
+          "level": 65,
+          "moves": [
+            "DARKPULSE",
+            "MOONBLAST",
+            "AURASPHERE",
+            "EARTHPOWER"
+          ],
+          "ability": "SANDSTREAM",
+          "item": "SITRUSBERRY",
+          "happiness": 0,
+          "nature": "MODEST",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 252,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B465H241",
+          "level": 65,
+          "moves": [
+            "ROLLOUT",
+            "PLAYROUGH",
+            "PROTECT",
+            "BODYSLAM"
+          ],
+          "ability": "SAPSIPPER",
+          "item": "METRONOME",
+          "happiness": 0,
+          "nature": "JOLLY",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        }
+      ]
+    },
+    "LEADER_Kurt": {
+      "id_number": 441,
+      "trainer_type": "LEADER_Kurt",
+      "real_name": "Kurt",
+      "items": [
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE"
+      ],
+      "pokemon": [
+        {
+          "species": "B299H452",
+          "level": 62,
+          "moves": [
+            "STEALTHROCK",
+            "EARTHQUAKE",
+            "BODYSLAM",
+            "CRUNCH"
+          ],
+          "ability": "ROUGHSKIN",
+          "item": "ROCKYHELMET",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 252,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B426H68",
+          "level": 64,
+          "moves": [
+            "DRAGONDANCE",
+            "DYNAMICPUNCH",
+            "IRONTAIL",
+            "DRAGONCLAW"
+          ],
+          "ability": "NOGUARD",
+          "item": "SITRUSBERRY",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B265H214",
+          "level": 64,
+          "moves": [
+            "MEGAHORN",
+            "STONEEDGE",
+            "HAMMERARM",
+            "BULLETSEED"
+          ],
+          "ability": "MOXIE",
+          "item": "SITRUSBERRY",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 4,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B309H127",
+          "level": 66,
+          "moves": [
+            "CLOSECOMBAT",
+            "BODYSLAM",
+            "STONEEDGE",
+            "XSCISSOR"
+          ],
+          "ability": "MOXIE",
+          "item": "LIFEORB",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 252,
+            "DEFENSE": 4,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B149H217",
+          "level": 65,
+          "moves": [
+            "EXTREMESPEED",
+            "EARTHQUAKE",
+            "ROOST",
+            "CRUNCH"
+          ],
+          "ability": "GUTS",
+          "item": "FLAMEORB",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B263H374",
+          "level": 66,
+          "moves": [
+            "QUIVERDANCE",
+            "FLASHCANNON",
+            "BUGBUZZ",
+            "FIERYDANCE"
+          ],
+          "ability": "MAGNETPULL",
+          "item": "SITRUSBERRY",
+          "happiness": 0,
+          "nature": "MODEST",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        }
+      ]
+    },
+    "LEADER_Falkner": {
+      "id_number": 470,
+      "trainer_type": "LEADER_Falkner",
+      "real_name": "Falkner",
+      "items": [
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE"
+      ],
+      "pokemon": [
+        {
+          "species": "B186H374",
+          "level": 63,
+          "moves": [
+            "QUIVERDANCE",
+            "BUGBUZZ",
+            "SURF",
+            "HURRICANE"
+          ],
+          "ability": "DRIZZLE",
+          "item": "SILVERPOWDER",
+          "happiness": 0,
+          "nature": "MODEST",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B149H275",
+          "level": 63,
+          "moves": [
+            "HURRICANE",
+            "EXTREMESPEED",
+            "SURF",
+            "EARTHQUAKE"
+          ],
+          "ability": "ADAPTABILITY",
+          "item": "LIFEORB",
+          "happiness": 0,
+          "nature": "SERIOUS",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B38H353",
+          "level": 65,
+          "moves": [
+            "WEATHERBALL",
+            "SHADOWBALL",
+            "SOLARBEAM",
+            "THUNDERBOLT"
+          ],
+          "ability": "DROUGHT",
+          "item": "CHARCOAL",
+          "happiness": 0,
+          "nature": "MODEST",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 4
+          }
+        },
+        {
+          "species": "B441H6",
+          "level": 65,
+          "moves": [
+            "MOONLIGHT",
+            "FLAMETHROWER",
+            "DRAGONPULSE",
+            "SOLARBEAM"
+          ],
+          "ability": "SOLARPOWER",
+          "item": "LIFEORB",
+          "happiness": 0,
+          "nature": "MODEST",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B91H248",
+          "level": 65,
+          "moves": [
+            "STONEEDGE",
+            "ICESHARD",
+            "SHELLSMASH",
+            "EARTHQUAKE"
+          ],
+          "ability": "SANDSTREAM",
+          "item": "WHITEHERB",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B460H113",
+          "level": 67,
+          "moves": [
+            "SHOREUP",
+            "MOONBLAST",
+            "SHADOWBALL",
+            "HYPERVOICE"
+          ],
+          "ability": "SANDVEIL",
+          "item": "EVIOLITE",
+          "happiness": 0,
+          "nature": "MODEST",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 0,
+            "DEFENSE": 4,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 252,
+            "SPEED": 0
+          }
+        }
+      ]
+    },
+    "LEADER_Clair": {
+      "id_number": 481,
+      "trainer_type": "LEADER_Clair",
+      "real_name": "Clair",
+      "items": [
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE"
+      ],
+      "pokemon": [
+        {
+          "species": "B91H242",
+          "level": 66,
+          "moves": [
+            "SHELLSMASH",
+            "ICICLESPEAR",
+            "SPIKECANNON",
+            "DRAINPUNCH"
+          ],
+          "ability": "SKILLLINK",
+          "item": "WHITEHERB",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 4
+          }
+        },
+        {
+          "species": "B289H331",
+          "level": 66,
+          "moves": [
+            "IRONHEAD",
+            "SUCKERPUNCH",
+            "SHADOWSNEAK",
+            "PROTECT"
+          ],
+          "ability": "WONDERGUARD",
+          "item": "FOCUSSASH",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 0,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B309H184",
+          "level": 66,
+          "moves": [
+            "AQUAJET",
+            "EARTHQUAKE",
+            "BODYSLAM",
+            "PLAYROUGH"
+          ],
+          "ability": "HUGEPOWER",
+          "item": "CHOICEBAND",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B38H460",
+          "level": 68,
+          "moves": [
+            "FIREBLAST",
+            "EARTHPOWER",
+            "SOLARBEAM",
+            "WILLOWISP"
+          ],
+          "ability": "DROUGHT",
+          "item": "AIRBALLOON",
+          "happiness": 0,
+          "nature": "MODEST",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B65H269",
+          "level": 68,
+          "moves": [
+            "SHELLSMASH",
+            "STOREDPOWER",
+            "MOONBLAST",
+            "FLAMETHROWER"
+          ],
+          "ability": "MAGICGUARD",
+          "item": "FOCUSSASH",
+          "happiness": 0,
+          "nature": "MODEST",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B208H197",
+          "level": 70,
+          "moves": [
+            "PAYBACK",
+            "EARTHQUAKE",
+            "CURSE",
+            "MOONLIGHT"
+          ],
+          "ability": "SYNCHRONIZE",
+          "item": "LEFTOVERS",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 252,
+            "DEFENSE": 4,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 0
+          }
+        }
+      ]
+    },
+    "LEADER_Pryce": {
+      "id_number": 495,
+      "trainer_type": "LEADER_Pryce",
+      "real_name": "Pryce",
+      "items": [
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE"
+      ],
+      "pokemon": [
+        {
+          "species": "B370H428",
+          "level": 68,
+          "moves": [
+            "SUBSTITUTE",
+            "PROTECT",
+            "BATONPASS",
+            "FREEZEDRY"
+          ],
+          "ability": "MOODY",
+          "item": "LEFTOVERS",
+          "happiness": 0,
+          "nature": "BOLD",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 0,
+            "DEFENSE": 252,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 4,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B68H242",
+          "level": 68,
+          "moves": [
+            "MEGAKICK",
+            "DYNAMICPUNCH",
+            "KNOCKOFF",
+            "SING"
+          ],
+          "ability": "NOGUARD",
+          "item": "SITRUSBERRY",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 252,
+            "DEFENSE": 4,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B208H65",
+          "level": 69,
+          "moves": [
+            "PSYCHIC",
+            "EARTHPOWER",
+            "RECOVER",
+            "FLASHCANNON"
+          ],
+          "ability": "SHEERFORCE",
+          "item": "LIFEORB",
+          "happiness": 0,
+          "nature": "MODEST",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 4,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B287H377",
+          "level": 69,
+          "moves": [
+            "MOONBLAST",
+            "DARKPULSE",
+            "EARTHPOWER",
+            "FLASHCANNON"
+          ],
+          "ability": "LEVITATE",
+          "item": "ASSAULTVEST",
+          "happiness": 0,
+          "nature": "MODEST",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B313H225",
+          "level": 72,
+          "moves": [
+            "SHADOWSNEAK",
+            "ICEPUNCH",
+            "EARTHQUAKE",
+            "AURORAVEIL"
+          ],
+          "ability": "SNOWWARNING",
+          "item": "LIGHTCLAY",
+          "happiness": 0,
+          "nature": "CAREFUL",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 0,
+            "DEFENSE": 4,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 252,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B274H453",
+          "level": 73,
+          "moves": [
+            "SHADOWCLAW",
+            "EARTHQUAKE",
+            "ICESHARD",
+            "POWERWHIP"
+          ],
+          "ability": "SNOWCLOAK",
+          "item": "SITRUSBERRY",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 252,
+            "DEFENSE": 4,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 0
+          }
+        }
+      ]
+    },
+    "LEADER_Morty": {
+      "id_number": 512,
+      "trainer_type": "LEADER_Morty",
+      "real_name": "Morty",
+      "items": [
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE"
+      ],
+      "pokemon": [
+        {
+          "species": "B338H73",
+          "level": 67,
+          "moves": [
+            "TOXICSPIKES",
+            "SCALD",
+            "NIGHTDAZE",
+            "TAUNT"
+          ],
+          "ability": "ILLUSION",
+          "item": "LEFTOVERS",
+          "happiness": 0,
+          "nature": "MODEST",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 4,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B426H310",
+          "level": 67,
+          "moves": [
+            "CRUNCH",
+            "DRAGONDANCE",
+            "DRAGONCLAW",
+            "POISONFANG"
+          ],
+          "ability": "STRONGJAW",
+          "item": "CHOPLEBERRY",
+          "happiness": 0,
+          "nature": "JOLLY",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B295H123",
+          "level": 67,
+          "moves": [
+            "UTURN",
+            "SHADOWSNEAK",
+            "CRABHAMMER",
+            "ROOST"
+          ],
+          "ability": "INFILTRATOR",
+          "item": "EVIOLITE",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 252,
+            "DEFENSE": 4,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B287H263",
+          "level": 69,
+          "moves": [
+            "VOLTSWITCH",
+            "MOONBLAST",
+            "PSYCHIC",
+            "ENERGYBALL"
+          ],
+          "ability": "ANALYTIC",
+          "item": "ASSAULTVEST",
+          "happiness": 0,
+          "nature": "QUIET",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 4,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B296H22",
+          "level": 69,
+          "moves": [
+            "DRILLPECK",
+            "FOCUSENERGY",
+            "POWERUPPUNCH",
+            "BULLETPUNCH"
+          ],
+          "ability": "SNIPER",
+          "item": "SCOPELENS",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B464H25",
+          "level": 71,
+          "moves": [
+            "VOLTTACKLE",
+            "ACCELEROCK",
+            "FIREFANG",
+            "GRASSKNOT"
+          ],
+          "ability": "KEENEYE",
+          "item": "LIGHTBALL",
+          "happiness": 0,
+          "nature": "NAUGHTY",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        }
+      ]
+    },
+    "LEADER_Chuck": {
+      "id_number": 530,
+      "trainer_type": "LEADER_Chuck",
+      "real_name": "Chuck",
+      "items": [
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE"
+      ],
+      "pokemon": [
+        {
+          "species": "B302H352",
+          "level": 69,
+          "moves": [
+            "STEALTHROCK",
+            "ANCIENTPOWER",
+            "ENERGYBALL",
+            "EARTHPOWER"
+          ],
+          "ability": "STORMDRAIN",
+          "item": "SITRUSBERRY",
+          "happiness": 0,
+          "nature": "MODEST",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 4,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B312H338",
+          "level": 69,
+          "moves": [
+            "SUCKERPUNCH",
+            "SHADOWCLAW",
+            "TAUNT",
+            "TOXIC"
+          ],
+          "ability": "ILLUSION",
+          "item": "EVIOLITE",
+          "happiness": 0,
+          "nature": "JOLLY",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B274H437",
+          "level": 71,
+          "moves": [
+            "EARTHQUAKE",
+            "WATERFALL",
+            "ICICLECRASH",
+            "PSYCHICFANGS"
+          ],
+          "ability": "SPEEDBOOST",
+          "item": "FOCUSSASH",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B169H426",
+          "level": 71,
+          "moves": [
+            "BRAVEBIRD",
+            "HEADSMASH",
+            "EARTHQUAKE",
+            "TAUNT"
+          ],
+          "ability": "ROCKHEAD",
+          "item": "FOCUSSASH",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B336H22",
+          "level": 73,
+          "moves": [
+            "DRAGONDANCE",
+            "DRILLPECK",
+            "DRAGONCLAW",
+            "EARTHQUAKE"
+          ],
+          "ability": "MOXIE",
+          "item": "FOCUSSASH",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B374H82",
+          "level": 74,
+          "moves": [
+            "QUIVERDANCE",
+            "BUGBUZZ",
+            "THUNDERBOLT",
+            "FIERYDANCE"
+          ],
+          "ability": "MAGNETPULL",
+          "item": "EVIOLITE",
+          "happiness": 0,
+          "nature": "MODEST",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        }
+      ]
+    },
+    "LEADER_Jasmine": {
+      "id_number": 541,
+      "trainer_type": "LEADER_Jasmine",
+      "real_name": "Jasmine",
+      "items": [
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE"
+      ],
+      "pokemon": [
+        {
+          "species": "B263H149",
+          "level": 71,
+          "moves": [
+            "VOLTSWITCH",
+            "DRAGONPULSE",
+            "FLASHCANNON",
+            "SURF"
+          ],
+          "ability": "ANALYTIC",
+          "item": "AIRBALLOON",
+          "happiness": 0,
+          "nature": "QUIET",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 0,
+            "DEFENSE": 4,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B437H208",
+          "level": 71,
+          "moves": [
+            "IRONHEAD",
+            "CRUNCH",
+            "STEALTHROCK",
+            "PSYCHICFANGS"
+          ],
+          "ability": "SPEEDBOOST",
+          "item": "FOCUSSASH",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B337H232",
+          "level": 73,
+          "moves": [
+            "SHIFTGEAR",
+            "EARTHQUAKE",
+            "GEARGRIND",
+            "PLAYROUGH"
+          ],
+          "ability": "STURDY",
+          "item": "WEAKNESSPOLICY",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 8,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 248
+          }
+        },
+        {
+          "species": "B329H293",
+          "level": 73,
+          "moves": [
+            "METEORMASH",
+            "SHADOWSNEAK",
+            "SACREDSWORD",
+            "KINGSSHIELD"
+          ],
+          "ability": "STANCECHANGE",
+          "item": "SITRUSBERRY",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 252,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B135H377",
+          "level": 74,
+          "moves": [
+            "DARKPULSE",
+            "THUNDER",
+            "EARTHPOWER",
+            "FIREBLAST"
+          ],
+          "ability": "LEVITATE",
+          "item": "SITRUSBERRY",
+          "happiness": 0,
+          "nature": "TIMID",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B296H275",
+          "level": 76,
+          "moves": [
+            "EXTREMESPEED",
+            "AURASPHERE",
+            "FLASHCANNON",
+            "CRUNCH"
+          ],
+          "ability": "DOWNLOAD",
+          "item": "FOCUSSASH",
+          "happiness": 0,
+          "nature": "SERIOUS",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 0,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 4
+          }
+        }
+      ]
+    },
+    "CHAMPION_Sinnoh": {
+      "id_number": 552,
+      "trainer_type": "CHAMPION_Sinnoh",
+      "real_name": "Cynthia",
+      "items": [
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE",
+        "FULLRESTORE"
+      ],
+      "pokemon": [
+        {
+          "species": "B329H295",
+          "level": 80,
+          "moves": [
+            "WILLOWISP",
+            "SHADOWBALL",
+            "SUCKERPUNCH",
+            "FLASHCANNON"
+          ],
+          "ability": "PRESSURE",
+          "item": "SITRUSBERRY",
+          "happiness": 0,
+          "nature": "CALM",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 0,
+            "DEFENSE": 128,
+            "SPECIAL_ATTACK": 128,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B154H462",
+          "level": 80,
+          "moves": [
+            "EARTHPOWER",
+            "HYPERVOICE",
+            "ENERGYBALL",
+            "PSYCHIC"
+          ],
+          "ability": "REFRIGERATE",
+          "item": "LEFTOVERS",
+          "happiness": 0,
+          "nature": "MODEST",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 0,
+            "ATTACK": 0,
+            "DEFENSE": 252,
+            "SPECIAL_ATTACK": 4,
+            "SPECIAL_DEFENSE": 252,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B352H335",
+          "level": 81,
+          "moves": [
+            "RECOVER",
+            "ICEBEAM",
+            "GIGADRAIN",
+            "SCALD"
+          ],
+          "ability": "MARVELSCALE",
+          "item": "FLAMEORB",
+          "happiness": 0,
+          "nature": "BOLD",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 0,
+            "DEFENSE": 20,
+            "SPECIAL_ATTACK": 176,
+            "SPECIAL_DEFENSE": 60,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B321H263",
+          "level": 81,
+          "moves": [
+            "FLAMETHROWER",
+            "THUNDERBOLT",
+            "FLASHCANNON",
+            "FOCUSBLAST"
+          ],
+          "ability": "MAGNETPULL",
+          "item": "LIFEORB",
+          "happiness": 0,
+          "nature": "TIMID",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B309H373",
+          "level": 81,
+          "moves": [
+            "SWORDSDANCE",
+            "SHADOWSNEAK",
+            "PLAYROUGH",
+            "CHIPAWAY"
+          ],
+          "ability": "DISGUISE",
+          "item": "MUSCLEBAND",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B299H336",
+          "level": 82,
+          "moves": [
+            "IRONHEAD",
+            "EARTHQUAKE",
+            "DRAGONCLAW",
+            "SWORDSDANCE"
+          ],
+          "ability": "MOXIE",
+          "item": "YACHEBERRY",
+          "happiness": 0,
+          "nature": "JOLLY",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        }
+      ]
+    },
+    "ELITEFOUR_Lance": {
+      "id_number": 612,
+      "trainer_type": "ELITEFOUR_Lance",
+      "real_name": "Lance",
+      "items": [],
+      "pokemon": [
+        {
+          "species": "DRAGONITE",
+          "level": 50
+        },
+        {
+          "species": "AERODACTYL",
+          "level": 50
+        },
+        {
+          "species": "GYARADOS",
+          "level": 50
+        }
+      ]
+    }
+  }
+}

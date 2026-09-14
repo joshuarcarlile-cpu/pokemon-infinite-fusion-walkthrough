@@ -1,0 +1,64 @@
+{
+  "leader": "Misty",
+  "title": "Cerulean City Gym Leader",
+  "badge": "Cascade Badge",
+  "hard_mode_level_cap": 25,
+  "gym_duel_limit": 2,
+  "recommended_party_level": 24,
+  "gym_trainers": [
+    {
+      "name": "Swimmer Luis",
+      "team": [
+        {"species": "Krabby/Shellder", "level": 18, "types": ["Water"], "moves": ["Bubble Beam", "Withdraw"]},
+        {"species": "Horsea/Ekans", "level": 18, "types": ["Water", "Poison"], "moves": ["Water Gun", "Poison Sting"]}
+      ]
+    },
+    {
+      "name": "Picnicker Diana",
+      "team": [
+        {"species": "Diglett/Staryu", "level": 21, "types": ["Ground", "Water"], "moves": ["Water Pulse", "Mud-Slap", "Swift"]}
+      ]
+    }
+  ],
+  "leader_team": [
+    {
+      "species": "Jigglypuff/Goldeen",
+      "level": 21,
+      "types": ["Normal", "Water"],
+      "ability": "Cute Charm",
+      "held_item": "Mystic Water",
+      "moves": [
+        "Water Pulse",
+        "Disarming Voice",
+        "Sing",
+        "Horn Attack"
+      ]
+    },
+    {
+      "species": "Oddish/Staryu",
+      "level": 25,
+      "types": ["Grass", "Water"],
+      "ability": "Chlorophyll",
+      "is_ace": true,
+      "held_item": "Mystic Water",
+      "moves": [
+        "Water Pulse",
+        "Recover",
+        "Mega Drain",
+        "Stun Spore"
+      ]
+    }
+  ],
+  "threat_analysis": "Misty's Classic Hard Mode team utilizes dual-type synergy to neutralize Water's typical weaknesses. Her lead, Jigglypuff/Goldeen, hits hard with Mystic Water-boosted Water Pulse (20% confusion chance) and threatens sleep with Sing. Her Ace, Oddish/Staryu (Lv. 25), is a dangerous Grass/Water hybrid: Grass moves deal only 1x neutral damage due to Oddish's Grass typing, while Mega Drain provides recovery and Stun Spore cuts speed by 50%.",
+  "tactical_counter_plan": [
+    "Bulbasaur Team Strategy: Evolve Bulbasaur into Ivysaur at Lv. 16. Grass STAB deals neutral damage to Oddish/Staryu, but Ivysaur completely resists both Water Pulse and Mega Drain. Use Sleep Powder to neutralize Stun Spore, then chip down with Leech Seed and Poison Powder or Flying STAB from Pidgeotto.",
+    "Charmander Team Strategy: DO NOT expose Charmeleon to Water Pulse. Lead with Route 24 Bellsprout or Route 1 Tangela (fused with Mankey or Spearow) to resist Water Pulse. Butterfree with Compound Eyes Sleep Powder completely shuts down Oddish/Staryu, allowing safe switches.",
+    "Squirtle Team Strategy: Wartortle 4x resists Water Pulse. Fuse Wartortle with Route 1 Tangela for massive physical and special bulk with Mega Drain and Regenerator. Stun Spore cannot cripple your tempo if you lead with a Lum/Cheri Berry.",
+    "Countering Confusion & Sleep: Stock 3-4 Persim Berries and Awakenings from Cerulean Poké Mart to instantly cure Water Pulse confusion and Sing sleep."
+  ],
+  "rewards": [
+    "Cascade Badge (Enables use of Cut in field, ensures obedience up to Lv. 30)",
+    "TM55 (Water Pulse)",
+    "Premium Wonder Trade Ticket"
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "starter": "Charmander",
+  "name": "Team Charmander: Sevii Pyre Vanguard",
+  "archetype": "Sevii oceanic traversal & Chuck duel core — Electric/Psychic speed sweeping, Air Slash coverage, Sleep status suppression, Intimidate pivoting, and Ground/Fighting wallbreaking.",
+  "gym_duel_core": [1, 2, 3, 4, 5],
+  "gym_duel_rationale": "For Chuck's 5 vs 5 duel, Slots 1 through 5 enter the fray: Alakazam/Raichu (Slot 2) sweeps with 120 SpA STAB Psychic against Chuck's Fighting core and STAB Thunderbolt to electrocute Blaziken/Wailord; Charizard/Venusaur (Slot 1) uses Sleep Powder to suppress setup sweepers, STAB Petal Dance against Kabutops/Machamp, and super-effective Air Slash; Gyarados/Nidoking (Slot 5) cuts Chuck's physical Attack on entry with Intimidate; Lapras (Slot 3) walls incoming water moves with Water Absorb and provides Ice Beam coverage; and Primeape/Sandslash (Slot 4) wallbreaks with Close Combat and Earthquake. Snorlax rests in reserve as the route endurance tank.",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Charizard/Venusaur",
+      "types": ["Fire", "Grass"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 72,
+      "ability": "Blaze",
+      "held_item": "Charcoal",
+      "role": "Starter Anchor & Aerial Status Striker",
+      "current_reached_moveset": [
+        "Flamethrower",
+        "Petal Dance",
+        "Air Slash",
+        "Sleep Powder"
+      ],
+      "progression_notes": "530 BST hybrid anchor at Cap 72. Sleep Powder neutralizes dangerous setup sweepers immediately. Air Slash lands super-effective STAB Flying damage against Chuck's Fighting core, while Petal Dance melts Kabutops/Machamp."
+    },
+    {
+      "slot": 2,
+      "species": "Alakazam/Raichu",
+      "types": ["Psychic", "Electric"],
+      "status": "Active in Party (Gym Duelist & MVP)",
+      "current_level": 71,
+      "ability": "Synchronize",
+      "held_item": "Magnet",
+      "role": "Electric/Psychic Speed Cannon",
+      "current_reached_moveset": [
+        "Thunderbolt",
+        "Psychic",
+        "Calm Mind",
+        "Recover"
+      ],
+      "progression_notes": "500 BST speed demon with 120 SpA. STAB Thunderbolt vaporizes ocean water spawns and Blaziken/Wailord. STAB Psychic decimates Kabutops/Machamp, Poliwrath/Primeape, Lucario/Flygon, and Hitmonchan/Snorlax."
+    },
+    {
+      "slot": 3,
+      "species": "Lapras",
+      "types": ["Water", "Ice"],
+      "status": "Active in Party (Gym Duelist)",
+      "current_level": 71,
+      "ability": "Water Absorb",
+      "held_item": "Never-Melt Ice",
+      "role": "Ice Coverage & Special Wall",
+      "current_reached_moveset": [
+        "Ice Beam",
+        "Hydro Pump",
+        "Confuse Ray",
+        "Body Slam"
+      ],
+      "progression_notes": "535 BST Water/Ice fortress. Water Absorb completely negates opposing water attacks across Brine Road and Deep Sea. STAB Ice Beam targets Lucario/Flygon for heavy super-effective damage."
+    },
+    {
+      "slot": 4,
+      "species": "Primeape/Sandslash",
+      "types": ["Fighting", "Ground"],
+      "status": "Active in Party (Gym Duelist)",
+      "current_level": 71,
+      "ability": "Vital Spirit",
+      "held_item": "Black Belt",
+      "role": "Fighting Wallbreaker & Ground Striker",
+      "current_reached_moveset": [
+        "Close Combat",
+        "Earthquake",
+        "Cross Chop",
+        "Swords Dance"
+      ],
+      "progression_notes": "477 BST physical wallbreaker. STAB Earthquake crushes Rock and Electric encounters, while Close Combat breaks bulky Normal and Steel targets with immense force."
+    },
+    {
+      "slot": 5,
+      "species": "Gyarados/Nidoking",
+      "types": ["Water", "Poison"],
+      "status": "Active in Party (Gym Duelist)",
+      "current_level": 71,
+      "ability": "Intimidate",
+      "held_item": "Mystic Water",
+      "role": "Intimidate Physical Pivot",
+      "current_reached_moveset": [
+        "Aqua Tail",
+        "Dragon Dance",
+        "Megahorn",
+        "Earth Power"
+      ],
+      "progression_notes": "522 BST Intimidate pivot. Cuts Chuck's physical Attack on entry to blunt incoming Dynamic Punches and Close Combats. STAB Aqua Tail washes away ground and rock threats."
+    },
+    {
+      "slot": 6,
+      "species": "Snorlax",
+      "types": ["Normal"],
+      "status": "Active in Party (Route Traversal Tank)",
+      "current_level": 71,
+      "ability": "Thick Fat",
+      "held_item": "Leftovers",
+      "role": "Route Travel Tank & Sustained Sponge",
+      "current_reached_moveset": [
+        "Body Slam",
+        "Rest",
+        "Sleep Talk",
+        "Crunch"
+      ],
+      "progression_notes": "Colossal 160 HP route sponge holding Leftovers. RestTalk loop absorbs deep-sea status and damage during exploration while resting in reserve during the 5v5 Gym duel."
+    }
+  ],
+  "flex_bench": [
+    {
+      "species": "Pidgeot",
+      "role": "Tailwind Aerial Scout",
+      "rationale": "High-speed Flying pivot providing team speed acceleration and super-effective Flying STAB."
+    },
+    {
+      "species": "Weezing",
+      "role": "Levitate Physical Sponge",
+      "rationale": "Ground-immune physical wall packing Sludge Bomb and Will-O-Wisp for burn suppression."
+    },
+    {
+      "species": "Hitmonchan",
+      "role": "Iron Fist Coverage Striker",
+      "rationale": "Iron Fist-boosted elemental punches provide custom physical coverage against diverse route encounters."
+    }
+  ]
+}

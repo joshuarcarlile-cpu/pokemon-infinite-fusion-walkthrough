@@ -1,0 +1,684 @@
+{
+  "gifts": [
+    {
+      "pokemon": "Bulbasaur",
+      "location": "Pallet Town",
+      "level": "5",
+      "notes": "Starter Pokémon"
+    },
+    {
+      "pokemon": "Charmander",
+      "location": "Pallet Town",
+      "level": "5",
+      "notes": "Starter Pokémon"
+    },
+    {
+      "pokemon": "Squirtle",
+      "location": "Pallet Town",
+      "level": "5",
+      "notes": "Starter Pokémon"
+    },
+    {
+      "pokemon": "Porygon",
+      "location": "Any PC",
+      "level": "1",
+      "notes": "Expand Random chance (based on step count) when accessing a PC Collapse The game keeps track of the total steps taken. If the player accesses a PC when the steps are divisible by 200, a Porygon will be added to the player's party (or first available PC storage space if the party is full). Afterwards the total steps counter will increase by 1 so the event can't be instantly repeated."
+    },
+    {
+      "pokemon": "Luvdisc",
+      "location": "Viridian City",
+      "level": "5",
+      "notes": "Poké Mart, Second Playthroughs only"
+    },
+    {
+      "pokemon": "Pineco",
+      "location": "Pewter City",
+      "level": "5",
+      "notes": "Quest Reward"
+    },
+    {
+      "pokemon": "Oricorio",
+      "location": "Pewter City",
+      "level": "15",
+      "notes": "Quest Reward"
+    },
+    {
+      "pokemon": "Magikarp",
+      "location": "Route 3",
+      "level": "5",
+      "notes": "Sold for is 500 Pokedollars"
+    },
+    {
+      "pokemon": "Omanyte",
+      "location": "Mt. Moon",
+      "level": "--",
+      "notes": "Helix Fossil"
+    },
+    {
+      "pokemon": "Kabuto",
+      "location": "Dome Fossil",
+      "level": "--",
+      "notes": "Helix Fossil"
+    },
+    {
+      "pokemon": "Random Egg",
+      "location": "Route 5",
+      "level": "1",
+      "notes": "From breeder trainer, 4 possible random fusion Pokemon"
+    },
+    {
+      "pokemon": "Togepi",
+      "location": "Kanto Daycare",
+      "level": "1",
+      "notes": "Daycare Egg"
+    },
+    {
+      "pokemon": "(Blue Egg) Azurill",
+      "location": "Daycare Egg, Pretty Wings quest",
+      "level": "1",
+      "notes": "Daycare Egg"
+    },
+    {
+      "pokemon": "(Yellow Egg) Pichu",
+      "location": "Daycare Egg, Pretty Wings quest",
+      "level": "1",
+      "notes": "Daycare Egg"
+    },
+    {
+      "pokemon": "(Pink Egg) Cleffa",
+      "location": "Daycare Egg, Pretty Wings quest",
+      "level": "1",
+      "notes": "Daycare Egg"
+    },
+    {
+      "pokemon": "(Pink Egg) Igglybuff",
+      "location": "Daycare Egg, Pretty Wings quest",
+      "level": "1",
+      "notes": "Daycare Egg"
+    },
+    {
+      "pokemon": "Bonsly",
+      "location": "Daycare Egg, Heart Scales quest",
+      "level": "1",
+      "notes": "Daycare Egg"
+    },
+    {
+      "pokemon": "Mantyke",
+      "location": "Daycare Egg, Heart Scales quest",
+      "level": "1",
+      "notes": "Daycare Egg"
+    },
+    {
+      "pokemon": "Happiny",
+      "location": "Daycare Egg, Heart Scales quest",
+      "level": "1",
+      "notes": "Daycare Egg"
+    },
+    {
+      "pokemon": "Elekid",
+      "location": "Daycare Egg, Honey quest",
+      "level": "1",
+      "notes": "Daycare Egg"
+    },
+    {
+      "pokemon": "Magby",
+      "location": "Daycare Egg, Honey quest",
+      "level": "1",
+      "notes": "Daycare Egg"
+    },
+    {
+      "pokemon": "Smoochum",
+      "location": "Daycare Egg, Honey quest",
+      "level": "1",
+      "notes": "Daycare Egg"
+    },
+    {
+      "pokemon": "Wooper",
+      "location": "Vermillion City",
+      "level": "15",
+      "notes": "Quest Reward"
+    },
+    {
+      "pokemon": "Lileep",
+      "location": "S.S. Anne",
+      "level": "--",
+      "notes": "Root Fossil, Fossil Maniac 2nd Encounter"
+    },
+    {
+      "pokemon": "Anorith",
+      "location": "Claw Fossil, Fossil Maniac 2nd Encounter",
+      "level": "--",
+      "notes": "Root Fossil, Fossil Maniac 2nd Encounter"
+    },
+    {
+      "pokemon": "Torkoal",
+      "location": "S.S. Anne",
+      "level": "20",
+      "notes": "From a sailor, after the third Gym"
+    },
+    {
+      "pokemon": "Aerodactyl",
+      "location": "Pewter City",
+      "level": "--",
+      "notes": "Old Amber, Quest Reward"
+    },
+    {
+      "pokemon": "Fossil Pokemon",
+      "location": "Pewter City Museum",
+      "level": "1",
+      "notes": "Revive Fossils except the Old Amber"
+    },
+    {
+      "pokemon": "Honedge",
+      "location": "Rock Tunnel",
+      "level": "10",
+      "notes": "Canyon Cave (Free Gift from Old Man via B1F southwest ladder)"
+    },
+    {
+      "pokemon": "Machop/Geodude",
+      "location": "Rock Tunnel",
+      "level": "1",
+      "notes": "As Egg, Hiker's Gift"
+    },
+    {
+      "pokemon": "Wynaut",
+      "location": "Lavender Town",
+      "level": "1",
+      "notes": "As Egg"
+    },
+    {
+      "pokemon": "Random Egg",
+      "location": "Route 8",
+      "level": "1",
+      "notes": "From breeder trainer, 10 possible random fusion Pokemon"
+    },
+    {
+      "pokemon": "Eevee",
+      "location": "Celadon City",
+      "level": "20",
+      "notes": "Top floor of Celadon Condominiums"
+    },
+    {
+      "pokemon": "Abra",
+      "location": "Celadon Game Corner",
+      "level": "9",
+      "notes": "200 Coins"
+    },
+    {
+      "pokemon": "Clefairy",
+      "location": "14",
+      "level": "750 Coins",
+      "notes": "200 Coins"
+    },
+    {
+      "pokemon": "Pinsir",
+      "location": "18",
+      "level": "4000 Coins",
+      "notes": "200 Coins"
+    },
+    {
+      "pokemon": "Scyther",
+      "location": "18",
+      "level": "4000 Coins",
+      "notes": "200 Coins"
+    },
+    {
+      "pokemon": "Dratini",
+      "location": "21",
+      "level": "6000 Coins",
+      "notes": "200 Coins"
+    },
+    {
+      "pokemon": "Porygon",
+      "location": "24",
+      "level": "9999 Coins",
+      "notes": "200 Coins"
+    },
+    {
+      "pokemon": "Cranidos",
+      "location": "Celadon Cafe",
+      "level": "--",
+      "notes": "Skull Fossil, Fossil Maniac 3rd Encounter"
+    },
+    {
+      "pokemon": "Shieldon",
+      "location": "Armor Fossil, Fossil Maniac 3rd Encounter",
+      "level": "--",
+      "notes": "Skull Fossil, Fossil Maniac 3rd Encounter"
+    },
+    {
+      "pokemon": "Lapras",
+      "location": "Silph Co.",
+      "level": "25",
+      "notes": ""
+    },
+    {
+      "pokemon": "Chikorita",
+      "location": "Silph Co.",
+      "level": "15",
+      "notes": "From the President after Silph Co"
+    },
+    {
+      "pokemon": "Cyndaquil",
+      "location": "Silph Co.",
+      "level": "15",
+      "notes": "From the President after Silph Co"
+    },
+    {
+      "pokemon": "Totodile",
+      "location": "Silph Co.",
+      "level": "15",
+      "notes": "From the President after Silph Co"
+    },
+    {
+      "pokemon": "Tyrunt",
+      "location": "Saffron Restaurant",
+      "level": "--",
+      "notes": "Jaw Fossil, Fossil Maniac 4th Encounter"
+    },
+    {
+      "pokemon": "Amaura",
+      "location": "Sail Fossil, Fossil Maniac 4th Encounter",
+      "level": "--",
+      "notes": "Jaw Fossil, Fossil Maniac 4th Encounter"
+    },
+    {
+      "pokemon": "Hitmonchan",
+      "location": "Fighting Dojo",
+      "level": "40",
+      "notes": "Fighting Dojo"
+    },
+    {
+      "pokemon": "Hitmonlee",
+      "location": "Fighting Dojo",
+      "level": "40",
+      "notes": "Fighting Dojo"
+    },
+    {
+      "pokemon": "Hitmontop",
+      "location": "Fighting Dojo",
+      "level": "40",
+      "notes": "Fighting Dojo"
+    },
+    {
+      "pokemon": "Smeargle",
+      "location": "Saffron Nightclub",
+      "level": "40",
+      "notes": "Quest Reward"
+    },
+    {
+      "pokemon": "Fossil Pokemon",
+      "location": "Cinnabar Lab",
+      "level": "35",
+      "notes": "Reviving any Fossil you found"
+    },
+    {
+      "pokemon": "Omanyte",
+      "location": "Cinnabar Island",
+      "level": "--",
+      "notes": "Helix Fossil, Quest Reward, opposite from the first choice"
+    },
+    {
+      "pokemon": "Kabuto",
+      "location": "Dome Fossil, Quest Reward, opposite from the first choice",
+      "level": "--",
+      "notes": "Helix Fossil, Quest Reward, opposite from the first choice"
+    },
+    {
+      "pokemon": "Bulbasaur",
+      "location": "Pallet Town",
+      "level": "1",
+      "notes": "From your sibling after 4 Gyms, an egg of the starter strong against yours"
+    },
+    {
+      "pokemon": "Charmander",
+      "location": "Pallet Town",
+      "level": "1",
+      "notes": "From your sibling after 4 Gyms, an egg of the starter strong against yours"
+    },
+    {
+      "pokemon": "Squirtle",
+      "location": "Pallet Town",
+      "level": "1",
+      "notes": "From your sibling after 4 Gyms, an egg of the starter strong against yours"
+    },
+    {
+      "pokemon": "Chikorita",
+      "location": "Goldenrod City",
+      "level": "15",
+      "notes": "Elm's assistant"
+    },
+    {
+      "pokemon": "Cyndaquil",
+      "location": "Goldenrod City",
+      "level": "15",
+      "notes": "Elm's assistant"
+    },
+    {
+      "pokemon": "Totodile",
+      "location": "Goldenrod City",
+      "level": "15",
+      "notes": "Elm's assistant"
+    },
+    {
+      "pokemon": "Treecko",
+      "location": "Pallet Town",
+      "level": "5",
+      "notes": "Professor Oak, after getting 12 Badges and before getting 16th Badge"
+    },
+    {
+      "pokemon": "Torchic",
+      "location": "Pallet Town",
+      "level": "5",
+      "notes": "Professor Oak, after getting 12 Badges and before getting 16th Badge"
+    },
+    {
+      "pokemon": "Mudkip",
+      "location": "Pallet Town",
+      "level": "5",
+      "notes": "Professor Oak, after getting 12 Badges and before getting 16th Badge"
+    },
+    {
+      "pokemon": "Ralts",
+      "location": "National Park",
+      "level": "1",
+      "notes": "As Egg"
+    },
+    {
+      "pokemon": "Beldum",
+      "location": "Violet City",
+      "level": "5",
+      "notes": ""
+    },
+    {
+      "pokemon": "Fossils Items",
+      "location": "Rock Smash",
+      "level": "--",
+      "notes": "Rock Smash fossils are only available after the Elite Four"
+    },
+    {
+      "pokemon": "Chikorita",
+      "location": "New Bark Town",
+      "level": "15",
+      "notes": ""
+    },
+    {
+      "pokemon": "Cyndaquil",
+      "location": "New Bark Town",
+      "level": "15",
+      "notes": ""
+    },
+    {
+      "pokemon": "Totodile",
+      "location": "New Bark Town",
+      "level": "15",
+      "notes": ""
+    },
+    {
+      "pokemon": "Lucario",
+      "location": "Blackthorn City",
+      "level": "45",
+      "notes": "Quest Reward"
+    },
+    {
+      "pokemon": "Gible",
+      "location": "Dragon's Den",
+      "level": "25",
+      "notes": ""
+    },
+    {
+      "pokemon": "Pawniard",
+      "location": "Knot Island",
+      "level": "1",
+      "notes": "As Eggs brought with Heart Scales"
+    },
+    {
+      "pokemon": "Bagon",
+      "location": "Knot Island",
+      "level": "1",
+      "notes": "As Eggs brought with Heart Scales"
+    },
+    {
+      "pokemon": "Turtwig",
+      "location": "Kin Island",
+      "level": "20",
+      "notes": "Obtain the other two starters you didn't choose"
+    },
+    {
+      "pokemon": "Chimchar",
+      "location": "Kin Island",
+      "level": "20",
+      "notes": "Obtain the other two starters you didn't choose"
+    },
+    {
+      "pokemon": "Piplup",
+      "location": "Kin Island",
+      "level": "20",
+      "notes": "Obtain the other two starters you didn't choose"
+    },
+    {
+      "pokemon": "Mareanie",
+      "location": "Bond Bridge",
+      "level": "30",
+      "notes": ""
+    },
+    {
+      "pokemon": "Any pokémon",
+      "location": "Celadon City Black Market",
+      "level": "15-35",
+      "notes": "Randomized pokémon |} == NPC Trades == Several NPCs offer to trade for rare Pokémon. This is the list of NPC trades in the game. This list does not include the trades offered by random trainers."
+    }
+  ],
+  "trades": [
+    {
+      "give": "Bellsprout",
+      "receive": "Spearow",
+      "location": "Viridian City",
+      "notes": ""
+    },
+    {
+      "give": "Tyrogue",
+      "receive": "Mankey",
+      "location": "Pewter City",
+      "notes": ""
+    },
+    {
+      "give": "Squirtle",
+      "receive": "Grass Type",
+      "location": "Cerulean City (requires a previous trade like Tyrogue (Pewter) or Meowth (Vermillion) to be completed, the starter weak to your starter)",
+      "notes": ""
+    },
+    {
+      "give": "Bulbasaur",
+      "receive": "Fire Type",
+      "location": "Cerulean City (requires a previous trade like Tyrogue (Pewter) or Meowth (Vermillion) to be completed, the starter weak to your starter)",
+      "notes": ""
+    },
+    {
+      "give": "Charmander",
+      "receive": "Water Type",
+      "location": "Cerulean City (requires a previous trade like Tyrogue (Pewter) or Meowth (Vermillion) to be completed, the starter weak to your starter)",
+      "notes": ""
+    },
+    {
+      "give": "Yanma",
+      "receive": "Paras",
+      "location": "Cerulean City",
+      "notes": ""
+    },
+    {
+      "give": "Poliwag",
+      "receive": "Rattata",
+      "location": "Route 5",
+      "notes": ""
+    },
+    {
+      "give": "Slowpoke",
+      "receive": "Meowth",
+      "location": "Vermillion City (if playing in Reversed mode, this trade is instead a Psyduck)",
+      "notes": ""
+    },
+    {
+      "give": "Psyduck",
+      "receive": "Meowth",
+      "location": "Vermillion City (only when playing Reversed mode, replacing the Slowpoke trade)",
+      "notes": ""
+    },
+    {
+      "give": "Farfetch'd",
+      "receive": "Spearow",
+      "location": "Vermillion City",
+      "notes": ""
+    },
+    {
+      "give": "Voltorb",
+      "receive": "Ekans",
+      "location": "Pokémon Fan Club",
+      "notes": ""
+    },
+    {
+      "give": "Exeggcute",
+      "receive": "Voltorb",
+      "location": "Pokémon Fan Club",
+      "notes": ""
+    },
+    {
+      "give": "Doduo",
+      "receive": "Voltorb",
+      "location": "Pokémon Fan Club",
+      "notes": ""
+    },
+    {
+      "give": "Seel",
+      "receive": "Drowzee",
+      "location": "S.S. Anne",
+      "notes": ""
+    },
+    {
+      "give": "Growlithe",
+      "receive": "Shellder",
+      "location": "S.S. Anne",
+      "notes": ""
+    },
+    {
+      "give": "Mr. Mime",
+      "receive": "Abra",
+      "location": "Route 2",
+      "notes": ""
+    },
+    {
+      "give": "Mareep",
+      "receive": "Venonat",
+      "location": "Route 11 Gate",
+      "notes": ""
+    },
+    {
+      "give": "Ponyta",
+      "receive": "Raichu",
+      "location": "Celadon City",
+      "notes": ""
+    },
+    {
+      "give": "Elekid",
+      "receive": "Eevee",
+      "location": "Celadon City (if playing in Reversed mode, this trade is instead a Magby)",
+      "notes": ""
+    },
+    {
+      "give": "Magby",
+      "receive": "Eevee",
+      "location": "Celadon City (only when playing Reversed mode, replacing the Elekid trade)",
+      "notes": ""
+    },
+    {
+      "give": "Heracross",
+      "receive": "Pinsir",
+      "location": "Safari Zone (Area 3)",
+      "notes": ""
+    },
+    {
+      "give": "Skarmory",
+      "receive": "Dodrio",
+      "location": "Cinnabar Island",
+      "notes": ""
+    },
+    {
+      "give": "Seel",
+      "receive": "Ponyta",
+      "location": "Cinnabar Laboratory",
+      "notes": ""
+    },
+    {
+      "give": "Chansey",
+      "receive": "Clefable",
+      "location": "Cinnabar Laboratory",
+      "notes": ""
+    },
+    {
+      "give": "Electrode",
+      "receive": "Raichu",
+      "location": "Cinnabar Laboratory",
+      "notes": ""
+    },
+    {
+      "give": "Larvitar",
+      "receive": "Dratini",
+      "location": "Crimson City",
+      "notes": ""
+    },
+    {
+      "give": "Mudkip",
+      "receive": "Squirtle",
+      "location": "Pallet Town (Hoenn Starter weak to your Oak's pick)",
+      "notes": ""
+    },
+    {
+      "give": "Treecko",
+      "receive": "Bulbasaur",
+      "location": "Pallet Town (Hoenn Starter weak to your Oak's pick)",
+      "notes": ""
+    },
+    {
+      "give": "Torchic",
+      "receive": "Charmander",
+      "location": "Pallet Town (Hoenn Starter weak to your Oak's pick)",
+      "notes": ""
+    },
+    {
+      "give": "Sneasel",
+      "receive": "Lickitung",
+      "location": "Goldenrod City",
+      "notes": ""
+    },
+    {
+      "give": "Meowth/Ditto (Mewto)",
+      "receive": "The first pokemon in you team",
+      "location": "Goldenrod City Underground",
+      "notes": ""
+    },
+    {
+      "give": "Torchic",
+      "receive": "Cyadaquil",
+      "location": "New Bark Town (Hoenn Starter strong to your Oak's pick)",
+      "notes": ""
+    },
+    {
+      "give": "Mudkip",
+      "receive": "Totodile",
+      "location": "New Bark Town (Hoenn Starter strong to your Oak's pick)",
+      "notes": ""
+    },
+    {
+      "give": "Treecko",
+      "receive": "Chikorita",
+      "location": "New Bark Town (Hoenn Starter strong to your Oak's pick)",
+      "notes": ""
+    },
+    {
+      "give": "Randomized pokémon",
+      "receive": "Any pokémon",
+      "location": "Wonder Trade |} Category:Game Content",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "chapter_id": "ch23",
+  "title": "Act 4 - Chapter 1: The Kanto & Johto Pantheon (Mewtwo, Birds & Beasts)",
+  "act": 4,
+  "hard_mode_level_cap": 85,
+  "gym_duel_limit": 6,
+  "routes_covered": [
+    "Cerulean Cave"
+  ],
+  "expected_classic_spawns": [
+    "Alakazam",
+    "Arbok",
+    "Chansey",
+    "Clefable",
+    "Ditto",
+    "Dodrio",
+    "Electrode",
+    "Gloom",
+    "Golbat",
+    "Graveler",
+    "Hypno",
+    "Kadabra",
+    "Lickitung",
+    "Machoke",
+    "Magneton",
+    "Marowak",
+    "Mewtwo",
+    "Parasect",
+    "Persian",
+    "Raichu",
+    "Rapidash",
+    "Rhydon",
+    "Rhyhorn",
+    "Sandslash",
+    "Venomoth",
+    "Weepinbell",
+    "Wigglytuff"
+  ],
+  "prohibited_spawns": [
+    "Metagross",
+    "Lucario",
+    "Tyranitar"
+  ]
+}

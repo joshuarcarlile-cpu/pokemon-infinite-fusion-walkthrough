@@ -1,0 +1,59 @@
+{
+  "name": "The Legendary Birds of Kanto",
+  "summary": "Awaken the ancient winged guardians across Kanto. First, journey to Seafoam Islands B4F; equip the Ice Pick found on Mt. Ember to scale the frozen vertical ice wall and battle Articuno (Lv. 50). Next, travel to Route 10 and enter the abandoned Power Plant; use the Power Plant Access Key from Mt. Ember to unlock the generator basement where Zapdos (Lv. 50) perches amidst humming dynamos. Finally, take the Seagallop ferry to Knot Island and climb Mt. Ember where Moltres (Lv. 50) has returned to its volcanic roost. Subdue and capture all three legendary birds to complete the triad required for Eusine's research.",
+  "items": [
+    {
+      "name": "Zap Plate",
+      "method": "Found behind the primary electrical turbine in the Power Plant basement",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Icicle Plate",
+      "method": "Located on the frozen ledge behind Articuno in Seafoam Islands B4F",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Flame Plate",
+      "method": "Found near the bubbling magma vent at the summit of Mt. Ember",
+      "type": "Hold Item"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Bird Keeper Roger",
+      "title": "Bird Keeper",
+      "reward": "P2,160",
+      "pokemon": [
+        {
+          "species": "Pidgeot/Fearow",
+          "level": 67,
+          "types": ["Normal", "Flying"]
+        },
+        {
+          "species": "Dodrio/Swellow",
+          "level": 67,
+          "types": ["Normal", "Flying"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Special": [
+      {
+        "species": "Articuno",
+        "levels": "50",
+        "rate": "Seafoam Islands B4F Static Event"
+      },
+      {
+        "species": "Zapdos",
+        "levels": "50",
+        "rate": "Power Plant Basement Static Event"
+      },
+      {
+        "species": "Moltres",
+        "levels": "50",
+        "rate": "Mt. Ember Caldera Static Event"
+      }
+    ]
+  }
+}

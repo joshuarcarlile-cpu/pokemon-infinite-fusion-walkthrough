@@ -1,0 +1,94 @@
+{
+  "name": "S.S. Anne Luxury Liner",
+  "summary": "Board the opulent luxury liner docked in Vermilion harbor using your S.S. Ticket. Clear the staterooms of wealthy Gentlemen and salty Sailors, secure Krabby Legs in the galley, battle Rival Blue on 2F, and soothe the seasick Captain.",
+  "items": [
+    {
+      "name": "HM01 Cut",
+      "method": "Given by the Captain in his private cabin after soothing his seasickness",
+      "type": "Key Item"
+    },
+    {
+      "name": "Krabby Legs",
+      "method": "Given by the Chef in the ship kitchen after accepting Hotel Quest 3: Seafood Cocktail",
+      "type": "Key Item"
+    },
+    {
+      "name": "Rare Candy",
+      "method": "On the floor in cabin Room B4",
+      "type": "Consumable"
+    },
+    {
+      "name": "Max Ether",
+      "method": "On the floor in cabin Room B1",
+      "type": "Consumable"
+    },
+    {
+      "name": "TM31 Brick Break",
+      "method": "On the floor in cabin Room 13 on the Upper Deck",
+      "type": "TM"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Sailor Duncan",
+      "team": [
+        {
+          "species": "Horsea",
+          "level": 17,
+          "types": ["Water"]
+        },
+        {
+          "species": "Shellder",
+          "level": 17,
+          "types": ["Water"]
+        }
+      ]
+    },
+    {
+      "name": "Gentleman Thomas",
+      "team": [
+        {
+          "species": "Growlithe",
+          "level": 18,
+          "types": ["Fire"]
+        },
+        {
+          "species": "Ponyta",
+          "level": 18,
+          "types": ["Fire"]
+        }
+      ]
+    },
+    {
+      "name": "Rival Blue",
+      "team": [
+        {
+          "species": "Nidorino/Pidgeotto",
+          "level": 22,
+          "types": ["Poison", "Flying"]
+        },
+        {
+          "species": "Mankey/Raticate",
+          "level": 20,
+          "types": ["Fighting", "Normal"]
+        },
+        {
+          "species": "Staryu/Kadabra",
+          "level": 18,
+          "types": ["Water", "Psychic"]
+        },
+        {
+          "species": "Wartortle/Charmeleon",
+          "level": 22,
+          "types": ["Water", "Fire"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Gift Pokémon": [
+      {"dex_id": "488", "name": "Torkoal", "types": ["Fire"], "levels": "20", "rates": "Given by Sailor in cabin after earning Thunder Badge"}
+    ]
+  },
+  "navigation_notes": "CRITICAL GROUND TRUTH NOTE: Unlike vanilla Pokémon games, the S.S. Anne does NOT depart when you leave the ship or receive HM01 Cut. It remains permanently moored in Vermilion harbor! Your personal stateroom bed provides free, infinite party healing, saving trips to the Pokémon Center. Be sure to speak to the chef in the kitchen to pick up the Krabby Legs for Hotel Quest 3 (Seafood Cocktail)."
+}

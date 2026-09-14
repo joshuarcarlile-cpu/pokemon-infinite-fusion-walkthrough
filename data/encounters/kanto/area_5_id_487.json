@@ -1,0 +1,296 @@
+{
+  "location": "Area 5 (ID 487)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "022",
+        "name": "Fearow",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "22-25",
+        "catch_rate": "90",
+        "rates": [
+          "-",
+          "-",
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "050",
+        "name": "Diglett",
+        "type1": "Ground",
+        "type2": "",
+        "levels": "25",
+        "catch_rate": "255",
+        "rates": [
+          "15%",
+          "15%",
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "111",
+        "name": "Rhyhorn",
+        "type1": "Ground",
+        "type2": "Rock",
+        "levels": "22-28",
+        "catch_rate": "120",
+        "rates": [
+          "10%",
+          "10%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "392",
+        "name": "Trapinch",
+        "type1": "Ground",
+        "type2": "",
+        "levels": "19-23",
+        "catch_rate": "255",
+        "rates": [
+          "35%",
+          "35%",
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "393",
+        "name": "Vibrava",
+        "type1": "Ground",
+        "type2": "Dragon",
+        "levels": "26",
+        "catch_rate": "120",
+        "rates": [
+          "5%",
+          "5%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "409",
+        "name": "Sandile",
+        "type1": "Ground",
+        "type2": "Dark",
+        "levels": "22",
+        "catch_rate": "180",
+        "rates": [
+          "20%",
+          "20%",
+          "35%"
+        ]
+      },
+      {
+        "dex_id": "458",
+        "name": "Cacturne",
+        "type1": "Grass",
+        "type2": "Dark",
+        "levels": "26",
+        "catch_rate": "60",
+        "rates": [
+          "-",
+          "-",
+          "5%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "dex_id": "054",
+        "name": "Psyduck",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20-40",
+        "catch_rate": "190",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "dex_id": "055",
+        "name": "Golduck",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20-30",
+        "catch_rate": "75",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "079",
+        "name": "Slowpoke",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "20-40",
+        "catch_rate": "190",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "dex_id": "080",
+        "name": "Slowbro",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "20-30",
+        "catch_rate": "75",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "436",
+        "name": "Carvanha",
+        "type1": "Water",
+        "type2": "Dark",
+        "levels": "20-40",
+        "catch_rate": "225",
+        "rates": [
+          "40%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "dex_id": "060",
+        "name": "Poliwag",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5",
+        "catch_rate": "255",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5",
+        "catch_rate": "255",
+        "rates": [
+          "80%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "dex_id": "060",
+        "name": "Poliwag",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-15",
+        "catch_rate": "255",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "118",
+        "name": "Goldeen",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-15",
+        "catch_rate": "225",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-15",
+        "catch_rate": "255",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "dex_id": "054",
+        "name": "Psyduck",
+        "type1": "Water",
+        "type2": "",
+        "levels": "15-35",
+        "catch_rate": "190",
+        "rates": [
+          "4%"
+        ]
+      },
+      {
+        "dex_id": "079",
+        "name": "Slowpoke",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "15-35",
+        "catch_rate": "190",
+        "rates": [
+          "4%"
+        ]
+      },
+      {
+        "dex_id": "118",
+        "name": "Goldeen",
+        "type1": "Water",
+        "type2": "",
+        "levels": "15-25",
+        "catch_rate": "225",
+        "rates": [
+          "38%"
+        ]
+      },
+      {
+        "dex_id": "119",
+        "name": "Seaking",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20-30",
+        "catch_rate": "60",
+        "rates": [
+          "38%"
+        ]
+      },
+      {
+        "dex_id": "147",
+        "name": "Dratini",
+        "type1": "Dragon",
+        "type2": "",
+        "levels": "15-25",
+        "catch_rate": "45",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "148",
+        "name": "Dragonair",
+        "type1": "Dragon",
+        "type2": "",
+        "levels": "25-35",
+        "catch_rate": "45",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Pok\u00e9 Radar": [
+      {
+        "dex_id": "471",
+        "name": "Jangmo-o",
+        "type1": "Dragon",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "45",
+        "rates": [
+          "50% <small>([[Pok\u00e9 Radar#How_it_works",
+          "long rustle]])</small>"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "location": "Sky Pillar (ID 634)",
+  "sections": {
+    "Cave": [
+      {
+        "dex_id": "042",
+        "name": "Golbat",
+        "type1": "Poison",
+        "type2": "Flying",
+        "levels": "54-56",
+        "catch_rate": "90",
+        "rates": [
+          "45%"
+        ]
+      },
+      {
+        "dex_id": "168",
+        "name": "Ariados",
+        "type1": "Bug",
+        "type2": "Poison",
+        "levels": "54-56",
+        "catch_rate": "90",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "292",
+        "name": "Metang",
+        "type1": "Steel",
+        "type2": "Psychic",
+        "levels": "45",
+        "catch_rate": "3",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "300",
+        "name": "Mawile",
+        "type1": "Steel",
+        "type2": "Fairy",
+        "levels": "54-56",
+        "catch_rate": "45",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "312",
+        "name": "Dusclops",
+        "type1": "Ghost",
+        "type2": "",
+        "levels": "54-56",
+        "catch_rate": "90",
+        "rates": [
+          "20%"
+        ]
+      }
+    ]
+  }
+}

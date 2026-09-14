@@ -1,0 +1,55 @@
+{
+  "name": "Route 44 Marshland Ponds",
+  "summary": "Depart east from Mahogany Town along the serene pond highway of Route 44 leading to the foot of the Ice Mountains. Battle roadside trainers including Beauty Callie (who awards a valuable Heart Scale upon defeat) and Psychic Greg (who gifts a Full Heal). Scavenge field recovery supplies including a Max Revive and Elixir from the marshy banks, and encounter native wetland flora and fauna including wild Tangela, Weepinbell, Lickitung, and their rare fully-evolved forms Tangrowth and Lickilicky.",
+  "items": [
+    {
+      "name": "Heart Scale",
+      "method": "Given by Beauty Callie after defeating her along Route 44",
+      "type": "Collectible"
+    },
+    {
+      "name": "Full Heal",
+      "method": "Given by Psychic Greg after defeating him along Route 44",
+      "type": "Medicine"
+    },
+    {
+      "name": "Max Revive",
+      "method": "Found tucked behind the marsh bushes along the north pond embankment",
+      "type": "Medicine"
+    },
+    {
+      "name": "Elixir",
+      "method": "Located on the secluded grass islet in the center of Route 44's main pond",
+      "type": "Medicine"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Beauty Callie",
+      "team": [
+        {"species": "Clefable", "level": 49, "types": ["Fairy"]},
+        {"species": "Azumarill/Wigglytuff", "level": 49, "types": ["Water", "Fairy"]}
+      ]
+    },
+    {
+      "name": "Psychic Greg",
+      "team": [
+        {"species": "Hypno/Hypno", "level": 54, "types": ["Psychic"]}
+      ]
+    }
+  ],
+  "encounters": {
+    "Route 44 Tall Grass": [
+      {"dex_id": "070", "name": "Weepinbell", "types": ["Grass", "Poison"], "levels": "48-55", "rates": "25%"},
+      {"dex_id": "114", "name": "Tangela", "types": ["Grass"], "levels": "45-52", "rates": "25%"},
+      {"dex_id": "108", "name": "Lickitung", "types": ["Normal"], "levels": "45-52", "rates": "20%"},
+      {"dex_id": "069", "name": "Bellsprout", "types": ["Grass", "Poison"], "levels": "42-50", "rates": "15%"},
+      {"dex_id": "363", "name": "Lickilicky", "types": ["Normal"], "levels": "55", "rates": "10%"},
+      {"dex_id": "365", "name": "Tangrowth", "types": ["Grass"], "levels": "55", "rates": "5%"}
+    ],
+    "Route 44 Surfing": [
+      {"dex_id": "060", "name": "Poliwag", "types": ["Water"], "levels": "20-30", "rates": "70%"},
+      {"dex_id": "061", "name": "Poliwhirl", "types": ["Water"], "levels": "35-40", "rates": "30%"}
+    ]
+  }
+}

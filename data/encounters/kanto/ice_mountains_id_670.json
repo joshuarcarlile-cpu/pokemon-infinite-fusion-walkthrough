@@ -1,0 +1,76 @@
+{
+  "location": "Ice Mountains (ID 670)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "215",
+        "name": "Sneasel",
+        "type1": "Dark",
+        "type2": "Ice",
+        "levels": "45-49",
+        "catch_rate": "60",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "217",
+        "name": "Ursaring",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "45-49",
+        "catch_rate": "60",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "221",
+        "name": "Piloswine",
+        "type1": "Ice",
+        "type2": "Ground",
+        "levels": "44-46",
+        "catch_rate": "75",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "225",
+        "name": "Delibird",
+        "type1": "Ice",
+        "type2": "Flying",
+        "levels": "42",
+        "catch_rate": "45",
+        "rates": [
+          "45%"
+        ]
+      },
+      {
+        "dex_id": "227",
+        "name": "Skarmory",
+        "type1": "Steel",
+        "type2": "Flying",
+        "levels": "50",
+        "catch_rate": "25",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Pok\u00e9 Radar": [
+      {
+        "dex_id": "262",
+        "name": "Weavile",
+        "type1": "Dark",
+        "type2": "Ice",
+        "levels": "50",
+        "catch_rate": "45",
+        "rates": [
+          "50% <small>([[Pok\u00e9 Radar#How_it_works",
+          "long rustle]])</small>"
+        ]
+      }
+    ]
+  }
+}

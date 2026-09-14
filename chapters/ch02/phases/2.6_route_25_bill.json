@@ -1,0 +1,52 @@
+{
+  "name": "Route 25 & Sea Cottage (Bill's Lab)",
+  "summary": "The coastal eastern headland leading to Bill's Sea Cottage. Defeat the shoreline trainers, assist Bill in reversing his accidental Pokémon fusion, and receive the vital S.S. Ticket before tackling the Cerulean Gym.",
+  "items": [
+    {
+      "name": "S.S. Ticket",
+      "method": "Gifted by Bill inside Sea Cottage after activating the cell separation system",
+      "type": "Key Item"
+    },
+    {
+      "name": "TM43 (Secret Power)",
+      "method": "Given by a trainer on the coastal bluff",
+      "type": "TM"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Hiker Franklin",
+      "team": [
+        {"species": "Machop", "level": 15},
+        {"species": "Geodude", "level": 15}
+      ],
+      "reward": "480 Pokedollars"
+    },
+    {
+      "name": "Youngster Joey",
+      "team": [
+        {"species": "Rattata", "level": 15},
+        {"species": "Spearow", "level": 15}
+      ],
+      "reward": "240 Pokedollars"
+    },
+    {
+      "name": "Lass Haley",
+      "team": [
+        {"species": "Oddish", "level": 13},
+        {"species": "Pidgey", "level": 13},
+        {"species": "Bellsprout", "level": 13}
+      ],
+      "reward": "208 Pokedollars"
+    }
+  ],
+  "encounters": {
+    "Grass": [
+      {"dex_id": "016", "name": "Pidgey", "types": ["Normal", "Flying"], "levels": "12-14", "rates": "20% All Times"},
+      {"dex_id": "043", "name": "Oddish", "types": ["Grass", "Poison"], "levels": "13-14", "rates": "25% All Times"},
+      {"dex_id": "063", "name": "Abra", "types": ["Psychic"], "levels": "10-12", "rates": "15% All Times"},
+      {"dex_id": "069", "name": "Bellsprout", "types": ["Grass", "Poison"], "levels": "13-14", "rates": "25% All Times"}
+    ]
+  },
+  "navigation_notes": "The S.S. Ticket unlocks entry to the luxury liner S.S. Anne docked in Vermilion City. Return to Cerulean City and enter the Gym once your party reaches Lv. 22-24."
+}

@@ -1,0 +1,86 @@
+{
+  "name": "Route 9 (Canyon Crossing)",
+  "summary": "Departing east from Cerulean City. Snip the thorny shrub at the entrance using the Shears tool to access the canyon. Navigate rocky ledges past trainers and wild catch patches toward Route 10.",
+  "items": [
+    {
+      "name": "TM43 Flame Charge",
+      "method": "On a rocky ledge in the lower canyon path",
+      "type": "TM"
+    },
+    {
+      "name": "Chesto Berry",
+      "method": "Near the northern ledge patch",
+      "type": "Berry"
+    },
+    {
+      "name": "Ether",
+      "method": "Hidden in the rock wall near the eastern exit",
+      "type": "Consumable"
+    },
+    {
+      "name": "Light Clay",
+      "method": "On the ground by the southern canyon fork",
+      "type": "Hold Item"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Picnicker Alicia",
+      "team": [
+        {
+          "species": "Oddish",
+          "level": 18,
+          "types": ["Grass", "Poison"]
+        },
+        {
+          "species": "Bellsprout",
+          "level": 18,
+          "types": ["Grass", "Poison"]
+        }
+      ]
+    },
+    {
+      "name": "Hiker Jeremy",
+      "team": [
+        {
+          "species": "Machop",
+          "level": 20,
+          "types": ["Fighting"]
+        },
+        {
+          "species": "Onix",
+          "level": 20,
+          "types": ["Rock", "Ground"]
+        }
+      ]
+    },
+    {
+      "name": "Camper Drew",
+      "team": [
+        {
+          "species": "Sandshrew",
+          "level": 19,
+          "types": ["Ground"]
+        },
+        {
+          "species": "Raticate",
+          "level": 19,
+          "types": ["Normal"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Grass": [
+      {"dex_id": "019", "name": "Rattata", "types": ["Normal"], "levels": "14-17", "rates": "20% All"},
+      {"dex_id": "021", "name": "Spearow", "types": ["Normal", "Flying"], "levels": "13-17", "rates": "20% Day / Morning"},
+      {"dex_id": "023", "name": "Ekans", "types": ["Poison"], "levels": "11-17", "rates": "20% All"},
+      {"dex_id": "027", "name": "Sandshrew", "types": ["Ground"], "levels": "13-17", "rates": "15% All"},
+      {"dex_id": "041", "name": "Zubat", "types": ["Poison", "Flying"], "levels": "13-17", "rates": "15% Night"},
+      {"dex_id": "081", "name": "Magnemite", "types": ["Steel", "Electric"], "levels": "14-17", "rates": "10% All"}
+    ],
+    "Poké Radar": [
+      {"dex_id": "304", "name": "Aron", "types": ["Steel", "Rock"], "levels": "14-17", "rates": "50% Radar"}
+    ]
+  }
+}

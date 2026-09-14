@@ -1,0 +1,89 @@
+{
+  "name": "Mt. Silver Lower Caverns & Rival Blue's Trial",
+  "summary": "Enter the dark subterranean interior of Mt. Silver (1F & 2F). Surf across the roaring underground rivers and scale the cascades with Waterfall. Navigate past towering stalagmites where high-level Golbat, Misdreavus, Steelix, and wild Larvitar make their roosts. On the second floor (2F), you cross paths with Rival Blue. Sensing the unprecedented power surging higher up the mountain, Blue demands a serious battle to test your readiness. Defeat his elite squad (Lv. 68-72), and Blue awards you HM10 Rock Climb, which enables you to scale the craggy rocky walls and ascend through the upper spiral chambers.",
+  "items": [
+    {
+      "name": "HM10 Rock Climb",
+      "method": "Gifted by Rival Blue after defeating him on 2F",
+      "type": "Key Item / HM Tool"
+    },
+    {
+      "name": "Reaper Cloth",
+      "method": "Found in the optional side cavern beyond the first underground waterfall on 1F",
+      "type": "Evolution Item"
+    },
+    {
+      "name": "Expert Belt",
+      "method": "Located in the far north-west corner of 2F",
+      "type": "Hold Item"
+    },
+    {
+      "name": "PP Up",
+      "method": "Hidden behind a stalagmite between both waterfalls on 1F",
+      "type": "Consumable"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Rival Blue",
+      "title": "Pokémon Trainer",
+      "reward": "P7,200",
+      "pokemon": [
+        {
+          "species": "Tyranitar/Arcanine",
+          "level": 69,
+          "types": ["Rock", "Fire"]
+        },
+        {
+          "species": "Aegislash/Aerodactyl",
+          "level": 69,
+          "types": ["Steel", "Flying"]
+        },
+        {
+          "species": "Alakazam/Blaziken",
+          "level": 69,
+          "types": ["Psychic", "Fighting"]
+        },
+        {
+          "species": "Blastoise/Charizard",
+          "level": 72,
+          "types": ["Water", "Flying"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Cave": [
+      {
+        "species": "Golbat",
+        "levels": "50-55",
+        "rate": "30%"
+      },
+      {
+        "species": "Misdreavus",
+        "levels": "50-54",
+        "rate": "20%"
+      },
+      {
+        "species": "Steelix",
+        "levels": "54-56",
+        "rate": "15%"
+      },
+      {
+        "species": "Ursaring",
+        "levels": "54-56",
+        "rate": "15%"
+      },
+      {
+        "species": "Donphan",
+        "levels": "54-56",
+        "rate": "15%"
+      },
+      {
+        "species": "Larvitar",
+        "levels": "25-30",
+        "rate": "5%"
+      }
+    ]
+  }
+}

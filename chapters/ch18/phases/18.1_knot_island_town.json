@@ -1,0 +1,23 @@
+{
+  "name": "Knot Island Harbour & Town",
+  "summary": "Arrive on Knot Island (One Island) via the Cinnabar Island ferry. Visit the Pokémon Center to meet Bebe and Celio's assistant searching for their missing Network Adapter. Stop by the Move Export House and the Triple Battle Lounge, and pick up hidden Heart Scales along the beach dock.",
+  "items": [
+    {
+      "name": "Heart Scale",
+      "method": "Hidden in shallow water between the beach and ferry dock",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Heart Scale",
+      "method": "Hidden in a box south of the Triple Battle Lounge",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Box Link",
+      "method": "Gifted by Bebe in the Pokémon Center after delivering the Network Adapter from Treasure Beach",
+      "type": "Key Item"
+    }
+  ],
+  "trainers": [],
+  "encounters": {}
+}

@@ -1,0 +1,128 @@
+{
+  "starter": "Bulbasaur",
+  "name": "Team Bulbasaur: Mountain Descent Vanguard",
+  "archetype": "Route travel configuration — Sleep status control, Ice coverage, Fighting wallbreaking, and Intimidate physical blunting. No gym duel this chapter.",
+  "gym_duel_core": [1, 2, 3, 4, 5],
+  "gym_duel_rationale": "No gym battle this chapter. Gym duel core retained from Chapter 16 (Clair's 5v5 Rising Badge duel). All six party members train freely across Route 46 and New Bark Town, elevated to Cap 72 in route-travel configuration.",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Venusaur/Charizard",
+      "types": ["Grass", "Fire"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 72,
+      "ability": "Overgrow",
+      "held_item": "Charcoal",
+      "role": "Starter Anchor & Status Control",
+      "current_reached_moveset": [
+        "Flamethrower",
+        "Petal Dance",
+        "Sleep Powder",
+        "Synthesis"
+      ],
+      "progression_notes": "530 BST starter hybrid elevated to Cap 72. Sleep Powder shuts down wild threats instantly. STAB Flamethrower and Petal Dance provide dual offensive coverage across Route 46's Rock/Ground encounters."
+    },
+    {
+      "slot": 2,
+      "species": "Lapras",
+      "types": ["Water", "Ice"],
+      "status": "Active in Party (Retained from Ch 16)",
+      "current_level": 71,
+      "ability": "Water Absorb",
+      "held_item": "Never-Melt Ice",
+      "role": "Ice Coverage & Special Sponge",
+      "current_reached_moveset": [
+        "Ice Beam",
+        "Hydro Pump",
+        "Confuse Ray",
+        "Body Slam"
+      ],
+      "progression_notes": "535 BST Water/Ice fortress elevated to Lv. 71. Ice Beam and Hydro Pump crush Route 46's Graveler and Donphan. Water Absorb provides passive healing against Water-type encounters."
+    },
+    {
+      "slot": 3,
+      "species": "Kingler/Primeape",
+      "types": ["Water", "Fighting"],
+      "status": "Active in Party (Retained from Ch 16)",
+      "current_level": 71,
+      "ability": "Hyper Cutter",
+      "held_item": "Black Belt",
+      "role": "Fighting Wallbreaker & Physical Bruiser",
+      "current_reached_moveset": [
+        "Close Combat",
+        "Crabhammer",
+        "Cross Chop",
+        "Protect"
+      ],
+      "progression_notes": "500 BST physical wallbreaker. Crabhammer obliterates Route 46's Graveler and Donphan with super-effective Water STAB."
+    },
+    {
+      "slot": 4,
+      "species": "Gyarados/Arbok",
+      "types": ["Water", "Poison"],
+      "status": "Active in Party (Retained from Ch 16)",
+      "current_level": 71,
+      "ability": "Intimidate",
+      "held_item": "Mystic Water",
+      "role": "Intimidate Physical Pivot",
+      "current_reached_moveset": [
+        "Aqua Tail",
+        "Crunch",
+        "Dragon Dance",
+        "Glare"
+      ],
+      "progression_notes": "513 BST Intimidate pivot. Cuts physical Attack on entry to defang wild Donphan and Graveler. Glare paralyzes the static Slaking for safe capture."
+    },
+    {
+      "slot": 5,
+      "species": "Alakazam/Weezing",
+      "types": ["Psychic", "Poison"],
+      "status": "Active in Party (Retained from Ch 16)",
+      "current_level": 71,
+      "ability": "Levitate",
+      "held_item": "Twisted Spoon",
+      "role": "Levitate Ground-Immune Sweeper",
+      "current_reached_moveset": [
+        "Psychic",
+        "Sludge Bomb",
+        "Recover",
+        "Calm Mind"
+      ],
+      "progression_notes": "495 BST Levitate pivot with 118 SpA. Immune to Earthquake and Magnitude via Levitate — invaluable against Route 46's Ground-heavy encounters."
+    },
+    {
+      "slot": 6,
+      "species": "Snorlax",
+      "types": ["Normal"],
+      "status": "Active in Party (Full Roster Travel)",
+      "current_level": 71,
+      "ability": "Thick Fat",
+      "held_item": "Leftovers",
+      "role": "Route Travel Tank & Sustained Sponge",
+      "current_reached_moveset": [
+        "Body Slam",
+        "Rest",
+        "Sleep Talk",
+        "Crunch"
+      ],
+      "progression_notes": "Colossal 160 HP tank. No gym duel restriction this chapter — all 6 members participate in route travel. RestTalk loop provides infinite sustain."
+    }
+  ],
+  "flex_bench": [
+    {
+      "species": "Butterfree",
+      "role": "Compound Eyes Sleep Pivot",
+      "rationale": "97.5% accurate Sleep Powder for safe Slaking capture and route trainer shutdown."
+    },
+    {
+      "species": "Electabuzz",
+      "role": "Electric Speed Sweeper",
+      "rationale": "Discharge and Light Screen against aerial Fearow and Gligar encounters."
+    },
+    {
+      "species": "Hitmonlee",
+      "role": "Reckless Fighting Breaker",
+      "rationale": "High Jump Kick physical breaker for Graveler-heavy Route 46 encounters."
+    }
+  ]
+}

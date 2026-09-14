@@ -1,0 +1,51 @@
+{
+  "location": "Power Plant (ID 197)",
+  "sections": {
+    "Cave": [
+      {
+        "dex_id": "081",
+        "name": "Magnemite",
+        "type1": "Steel",
+        "type2": "Electric",
+        "levels": "10-12",
+        "catch_rate": "65",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "dex_id": "088",
+        "name": "Grimer",
+        "type1": "Poison",
+        "type2": "",
+        "levels": "14",
+        "catch_rate": "190",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "100",
+        "name": "Voltorb",
+        "type1": "Electric",
+        "type2": "",
+        "levels": "11-13",
+        "catch_rate": "190",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "dex_id": "397",
+        "name": "Klink",
+        "type1": "Steel",
+        "type2": "",
+        "levels": "14",
+        "catch_rate": "130",
+        "rates": [
+          "10%"
+        ]
+      }
+    ]
+  }
+}

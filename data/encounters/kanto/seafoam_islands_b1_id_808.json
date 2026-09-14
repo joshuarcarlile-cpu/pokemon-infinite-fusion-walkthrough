@@ -1,0 +1,40 @@
+{
+  "location": "Seafoam Islands B1 (ID 808)",
+  "sections": {
+    "Cave": [
+      {
+        "dex_id": "086",
+        "name": "Seel",
+        "type1": "Water",
+        "type2": "",
+        "levels": "32",
+        "catch_rate": "190",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "090",
+        "name": "Shellder",
+        "type1": "Water",
+        "type2": "",
+        "levels": "25-30",
+        "catch_rate": "190",
+        "rates": [
+          "50%"
+        ]
+      },
+      {
+        "dex_id": "098",
+        "name": "Krabby",
+        "type1": "Water",
+        "type2": "",
+        "levels": "25-30",
+        "catch_rate": "225",
+        "rates": [
+          "35%"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,2592 @@
+{
+  "chapter_id": "ch05",
+  "title": "Act 1 - Segment 5: Pokémon Tower to Fuchsia City (Soul Badge)",
+  "act": 1,
+  "hard_mode_level_cap": 42,
+  "gym_duel_limit": 4,
+  "routes_covered": [
+    "Pokémon Tower",
+    "Route 16",
+    "Route 17",
+    "Route 18",
+    "Route 12",
+    "Route 13",
+    "Route 14",
+    "Route 15",
+    "Fuchsia City",
+    "Safari Zone"
+  ],
+  "vanilla_divergence_alerts": [
+    "HM Slaves: 100% eliminated by 9 reusable Key Item tools. Do NOT instruct players to teach field moves to party members.",
+    "Friendship: Eliminated. All friendship evolutions use static level thresholds (e.g. Baby Pokémon evolve at Lv. 15).",
+    "Trade Evolutions: Evolve naturally at Level 40 OR via Linking Cord (not Level 37)."
+  ],
+  "critical_missables": [],
+  "hotel_milestone_target": {},
+  "active_and_ongoing_quests": [],
+  "boss_ground_truth": {
+    "classic": {
+      "leader": "Koga",
+      "team": [
+        {
+          "species": "B88H49",
+          "level": 35,
+          "moves": [
+            "SIGNALBEAM",
+            "SLUDGEBOMB",
+            "FLING",
+            "DISABLE"
+          ],
+          "ability_index": 1,
+          "item": "POISONBARB"
+        },
+        {
+          "species": "B109H81",
+          "level": 36,
+          "moves": [
+            "SLUDGEBOMB",
+            "SELFDESTRUCT",
+            "SONICBOOM",
+            "SUPERSONIC"
+          ],
+          "ability_index": 0,
+          "item": "POISONBARB"
+        },
+        {
+          "species": "B123H15",
+          "level": 36,
+          "moves": [
+            "AGILITY",
+            "PINMISSILE",
+            "POISONJAB",
+            "TOXICSPIKES"
+          ],
+          "ability_index": 0,
+          "item": "POISONBARB"
+        },
+        {
+          "species": "B89H113",
+          "level": 38,
+          "moves": [
+            "TOXIC",
+            "DOUBLETEAM",
+            "TAKEDOWN",
+            "ACIDARMOR"
+          ],
+          "ability_index": 1,
+          "item": "BLACKSLUDGE"
+        }
+      ],
+      "party_size": 4
+    },
+    "expert": {
+      "leader": "Koga",
+      "team": [
+        {
+          "species": "B212H415",
+          "level": 37,
+          "moves": [
+            "DRAGONDANCE",
+            "DUALCHOP",
+            "METALCLAW",
+            "AERIALACE"
+          ],
+          "ability": "TECHNICIAN",
+          "item": "AIRBALLOON",
+          "nature": "ADAMANT",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B34H362",
+          "level": 37,
+          "moves": [
+            "SHADOWBALL",
+            "SLUDGEBOMB",
+            "EARTHPOWER",
+            "NASTYPLOT"
+          ],
+          "ability": "SHEERFORCE",
+          "item": "LIFEORB",
+          "nature": "MODEST",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B18H374",
+          "level": 38,
+          "moves": [
+            "QUIVERDANCE",
+            "AIRSLASH",
+            "FIERYDANCE",
+            "BUGBUZZ"
+          ],
+          "ability": "SWARM",
+          "item": "SILVERPOWDER",
+          "nature": "MODEST",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B214H437",
+          "level": 39,
+          "moves": [
+            "CRUNCH",
+            "REVERSAL",
+            "WATERFALL",
+            "MEGAHORN"
+          ],
+          "ability": "SPEEDBOOST",
+          "item": "FOCUSSASH",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        }
+      ],
+      "party_size": 4
+    }
+  },
+  "encounters_by_location": {
+    "Route 16 (ID 438)": {
+      "Grass": [
+        {
+          "name": "Rattata",
+          "dex_id": "019",
+          "types": [
+            "Normal"
+          ],
+          "levels": "18-22"
+        },
+        {
+          "name": "Raticate",
+          "dex_id": "020",
+          "types": [
+            "Normal"
+          ],
+          "levels": "23-25"
+        },
+        {
+          "name": "Spearow",
+          "dex_id": "021",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "20-22"
+        },
+        {
+          "name": "Zubat",
+          "dex_id": "041",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "20-22"
+        },
+        {
+          "name": "Meowth",
+          "dex_id": "052",
+          "types": [
+            "Normal"
+          ],
+          "levels": "18-22"
+        },
+        {
+          "name": "Persian",
+          "dex_id": "053",
+          "types": [
+            "Normal"
+          ],
+          "levels": "23-25"
+        },
+        {
+          "name": "Doduo",
+          "dex_id": "084",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "18-22"
+        },
+        {
+          "name": "Murkrow",
+          "dex_id": "198",
+          "types": [
+            "Dark",
+            "Flying"
+          ],
+          "levels": "22-24"
+        },
+        {
+          "name": "Slugma",
+          "dex_id": "218",
+          "types": [
+            "Fire"
+          ],
+          "levels": "26"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Natu",
+          "dex_id": "177",
+          "types": [
+            "Psychic",
+            "Flying"
+          ],
+          "levels": "22-25"
+        }
+      ]
+    },
+    "Route 17 (ID 146)": {
+      "Grass": [
+        {
+          "name": "Rattata",
+          "dex_id": "019",
+          "types": [
+            "Normal"
+          ],
+          "levels": "22"
+        },
+        {
+          "name": "Raticate",
+          "dex_id": "020",
+          "types": [
+            "Normal"
+          ],
+          "levels": "25-29"
+        },
+        {
+          "name": "Spearow",
+          "dex_id": "021",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "20-22"
+        },
+        {
+          "name": "Fearow",
+          "dex_id": "022",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "25-27"
+        },
+        {
+          "name": "Zubat",
+          "dex_id": "041",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "20-22"
+        },
+        {
+          "name": "Golbat",
+          "dex_id": "042",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "25-27"
+        },
+        {
+          "name": "Ponyta",
+          "dex_id": "077",
+          "types": [
+            "Fire"
+          ],
+          "levels": "24-28"
+        },
+        {
+          "name": "Doduo",
+          "dex_id": "084",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "24-28"
+        },
+        {
+          "name": "Grimer",
+          "dex_id": "088",
+          "types": [
+            "Poison"
+          ],
+          "levels": "24-28"
+        },
+        {
+          "name": "Muk",
+          "dex_id": "089",
+          "types": [
+            "Poison"
+          ],
+          "levels": "30"
+        },
+        {
+          "name": "Slugma",
+          "dex_id": "218",
+          "types": [
+            "Fire"
+          ],
+          "levels": "26"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Tentacool",
+          "dex_id": "072",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "5-40"
+        },
+        {
+          "name": "Tentacruel",
+          "dex_id": "073",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "35-40"
+        },
+        {
+          "name": "Goldeen",
+          "dex_id": "118",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-35"
+        },
+        {
+          "name": "Seaking",
+          "dex_id": "119",
+          "types": [
+            "Water"
+          ],
+          "levels": "35-40"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Krabby",
+          "dex_id": "098",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Psyduck",
+          "dex_id": "054",
+          "types": [
+            "Water"
+          ],
+          "levels": "25-35"
+        },
+        {
+          "name": "Slowpoke",
+          "dex_id": "079",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "25-35"
+        },
+        {
+          "name": "Shellder",
+          "dex_id": "090",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-25"
+        },
+        {
+          "name": "Krabby",
+          "dex_id": "098",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Staryu",
+          "dex_id": "120",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-25"
+        },
+        {
+          "name": "Gyarados",
+          "dex_id": "130",
+          "types": [
+            "Water",
+            "Flying"
+          ],
+          "levels": "15-25"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Klefki",
+          "dex_id": "371",
+          "types": [
+            "Steel",
+            "Fairy"
+          ],
+          "levels": "22-25"
+        }
+      ]
+    },
+    "Route 18 (ID 517)": {
+      "Grass": [
+        {
+          "name": "Rattata",
+          "dex_id": "019",
+          "types": [
+            "Normal"
+          ],
+          "levels": "22"
+        },
+        {
+          "name": "Raticate",
+          "dex_id": "020",
+          "types": [
+            "Normal"
+          ],
+          "levels": "25-29"
+        },
+        {
+          "name": "Spearow",
+          "dex_id": "021",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "20-22"
+        },
+        {
+          "name": "Fearow",
+          "dex_id": "022",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "25-29"
+        },
+        {
+          "name": "Zubat",
+          "dex_id": "041",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "20-22"
+        },
+        {
+          "name": "Golbat",
+          "dex_id": "042",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "25-29"
+        },
+        {
+          "name": "Venomoth",
+          "dex_id": "049",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "24-28"
+        },
+        {
+          "name": "Doduo",
+          "dex_id": "084",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "24-28"
+        },
+        {
+          "name": "Miltank",
+          "dex_id": "241",
+          "types": [
+            "Normal"
+          ],
+          "levels": "25"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Tentacool",
+          "dex_id": "072",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "5-40"
+        },
+        {
+          "name": "Tentacruel",
+          "dex_id": "073",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "20-25"
+        },
+        {
+          "name": "Goldeen",
+          "dex_id": "118",
+          "types": [
+            "Water"
+          ],
+          "levels": "20-25"
+        },
+        {
+          "name": "Seaking",
+          "dex_id": "119",
+          "types": [
+            "Water"
+          ],
+          "levels": "30"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Ferroseed",
+          "dex_id": "413",
+          "types": [
+            "Steel",
+            "Grass"
+          ],
+          "levels": "22-25"
+        }
+      ]
+    },
+    "Route 12 (ID 159)": {
+      "Grass": [
+        {
+          "name": "Pidgey",
+          "dex_id": "016",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "23-27"
+        },
+        {
+          "name": "Zubat",
+          "dex_id": "041",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "23-27"
+        },
+        {
+          "name": "Oddish",
+          "dex_id": "043",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "22-26"
+        },
+        {
+          "name": "Gloom",
+          "dex_id": "044",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "28-30"
+        },
+        {
+          "name": "Venonat",
+          "dex_id": "048",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "24-26"
+        },
+        {
+          "name": "Venomoth",
+          "dex_id": "049",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "28-30"
+        },
+        {
+          "name": "Bellsprout",
+          "dex_id": "069",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "22-26"
+        },
+        {
+          "name": "Weepinbell",
+          "dex_id": "070",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "28-30"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Tentacool",
+          "dex_id": "072",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "5-40"
+        },
+        {
+          "name": "Tentacruel",
+          "dex_id": "073",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "35-40"
+        },
+        {
+          "name": "Goldeen",
+          "dex_id": "118",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-35"
+        },
+        {
+          "name": "Seaking",
+          "dex_id": "119",
+          "types": [
+            "Water"
+          ],
+          "levels": "35-40"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Krabby",
+          "dex_id": "098",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Qwilfish",
+          "dex_id": "211",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "5-15"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Psyduck",
+          "dex_id": "054",
+          "types": [
+            "Water"
+          ],
+          "levels": "25-35"
+        },
+        {
+          "name": "Slowpoke",
+          "dex_id": "079",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "25-35"
+        },
+        {
+          "name": "Krabby",
+          "dex_id": "098",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Gyarados",
+          "dex_id": "130",
+          "types": [
+            "Water",
+            "Flying"
+          ],
+          "levels": "15-25"
+        },
+        {
+          "name": "Qwilfish",
+          "dex_id": "211",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "15-35"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Cottonee",
+          "dex_id": "408",
+          "types": [
+            "Grass",
+            "Fairy"
+          ],
+          "levels": "22-25"
+        }
+      ]
+    },
+    "Route 13 (ID 437)": {
+      "Grass": [
+        {
+          "name": "Pidgey",
+          "dex_id": "016",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "25-27"
+        },
+        {
+          "name": "Pidgeotto",
+          "dex_id": "017",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "29"
+        },
+        {
+          "name": "Zubat",
+          "dex_id": "041",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "25-27"
+        },
+        {
+          "name": "Golbat",
+          "dex_id": "042",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "29"
+        },
+        {
+          "name": "Oddish",
+          "dex_id": "043",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "22-26"
+        },
+        {
+          "name": "Gloom",
+          "dex_id": "044",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "28-30"
+        },
+        {
+          "name": "Venonat",
+          "dex_id": "048",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "24-26"
+        },
+        {
+          "name": "Bellsprout",
+          "dex_id": "069",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "22-26"
+        },
+        {
+          "name": "Weepinbell",
+          "dex_id": "070",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "28-30"
+        },
+        {
+          "name": "Farfetch'd",
+          "dex_id": "083",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "26"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Krabby",
+          "dex_id": "098",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Qwilfish",
+          "dex_id": "211",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "5-15"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Psyduck",
+          "dex_id": "054",
+          "types": [
+            "Water"
+          ],
+          "levels": "25-35"
+        },
+        {
+          "name": "Slowpoke",
+          "dex_id": "079",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "25-35"
+        },
+        {
+          "name": "Krabby",
+          "dex_id": "098",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Gyarados",
+          "dex_id": "130",
+          "types": [
+            "Water",
+            "Flying"
+          ],
+          "levels": "15-25"
+        },
+        {
+          "name": "Qwilfish",
+          "dex_id": "211",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "15-35"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Cottonee",
+          "dex_id": "408",
+          "types": [
+            "Grass",
+            "Fairy"
+          ],
+          "levels": "22-25"
+        },
+        {
+          "name": "Joltik",
+          "dex_id": "412",
+          "types": [
+            "Bug",
+            "Electric"
+          ],
+          "levels": "22-25"
+        }
+      ]
+    },
+    "Route 14 (ID 440)": {
+      "Grass": [
+        {
+          "name": "Pidgey",
+          "dex_id": "016",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "27"
+        },
+        {
+          "name": "Pidgeotto",
+          "dex_id": "017",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "29"
+        },
+        {
+          "name": "Zubat",
+          "dex_id": "041",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "27"
+        },
+        {
+          "name": "Golbat",
+          "dex_id": "042",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "29"
+        },
+        {
+          "name": "Oddish",
+          "dex_id": "043",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "22-26"
+        },
+        {
+          "name": "Gloom",
+          "dex_id": "044",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "30"
+        },
+        {
+          "name": "Venonat",
+          "dex_id": "048",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "24-26"
+        },
+        {
+          "name": "Venomoth",
+          "dex_id": "049",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "22-26"
+        },
+        {
+          "name": "Bellsprout",
+          "dex_id": "069",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "22-26"
+        },
+        {
+          "name": "Weepinbell",
+          "dex_id": "070",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "30"
+        },
+        {
+          "name": "Grimer",
+          "dex_id": "088",
+          "types": [
+            "Poison"
+          ],
+          "levels": "22-26"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Psyduck",
+          "dex_id": "054",
+          "types": [
+            "Water"
+          ],
+          "levels": "25-30"
+        },
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "25-32"
+        },
+        {
+          "name": "Poliwhirl",
+          "dex_id": "061",
+          "types": [
+            "Water"
+          ],
+          "levels": "30"
+        },
+        {
+          "name": "Slowpoke",
+          "dex_id": "079",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "25-30"
+        },
+        {
+          "name": "Grimer",
+          "dex_id": "088",
+          "types": [
+            "Poison"
+          ],
+          "levels": "25-32"
+        },
+        {
+          "name": "Muk",
+          "dex_id": "089",
+          "types": [
+            "Poison"
+          ],
+          "levels": "32"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "20-30"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Joltik",
+          "dex_id": "412",
+          "types": [
+            "Bug",
+            "Electric"
+          ],
+          "levels": "22-25"
+        }
+      ]
+    },
+    "Route 15 (ID 444)": {
+      "Grass": [
+        {
+          "name": "Pidgey",
+          "dex_id": "016",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "25-27"
+        },
+        {
+          "name": "Pidgeotto",
+          "dex_id": "017",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "29"
+        },
+        {
+          "name": "Zubat",
+          "dex_id": "041",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "25-27"
+        },
+        {
+          "name": "Golbat",
+          "dex_id": "042",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "29"
+        },
+        {
+          "name": "Oddish",
+          "dex_id": "043",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "22-26"
+        },
+        {
+          "name": "Gloom",
+          "dex_id": "044",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "28-30"
+        },
+        {
+          "name": "Venonat",
+          "dex_id": "048",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "24-26"
+        },
+        {
+          "name": "Psyduck",
+          "dex_id": "054",
+          "types": [
+            "Water"
+          ],
+          "levels": "22-26"
+        },
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Poliwhirl",
+          "dex_id": "061",
+          "types": [
+            "Water"
+          ],
+          "levels": "25"
+        },
+        {
+          "name": "Weepinbell",
+          "dex_id": "070",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "28-30"
+        },
+        {
+          "name": "Slowpoke",
+          "dex_id": "079",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "22-26"
+        },
+        {
+          "name": "Grimer",
+          "dex_id": "088",
+          "types": [
+            "Poison"
+          ],
+          "levels": "20-25"
+        },
+        {
+          "name": "Muk",
+          "dex_id": "089",
+          "types": [
+            "Poison"
+          ],
+          "levels": "30"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "25-32"
+        },
+        {
+          "name": "Poliwhirl",
+          "dex_id": "061",
+          "types": [
+            "Water"
+          ],
+          "levels": "30"
+        },
+        {
+          "name": "Grimer",
+          "dex_id": "088",
+          "types": [
+            "Poison"
+          ],
+          "levels": "25-32"
+        },
+        {
+          "name": "Muk",
+          "dex_id": "089",
+          "types": [
+            "Poison"
+          ],
+          "levels": "32"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "20-30"
+        },
+        {
+          "name": "Stunfisk",
+          "dex_id": "420",
+          "types": [
+            "Ground",
+            "Electric"
+          ],
+          "levels": "25-30"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Solosis",
+          "dex_id": "406",
+          "types": [
+            "Psychic"
+          ],
+          "levels": "22-25"
+        }
+      ]
+    }
+  },
+  "wiki_ground_truth": {
+    "Pokémon Tower": {
+      "canonical_slug": "Pokémon_Tower",
+      "lead_summary": "This is a burial ground for Pokémon, located in Lavender Town.",
+      "items": [
+        {
+          "internal_id": "ODDKEYSTONE",
+          "quantity": "",
+          "name": "Odd Keystone",
+          "location_details": "Given by a young boy."
+        },
+        {
+          "internal_id": "ELIXIR",
+          "quantity": "",
+          "name": "Elixir",
+          "location_details": "In the South West Corner."
+        },
+        {
+          "internal_id": "AWAKENING",
+          "quantity": "",
+          "name": "Awakening",
+          "location_details": "On the ground, near the middle."
+        },
+        {
+          "internal_id": "SPELLTAG",
+          "quantity": "",
+          "name": "Spell Tag",
+          "location_details": "In the North West Corner."
+        },
+        {
+          "internal_id": "HPUP",
+          "quantity": "",
+          "name": "HP Up",
+          "location_details": "South of the Purified Zone."
+        },
+        {
+          "internal_id": "ESCAPEROPE",
+          "quantity": "",
+          "name": "Escape Rope",
+          "location_details": "North of the Purified Zone."
+        },
+        {
+          "internal_id": "machine_FIRE",
+          "quantity": "",
+          "name": "TM61 Will-O-Wisp",
+          "location_details": "In the South East Corner."
+        },
+        {
+          "internal_id": "POKEFLUTE",
+          "quantity": "",
+          "name": "Poke Flute",
+          "location_details": "Given by Mr. Fuji."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Route 16": {
+      "canonical_slug": "Route_16",
+      "lead_summary": "Route 16 is a route that connects Celadon City to Route 17, as well as allows the player to access the Hidden Forest.\nThere is also a slumbering Snorlax blocking access to Route 17.",
+      "items": [
+        {
+          "internal_id": "SUPERREPEL",
+          "quantity": "",
+          "name": "Super Repel",
+          "location_details": "By the large patch of grass."
+        },
+        {
+          "internal_id": "LEPPABERRY",
+          "quantity": "",
+          "name": "Leppa Berry",
+          "location_details": "Hidden in the house's trash can."
+        },
+        {
+          "internal_id": "machine_FLYING",
+          "quantity": "",
+          "name": "HM02 Fly",
+          "location_details": "Given to the player by the old man."
+        },
+        {
+          "internal_id": "CASTELIACONE",
+          "quantity": "5 or x10",
+          "name": "Casteliacone",
+          "location_details": "Given by Bianca in the upper floor of the gate to Route 17. If the player is wearing Bianca's hat she will give 10, otherwise she gives 5."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Route 17": {
+      "canonical_slug": "Route_17",
+      "lead_summary": "Route 17 is a route accessible only via Bicycle that connects Route 16 to Route 18.",
+      "items": [
+        {
+          "internal_id": "MAXREVIVE",
+          "quantity": "",
+          "name": "Max Revive",
+          "location_details": "On the peninsula, near the terminal for Route 16."
+        },
+        {
+          "internal_id": "PPUP",
+          "quantity": "",
+          "name": "PP Up",
+          "location_details": "Hidden by a lamp post near the terminal for Route 16."
+        },
+        {
+          "internal_id": "machine_FLYING",
+          "quantity": "",
+          "name": "TM70 Roost",
+          "location_details": "After the patch of grass in the North West Corner."
+        },
+        {
+          "internal_id": "ELIXIR",
+          "quantity": "",
+          "name": "Elixir",
+          "location_details": "Hidden by a boulder after the patch of grass in the North West Corner."
+        },
+        {
+          "internal_id": "DIREHIT",
+          "quantity": "",
+          "name": "Dire Hit",
+          "location_details": "Given by Biker Billy after defeating him."
+        },
+        {
+          "internal_id": "HPUP",
+          "quantity": "",
+          "name": "HP Up",
+          "location_details": "On the Transport Ship."
+        },
+        {
+          "internal_id": "machine_GROUND",
+          "quantity": "",
+          "name": "TM78 Bulldoze",
+          "location_details": "Given by Cue Ball Raul after defeating him."
+        },
+        {
+          "internal_id": "RARECANDY",
+          "quantity": "",
+          "name": "Rare Candy",
+          "location_details": "Hidden in the bulldozer."
+        },
+        {
+          "internal_id": "FULLRESTORE",
+          "quantity": "",
+          "name": "Full Restore",
+          "location_details": "South of the Construction Truck."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Route 18": {
+      "canonical_slug": "Route_18",
+      "lead_summary": "This connects Route 17 to Fuchsia City.\nAlthough there is water, there is no fishing catch table.\nThe Berry farm can be reached once the player obtained Surf (or its HM Replacement Item).",
+      "items": [
+        {
+          "internal_id": "SWIFTWING",
+          "quantity": "",
+          "name": "Swift Wing",
+          "location_details": "Given by Biker Maurice after defeating him."
+        },
+        {
+          "internal_id": "POWERHERB",
+          "quantity": "",
+          "name": "Power Herb",
+          "location_details": "Across the river, by a small patch of grass."
+        },
+        {
+          "internal_id": "machine_GRASS",
+          "quantity": "",
+          "name": "TM53 Energy Ball",
+          "location_details": "On the island with Bird Keeper Marlon."
+        },
+        {
+          "internal_id": "BABIRIBERRY",
+          "quantity": "2-5",
+          "name": "Babiri Berry",
+          "location_details": "Random chance to be given by Aroma Lady Miranda after defeating her."
+        },
+        {
+          "internal_id": "CHILANBERRY",
+          "quantity": "2-5",
+          "name": "Chilan Berry",
+          "location_details": "Random chance to be given by Aroma Lady Miranda after defeating her."
+        },
+        {
+          "internal_id": "CHOPLEBERRY",
+          "quantity": "2-5",
+          "name": "Chople Berry",
+          "location_details": "Random chance to be given by Aroma Lady Miranda after defeating her."
+        },
+        {
+          "internal_id": "COBABERRY",
+          "quantity": "2-5",
+          "name": "Coba Berry",
+          "location_details": "Random chance to be given by Aroma Lady Miranda after defeating her."
+        },
+        {
+          "internal_id": "COLBURBERRY",
+          "quantity": "2-5",
+          "name": "Colbur Berry",
+          "location_details": "Random chance to be given by Aroma Lady Miranda after defeating her."
+        },
+        {
+          "internal_id": "HABANBERRY",
+          "quantity": "2-5",
+          "name": "Haban Berry",
+          "location_details": "Random chance to be given by Aroma Lady Miranda after defeating her."
+        },
+        {
+          "internal_id": "KASIBBERRY",
+          "quantity": "2-5",
+          "name": "Kasib Berry",
+          "location_details": "Random chance to be given by Aroma Lady Miranda after defeating her."
+        },
+        {
+          "internal_id": "KEBIABERRY",
+          "quantity": "2-5",
+          "name": "Kebia Berry",
+          "location_details": "Random chance to be given by Aroma Lady Miranda after defeating her."
+        },
+        {
+          "internal_id": "PAYAPABERRY",
+          "quantity": "2-5",
+          "name": "Payapa Berry",
+          "location_details": "Random chance to be given by Aroma Lady Miranda after defeating her."
+        },
+        {
+          "internal_id": "RINDOBERRY",
+          "quantity": "2-5",
+          "name": "Rindo Berry",
+          "location_details": "Random chance to be given by Aroma Lady Miranda after defeating her."
+        },
+        {
+          "internal_id": "SHUCABERRY",
+          "quantity": "2-5",
+          "name": "Shuca Berry",
+          "location_details": "Random chance to be given by Aroma Lady Miranda after defeating her."
+        },
+        {
+          "internal_id": "TANGABERRY",
+          "quantity": "2-5",
+          "name": "Tanga Berry",
+          "location_details": "Random chance to be given by Aroma Lady Miranda after defeating her."
+        },
+        {
+          "internal_id": "WACANBERRY",
+          "quantity": "2-5",
+          "name": "Wacan Berry",
+          "location_details": "Random chance to be given by Aroma Lady Miranda after defeating her."
+        },
+        {
+          "internal_id": "YACHEBERRY",
+          "quantity": "2-5",
+          "name": "Yache Berry",
+          "location_details": "Random chance to be given by Aroma Lady Miranda after defeating her."
+        },
+        {
+          "internal_id": "AGUAVBERRY",
+          "quantity": "2-6",
+          "name": "Aguav Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "APICOTBERRY",
+          "quantity": "2-6",
+          "name": "Apicot Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "ASPEARBERRY",
+          "quantity": "2-6",
+          "name": "Aspear Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "BABIRIBERRY",
+          "quantity": "2-6",
+          "name": "Babiri Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "CHERIBERRY",
+          "quantity": "2-6",
+          "name": "Cheri Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "CHESTOBERRY",
+          "quantity": "2-6",
+          "name": "Chesto Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "CHILANBERRY",
+          "quantity": "2-6",
+          "name": "Chilan Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "CHOPLEBERRY",
+          "quantity": "2-6",
+          "name": "Chople Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "COBABERRY",
+          "quantity": "2-6",
+          "name": "Coba Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "COLBURBERRY",
+          "quantity": "2-6",
+          "name": "Colbur Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "CUSTAPBERRY",
+          "quantity": "2-6",
+          "name": "Custap Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "ENIGMABERRY",
+          "quantity": "2-6",
+          "name": "Enigma Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "FIGYBERRY",
+          "quantity": "2-6",
+          "name": "Figy Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "GANLONBERRY",
+          "quantity": "2-6",
+          "name": "Ganlon Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "GREPABERRY",
+          "quantity": "2-6",
+          "name": "Grepa Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "HABANBERRY",
+          "quantity": "2-6",
+          "name": "Haban Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "HONDEWBERRY",
+          "quantity": "2-6",
+          "name": "Hondew Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "IAPAPABERRY",
+          "quantity": "2-6",
+          "name": "Iapapa Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "JABOCABERRY",
+          "quantity": "2-6",
+          "name": "Jaboca Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "KASIBBERRY",
+          "quantity": "2-6",
+          "name": "Kasib Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "KEBIABERRY",
+          "quantity": "2-6",
+          "name": "Kebia Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "KELPSYBERRY",
+          "quantity": "2-6",
+          "name": "Kelpsy Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "LANSATBERRY",
+          "quantity": "2-6",
+          "name": "Lansat Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "LEPPABERRY",
+          "quantity": "2-6",
+          "name": "Leppa Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "LIECHIBERRY",
+          "quantity": "2-6",
+          "name": "Liechi Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "LUMBERRY",
+          "quantity": "2-6",
+          "name": "Lum Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "MAGOBERRY",
+          "quantity": "2-6",
+          "name": "Mago Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "MICLEBERRY",
+          "quantity": "2-6",
+          "name": "Micle Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "PAYAPABERRY",
+          "quantity": "2-6",
+          "name": "Payapa Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "PECHABERRY",
+          "quantity": "2-6",
+          "name": "Pecha Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "PERSIMBERRY",
+          "quantity": "2-6",
+          "name": "Persim Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "PETAYABERRY",
+          "quantity": "2-6",
+          "name": "Petaya Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "QUALOTBERRY",
+          "quantity": "2-6",
+          "name": "Qualot Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "RAWSTBERRY",
+          "quantity": "2-6",
+          "name": "Rawst Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "RINDOBERRY",
+          "quantity": "2-6",
+          "name": "Rindo Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "ROWAPBERRY",
+          "quantity": "2-6",
+          "name": "Rowap Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "SALACBERRY",
+          "quantity": "2-6",
+          "name": "Salac Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "SHUCABERRY",
+          "quantity": "2-6",
+          "name": "Shuca Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "SITRUSBERRY",
+          "quantity": "2-6",
+          "name": "Sitrus Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "TAMATOBERRY",
+          "quantity": "2-6",
+          "name": "Tamato Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "TANGABERRY",
+          "quantity": "2-6",
+          "name": "Tanga Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "WACANBERRY",
+          "quantity": "2-6",
+          "name": "Wacan Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "WIKIBERRY",
+          "quantity": "2-6",
+          "name": "Wiki Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "YACHEBERRY",
+          "quantity": "2-6",
+          "name": "Yache Berry",
+          "location_details": "Given by man in the farmhouse, random chance daily."
+        },
+        {
+          "internal_id": "BABIRIBERRY",
+          "quantity": "1-4",
+          "name": "Babiri Berry",
+          "location_details": "On the berry bushes on the island, random chance daily."
+        },
+        {
+          "internal_id": "CHILANBERRY",
+          "quantity": "1-4",
+          "name": "Chilan Berry",
+          "location_details": "On the berry bushes on the island, random chance daily."
+        },
+        {
+          "internal_id": "CHOPLEBERRY",
+          "quantity": "1-4",
+          "name": "Chople Berry",
+          "location_details": "On the berry bushes on the island, random chance daily."
+        },
+        {
+          "internal_id": "COBABERRY",
+          "quantity": "1-4",
+          "name": "Coba Berry",
+          "location_details": "On the berry bushes on the island, random chance daily."
+        },
+        {
+          "internal_id": "COLBURBERRY",
+          "quantity": "1-4",
+          "name": "Colbur Berry",
+          "location_details": "On the berry bushes on the island, random chance daily."
+        },
+        {
+          "internal_id": "GREPABERRY",
+          "quantity": "1-4",
+          "name": "Grepa Berry",
+          "location_details": "On the berry bushes at the farm, random chance daily."
+        },
+        {
+          "internal_id": "HABANBERRY",
+          "quantity": "1-4",
+          "name": "Haban Berry",
+          "location_details": "On the berry bushes on the island, random chance daily."
+        },
+        {
+          "internal_id": "HONDEWBERRY",
+          "quantity": "1-4",
+          "name": "Hondew Berry",
+          "location_details": "On the berry bushes at the farm, random chance daily."
+        },
+        {
+          "internal_id": "KASIBBERRY",
+          "quantity": "1-4",
+          "name": "Kasib Berry",
+          "location_details": "On the berry bushes on the island, random chance daily."
+        },
+        {
+          "internal_id": "KEBIABERRY",
+          "quantity": "1-4",
+          "name": "Kebia Berry",
+          "location_details": "On the berry bushes on the island, random chance daily."
+        },
+        {
+          "internal_id": "KELPSYBERRY",
+          "quantity": "1-4",
+          "name": "Kelpsy Berry",
+          "location_details": "On the berry bushes at the farm, random chance daily."
+        },
+        {
+          "internal_id": "PAYAPABERRY",
+          "quantity": "1-4",
+          "name": "Payapa Berry",
+          "location_details": "On the berry bushes on the island, random chance daily."
+        },
+        {
+          "internal_id": "QUALOTBERRY",
+          "quantity": "1-4",
+          "name": "Qualot Berry",
+          "location_details": "On the berry bushes at the farm, random chance daily."
+        },
+        {
+          "internal_id": "RINDOBERRY",
+          "quantity": "1-4",
+          "name": "Rindo Berry",
+          "location_details": "On the berry bushes on the island, random chance daily."
+        },
+        {
+          "internal_id": "SHUCABERRY",
+          "quantity": "1-4",
+          "name": "Shuca Berry",
+          "location_details": "On the berry bushes on the island, random chance daily."
+        },
+        {
+          "internal_id": "TAMATOBERRY",
+          "quantity": "1-4",
+          "name": "Tamato Berry",
+          "location_details": "On the berry bushes at the farm, random chance daily."
+        },
+        {
+          "internal_id": "TANGABERRY",
+          "quantity": "1-4",
+          "name": "Tanga Berry",
+          "location_details": "On the berry bushes on the island, random chance daily."
+        },
+        {
+          "internal_id": "WACANBERRY",
+          "quantity": "1-4",
+          "name": "Wacan Berry",
+          "location_details": "On the berry bushes on the island, random chance daily."
+        },
+        {
+          "internal_id": "YACHEBERRY",
+          "quantity": "1-4",
+          "name": "Yache Berry",
+          "location_details": "On the berry bushes on the island, random chance daily."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Route 12": {
+      "canonical_slug": "Route_12",
+      "lead_summary": "This route connects Lavender Town, Route 11 and Route 13.\nA trainer is blocked by the slumbering Snorlax. Once the player plays the Poké Flute and either capture or defeats the Snorlax, the trainer will give the player HM04 Strength.\nOne of the Fishing Guru lives on this road and gives the Good Rod to the player.",
+      "items": [
+        {
+          "internal_id": "BIGROOT",
+          "quantity": "",
+          "name": "Big Root",
+          "location_details": "Behind cuttable trees"
+        },
+        {
+          "internal_id": "WATERSTONE",
+          "quantity": "",
+          "name": "Water Stone",
+          "location_details": "Given by Fisherman Hank after defeating him."
+        },
+        {
+          "internal_id": "machine_NORMAL",
+          "quantity": "",
+          "name": "HM04 Strength",
+          "location_details": "Given after capturing or defeating the Snorlax that's blocking the route."
+        },
+        {
+          "internal_id": "GOODROD",
+          "quantity": "",
+          "name": "Good Rod",
+          "location_details": "Given by the Fishing Guru."
+        },
+        {
+          "internal_id": "DRAGONSCALE",
+          "quantity": "",
+          "name": "Dragon Scale",
+          "location_details": "Surf West of the Lavender Town Terminal."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Route 13": {
+      "canonical_slug": "Route_13",
+      "lead_summary": "This connects Route 12 to Route 14.\nThere are sand castles on this beach, which the player can destroy to lower their Karma.",
+      "items": [
+        {
+          "internal_id": "CASTELIACONE",
+          "quantity": "",
+          "name": "Casteliacone",
+          "location_details": "Given by Clown Pagliacci after defeating him in a rematch."
+        },
+        {
+          "internal_id": "EVERSTONE",
+          "quantity": "",
+          "name": "Everstone",
+          "location_details": "Pass Clown Pagliacci."
+        },
+        {
+          "internal_id": "PEARL",
+          "quantity": "",
+          "name": "Pearl",
+          "location_details": "Hidden in a seashell."
+        },
+        {
+          "internal_id": "PEARL",
+          "quantity": "",
+          "name": "Pearl",
+          "location_details": "Hidden in a seashell."
+        },
+        {
+          "internal_id": "LEMONADE",
+          "quantity": "2-7",
+          "name": "Lemonade",
+          "location_details": "Given by Swimmer Susie after defeating her. (One for the player, plus one for each Pokémon in the player's party.)"
+        },
+        {
+          "internal_id": "SUNSTONE",
+          "quantity": "",
+          "name": "Sun Stone",
+          "location_details": "Given by Swimmer Valerie."
+        },
+        {
+          "internal_id": "SUPERPOTION",
+          "quantity": "",
+          "name": "Super Potion",
+          "location_details": "By the Path of grass pass Bird Keeper Sebastien."
+        },
+        {
+          "internal_id": "CALCIUM",
+          "quantity": "",
+          "name": "Calcium",
+          "location_details": "North of Bird Keeper Perry and Black Belt Henry."
+        },
+        {
+          "internal_id": "CLEVERWING",
+          "quantity": "",
+          "name": "Clever Wing",
+          "location_details": "Given by Bird Keeper Perry after showing him a Pokémon that knows Fly."
+        },
+        {
+          "internal_id": "GENIUSWING",
+          "quantity": "",
+          "name": "Genius Wing",
+          "location_details": "Given by Bird Keeper Perry after showing him a Pokémon that knows Fly."
+        },
+        {
+          "internal_id": "HEALTHWING",
+          "quantity": "",
+          "name": "Health Wing",
+          "location_details": "Given by Bird Keeper Perry after showing him a Pokémon that knows Fly."
+        },
+        {
+          "internal_id": "MUSCLEWING",
+          "quantity": "",
+          "name": "Muscle Wing",
+          "location_details": "Given by Bird Keeper Perry after showing him a Pokémon that knows Fly."
+        },
+        {
+          "internal_id": "RESISTWING",
+          "quantity": "",
+          "name": "Resist Wing",
+          "location_details": "Given by Bird Keeper Perry after showing him a Pokémon that knows Fly."
+        },
+        {
+          "internal_id": "SWIFTWING",
+          "quantity": "",
+          "name": "Swift Wing",
+          "location_details": "Given by Bird Keeper Perry after showing him a Pokémon that knows Fly."
+        },
+        {
+          "internal_id": "PPUP",
+          "quantity": "",
+          "name": "PP Up",
+          "location_details": "Pass Black Belt Joshua."
+        },
+        {
+          "internal_id": "HYPERPOTION",
+          "quantity": "",
+          "name": "Hyper Potion",
+          "location_details": "Behind the huge boulders."
+        },
+        {
+          "internal_id": "LEVER",
+          "quantity": "",
+          "name": "Dolly",
+          "location_details": "After pushing the Black Belt trainer's Rhyhorn to the blue towel on the beach."
+        },
+        {
+          "internal_id": "machine_PSYCHIC",
+          "quantity": "",
+          "name": "TM44 Rest",
+          "location_details": "At the end of the small path in the forest South of Clown Pagliacci."
+        },
+        {
+          "internal_id": "HYPERPOTION",
+          "quantity": "",
+          "name": "Hyper Potion",
+          "location_details": "On the small island East of Clown Pagliacci and Bird Keeper Jamers."
+        },
+        {
+          "internal_id": "BIGPEARL",
+          "quantity": "",
+          "name": "Big Pearl",
+          "location_details": "On the remote island at the South-East."
+        },
+        {
+          "internal_id": "PEARL",
+          "quantity": "3",
+          "name": "Pearl",
+          "location_details": "On the remote island at the South-East."
+        },
+        {
+          "internal_id": "HEARTSCALE",
+          "quantity": "3",
+          "name": "Heart Scale",
+          "location_details": "On the remote island at the South-East."
+        },
+        {
+          "internal_id": "SHEDSHELL",
+          "quantity": "",
+          "name": "Shed Shell",
+          "location_details": "On the remote island at the South-East."
+        },
+        {
+          "internal_id": "machine_DARK",
+          "quantity": "",
+          "name": "TM01 Hone Claws",
+          "location_details": "On the remote island at the South-East."
+        },
+        {
+          "internal_id": "WATMELBERRY",
+          "quantity": "",
+          "name": "Watmel Berry",
+          "location_details": "Given by Beauty Pamela after defeating her."
+        },
+        {
+          "internal_id": "ASPEARBERRY",
+          "quantity": "",
+          "name": "Aspear Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "CHERIBERRY",
+          "quantity": "",
+          "name": "Cheri Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "CHESTOBERRY",
+          "quantity": "",
+          "name": "Chesto Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "LEPPABERRY",
+          "quantity": "",
+          "name": "Leppa Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "LUMBERRY",
+          "quantity": "",
+          "name": "Lum Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "ORANBERRY",
+          "quantity": "",
+          "name": "Oran Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "PECHABERRY",
+          "quantity": "",
+          "name": "Pecha Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "PERSIMBERRY",
+          "quantity": "",
+          "name": "Persim Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "RAWSTBERRY",
+          "quantity": "",
+          "name": "Rawst Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "SITRUSBERRY",
+          "quantity": "",
+          "name": "Sitrus Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        }
+      ],
+      "missable_warnings": [
+        "NOTE: Contains actions that alter player Karma."
+      ]
+    },
+    "Route 14": {
+      "canonical_slug": "Route_14",
+      "lead_summary": "This connects Route 13 to Route 15.\nAlthough there is water, there is no fishing catch table.",
+      "items": [
+        {
+          "internal_id": "DAMPROCK",
+          "quantity": "",
+          "name": "Damp Rock",
+          "location_details": "By the large patch of grass."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Route 15": {
+      "canonical_slug": "Route_15",
+      "lead_summary": "This connects Route 14 to Fuchsia City.\nAlthough there is water, there is no fishing catch table.\nTo reach the Creepy House, the player will need Rock Smash, Strength and Surf (or their HM Replacement Items).",
+      "items": [
+        {
+          "internal_id": "machine_POISON",
+          "quantity": "",
+          "name": "TM36 Sludge Bomb",
+          "location_details": "By the patch of grass pass Clown Sol."
+        },
+        {
+          "internal_id": "HARDSTONE",
+          "quantity": "",
+          "name": "Hard Stone",
+          "location_details": "Hidden by the mossy boulder next to the Sticky Barb."
+        },
+        {
+          "internal_id": "STICKYBARB",
+          "quantity": "",
+          "name": "Sticky Barb",
+          "location_details": "On the higher ground."
+        },
+        {
+          "internal_id": "machine_NORMAL",
+          "quantity": "",
+          "name": "TM27 Return",
+          "location_details": "Next to the large mossy boulder at the water's edge."
+        },
+        {
+          "internal_id": "SWEETHEART",
+          "quantity": "5",
+          "name": "Sweet Heart",
+          "location_details": "Given by Beauty Grace, after defeating her."
+        }
+      ],
+      "missable_warnings": [
+        "NOTE: Contains actions that alter player Karma."
+      ]
+    },
+    "Fuchsia City": {
+      "canonical_slug": "Fuchsia_City",
+      "lead_summary": "Fuchsia City has the famous Safari Zone, and can be access West by Route 18, East by Route 15, and South by Route 19 (require Surf).\nThis city contains Fuchsia City's Gym, with Koga as its leader. Players who obtained the Soul Badge will be able to use Strength outside of battle.",
+      "items": [
+        {
+          "internal_id": "machine_NORMAL",
+          "quantity": "",
+          "name": "HM04 Strength",
+          "location_details": "Given by Janine after unblocking [[Route 12]] from the slumbering Snorlax."
+        },
+        {
+          "internal_id": "EXPALL",
+          "quantity": "",
+          "name": "Exp. All",
+          "location_details": "Given by Prof. Oaks's assistant in the East Gate to [[Route 15]] after fusing Pokémon 20 times."
+        },
+        {
+          "internal_id": "YELLOWFLUTE",
+          "quantity": "",
+          "name": "Yellow Flute",
+          "location_details": "Given by the Flute Hiker after obtaining the Soul Badge."
+        },
+        {
+          "internal_id": "PROTECTIVEPADS",
+          "quantity": "",
+          "name": "Protective Pads",
+          "location_details": "Given by the Hiker in the hotel after showing him a Carvanha."
+        },
+        {
+          "internal_id": "REVIVALHERB",
+          "quantity": "5",
+          "name": "Revival Herb",
+          "location_details": "Given by the old man in the hotel after defeating the Grimers and Muk on [[Route 17]]."
+        },
+        {
+          "internal_id": "LUCKYEGG",
+          "quantity": "",
+          "name": "Lucky Egg",
+          "location_details": "Given by the Chansey in the hotel after finding its trainer."
+        },
+        {
+          "internal_id": "RACEBIKE",
+          "quantity": "",
+          "name": "Racing Bicycle",
+          "location_details": "Given by the Cyclist in the hotel after beating her best time on [[Route 17]]."
+        },
+        {
+          "internal_id": "LUNARFEATHER",
+          "quantity": "",
+          "name": "Lunar Feather",
+          "location_details": "On a bed upstairs in the hotel, after collecting two other Lunar Feathers."
+        },
+        {
+          "internal_id": "TOXICPLATE",
+          "quantity": "",
+          "name": "Toxic Plate",
+          "location_details": "Beneath a lamp post in the eastern side of the city, after catching [[Legendary_Pokémon#Arceus"
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Safari Zone": {
+      "canonical_slug": "Safari_Zone",
+      "lead_summary": "The Safari Zone is a location where players can catch rare Pokémon, but cannot battle them. Instead, the player receives 30 Safari Balls and is able to either throw a ball at the Pokémon, throw bait, throw a rock, or run away.\nThe players will be escorted out of the Safari Zone after all 30 Safari Balls have been thrown or if the player has taken 600 steps.\nThe Safari Zone Gate can be found North of Fuchsia City. Upon entering, the players will start in Safari Zone (Area 1).",
+      "items": [],
+      "missable_warnings": []
+    }
+  },
+  "location_items_and_statics": [
+    {
+      "type": "Key Item",
+      "name": "Poké Flute",
+      "location": "Pokémon Tower 7F",
+      "desc": "Awakens sleeping Pokémon, clearing Snorlax blocking Routes 12 and 16."
+    },
+    {
+      "type": "Static Encounter",
+      "pokemon": "Grimer",
+      "level": "30",
+      "location": "Route 17",
+      "notes": "Quest Encounter"
+    },
+    {
+      "type": "Static Encounter",
+      "pokemon": "Pumpkaboo",
+      "level": "17-27",
+      "location": "Route 18",
+      "notes": "Interact with Pumpkins at night, Respawns daily"
+    },
+    {
+      "type": "Static Encounter",
+      "pokemon": "Snorlax",
+      "level": "30",
+      "location": "Route 12",
+      "notes": "Game Progression: Requires Pokéflute from Pokémon Tower"
+    },
+    {
+      "type": "HM Replacement",
+      "name": "Dolly",
+      "replaces": "Strength",
+      "location": "Route 13"
+    },
+    {
+      "type": "Key Item",
+      "name": "Exp. All",
+      "location": "Fuchsia City East Gate 2F",
+      "desc": "Shares battle experience points with all non-fainted party members."
+    },
+    {
+      "type": "Static Encounter",
+      "pokemon": "Lombre",
+      "level": "20-30",
+      "location": "Safari Zone (Area 1)",
+      "notes": ""
+    },
+    {
+      "type": "Static Encounter",
+      "pokemon": "Scolipede",
+      "level": "65",
+      "location": "Safari Zone (Area 3)",
+      "notes": "Never respawns"
+    },
+    {
+      "type": "Static Encounter",
+      "pokemon": "Diglett",
+      "level": "22",
+      "location": "Safari Zone (Area 5)",
+      "notes": "Respawns in 1 hour"
+    },
+    {
+      "type": "Static Encounter",
+      "pokemon": "Cofagrigus",
+      "level": "35",
+      "location": "Safari Zone Temple",
+      "notes": "Respawns in 4 hours"
+    }
+  ],
+  "authoring_guidance": {
+    "splicing_safety": "Explicitly state: HEAD species, BODY species, and WHICH ability to select at the DNA Splicer prompt.",
+    "unfuse_safety": "Unfusing at Pokémon Mart costs $300. Check move retention before unfusing.",
+    "gym_duel_rule": "Strict 4v4 party limit! Instruct player to deposit extra party members in the PC before entering gym arena.",
+    "time_of_day": "Provide Day/Night alternative suggestions so players are never blocked by real-time spawn windows.",
+    "stone_evolutions": "Advisory: Do NOT use evolution stones prematurely on stone-evolvers (e.g. Nidorino) before key level-up moves are learned.",
+    "undercover_informant_rocket": "Guide player to join Team Rocket for disguises/missions, BUT report crimes to police officer for +10 Karma and Diancie unlock!"
+  }
+}

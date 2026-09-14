@@ -1,0 +1,92 @@
+{
+  "location": "Route 37 (ID 586)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "017",
+        "name": "Pidgeotto",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "41-49",
+        "catch_rate": "120",
+        "rates": [
+          "30%",
+          "30%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "037",
+        "name": "Vulpix",
+        "type1": "Fire",
+        "type2": "",
+        "levels": "40-48",
+        "catch_rate": "190",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "058",
+        "name": "Growlithe",
+        "type1": "Fire",
+        "type2": "",
+        "levels": "40-48",
+        "catch_rate": "190",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "164",
+        "name": "Noctowl",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "41-48",
+        "catch_rate": "90",
+        "rates": [
+          "-",
+          "-",
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "168",
+        "name": "Ariados",
+        "type1": "Bug",
+        "type2": "Poison",
+        "levels": "41-49",
+        "catch_rate": "90",
+        "rates": [
+          "-",
+          "-",
+          "25%"
+        ]
+      },
+      {
+        "dex_id": "234",
+        "name": "Stantler",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "47-51",
+        "catch_rate": "45",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "257",
+        "name": "Bonsly",
+        "type1": "Rock",
+        "type2": "",
+        "levels": "35",
+        "catch_rate": "255",
+        "rates": [
+          "20%",
+          "20%",
+          "5%"
+        ]
+      }
+    ]
+  }
+}

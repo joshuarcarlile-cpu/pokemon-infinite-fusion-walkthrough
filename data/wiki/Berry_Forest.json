@@ -1,0 +1,104 @@
+{
+  "title": "Berry_Forest",
+  "url": "https://infinitefusion.fandom.com/wiki/Berry_Forest",
+  "lead_summary": "Berry Forest is at the end of the Bond Bridge.\nThe first time the player enters, Jasmine will request some help to find her nephew and his friends. After finding them all and defeating the imposter Zoroark, she will accept to duel the player on the Bond Bridge.",
+  "missable_warnings": [],
+  "items": [
+    {
+      "internal_id": "machine_PSYCHIC",
+      "quantity": "",
+      "name": "TM85 Dream Eater",
+      "location_details": "On the table in the VR."
+    },
+    {
+      "internal_id": "BABIRIBERRY",
+      "quantity": "",
+      "name": "Babiri Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "CHILANBERRY",
+      "quantity": "",
+      "name": "Chilan Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "CHOPLEBERRY",
+      "quantity": "",
+      "name": "Chople Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "COBABERRY",
+      "quantity": "",
+      "name": "Coba Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "COLBURBERRY",
+      "quantity": "",
+      "name": "Colbur Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "HABANBERRY",
+      "quantity": "",
+      "name": "Haban Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "KASIBBERRY",
+      "quantity": "",
+      "name": "Kasib Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "KEBIABERRY",
+      "quantity": "",
+      "name": "Kebia Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "PAYAPABERRY",
+      "quantity": "",
+      "name": "Payapa Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "RINDOBERRY",
+      "quantity": "",
+      "name": "Rindo Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "SHUCABERRY",
+      "quantity": "",
+      "name": "Shuca Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "TANGABERRY",
+      "quantity": "",
+      "name": "Tanga Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "WACANBERRY",
+      "quantity": "",
+      "name": "Wacan Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "YACHEBERRY",
+      "quantity": "",
+      "name": "Yache Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    }
+  ],
+  "sections": [
+    "Items",
+    "Outfits",
+    "Pokémon"
+  ],
+  "raw_wikitext": "{{GlobalToggles}}\n{{InfoboxLocation\n|region=Sevii Islands\n|location_image=BerryForest.png\n|map_image=Berry_Forest_Map.png\n|connection_1_direction=southeast\n|connection_1_location=Bond Bridge\n}}\n'''Berry Forest''' is at the end of the [[Bond Bridge]].\n\nThe first time the player enters, Jasmine will request some help to find her nephew and his friends. After finding them all and defeating the imposter Zoroark, she will accept to duel the player on the Bond Bridge.\n\n==Items==\n{{ItemTable/Header}}\n{{ItemTable/Data|machine_PSYCHIC||TM85 Dream Eater|On the table in the VR.|TM85_BerryForest.png}}\n{{ItemTable/Section|Berry Bushes}}\n{{ItemTable/Data|BABIRIBERRY||Babiri Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|CHILANBERRY||Chilan Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|CHOPLEBERRY||Chople Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|COBABERRY||Coba Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|COLBURBERRY||Colbur Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|HABANBERRY||Haban Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|KASIBBERRY||Kasib Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|KEBIABERRY||Kebia Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|PAYAPABERRY||Payapa Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|RINDOBERRY||Rindo Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|SHUCABERRY||Shuca Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|TANGABERRY||Tanga Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|WACANBERRY||Wacan Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|YACHEBERRY||Yache Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Footer}}\n\n==Outfits==\n{{ItemTable/Header|Outfit}}\n{{ItemTable/Data/Outfit|hat|banefulfoxmask||Inside the vehicle.}}\n{{ItemTable/Footer/Outfit}}\n\n==Pokémon==\n<!-----------------------------------!>\n<!-- CLASSIC & EXPERT MODE POKÉMON --!>\n<!------------------------------------>\n<div class=\"classic-mode expert-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|017|Pidgeotto|Normal|Flying|47|120|15%}}\n{{EncounterTable/Data|044|Gloom|Grass|Poison|45|120|15%}}\n{{EncounterTable/Data|048|Venonat|Bug|Poison|44|190|20%}}\n{{EncounterTable/Data|049|Venomoth|Bug|Poison|47-50|75|10%}}\n{{EncounterTable/Data|096|Drowzee|Psychic||44|190|20%}}\n{{EncounterTable/Data|097|Hypno|Psychic||47-55|75|5%}}\n{{EncounterTable/Data|102|Exeggcute|Grass|Psychic|45|90|5%}}\n{{EncounterTable/Data|234|Stantler|Normal||50|45|10%}}\n{{EncounterTable/Section|Surf}}\n{{EncounterTable/Data|054|Psyduck|Water||10-40|190|95%}}\n{{EncounterTable/Data|055|Golduck|Water||50-60|75|5%}}\n{{EncounterTable/Section|Static}}\n{{EncounterTable/Data|338|Zoroark|Dark||55|45|One}}\n{{EncounterTable/Footer}}\n</div>\n<!------------------------!>\n<!-- REMIX MODE POKÉMON --!>\n<!------------------------->\n<div class=\"remix-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|036|Clefable|Fairy||45|25|15%}}\n{{EncounterTable/Data|048|Venonat|Bug|Poison|44|190|15%}}\n{{EncounterTable/Data|102|Exeggcute|Grass|Psychic|45|90|10%}}\n{{EncounterTable/Data|143|Snorlax|Normal||47-55|25|5%}}\n{{EncounterTable/Data|234|Stantler|Normal||50|45|10%}}\n{{EncounterTable/Data|260|Munchlax|Normal||44|50|20%}}\n{{EncounterTable/Data|266|Tangrowth|Grass||44|30|15%}}\n{{EncounterTable/Data|424|Scolipede|Bug|Poison|47|45|10%}}\n{{EncounterTable/Section|Surf}}\n{{EncounterTable/Data|055|Golduck|Water||50-60|75|25%}}\n{{EncounterTable/Data|370|Pyukumuku|Water||10-40|60|50%}}\n{{EncounterTable/Data|501|Luvdisc|Water||10-50|225|25%}}\n{{EncounterTable/Section|Static}}\n{{EncounterTable/Data|338|Zoroark|Dark||55|45|One}}\n{{EncounterTable/Footer}}\n</div>\n\n[[Category:Locations]]\n[[Category:Sevii Islands]]"
+}

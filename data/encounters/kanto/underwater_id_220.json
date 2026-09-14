@@ -1,0 +1,108 @@
+{
+  "location": "Underwater (ID 220)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "072",
+        "name": "Tentacool",
+        "type1": "Water",
+        "type2": "Poison",
+        "levels": "25-35",
+        "catch_rate": "190",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "090",
+        "name": "Shellder",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20-30",
+        "catch_rate": "190",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "098",
+        "name": "Krabby",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20-30",
+        "catch_rate": "225",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "dex_id": "119",
+        "name": "Seaking",
+        "type1": "Water",
+        "type2": "",
+        "levels": "25-35",
+        "catch_rate": "60",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "25-30",
+        "catch_rate": "255",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "211",
+        "name": "Qwilfish",
+        "type1": "Water",
+        "type2": "Poison",
+        "levels": "25-35",
+        "catch_rate": "45",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "223",
+        "name": "Remoraid",
+        "type1": "Water",
+        "type2": "",
+        "levels": "25-35",
+        "catch_rate": "190",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Rock Smash": [
+      {
+        "dex_id": "090",
+        "name": "Shellder",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-30",
+        "catch_rate": "190",
+        "rates": [
+          "95%"
+        ]
+      },
+      {
+        "dex_id": "091",
+        "name": "Cloyster",
+        "type1": "Water",
+        "type2": "Ice",
+        "levels": "25-40",
+        "catch_rate": "60",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

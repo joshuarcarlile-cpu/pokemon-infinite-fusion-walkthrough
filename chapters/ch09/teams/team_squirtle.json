@@ -1,0 +1,128 @@
+{
+  "starter": "Squirtle",
+  "name": "Team Squirtle: Bulky Dominance & Hydro Artillery",
+  "archetype": "Water/Flying aerial artillery, Levitate hazard immunity, and electric speed sweeping.",
+  "gym_duel_core": [1, 2, 3, 4, 5, 6],
+  "gym_duel_rationale": "The 5-battle gauntlet at Indigo Plateau requires unmatched endurance: Blastoise/Fearow provides Ground immunity and crushes Bruno and Blue's Fire/Ground threats with Hydro Pump; Alakazam/Weezing completely shuts down Bruno's Fighting squad with Psychic and pivots on Earthquakes; Jolteon/Sandslash outspeeds and electrocutes Lorelei's Water tanks with Discharge while setting up Swords Dance; Arbok/Primeape smashes Agatha's Ghost/Poison roster with Gunk Shot and Close Combat; Snorlax walls Mew with colossal HP and Body Slam; and Lapras freezes Lance's dragons with Ice Beam.",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Blastoise/Fearow",
+      "types": ["Water", "Flying"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 62,
+      "ability": "Torrent",
+      "held_item": "Mystic Water",
+      "role": "Bulky Aerial Sweeper",
+      "current_reached_moveset": [
+        "Hydro Pump",
+        "Drill Peck",
+        "Roost",
+        "Protect"
+      ],
+      "progression_notes": "486 BST starter hybrid. Ground immunity and STAB Hydro Pump obliterate Bruno's Rock types and Blue's Rhydon/Magmortar. Drill Peck checks Fighting switch-ins."
+    },
+    {
+      "slot": 2,
+      "species": "Alakazam/Weezing",
+      "types": ["Psychic", "Poison"],
+      "status": "Active in Party (Retained from Ch 8)",
+      "current_level": 61,
+      "ability": "Levitate",
+      "held_item": "Twisted Spoon",
+      "role": "Levitate Special Wallbreaker",
+      "current_reached_moveset": [
+        "Psychic",
+        "Sludge Bomb",
+        "Recover",
+        "Calm Mind"
+      ],
+      "progression_notes": "495 BST Levitate pivot with 118 SpA. Levitate grants Ground immunity. Calm Mind-boosted Psychic sweeps Bruno's and Agatha's squads cleanly."
+    },
+    {
+      "slot": 3,
+      "species": "Jolteon/Sandslash",
+      "types": ["Electric", "Ground"],
+      "status": "Active in Party (Retained from Ch 8)",
+      "current_level": 61,
+      "ability": "Volt Absorb",
+      "held_item": "Soft Sand",
+      "role": "Speed Pivot & Physical Setup",
+      "current_reached_moveset": [
+        "Discharge",
+        "Earthquake",
+        "Pin Missile",
+        "Swords Dance"
+      ],
+      "progression_notes": "486 BST speed sweeper. Volt Absorb absorbs Electric moves. Swords Dance-boosted Earthquake demolishes Steel types, while Discharge paralyzes foes."
+    },
+    {
+      "slot": 4,
+      "species": "Arbok/Primeape",
+      "types": ["Poison", "Fighting"],
+      "status": "Active in Party (Retained from Ch 8)",
+      "current_level": 61,
+      "ability": "Intimidate",
+      "held_item": "Black Belt",
+      "role": "Intimidate Physical Wallbreaker",
+      "current_reached_moveset": [
+        "Gunk Shot",
+        "Close Combat",
+        "Cross Chop",
+        "Glare"
+      ],
+      "progression_notes": "479 BST Intimidate bruiser. Intimidate neutralizes physical sweepers. Gunk Shot and Close Combat shred Fairy, Grass, Normal, and Steel types."
+    },
+    {
+      "slot": 5,
+      "species": "Snorlax",
+      "types": ["Normal"],
+      "status": "Active in Party (Retained from Ch 8)",
+      "current_level": 61,
+      "ability": "Thick Fat",
+      "held_item": "Leftovers",
+      "role": "Thick Fat Normal Tank",
+      "current_reached_moveset": [
+        "Body Slam",
+        "Rest",
+        "Sleep Talk",
+        "Crunch"
+      ],
+      "progression_notes": "Colossal 160 HP tank. Complete Ghost immunity walls Agatha's team. Rest + Sleep Talk preserves health across the five consecutive battles."
+    },
+    {
+      "slot": 6,
+      "species": "Lapras",
+      "types": ["Water", "Ice"],
+      "status": "Active in Party (Retained from Ch 8)",
+      "current_level": 60,
+      "ability": "Water Absorb",
+      "held_item": "Never-Melt Ice",
+      "role": "Bulky Dragon Counter",
+      "current_reached_moveset": [
+        "Ice Beam",
+        "Hydro Pump",
+        "Confuse Ray",
+        "Body Slam"
+      ],
+      "progression_notes": "535 BST Water/Ice wall. Ice Beam cleanly dismantles Lance's Flying and Dragon hybrids. Water Absorb completely counters Lorelei's Water STABs."
+    }
+  ],
+  "flex_bench": [
+    {
+      "species": "Venusaur",
+      "role": "Chlorophyll Sleep Tank",
+      "rationale": "High-durability Grass/Poison tank packing Leech Seed and Sleep Powder."
+    },
+    {
+      "species": "Gyarados",
+      "role": "Dragon Dance Water Pivot",
+      "rationale": "Intimidate physical pivot and Dragon Dance sweeper with Aqua Tail."
+    },
+    {
+      "species": "Hitmontop",
+      "role": "Technician Rapid Spinner",
+      "rationale": "Technician-boosted Triple Kick and Rapid Spin hazard removal."
+    }
+  ]
+}

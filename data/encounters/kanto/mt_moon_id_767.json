@@ -1,0 +1,73 @@
+{
+  "location": "Mt. Moon (ID 767)",
+  "sections": {
+    "Cave": [
+      {
+        "dex_id": "035",
+        "name": "Clefairy",
+        "type1": "Fairy",
+        "type2": "",
+        "levels": "12",
+        "catch_rate": "150",
+        "rates": [
+          "8%"
+        ]
+      },
+      {
+        "dex_id": "041",
+        "name": "Zubat",
+        "type1": "Poison",
+        "type2": "Flying",
+        "levels": "8-11",
+        "catch_rate": "255",
+        "rates": [
+          "41%"
+        ]
+      },
+      {
+        "dex_id": "074",
+        "name": "Geodude",
+        "type1": "Rock",
+        "type2": "Ground",
+        "levels": "9-10",
+        "catch_rate": "255",
+        "rates": [
+          "16%"
+        ]
+      },
+      {
+        "dex_id": "095",
+        "name": "Onix",
+        "type1": "Rock",
+        "type2": "Ground",
+        "levels": "10",
+        "catch_rate": "45",
+        "rates": [
+          "1%"
+        ]
+      },
+      {
+        "dex_id": "173",
+        "name": "Cleffa",
+        "type1": "Fairy",
+        "type2": "",
+        "levels": "6-9",
+        "catch_rate": "150",
+        "rates": [
+          "29%"
+        ]
+      },
+      {
+        "dex_id": "421",
+        "name": "Sableye",
+        "type1": "Dark",
+        "type2": "Ghost",
+        "levels": "8",
+        "catch_rate": "45",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Celadon Sewers & Boss Giovanni",
+  "summary": "Team up with Gym Leader Erika to infiltrate Team Rocket's subterranean hideout in the Celadon Sewers. Defeat Rocket grunts patrolling the toxic waterways and confront Boss Giovanni. Overcoming Giovanni secures the vital Silph Scope and frees Erika to return to her gym.",
+  "items": [
+    {
+      "name": "Silph Scope",
+      "method": "Obtained from Boss Giovanni upon his defeat in the sewer command center",
+      "type": "Key Item"
+    },
+    {
+      "name": "TM34 Sludge Wave",
+      "method": "Inside the narrow pipe tunnel on the lower sewer ground",
+      "type": "TM"
+    },
+    {
+      "name": "Black Sludge",
+      "method": "On higher ground past the three-plank wooden bridge",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Full Restore",
+      "method": "Near Rocket Grunt Max on the upper catwalk",
+      "type": "Consumable"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Rocket Grunt Virginia",
+      "team": [
+        {
+          "species": "Koffing",
+          "level": 26,
+          "types": ["Poison"]
+        }
+      ]
+    },
+    {
+      "name": "Rocket Grunt Max",
+      "team": [
+        {
+          "species": "Voltorb/Weezing",
+          "level": 25,
+          "types": ["Electric", "Poison"]
+        }
+      ]
+    },
+    {
+      "name": "Boss Giovanni",
+      "team": [
+        {
+          "species": "Arbok/Onix",
+          "level": 32,
+          "types": ["Poison", "Ground"]
+        },
+        {
+          "species": "Rhyhorn/Lapras",
+          "level": 32,
+          "types": ["Ground", "Water"]
+        },
+        {
+          "species": "Haunter/Kangaskhan",
+          "level": 35,
+          "types": ["Ghost", "Normal"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Water & Sludge": [
+      {"dex_id": "088", "name": "Grimer", "types": ["Poison"], "levels": "20-25", "rates": "35% All"},
+      {"dex_id": "109", "name": "Koffing", "types": ["Poison"], "levels": "20-25", "rates": "35% All"},
+      {"dex_id": "089", "name": "Muk", "types": ["Poison"], "levels": "24-26", "rates": "15% All"},
+      {"dex_id": "041", "name": "Zubat", "types": ["Poison", "Flying"], "levels": "18-22", "rates": "15% All"}
+    ],
+    "Interactive Trash Can": [
+      {"dex_id": "044.023", "name": "Gloom/Ekans", "types": ["Grass", "Poison"], "levels": "20", "rates": "Random trashcan encounter (only one can be found)"},
+      {"dex_id": "050.132", "name": "Diglett/Ditto", "types": ["Ground", "Normal"], "levels": "20", "rates": "Random trashcan encounter (alternative spawn)"}
+    ]
+  }
+}

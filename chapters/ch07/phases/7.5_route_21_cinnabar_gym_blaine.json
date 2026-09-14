@@ -1,0 +1,44 @@
+{
+  "name": "Route 21 & Cinnabar Gym (Blaine Duel)",
+  "summary": "Surf north along Route 21 to connect the sea path back to Pallet Town and train on coastal Fishermen. Return to Cinnabar Gym and unlock the door using the Secret Key. Answer trivia quiz machines correctly to bypass gym trainers, or battle them for valuable experience before facing Gym Leader Blaine in a strict 4v4 duel for the Volcano Badge.",
+  "items": [
+    {
+      "name": "Volcano Badge",
+      "method": "Reward from Gym Leader Blaine after victory",
+      "type": "Badge"
+    },
+    {
+      "name": "TM38 Fire Blast",
+      "method": "Gift from Gym Leader Blaine after earning the Volcano Badge",
+      "type": "TM"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Super Nerd Erik",
+      "team": [
+        {"species": "Ninetales", "level": 46, "types": ["Fire"]},
+        {"species": "Rapidash", "level": 46, "types": ["Fire"]}
+      ]
+    },
+    {
+      "name": "Burglar Quinn",
+      "team": [
+        {"species": "Magmar", "level": 47, "types": ["Fire"]},
+        {"species": "Weezing", "level": 47, "types": ["Poison"]}
+      ]
+    }
+  ],
+  "encounters": {
+    "Route 21 (Tall Grass & Surf)": [
+      {"dex_id": "114", "name": "Tangela", "types": ["Grass"], "levels": "35-42", "rates": "30%"},
+      {"dex_id": "122", "name": "Mr. Mime", "types": ["Psychic", "Fairy"], "levels": "35-42", "rates": "20%"},
+      {"dex_id": "017", "name": "Pidgeotto", "types": ["Normal", "Flying"], "levels": "35-42", "rates": "20%"},
+      {"dex_id": "073", "name": "Tentacruel", "types": ["Water", "Poison"], "levels": "35-44", "rates": "20%"},
+      {"dex_id": "224", "name": "Octillery", "types": ["Water"], "levels": "38-46", "rates": "10%"}
+    ],
+    "Poké Radar (Route 21)": [
+      {"dex_id": "206", "name": "Dunsparce", "types": ["Normal"], "levels": "35-42", "rates": "Radar Exclusive"}
+    ]
+  }
+}

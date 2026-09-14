@@ -1,0 +1,123 @@
+{
+  "location": "Pinkan Hollow (ID 46)",
+  "sections": {
+    "Cave": [
+      {
+        "dex_id": "035",
+        "name": "Clefairy",
+        "type1": "Fairy",
+        "type2": "",
+        "levels": "12-15",
+        "catch_rate": "150",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "dex_id": "079",
+        "name": "Slowpoke",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "11-14",
+        "catch_rate": "190",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "173",
+        "name": "Cleffa",
+        "type1": "Fairy",
+        "type2": "",
+        "levels": "9-12",
+        "catch_rate": "150",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "238",
+        "name": "Smoochum",
+        "type1": "Ice",
+        "type2": "Psychic",
+        "levels": "11-14",
+        "catch_rate": "45",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "478",
+        "name": "Carbink",
+        "type1": "Rock",
+        "type2": "Fairy",
+        "levels": "9-13",
+        "catch_rate": "60",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "dex_id": "469",
+        "name": "Bruxish",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "10-15",
+        "catch_rate": "80",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "501",
+        "name": "Luvdisc",
+        "type1": "Water",
+        "type2": "",
+        "levels": "9-12",
+        "catch_rate": "225",
+        "rates": [
+          "95%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "dex_id": "222",
+        "name": "Corsola",
+        "type1": "Water",
+        "type2": "Rock",
+        "levels": "13-17",
+        "catch_rate": "60",
+        "rates": [
+          "70%"
+        ]
+      },
+      {
+        "dex_id": "469",
+        "name": "Bruxish",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "14-18",
+        "catch_rate": "80",
+        "rates": [
+          "30%"
+        ]
+      }
+    ],
+    "Rock Smash": [
+      {
+        "dex_id": "222",
+        "name": "Corsola",
+        "type1": "Water",
+        "type2": "Rock",
+        "levels": "11-15",
+        "catch_rate": "60",
+        "rates": [
+          "100%"
+        ]
+      }
+    ]
+  }
+}

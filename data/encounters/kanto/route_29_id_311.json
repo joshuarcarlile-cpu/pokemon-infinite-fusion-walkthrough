@@ -1,0 +1,112 @@
+{
+  "location": "Route 29 (ID 311)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "017",
+        "name": "Pidgeotto",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "36-44",
+        "catch_rate": "120",
+        "rates": [
+          "45%",
+          "45%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "022",
+        "name": "Fearow",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "42-44",
+        "catch_rate": "90",
+        "rates": [
+          "10%",
+          "10%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "164",
+        "name": "Noctowl",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "42-44",
+        "catch_rate": "90",
+        "rates": [
+          "-",
+          "-",
+          "45%"
+        ]
+      },
+      {
+        "dex_id": "166",
+        "name": "Ledian",
+        "type1": "Bug",
+        "type2": "Flying",
+        "levels": "44-48",
+        "catch_rate": "90",
+        "rates": [
+          "10%",
+          "10%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "168",
+        "name": "Ariados",
+        "type1": "Bug",
+        "type2": "Poison",
+        "levels": "42-45",
+        "catch_rate": "90",
+        "rates": [
+          "-",
+          "-",
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "189",
+        "name": "Jumpluff",
+        "type1": "Grass",
+        "type2": "Flying",
+        "levels": "44-46",
+        "catch_rate": "45",
+        "rates": [
+          "5%",
+          "5%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "254",
+        "name": "Ambipom",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "45",
+        "catch_rate": "45",
+        "rates": [
+          "-",
+          "-",
+          "5%"
+        ]
+      }
+    ],
+    "Pok\u00e9 Radar": [
+      {
+        "dex_id": "294",
+        "name": "Bidoof",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "5",
+        "catch_rate": "255",
+        "rates": [
+          "50% <small>([[Pok\u00e9 Radar#How_it_works",
+          "long rustle]])</small>"
+        ]
+      }
+    ]
+  }
+}

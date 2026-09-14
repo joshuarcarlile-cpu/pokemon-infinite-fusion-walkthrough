@@ -1,0 +1,77 @@
+{
+  "leader": "Gold",
+  "title": "Legendary Trainer",
+  "gym": "Mt. Silver Summit",
+  "badge": "True Endgame Champion",
+  "hard_mode_level_cap": 82,
+  "gym_duel_limit": 6,
+  "recommended_party_level": 80,
+  "party_selection_rule": "Full 6 vs 6 True Endgame Duel",
+  "overview": "Gold stands atop the temporal summit of Mt. Silver as the supreme test of your journey. His roster features fearsome Johto beast fusions: lead Sudowoodo/Shuckle leverages Sturdy and Rocky Helmet with Power Split to punish physical attackers; Togekiss/Umbreon provides durable Fairy/Dark recovery; the legendary beast fusions (Feraligatr/Raikou, Typhlosion/Suicune, Meganium/Entei) command dynamic weather offense; and his ace Dragonite/Gyarados combines Intimidate, lustrous Water/Dragon power, and priority Extreme Speed. Avoid physical contact against Shuckle, disrupt their weather setups, and target their glaring quad-weaknesses (Ice for Dragonite/Gyarados, Ground for Raikou/Entei).",
+  "roster": [
+    {
+      "species": "Sudowoodo/Shuckle",
+      "level": 76,
+      "types": ["Rock", "Bug"],
+      "ability": "Sturdy",
+      "item": "Rocky Helmet",
+      "moves": ["Power Split", "Counter", "Rollout", "Toxic"],
+      "tactics": "Extreme 191 Defense tank. Sturdy guarantees survival from any single hit, and Counter/Rocky Helmet severely punishes physical contact. Neutralize it with special Water or Steel attacks."
+    },
+    {
+      "species": "Togekiss/Umbreon",
+      "level": 78,
+      "types": ["Fairy", "Dark"],
+      "ability": "Hustle",
+      "item": "Leftovers",
+      "moves": ["Moonlight", "Bite", "Moonblast", "Body Slam"],
+      "tactics": "Sturdy Fairy/Dark wall with 120 Sp. Def and Moonlight recovery. Break through with strong physical Poison or Steel attacks like Sludge Bomb or Iron Head."
+    },
+    {
+      "species": "Feraligatr/Raikou",
+      "level": 77,
+      "types": ["Water", "Electric"],
+      "ability": "Torrent",
+      "item": "Magnet",
+      "moves": ["Thunder", "Water Pulse", "Rain Dance", "Calm Mind"],
+      "tactics": "Fast 102 Speed rain sweeper. Sets Rain Dance to boost Thunder and Water Pulse. Exploit its low 83 Defense with a fast, fatal Earthquake."
+    },
+    {
+      "species": "Typhlosion/Suicune",
+      "level": 77,
+      "types": ["Fire", "Water"],
+      "ability": "Blaze",
+      "item": "Mystic Water",
+      "moves": ["Hydro Pump", "Flamethrower", "Aurora Beam", "Mist"],
+      "tactics": "Bulky mixed elemental attacker with 102 Sp. Atk and 102 Defense. Hit its Electric, Ground, or Rock weaknesses before it sets up offensive momentum."
+    },
+    {
+      "species": "Meganium/Entei",
+      "level": 77,
+      "types": ["Grass", "Fire"],
+      "ability": "Overgrow",
+      "item": "Charcoal",
+      "moves": ["Fire Blast", "Sunny Day", "Solar Beam", "Synthesis"],
+      "tactics": "Sets Sunny Day to fire instant Solar Beams and boosted Fire Blasts while recovering with boosted Synthesis. Punish with Flying, Poison, or Rock moves."
+    },
+    {
+      "species": "Dragonite/Gyarados",
+      "level": 79,
+      "types": ["Dragon", "Flying"],
+      "ability": "Intimidate",
+      "item": "Lustrous Orb",
+      "moves": ["Extreme Speed", "Waterfall", "Dragon Tail", "Twister"],
+      "tactics": "Gold's devastating 128 Attack ace with Intimidate and STAB Extreme Speed. Annihilate it immediately with a 4x Ice Beam or Blizzard."
+    }
+  ],
+  "starter_strategies": {
+    "bulbasaur": "Lead with Alakazam/Weezing to easily dispatch Sudowoodo/Shuckle using special Psychic. Pivot Lapras in against Dragonite/Gyarados to instantly erase it with 4x Ice Beam. Venusaur/Charizard walls Meganium/Entei and tears through Togekiss/Umbreon with Sludge Bomb, while Gyarados/Arbok absorbs physical hits and cleans up with Earthquake.",
+    "charmander": "Lead with Nidoking/Machamp to crush Sudowoodo/Shuckle and Feraligatr/Raikou with STAB Earthquake. Jolteon/Tentacruel outspeeds and vaporizes Typhlosion/Suicune and Dragonite/Gyarados with Thunderbolt and Ice Beam. Charizard/Pinsir and Raichu/Gengar clean up remaining threats with blistering speed.",
+    "squirtle": "Deploy Blastoise/Tangrowth with Regenerator to completely shut down Dragonite/Gyarados and Shuckle physically. Magnezone/Electabuzz obliterates Typhlosion/Suicune and Feraligatr/Raikou with 100% accurate Thunder, while Tyranitar/Arcanine melts Meganium/Entei and Togekiss/Umbreon."
+  },
+  "rewards": [
+    "Shiny Charm (Awarded by Mom in Pallet Town)",
+    "Access to Tier 3 Elite Four Rematches (Lv. 81-90)",
+    "Unlocking of Legendary Triple Fusions via Super DNA Splicers"
+  ]
+}

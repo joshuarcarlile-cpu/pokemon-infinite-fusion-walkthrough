@@ -1,0 +1,53 @@
+{
+  "name": "Victory Road 3F Exit Passage",
+  "summary": "Reach 3F and solve the multi-tier boulder puzzle: push a boulder into the gaping floor pit so it drops onto the 2F pressure plate below, lowering the barrier to the exit. Claim powerful physical setup TMs before emerging toward Indigo Plateau.",
+  "items": [
+    {
+      "name": "TM71 Stone Edge",
+      "method": "Found on the elevated northeastern ledge near the ladder",
+      "type": "TM"
+    },
+    {
+      "name": "TM75 Swords Dance",
+      "method": "Lying in the far northwest corridor past the boulder maze",
+      "type": "TM"
+    },
+    {
+      "name": "Max Revive",
+      "method": "Located along the north-central wall",
+      "type": "Medicine"
+    },
+    {
+      "name": "Guard Spec.",
+      "method": "Found on the ground in the northwest section",
+      "type": "Battle Item"
+    },
+    {
+      "name": "Full Heal",
+      "method": "Tucked in the northeast corner near the stairs",
+      "type": "Medicine"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Cooltrainer George",
+      "team": [
+        {"species": "Kingler/Pinsir", "level": 45, "types": ["Water", "Bug"]},
+        {"species": "Poliwrath/Heracross", "level": 47, "types": ["Water", "Fighting"]}
+      ]
+    }
+  ],
+  "encounters": {
+    "Cave": [
+      {"dex_id": "095", "name": "Onix", "types": ["Rock", "Ground"], "levels": "40-46", "rates": "20%"},
+      {"dex_id": "232", "name": "Donphan", "types": ["Ground"], "levels": "44", "rates": "15%"},
+      {"dex_id": "111", "name": "Rhyhorn", "types": ["Ground", "Rock"], "levels": "40", "rates": "15%"},
+      {"dex_id": "217", "name": "Ursaring", "types": ["Normal"], "levels": "42", "rates": "15%"},
+      {"dex_id": "067", "name": "Machoke", "types": ["Fighting"], "levels": "44-46", "rates": "10%"},
+      {"dex_id": "066", "name": "Machop", "types": ["Fighting"], "levels": "32", "rates": "10%"},
+      {"dex_id": "042", "name": "Golbat", "types": ["Poison", "Flying"], "levels": "44", "rates": "5%"},
+      {"dex_id": "024", "name": "Arbok", "types": ["Poison"], "levels": "44", "rates": "5%"},
+      {"dex_id": "105", "name": "Marowak", "types": ["Ground"], "levels": "44-46", "rates": "5%"}
+    ]
+  }
+}

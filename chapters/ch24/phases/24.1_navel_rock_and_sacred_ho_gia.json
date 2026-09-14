@@ -1,0 +1,49 @@
+{
+  "name": "Navel Rock & Sacred Ho-Gia",
+  "summary": "Present the Navel Ticket received from Gym Leader Chuck to the sailor at Boon Island harbor to embark on a voyage to the mythical island of Navel Rock. Enter the colossal hollow spire and navigate the ascending stone spiral stairways connecting the cavern interior to the sky. At the summit platform, witness the awe-inspiring convergence of Johto's legendary guardians fused together as Ho-Gia (Ho-Oh & Lugia, Lv. 60). Command a disciplined battle against its combination of Sacred Fire, Aeroblast, and recover mechanics, using Rock or Electric attacks to weaken it for capture.",
+  "items": [
+    {
+      "name": "Sacred Ash",
+      "method": "Found on the sacred stone pedestal at the summit of Navel Rock",
+      "type": "Consumable"
+    },
+    {
+      "name": "Silver Wing",
+      "method": "Hidden in the lower cavern tide pool on Navel Rock B1F",
+      "type": "Key Item"
+    },
+    {
+      "name": "Rainbow Wing",
+      "method": "Hidden on the high sunlit cliff shelf on Navel Rock 5F",
+      "type": "Key Item"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Ruin Maniac Harrison",
+      "title": "Ruin Maniac",
+      "reward": "P3,200",
+      "pokemon": [
+        {
+          "species": "Steelix/Donphan",
+          "level": 70,
+          "types": ["Steel", "Ground"]
+        },
+        {
+          "species": "Claydol/Armaldo",
+          "level": 70,
+          "types": ["Ground", "Bug"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Special": [
+      {
+        "species": "Ho-Gia",
+        "levels": "60",
+        "rate": "Navel Rock Summit Static Event (Ho-Oh/Lugia Fusion)"
+      }
+    ]
+  }
+}

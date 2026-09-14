@@ -1,0 +1,224 @@
+{
+  "location": "Route 34 (ID 265)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "017",
+        "name": "Pidgeotto",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "30-32",
+        "catch_rate": "120",
+        "rates": [
+          "20%",
+          "20%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "020",
+        "name": "Raticate",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "30-32",
+        "catch_rate": "127",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "040",
+        "name": "Wigglytuff",
+        "type1": "Normal",
+        "type2": "Fairy",
+        "levels": "30",
+        "catch_rate": "50",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "064",
+        "name": "Kadabra",
+        "type1": "Psychic",
+        "type2": "",
+        "levels": "33-34",
+        "catch_rate": "100",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "097",
+        "name": "Hypno",
+        "type1": "Psychic",
+        "type2": "",
+        "levels": "34-35",
+        "catch_rate": "75",
+        "rates": [
+          "-",
+          "-",
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "132",
+        "name": "Ditto",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "30",
+        "catch_rate": "35",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "164",
+        "name": "Noctowl",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "30-32",
+        "catch_rate": "90",
+        "rates": [
+          "-",
+          "-",
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "210",
+        "name": "Granbull",
+        "type1": "Fairy",
+        "type2": "",
+        "levels": "34-35",
+        "catch_rate": "75",
+        "rates": [
+          "30%",
+          "30%",
+          "-"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "dex_id": "072",
+        "name": "Tentacool",
+        "type1": "Water",
+        "type2": "Poison",
+        "levels": "15-30",
+        "catch_rate": "190",
+        "rates": [
+          "90%"
+        ]
+      },
+      {
+        "dex_id": "073",
+        "name": "Tentacruel",
+        "type1": "Water",
+        "type2": "Poison",
+        "levels": "35",
+        "catch_rate": "60",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "dex_id": "098",
+        "name": "Krabby",
+        "type1": "Water",
+        "type2": "",
+        "levels": "10",
+        "catch_rate": "225",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "10",
+        "catch_rate": "255",
+        "rates": [
+          "85%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "dex_id": "098",
+        "name": "Krabby",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "225",
+        "rates": [
+          "65%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "255",
+        "rates": [
+          "35%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "dex_id": "098",
+        "name": "Krabby",
+        "type1": "Water",
+        "type2": "",
+        "levels": "40",
+        "catch_rate": "225",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "dex_id": "099",
+        "name": "Kingler",
+        "type1": "Water",
+        "type2": "",
+        "levels": "40",
+        "catch_rate": "60",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "120",
+        "name": "Staryu",
+        "type1": "Water",
+        "type2": "",
+        "levels": "40",
+        "catch_rate": "225",
+        "rates": [
+          "30%"
+        ]
+      }
+    ],
+    "Pok\u00e9 Radar": [
+      {
+        "dex_id": "286",
+        "name": "Kirlia",
+        "type1": "Psychic",
+        "type2": "Fairy",
+        "levels": "25-30",
+        "catch_rate": "120",
+        "rates": [
+          "50% <small>([[Pok\u00e9 Radar#How_it_works",
+          "long rustle]])</small>"
+        ]
+      }
+    ]
+  }
+}

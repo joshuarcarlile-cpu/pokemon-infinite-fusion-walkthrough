@@ -1,0 +1,934 @@
+{
+  "chapter_id": "ch15",
+  "title": "Act 2 - Chapter 6: Route 42, Mt. Mortar & Mahogany Town (Pryce & Glacier Badge)",
+  "act": 2,
+  "hard_mode_level_cap": 67,
+  "gym_duel_limit": 5,
+  "routes_covered": [
+    "Route 42",
+    "Mt. Mortar",
+    "Mahogany Town",
+    "Route 43",
+    "Lake of Rage"
+  ],
+  "vanilla_divergence_alerts": [
+    "HM Slaves: 100% eliminated by 9 reusable Key Item tools. Do NOT instruct players to teach field moves to party members.",
+    "Friendship: Eliminated. All friendship evolutions use static level thresholds (e.g. Baby Pokémon evolve at Lv. 15).",
+    "Trade Evolutions: Evolve naturally at Level 40 OR via Linking Cord (not Level 37)."
+  ],
+  "critical_missables": [],
+  "hotel_milestone_target": {},
+  "active_and_ongoing_quests": [],
+  "boss_ground_truth": {
+    "classic": {
+      "leader": "Pryce",
+      "team": [
+        {
+          "species": "B199H87",
+          "level": 65,
+          "moves": [
+            "NASTYPLOT",
+            "BATONPASS",
+            "SAFEGUARD",
+            "ICESHARD"
+          ],
+          "ability_index": 0,
+          "item": "LEFTOVERS"
+        },
+        {
+          "species": "B308H274",
+          "level": 64,
+          "moves": [
+            "HAIL",
+            "PROTECT",
+            "IRONDEFENSE",
+            "EARTHQUAKE"
+          ],
+          "ability_index": 1,
+          "item": "ICYROCK"
+        },
+        {
+          "species": "B262H321",
+          "level": 65,
+          "moves": [
+            "CLOSECOMBAT",
+            "FLAREBLITZ",
+            "ICEPUNCH",
+            "NIGHTSLASH"
+          ],
+          "ability_index": 0,
+          "item": "NEVERMELTICE"
+        },
+        {
+          "species": "B91H326",
+          "level": 65,
+          "moves": [
+            "ICICLESPEAR",
+            "SPIKECANNON",
+            "IRONDEFENSE",
+            "REST"
+          ],
+          "ability_index": 3,
+          "item": "ROCKYHELMET"
+        },
+        {
+          "species": "B314H124",
+          "level": 65,
+          "moves": [
+            "PSYCHIC",
+            "BLIZZARD",
+            "SURF",
+            "FAKETEARS"
+          ],
+          "ability_index": 0,
+          "item": "WISEGLASSES"
+        }
+      ],
+      "party_size": 5
+    },
+    "expert": {
+      "leader": "Pryce",
+      "team": [
+        {
+          "species": "B370H428",
+          "level": 68,
+          "moves": [
+            "SUBSTITUTE",
+            "PROTECT",
+            "BATONPASS",
+            "FREEZEDRY"
+          ],
+          "ability": "MOODY",
+          "item": "LEFTOVERS",
+          "happiness": 0,
+          "nature": "BOLD",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 0,
+            "DEFENSE": 252,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 4,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B68H242",
+          "level": 68,
+          "moves": [
+            "MEGAKICK",
+            "DYNAMICPUNCH",
+            "KNOCKOFF",
+            "SING"
+          ],
+          "ability": "NOGUARD",
+          "item": "SITRUSBERRY",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 252,
+            "DEFENSE": 4,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B208H65",
+          "level": 69,
+          "moves": [
+            "PSYCHIC",
+            "EARTHPOWER",
+            "RECOVER",
+            "FLASHCANNON"
+          ],
+          "ability": "SHEERFORCE",
+          "item": "LIFEORB",
+          "happiness": 0,
+          "nature": "MODEST",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 4,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B287H377",
+          "level": 69,
+          "moves": [
+            "MOONBLAST",
+            "DARKPULSE",
+            "EARTHPOWER",
+            "FLASHCANNON"
+          ],
+          "ability": "LEVITATE",
+          "item": "ASSAULTVEST",
+          "happiness": 0,
+          "nature": "MODEST",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B313H225",
+          "level": 72,
+          "moves": [
+            "SHADOWSNEAK",
+            "ICEPUNCH",
+            "EARTHQUAKE",
+            "AURORAVEIL"
+          ],
+          "ability": "SNOWWARNING",
+          "item": "LIGHTCLAY",
+          "happiness": 0,
+          "nature": "CAREFUL",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 0,
+            "DEFENSE": 4,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 252,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B274H453",
+          "level": 73,
+          "moves": [
+            "SHADOWCLAW",
+            "EARTHQUAKE",
+            "ICESHARD",
+            "POWERWHIP"
+          ],
+          "ability": "SNOWCLOAK",
+          "item": "SITRUSBERRY",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 252,
+            "DEFENSE": 4,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 0
+          }
+        }
+      ],
+      "party_size": 6
+    }
+  },
+  "encounters_by_location": {
+    "Route 42 (ID 580)": {
+      "Grass": [
+        {
+          "name": "Raticate",
+          "dex_id": "020",
+          "types": [
+            "Normal"
+          ],
+          "levels": "46-52"
+        },
+        {
+          "name": "Fearow",
+          "dex_id": "022",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "42-54"
+        },
+        {
+          "name": "Golbat",
+          "dex_id": "042",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "42-54"
+        },
+        {
+          "name": "Primeape",
+          "dex_id": "057",
+          "types": [
+            "Fighting"
+          ],
+          "levels": "55"
+        },
+        {
+          "name": "Flaaffy",
+          "dex_id": "180",
+          "types": [
+            "Electric"
+          ],
+          "levels": "45-50"
+        },
+        {
+          "name": "Bidoof",
+          "dex_id": "294",
+          "types": [
+            "Normal"
+          ],
+          "levels": "40"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Tentacool",
+          "dex_id": "072",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "25-35"
+        },
+        {
+          "name": "Tentacruel",
+          "dex_id": "073",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "35-40"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Tentacool",
+          "dex_id": "072",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Tentacool",
+          "dex_id": "072",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Shellder",
+          "dex_id": "090",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Chinchou",
+          "dex_id": "170",
+          "types": [
+            "Water",
+            "Electric"
+          ],
+          "levels": "20"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Tentacruel",
+          "dex_id": "073",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Shellder",
+          "dex_id": "090",
+          "types": [
+            "Water"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Chinchou",
+          "dex_id": "170",
+          "types": [
+            "Water",
+            "Electric"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Lanturn",
+          "dex_id": "171",
+          "types": [
+            "Water",
+            "Electric"
+          ],
+          "levels": "40"
+        }
+      ]
+    },
+    "Mt. Mortar (ID 47)": {
+      "Cave": [
+        {
+          "name": "Raticate",
+          "dex_id": "020",
+          "types": [
+            "Normal"
+          ],
+          "levels": "45"
+        },
+        {
+          "name": "Golbat",
+          "dex_id": "042",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "45"
+        },
+        {
+          "name": "Machoke",
+          "dex_id": "067",
+          "types": [
+            "Fighting"
+          ],
+          "levels": "45"
+        },
+        {
+          "name": "Machamp",
+          "dex_id": "068",
+          "types": [
+            "Fighting"
+          ],
+          "levels": "55"
+        },
+        {
+          "name": "Graveler",
+          "dex_id": "075",
+          "types": [
+            "Rock",
+            "Ground"
+          ],
+          "levels": "45"
+        },
+        {
+          "name": "Golem",
+          "dex_id": "076",
+          "types": [
+            "Rock",
+            "Ground"
+          ],
+          "levels": "55"
+        },
+        {
+          "name": "Absol",
+          "dex_id": "310",
+          "types": [
+            "Dark"
+          ],
+          "levels": "43"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Goldeen",
+          "dex_id": "118",
+          "types": [
+            "Water"
+          ],
+          "levels": "25-40"
+        },
+        {
+          "name": "Seaking",
+          "dex_id": "119",
+          "types": [
+            "Water"
+          ],
+          "levels": "30-45"
+        },
+        {
+          "name": "Azumarill",
+          "dex_id": "184",
+          "types": [
+            "Water",
+            "Fairy"
+          ],
+          "levels": "45"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Goldeen",
+          "dex_id": "118",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Goldeen",
+          "dex_id": "118",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Goldeen",
+          "dex_id": "118",
+          "types": [
+            "Water"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Seaking",
+          "dex_id": "119",
+          "types": [
+            "Water"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "40"
+        }
+      ]
+    },
+    "Route 43 (ID 635)": {
+      "Grass": [
+        {
+          "name": "Pidgeotto",
+          "dex_id": "017",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "42-54"
+        },
+        {
+          "name": "Golbat",
+          "dex_id": "042",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "42-54"
+        },
+        {
+          "name": "Venomoth",
+          "dex_id": "049",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "55"
+        },
+        {
+          "name": "Flaaffy",
+          "dex_id": "180",
+          "types": [
+            "Electric"
+          ],
+          "levels": "45-50"
+        },
+        {
+          "name": "Girafarig",
+          "dex_id": "203",
+          "types": [
+            "Normal",
+            "Psychic"
+          ],
+          "levels": "46-52"
+        },
+        {
+          "name": "Pineco",
+          "dex_id": "204",
+          "types": [
+            "Bug"
+          ],
+          "levels": "55"
+        },
+        {
+          "name": "Bidoof",
+          "dex_id": "294",
+          "types": [
+            "Normal"
+          ],
+          "levels": "40"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-30"
+        },
+        {
+          "name": "Poliwhirl",
+          "dex_id": "061",
+          "types": [
+            "Water"
+          ],
+          "levels": "35"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Poliwhirl",
+          "dex_id": "061",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Poliwrath",
+          "dex_id": "062",
+          "types": [
+            "Water",
+            "Fighting"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Politoed",
+          "dex_id": "186",
+          "types": [
+            "Water"
+          ],
+          "levels": "40"
+        }
+      ]
+    },
+    "Lake of Rage (ID 638)": {
+      "Grass": [
+        {
+          "name": "Pidgeotto",
+          "dex_id": "017",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "42-54"
+        },
+        {
+          "name": "Flaaffy",
+          "dex_id": "180",
+          "types": [
+            "Electric"
+          ],
+          "levels": "45-50"
+        },
+        {
+          "name": "Pineco",
+          "dex_id": "204",
+          "types": [
+            "Bug"
+          ],
+          "levels": "55"
+        },
+        {
+          "name": "Bidoof",
+          "dex_id": "294",
+          "types": [
+            "Normal"
+          ],
+          "levels": "40"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-45"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-45"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-60"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "20-80"
+        },
+        {
+          "name": "Gyarados",
+          "dex_id": "130",
+          "types": [
+            "Water",
+            "Flying"
+          ],
+          "levels": "45-75"
+        }
+      ]
+    }
+  },
+  "wiki_ground_truth": {
+    "Route 42": {
+      "canonical_slug": "Route_42",
+      "lead_summary": "Route 42 is a route that connects Ecruteak City to Mahogany Town. Mt. Mortar can be accessed from either side.\nThe player needs both Surf and Cut (or their HM Replacement Item) to traverse it.",
+      "items": [
+        {
+          "internal_id": "HARDSTONE",
+          "quantity": "",
+          "name": "Hard Stone",
+          "location_details": "Given by Hiker Benjamin after defeating him."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Mt. Mortar": {
+      "canonical_slug": "Mt._Mortar",
+      "lead_summary": "Mt. Mortar is a dark cave that can only be accessed from Route 42.\nOn a small island at the top of the Waterfall there will be a random Pokémon as a static encounter. After fighting it, another will appear after 7 days.",
+      "items": [
+        {
+          "internal_id": "METALCOAT",
+          "quantity": "",
+          "name": "Metal Coat",
+          "location_details": "West, on top of the upper waterfall."
+        },
+        {
+          "internal_id": "PROTECTOR",
+          "quantity": "",
+          "name": "Protector",
+          "location_details": "On the ground, North of the west entrance."
+        },
+        {
+          "internal_id": "STRANGEPRISM",
+          "quantity": "",
+          "name": "Strange Prism",
+          "location_details": "East, below the lower waterfall."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Mahogany Town": {
+      "canonical_slug": "Mahogany_Town",
+      "lead_summary": "fr:Acajou\nMahogany Town is a small town, that is accessed from the North via Route 43, the West via Route 42, and the East via Route 44.\nThis city contains Mahogany Town's Gym, with Pryce as its leader.\nAlthough there is no Poké Mart, the Elderly Woman in the house North of the Gym sells clothes.",
+      "items": [
+        {
+          "internal_id": "FRESHWATER",
+          "quantity": "",
+          "name": "Fresh Water",
+          "location_details": "Given by the man inside the gym."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Route 43": {
+      "canonical_slug": "Route_43",
+      "lead_summary": "Route 43 is a route that connects Mahogany Town to the Lake of Rage.",
+      "items": [
+        {
+          "internal_id": "MAXELIXIR",
+          "quantity": "",
+          "name": "Max Elixir",
+          "location_details": "On a small island on the West side."
+        },
+        {
+          "internal_id": "WISEGLASSES",
+          "quantity": "",
+          "name": "Wise Glasses",
+          "location_details": "On a small island on the North-West side."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Lake of Rage": {
+      "canonical_slug": "Lake_of_Rage",
+      "lead_summary": "The Lake of Rage can be accessed from Route 43.\nThere is a cabin where the player can use the bed to heal its party.\nThere is an icy rock which Colress is inspecting and is looking for a key. It will react to the Light Stone and the Dark Stone, then freeze the lake and prevent the player to exit until Kyurem has been defeated or captured. Touching the Icy rock again will return the lake back to normal",
+      "items": [
+        {
+          "internal_id": "ELECTIRIZER",
+          "quantity": "",
+          "name": "Electirizer",
+          "location_details": "North-East corner."
+        }
+      ],
+      "missable_warnings": []
+    }
+  },
+  "location_items_and_statics": [
+    {
+      "type": "Static Encounter",
+      "pokemon": "Mawile",
+      "level": "30-55",
+      "location": "Mt. Mortar",
+      "notes": "Random chance of the 20 possible encounters, Respawns every 7 days"
+    },
+    {
+      "type": "Static Encounter",
+      "pokemon": "Magikarp/Gyarados",
+      "level": "40",
+      "location": "Lake of Rage",
+      "notes": ""
+    }
+  ],
+  "authoring_guidance": {
+    "splicing_safety": "Explicitly state: HEAD species, BODY species, and WHICH ability to select at the DNA Splicer prompt.",
+    "gym_party_selection_rule": "Built-in 5v5 party limit! When challenged, the game prompts the player to choose which 5 Pokémon from their active party to bring into battle. No PC box deposits required.",
+    "stone_evolutions": "Advisory: Do NOT use evolution stones prematurely on stone-evolvers (e.g. Nidorino) before key level-up moves are learned.",
+    "undercover_informant_rocket": "Guide player to join Team Rocket for disguises/missions, BUT report crimes to police officer for +10 Karma and Diancie unlock!"
+  }
+}

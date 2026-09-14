@@ -1,0 +1,36 @@
+{
+  "name": "Blackthorn City and Hotel Appraisal",
+  "summary": "Descend from the Ice Mountains into Blackthorn City, an ancient dragon sanctuary carved into rugged mountain cliffs. Stock up on Dragon Gems ($200) at the Poké Mart and consult the local Move Deleter and Move Reminder. In the cottage beside the Mart, exchange two standard Nuggets for a valuable Big Nugget. Inside the local hotel, resolve two appraisal requests: display a fully-evolved Dragon-type to the patron woman to receive XXX Attack 3, and present a powerhouse Magikarp of at least Level 65 to the hiker to earn a rare Comet Shard. Finally, grab a Max Elixir resting near the southern Dark Cave gate.",
+  "items": [
+    {
+      "name": "Big Nugget",
+      "method": "Exchanged for two standard Nuggets inside the cottage next to the Poké Mart",
+      "type": "Valuables"
+    },
+    {
+      "name": "Comet Shard",
+      "method": "Gifted by the hiker on the hotel second floor after showing a Magikarp of at least Level 65",
+      "type": "Valuables"
+    },
+    {
+      "name": "XXX Attack 3",
+      "method": "Gifted by the patron woman in the hotel after showing any fully-evolved Dragon-type Pokémon",
+      "type": "Battle Item"
+    },
+    {
+      "name": "Max Elixir",
+      "method": "Found tucked into the rocky corner near the southern Dark Cave entrance",
+      "type": "Medicine"
+    }
+  ],
+  "trainers": [],
+  "encounters": {
+    "Blackthorn City Mountain Verges": [
+      {"dex_id": "075", "name": "Graveler", "types": ["Rock", "Ground"], "levels": "45-52", "rates": "25%"},
+      {"dex_id": "207", "name": "Gligar", "types": ["Ground", "Flying"], "levels": "46-52", "rates": "25%"},
+      {"dex_id": "217", "name": "Ursaring", "types": ["Normal"], "levels": "48-55", "rates": "20%"},
+      {"dex_id": "227", "name": "Skarmory", "types": ["Steel", "Flying"], "levels": "46-52", "rates": "15%"},
+      {"dex_id": "232", "name": "Donphan", "types": ["Ground"], "levels": "48-55", "rates": "15%"}
+    ]
+  }
+}

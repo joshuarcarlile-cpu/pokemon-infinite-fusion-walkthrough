@@ -1,0 +1,105 @@
+{
+  "leader": "Erika",
+  "title": "Celadon City Gym Leader",
+  "badge": "Rainbow Badge",
+  "hard_mode_level_cap": 39,
+  "gym_duel_limit": 3,
+  "recommended_party_level": 38,
+  "gym_trainers": [
+    {
+      "name": "Beauty Tamia",
+      "team": [
+        {
+          "species": "Oddish/Caterpie",
+          "level": 31,
+          "types": ["Grass", "Bug"],
+          "moves": ["Mega Drain", "Bug Bite", "Poison Powder", "Stun Spore"]
+        },
+        {
+          "species": "Weepinbell/Butterfree",
+          "level": 33,
+          "types": ["Grass", "Flying"],
+          "moves": ["Razor Leaf", "Air Cutter", "Sleep Powder", "Supersonic"]
+        }
+      ]
+    },
+    {
+      "name": "Beauty Lori",
+      "team": [
+        {
+          "species": "Oddish/Exeggcute",
+          "level": 36,
+          "types": ["Grass", "Psychic"],
+          "moves": ["Giga Drain", "Confusion", "Hypnosis", "Leech Seed"]
+        }
+      ]
+    },
+    {
+      "name": "Lass Kay",
+      "team": [
+        {
+          "species": "Weepinbell/Doduo",
+          "level": 35,
+          "types": ["Grass", "Flying"],
+          "moves": ["Razor Leaf", "Pluck", "Fury Attack", "Acid"]
+        }
+      ]
+    }
+  ],
+  "leader_team": [
+    {
+      "species": "Exeggutor/Doduo",
+      "level": 37,
+      "types": ["Grass", "Flying"],
+      "ability": "Chlorophyll",
+      "held_item": "Miracle Seed",
+      "moves": [
+        "Pluck",
+        "Fury Attack",
+        "Seed Bomb",
+        "Hypnosis"
+      ]
+    },
+    {
+      "species": "Tangela/Primeape",
+      "level": 37,
+      "types": ["Grass", "Fighting"],
+      "ability": "Vital Spirit",
+      "held_item": "Miracle Seed",
+      "moves": [
+        "Ancient Power",
+        "Seismic Toss",
+        "Mega Drain",
+        "Sleep Powder"
+      ]
+    },
+    {
+      "species": "Vileplume/Victreebel",
+      "level": 39,
+      "types": ["Grass", "Poison"],
+      "ability": "Gluttony",
+      "is_ace": true,
+      "held_item": "Sitrus Berry",
+      "moves": [
+        "Synthesis",
+        "Sunny Day",
+        "Solar Beam",
+        "Poison Powder"
+      ]
+    }
+  ],
+  "threat_analysis": "Erika's Classic Hard Mode squad is built around status disruption and devastating weather-boosted momentum. Her lead, Exeggutor/Doduo (Lv. 37), exerts fast Flying/Grass physical pressure with Pluck and Seed Bomb while carrying Hypnosis. Her second combatant, Tangela/Primeape (Lv. 37, Grass/Fighting), is immune to sleep via Vital Spirit, covers Rock switch-ins with Seismic Toss and Ancient Power, and threatens a quad 4x weakness to Flying. Her Ace, Vileplume/Victreebel (Lv. 39), is a chlorophyll weather-tank (495 BST) holding a Sitrus Berry: it sets Sunny Day to double speed, fires instantaneous single-turn Solar Beams (120 BP STAB), and restores 66% max HP via weather-boosted Synthesis.",
+  "tactical_counter_plan": [
+    "Exploit the 4x Flying Weakness: Tangela/Primeape suffers a catastrophic 4x weakness to Flying STAB. Any fast Flying attacker (Charizard, Fearow, Pidgeot, or spliced Flying breakers) annihilates it in a single strike.",
+    "Counter Weather & Sun Momentum: Under harsh sunlight, Erika's Chlorophyll doubles Exeggutor/Doduo's speed and Vileplume/Victreebel's speed while powering up Solar Beam to a 1-turn nuke. Use weather disruption or Ice/Fire priority to knock out Vileplume before Sun activates.",
+    "Vital Spirit Awareness: Do NOT attempt to put Tangela/Primeape to sleep with Sleep Powder or Hypnosis—its Vital Spirit ability completely immunizes it against sleep.",
+    "Status Management: Equip duelists with Lum Berries, Pecha Berries, or Chesto Berries to absorb incoming Hypnosis, Sleep Powder, and Poison Powder procs without forfeiting tempo.",
+    "Starter Matchups: Charizard completely trivializes this arena with devastating Fire and Flying STAB. Venusaur walls Grass STAB and absorbs Poison Powder while pivoting into Psychic coverage. Blastoise should pack Ice Beam (purchased at Celadon Department Store or Game Corner) to one-shot Exeggutor/Doduo."
+  ],
+  "rewards": [
+    "Rainbow Badge (Enables control of traded Pokémon up to Lv. 50)",
+    "TM22 (Solar Beam)",
+    "Red Headband (Trainer Cosmetic)",
+    "2x Premium Wonder Trade Tickets"
+  ]
+}

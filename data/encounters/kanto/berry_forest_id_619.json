@@ -1,0 +1,119 @@
+{
+  "location": "Berry Forest (ID 619)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "017",
+        "name": "Pidgeotto",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "47",
+        "catch_rate": "120",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "044",
+        "name": "Gloom",
+        "type1": "Grass",
+        "type2": "Poison",
+        "levels": "45",
+        "catch_rate": "120",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "048",
+        "name": "Venonat",
+        "type1": "Bug",
+        "type2": "Poison",
+        "levels": "44",
+        "catch_rate": "190",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "049",
+        "name": "Venomoth",
+        "type1": "Bug",
+        "type2": "Poison",
+        "levels": "47-50",
+        "catch_rate": "75",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "096",
+        "name": "Drowzee",
+        "type1": "Psychic",
+        "type2": "",
+        "levels": "44",
+        "catch_rate": "190",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "097",
+        "name": "Hypno",
+        "type1": "Psychic",
+        "type2": "",
+        "levels": "47-55",
+        "catch_rate": "75",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "102",
+        "name": "Exeggcute",
+        "type1": "Grass",
+        "type2": "Psychic",
+        "levels": "45",
+        "catch_rate": "90",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "234",
+        "name": "Stantler",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "50",
+        "catch_rate": "45",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "dex_id": "054",
+        "name": "Psyduck",
+        "type1": "Water",
+        "type2": "",
+        "levels": "10-40",
+        "catch_rate": "190",
+        "rates": [
+          "95%"
+        ]
+      },
+      {
+        "dex_id": "055",
+        "name": "Golduck",
+        "type1": "Water",
+        "type2": "",
+        "levels": "50-60",
+        "catch_rate": "75",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Old_Shipwreck",
+  "url": "https://infinitefusion.fandom.com/wiki/Old_Shipwreck",
+  "lead_summary": "The Old Shipwreck splits Brine Road into Brine Road (West of the Old Shipwreck) to Brine Road (East of the Old Shipwreck). The Golbat Boots are needed to jump the gap.",
+  "missable_warnings": [],
+  "items": [
+    {
+      "internal_id": "DREADPLATE",
+      "quantity": "",
+      "name": "Dread Plate",
+      "location_details": "East side of the upper floor, after catching [[Legendary_Pokémon#Arceus"
+    },
+    {
+      "internal_id": "NUGGET",
+      "quantity": "",
+      "name": "Nugget",
+      "location_details": "Lower floor, between some barrels."
+    }
+  ],
+  "sections": [
+    "Items",
+    "Pokémon"
+  ],
+  "raw_wikitext": "{{InfoboxLocation\n|region=Sevii Islands\n|location_image=OldShipwreck.png\n|map_image=Old_Shipwreck_Map.png\n|connection_1_direction=west\n|connection_1_location=Brine Road (West of the Old Shipwreck)\n|connection_1_label=Brine Road (West)\n|connection_1_restrictions=%golbatboots%\n|connection_2_direction=east\n|connection_2_location=Brine Road (East of the Old Shipwreck)\n|connection_2_label=Brine Road (East)\n|connection_2_restrictions=%golbatboots%\n}}\nThe '''Old Shipwreck''' splits Brine Road into [[Brine Road (West of the Old Shipwreck)]] to [[Brine Road (East of the Old Shipwreck)]]. The [[List of Items#Story_Progression|Golbat Boots]] are needed to jump the gap.\n\n== Items ==\n{{ItemTable/Header}}\n{{ItemTable/Data|DREADPLATE||Dread Plate|East side of the upper floor, after catching [[Legendary_Pokémon#Arceus|Arceus]].|DreadPlate_OldShipwreck.png}}\n{{ItemTable/Data|NUGGET||Nugget|Lower floor, between some barrels.|Nugget_OldShipwreck.png}}\n{{ItemTable/Footer}}\n\n==Pokémon==\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Lower Floor}}\n{{EncounterTable/Data|453|Dhelmise|Ghost|Grass|50||Static}}\n{{EncounterTable/Footer}}\n\n[[Category:Locations]]\n[[Category:Sevii Islands]]"
+}

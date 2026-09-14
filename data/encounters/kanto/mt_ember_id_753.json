@@ -1,0 +1,62 @@
+{
+  "location": "Mt. Ember (ID 753)",
+  "sections": {
+    "Cave": [
+      {
+        "dex_id": "066",
+        "name": "Machop",
+        "type1": "Fighting",
+        "type2": "",
+        "levels": "34-36",
+        "catch_rate": "180",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "074",
+        "name": "Geodude",
+        "type1": "Rock",
+        "type2": "Ground",
+        "levels": "31-34",
+        "catch_rate": "255",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "075",
+        "name": "Graveler",
+        "type1": "Rock",
+        "type2": "Ground",
+        "levels": "34-36",
+        "catch_rate": "120",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "dex_id": "218",
+        "name": "Slugma",
+        "type1": "Fire",
+        "type2": "",
+        "levels": "31-34",
+        "catch_rate": "190",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "dex_id": "488",
+        "name": "Torkoal",
+        "type1": "Fire",
+        "type2": "",
+        "levels": "31-34",
+        "catch_rate": "90",
+        "rates": [
+          "15%"
+        ]
+      }
+    ]
+  }
+}

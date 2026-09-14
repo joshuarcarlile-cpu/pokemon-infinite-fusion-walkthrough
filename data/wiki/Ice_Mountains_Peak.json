@@ -1,0 +1,9 @@
+{
+  "title": "Ice_Mountains_Peak",
+  "url": "https://infinitefusion.fandom.com/wiki/Ice_Mountains_Peak",
+  "lead_summary": "Ice Mountains Peaks is the highest peak of Johto, and the end of climbing the stairs within the cave of Ice Mountains.\nIf the player acquired the Azure Flute from Eusine in Cherrygrove City, the North-East cavern will lead to the summit of the Ice Mountain. Blowing the Azure Flute in the summoning circle will open a path in the sky to the Hall of Origin for a static encounter with Arceus.\nCategory:Locations\nCategory:Johto",
+  "missable_warnings": [],
+  "items": [],
+  "sections": [],
+  "raw_wikitext": "{{InfoboxLocation\n|region=Johto\n|location_image=IceMountainsPeak.png\n|map_image=Ice_Mountains_Map.png\n|connection_1_direction=north\n|connection_1_location=Hall of Origin\n|connection_1_restrictions=%azureflute%\n|connection_2_direction=south\n|connection_2_location=Ice Mountains\n}}\n'''Ice Mountains Peaks''' is the highest peak of Johto, and the end of climbing the stairs within the cave of [[Ice Mountains]].\n\nIf the player acquired the Azure Flute from Eusine in [[Cherrygrove City]], the North-East cavern will lead to the summit of the Ice Mountain. Blowing the Azure Flute in the summoning circle will open a path in the sky to the [[Hall of Origin]] for a static encounter with Arceus.\n\n[[Category:Locations]]\n[[Category:Johto]]"
+}

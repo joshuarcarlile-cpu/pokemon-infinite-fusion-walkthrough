@@ -1,0 +1,73 @@
+{
+  "location": "Power Plant (ID 198)",
+  "sections": {
+    "Cave": [
+      {
+        "dex_id": "025",
+        "name": "Pikachu",
+        "type1": "Electric",
+        "type2": "",
+        "levels": "32-35",
+        "catch_rate": "190",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "081",
+        "name": "Magnemite",
+        "type1": "Steel",
+        "type2": "Electric",
+        "levels": "32-35",
+        "catch_rate": "65",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "082",
+        "name": "Magneton",
+        "type1": "Steel",
+        "type2": "Electric",
+        "levels": "32-35",
+        "catch_rate": "60",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "100",
+        "name": "Voltorb",
+        "type1": "Electric",
+        "type2": "",
+        "levels": "32-35",
+        "catch_rate": "190",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "101",
+        "name": "Electrode",
+        "type1": "Electric",
+        "type2": "",
+        "levels": "33-37",
+        "catch_rate": "60",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "125",
+        "name": "Electabuzz",
+        "type1": "Electric",
+        "type2": "",
+        "levels": "33-35",
+        "catch_rate": "45",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "chapter_id": "ch01",
+  "title": "Act 1 - Segment 1: Pallet Town to Pewter City (Boulder Badge)",
+  "act": 1,
+  "hard_mode_level_cap": 14,
+  "gym_duel_limit": 2,
+  "badges_required": 0,
+  "badge_rewarded": "Boulder Badge",
+  "synopsis": "Begin your journey in Pallet Town, select your starter Pokemon from Professor Oak, deliver Oak's Parcel in Viridian City, navigate the treacherous bug-dense Viridian Forest, and defeat Gym Leader Brock in a 2v2 duel under the strict Level 14 Hard Mode level cap."
+}

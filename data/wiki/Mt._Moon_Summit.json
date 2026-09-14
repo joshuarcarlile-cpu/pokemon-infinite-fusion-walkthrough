@@ -1,0 +1,80 @@
+{
+  "title": "Mt._Moon_Summit",
+  "url": "https://infinitefusion.fandom.com/wiki/Mt._Moon_Summit",
+  "lead_summary": "Mt. Moon Summit is an area accessed from the Mt. Moon Square by entering through the South Entrance of Mt. Moon on Route 4.\nIt contains patches of grass, the observatory, and clouds that can be accessed for the Meloetta quest.",
+  "missable_warnings": [
+    "NOTE: Contains actions that alter player Karma."
+  ],
+  "items": [
+    {
+      "internal_id": "STARDUST",
+      "quantity": "",
+      "name": "Stardust",
+      "location_details": "Hidden by a rock on the path near the entrance."
+    },
+    {
+      "internal_id": "machine_FAIRY",
+      "quantity": "",
+      "name": "TM96 Moonblast",
+      "location_details": "Below some grass near the path."
+    },
+    {
+      "internal_id": "STARDUST",
+      "quantity": "",
+      "name": "Stardust",
+      "location_details": "Hidden by a rock near the observatory."
+    },
+    {
+      "internal_id": "STARPIECE",
+      "quantity": "",
+      "name": "Star Piece",
+      "location_details": "Next to some grass near the observatory."
+    },
+    {
+      "internal_id": "machine_FLYING",
+      "quantity": "",
+      "name": "TM58 Sky Drop",
+      "location_details": "At the end of the cloud path."
+    },
+    {
+      "internal_id": "STARPIECE",
+      "quantity": "",
+      "name": "Star Piece",
+      "location_details": "Reward for finding your first constellation at the observatory."
+    },
+    {
+      "internal_id": "STARDUST",
+      "quantity": "",
+      "name": "Stardust",
+      "location_details": "Reward for finding your second through seventh constellation at the observatory."
+    },
+    {
+      "internal_id": "COMETSHARD",
+      "quantity": "",
+      "name": "Comet Shard",
+      "location_details": "Reward for finding your eighth constellation at the observatory."
+    },
+    {
+      "internal_id": "STARPIECE",
+      "quantity": "",
+      "name": "Star Piece",
+      "location_details": "Found on the crashed meteor, 40% chance."
+    },
+    {
+      "internal_id": "COMETSHARD",
+      "quantity": "",
+      "name": "Comet Shard",
+      "location_details": "Found on the crashed meteor, 10% chance."
+    }
+  ],
+  "sections": [
+    "Items",
+    "Outfits",
+    "Pokémon",
+    "Trainers",
+    "Points of Interest",
+    "Observatory",
+    "Cloud Puzzle"
+  ],
+  "raw_wikitext": "{{GlobalToggles}}\n{{InfoboxLocation\n|region=Kanto\n|location_image=Mt Moon Summit.png.png\n|map_image=MountMoon Map.png\n|connection_1_direction=south\n|connection_1_location=Mt. Moon Square\n}}\n'''Mt. Moon Summit''' is an area accessed from the [[Mt. Moon Square]] by entering through the South Entrance of [[Mt. Moon]] on [[Route 4|Route 4.]]\n\nIt contains patches of grass, the observatory, and clouds that can be accessed for the [[Legendary Pokémon|Meloetta quest]].\n\n==Items==\n{{ItemTable/Header}}\n{{ItemTable/Data|STARDUST||Stardust|Hidden by a rock on the path near the entrance.|Summit_Stardust3_MtMoon.png}}\n{{ItemTable/Data|machine_FAIRY||TM96 Moonblast|Below some grass near the path.|Summit_TM96_MtMoon.png}}\n{{ItemTable/Data|STARDUST||Stardust|Hidden by a rock near the observatory.|Summit_Stardust2_MtMoon.png}}\n{{ItemTable/Data|STARPIECE||Star Piece|Next to some grass near the observatory.|Summit_StarPiece2_MtMoon.png}}\n{{ItemTable/Data|machine_FLYING||TM58 Sky Drop|At the end of the cloud path.|Summit_TM58_MtMoon.png}}\n{{ItemTable/Data|STARPIECE||Star Piece|Reward for finding your first constellation at the observatory.|Summit_StarPiece_MtMoon.png}}\n{{ItemTable/Data|STARDUST||Stardust|Reward for finding your second through seventh constellation at the observatory.|Summit_Stardust_MtMoon.png}}\n{{ItemTable/Data|COMETSHARD||Comet Shard|Reward for finding your eighth constellation at the observatory.|Summit_CometShard_MtMoon.png}}\n{{ItemTable/Data|STARPIECE||Star Piece|Found on the crashed meteor, 40% chance.|}}\n{{ItemTable/Data|COMETSHARD||Comet Shard|Found on the crashed meteor, 10% chance.|}}\n{{ItemTable/Footer}}\n\n==Outfits==\n{{ItemTable/Header|Outfit}}\n{{ItemTable/Data/Outfit|hat|swablu||Idle for 10 seconds.}}\n{{ItemTable/Data/Outfit|clothes|flying||Defeat the [[Type Experts|Flying-type Expert]].}}\n{{ItemTable/Footer/Outfit}}\n\n==Pokémon==\n<!-----------------------------------!>\n<!-- CLASSIC & EXPERT MODE POKÉMON --!>\n<!------------------------------------>\n<div class=\"classic-mode expert-mode\">\n{{EncounterTable/Header/Time}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|035|Clefairy|Fairy||18-21|150|-|-|35%}}\n{{EncounterTable/Data|036|Clefable|Fairy||30|25|-|-|5%}}\n{{EncounterTable/Data|041|Zubat|Poison|Flying|18-21|255|-|-|20%}}\n{{EncounterTable/Data|042|Golbat|Poison|Flying|23-26|90|-|-|10%}}\n{{EncounterTable/Data|074|Geodude|Rock|Ground|18-21|255|30%|30%|20%}}\n{{EncounterTable/Data|075|Graveler|Rock|Ground|23-26|120|20%|20%|10%}}\n{{EncounterTable/Data|095|Onix|Rock|Ground|18-25|45|10%|10%|-}}\n{{EncounterTable/Data|442|Swablu|Normal|Flying|18-21|255|40%|40%|-}}\n{{EncounterTable/Section|Crashed Meteor (Static)}}\n{{EncounterTable/Data|498|Minior|Rock|Flying|17-27|30|50%}}\n{{EncounterTable/Section|Observatory (Static)}}\n{{EncounterTable/Data|151|Mew|Psychic||30|45|One}}\n{{EncounterTable/Footer/Time}}\n</div>\n<!------------------------!>\n<!-- REMIX MODE POKÉMON --!>\n<!------------------------->\n<div class=\"remix-mode\">\n{{EncounterTable/Header/Time}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|017|Pidgeotto|Normal|Flying|22-26|120|15%|15%|-}}\n{{EncounterTable/Data|022|Fearow|Normal|Flying|22-26|90|-|-|15%}}\n{{EncounterTable/Data|035|Clefairy|Fairy||18-22|150|20%}}\n{{EncounterTable/Data|036|Clefable|Fairy||25-26|25|10%}}\n{{EncounterTable/Data|039|Jigglypuff|Normal|Fairy|21-26|170|-|-|15%}}\n{{EncounterTable/Data|115|Kangaskhan|Normal||24-28|45|10%}}\n{{EncounterTable/Data|180|Flaaffy|Electric||21-26|120|15%|15%|-}}\n{{EncounterTable/Data|201|Unown|Psychic||19-24|225|20%}}\n{{EncounterTable/Data|498|Minior Meteor Form|Rock|Flying|25-26|30|10%}}\n{{EncounterTable/Section|Crashed Meteor (Static)}}\n{{EncounterTable/Data|498|Minior|Rock|Flying|17-27|30|50%}}\n{{EncounterTable/Section|Observatory (Static)}}\n{{EncounterTable/Data|151|Mew|Psychic||30|45|One}}\n{{EncounterTable/Footer/Time}}\n</div>\n\n==Trainers==\n{{Trainer\n| trainerClass=TYPE_EXPERT_FLYING\n| name=Gale\n| trainerOverworldSprite=TYPE_EXPERT_FLYING_Overworld.png\n| reward=%default%, and Flying Outfit\n| pokemon1=416.498\n| pokemon1Level=Max\n| pokemon2=75.22\n| pokemon2Level=Max\n| pokemon3=119.443\n| pokemon3Level=Max\n| pokemon3Ability=[[bulbapedia:Lightning Rod (Ability)|Lightning Rod]]\n| pokemon4=441.339\n| pokemon4Level=Max\n| pokemon4Ability=[[bulbapedia:Pixilate (Ability)|Pixilate]]\n| remixPokemon1=83.225\n| remixPokemon1Level=Max\n| remixPokemon1Item=STICKYBARB\n| remixPokemon1Ability=[[bulbapedia:Defiant (Ability)|Defiant]]\n| remixPokemon2=431.418\n| remixPokemon2Level=Max\n| remixPokemon2Ability=[[bulbapedia:Gale Wings (Ability)|Gale Wings]]\n| remixPokemon3=141.85\n| remixPokemon3Level=Max\n| remixPokemon3Ability=[[bulbapedia:Battle Armor (Ability)|Battle Armor]]\n}}\n\n==Points of Interest==\n===Observatory===\n\n[[File:Mt Moon Observatory Constellations.png|right|thumb|The constellations]]\nIn the Observatory at night (8pm-5am) the player can use the telescopes to find 8 different Constellations. After finding a constellation the scientist will reward the player with some Stardust. After finding all 8 constellations the player is rewarded with a Comet Shard. The Observatory is linked the finding [[Legendary Pokémon#Mew|Mew]]. [[Legendary Pokémon#Mew|Mew]] can be encountered if the player has at least 20 [[karma]], and has discovered all of the Constellations.\n\n[[File:Minior_Encounter.mp4|right|thumb|The Minior encounter]]\nWhen looking through the telescope, every so often a shooting star will fly past. If it hits the player's cursor a sound effect will play. (The player can move the cursor around to catch the shooting stars; if just waiting still it can take several minutes.) Then after the player stop looking through the telescope, the shooting star will be heard crashing to the ground outside. When inspecting this crashed meteor, the player will encounter a Minior. This event can be repeated, and on all subsequent times the Minior encounter is not guaranteed; there is a chance the player may instead receive a Star Piece or a Comet Shard.\n{{Clear}}\n===Cloud Puzzle===\nIn the sky above the map are some clouds with an NPC related to a [[Legendary Pokémon#Meloetta|Legendary Pokémon]] quest, and a TM. The clouds cannot be traversed, except on Mondays between 5am and 10am ([[Time|in-game time]]) when a path of clouds will appear starting from the east side of the map near the [[Type Experts|Flying-Type Expert]]. ''For the cloud path to appear, the map must load during the designated time. The player can enter and leave the Observatory during this time to force the map to reload.''\n\nThe Cloud Puzzle requires the player to jump across the clouds while trying to not fall off in order to reach their objective. If the player stays on a smaller cloud for too long they will fall through and have to restart the puzzle.\n<gallery>\nFile:Mt Moon Summit Cloud Puzzle.png\nFile:Mt Moon Summit.png\n</gallery>\n\n[[Category:Locations]]\n[[Category:Kanto]]"
+}

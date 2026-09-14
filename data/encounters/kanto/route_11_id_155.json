@@ -1,0 +1,97 @@
+{
+  "location": "Route 11 (ID 155)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "021",
+        "name": "Spearow",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "13-17",
+        "catch_rate": "255",
+        "rates": [
+          "35%",
+          "35%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "023",
+        "name": "Ekans",
+        "type1": "Poison",
+        "type2": "",
+        "levels": "12-15",
+        "catch_rate": "255",
+        "rates": [
+          "40%",
+          "35%",
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "048",
+        "name": "Venonat",
+        "type1": "Bug",
+        "type2": "Poison",
+        "levels": "12-15",
+        "catch_rate": "190",
+        "rates": [
+          "-",
+          "-",
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "096",
+        "name": "Drowzee",
+        "type1": "Psychic",
+        "type2": "",
+        "levels": "11-15",
+        "catch_rate": "190",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "dex_id": "163",
+        "name": "Hoothoot",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "13-17",
+        "catch_rate": "255",
+        "rates": [
+          "-",
+          "-",
+          "35%"
+        ]
+      },
+      {
+        "dex_id": "179",
+        "name": "Mareep",
+        "type1": "Electric",
+        "type2": "",
+        "levels": "12-15",
+        "catch_rate": "235",
+        "rates": [
+          "-",
+          "5%",
+          "-"
+        ]
+      }
+    ],
+    "Pok\u00e9 Radar": [
+      {
+        "dex_id": "382",
+        "name": "Nincada",
+        "type1": "Bug",
+        "type2": "Ground",
+        "levels": "12-15",
+        "catch_rate": "255",
+        "rates": [
+          "50% <small>([[Pok\u00e9 Radar#How_it_works",
+          "long rustle]])</small>"
+        ]
+      }
+    ]
+  }
+}

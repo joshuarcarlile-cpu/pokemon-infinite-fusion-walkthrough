@@ -1,0 +1,45 @@
+{
+  "name": "Burned Tower & The Golbat Boot Descent",
+  "summary": "Enter the charred ruins of the Burned Tower in northwest Ecruteak City. The interior structure has collapsed into perilous chasms and fragmented timber ledges. Collect a Dusk Stone on 1F and use the Golbat Boot key item acquired from Sprout Tower in Chapter 12 to leap across the collapsed 3F timber gap into the subterranean depths. Explore B1F to claim a Float Stone and hidden Old Gateau, search the rubble for a Reaper Cloth on 3F, and witness the stirring legendary beasts before speaking with Gym Leader Morty to send him back to his gym.",
+  "items": [
+    {
+      "name": "Dusk Stone",
+      "method": "Found in the northwest corner of Burned Tower 1F",
+      "type": "Evolution Stone"
+    },
+    {
+      "name": "Float Stone",
+      "method": "Located in the southwest corner of Burned Tower B1F",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Reaper Cloth",
+      "method": "Found in the northeast corner of Burned Tower 3F",
+      "type": "Evolution Item"
+    },
+    {
+      "name": "Old Gateau",
+      "method": "Hidden in the northwest corner rubble of Burned Tower B1F",
+      "type": "Medicine"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Firebreather Ned",
+      "team": [
+        {"species": "Koffing/Magmar", "level": 51, "types": ["Poison", "Fire"]},
+        {"species": "Magcargo", "level": 52, "types": ["Fire", "Rock"]}
+      ]
+    }
+  ],
+  "encounters": {
+    "Burned Tower Cave": [
+      {"dex_id": "020", "name": "Raticate", "types": ["Normal"], "levels": "36-41", "rates": "30%"},
+      {"dex_id": "092", "name": "Gastly", "types": ["Ghost", "Poison"], "levels": "22-32", "rates": "20%"},
+      {"dex_id": "110", "name": "Weezing", "types": ["Poison"], "levels": "36", "rates": "20%"},
+      {"dex_id": "093", "name": "Haunter", "types": ["Ghost", "Poison"], "levels": "33-39", "rates": "15%"},
+      {"dex_id": "126", "name": "Magmar", "types": ["Fire"], "levels": "44", "rates": "10%"},
+      {"dex_id": "200", "name": "Misdreavus", "types": ["Ghost"], "levels": "33-39", "rates": "5%"}
+    ]
+  }
+}

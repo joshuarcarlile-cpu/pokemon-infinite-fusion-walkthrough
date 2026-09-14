@@ -1,0 +1,1248 @@
+{
+  "chapter_id": "ch08",
+  "title": "Act 1 - Segment 8: Viridian Gym & Route 23 (Earth Badge)",
+  "act": 1,
+  "hard_mode_level_cap": 54,
+  "gym_duel_limit": 5,
+  "routes_covered": [
+    "Viridian City",
+    "Viridian River",
+    "Route 22",
+    "Route 23"
+  ],
+  "vanilla_divergence_alerts": [
+    "HM Slaves: 100% eliminated by 9 reusable Key Item tools. Do NOT instruct players to teach field moves to party members.",
+    "Friendship: Eliminated. All friendship evolutions use static level thresholds (e.g. Baby Pokémon evolve at Lv. 15).",
+    "Trade Evolutions: Evolve naturally at Level 40 OR via Linking Cord (not Level 37)."
+  ],
+  "critical_missables": [
+    {
+      "quest_id": "q_secret_garden_access",
+      "title": "Secret Garden Discovery",
+      "deadline": "Before defeating Brock (Gym 1)",
+      "consequence": "CRITICAL: If Brock is defeated before battling Blue on Route 22, Blue vacates Route 22 and the Secret Garden is permanently lost for the entire save!"
+    },
+    {
+      "quest_id": "q_rocket_celadon_03",
+      "title": "Pokémon Collector",
+      "deadline": "Before Gym 8 / Mt. Ember Archer",
+      "consequence": "UNDERCOVER INFORMANT PATH: Report the illegal trafficker to the Celadon police officer to gain +10 Karma."
+    }
+  ],
+  "hotel_milestone_target": {},
+  "active_and_ongoing_quests": [
+    {
+      "id": "q_secret_garden_access",
+      "title": "Secret Garden Discovery",
+      "type": "Hidden Event",
+      "region": "Kanto",
+      "location": "Route 22 -> Route 1 Eastern Trees",
+      "chapter_introduced": "ch01",
+      "chapter_resolvable": "ch01",
+      "is_missable": true,
+      "missable_deadline": "Before defeating Brock (Gym 1)",
+      "karma_delta": 0,
+      "police_reportable": false,
+      "rewards": [
+        "Access to Secret Garden",
+        "Potion (x6)",
+        "Max Revive",
+        "Revive (x4)",
+        "Super Potion",
+        "Wild Eevee & Ditto Spawns"
+      ],
+      "objectives": [
+        "Defeat Rival Blue on Route 22 immediately after returning Oak's Parcel.",
+        "Walk through the tree gap on the eastern edge of Route 1 directly below the Viridian City ledge.",
+        "CRITICAL: If Brock is defeated before battling Blue on Route 22, Blue vacates Route 22 and the Secret Garden is permanently lost for the entire save!"
+      ]
+    },
+    {
+      "id": "q_rocket_celadon_03",
+      "title": "Pokémon Collector",
+      "type": "Team Rocket",
+      "region": "Kanto",
+      "location": "Route 22 (Near Viridian)",
+      "chapter_introduced": "ch04",
+      "chapter_resolvable": "ch04",
+      "is_missable": true,
+      "missable_deadline": "Before Gym 8 / Mt. Ember Archer",
+      "karma_delta": -5,
+      "police_reportable": true,
+      "police_officer_location": "Celadon City Police Station",
+      "police_reward_karma": 10,
+      "unlocks_quest": "q_pinkan_island_police",
+      "rewards": [
+        "Scraggy (Rocket) OR +10 Karma & Diancie Police Path (Officer Jenny report)"
+      ],
+      "objectives": [
+        "Meet the Pokémon collector on Route 22.",
+        "UNDERCOVER INFORMANT PATH: Report the illegal trafficker to the Celadon police officer to gain +10 Karma."
+      ]
+    }
+  ],
+  "boss_ground_truth": {
+    "classic": {
+      "leader": "Giovanni",
+      "team": [
+        {
+          "species": "B131H265",
+          "level": 50,
+          "moves": [
+            "SURF",
+            "BULLDOZE",
+            "SANDSTORM",
+            "SING"
+          ],
+          "ability_index": 1,
+          "item": "SMOOTHROCK",
+          "poke_ball": "ULTRABALL"
+        },
+        {
+          "species": "B51H125",
+          "level": 50,
+          "moves": [
+            "BULLDOZE",
+            "LIGHTSCREEN",
+            "THUNDERWAVE",
+            "DISCHARGE"
+          ],
+          "ability_index": 0,
+          "item": "SOFTSAND",
+          "poke_ball": "ULTRABALL"
+        },
+        {
+          "species": "B68H76",
+          "level": 52,
+          "moves": [
+            "EARTHQUAKE",
+            "DYNAMICPUNCH",
+            "COUNTER",
+            "SCARYFACE"
+          ],
+          "ability_index": 0,
+          "item": "SOFTSAND",
+          "poke_ball": "ULTRABALL"
+        },
+        {
+          "species": "B34H57",
+          "level": 54,
+          "moves": [
+            "EARTHQUAKE",
+            "CLOSECOMBAT",
+            "MEGAHORN",
+            "SWAGGER"
+          ],
+          "ability_index": 1,
+          "item": "SOFTSAND",
+          "poke_ball": "ULTRABALL"
+        },
+        {
+          "species": "B143H112",
+          "level": 54,
+          "moves": [
+            "EARTHQUAKE",
+            "REST",
+            "SNORE",
+            "HORNDRILL"
+          ],
+          "ability_index": 0,
+          "item": "SOFTSAND",
+          "poke_ball": "ULTRABALL"
+        }
+      ],
+      "party_size": 5
+    },
+    "expert": {
+      "leader": "Giovanni",
+      "team": [
+        {
+          "species": "B274H20",
+          "level": 53,
+          "moves": [
+            "FACADE",
+            "EARTHQUAKE",
+            "ICESHARD",
+            "STEALTHROCK"
+          ],
+          "ability": "GUTS",
+          "item": "FLAMEORB",
+          "nature": "ADAMANT",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B364H453",
+          "level": 53,
+          "moves": [
+            "SHADOWCLAW",
+            "GYROBALL",
+            "POWERWHIP",
+            "EARTHQUAKE"
+          ],
+          "ability": "STEELWORKER",
+          "item": "ASSAULTVEST",
+          "nature": "BRAVE",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 0
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 252,
+            "DEFENSE": 4,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B248H34",
+          "level": 53,
+          "moves": [
+            "DRAGONDANCE",
+            "CRUNCH",
+            "EARTHQUAKE",
+            "POISONJAB"
+          ],
+          "ability": "SHEERFORCE",
+          "item": "LIFEORB",
+          "nature": "JOLLY",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B360H295",
+          "level": 53,
+          "moves": [
+            "NASTYPLOT",
+            "DARKPULSE",
+            "MOONBLAST",
+            "SPORE"
+          ],
+          "ability": "PRANKSTER",
+          "item": "BABIRIBERRY",
+          "nature": "MODEST",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B368H53",
+          "level": 55,
+          "moves": [
+            "COVET",
+            "DUALCHOP",
+            "DRAGONDANCE",
+            "BITE"
+          ],
+          "ability": "TECHNICIAN",
+          "item": "NORMALGEM",
+          "nature": "ADAMANT",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        }
+      ],
+      "party_size": 5
+    }
+  },
+  "encounters_by_location": {
+    "Viridian River (ID 40)": {
+      "Grass": [
+        {
+          "name": "Metapod",
+          "dex_id": "011",
+          "types": [
+            "Bug"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Kakuna",
+          "dex_id": "014",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Pidgeotto",
+          "dex_id": "017",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "25-35"
+        },
+        {
+          "name": "Raticate",
+          "dex_id": "020",
+          "types": [
+            "Normal"
+          ],
+          "levels": "25-35"
+        },
+        {
+          "name": "Nidorina",
+          "dex_id": "030",
+          "types": [
+            "Poison"
+          ],
+          "levels": "30-32"
+        },
+        {
+          "name": "Nidorino",
+          "dex_id": "033",
+          "types": [
+            "Poison"
+          ],
+          "levels": "30-32"
+        },
+        {
+          "name": "Farfetch'd",
+          "dex_id": "083",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "30"
+        },
+        {
+          "name": "Noctowl",
+          "dex_id": "164",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "25-35"
+        },
+        {
+          "name": "Yanma",
+          "dex_id": "193",
+          "types": [
+            "Bug",
+            "Flying"
+          ],
+          "levels": "28"
+        },
+        {
+          "name": "Pineco",
+          "dex_id": "204",
+          "types": [
+            "Bug"
+          ],
+          "levels": "28"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Psyduck",
+          "dex_id": "054",
+          "types": [
+            "Water"
+          ],
+          "levels": "25-35"
+        },
+        {
+          "name": "Slowpoke",
+          "dex_id": "079",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "25-35"
+        },
+        {
+          "name": "Goldeen",
+          "dex_id": "118",
+          "types": [
+            "Water"
+          ],
+          "levels": "25-35"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-25"
+        },
+        {
+          "name": "Marill",
+          "dex_id": "183",
+          "types": [
+            "Water",
+            "Fairy"
+          ],
+          "levels": "25-30"
+        },
+        {
+          "name": "Wooper",
+          "dex_id": "194",
+          "types": [
+            "Water",
+            "Ground"
+          ],
+          "levels": "25-30"
+        },
+        {
+          "name": "Quagsire",
+          "dex_id": "195",
+          "types": [
+            "Water",
+            "Ground"
+          ],
+          "levels": "35"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Marill",
+          "dex_id": "183",
+          "types": [
+            "Water",
+            "Fairy"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Wooper",
+          "dex_id": "194",
+          "types": [
+            "Water",
+            "Ground"
+          ],
+          "levels": "5-15"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Goldeen",
+          "dex_id": "118",
+          "types": [
+            "Water"
+          ],
+          "levels": "35-40"
+        },
+        {
+          "name": "Seaking",
+          "dex_id": "119",
+          "types": [
+            "Water"
+          ],
+          "levels": "35-40"
+        },
+        {
+          "name": "Marill",
+          "dex_id": "183",
+          "types": [
+            "Water",
+            "Fairy"
+          ],
+          "levels": "35-40"
+        },
+        {
+          "name": "Azumarill",
+          "dex_id": "184",
+          "types": [
+            "Water",
+            "Fairy"
+          ],
+          "levels": "35-40"
+        },
+        {
+          "name": "Wooper",
+          "dex_id": "194",
+          "types": [
+            "Water",
+            "Ground"
+          ],
+          "levels": "35-40"
+        },
+        {
+          "name": "Quagsire",
+          "dex_id": "195",
+          "types": [
+            "Water",
+            "Ground"
+          ],
+          "levels": "35-40"
+        }
+      ]
+    },
+    "Route 22 (ID 171)": {
+      "Grass": [
+        {
+          "name": "Rattata",
+          "dex_id": "019",
+          "types": [
+            "Normal"
+          ],
+          "levels": "2-5"
+        },
+        {
+          "name": "Spearow",
+          "dex_id": "021",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "3-5"
+        },
+        {
+          "name": "Nidoran♀",
+          "dex_id": "029",
+          "types": [
+            "Poison"
+          ],
+          "levels": "3-5"
+        },
+        {
+          "name": "Nidoran♂",
+          "dex_id": "032",
+          "types": [
+            "Poison"
+          ],
+          "levels": "3-5"
+        },
+        {
+          "name": "Mankey",
+          "dex_id": "056",
+          "types": [
+            "Fighting"
+          ],
+          "levels": "2-5"
+        },
+        {
+          "name": "Hoothoot",
+          "dex_id": "163",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "3-5"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Psyduck",
+          "dex_id": "054",
+          "types": [
+            "Water"
+          ],
+          "levels": "20-40"
+        },
+        {
+          "name": "Slowpoke",
+          "dex_id": "079",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "20-40"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Goldeen",
+          "dex_id": "118",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Psyduck",
+          "dex_id": "054",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-25"
+        },
+        {
+          "name": "Poliwhirl",
+          "dex_id": "061",
+          "types": [
+            "Water"
+          ],
+          "levels": "20-30"
+        },
+        {
+          "name": "Slowpoke",
+          "dex_id": "079",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Gyarados",
+          "dex_id": "130",
+          "types": [
+            "Water",
+            "Flying"
+          ],
+          "levels": "15-25"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Bidoof",
+          "dex_id": "294",
+          "types": [
+            "Normal"
+          ],
+          "levels": "2-5"
+        }
+      ]
+    },
+    "Route 23 (ID 143)": {
+      "Grass": [
+        {
+          "name": "Pidgeotto",
+          "dex_id": "017",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "25-40"
+        },
+        {
+          "name": "Pidgeot",
+          "dex_id": "018",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "36"
+        },
+        {
+          "name": "Raticate",
+          "dex_id": "020",
+          "types": [
+            "Normal"
+          ],
+          "levels": "20-35"
+        },
+        {
+          "name": "Zubat",
+          "dex_id": "041",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "25-40"
+        },
+        {
+          "name": "Golbat",
+          "dex_id": "042",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "36"
+        },
+        {
+          "name": "Mankey",
+          "dex_id": "056",
+          "types": [
+            "Fighting"
+          ],
+          "levels": "20-40"
+        },
+        {
+          "name": "Primeape",
+          "dex_id": "057",
+          "types": [
+            "Fighting"
+          ],
+          "levels": "30"
+        },
+        {
+          "name": "Graveler",
+          "dex_id": "075",
+          "types": [
+            "Rock",
+            "Ground"
+          ],
+          "levels": "20-35"
+        },
+        {
+          "name": "Magnemite",
+          "dex_id": "081",
+          "types": [
+            "Steel",
+            "Electric"
+          ],
+          "levels": "30"
+        },
+        {
+          "name": "Magneton",
+          "dex_id": "082",
+          "types": [
+            "Steel",
+            "Electric"
+          ],
+          "levels": "20-40"
+        },
+        {
+          "name": "Seel",
+          "dex_id": "086",
+          "types": [
+            "Water"
+          ],
+          "levels": "20-35"
+        },
+        {
+          "name": "Hitmonlee",
+          "dex_id": "106",
+          "types": [
+            "Fighting"
+          ],
+          "levels": "30"
+        },
+        {
+          "name": "Hitmonchan",
+          "dex_id": "107",
+          "types": [
+            "Fighting"
+          ],
+          "levels": "30"
+        },
+        {
+          "name": "Snorlax",
+          "dex_id": "143",
+          "types": [
+            "Normal"
+          ],
+          "levels": "30"
+        },
+        {
+          "name": "Tyrogue",
+          "dex_id": "236",
+          "types": [
+            "Fighting"
+          ],
+          "levels": "25"
+        },
+        {
+          "name": "Munchlax",
+          "dex_id": "260",
+          "types": [
+            "Normal"
+          ],
+          "levels": "30"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Tentacool",
+          "dex_id": "072",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "20-40"
+        },
+        {
+          "name": "Tentacruel",
+          "dex_id": "073",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "30-35"
+        },
+        {
+          "name": "Seel",
+          "dex_id": "086",
+          "types": [
+            "Water"
+          ],
+          "levels": "20-35"
+        },
+        {
+          "name": "Shellder",
+          "dex_id": "090",
+          "types": [
+            "Water"
+          ],
+          "levels": "20-30"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-30"
+        },
+        {
+          "name": "Remoraid",
+          "dex_id": "223",
+          "types": [
+            "Water"
+          ],
+          "levels": "20-40"
+        },
+        {
+          "name": "Octillery",
+          "dex_id": "224",
+          "types": [
+            "Water"
+          ],
+          "levels": "30-35"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Goldeen",
+          "dex_id": "118",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Psyduck",
+          "dex_id": "054",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-25"
+        },
+        {
+          "name": "Poliwhirl",
+          "dex_id": "061",
+          "types": [
+            "Water"
+          ],
+          "levels": "20-30"
+        },
+        {
+          "name": "Slowpoke",
+          "dex_id": "079",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Gyarados",
+          "dex_id": "130",
+          "types": [
+            "Water",
+            "Flying"
+          ],
+          "levels": "15-25"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Riolu",
+          "dex_id": "384",
+          "types": [
+            "Fighting"
+          ],
+          "levels": "25"
+        }
+      ]
+    }
+  },
+  "wiki_ground_truth": {
+    "Viridian City": {
+      "canonical_slug": "Viridian_City",
+      "lead_summary": "Viridian City is the first town the player encounters after exiting Route 1. The paths West to Route 22 and North to Route 2 (Before the Forest) will be blocked until Oak received his Parcel.\nThe Gym will be closed until Team Rocket has been defeated on Mt. Ember.",
+      "items": [
+        {
+          "internal_id": "OAKSPARCEL",
+          "quantity": "",
+          "name": "Oak's Parcel",
+          "location_details": "From the Poké Mart cashier."
+        },
+        {
+          "internal_id": "DNASPLICERS",
+          "quantity": "",
+          "name": "DNA Splicers",
+          "location_details": "From the Poké Mart cashier."
+        },
+        {
+          "internal_id": "ORANBERRY",
+          "quantity": "2",
+          "name": "Oran Berry",
+          "location_details": "Given by Youngster in the Pokémon Academy."
+        },
+        {
+          "internal_id": "BRIGHTPOWDER",
+          "quantity": "",
+          "name": "Bright Powder",
+          "location_details": "On the ground when coming from Viridian River."
+        },
+        {
+          "internal_id": "machine_FIGHTING",
+          "quantity": "",
+          "name": "TM08 Bulk Up",
+          "location_details": "On the higher ground near Route 22 and Route 1 entrances."
+        },
+        {
+          "internal_id": "REVIVE",
+          "quantity": "",
+          "name": "Revive",
+          "location_details": "On the ground in the Gym."
+        },
+        {
+          "internal_id": "WOODENPLANKS",
+          "quantity": "",
+          "name": "Wooden Planks",
+          "location_details": "Given by the worker, after accepting the quest “Building Materials”."
+        },
+        {
+          "internal_id": "EARTHPLATE",
+          "quantity": "",
+          "name": "Earth Plate",
+          "location_details": "In the northeast, behind the Gym, after catching [[Legendary_Pokémon#Arceus"
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Route 22": {
+      "canonical_slug": "Route_22",
+      "lead_summary": "Route 22 is a route that connects Viridian City to Route 26. It's a short route that can be accessed almost immediately in the game - however, within the Gate you will be stopped by the Badge Checker as Route 26 leads to Victory Road.",
+      "items": [
+        {
+          "internal_id": "POTION",
+          "quantity": "",
+          "name": "Potion",
+          "location_details": "South of the stairs from Viridian City"
+        },
+        {
+          "internal_id": "POKEBALL",
+          "quantity": "",
+          "name": "Poké Ball",
+          "location_details": "From Youngster Pat, after defeating him."
+        },
+        {
+          "internal_id": "DNASPLICERS",
+          "quantity": "",
+          "name": "DNA Splicer",
+          "location_details": "From Youngster Mustafa, after defeating him and before {{gym"
+        },
+        {
+          "internal_id": "PECHABERRY",
+          "quantity": "",
+          "name": "Pecha Berry",
+          "location_details": "On the far left, south part of the road."
+        },
+        {
+          "internal_id": "POTION",
+          "quantity": "",
+          "name": "Potion",
+          "location_details": "On the top right of the road, besides the cuttable tree."
+        },
+        {
+          "internal_id": "DNASPLICERS",
+          "quantity": "",
+          "name": "DNA Splicer",
+          "location_details": "From Rival, after defeating him."
+        },
+        {
+          "internal_id": "ORANBERRY",
+          "quantity": "",
+          "name": "Oran Berry",
+          "location_details": "On the berry bushes, daily."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Route 23": {
+      "canonical_slug": "Route_23",
+      "lead_summary": "Also known as the Northern Kanto Coast, Route 23 is only accessible after getting Surf, and connects Cerulean Cape to Crimson City.",
+      "items": [
+        {
+          "internal_id": "SUPERPOTION",
+          "quantity": "",
+          "name": "Super Potion",
+          "location_details": "Hidden by a rock along the southeastern coast."
+        },
+        {
+          "internal_id": "FULLHEAL",
+          "quantity": "",
+          "name": "Full Heal",
+          "location_details": "Hidden by a boulder above the northern tall grass patch."
+        },
+        {
+          "internal_id": "machine_STEEL",
+          "quantity": "",
+          "name": "TM91 Flash Cannon",
+          "location_details": "By the Tall Grass patch."
+        },
+        {
+          "internal_id": "HARDSTONE",
+          "quantity": "",
+          "name": "Hard Stone",
+          "location_details": "Hidden by a rock between the southern tall grass patches."
+        },
+        {
+          "internal_id": "BIGPEARL",
+          "quantity": "",
+          "name": "Big Pearl",
+          "location_details": "On a small island on the North-Eastern path."
+        },
+        {
+          "internal_id": "machine_WATER",
+          "quantity": "",
+          "name": "TM105 Aqua Jet",
+          "location_details": "On a small island on the North-Eartern path."
+        },
+        {
+          "internal_id": "RAZZBERRY",
+          "quantity": "",
+          "name": "Razz Berry",
+          "location_details": "Given by Crush Girl Penelope after defeating her."
+        },
+        {
+          "internal_id": "NANABBERRY",
+          "quantity": "",
+          "name": "Nanab Berry",
+          "location_details": "Given by Crush Girl Penelope after defeating her."
+        },
+        {
+          "internal_id": "PINAPBERRY",
+          "quantity": "",
+          "name": "Pinap Berry",
+          "location_details": "Given by Crush Girl Penelope after defeating her."
+        },
+        {
+          "internal_id": "POKEBALL",
+          "quantity": "2",
+          "name": "Poké Ball",
+          "location_details": "Given by Black Belt Mitch after defeating him."
+        },
+        {
+          "internal_id": "GREATBALL",
+          "quantity": "2",
+          "name": "Great Ball",
+          "location_details": "Given by Black Belt Mitch after defeating him."
+        },
+        {
+          "internal_id": "ULTRABALL",
+          "quantity": "",
+          "name": "Ultra Ball",
+          "location_details": "Given by Black Belt Mitch after defeating him."
+        }
+      ],
+      "missable_warnings": [
+        "NOTE: Contains actions that alter player Karma."
+      ]
+    }
+  },
+  "location_items_and_statics": [
+    {
+      "type": "Key Item",
+      "name": "Oak's Parcel",
+      "location": "Viridian City Pokémart",
+      "desc": "Must be delivered to Professor Oak in Pallet Town to obtain the PokéDex."
+    },
+    {
+      "type": "Key Item",
+      "name": "DNA Splicers",
+      "location": "Viridian City Pokémart / All Marts",
+      "desc": "Fuses two Pokémon or unfuses an existing fusion."
+    },
+    {
+      "type": "Static Encounter",
+      "pokemon": "Chikorita",
+      "level": "5-15",
+      "location": "Viridian River",
+      "notes": "Respawns indefinitely"
+    }
+  ],
+  "authoring_guidance": {
+    "splicing_safety": "Explicitly state: HEAD species, BODY species, and WHICH ability to select at the DNA Splicer prompt.",
+    "gym_party_selection_rule": "Hard Mode 5v5 party limit! When challenged, the game prompts the player to choose which 5 Pokémon from their active party to bring into battle. No PC box deposits required.",
+    "stone_evolutions": "Advisory: Do NOT use evolution stones prematurely on stone-evolvers (e.g. Nidorino) before key level-up moves are learned.",
+    "undercover_informant_rocket": "Guide player to join Team Rocket for disguises/missions, BUT report crimes to police officer for +10 Karma and Diancie unlock!"
+  }
+}

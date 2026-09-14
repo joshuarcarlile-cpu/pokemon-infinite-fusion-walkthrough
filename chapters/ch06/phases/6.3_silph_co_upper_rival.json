@@ -1,0 +1,43 @@
+{
+  "name": "Silph Co. Upper Floors & Rival Battle (6F–9F)",
+  "summary": "With Card Key access, ascend through the upper executive floors. On 7F, challenge Rival Blue in a pivotal battle, then speak to the grateful Silph employee in the adjacent office to receive a free Level 25 Lapras. Rest in the 9F medical infirmary bed to fully restore your squad before storming the boardroom.",
+  "items": [
+    {
+      "name": "Gift: Lapras",
+      "method": "Given by the grateful Silph researcher in the 7F central office suite",
+      "type": "Gift Pokémon"
+    },
+    {
+      "name": "Rare Candy",
+      "method": "On the floor in the 7F corporate assembly room",
+      "type": "Consumable"
+    },
+    {
+      "name": "Full Restore",
+      "method": "In the 8F document archive unlocked using the Card Key",
+      "type": "Consumable"
+    },
+    {
+      "name": "Focus Band",
+      "method": "Inside the 9F storage room near the server racks",
+      "type": "Hold Item"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Rival Blue",
+      "team": [
+        {"species": "Pidgeot", "level": 40, "types": ["Normal", "Flying"]},
+        {"species": "Alakazam", "level": 38, "types": ["Psychic"]},
+        {"species": "Gyarados", "level": 39, "types": ["Water", "Flying"]},
+        {"species": "Exeggcute", "level": 38, "types": ["Grass", "Psychic"]},
+        {"species": "Charizard", "level": 40, "types": ["Fire", "Flying"]}
+      ]
+    }
+  ],
+  "encounters": {
+    "Gift Pokémon (Silph Co. 7F)": [
+      {"dex_id": "131", "name": "Lapras", "types": ["Water", "Ice"], "levels": "25", "rates": "Free gift from 7F Silph employee"}
+    ]
+  }
+}

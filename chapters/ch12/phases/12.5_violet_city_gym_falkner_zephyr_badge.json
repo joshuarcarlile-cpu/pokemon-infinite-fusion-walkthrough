@@ -1,0 +1,33 @@
+{
+  "name": "Violet City Gym & Leader Falkner",
+  "summary": "Step into the open-air rafters of Violet City Gym, where suspended wooden walkways and pulley platforms sway high above the arena. Defeat Falkner's devoted Bird Keepers before challenging the aerial master in a 5 vs 5 duel. Counter his Lightning Rod traps and Air Balloon pivots to secure the Zephyr Badge and claim TM40 Aerial Ace.",
+  "items": [
+    {
+      "name": "TM40 Aerial Ace",
+      "method": "Rewarded by Gym Leader Falkner upon winning the Zephyr Badge",
+      "type": "Technical Machine"
+    },
+    {
+      "name": "Falkner's Cage",
+      "method": "Exclusive vanity outfit hat awarded for conquering Violet Gym",
+      "type": "Outfit"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Bird Keeper Abe",
+      "team": [
+        {"species": "Misdreavus/Fearow", "level": 53, "types": ["Ghost", "Flying"]},
+        {"species": "Aipom/Fearow", "level": 53, "types": ["Normal", "Flying"]}
+      ]
+    },
+    {
+      "name": "Bird Keeper Rod",
+      "team": [
+        {"species": "Doduo/Pidgeot", "level": 53, "types": ["Normal", "Flying"]},
+        {"species": "Pidgeotto/Fearow", "level": 54, "types": ["Normal", "Flying"]}
+      ]
+    }
+  ],
+  "encounters": {}
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Indigo Plateau Tier 5 Level 100 League",
+  "summary": "Ascend Route 23 to challenge the ultimate difficulty tier at the Indigo Plateau. Tier 4 (Levels 91 to 99) and Tier 5 (Flat Level 100) elevate the Elite Four and Champion Blue to peak competitive mastery. Lorelei commands relentless Blizzard hail offense, Bruno deploys crushing Fighting wallbreakers, Agatha harnesses tricky Ghost/Dark status traps, and Lance commands devastating multiscale Dragon sweepers. Finally, face Champion Blue in a climactic Level 100 full 6 vs 6 showdown. Triumphing over Tier 5 earns the Master Ribbon and seals your legacy as Supreme Pokémon Master.",
+  "items": [
+    {
+      "name": "Master Ribbon",
+      "method": "Awarded to your active party upon conquering the Tier 5 Level 100 Elite Four and Champion",
+      "type": "Ribbon"
+    },
+    {
+      "name": "Golden Bottle Cap",
+      "method": "Awarded by the League President in the Indigo Plateau lobby post-Tier 5 victory",
+      "type": "Valuable"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Elite Four Lance (Tier 5)",
+      "title": "Elite Four",
+      "reward": "P12,000",
+      "pokemon": [
+        {
+          "species": "Dragonite/Gyarados",
+          "level": 100,
+          "types": ["Dragon", "Flying"]
+        },
+        {
+          "species": "Charizard/Aerodactyl",
+          "level": 100,
+          "types": ["Fire", "Flying"]
+        },
+        {
+          "species": "Kingdra/Garchomp",
+          "level": 100,
+          "types": ["Water", "Dragon"]
+        },
+        {
+          "species": "Hydreigon/Salamence",
+          "level": 100,
+          "types": ["Dark", "Dragon"]
+        },
+        {
+          "species": "Dragonite/Tyranitar",
+          "level": 100,
+          "types": ["Dragon", "Rock"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Route 23": [
+      {
+        "species": "Pidgeot",
+        "levels": "50-55",
+        "rate": "25%"
+      },
+      {
+        "species": "Primeape",
+        "levels": "50-54",
+        "rate": "25%"
+      },
+      {
+        "species": "Magneton",
+        "levels": "52-55",
+        "rate": "20%"
+      },
+      {
+        "species": "Snorlax",
+        "levels": "50",
+        "rate": "15%"
+      },
+      {
+        "species": "Riolu",
+        "levels": "45",
+        "rate": "15%"
+      }
+    ]
+  }
+}

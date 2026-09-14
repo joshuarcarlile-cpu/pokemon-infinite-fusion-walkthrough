@@ -1,0 +1,56 @@
+{
+  "name": "Ecruteak Gym Skull Maze & Leader Morty",
+  "summary": "Enter the haunted sanctum of Ecruteak Gym to challenge Gym Leader Morty. Receive a welcoming Fresh Water from the gym attendant at the entrance. Cross a floating labyrinth suspended above an abyss: red and white skull platforms alternate phases every single second, dropping careless challengers through a pitfall trap back to the entry. Battle through Channeler Martha and Sage Takao along the suspended stones. Reach Morty's shadowy inner altar to engage in an intense 5 vs 5 duel to claim the Fog Badge, TM97, the Purple Headband, and 5 Wonder Trade tickets.",
+  "items": [
+    {
+      "name": "Fresh Water",
+      "method": "Gifted by the gym attendant inside the entrance lobby",
+      "type": "Drink"
+    },
+    {
+      "name": "Fog Badge",
+      "method": "Awarded by Gym Leader Morty upon defeating his 5-Pokémon Ghost roster",
+      "type": "Badge"
+    },
+    {
+      "name": "TM97",
+      "method": "Awarded by Gym Leader Morty alongside the Fog Badge",
+      "type": "TM"
+    },
+    {
+      "name": "Purple Headband",
+      "method": "Awarded by Gym Leader Morty as a signature commemorative vanity hat",
+      "type": "Costume"
+    },
+    {
+      "name": "Wonder Trade Ticket (x5)",
+      "method": "Received from Morty following your official gym victory",
+      "type": "Special"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Channeler Martha",
+      "team": [
+        {"species": "Duskull/Electabuzz", "level": 62, "types": ["Ghost", "Electric"]}
+      ]
+    },
+    {
+      "name": "Sage Takao",
+      "team": [
+        {"species": "Bayleef/Mightyena", "level": 63, "types": ["Grass", "Dark"]}
+      ]
+    },
+    {
+      "name": "Gym Leader Morty",
+      "team": [
+        {"species": "Gengar/Zoroark", "level": 65, "types": ["Ghost", "Dark"]},
+        {"species": "Weavile/Shedinja", "level": 63, "types": ["Dark", "Ghost"]},
+        {"species": "Clefable/Spiritomb", "level": 65, "types": ["Fairy", "Ghost"]},
+        {"species": "Snorlax/Aegislash", "level": 64, "types": ["Normal", "Ghost"]},
+        {"species": "Hitmonchan/Dusknoir", "level": 67, "types": ["Fighting", "Ghost"]}
+      ]
+    }
+  ],
+  "encounters": {}
+}

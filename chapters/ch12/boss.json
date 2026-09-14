@@ -1,0 +1,64 @@
+{
+  "leader": "Falkner",
+  "title": "The Elegant Master of Flying Pokémon",
+  "gym": "Violet City Gym",
+  "badge": "Zephyr Badge",
+  "level_cap": 63,
+  "hard_mode_level_cap": 63,
+  "recommended_party_level": 61,
+  "gym_duel_limit": 5,
+  "party_selection_rule": "5 vs 5 Party Selection (select your 5 designated Pokémon from your active party when prompted at battle start)",
+  "overview": "Falkner's aerial arsenal presents a multifaceted tactical gauntlet engineered to punish reckless typing assumptions. Xatu/Noctowl opens with dual-screen defense and high-speed Air Slash flinches. Granbull/Combusken brings fierce Fairy/Fighting offensive coverage, dropping your physical Attack with Feather Dance while phazing boosted sweepers using Roar. Skarmory/Houndoom combines Steel/Fire typing with Flash Fire and an Air Balloon, creating temporary Ground immunity and resisting numerous offensive types. Marowak/Dustox features the devious Lightning Rod ability, absorbing all Electric-type moves intended for Falkner's birds while threatening with Bone Rush and Air Slash. His ace, Ursaring/Pidgeot, is an imposing 489 BST physical powerhouse wielding Wing Attack, Fury Swipes, and Scary Face speed control, resetting damage with Rest.",
+  "roster": [
+    {
+      "species": "Xatu/Noctowl",
+      "level": 58,
+      "types": ["Psychic", "Flying"],
+      "ability": "Synchronize",
+      "item": "Sharp Beak",
+      "moves": ["Lucky Chant", "Psychic", "Reflect", "Air Slash"],
+      "tactics": "Defensive aerial lead. Sets Reflect to blunt physical attackers and shields against critical hits with Lucky Chant. Exploit its Electric, Ice, Dark, or Ghost weaknesses to eliminate it quickly."
+    },
+    {
+      "species": "Granbull/Combusken",
+      "level": 58,
+      "types": ["Fairy", "Fighting"],
+      "ability": "Quick Feet",
+      "item": "Sharp Beak",
+      "moves": ["Roar", "Fairy Wind", "Night Slash", "Feather Dance"],
+      "tactics": "Fairy/Fighting brawler. Uses Feather Dance to sharply drop your physical Attack and Roar to disrupt stat setups. Target its special side with Psychic, Flying, or Poison moves."
+    },
+    {
+      "species": "Skarmory/Houndoom",
+      "level": 60,
+      "types": ["Steel", "Fire"],
+      "ability": "Flash Fire",
+      "item": "Air Balloon",
+      "moves": ["Flamethrower", "Faint Attack", "Steel Wing", "Defog"],
+      "tactics": "Steel/Fire dual-threat. Immune to Fire and Poison. Its Air Balloon provides complete Ground immunity until struck. Pop the balloon with a Water or Fighting attack to restore its 4x Ground weakness."
+    },
+    {
+      "species": "Marowak/Dustox",
+      "level": 61,
+      "types": ["Ground", "Poison"],
+      "ability": "Lightning Rod",
+      "item": "Sharp Beak",
+      "moves": ["Bone Rush", "Focus Energy", "Air Slash", "Protect"],
+      "tactics": "Electric-absorbing trap. Lightning Rod completely nullifies Electric moves intended for flying foes. Target its Ground/Poison typing with Water STAB like Hydro Pump or Special Psychic attacks."
+    },
+    {
+      "species": "Ursaring/Pidgeot",
+      "level": 63,
+      "types": ["Normal", "Flying"],
+      "ability": "Keen Eye",
+      "item": "Sharp Beak",
+      "moves": ["Wing Attack", "Fury Swipes", "Rest", "Scary Face"],
+      "tactics": "Falkner's formidable Ace. Combines Ursaring's massive 96 physical Attack with Pidgeot's 85 Speed. Drops your Speed with Scary Face and strikes hard with STAB Wing Attack. Neutralize its Attack with Intimidate, put it to sleep with Sleep Powder, and blast it with Electric or Ice attacks."
+    }
+  ],
+  "starter_strategies": {
+    "bulbasaur": "Venusaur/Charizard melts Skarmory/Houndoom with Flamethrower and incapacitates Ursaring/Pidgeot with Sleep Powder. Kingler/Primeape smashes Skarmory/Houndoom with STAB Close Combat and drenches Marowak/Dustox with Crabhammer. Alakazam/Weezing shreds Granbull/Combusken with STAB Psychic.",
+    "charmander": "Charizard/Venusaur melts Granbull/Combusken and Skarmory/Houndoom with Flamethrower; Sleep Powder pacifies Ursaring/Pidgeot. Alakazam/Raichu electrocutes Xatu/Noctowl and Ursaring/Pidgeot with Thunderbolt, and bypasses Lightning Rod by targeting Marowak/Dustox with Psychic.",
+    "squirtle": "Blastoise/Fearow douses Skarmory/Houndoom and Marowak/Dustox with heavy Hydro Pump artillery, and drills Granbull/Combusken with STAB Drill Peck. Jolteon/Sandslash shocks Xatu/Noctowl and Ursaring/Pidgeot with Discharge. Arbok/Primeape applies Intimidate to blunt Ursaring/Pidgeot."
+  }
+}

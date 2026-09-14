@@ -1,0 +1,84 @@
+{
+  "location": "Mt. Silver (ID 777)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "042",
+        "name": "Golbat",
+        "type1": "Poison",
+        "type2": "Flying",
+        "levels": "58-61",
+        "catch_rate": "90",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "dex_id": "095",
+        "name": "Onix",
+        "type1": "Rock",
+        "type2": "Ground",
+        "levels": "58",
+        "catch_rate": "45",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "216",
+        "name": "Teddiursa",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "58",
+        "catch_rate": "120",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "217",
+        "name": "Ursaring",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "60",
+        "catch_rate": "60",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "231",
+        "name": "Phanpy",
+        "type1": "Ground",
+        "type2": "",
+        "levels": "58",
+        "catch_rate": "120",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "232",
+        "name": "Donphan",
+        "type1": "Ground",
+        "type2": "",
+        "levels": "60",
+        "catch_rate": "60",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "246",
+        "name": "Larvitar",
+        "type1": "Rock",
+        "type2": "Ground",
+        "levels": "25",
+        "catch_rate": "45",
+        "rates": [
+          "10%"
+        ]
+      }
+    ]
+  }
+}

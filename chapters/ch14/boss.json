@@ -1,0 +1,64 @@
+{
+  "leader": "Morty",
+  "title": "The Ghostly Seer of Ecruteak",
+  "gym": "Ecruteak City Gym",
+  "badge": "Fog Badge",
+  "level_cap": 67,
+  "hard_mode_level_cap": 67,
+  "recommended_party_level": 66,
+  "gym_duel_limit": 5,
+  "party_selection_rule": "5 vs 5 Party Selection (select your 5 designated Pokémon from your active party when prompted at battle start)",
+  "overview": "Gym Leader Morty tests challengers with a supernatural team composed entirely of Ghost-type hybrid fusions, rendering standard Normal and Fighting physical attacks completely useless across his entire roster. Gengar/Zoroark leads with blistering speed and Special Attack, shielded by Illusion and vulnerable strictly to Fairy moves. Weavile/Shedinja acts as a Focus Sash priority assassin that also shares this elusive Fairy-only weakness. Clefable/Spiritomb stalls with Minimize and Curse under Magic Guard protection, weak only to Steel and Ghost strikes. Snorlax/Aegislash is a colossal 550 BST juggernaut combining Snorlax's massive HP with Aegislash's King's Shield and Swords Dance; as a Normal/Ghost hybrid, it is immune to Normal, Fighting, and Ghost attacks, leaving Dark as its sole weakness. His ace Hitmonchan/Dusknoir wields Iron Fist-boosted Drain Punch to recover HP while spongeing hits with huge defenses. Overcoming Morty awards the Fog Badge, TM97, the Purple Headband vanity hat, and 5 Wonder Trade tickets.",
+  "roster": [
+    {
+      "species": "Gengar/Zoroark",
+      "level": 65,
+      "types": ["Ghost", "Dark"],
+      "ability": "Illusion",
+      "item": "Spell Tag",
+      "moves": ["Mean Look", "Pursuit", "Shadow Ball", "Curse"],
+      "tactics": "High-speed special sweeper. 126 Special Attack and 106 Speed. Immune to Normal, Fighting, and Psychic. Fairy is its only type weakness."
+    },
+    {
+      "species": "Weavile/Shedinja",
+      "level": 63,
+      "types": ["Dark", "Ghost"],
+      "ability": "Pressure",
+      "item": "Focus Sash",
+      "moves": ["Grudge", "Night Slash", "Heal Block", "Shadow Sneak"],
+      "tactics": "Priority revenge killer. Focus Sash guarantees it survives any single fatal blow to retaliate with Shadow Sneak or Grudge. Exploit its Fairy weakness."
+    },
+    {
+      "species": "Clefable/Spiritomb",
+      "level": 65,
+      "types": ["Fairy", "Ghost"],
+      "ability": "Magic Guard",
+      "item": "Spell Tag",
+      "moves": ["Curse", "Attract", "Minimize", "Ominous Wind"],
+      "tactics": "Evasive defensive staller. Magic Guard negates indirect damage, while Minimize boosts evasion. Eliminate quickly using Steel moves or super-effective Poison STAB."
+    },
+    {
+      "species": "Snorlax/Aegislash",
+      "level": 64,
+      "types": ["Normal", "Ghost"],
+      "ability": "Thick Fat",
+      "item": "Leftovers",
+      "moves": ["Swords Dance", "King's Shield", "Body Slam", "Shadow Punch"],
+      "tactics": "Colossal 550 BST physical fortress. Normal/Ghost typing grants complete immunity to Normal, Fighting, and Ghost moves. Crack it with super-effective Dark attacks like Crunch."
+    },
+    {
+      "species": "Hitmonchan/Dusknoir",
+      "level": 67,
+      "types": ["Fighting", "Ghost"],
+      "ability": "Iron Fist",
+      "item": "Big Root",
+      "moves": ["Drain Punch", "Shadow Claw", "Bulk Up", "Thunder Punch"],
+      "tactics": "Physical ace breaker with 116 Def and 118 SpD. Uses Bulk Up and Drain Punch with Big Root to sustain health. Blunt with Intimidate and strike its Flying or Psychic weaknesses."
+    }
+  ],
+  "starter_strategies": {
+    "bulbasaur": "Venusaur/Charizard levels to Cap 67; STAB Flamethrower deals heavy neutral damage, melts Weavile/Shedinja, and Sleep Powder shuts down Snorlax/Aegislash. Gyarados/Arbok applies Intimidate to blunt Hitmonchan/Dusknoir and uses STAB Crunch against Snorlax/Aegislash. Snorlax brings complete Ghost immunity, easily tanking Shadow Balls while crushing Snorlax/Aegislash with Crunch. Pidgeot hits Hitmonchan/Dusknoir with super-effective Air Slash.",
+    "charmander": "Charizard/Venusaur levels to Cap 67; Flamethrower incinerates Weavile/Shedinja and inflicts massive neutral burns across Ghost foes, while Air Slash targets Hitmonchan/Dusknoir. Alakazam/Raichu outspeeds and blasts Hitmonchan/Dusknoir with STAB Psychic. Gyarados/Nidoking applies Intimidate support. Snorlax walls special Ghost moves with 100% immunity and breaks Snorlax/Aegislash with super-effective Crunch.",
+    "squirtle": "Blastoise/Fearow levels to Cap 67; STAB Drill Peck exploits Hitmonchan/Dusknoir's Flying weakness, while Hydro Pump unleashes massive neutral artillery. Alakazam/Weezing shreds Hitmonchan/Dusknoir with STAB Psychic and destroys Clefable/Spiritomb with Sludge Bomb. Arbok/Primeape applies Intimidate against Morty's ace. Snorlax sponges all Ghost attacks with total immunity, using Crunch to defeat Snorlax/Aegislash."
+  }
+}

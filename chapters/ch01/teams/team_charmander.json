@@ -1,0 +1,114 @@
+{
+  "starter": "Charmander",
+  "name": "Team Charmander: Hyper-Offense & Early Fusion Breakers",
+  "archetype": "High-velocity physical breakers, Mankey/Spearow hybrid speed, and sleep status control to bypass Rock weaknesses.",
+  "gym_duel_core": [2, 3],
+  "gym_duel_rationale": "Brock enforces a strict 2v2 duel. Charmander takes 4x lethal rock damage and must be safely benched! Duel with Butterfree/Beedrill (Compound Eyes Sleep Powder + Confusion targeting Brock's low SpD) and Mankey/Spearow (weight-scaled Low Kick to crush Onix).",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Charmander",
+      "types": ["Fire"],
+      "status": "Active in Party (Starter Anchor)",
+      "current_level": 13,
+      "ability": "Blaze",
+      "held_item": "Oran Berry",
+      "role": "Fire Sweeper (Benched for Brock)",
+      "current_reached_moveset": [
+        "Ember",
+        "Scratch",
+        "Growl",
+        "Smokescreen"
+      ],
+      "progression_notes": "Charmander takes 4x lethal damage from Rock Throw. Bench Charmander for Gym 1; fusions solve Brock effortlessly."
+    },
+    {
+      "slot": 2,
+      "species": "Mankey/Spearow",
+      "types": ["Fighting", "Flying"],
+      "status": "Active in Party (Route 22 Splice)",
+      "current_level": 13,
+      "ability": "Defiant",
+      "held_item": "Oran Berry",
+      "role": "High-Speed Physical Breaker & Gym Duelist",
+      "current_reached_moveset": [
+        "Low Kick",
+        "Karate Chop",
+        "Peck",
+        "Fury Attack"
+      ],
+      "progression_notes": "Fused from Route 22 catches. Blistering early speed (Spe 70) and Defiant attack. Low Kick destroys Onix in two hits."
+    },
+    {
+      "slot": 3,
+      "species": "Butterfree/Beedrill",
+      "types": ["Bug", "Poison"],
+      "status": "Active in Party (Viridian Forest Splice)",
+      "current_level": 12,
+      "ability": "Compound Eyes",
+      "held_item": "Pecha Berry",
+      "role": "Special Brock Pivot & Gym Duelist",
+      "current_reached_moveset": [
+        "Confusion",
+        "Sleep Powder",
+        "Twineedle",
+        "Fury Attack"
+      ],
+      "progression_notes": "Confusion targets Brock's weak Special Defense (Geodude SpD 30, Onix SpD 45), bypassing physical rock armor."
+    },
+    {
+      "slot": 4,
+      "species": "Tangela/Pidgey",
+      "types": ["Grass", "Flying"],
+      "status": "Active in Party (Route 1 Splice)",
+      "current_level": 11,
+      "ability": "Keen Eye",
+      "held_item": "Oran Berry",
+      "role": "Grass Pivot & Ground Immunity",
+      "current_reached_moveset": [
+        "Vine Whip",
+        "Sleep Powder",
+        "Gust",
+        "Quick Attack"
+      ],
+      "progression_notes": "Grass/Flying typing gives complete immunity to Ground-type attacks and provides secondary Sleep Powder backup."
+    }
+  ],
+  "flex_bench": [
+    {
+      "slot": "B1",
+      "species": "Rattata",
+      "types": ["Normal"],
+      "current_level": 12,
+      "ability": "Guts",
+      "held_item": "Silk Scarf",
+      "role": "Fast Physical Cleaner & Guts Wallbreaker",
+      "why_use": "Caught on Route 1 or Route 22. Hyper Fang and Guts-boosted attacks provide reliable neutral physical burst damage."
+    },
+    {
+      "slot": "B2",
+      "species": "Nidoran♂",
+      "types": ["Poison"],
+      "current_level": 12,
+      "ability": "Poison Point",
+      "held_item": "Pecha Berry",
+      "role": "Poison/Ground Anchor",
+      "why_use": "Route 22 catch. Early access to Double Kick at Lv. 12 and Moon Stone at Mt. Moon."
+    }
+  ],
+  "fusion_lifecycle": {
+    "active_fusions": [
+      "Mankey/Spearow (Early Fighting/Flying speed breaker and Onix wallbreaker)",
+      "Butterfree/Beedrill (Bug/Poison status duo with 97.5% accurate Sleep Powder)",
+      "Tangela/Pidgey (Grass/Flying aerial pivot with Vine Whip)"
+    ],
+    "unfuse_recommendations": [
+      "1. Retain Mankey/Spearow for high physical speed through Mt. Moon.",
+      "2. In Chapter 2, purchase Super Splicers at Cerulean Poké Mart ($300 at any Mart) to fuse Charmeleon with Kadabra."
+    ],
+    "upcoming_fusions": [
+      "Charmeleon/Kadabra (Chapter 2 Fire/Psychic glass cannon)",
+      "Bellsprout/Butterfree (Misty's Water Gym counter in Chapter 2)"
+    ]
+  }
+}

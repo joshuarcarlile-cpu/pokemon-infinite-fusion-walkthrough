@@ -1,0 +1,128 @@
+{
+  "starter": "Bulbasaur",
+  "name": "Team Bulbasaur: Infernal Thaw & Fighting Wallbreakers",
+  "archetype": "4x Fire and 4x Fighting super-effective sweepers with Thick Fat Ice spongeing.",
+  "gym_duel_core": [1, 2, 3, 4, 5],
+  "gym_duel_rationale": "Pryce's 5v5 ice hockey duel prompts the player to select 5 active Pokémon from the party: Venusaur/Charizard anchors the front line, firing STAB Flamethrower to instantly incinerate Mamoswine/Bastiodon with 4x super-effective heat while melting Dewgong/Slowking and Jynx/Wailord with Petal Dance; Kingler/Primeape enters the duel core to unleash devastating 4x STAB Close Combat against both Mamoswine/Bastiodon and Probopass/Cloyster, while dousing Infernape/Weavile with Crabhammer; Gyarados/Arbok applies Intimidate to blunt physical assault and crunches psychic water hybrids; Alakazam/Weezing shreds Infernape/Weavile with STAB Psychic while avoiding Earthquake via Levitate; and Snorlax utilizes Thick Fat to halve all incoming Ice moves, comfortably spongeing Blizzards and Surfs with Rest and Leftovers sustain.",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Venusaur/Charizard",
+      "types": ["Grass", "Fire"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 67,
+      "ability": "Overgrow",
+      "held_item": "Charcoal",
+      "role": "4x Fire Wallbreaker & Status Anchor",
+      "current_reached_moveset": [
+        "Flamethrower",
+        "Petal Dance",
+        "Sleep Powder",
+        "Synthesis"
+      ],
+      "progression_notes": "530 BST starter hybrid elevated to Cap 67. STAB Flamethrower deals catastrophic 4x damage to Mamoswine/Bastiodon, while Petal Dance melts Water hybrids."
+    },
+    {
+      "slot": 2,
+      "species": "Kingler/Primeape",
+      "types": ["Water", "Fighting"],
+      "status": "Active in Party (Rotated into Duel Core)",
+      "current_level": 66,
+      "ability": "Hyper Cutter",
+      "held_item": "Black Belt",
+      "role": "4x Fighting Crusher & Water Bruiser",
+      "current_reached_moveset": [
+        "Close Combat",
+        "Crabhammer",
+        "Cross Chop",
+        "Protect"
+      ],
+      "progression_notes": "500 BST physical juggernaut elevated to Lv. 66. STAB Close Combat delivers crushing 4x super-effective blows to Mamoswine/Bastiodon and Probopass/Cloyster."
+    },
+    {
+      "slot": 3,
+      "species": "Gyarados/Arbok",
+      "types": ["Water", "Poison"],
+      "status": "Active in Party (Retained from Ch 14)",
+      "current_level": 66,
+      "ability": "Intimidate",
+      "held_item": "Black Glasses",
+      "role": "Intimidate Dark Breaker",
+      "current_reached_moveset": [
+        "Aqua Tail",
+        "Crunch",
+        "Dragon Dance",
+        "Glare"
+      ],
+      "progression_notes": "513 BST Intimidate pivot. Cuts physical attack on switch-in. STAB Crunch deals heavy damage to Dewgong/Slowking and Jynx/Wailord."
+    },
+    {
+      "slot": 4,
+      "species": "Alakazam/Weezing",
+      "types": ["Psychic", "Poison"],
+      "status": "Active in Party (Retained from Ch 14)",
+      "current_level": 66,
+      "ability": "Levitate",
+      "held_item": "Twisted Spoon",
+      "role": "Levitate Ground-Immune Sweeper",
+      "current_reached_moveset": [
+        "Psychic",
+        "Sludge Bomb",
+        "Recover",
+        "Calm Mind"
+      ],
+      "progression_notes": "495 BST special sweeper with 118 SpA. Immune to Earthquake via Levitate. STAB Psychic cleanly executes Infernape/Weavile."
+    },
+    {
+      "slot": 5,
+      "species": "Snorlax",
+      "types": ["Normal"],
+      "status": "Active in Party (Retained from Ch 14)",
+      "current_level": 66,
+      "ability": "Thick Fat",
+      "held_item": "Leftovers",
+      "role": "Thick Fat Ice Sponge & Tank",
+      "current_reached_moveset": [
+        "Body Slam",
+        "Rest",
+        "Sleep Talk",
+        "Crunch"
+      ],
+      "progression_notes": "Colossal 160 HP fortress. Thick Fat cuts all incoming Ice damage by 50%, completely walling Pryce's Blizzard artillery while sustaining with Rest."
+    },
+    {
+      "slot": 6,
+      "species": "Pidgeot",
+      "types": ["Normal", "Flying"],
+      "status": "Active in Party (Benched for Gym Duel)",
+      "current_level": 65,
+      "ability": "Keen Eye",
+      "held_item": "Sharp Beak",
+      "role": "Route Flying Scout & Tailwind Support",
+      "current_reached_moveset": [
+        "Air Slash",
+        "Roost",
+        "Tailwind",
+        "Quick Attack"
+      ],
+      "progression_notes": "Aerial transit scout. Benched for Pryce's 5v5 duel due to Ice vulnerability, but handles Route 42 and Route 43 wild encounters."
+    }
+  ],
+  "flex_bench": [
+    {
+      "species": "Butterfree",
+      "role": "Compound Eyes Sleep Pivot",
+      "rationale": "97.5% accurate Sleep Powder and Quiver Dance setup against bulky route trainers."
+    },
+    {
+      "species": "Electabuzz",
+      "role": "Electric Speed Sweeper",
+      "rationale": "High-speed Electric coverage packing Discharge and Light Screen against opposing aerial foes."
+    },
+    {
+      "species": "Hitmonlee",
+      "role": "Reckless Fighting Breaker",
+      "rationale": "High Jump Kick physical breaker capable of substituting into the active party for Fighting STAB."
+    }
+  ]
+}

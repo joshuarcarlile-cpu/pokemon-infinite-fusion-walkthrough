@@ -1,0 +1,55 @@
+{
+  "name": "Azalea Gym & Leader Kurt",
+  "summary": "Step into Azalea Gym through its reopened mahogany doors. Navigate the spider-web pulley platforms and face Kurt's junior entomologists before confronting the artisan himself in a 5 vs 5 duel. Overthrow his defensive Blissey/Shuckle core to secure the Hive Badge, unlocking Kurt's specialized Apriball crafting and exclusive vanity gear.",
+  "items": [
+    {
+      "name": "Kurt Sentai Helmet",
+      "method": "Rewarded as a custom vanity helmet upon defeating Gym Leader Kurt",
+      "type": "Outfit"
+    },
+    {
+      "name": "Toxic Ball",
+      "method": "Given by Kurt at his house workshop after earning the Hive Badge",
+      "type": "Pokéball"
+    },
+    {
+      "name": "Frost Ball",
+      "method": "Given by Kurt at his house workshop after earning the Hive Badge",
+      "type": "Pokéball"
+    },
+    {
+      "name": "Scorch Ball",
+      "method": "Given by Kurt at his house workshop after earning the Hive Badge",
+      "type": "Pokéball"
+    },
+    {
+      "name": "SparkBall",
+      "method": "Given by Kurt at his house workshop after earning the Hive Badge",
+      "type": "Pokéball"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Bug Catcher Josh",
+      "team": [
+        {"species": "Parasect/Bellsprout", "level": 49, "types": ["Bug", "Grass"]},
+        {"species": "Paras/Weepinbell", "level": 49, "types": ["Bug", "Grass"]}
+      ]
+    },
+    {
+      "name": "Bug Catcher Albert",
+      "team": [
+        {"species": "Primeape/Ledian", "level": 49, "types": ["Fighting", "Bug"]},
+        {"species": "Ledian/Machamp", "level": 49, "types": ["Bug", "Fighting"]}
+      ]
+    },
+    {
+      "name": "Bug Catcher Charlotte",
+      "team": [
+        {"species": "Butterfree/Ariados", "level": 47, "types": ["Bug", "Poison"]},
+        {"species": "Swinub/Ariados", "level": 47, "types": ["Ice", "Poison"]}
+      ]
+    }
+  ],
+  "encounters": {}
+}

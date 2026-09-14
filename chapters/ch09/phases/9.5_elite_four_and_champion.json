@@ -1,0 +1,65 @@
+{
+  "name": "Indigo Plateau Champion Chamber",
+  "summary": "Pass through the four elemental gates of the Elite Four—Lorelei, Bruno, Agatha, and Lance—before ascending to the grand throne room to confront Champion Blue. Triumph over his versatile 6-Pokémon team and Ace Mew (Lv. 62) to be inducted into the Hall of Fame and conclude Act 1 of the campaign!",
+  "items": [
+    {
+      "name": "Hall of Fame Induction",
+      "method": "Awarded by Professor Oak upon defeating Champion Blue in the final chamber",
+      "type": "Key Achievement"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Elite Four Lorelei",
+      "team": [
+        {"species": "Magmar/Dewgong", "level": 54, "types": ["Fire", "Ice"]},
+        {"species": "Piloswine/Slowbro", "level": 54, "types": ["Ice", "Psychic"]},
+        {"species": "Tentacruel/Cloyster", "level": 53, "types": ["Water", "Ice"]},
+        {"species": "Jynx/Tangrowth", "level": 57, "types": ["Ice", "Grass"]},
+        {"species": "Weavile/Lapras", "level": 57, "types": ["Dark", "Ice"]}
+      ]
+    },
+    {
+      "name": "Elite Four Bruno",
+      "team": [
+        {"species": "Machamp/Electabuzz", "level": 53, "types": ["Fighting", "Electric"]},
+        {"species": "Scizor/Heracross", "level": 57, "types": ["Bug", "Fighting"]},
+        {"species": "Marowak/Hitmonchan", "level": 54, "types": ["Ground", "Fighting"]},
+        {"species": "Steelix/Machamp", "level": 53, "types": ["Steel", "Fighting"]},
+        {"species": "Magnezone/Onix", "level": 57, "types": ["Electric", "Ground"]}
+      ]
+    },
+    {
+      "name": "Elite Four Agatha",
+      "team": [
+        {"species": "Mismagius/Crobat", "level": 57, "types": ["Ghost", "Poison"]},
+        {"species": "Gengar/Houndoom", "level": 55, "types": ["Ghost", "Dark"]},
+        {"species": "Umbreon/Haunter", "level": 55, "types": ["Dark", "Ghost"]},
+        {"species": "Snorlax/Gengar", "level": 58, "types": ["Normal", "Ghost"]},
+        {"species": "Wobbuffet/Gengar", "level": 55, "types": ["Psychic", "Ghost"]}
+      ]
+    },
+    {
+      "name": "Elite Four Lance",
+      "team": [
+        {"species": "Dragonair/Gyarados", "level": 55, "types": ["Dragon", "Flying"]},
+        {"species": "Porygon2/Kingdra", "level": 54, "types": ["Normal", "Dragon"]},
+        {"species": "Tyranitar/Aerodactyl", "level": 59, "types": ["Rock", "Flying"]},
+        {"species": "Typhlosion/Dragonair", "level": 57, "types": ["Fire", "Dragon"]},
+        {"species": "Togekiss/Dragonite", "level": 58, "types": ["Fairy", "Flying"]}
+      ]
+    },
+    {
+      "name": "Champion Blue",
+      "team": [
+        {"species": "Starmie/Alakazam", "level": 58, "types": ["Water", "Psychic"]},
+        {"species": "Tauros/Exeggutor", "level": 59, "types": ["Normal", "Grass"]},
+        {"species": "Nidoking/Pidgeot", "level": 59, "types": ["Poison", "Flying"]},
+        {"species": "Rhydon/Magmortar", "level": 60, "types": ["Ground", "Fire"]},
+        {"species": "Electivire/Gyarados", "level": 61, "types": ["Electric", "Flying"]},
+        {"species": "Mew", "level": 62, "types": ["Psychic"]}
+      ]
+    }
+  ],
+  "encounters": {}
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Route 10 North & The Lantern Tool",
+  "summary": "Arriving at the northern bank of Route 10 outside the entrance of Rock Tunnel. Rest at the Pokémon Center. Speak to the Hotel Quest clerk inside to claim the Lantern Key Item upon reaching 10 completed hotel quests, providing permanent cave illumination without Flash.",
+  "items": [
+    {
+      "name": "Lantern",
+      "method": "Claimed from the Hotel Quest clerk after completing 10 Hotel Quests (Flash replacement tool)",
+      "type": "Key Item"
+    },
+    {
+      "name": "Super Potion",
+      "method": "North of the Pokémon Center near the fenced water canal",
+      "type": "Consumable"
+    },
+    {
+      "name": "Cheri Berry",
+      "method": "Behind the Pokémon Center building",
+      "type": "Berry"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Picnicker Heidi",
+      "team": [
+        {
+          "species": "Pikachu",
+          "level": 20,
+          "types": ["Electric"]
+        },
+        {
+          "species": "Clefairy",
+          "level": 20,
+          "types": ["Fairy"]
+        }
+      ]
+    },
+    {
+      "name": "Camper Trent",
+      "team": [
+        {
+          "species": "Nidorino",
+          "level": 21,
+          "types": ["Poison"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Grass": [
+      {"dex_id": "100", "name": "Voltorb", "types": ["Electric"], "levels": "14-17", "rates": "35% Morning / Day / 20% Night"},
+      {"dex_id": "021", "name": "Spearow", "types": ["Normal", "Flying"], "levels": "13-17", "rates": "30% Morning / 25% Day"},
+      {"dex_id": "023", "name": "Ekans", "types": ["Poison"], "levels": "11-17", "rates": "15% Morning / Day / 30% Night"},
+      {"dex_id": "027", "name": "Sandshrew", "types": ["Ground"], "levels": "11-17", "rates": "15% Morning / Day"},
+      {"dex_id": "081", "name": "Magnemite", "types": ["Electric", "Steel"], "levels": "14-17", "rates": "10% Night"},
+      {"dex_id": "104", "name": "Cubone", "types": ["Ground"], "levels": "14-17", "rates": "10% Night"},
+      {"dex_id": "231", "name": "Phanpy", "types": ["Ground"], "levels": "12-15", "rates": "5% Morning / Day"}
+    ],
+    "Poké Radar": [
+      {"dex_id": "397", "name": "Klink", "types": ["Steel"], "levels": "14-17", "rates": "50% Radar"}
+    ]
+  }
+}

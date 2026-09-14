@@ -1,0 +1,63 @@
+{
+  "leader": "Giovanni",
+  "title": "The Grounded Tycoon",
+  "gym": "Viridian City Gym",
+  "badge": "Earth Badge",
+  "level_cap": 54,
+  "hard_mode_level_cap": 54,
+  "gym_duel_limit": 5,
+  "party_selection_rule": "5 vs 5 Party Selection (choose 5 Pokémon from your active party when prompted at battle start)",
+  "overview": "Giovanni is the mastermind of Team Rocket and the 8th Gym Leader of Kanto, commanding Ground, Rock, and Fighting juggernauts. Rhyperior/Lapras leads with Sandstorm and Sing while threatening dual Water and Ground coverage. Electabuzz/Dugtrio sets Light Screen and spreads paralysis with Thunder Wave. Golem/Machamp hits with colossal 126 Attack Earthquake and punishes physical strikes with Counter. Primeape/Nidoking wields dual-STAB Close Combat and Earthquake backed by Megahorn. His ace, Rhydon/Snorlax, boasts monstrous 123 HP bulk, STAB Earthquake, Rest recovery, and the OHKO move Horn Drill.",
+  "roster": [
+    {
+      "species": "Rhyperior/Lapras",
+      "level": 50,
+      "types": ["Ground", "Ice"],
+      "ability": "Shell Armor",
+      "item": "Smooth Rock",
+      "moves": ["Surf", "Bulldoze", "Sandstorm", "Sing"],
+      "tactics": "Lead weather setter. Sets Sandstorm and threatens sleep with Sing. Suffers a fatal 4x weakness to Grass moves and a 2x weakness to Fighting, Water, and Steel. Eliminate it rapidly with Grass or Fighting STAB before Sandstorm chips your team."
+    },
+    {
+      "species": "Electabuzz/Dugtrio",
+      "level": 50,
+      "types": ["Electric", "Ground"],
+      "ability": "Static",
+      "item": "Soft Sand",
+      "moves": ["Bulldoze", "Light Screen", "Thunder Wave", "Discharge"],
+      "tactics": "Blazing 115 Speed pivot. Sets Light Screen to blunt special attacks and uses Thunder Wave to cripple sweepers. Has paper-thin 52 Defense; physical Ground (Earthquake) and Water moves easily OHKO it."
+    },
+    {
+      "species": "Golem/Machamp",
+      "level": 52,
+      "types": ["Rock", "Fighting"],
+      "ability": "Rock Head",
+      "item": "Soft Sand",
+      "moves": ["Earthquake", "Dynamic Punch", "Counter", "Scary Face"],
+      "tactics": "Colossal 126 physical Attack. Counter reflects physical strikes with double damage, so do NOT attack physically unless guaranteed an OHKO. Exploit its low 71 Special Defense with special Water, Grass, or Psychic moves."
+    },
+    {
+      "species": "Primeape/Nidoking",
+      "level": 54,
+      "types": ["Fighting", "Ground"],
+      "ability": "Poison Point",
+      "item": "Soft Sand",
+      "moves": ["Earthquake", "Close Combat", "Megahorn", "Swagger"],
+      "tactics": "Fierce dual-STAB physical wallbreaker. Close Combat drops its defenses after use, making it vulnerable to revenge kills. Packs Megahorn to catch Psychic switch-ins. Flying, Psychic, Water, and Ice moves hit for super-effective damage."
+    },
+    {
+      "species": "Rhydon/Snorlax",
+      "level": 54,
+      "types": ["Ground", "Normal"],
+      "ability": "Lightning Rod",
+      "item": "Soft Sand",
+      "moves": ["Earthquake", "Rest", "Snore", "Horn Drill"],
+      "tactics": "Giovanni's 123-HP Ace tank. Earthquake deals massive damage while Rest provides full recovery. Beware Horn Drill's instant-KO potential. Ghost-type fusions are completely immune to both Normal Horn Drill/Snore and Fighting, while Water, Grass, and Fighting moves break its bulk."
+    }
+  ],
+  "starter_strategies": {
+    "bulbasaur": "Venusaur/Charizard obliterates Rhyperior/Lapras with 4x Grass STAB (Petal Dance / Solar Beam) while resisting Ground and Fighting moves. Alakazam/Weezing with Levitate is completely immune to Giovanni's Earthquakes and shreds Golem/Machamp and Primeape/Nidoking with STAB Psychic. Kingler/Primeape finishes Rhydon/Snorlax with Crabhammer and Close Combat.",
+    "charmander": "Charizard/Venusaur provides Ground immunity and resists Fighting attacks while firing super-effective Grass and Flying moves. Gyarados/Nidoking provides Intimidate support and Ground immunity, threatening huge Waterfall and Aqua Tail damage. Lapras with Ice Beam freezes Giovanni's Ground hybrids, while Snorlax sponges hits effortlessly.",
+    "squirtle": "Blastoise/Fearow provides Ground immunity and crushes Golem/Machamp, Electabuzz/Dugtrio, and Rhydon/Snorlax with Hydro Pump and Aqua Tail. Alakazam/Weezing provides Levitate Earthquake immunity and STAB Psychic sweeps against Primeape/Nidoking. Jolteon/Sandslash outspeeds and handles cleanup with Earthquake."
+  }
+}

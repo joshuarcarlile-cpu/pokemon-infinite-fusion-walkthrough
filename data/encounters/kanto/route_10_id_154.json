@@ -1,0 +1,287 @@
+{
+  "location": "Route 10 (ID 154)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "021",
+        "name": "Spearow",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "13-17",
+        "catch_rate": "255",
+        "rates": [
+          "30%",
+          "25%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "023",
+        "name": "Ekans",
+        "type1": "Poison",
+        "type2": "",
+        "levels": "11-17",
+        "catch_rate": "255",
+        "rates": [
+          "15%",
+          "15%",
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "027",
+        "name": "Sandshrew",
+        "type1": "Ground",
+        "type2": "",
+        "levels": "11-17",
+        "catch_rate": "255",
+        "rates": [
+          "15%",
+          "15%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "041",
+        "name": "Zubat",
+        "type1": "Poison",
+        "type2": "Flying",
+        "levels": "13-17",
+        "catch_rate": "255",
+        "rates": [
+          "-",
+          "-",
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "081",
+        "name": "Magnemite",
+        "type1": "Steel",
+        "type2": "Electric",
+        "levels": "14-17",
+        "catch_rate": "65",
+        "rates": [
+          "-",
+          "-",
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "100",
+        "name": "Voltorb",
+        "type1": "Electric",
+        "type2": "",
+        "levels": "14-17",
+        "catch_rate": "190",
+        "rates": [
+          "35%",
+          "39%",
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "104",
+        "name": "Cubone",
+        "type1": "Ground",
+        "type2": "",
+        "levels": "14-17",
+        "catch_rate": "190",
+        "rates": [
+          "-",
+          "-",
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "231",
+        "name": "Phanpy",
+        "type1": "Ground",
+        "type2": "",
+        "levels": "12-15",
+        "catch_rate": "120",
+        "rates": [
+          "5%",
+          "6%",
+          "-"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "dex_id": "072",
+        "name": "Tentacool",
+        "type1": "Water",
+        "type2": "Poison",
+        "levels": "5-40",
+        "catch_rate": "190",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "dex_id": "073",
+        "name": "Tentacruel",
+        "type1": "Water",
+        "type2": "Poison",
+        "levels": "35-40",
+        "catch_rate": "60",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "118",
+        "name": "Goldeen",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-35",
+        "catch_rate": "225",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "119",
+        "name": "Seaking",
+        "type1": "Water",
+        "type2": "",
+        "levels": "35-40",
+        "catch_rate": "60",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "dex_id": "060",
+        "name": "Poliwag",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5",
+        "catch_rate": "255",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5",
+        "catch_rate": "255",
+        "rates": [
+          "80%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "dex_id": "098",
+        "name": "Krabby",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-15",
+        "catch_rate": "225",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "dex_id": "116",
+        "name": "Horsea",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-15",
+        "catch_rate": "225",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-15",
+        "catch_rate": "255",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "dex_id": "054",
+        "name": "Psyduck",
+        "type1": "Water",
+        "type2": "",
+        "levels": "25-35",
+        "catch_rate": "190",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "dex_id": "079",
+        "name": "Slowpoke",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "25-35",
+        "catch_rate": "190",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "dex_id": "098",
+        "name": "Krabby",
+        "type1": "Water",
+        "type2": "",
+        "levels": "15-35",
+        "catch_rate": "225",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "dex_id": "116",
+        "name": "Horsea",
+        "type1": "Water",
+        "type2": "",
+        "levels": "15-35",
+        "catch_rate": "225",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "dex_id": "130",
+        "name": "Gyarados",
+        "type1": "Water",
+        "type2": "Flying",
+        "levels": "15-25",
+        "catch_rate": "45",
+        "rates": [
+          "16%"
+        ]
+      }
+    ],
+    "Pok\u00e9 Radar": [
+      {
+        "dex_id": "397",
+        "name": "Klink",
+        "type1": "Steel",
+        "type2": "",
+        "levels": "14-17",
+        "catch_rate": "130",
+        "rates": [
+          "50% <small>([[Pok\u00e9 Radar#How_it_works",
+          "long rustle]])</small>"
+        ]
+      }
+    ]
+  }
+}

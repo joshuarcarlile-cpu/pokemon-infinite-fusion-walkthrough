@@ -1,0 +1,66 @@
+{
+  "name": "Berry Forest Rescue & Jasmine's Duel",
+  "summary": "Step into the verdant canopy of Berry Forest. Meet Gym Leader Jasmine, who asks for your help to locate her missing nephew and his playmates lost in the woodland maze. Forage across berry bushes to harvest daily damage-reducing berries (Babiri, Chople, Shuca, Yache, Haban) and pick up TM85 Dream Eater. Locate the stranded children and confront a mischievous Level 55 static Zoroark posing as an imposter child. Defeat the illusionist, retrieve the Baneful Fox Mask from the abandoned vehicle, and return to Bond Bridge. Challenge Jasmine to a 5 vs 5 duel to win the Mineral Badge, Magnemite Hairclips, and a gift Level 30 Mareanie that scares away the Brine Road Corsola barrier.",
+  "items": [
+    {
+      "name": "Mineral Badge",
+      "method": "Awarded by Gym Leader Jasmine upon defeating her Steel team on Bond Bridge",
+      "type": "Gym Badge"
+    },
+    {
+      "name": "Mareanie",
+      "method": "Gifted by Jasmine at Level 30; scares away the Brine Road Corsola to open the Water Labyrinth",
+      "type": "Gift Pokémon"
+    },
+    {
+      "name": "Magnemite Hairclips",
+      "method": "Vanity hat awarded by Jasmine upon victory",
+      "type": "Vanity / Outfit"
+    },
+    {
+      "name": "Baneful Fox Mask",
+      "method": "Found inside the vehicle in the forest clearing",
+      "type": "Vanity / Outfit"
+    },
+    {
+      "name": "TM85 Dream Eater",
+      "method": "Resting on the table in the forest clearing",
+      "type": "Technical Machine"
+    },
+    {
+      "name": "Yache Berry",
+      "method": "Harvested from berry bushes (daily respawn)",
+      "type": "Berry"
+    },
+    {
+      "name": "Babiri Berry",
+      "method": "Harvested from berry bushes (daily respawn)",
+      "type": "Berry"
+    },
+    {
+      "name": "Shuca Berry",
+      "method": "Harvested from berry bushes (daily respawn)",
+      "type": "Berry"
+    }
+  ],
+  "trainers": [],
+  "encounters": {
+    "Static": [
+      {
+        "species": "Zoroark",
+        "level": "55",
+        "notes": "Static encounter disguised as an imposter child in Berry Forest. Illusion ability."
+      }
+    ],
+    "Grass": [
+      { "species": "Pidgeotto", "levels": "47", "rate": "15%" },
+      { "species": "Gloom", "levels": "45", "rate": "15%" },
+      { "species": "Venonat", "levels": "44", "rate": "20%" },
+      { "species": "Venomoth", "levels": "47-50", "rate": "10%" },
+      { "species": "Drowzee", "levels": "44", "rate": "20%" },
+      { "species": "Hypno", "levels": "47-55", "rate": "5%" },
+      { "species": "Exeggcute", "levels": "45", "rate": "5%" },
+      { "species": "Stantler", "levels": "50", "rate": "10%" }
+    ]
+  }
+}

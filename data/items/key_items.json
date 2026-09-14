@@ -1,0 +1,137 @@
+[
+  {
+    "id": "pokedex",
+    "name": "PokéDex",
+    "category": "Story",
+    "location": "Pallet Town",
+    "obtained_from": "Professor Oak",
+    "badge_milestone": 0,
+    "description": "Records all encountered and captured Pokémon and fusions."
+  },
+  {
+    "id": "oaks_parcel",
+    "name": "Oak's Parcel",
+    "category": "Story",
+    "location": "Viridian City Pokémart",
+    "obtained_from": "Clerk",
+    "badge_milestone": 0,
+    "description": "Must be delivered to Professor Oak in Pallet Town to obtain the PokéDex."
+  },
+  {
+    "id": "dna_splicers",
+    "name": "DNA Splicers",
+    "category": "Fusion",
+    "location": "Viridian City Pokémart / All Marts",
+    "price": 300,
+    "badge_milestone": 0,
+    "description": "Fuses two Pokémon or unfuses an existing fusion."
+  },
+  {
+    "id": "dna_reverser",
+    "name": "DNA Reverser",
+    "category": "Fusion",
+    "location": "All Marts after Gym 1 (Brock)",
+    "price": 300,
+    "badge_milestone": 1,
+    "description": "Switches the head and body of an existing fusion."
+  },
+  {
+    "id": "poke_radar",
+    "name": "Poké Radar",
+    "category": "Exploration",
+    "location": "Route 24",
+    "obtained_from": "Oak's Assistant",
+    "requirement": "Use DNA Splicers 5 times to get Exp Share, then assist on Route 24",
+    "badge_milestone": 2,
+    "description": "Reveals rare exclusive species in shaking grass after route completion."
+  },
+  {
+    "id": "bicycle",
+    "name": "Bicycle",
+    "category": "Mobility",
+    "location": "Cerulean City Bike Shop",
+    "requirement": "Bike Voucher from Pokémon Fan Club President in Vermilion City",
+    "badge_milestone": 2,
+    "description": "Enables high-speed travel on land and Cycling Road."
+  },
+  {
+    "id": "ss_ticket",
+    "name": "S.S. Ticket",
+    "category": "Story",
+    "location": "Cerulean Cape (Bill's House)",
+    "obtained_from": "Bill",
+    "badge_milestone": 2,
+    "description": "Boarding pass for the S.S. Anne cruise ship docked in Vermilion City."
+  },
+  {
+    "id": "coin_case",
+    "name": "Coin Case",
+    "category": "Utility",
+    "location": "Celadon City Café",
+    "obtained_from": "Patron",
+    "badge_milestone": 3,
+    "description": "Holds coins for the Celadon Game Corner prizes."
+  },
+  {
+    "id": "super_splicers",
+    "name": "Super Splicers",
+    "category": "Fusion",
+    "location": "All Marts after Gym 4 (Erika)",
+    "price": 1000,
+    "badge_milestone": 4,
+    "description": "Fuses Pokémon with enhanced level averaging and optimal stat inheritance."
+  },
+  {
+    "id": "silph_scope",
+    "name": "Silph Scope",
+    "category": "Story",
+    "location": "Team Rocket Hideout B4F",
+    "obtained_from": "Defeat Giovanni",
+    "badge_milestone": 4,
+    "description": "Unmasks wild ghost Pokémon in the Pokémon Tower."
+  },
+  {
+    "id": "poke_flute",
+    "name": "Poké Flute",
+    "category": "Story",
+    "location": "Pokémon Tower 7F",
+    "obtained_from": "Mr. Fuji",
+    "badge_milestone": 4,
+    "description": "Awakens sleeping Pokémon, clearing Snorlax blocking Routes 12 and 16."
+  },
+  {
+    "id": "exp_all",
+    "name": "Exp. All",
+    "category": "Training",
+    "location": "Fuchsia City East Gate 2F",
+    "obtained_from": "Oak's Assistant",
+    "requirement": "50 unique Pokémon/fusions registered in PokéDex",
+    "badge_milestone": 5,
+    "description": "Shares battle experience points with all non-fainted party members."
+  },
+  {
+    "id": "card_key",
+    "name": "Card Key",
+    "category": "Story",
+    "location": "Silph Co. 5F",
+    "badge_milestone": 5,
+    "description": "Unlocks electronic security doors throughout Silph Co. headquarters."
+  },
+  {
+    "id": "infinite_splicers",
+    "name": "Infinite Splicers",
+    "category": "Fusion",
+    "location": "Cinnabar Island Laboratory",
+    "obtained_from": "Defeat R.E.D. robot",
+    "badge_milestone": 7,
+    "description": "Reusable infinite DNA Splicer that never depletes."
+  },
+  {
+    "id": "box_link",
+    "name": "Box Link",
+    "category": "Postgame",
+    "location": "Knot Island",
+    "badge_milestone": 8,
+    "description": "Directly access PC storage boxes from anywhere in the overworld."
+  }
+]

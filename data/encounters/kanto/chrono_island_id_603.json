@@ -1,0 +1,293 @@
+{
+  "location": "Chrono Island (ID 603)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "054",
+        "name": "Psyduck",
+        "type1": "Water",
+        "type2": "",
+        "levels": "46-51",
+        "catch_rate": "190",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "079",
+        "name": "Slowpoke",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "46-51",
+        "catch_rate": "190",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "162",
+        "name": "Furret",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "55-59",
+        "catch_rate": "90",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "188",
+        "name": "Skiploom",
+        "type1": "Grass",
+        "type2": "Flying",
+        "levels": "51-54",
+        "catch_rate": "120",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "206",
+        "name": "Dunsparce",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "40-45",
+        "catch_rate": "190",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "310",
+        "name": "Absol",
+        "type1": "Dark",
+        "type2": "",
+        "levels": "50",
+        "catch_rate": "30",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "433",
+        "name": "Oricorio",
+        "type1": "Ghost",
+        "type2": "Flying",
+        "levels": "51-54",
+        "catch_rate": "45",
+        "rates": [
+          "15%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "dex_id": "116",
+        "name": "Horsea",
+        "type1": "Water",
+        "type2": "",
+        "levels": "25-30",
+        "catch_rate": "225",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "187",
+        "name": "Hoppip",
+        "type1": "Grass",
+        "type2": "Flying",
+        "levels": "20-40",
+        "catch_rate": "255",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "222",
+        "name": "Corsola",
+        "type1": "Water",
+        "type2": "Rock",
+        "levels": "40-45",
+        "catch_rate": "60",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "226",
+        "name": "Mantine",
+        "type1": "Water",
+        "type2": "Flying",
+        "levels": "50",
+        "catch_rate": "25",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "469",
+        "name": "Bruxish",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "35-45",
+        "catch_rate": "80",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "501",
+        "name": "Luvdisc",
+        "type1": "Water",
+        "type2": "",
+        "levels": "25-30",
+        "catch_rate": "225",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "dex_id": "116",
+        "name": "Horsea",
+        "type1": "Water",
+        "type2": "",
+        "levels": "10",
+        "catch_rate": "225",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "10",
+        "catch_rate": "255",
+        "rates": [
+          "70%"
+        ]
+      },
+      {
+        "dex_id": "501",
+        "name": "Luvdisc",
+        "type1": "Water",
+        "type2": "",
+        "levels": "10",
+        "catch_rate": "225",
+        "rates": [
+          "15%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "dex_id": "090",
+        "name": "Shellder",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "190",
+        "rates": [
+          "3%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "255",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "dex_id": "454",
+        "name": "Mareanie",
+        "type1": "Poison",
+        "type2": "Water",
+        "levels": "20",
+        "catch_rate": "190",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "501",
+        "name": "Luvdisc",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "225",
+        "rates": [
+          "7%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "dex_id": "090",
+        "name": "Shellder",
+        "type1": "Water",
+        "type2": "",
+        "levels": "40",
+        "catch_rate": "190",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "454",
+        "name": "Mareanie",
+        "type1": "Poison",
+        "type2": "Water",
+        "levels": "40",
+        "catch_rate": "190",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "dex_id": "455",
+        "name": "Toxapex",
+        "type1": "Poison",
+        "type2": "Water",
+        "levels": "40",
+        "catch_rate": "75",
+        "rates": [
+          "3%"
+        ]
+      },
+      {
+        "dex_id": "501",
+        "name": "Luvdisc",
+        "type1": "Water",
+        "type2": "",
+        "levels": "40",
+        "catch_rate": "225",
+        "rates": [
+          "7%"
+        ]
+      }
+    ],
+    "Pok\u00e9 Radar": [
+      {
+        "dex_id": "290",
+        "name": "Kecleon",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "45-50",
+        "catch_rate": "200",
+        "rates": [
+          "50% <small>([[Pok\u00e9 Radar#How_it_works",
+          "long rustle]])</small>"
+        ]
+      }
+    ]
+  }
+}

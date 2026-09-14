@@ -1,0 +1,131 @@
+{
+  "starter": "Charmander",
+  "name": "Team Charmander: Hydro Quakes & Thunder Dominance",
+  "archetype": "Intimidate physical breakers, blazing Electric speed, and impenetrable Thick Fat shields.",
+  "gym_duel_core": [2, 3, 4, 5],
+  "gym_duel_rationale": "Blaine's team relies heavily on Fire speed and passho-berry physical bulk. Enter his 4v4 arena with Gyarados/Nidoking (Intimidate neuters incoming physical hits while dual STAB Aqua Tail and Earthquake tear through Blaine's Fire and Rock typings), Alakazam/Raichu (115 Speed lightning sweeper that outspeeds and electrifies Charizard/Aerodactyl with STAB Thunderbolt), Primeape/Sandslash (punishing physical breaker packing 4x Rock Slide to swat down Aerodactyl splices and STAB Earthquake for Arcanine), and Snorlax (Thick Fat halving all Fire damage, serving as the ultimate fail-safe against high-power Fire Blasts).",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Charizard/Venusaur",
+      "types": ["Fire", "Grass"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 51,
+      "ability": "Blaze",
+      "held_item": "Charcoal",
+      "role": "Solar Anchor & Special Wallbreaker",
+      "current_reached_moveset": [
+        "Flamethrower",
+        "Solar Beam",
+        "Sleep Powder",
+        "Air Slash"
+      ],
+      "progression_notes": "530 BST dual Fire/Grass titan. Resists Electric and Steel while taking quarter damage from Grass. Thrives in Blaine's sunlight, firing instant Solar Beams and scorching boosted Flamethrowers."
+    },
+    {
+      "slot": 2,
+      "species": "Gyarados/Nidoking",
+      "types": ["Water", "Poison"],
+      "status": "Active in Party (Retained from Ch 6)",
+      "current_level": 50,
+      "ability": "Intimidate",
+      "held_item": "Mystic Water",
+      "role": "Intimidate Wallbreaker & Gym Duelist",
+      "current_reached_moveset": [
+        "Aqua Tail",
+        "Earth Power",
+        "Dragon Dance",
+        "Crunch"
+      ],
+      "progression_notes": "520 BST physical menace. Drops enemy Attack upon entering. STAB Aqua Tail washes out Fire leads, while STAB Earth Power crushes Magmar/Rhydon and Ninetales/Arcanine."
+    },
+    {
+      "slot": 3,
+      "species": "Alakazam/Raichu",
+      "types": ["Psychic", "Electric"],
+      "status": "Active in Party (Evolved at Lv. 40)",
+      "current_level": 50,
+      "ability": "Synchronize",
+      "held_item": "Magnet",
+      "role": "High-Velocity Electric Sweeper & Gym Duelist",
+      "current_reached_moveset": [
+        "Thunderbolt",
+        "Psychic",
+        "Calm Mind",
+        "Recover"
+      ],
+      "progression_notes": "490 BST lightning cannon with 115 Speed and 112 SpA. Fires off devastating Thunderbolts to blow away Charizard/Aerodactyl and water switch-ins while boosting with Calm Mind."
+    },
+    {
+      "slot": 4,
+      "species": "Primeape/Sandslash",
+      "types": ["Fighting", "Ground"],
+      "status": "Active in Party (Retained from Ch 6)",
+      "current_level": 50,
+      "ability": "Vital Spirit",
+      "held_item": "Soft Sand",
+      "role": "Physical Cleaner & Gym Duelist",
+      "current_reached_moveset": [
+        "Earthquake",
+        "Close Combat",
+        "Cross Chop",
+        "Swords Dance"
+      ],
+      "progression_notes": "480 BST physical cleaner. Immune to sleep. STAB Earthquake tears through Blaine's grounded Fire mons, while Close Combat and Cross Chop shatter heavy targets."
+    },
+    {
+      "slot": 5,
+      "species": "Snorlax",
+      "types": ["Normal"],
+      "status": "Active in Party (Retained from Ch 6)",
+      "current_level": 49,
+      "ability": "Thick Fat",
+      "held_item": "Leftovers",
+      "role": "Thick Fat Sponge & Gym Duelist",
+      "current_reached_moveset": [
+        "Body Slam",
+        "Heavy Slam",
+        "Crunch",
+        "Rest"
+      ],
+      "progression_notes": "540 BST behemoth. Thick Fat halves all Fire-type attacks, allowing it to shrug off Blaine's strongest Charcoal-boosted Fire Blasts with effortless ease."
+    },
+    {
+      "slot": 6,
+      "species": "Lapras",
+      "types": ["Water", "Ice"],
+      "status": "Active in Party (Retained from Ch 6)",
+      "current_level": 48,
+      "ability": "Water Absorb",
+      "held_item": "Never-Melt Ice",
+      "role": "Water Artillery",
+      "current_reached_moveset": [
+        "Hydro Pump",
+        "Ice Beam",
+        "Body Slam",
+        "Confuse Ray"
+      ],
+      "progression_notes": "535 BST bulky tank. Water Absorb gives total immunity to water, while heavy Hydro Pumps provide brutal super-effective pressure."
+    }
+  ],
+  "flex_bench": [
+    {
+      "species": "Pidgeot",
+      "types": ["Normal", "Flying"],
+      "role": "Aerial Pivot",
+      "rationale": "Keen Eye aerial pivot with Tailwind and Wing Attack (Pidgey family)."
+    },
+    {
+      "species": "Weezing",
+      "types": ["Poison"],
+      "role": "Levitate Physical Wall",
+      "rationale": "Levitate Ground-immune physical sponge with Sludge Bomb (Koffing family)."
+    },
+    {
+      "species": "Hitmonchan",
+      "types": ["Fighting"],
+      "role": "Iron Fist Technician",
+      "rationale": "Iron Fist elemental punch technician from Fighting Dojo (Tyrogue family)."
+    }
+  ]
+}

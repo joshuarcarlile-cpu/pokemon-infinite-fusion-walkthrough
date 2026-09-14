@@ -1,0 +1,891 @@
+{
+  "title": "Legendary Pok\u00e9mon",
+  "pageid": 181,
+  "revid": 19896,
+  "text": {
+    "*": "<div class=\"mw-content-ltr mw-parser-output\" lang=\"en\" dir=\"ltr\"><p>There are currently 35 legendaries (including mythics) that can be caught in <i>Pok\u00e9mon Infinite Fusion</i>. Excluding the Kanto legendary birds, Entei, Mew, Jirachi, Meloetta, Cresselia, Darkrai, and Diancie, these Pok\u00e9mon can only be obtained during the post-game (outside of <a href=\"/wiki/Randomized_Mode\" title=\"Randomized Mode\">Randomized Mode</a>).\n</p><p>This page details the methods to obtain them. \n</p><p><i><b><u>Warning</u>: This page contains spoilers about the main story.</b></i>\n</p>\n<div id=\"toc\" class=\"toc\" role=\"navigation\" aria-labelledby=\"mw-toc-heading\"><input type=\"checkbox\" role=\"button\" id=\"toctogglecheckbox\" class=\"toctogglecheckbox\" style=\"display:none\" /><div class=\"toctitle\" lang=\"en\" dir=\"ltr\"><h2 id=\"mw-toc-heading\">Contents</h2><span class=\"toctogglespan\"><label class=\"toctogglelabel\" for=\"toctogglecheckbox\"></label></span></div>\n<ul>\n<li class=\"toclevel-1 tocsection-1\"><a href=\"#Respawning_Legendaries\"><span class=\"tocnumber\">1</span> <span class=\"toctext\">Respawning Legendaries</span></a>\n<ul>\n<li class=\"toclevel-2 tocsection-2\"><a href=\"#Defeating_the_Elite_Four_Pok\u00e9mon_Champion\"><span class=\"tocnumber\">1.1</span> <span class=\"toctext\">Defeating the Elite Four Pok\u00e9mon Champion</span></a></li>\n<li class=\"toclevel-2 tocsection-3\"><a href=\"#Clearing_Mt._Silver\"><span class=\"tocnumber\">1.2</span> <span class=\"toctext\">Clearing Mt. Silver</span></a></li>\n</ul>\n</li>\n<li class=\"toclevel-1 tocsection-4\"><a href=\"#Obtainable_Legendaries\"><span class=\"tocnumber\">2</span> <span class=\"toctext\">Obtainable Legendaries</span></a>\n<ul>\n<li class=\"toclevel-2 tocsection-5\"><a href=\"#Articuno\"><span class=\"tocnumber\">2.1</span> <span class=\"toctext\">Articuno</span></a></li>\n<li class=\"toclevel-2 tocsection-6\"><a href=\"#Zapdos\"><span class=\"tocnumber\">2.2</span> <span class=\"toctext\">Zapdos</span></a></li>\n<li class=\"toclevel-2 tocsection-7\"><a href=\"#Moltres\"><span class=\"tocnumber\">2.3</span> <span class=\"toctext\">Moltres</span></a></li>\n<li class=\"toclevel-2 tocsection-8\"><a href=\"#Mewtwo\"><span class=\"tocnumber\">2.4</span> <span class=\"toctext\">Mewtwo</span></a></li>\n<li class=\"toclevel-2 tocsection-9\"><a href=\"#Mew\"><span class=\"tocnumber\">2.5</span> <span class=\"toctext\">Mew</span></a></li>\n<li class=\"toclevel-2 tocsection-10\"><a href=\"#Entei\"><span class=\"tocnumber\">2.6</span> <span class=\"toctext\">Entei</span></a></li>\n<li class=\"toclevel-2 tocsection-11\"><a href=\"#Raikou_/_Suicune\"><span class=\"tocnumber\">2.7</span> <span class=\"toctext\">Raikou / Suicune</span></a></li>\n<li class=\"toclevel-2 tocsection-12\"><a href=\"#Ho-Oh_/_Lugia\"><span class=\"tocnumber\">2.8</span> <span class=\"toctext\">Ho-Oh / Lugia</span></a></li>\n<li class=\"toclevel-2 tocsection-13\"><a href=\"#Celebi\"><span class=\"tocnumber\">2.9</span> <span class=\"toctext\">Celebi</span></a></li>\n<li class=\"toclevel-2 tocsection-14\"><a href=\"#Groudon\"><span class=\"tocnumber\">2.10</span> <span class=\"toctext\">Groudon</span></a></li>\n<li class=\"toclevel-2 tocsection-15\"><a href=\"#Kyogre\"><span class=\"tocnumber\">2.11</span> <span class=\"toctext\">Kyogre</span></a></li>\n<li class=\"toclevel-2 tocsection-16\"><a href=\"#Rayquaza\"><span class=\"tocnumber\">2.12</span> <span class=\"toctext\">Rayquaza</span></a></li>\n<li class=\"toclevel-2 tocsection-17\"><a href=\"#Regigigas_/_Regirock_/_Registeel_/_Regice\"><span class=\"tocnumber\">2.13</span> <span class=\"toctext\">Regigigas / Regirock / Registeel / Regice</span></a></li>\n<li class=\"toclevel-2 tocsection-18\"><a href=\"#Dialga_/_Palkia_/_Giratina\"><span class=\"tocnumber\">2.14</span> <span class=\"toctext\">Dialga / Palkia / Giratina</span></a></li>\n<li class=\"toclevel-2 tocsection-19\"><a href=\"#Darkrai/Cresselia\"><span class=\"tocnumber\">2.15</span> <span class=\"toctext\">Darkrai/Cresselia</span></a>\n<ul>\n<li class=\"toclevel-3 tocsection-20\"><a href=\"#The_Cresselia_Path\"><span class=\"tocnumber\">2.15.1</span> <span class=\"toctext\">The Cresselia Path</span></a></li>\n<li class=\"toclevel-3 tocsection-21\"><a href=\"#The_Darkrai_Path\"><span class=\"tocnumber\">2.15.2</span> <span class=\"toctext\">The Darkrai Path</span></a></li>\n</ul>\n</li>\n<li class=\"toclevel-2 tocsection-22\"><a href=\"#Arceus\"><span class=\"tocnumber\">2.16</span> <span class=\"toctext\">Arceus</span></a></li>\n<li class=\"toclevel-2 tocsection-23\"><a href=\"#Genesect\"><span class=\"tocnumber\">2.17</span> <span class=\"toctext\">Genesect</span></a></li>\n<li class=\"toclevel-2 tocsection-24\"><a href=\"#Reshiram_/_Zekrom\"><span class=\"tocnumber\">2.18</span> <span class=\"toctext\">Reshiram / Zekrom</span></a></li>\n<li class=\"toclevel-2 tocsection-25\"><a href=\"#Kyurem\"><span class=\"tocnumber\">2.19</span> <span class=\"toctext\">Kyurem</span></a></li>\n<li class=\"toclevel-2 tocsection-26\"><a href=\"#Latias_/_Latios\"><span class=\"tocnumber\">2.20</span> <span class=\"toctext\">Latias / Latios</span></a></li>\n<li class=\"toclevel-2 tocsection-27\"><a href=\"#Deoxys\"><span class=\"tocnumber\">2.21</span> <span class=\"toctext\">Deoxys</span></a></li>\n<li class=\"toclevel-2 tocsection-28\"><a href=\"#Jirachi\"><span class=\"tocnumber\">2.22</span> <span class=\"toctext\">Jirachi</span></a></li>\n<li class=\"toclevel-2 tocsection-29\"><a href=\"#Necrozma\"><span class=\"tocnumber\">2.23</span> <span class=\"toctext\">Necrozma</span></a></li>\n<li class=\"toclevel-2 tocsection-30\"><a href=\"#Meloetta\"><span class=\"tocnumber\">2.24</span> <span class=\"toctext\">Meloetta</span></a></li>\n<li class=\"toclevel-2 tocsection-31\"><a href=\"#Diancie\"><span class=\"tocnumber\">2.25</span> <span class=\"toctext\">Diancie</span></a></li>\n</ul>\n</li>\n<li class=\"toclevel-1 tocsection-32\"><a href=\"#References\"><span class=\"tocnumber\">3</span> <span class=\"toctext\">References</span></a></li>\n</ul>\n</div>\n\n<h2><span class=\"mw-headline\" id=\"Respawning_Legendaries\">Respawning Legendaries</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"Sign in to edit\" class=\"mw-editsection-visualeditor\" data-tracking-label=\"log-in-edit-section\" data-action=\"edit-section\" href=\"https://auth.fandom.com/signin?redirect=https%3A%2F%2Finfinitefusion.fandom.com%2Fwiki%2FLegendary_Pok%25C3%25A9mon%3Fveaction%3Dedit%26section%3D1&amp;uselang=en&amp;metadata=article-registration-edit-article-section\" data-testid=\"log-in-edit-section\" aria-label=\"Sign in to edit\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p>Legendary Pok\u00e9mon will disappear if defeated, caught or the player runs away. There are two ways to cause certain legendaries to respawn:\n</p>\n<h3><span id=\"Defeating_the_Elite_Four_Pok.C3.A9mon_Champion\"></span><span class=\"mw-headline\" id=\"Defeating_the_Elite_Four_Pok\u00e9mon_Champion\">Defeating the Elite Four Pok\u00e9mon Champion</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"Sign in to edit\" class=\"mw-editsection-visualeditor\" data-tracking-label=\"log-in-edit-section\" data-action=\"edit-section\" href=\"https://auth.fandom.com/signin?redirect=https%3A%2F%2Finfinitefusion.fandom.com%2Fwiki%2FLegendary_Pok%25C3%25A9mon%3Fveaction%3Dedit%26section%3D2&amp;uselang=en&amp;metadata=article-registration-edit-article-section\" data-testid=\"log-in-edit-section\" aria-label=\"Sign in to edit\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<p><b>This only works</b> if you defeated or ran away from the Legendary. The following legendaries will reappear after defeating the <a href=\"/wiki/Elite_Four\" title=\"Elite Four\">Elite 4 Pok\u00e9mon Champion</a> for a second and all subsequent times, until caught:\n</p>\n<ul><li>Articuno</li>\n<li>Zapdos</li>\n<li>Moltres</li>\n<li>Mew</li>\n<li>Mewtwo</li>\n<li>Ho-gia (Ho-oh/Lugia fusion) <b>*</b></li>\n<li>Rayquaza</li>\n<li>Kyogre</li>\n<li>Groudon</li>\n<li>Genesect</li>\n<li>Kyurem</li>\n<li>Reshirom (Reshiram/Zekrom fusion)</li>\n<li>Dialga</li>\n<li>Palkia</li>\n<li>Giratina</li>\n<li>Regigigas</li>\n<li>Regi (Ice/Steel)</li>\n<li>Regi (Rock/Ice)</li>\n<li>Regi (Steel/Rock)</li>\n<li>Cresselia</li>\n<li>Darkrai</li>\n<li>Necrozma</li></ul>\n<p>While not being a Legendary, Rotom also respawns under the same conditions.\n</p>\n<h3><span class=\"mw-headline\" id=\"Clearing_Mt._Silver\">Clearing Mt. Silver</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"Sign in to edit\" class=\"mw-editsection-visualeditor\" data-tracking-label=\"log-in-edit-section\" data-action=\"edit-section\" href=\"https://auth.fandom.com/signin?redirect=https%3A%2F%2Finfinitefusion.fandom.com%2Fwiki%2FLegendary_Pok%25C3%25A9mon%3Fveaction%3Dedit%26section%3D3&amp;uselang=en&amp;metadata=article-registration-edit-article-section\" data-testid=\"log-in-edit-section\" aria-label=\"Sign in to edit\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<p>Certain legendaries will reappear after defeating Gold on <a href=\"/wiki/Mt._Silver_Summit\" title=\"Mt. Silver Summit\">Mt. Silver</a> for the 1st time you defeat Gold regardless of whether they had previously been caught or defeated. \n</p><p>We recommend doing this after you've already caught the initial encounter of the Legendary. This essentially gives you a 2nd copy of the Pok\u00e9mon below.\n</p>\n<ul><li>Articuno</li>\n<li>Zapdos</li>\n<li>Moltres</li>\n<li>Mew</li>\n<li>Raicune</li>\n<li>Entei</li>\n<li>Ho-oh/Lugia*</li>\n<li>Mewtwo</li>\n<li>Darkrai</li>\n<li>Cresselia</li></ul>\n<p><i><b>*</b>requires both defeating the Pok\u00e9mon Champion and Gold.</i>\n</p><p><i>-Note: Any legendaries not listed above will not respawn once defeated; the player must start a new game or use <a href=\"/wiki/Wonder_Trade\" title=\"Wonder Trade\">Wonder Trade</a> or the <a href=\"/wiki/Celadon_City_Black_Market\" title=\"Celadon City Black Market\">Celadon City Black Market</a> in order to obtain them-</i>\n</p>\n<h2><span class=\"mw-headline\" id=\"Obtainable_Legendaries\">Obtainable Legendaries</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"Sign in to edit\" class=\"mw-editsection-visualeditor\" data-tracking-label=\"log-in-edit-section\" data-action=\"edit-section\" href=\"https://auth.fandom.com/signin?redirect=https%3A%2F%2Finfinitefusion.fandom.com%2Fwiki%2FLegendary_Pok%25C3%25A9mon%3Fveaction%3Dedit%26section%3D4&amp;uselang=en&amp;metadata=article-registration-edit-article-section\" data-testid=\"log-in-edit-section\" aria-label=\"Sign in to edit\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<h3><span class=\"mw-headline\" id=\"Articuno\">Articuno</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"Sign in to edit\" class=\"mw-editsection-visualeditor\" data-tracking-label=\"log-in-edit-section\" data-action=\"edit-section\" href=\"https://auth.fandom.com/signin?redirect=https%3A%2F%2Finfinitefusion.fandom.com%2Fwiki%2FLegendary_Pok%25C3%25A9mon%3Fveaction%3Dedit%26section%3D5&amp;uselang=en&amp;metadata=article-registration-edit-article-section\" data-testid=\"log-in-edit-section\" aria-label=\"Sign in to edit\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"article-table\" border=\"1\">\n<tbody><tr>\n<th>Location\n</th>\n<td><a href=\"/wiki/Seafoam_Islands\" title=\"Seafoam Islands\">Seafoam Island (Route 20)</a>\n</td></tr>\n<tr>\n<th>HMs Needed\n</th>\n<td><a href=\"/wiki/List_of_TMs\" title=\"List of TMs\">Surf</a>\n</td></tr>\n<tr>\n<th>Level\n</th>\n<td>50\n</td></tr>\n<tr>\n<th>Requirement:\n</th>\n<td>Ice Pick from <a href=\"/wiki/Mt._Ember\" title=\"Mt. Ember\">Mt. Ember</a>\n</td></tr></tbody></table>\n<p>During the Team Rocket event in <a href=\"/wiki/Cinnabar_Island\" title=\"Cinnabar Island\">Cinnabar Island</a>, after beating Giovanni and the <a href=\"/wiki/Triple_Fusions\" title=\"Triple Fusions\">fused birds</a>. You will find the Ice Pick in front of where Moltres was, which you can use to climb the ice wall in Seafoam Island to reach Articuno.\n</p>\n<h3><span class=\"mw-headline\" id=\"Zapdos\">Zapdos</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"Sign in to edit\" class=\"mw-editsection-visualeditor\" data-tracking-label=\"log-in-edit-section\" data-action=\"edit-section\" href=\"https://auth.fandom.com/signin?redirect=https%3A%2F%2Finfinitefusion.fandom.com%2Fwiki%2FLegendary_Pok%25C3%25A9mon%3Fveaction%3Dedit%26section%3D6&amp;uselang=en&amp;metadata=article-registration-edit-article-section\" data-testid=\"log-in-edit-section\" aria-label=\"Sign in to edit\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"article-table\" border=\"1\">\n<tbody><tr>\n<th>Location\n</th>\n<td><a href=\"/wiki/Power_Plant\" title=\"Power Plant\">Power Plant</a>\n</td></tr>\n<tr>\n<th>HMs Needed\n</th>\n<td>None\n</td></tr>\n<tr>\n<th>Level\n</th>\n<td>50\n</td></tr>\n<tr>\n<th>Requirement\n</th>\n<td>Power Plant Access Key from <a href=\"/wiki/Mt._Ember\" title=\"Mt. Ember\">Mt. Ember</a>\n</td></tr></tbody></table>\n<p>During the Team Rocket event in <a href=\"/wiki/Cinnabar_Island\" title=\"Cinnabar Island\">Cinnabar Island</a>, after beating Giovanni and the fused birds. You will find the Power Plant Access Key in front of where Moltres was, which can be used inside the power plant north of rock tunnel to unlock a door blocking the way to the Power Plant's basement. Beyond the first door, you will need to collect several Cell Batteries to power a second door that's blocking the way to Zapdos.\n</p>\n<h3><span class=\"mw-headline\" id=\"Moltres\">Moltres</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"Sign in to edit\" class=\"mw-editsection-visualeditor\" data-tracking-label=\"log-in-edit-section\" data-action=\"edit-section\" href=\"https://auth.fandom.com/signin?redirect=https%3A%2F%2Finfinitefusion.fandom.com%2Fwiki%2FLegendary_Pok%25C3%25A9mon%3Fveaction%3Dedit%26section%3D7&amp;uselang=en&amp;metadata=article-registration-edit-article-section\" data-testid=\"log-in-edit-section\" aria-label=\"Sign in to edit\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"article-table\" border=\"1\">\n<tbody><tr>\n<th>Location\n</th>\n<td><a href=\"/wiki/Mt._Ember\" title=\"Mt. Ember\">Mt. Ember</a>\n</td></tr>\n<tr>\n<th>HMs Needed\n</th>\n<td>Surf, Strength\n</td></tr>\n<tr>\n<th>Level\n</th>\n<td>50\n</td></tr></tbody></table>\n<p>During the Team Rocket event in Cinnabar Island, after beating Giovanni and the fused birds, Moltres will return to its original spot. After getting a message saying that it's looking at you intensely, it can be challenged to a battle any time.\n</p>\n<h3><span class=\"mw-headline\" id=\"Mewtwo\">Mewtwo</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"Sign in to edit\" class=\"mw-editsection-visualeditor\" data-tracking-label=\"log-in-edit-section\" data-action=\"edit-section\" href=\"https://auth.fandom.com/signin?redirect=https%3A%2F%2Finfinitefusion.fandom.com%2Fwiki%2FLegendary_Pok%25C3%25A9mon%3Fveaction%3Dedit%26section%3D8&amp;uselang=en&amp;metadata=article-registration-edit-article-section\" data-testid=\"log-in-edit-section\" aria-label=\"Sign in to edit\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"article-table\" border=\"1\">\n<tbody><tr>\n<th>Location\n</th>\n<td><a href=\"/wiki/Cerulean_Cave\" title=\"Cerulean Cave\">Cerulean Cave</a>\n</td></tr>\n<tr>\n<th>HMs Needed\n</th>\n<td>Surf, Waterfall, Flash\n</td></tr>\n<tr>\n<th>Level\n</th>\n<td>60\n</td></tr></tbody></table>\n<p>After beating the game, Professor Oak will ask you to go talk to his colleague, Professor Elm in New Bark Town. If you have obtained at least 2 Johto badges, Professor Elm will give you HM05 Waterfall, which allows you to enter Cerulean Cave. Mewtwo is found at the very end.\n</p>\n<h3><span class=\"mw-headline\" id=\"Mew\">Mew</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"Sign in to edit\" class=\"mw-editsection-visualeditor\" data-tracking-label=\"log-in-edit-section\" data-action=\"edit-section\" href=\"https://auth.fandom.com/signin?redirect=https%3A%2F%2Finfinitefusion.fandom.com%2Fwiki%2FLegendary_Pok%25C3%25A9mon%3Fveaction%3Dedit%26section%3D9&amp;uselang=en&amp;metadata=article-registration-edit-article-section\" data-testid=\"log-in-edit-section\" aria-label=\"Sign in to edit\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"article-table\" border=\"1\">\n<tbody><tr>\n<th>Location\n</th>\n<td><a href=\"/wiki/Mt._Moon_Summit\" title=\"Mt. Moon Summit\">Mt. Moon Summit</a>\n</td></tr>\n<tr>\n<th>HMs Needed\n</th>\n<td>Strength\n</td></tr>\n<tr>\n<th>Level\n</th>\n<td>30\n</td></tr>\n<tr>\n<th>Requirements\n</th>\n<td>20+ Karma\n</td></tr></tbody></table>\n<p>If the player has at least 20 <a href=\"/wiki/Karma\" title=\"Karma\">Karma</a> and has found all 8 Constellations. Mew can be encountered by using the telescope in the Mt. Moon observatory and moving the center dot to collide with the Mew that spawns. if you don't see Mew, but hear its cry, that means you need more Positive Karma.\n</p>\n<h3><span class=\"mw-headline\" id=\"Entei\">Entei</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"Sign in to edit\" class=\"mw-editsection-visualeditor\" data-tracking-label=\"log-in-edit-section\" data-action=\"edit-section\" href=\"https://auth.fandom.com/signin?redirect=https%3A%2F%2Finfinitefusion.fandom.com%2Fwiki%2FLegendary_Pok%25C3%25A9mon%3Fveaction%3Dedit%26section%3D10&amp;uselang=en&amp;metadata=article-registration-edit-article-section\" data-testid=\"log-in-edit-section\" aria-label=\"Sign in to edit\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"article-table\" border=\"1\">\n<tbody><tr>\n<th>Location\n</th>\n<td><a href=\"/wiki/Victory_Road\" title=\"Victory Road\">Victory Road</a>\n</td>\n<td>Roaming (Johto)\n</td></tr>\n<tr>\n<th>HMs Needed\n</th>\n<td>Strength\n</td>\n<td>None\n</td></tr>\n<tr>\n<th>Level\n</th>\n<td>45\n</td>\n<td>45\n</td></tr>\n<tr>\n<th>Requirements\n</th>\n<td>None\n</td>\n<td>Defeat Entei in Victory Road instead of catching it.\n</td></tr></tbody></table>\n<p>Entei can be encountered on the second floor of Victory Road. If it is defeated, it will start roaming around the Johto region. When roaming, it can be tracked using the Weather Tracker obtained at the Ruins of Alph; it will cause sunny weather at its current location.\n</p>\n<h3><span id=\"Raikou_.2F_Suicune\"></span><span class=\"mw-headline\" id=\"Raikou_/_Suicune\">Raikou / Suicune</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"Sign in to edit\" class=\"mw-editsection-visualeditor\" data-tracking-label=\"log-in-edit-section\" data-action=\"edit-section\" href=\"https://auth.fandom.com/signin?redirect=https%3A%2F%2Finfinitefusion.fandom.com%2Fwiki%2FLegendary_Pok%25C3%25A9mon%3Fveaction%3Dedit%26section%3D11&amp;uselang=en&amp;metadata=article-registration-edit-article-section\" data-testid=\"log-in-edit-section\" aria-label=\"Sign in to edit\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"article-table\" border=\"1\">\n<tbody><tr>\n<th>Location\n</th>\n<td>Roaming (Johto)\n</td></tr>\n<tr>\n<th>HMs Needed\n</th>\n<td>None\n</td></tr>\n<tr>\n<th>Level\n</th>\n<td>50\n</td></tr></tbody></table>\n<p>Raikou and Suicune are fused together as Raicune when you encounter them.&#160;\n</p><p>When you enter Violet City, you will encounter Eusine, who says he has been tracking a legendary Pok\u00e9mon. Follow him to the Ruins of Alph go down the basement of chamber A to find Raicune at the end. It will flee and start roaming around Johto. You can speak to a scientist in the ruins of Alph to obtain a Weather Tracker to track it more easily; it will cause a storm at its current location.\n</p>\n<h3><span id=\"Ho-Oh_.2F_Lugia\"></span><span class=\"mw-headline\" id=\"Ho-Oh_/_Lugia\">Ho-Oh / Lugia</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"Sign in to edit\" class=\"mw-editsection-visualeditor\" data-tracking-label=\"log-in-edit-section\" data-action=\"edit-section\" href=\"https://auth.fandom.com/signin?redirect=https%3A%2F%2Finfinitefusion.fandom.com%2Fwiki%2FLegendary_Pok%25C3%25A9mon%3Fveaction%3Dedit%26section%3D12&amp;uselang=en&amp;metadata=article-registration-edit-article-section\" data-testid=\"log-in-edit-section\" aria-label=\"Sign in to edit\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"article-table\" border=\"1\">\n<tbody><tr>\n<th>Location\n</th>\n<td><a href=\"/wiki/Navel_Rock\" title=\"Navel Rock\">Navel Rock</a>\n</td></tr>\n<tr>\n<th>HMs Needed\n</th>\n<td>Surf, Waterfall\n</td></tr>\n<tr>\n<th>Level\n</th>\n<td>60\n</td></tr></tbody></table>\n<p>Lugia and Ho-Oh are fused together as Ho-Gia when you encounter them.\n</p><p>On Boon Island, one of the residents tells you about Navel Rock. After speaking to him, go north to find Chuck. Defeat him and he will give you the Navel Ticket. Then show the pass to the sailor in the harbor and he will agree to take you to Navel Rock. Climb to the top to encounter Ho-Gia.\n</p>\n<h3><span class=\"mw-headline\" id=\"Celebi\">Celebi</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"Sign in to edit\" class=\"mw-editsection-visualeditor\" data-tracking-label=\"log-in-edit-section\" data-action=\"edit-section\" href=\"https://auth.fandom.com/signin?redirect=https%3A%2F%2Finfinitefusion.fandom.com%2Fwiki%2FLegendary_Pok%25C3%25A9mon%3Fveaction%3Dedit%26section%3D13&amp;uselang=en&amp;metadata=article-registration-edit-article-section\" data-testid=\"log-in-edit-section\" aria-label=\"Sign in to edit\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"article-table\" border=\"1\">\n<tbody><tr>\n<th>Location\n</th>\n<td><a href=\"/wiki/Ilex_Forest\" title=\"Ilex Forest\">Ilex Forest</a>\n</td></tr>\n<tr>\n<th>HMs Needed\n</th>\n<td>None\n</td></tr>\n<tr>\n<th>Level\n</th>\n<td>30\n</td></tr>\n<tr>\n<th>Requirement\n</th>\n<td>Have the GS Ball in your inventory\n</td></tr></tbody></table>\n<p>After completing 50 hotel quests, the man on the top floor of hotels will give you the GS Ball. Place it in the shrine in Ilex Forest to encounter Celebi.\n</p>\n<h3><span class=\"mw-headline\" id=\"Groudon\">Groudon</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"Sign in to edit\" class=\"mw-editsection-visualeditor\" data-tracking-label=\"log-in-edit-section\" data-action=\"edit-section\" href=\"https://auth.fandom.com/signin?redirect=https%3A%2F%2Finfinitefusion.fandom.com%2Fwiki%2FLegendary_Pok%25C3%25A9mon%3Fveaction%3Dedit%26section%3D14&amp;uselang=en&amp;metadata=article-registration-edit-article-section\" data-testid=\"log-in-edit-section\" aria-label=\"Sign in to edit\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"article-table\" border=\"1\">\n<tbody><tr>\n<th>Location\n</th>\n<td><a href=\"/wiki/Ruby_Chamber\" title=\"Ruby Chamber\">Ruby Chamber</a> at <a href=\"/wiki/Mt._Ember\" title=\"Mt. Ember\">Mt. Ember</a>\n</td></tr>\n<tr>\n<th>HMs Needed\n</th>\n<td>Surf, Dive\n</td></tr>\n<tr>\n<th>Level\n</th>\n<td>60\n</td></tr></tbody></table>\n<p>Climb up Mt. Ember and enter the Ruby Chamber. A NPC will give you some heat-protection cream in exchange for a Fire Gem, which you can find in the Cinnabar Pok\u00e9 Mart. This will allow you to explore deeper in the cave. Next, you will need to find a ruby. To find it go right, left, right. When taking the ladders. Once you have the ruby, go back up the ladders till you are back to the beginning. Then to get to groudon, take the ladders in this order: left, right, left. When at the bottom, walk up to the lava pool and interact with it. This will start the groudon encounter. After the encounter, a portal will be open that takes you back to the top of Mt. Ember.\n</p><p><b>Warning: There will be a red hue over the screen during all of this.</b>\n</p>\n<h3><span class=\"mw-headline\" id=\"Kyogre\">Kyogre</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"Sign in to edit\" class=\"mw-editsection-visualeditor\" data-tracking-label=\"log-in-edit-section\" data-action=\"edit-section\" href=\"https://auth.fandom.com/signin?redirect=https%3A%2F%2Finfinitefusion.fandom.com%2Fwiki%2FLegendary_Pok%25C3%25A9mon%3Fveaction%3Dedit%26section%3D15&amp;uselang=en&amp;metadata=article-registration-edit-article-section\" data-testid=\"log-in-edit-section\" aria-label=\"Sign in to edit\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"article-table\" border=\"1\">\n<tbody><tr>\n<th>Location\n</th>\n<td><a href=\"/wiki/Sapphire_Cave\" title=\"Sapphire Cave\">Sapphire Cave</a> in <a href=\"/wiki/Deep_Sea\" title=\"Deep Sea\">Deep Sea</a> (Sevii Islands)\n</td></tr>\n<tr>\n<th>HMs Needed\n</th>\n<td>Surf, Dive, Flash\n</td></tr>\n<tr>\n<th>Level\n</th>\n<td>60\n</td></tr></tbody></table>\n<p>Go to the Deep Ocean, South of Brine Road and use Dive on the diving spot. You can dive deeper by going down the crevice in the middle. Keep in mind the deeper you go down the darker the rooms get, you will need to use flash to see. To start, you will need to find a sapphire. The path for it will be, right, right, then lastly down. After you have gotten the sapphire, you'll need to get to Sapphire Cave. Start by going back the first cave under the crevice, then take this path right, left, down, then lastly far right (there are three entrances). Once in the cave you find Kyogre, talking to it will start the encounter. After the encounter, a portal will be open that takes you back to the entrance of the Deep Sea.\n</p>\n<h3><span class=\"mw-headline\" id=\"Rayquaza\">Rayquaza</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"Sign in to edit\" class=\"mw-editsection-visualeditor\" data-tracking-label=\"log-in-edit-section\" data-action=\"edit-section\" href=\"https://auth.fandom.com/signin?redirect=https%3A%2F%2Finfinitefusion.fandom.com%2Fwiki%2FLegendary_Pok%25C3%25A9mon%3Fveaction%3Dedit%26section%3D16&amp;uselang=en&amp;metadata=article-registration-edit-article-section\" data-testid=\"log-in-edit-section\" aria-label=\"Sign in to edit\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"article-table\" border=\"1\">\n<tbody><tr>\n<th>Location\n</th>\n<td><a href=\"/wiki/Sky_Pillar\" title=\"Sky Pillar\">Sky Pillar</a>\n</td></tr>\n<tr>\n<th>HMs Needed\n</th>\n<td>None\n</td></tr>\n<tr>\n<th>Level\n</th>\n<td>70\n</td></tr>\n<tr>\n<th>Requirement\n</th>\n<td>Encounter Kyogre and Groudon\n</td></tr></tbody></table>\n<p>Once you have encountered both Groudon and Kyogre, talk to one of the residents on Kin Island. Follow him to the harbor and he will take you to Sky Pillar. Navigate to the top of the tower and encounter Rayquaza. (Unlike Ruby, Sapphire, and Emerald, the Bicycle is not required to navigate the tower.)\n</p>\n<h3><span id=\"Regigigas_.2F_Regirock_.2F_Registeel_.2F_Regice\"></span><span class=\"mw-headline\" id=\"Regigigas_/_Regirock_/_Registeel_/_Regice\">Regigigas / Regirock / Registeel / Regice</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"Sign in to edit\" class=\"mw-editsection-visualeditor\" data-tracking-label=\"log-in-edit-section\" data-action=\"edit-section\" href=\"https://auth.fandom.com/signin?redirect=https%3A%2F%2Finfinitefusion.fandom.com%2Fwiki%2FLegendary_Pok%25C3%25A9mon%3Fveaction%3Dedit%26section%3D17&amp;uselang=en&amp;metadata=article-registration-edit-article-section\" data-testid=\"log-in-edit-section\" aria-label=\"Sign in to edit\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"article-table\" border=\"1\">\n<tbody><tr>\n<th>Location\n</th>\n<td><a href=\"/wiki/Submerged_Temple\" title=\"Submerged Temple\">Submerged Temple</a>\n</td></tr>\n<tr>\n<th>HMs Needed\n</th>\n<td>Surf, Dive, Strength\n</td></tr>\n<tr>\n<th>Level\n</th>\n<td>60\n</td></tr></tbody></table>\n<p>Starting from Chrono Island, make your way through the Water Labyrinth to the diving spot in the middle. Use Dive to get underwater. While you are underwater, you will find a temple the entrance is blocked by rocks, so you go east and get through the a hole. You will need to use Strength to push the boulders. While you push the boulder, you will get chased by a Sharpedo. If you get caught you will be kicked outside. To avoid it, you need to get to the hole on the wall. on the first hole you will get an item. On the second hole, you don't want to go too far because there is a sharpedo in the end of the room. On the third hole there is nothing. On the fourth hole you will get into the Submerged temple. \n</p><p>You can get a Regi plate on the west hole. The regi tablet is used to translate the carved wall in the submerged temple. In the temple, there are three doors. Each door can only be opened by a Steel/Rock, Rock/Ice, and Ice/Steel Pok\u00e9mon. Each door will lead you to sealed chamber, you will need to solve the puzzle on each sealed chamber get Regirock, Registeel, Regice. You will need to encounter all of them to open a hole that leads to Regigigas.\n</p>\n<h3><span id=\"Dialga_.2F_Palkia_.2F_Giratina\"></span><span class=\"mw-headline\" id=\"Dialga_/_Palkia_/_Giratina\">Dialga / Palkia / Giratina</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"Sign in to edit\" class=\"mw-editsection-visualeditor\" data-tracking-label=\"log-in-edit-section\" data-action=\"edit-section\" href=\"https://auth.fandom.com/signin?redirect=https%3A%2F%2Finfinitefusion.fandom.com%2Fwiki%2FLegendary_Pok%25C3%25A9mon%3Fveaction%3Dedit%26section%3D18&amp;uselang=en&amp;metadata=article-registration-edit-article-section\" data-testid=\"log-in-edit-section\" aria-label=\"Sign in to edit\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"article-table\" border=\"1\">\n<tbody><tr>\n<th>Pok\u00e9mon\n</th>\n<td>All 3 Eggs\n</td>\n<td>Dialga\n</td>\n<td>Palkia\n</td>\n<td>Giratina\n</td></tr>\n<tr>\n<th>Location\n</th>\n<td>Sinjoh Ruins\n</td>\n<td><a href=\"/wiki/Boon_Island\" title=\"Boon Island\">Boon Island</a>\n</td>\n<td><a href=\"/wiki/Blackthorn_City\" title=\"Blackthorn City\">Blackthorn City</a>\n</td>\n<td><a href=\"/wiki/Route_4\" title=\"Route 4\">Route 4</a>\n</td></tr>\n<tr>\n<th>HMs Needed\n</th>\n<td>None\n</td>\n<td>Rock Climb\n</td>\n<td>Rock Climb\n</td>\n<td>Rock Climb\n</td></tr>\n<tr>\n<th>Level\n</th>\n<td>1\n</td>\n<td>75\n</td>\n<td>75\n</td>\n<td>75\n</td></tr>\n<tr>\n<th>Requirement\n</th>\n<td>Have Arceus in your party\n</td>\n<td>Complete Mt. Silver\n</td>\n<td>Complete Mt. Silver\n</td>\n<td>Complete Mt. Silver\n</td></tr></tbody></table>\n<p>After catching Arceus, go back to see Mr. Pok\u00e9mon on Route 30 with Arceus in your party. He will take you to the Sinjoh Ruins. Talk to Cynthia and go to enter the ruins. This will trigger a cutscene after which you will receive 3 eggs. The eggs contain Dialga, Palkia and Giratina. With this method you can hatch the eggs and obtain the three legendaries at lvl 1.\n</p><p>You can also get a second set after the encounter on Mt. Silver. You can find three \"Strange Vortex\" that lead to the legendaries, but at level 75. Palkia is in Blackthorn City near the cave where you first came out to reach the city. Dialga is on Boon Island at the highest mountain. Giratina is on Route 4 near the exit of Mt. Moon where the side of the mountain has a different texture.\n</p>\n<h3><span id=\"Darkrai.2FCresselia\"></span><span class=\"mw-headline\" id=\"Darkrai/Cresselia\">Darkrai/Cresselia</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"Sign in to edit\" class=\"mw-editsection-visualeditor\" data-tracking-label=\"log-in-edit-section\" data-action=\"edit-section\" href=\"https://auth.fandom.com/signin?redirect=https%3A%2F%2Finfinitefusion.fandom.com%2Fwiki%2FLegendary_Pok%25C3%25A9mon%3Fveaction%3Dedit%26section%3D19&amp;uselang=en&amp;metadata=article-registration-edit-article-section\" data-testid=\"log-in-edit-section\" aria-label=\"Sign in to edit\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"article-table\" border=\"1\">\n<tbody><tr>\n<th>Location\n</th>\n<td><a href=\"/wiki/Lavender_Town\" title=\"Lavender Town\">Lavender Town</a>/<a href=\"/wiki/Halfmoon_Island\" title=\"Halfmoon Island\">Halfmoon Island</a>/<a href=\"/wiki/Halfmoon_Island\" title=\"Halfmoon Island\">Moonlit Forest</a>/<a href=\"/wiki/Halfmoon_Island\" title=\"Halfmoon Island\">Fullmoon Island</a>/<a href=\"/wiki/Halfmoon_Island\" title=\"Halfmoon Island\">Newmoon Island</a>\n</td></tr>\n<tr>\n<th>HM Needed\n</th>\n<td>Surf or Fly\n</td></tr>\n<tr>\n<th>Level\n</th>\n<td>50 or 60\n</td></tr></tbody></table>\n<p>First the player must collect the Bedroom Key from the <a href=\"/wiki/Goldenrod_City\" title=\"Goldenrod City\">Goldenrod Department Store's</a> basement, which will be able to open the back room of the Lavender Orphanage (South-easternmost house of Lavender Town). In that room, there will be a feather on the bed. Interacting with the feather triggers a cutscene where a voice tells you to collect feathers, which only appear at night.\n</p><p>During nighttime, shadowy figures will appear, and interacting with them gives hints to the location of the next feather. The first feather is in the northernmost house in Vermillion City, east of the Pok\u00e9mon Center. The second feather is up the stairs of the daycare south of Cerulean City. The third feather is located in the hotel of Fuschia City. The fourth feather is located north of Crimson City, in the house on an island. Finally, the fifth feather is located back in the Lavender Orphanage, collecting it will lower the player's <a href=\"/wiki/Karma\" title=\"Karma\">Karma</a> by 5. Speak to the green feather after that and go to bed and the player will wake up in Halfmoon Island. Speaking to Darkrai will trigger a cutscene, and now you have a path to choose.\n</p><p>North of Halfmoon Island is Moonlit Forest, where there's a forest clearing with water in the shape of a crescent moon. Walking on the water will make it disappear/reappear; if you make all of the water disappear, it will resemble a new moon and give you access to Newmoon Island when you leave the forest, and if you make all of the water reappear it will resemble a full moon and give you access to Fullmoon Island.\n</p>\n<h4><span class=\"mw-headline\" id=\"The_Cresselia_Path\">The Cresselia Path</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"Sign in to edit\" class=\"mw-editsection-visualeditor\" data-tracking-label=\"log-in-edit-section\" data-action=\"edit-section\" href=\"https://auth.fandom.com/signin?redirect=https%3A%2F%2Finfinitefusion.fandom.com%2Fwiki%2FLegendary_Pok%25C3%25A9mon%3Fveaction%3Dedit%26section%3D20&amp;uselang=en&amp;metadata=article-registration-edit-article-section\" data-testid=\"log-in-edit-section\" aria-label=\"Sign in to edit\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h4>\n<p>To take this path, enter Moonlit Forest and fill the area with water, resembling a full moon, and leave the forest to enter Fullmoon Island, where Cresselia and a bed is located. Interacting with Cresselia will give you a Lunar Feather, which Cresselia tells the player to place on the bed in Newmoon Island. Go back to Moonlit Forest and make the area of water into a new moon and enter Newmoon Island.\n</p><p>Placing the Lunar Feather on the bed in Newmoon Island resets the players's <a href=\"/wiki/Karma\" title=\"Karma\">Karma</a>, and takes them to a dreamish version of Moonlit Forest, where many Mareep and Flaaffy are located. The goal is to count how many Mareep there are (including the shiny ones) and how many Flaaffy there are (watch out for the shiny Mareep who are the same color as the Flaaffy). To the east is a Drowzee, who asks the player to count the number of Mareep and Flaaffy in the forest; miscounting the Pok\u00e9mon will cause you to re-count with a different amount of Mareep and Flaaffy for each failure you do. After completing the minigame, the player wakes up on Newmoon Island, now with less corruption, where Cresselia will join your party, and Darkrai can be battled and caught.\n</p>\n<h4><span class=\"mw-headline\" id=\"The_Darkrai_Path\">The Darkrai Path</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"Sign in to edit\" class=\"mw-editsection-visualeditor\" data-tracking-label=\"log-in-edit-section\" data-action=\"edit-section\" href=\"https://auth.fandom.com/signin?redirect=https%3A%2F%2Finfinitefusion.fandom.com%2Fwiki%2FLegendary_Pok%25C3%25A9mon%3Fveaction%3Dedit%26section%3D21&amp;uselang=en&amp;metadata=article-registration-edit-article-section\" data-testid=\"log-in-edit-section\" aria-label=\"Sign in to edit\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h4>\n<p>To take this path, enter Moonlit Forest and make all the water disappear, resembling a new moon, and leave the forest to enter Newmoon Island, where Darkrai and a bed is located. Interacting Darkrai will give you a Corrupted Feather. Go back to Moonlit Forest and make the area of water into a full moon and enter Fullmoon Island.\n</p><p>Placing the Corrupted Feather on the bed lowers the player's <a href=\"/wiki/Karma\" title=\"Karma\">Karma</a> by -20, and takes them to a nightmarish version of Moonlit Forest. South is a patch of water, where walking into it will turn the player into a Magikarp. Pressing Space/X will make the player jump forwards one tile, and holding Space/X until a spark appears and pressing Space/X again makes them jump forwards two tiles. The aim is to complete the course before a shadowy Pinsir catches up to the player. After completing the mini-game, the player wakes up on Fullmoon Island, now more corrupted, where Darkrai will join their party, and Cresselia can be battled and caught.\n</p><p>Once either path has been completed, return to the bed in Halfmoon Island. This will take you back to the Lavender Orphanage.\n</p>\n<h3><span class=\"mw-headline\" id=\"Arceus\">Arceus</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"Sign in to edit\" class=\"mw-editsection-visualeditor\" data-tracking-label=\"log-in-edit-section\" data-action=\"edit-section\" href=\"https://auth.fandom.com/signin?redirect=https%3A%2F%2Finfinitefusion.fandom.com%2Fwiki%2FLegendary_Pok%25C3%25A9mon%3Fveaction%3Dedit%26section%3D22&amp;uselang=en&amp;metadata=article-registration-edit-article-section\" data-testid=\"log-in-edit-section\" aria-label=\"Sign in to edit\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"article-table\" border=\"1\">\n<tbody><tr>\n<th>Location\n</th>\n<td><a href=\"/wiki/Hall_of_Origin\" title=\"Hall of Origin\">Hall of Origin</a>\n</td></tr>\n<tr>\n<th>HMs Needed\n</th>\n<td>None\n</td></tr>\n<tr>\n<th>Level\n</th>\n<td>60\n</td></tr>\n<tr>\n<th>Requirement\n</th>\n<td>Have the Azure Flute stone in your inventory\n</td></tr></tbody></table>\n<p>After catching Articuno, Zapdos, Moltres, Entei, Raikou and Suicune, go to the Ruins of Alph and talk to Eusine. After that go to Eusine\u2019s house in Cherrygrove city and let his Dittos copy the 6 legendary Pok\u00e9mon. He will give you the Azure Flute. Go to Mr. Pok\u00e9mon on Route 30 and talk to him. Afterwards, go to the Ice Mountains, north of Blackthorn City in Johto, and find the Ice Cavern. Climb up the stairs until you reach the mountain's peak. Walk into the circle on the ground and use the Azure Flute to reveal a staircase to the Hall of Origin, where you will encounter Arceus.\n</p>\n<h3><span class=\"mw-headline\" id=\"Genesect\">Genesect</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"Sign in to edit\" class=\"mw-editsection-visualeditor\" data-tracking-label=\"log-in-edit-section\" data-action=\"edit-section\" href=\"https://auth.fandom.com/signin?redirect=https%3A%2F%2Finfinitefusion.fandom.com%2Fwiki%2FLegendary_Pok%25C3%25A9mon%3Fveaction%3Dedit%26section%3D23&amp;uselang=en&amp;metadata=article-registration-edit-article-section\" data-testid=\"log-in-edit-section\" aria-label=\"Sign in to edit\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"article-table\" border=\"1\">\n<tbody><tr>\n<th>Location\n</th>\n<td><a href=\"/wiki/P2_Laboratory\" title=\"P2 Laboratory\">P2 Laboratory</a>\n</td></tr>\n<tr>\n<th>HMs Needed\n</th>\n<td>None\n</td></tr>\n<tr>\n<th>Level\n</th>\n<td>60\n</td></tr></tbody></table>\n<p>Go to the Rocket Warehouse on Chrono Island. You will come across two Team Plasma grunts. Follow them to the harbor and the sailor will take you to P2 Laboratory. Once you\u2019re there, enter the building and defeat the three Plasma grunts. Enter the backroom to find a room with a vat in the middle. Interact with it to encounter Genesect.\n</p><p>The various drives needed for Genesect\u2019s signature move are found on the ground in the laboratory.\n</p>\n<h3><span id=\"Reshiram_.2F_Zekrom\"></span><span class=\"mw-headline\" id=\"Reshiram_/_Zekrom\">Reshiram / Zekrom</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"Sign in to edit\" class=\"mw-editsection-visualeditor\" data-tracking-label=\"log-in-edit-section\" data-action=\"edit-section\" href=\"https://auth.fandom.com/signin?redirect=https%3A%2F%2Finfinitefusion.fandom.com%2Fwiki%2FLegendary_Pok%25C3%25A9mon%3Fveaction%3Dedit%26section%3D24&amp;uselang=en&amp;metadata=article-registration-edit-article-section\" data-testid=\"log-in-edit-section\" aria-label=\"Sign in to edit\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"article-table\" border=\"1\">\n<tbody><tr>\n<th>Location\n</th>\n<td>Bell Tower\n</td></tr>\n<tr>\n<th>HMs Needed\n</th>\n<td>None\n</td></tr>\n<tr>\n<th>Level\n</th>\n<td>70\n</td></tr></tbody></table>\n<p>Reshiram and Zekrom are fused together as Reshirom when you encounter them.\n</p><p>Go to the dance hall in Ecruteak City and fight all the Kimono girls, then speak to Alder. He will give you the Light Stone and the Dark Stone. Make your way to the top of the Bell Tower and interact with the bell to encounter Reshirom.\n</p>\n<h3><span class=\"mw-headline\" id=\"Kyurem\">Kyurem</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"Sign in to edit\" class=\"mw-editsection-visualeditor\" data-tracking-label=\"log-in-edit-section\" data-action=\"edit-section\" href=\"https://auth.fandom.com/signin?redirect=https%3A%2F%2Finfinitefusion.fandom.com%2Fwiki%2FLegendary_Pok%25C3%25A9mon%3Fveaction%3Dedit%26section%3D25&amp;uselang=en&amp;metadata=article-registration-edit-article-section\" data-testid=\"log-in-edit-section\" aria-label=\"Sign in to edit\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"article-table\" border=\"1\">\n<tbody><tr>\n<th>Location\n</th>\n<td><a href=\"/wiki/Lake_of_Rage\" title=\"Lake of Rage\">Lake of Rage</a>\n</td></tr>\n<tr>\n<th>HMs Needed\n</th>\n<td>None\n</td></tr>\n<tr>\n<th>Level\n</th>\n<td>70\n</td></tr>\n<tr>\n<th>Requirement\n</th>\n<td>Have the Dark and Light stone in your inventory\n</td></tr></tbody></table>\n<p>Go to the dance hall in Ecruteak City and fight all the Kimono girls, then speak to Alder. He will give you the Light Stone and the Dark Stone. After that, head over to the Lake of Rage. Interact with the icy stone and the lake will freeze over. Navigate the ice puzzle and make your way to the center of the lake to find Kyurem.\n</p>\n<h3><span id=\"Latias_.2F_Latios\"></span><span class=\"mw-headline\" id=\"Latias_/_Latios\">Latias / Latios</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"Sign in to edit\" class=\"mw-editsection-visualeditor\" data-tracking-label=\"log-in-edit-section\" data-action=\"edit-section\" href=\"https://auth.fandom.com/signin?redirect=https%3A%2F%2Finfinitefusion.fandom.com%2Fwiki%2FLegendary_Pok%25C3%25A9mon%3Fveaction%3Dedit%26section%3D26&amp;uselang=en&amp;metadata=article-registration-edit-article-section\" data-testid=\"log-in-edit-section\" aria-label=\"Sign in to edit\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"article-table\" border=\"1\">\n<tbody><tr>\n<th>Location\n</th>\n<td>Roaming (Sevii Islands)\n</td></tr>\n<tr>\n<th>HMs Needed\n</th>\n<td>None\n</td></tr>\n<tr>\n<th>Level\n</th>\n<td>50\n</td></tr></tbody></table>\n<p>Enter Boon Island's Pok\u00e9mon Center and interact with the TV. A report will mention two dragon Pok\u00e9mon from Hoenn that were sighted in the Sevii Islands. Two different fusions of Latias and Latios will both start roaming around the Sevii Islands from that point on. You can use the Weather Tracker obtained in the Ruins of Alph to track their locations; they will cause strong winds at their current location.\n</p>\n<h3><span class=\"mw-headline\" id=\"Deoxys\">Deoxys</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"Sign in to edit\" class=\"mw-editsection-visualeditor\" data-tracking-label=\"log-in-edit-section\" data-action=\"edit-section\" href=\"https://auth.fandom.com/signin?redirect=https%3A%2F%2Finfinitefusion.fandom.com%2Fwiki%2FLegendary_Pok%25C3%25A9mon%3Fveaction%3Dedit%26section%3D27&amp;uselang=en&amp;metadata=article-registration-edit-article-section\" data-testid=\"log-in-edit-section\" aria-label=\"Sign in to edit\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"article-table\" border=\"1\">\n<tbody><tr>\n<th>Location\n</th>\n<td><a href=\"/wiki/Birth_Island\" title=\"Birth Island\">Birth Island</a>\n</td></tr>\n<tr>\n<th>HMs Needed\n</th>\n<td>Waterfall, Surf, Dive\n</td></tr>\n<tr>\n<th>Level\n</th>\n<td>70\n</td></tr></tbody></table>\n<p>A girl at the Kin Island's hotel mentions that she saw a meteor crash around Bond Bridge and asks you to go investigate. North of the bridge you will find a waterfall. Climb up to find two secret agent type NPCs around a small crater. Talk to them and they will ask you to find the other pieces of an alien spaceship. The first one is located on Route 32 near a ledge. The second one is underwater on Route 19, South of Fuschia. You have to find the dive spot on route 20 and then head east to find it. After finding the two pieces, go back to the secret agent near Bond Bridge and they will use the locations of the pieces to triangulate the location of the mothership. It is located on Birth Island. Ask the sailor in Cinnabar Island's harbour to take you there. Once on Birth Island you will find another spaceship part. Interact with it and it will start floating around. Interact with it twice more and Deoxys will appear.\n</p>\n<h3><span class=\"mw-headline\" id=\"Jirachi\">Jirachi</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"Sign in to edit\" class=\"mw-editsection-visualeditor\" data-tracking-label=\"log-in-edit-section\" data-action=\"edit-section\" href=\"https://auth.fandom.com/signin?redirect=https%3A%2F%2Finfinitefusion.fandom.com%2Fwiki%2FLegendary_Pok%25C3%25A9mon%3Fveaction%3Dedit%26section%3D28&amp;uselang=en&amp;metadata=article-registration-edit-article-section\" data-testid=\"log-in-edit-section\" aria-label=\"Sign in to edit\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"article-table\" border=\"1\">\n<tbody><tr>\n<th>Location\n</th>\n<td>Dream\n</td></tr>\n<tr>\n<th>HMs Needed\n</th>\n<td>None\n</td></tr>\n<tr>\n<th>Level\n</th>\n<td>20\n</td></tr>\n<tr>\n<th>Requirement\n</th>\n<td>Have encountered 777 unique Pok\u00e9mon (not including legendaries)\n</td></tr></tbody></table>\n<p>After having encountered at least 777 unique Pok\u00e9mon, go to any hotel and sleep for any amount of time. Instead of ending up on the upper floor of the hotel like usual, you will be teleported to a strange, dream version of Pallet Town. Go inside the lab and speak to Jirachi. After asking you to pick a Pok\u00e9mon it will challenge you to a fight. No matter the outcome of the fight, you will wake up in your room with Jirachi in your party or PC. The Jirachi you fight will not match the Jirachi you find in your PC, even if you catch it. (So if the Jirachi you fight is Shiny, odds are slim that the one in your PC will be shiny).<sup id=\"cite&#95;ref-1\" class=\"reference\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">&#91;</span>1<span class=\"cite-bracket\">&#93;</span></a></sup>\n</p>\n<h3><span class=\"mw-headline\" id=\"Necrozma\">Necrozma</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"Sign in to edit\" class=\"mw-editsection-visualeditor\" data-tracking-label=\"log-in-edit-section\" data-action=\"edit-section\" href=\"https://auth.fandom.com/signin?redirect=https%3A%2F%2Finfinitefusion.fandom.com%2Fwiki%2FLegendary_Pok%25C3%25A9mon%3Fveaction%3Dedit%26section%3D29&amp;uselang=en&amp;metadata=article-registration-edit-article-section\" data-testid=\"log-in-edit-section\" aria-label=\"Sign in to edit\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"article-table\" border=\"1\">\n<tbody><tr>\n<th>Location\n</th>\n<td><a href=\"/wiki/Mt._Moon\" title=\"Mt. Moon\">Mt. Moon</a>\n</td></tr>\n<tr>\n<th>HMs Needed\n</th>\n<td>Surf, Waterfall, Flash, Cut\n</td></tr>\n<tr>\n<th>Level\n</th>\n<td>70\n</td></tr></tbody></table>\n<p>Go to the top of the Pok\u00e9mon Tower in Lavender Town to get the quest for Strange Prisms. Then go to Mt. Moon, Cerulean Cave, Mt. Mortar, and Rock Tunnel to get the Strange Prisms and return them to the pedestals on top of the Pok\u00e9mon Tower. If all of this is done correctly, light should start getting sucked up and you will have to use TM Flash in order to go back to the base of Pok\u00e9mon tower. From there go to Route 7, and pick up the another Strange Prism. Next you'll go to Celadon, and meet Sabrina on top of the Mall roof. Next, go to Fuchsia City and put the Strange Prism on the pedestal next to Koga, which will cause strange plants to start growing. These plants can be Cut. Follow the plants to the Safari Zone and proceed to the upper left corner of Area 3 to get the Strange Fruit, then go to the Pallet Town Dock to have professor Oak analyze it. He will then ask you to go north to find out what is happening. Go back to Mt. Moon and into the cave where you found the Strange Prism, where there should be intense glowing and another tunnel from that cave will finally lead you to Necrozma.\n</p>\n<h3><span class=\"mw-headline\" id=\"Meloetta\">Meloetta</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"Sign in to edit\" class=\"mw-editsection-visualeditor\" data-tracking-label=\"log-in-edit-section\" data-action=\"edit-section\" href=\"https://auth.fandom.com/signin?redirect=https%3A%2F%2Finfinitefusion.fandom.com%2Fwiki%2FLegendary_Pok%25C3%25A9mon%3Fveaction%3Dedit%26section%3D30&amp;uselang=en&amp;metadata=article-registration-edit-article-section\" data-testid=\"log-in-edit-section\" aria-label=\"Sign in to edit\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"article-table\" border=\"1\">\n<tbody><tr>\n<th>Location\n</th>\n<td><a href=\"/wiki/Saffron_City\" title=\"Saffron City\">Saffron City</a>\n</td></tr>\n<tr>\n<th>HMs Needed\n</th>\n<td>Surf, Cut, Strength, Rock Smash\n</td></tr>\n<tr>\n<th>Level\n</th>\n<td>50\n</td></tr></tbody></table>\n<p>To start the quest, go into the Saffron bar during the day on a Saturday, go downstairs and there will be a concert. Walk into the bathroom and wait (there's a time skipping NPC for convenience) until night (8pm), where you start the quest. Return here after completing each part of the quest below to unlock the next part. After starting the quest you'll find the drummer, North of Crimson City on a small island, <u>return to Saffron,</u> Then you'll need 2 guitarists; one is in Goldenrod underground on Friday. Give it \u20bd4000 and then talk to it. The other is in Oricorio Clearing, south of Treasure Beach during Wednesday evenings (5-8pm). After getting the 3 musicians, <u>return to the Saffron</u>, you then will need to go to the Mt. Moon Observatory by going through a southern Mt. Moon entrance on the Cerulean side. When at the Observatory on a Monday morning (5-10am), clouds will appear where you have to parkour to reach the harpist. The last musician you need is found in Ilex Forest on Tuesday night(8-12pm), behind a cut tree on the right. Slowly tap (not hold) the up button as you approach to not scare the sleeping Pok\u00e9mon. Once you have all 5 musicians, return to the band and they'll tell you there's a concert on Saturday night. After attending the concert, Meloetta will appear. Talk to it and it will join your party.\n</p><p><i>Tip: Get the sleeping bag from doing 20 hotel quests to make getting the specific times and dates easier.</i>\n</p>\n<h3><span class=\"mw-headline\" id=\"Diancie\">Diancie</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"Sign in to edit\" class=\"mw-editsection-visualeditor\" data-tracking-label=\"log-in-edit-section\" data-action=\"edit-section\" href=\"https://auth.fandom.com/signin?redirect=https%3A%2F%2Finfinitefusion.fandom.com%2Fwiki%2FLegendary_Pok%25C3%25A9mon%3Fveaction%3Dedit%26section%3D31&amp;uselang=en&amp;metadata=article-registration-edit-article-section\" data-testid=\"log-in-edit-section\" aria-label=\"Sign in to edit\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"article-table\" border=\"1\">\n<tbody><tr>\n<th>Location\n</th>\n<td><a href=\"/wiki/Pinkan_Hollow\" class=\"mw-redirect\" title=\"Pinkan Hollow\">Pinkan Hollow</a>\n</td></tr>\n<tr>\n<th>HMs Needed\n</th>\n<td>None\n</td></tr>\n<tr>\n<th>Level\n</th>\n<td>30\n</td></tr></tbody></table>\n<p>After completing Operation Shutdown <a href=\"/wiki/Quests\" class=\"mw-disambig\" title=\"Quests\">(Quest)</a>, go to <a href=\"/wiki/Goldenrod_City\" title=\"Goldenrod City\">Goldenrod City</a> and talk to either Archen in the tunnel/dept. store basement, or the Police to the left of the train station. They will begin the <i>Pinkan Island!</i> quest. It does <b>not</b> matter who you help, you will get Diancie regardless of who you chose. For details on how to complete it see <a href=\"/wiki/Pinkan_Island\" title=\"Pinkan Island\">Pinkan Island</a>. Upon completing it you will receive Diancie, as well as any other pok\u00e9mon caught there. \n</p><p>If you try to join Team Rocket later in the game, such as after beating Mt. Silver, the Nugget Bridge grunt will be gone, however you can talk to a grunt in the Goldenrod City Tunnel to join Team Rocket and immediately start the <i>Pinkan Island!</i> quest. \n</p>\n<h2><span class=\"mw-headline\" id=\"References\">References</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a title=\"Sign in to edit\" class=\"mw-editsection-visualeditor\" data-tracking-label=\"log-in-edit-section\" data-action=\"edit-section\" href=\"https://auth.fandom.com/signin?redirect=https%3A%2F%2Finfinitefusion.fandom.com%2Fwiki%2FLegendary_Pok%25C3%25A9mon%3Fveaction%3Dedit%26section%3D32&amp;uselang=en&amp;metadata=article-registration-edit-article-section\" data-testid=\"log-in-edit-section\" aria-label=\"Sign in to edit\"><svg class=\"wds-icon wds-icon-tiny\" aria-hidden=\"true\" focusable=\"false\"><use xlink:href=\"#wds-icons-pencil-tiny\"></use></svg></a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite&#95;note-1\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-1\">\u2191</a></span> <span class=\"reference-text\"><a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.twitch.tv/videos/1893205638\">It FInally Happened! We Found Shiny Jirachi! - HalfBreadChaos (Twitch Plays Pokemon Infinite Fusion)</a> <i>Shiny hunted for days to spawn a Shiny Jirachi, only to discover it didn't carry over when they finally caught it.</i></span>\n</li>\n</ol></div>\n<!-- \nNewPP limit report\nCached time: 20260905064829\nCache expiry: 2592000\nReduced expiry: false\nComplications: [show\u2010toc]\nCPU time usage: 0.042 seconds\nReal time usage: 0.060 seconds\nPreprocessor visited node count: 159/1000000\nPost\u2010expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 2/100\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post\u2010expand size: 707/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key 1.43.9_prod_infinitefusion:pcache:idhash:181-0!sseVary=RegularPage!FandomDesktop!LegacyGalleries and timestamp 20260905064829 and revision id 19896. Rendering was triggered because: page-view\n -->\n</div>"
+  },
+  "langlinks": [],
+  "categories": [
+    {
+      "sortkey": "",
+      "*": "Game_Content"
+    }
+  ],
+  "links": [
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Birth Island"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Blackthorn City"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Boon Island"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Celadon City Black Market"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Cerulean Cave"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Cinnabar Island"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Deep Sea"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Elite Four"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Goldenrod City"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Halfmoon Island"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Hall of Origin"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Ilex Forest"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Karma"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Lake of Rage"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Lavender Town"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "List of TMs"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Mt. Ember"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Mt. Moon"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Mt. Moon Summit"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Mt. Silver Summit"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Navel Rock"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "P2 Laboratory"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Pinkan Hollow"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Pinkan Island"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Power Plant"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Quests"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Randomized Mode"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Route 4"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Ruby Chamber"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Saffron City"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Sapphire Cave"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Seafoam Islands"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Sky Pillar"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Submerged Temple"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Triple Fusions"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Victory Road"
+    },
+    {
+      "ns": 0,
+      "exists": "",
+      "*": "Wonder Trade"
+    }
+  ],
+  "templates": [],
+  "images": [],
+  "externallinks": [
+    "https://www.twitch.tv/videos/1893205638"
+  ],
+  "sections": [
+    {
+      "toclevel": 1,
+      "level": "2",
+      "line": "Respawning Legendaries",
+      "number": "1",
+      "index": "1",
+      "fromtitle": "Legendary_Pok\u00e9mon",
+      "byteoffset": 423,
+      "anchor": "Respawning_Legendaries",
+      "linkAnchor": "Respawning_Legendaries"
+    },
+    {
+      "toclevel": 2,
+      "level": "3",
+      "line": "Defeating the Elite Four Pok\u00e9mon Champion",
+      "number": "1.1",
+      "index": "2",
+      "fromtitle": "Legendary_Pok\u00e9mon",
+      "byteoffset": 591,
+      "anchor": "Defeating_the_Elite_Four_Pok\u00e9mon_Champion",
+      "linkAnchor": "Defeating_the_Elite_Four_Pok\u00e9mon_Champion"
+    },
+    {
+      "toclevel": 2,
+      "level": "3",
+      "line": "Clearing Mt. Silver",
+      "number": "1.2",
+      "index": "3",
+      "fromtitle": "Legendary_Pok\u00e9mon",
+      "byteoffset": 1224,
+      "anchor": "Clearing_Mt._Silver",
+      "linkAnchor": "Clearing_Mt._Silver"
+    },
+    {
+      "toclevel": 1,
+      "level": "2",
+      "line": "Obtainable Legendaries",
+      "number": "2",
+      "index": "4",
+      "fromtitle": "Legendary_Pok\u00e9mon",
+      "byteoffset": 1960,
+      "anchor": "Obtainable_Legendaries",
+      "linkAnchor": "Obtainable_Legendaries"
+    },
+    {
+      "toclevel": 2,
+      "level": "3",
+      "line": "Articuno",
+      "number": "2.1",
+      "index": "5",
+      "fromtitle": "Legendary_Pok\u00e9mon",
+      "byteoffset": 1990,
+      "anchor": "Articuno",
+      "linkAnchor": "Articuno"
+    },
+    {
+      "toclevel": 2,
+      "level": "3",
+      "line": "Zapdos",
+      "number": "2.2",
+      "index": "6",
+      "fromtitle": "Legendary_Pok\u00e9mon",
+      "byteoffset": 2452,
+      "anchor": "Zapdos",
+      "linkAnchor": "Zapdos"
+    },
+    {
+      "toclevel": 2,
+      "level": "3",
+      "line": "Moltres",
+      "number": "2.3",
+      "index": "7",
+      "fromtitle": "Legendary_Pok\u00e9mon",
+      "byteoffset": 3053,
+      "anchor": "Moltres",
+      "linkAnchor": "Moltres"
+    },
+    {
+      "toclevel": 2,
+      "level": "3",
+      "line": "Mewtwo",
+      "number": "2.4",
+      "index": "8",
+      "fromtitle": "Legendary_Pok\u00e9mon",
+      "byteoffset": 3424,
+      "anchor": "Mewtwo",
+      "linkAnchor": "Mewtwo"
+    },
+    {
+      "toclevel": 2,
+      "level": "3",
+      "line": "Mew",
+      "number": "2.5",
+      "index": "9",
+      "fromtitle": "Legendary_Pok\u00e9mon",
+      "byteoffset": 3838,
+      "anchor": "Mew",
+      "linkAnchor": "Mew"
+    },
+    {
+      "toclevel": 2,
+      "level": "3",
+      "line": "Entei",
+      "number": "2.6",
+      "index": "10",
+      "fromtitle": "Legendary_Pok\u00e9mon",
+      "byteoffset": 4282,
+      "anchor": "Entei",
+      "linkAnchor": "Entei"
+    },
+    {
+      "toclevel": 2,
+      "level": "3",
+      "line": "Raikou / Suicune",
+      "number": "2.7",
+      "index": "11",
+      "fromtitle": "Legendary_Pok\u00e9mon",
+      "byteoffset": 4777,
+      "anchor": "Raikou_/_Suicune",
+      "linkAnchor": "Raikou_/_Suicune"
+    },
+    {
+      "toclevel": 2,
+      "level": "3",
+      "line": "Ho-Oh / Lugia",
+      "number": "2.8",
+      "index": "12",
+      "fromtitle": "Legendary_Pok\u00e9mon",
+      "byteoffset": 5375,
+      "anchor": "Ho-Oh_/_Lugia",
+      "linkAnchor": "Ho-Oh_/_Lugia"
+    },
+    {
+      "toclevel": 2,
+      "level": "3",
+      "line": "Celebi",
+      "number": "2.9",
+      "index": "13",
+      "fromtitle": "Legendary_Pok\u00e9mon",
+      "byteoffset": 5872,
+      "anchor": "Celebi",
+      "linkAnchor": "Celebi"
+    },
+    {
+      "toclevel": 2,
+      "level": "3",
+      "line": "Groudon",
+      "number": "2.10",
+      "index": "14",
+      "fromtitle": "Legendary_Pok\u00e9mon",
+      "byteoffset": 6196,
+      "anchor": "Groudon",
+      "linkAnchor": "Groudon"
+    },
+    {
+      "toclevel": 2,
+      "level": "3",
+      "line": "Kyogre",
+      "number": "2.11",
+      "index": "15",
+      "fromtitle": "Legendary_Pok\u00e9mon",
+      "byteoffset": 7080,
+      "anchor": "Kyogre",
+      "linkAnchor": "Kyogre"
+    },
+    {
+      "toclevel": 2,
+      "level": "3",
+      "line": "Rayquaza",
+      "number": "2.12",
+      "index": "16",
+      "fromtitle": "Legendary_Pok\u00e9mon",
+      "byteoffset": 7965,
+      "anchor": "Rayquaza",
+      "linkAnchor": "Rayquaza"
+    },
+    {
+      "toclevel": 2,
+      "level": "3",
+      "line": "Regigigas / Regirock / Registeel / Regice",
+      "number": "2.13",
+      "index": "17",
+      "fromtitle": "Legendary_Pok\u00e9mon",
+      "byteoffset": 8431,
+      "anchor": "Regigigas_/_Regirock_/_Registeel_/_Regice",
+      "linkAnchor": "Regigigas_/_Regirock_/_Registeel_/_Regice"
+    },
+    {
+      "toclevel": 2,
+      "level": "3",
+      "line": "Dialga / Palkia / Giratina",
+      "number": "2.14",
+      "index": "18",
+      "fromtitle": "Legendary_Pok\u00e9mon",
+      "byteoffset": 9766,
+      "anchor": "Dialga_/_Palkia_/_Giratina",
+      "linkAnchor": "Dialga_/_Palkia_/_Giratina"
+    },
+    {
+      "toclevel": 2,
+      "level": "3",
+      "line": "Darkrai/Cresselia",
+      "number": "2.15",
+      "index": "19",
+      "fromtitle": "Legendary_Pok\u00e9mon",
+      "byteoffset": 10910,
+      "anchor": "Darkrai/Cresselia",
+      "linkAnchor": "Darkrai/Cresselia"
+    },
+    {
+      "toclevel": 3,
+      "level": "4",
+      "line": "The Cresselia Path",
+      "number": "2.15.1",
+      "index": "20",
+      "fromtitle": "Legendary_Pok\u00e9mon",
+      "byteoffset": 12729,
+      "anchor": "The_Cresselia_Path",
+      "linkAnchor": "The_Cresselia_Path"
+    },
+    {
+      "toclevel": 3,
+      "level": "4",
+      "line": "The Darkrai Path",
+      "number": "2.15.2",
+      "index": "21",
+      "fromtitle": "Legendary_Pok\u00e9mon",
+      "byteoffset": 13925,
+      "anchor": "The_Darkrai_Path",
+      "linkAnchor": "The_Darkrai_Path"
+    },
+    {
+      "toclevel": 2,
+      "level": "3",
+      "line": "Arceus",
+      "number": "2.16",
+      "index": "22",
+      "fromtitle": "Legendary_Pok\u00e9mon",
+      "byteoffset": 15058,
+      "anchor": "Arceus",
+      "linkAnchor": "Arceus"
+    },
+    {
+      "toclevel": 2,
+      "level": "3",
+      "line": "Genesect",
+      "number": "2.17",
+      "index": "23",
+      "fromtitle": "Legendary_Pok\u00e9mon",
+      "byteoffset": 15826,
+      "anchor": "Genesect",
+      "linkAnchor": "Genesect"
+    },
+    {
+      "toclevel": 2,
+      "level": "3",
+      "line": "Reshiram / Zekrom",
+      "number": "2.18",
+      "index": "24",
+      "fromtitle": "Legendary_Pok\u00e9mon",
+      "byteoffset": 16383,
+      "anchor": "Reshiram_/_Zekrom",
+      "linkAnchor": "Reshiram_/_Zekrom"
+    },
+    {
+      "toclevel": 2,
+      "level": "3",
+      "line": "Kyurem",
+      "number": "2.19",
+      "index": "25",
+      "fromtitle": "Legendary_Pok\u00e9mon",
+      "byteoffset": 16820,
+      "anchor": "Kyurem",
+      "linkAnchor": "Kyurem"
+    },
+    {
+      "toclevel": 2,
+      "level": "3",
+      "line": "Latias / Latios",
+      "number": "2.20",
+      "index": "26",
+      "fromtitle": "Legendary_Pok\u00e9mon",
+      "byteoffset": 17336,
+      "anchor": "Latias_/_Latios",
+      "linkAnchor": "Latias_/_Latios"
+    },
+    {
+      "toclevel": 2,
+      "level": "3",
+      "line": "Deoxys",
+      "number": "2.21",
+      "index": "27",
+      "fromtitle": "Legendary_Pok\u00e9mon",
+      "byteoffset": 17882,
+      "anchor": "Deoxys",
+      "linkAnchor": "Deoxys"
+    },
+    {
+      "toclevel": 2,
+      "level": "3",
+      "line": "Jirachi",
+      "number": "2.22",
+      "index": "28",
+      "fromtitle": "Legendary_Pok\u00e9mon",
+      "byteoffset": 18944,
+      "anchor": "Jirachi",
+      "linkAnchor": "Jirachi"
+    },
+    {
+      "toclevel": 2,
+      "level": "3",
+      "line": "Necrozma",
+      "number": "2.23",
+      "index": "29",
+      "fromtitle": "Legendary_Pok\u00e9mon",
+      "byteoffset": 20034,
+      "anchor": "Necrozma",
+      "linkAnchor": "Necrozma"
+    },
+    {
+      "toclevel": 2,
+      "level": "3",
+      "line": "Meloetta",
+      "number": "2.24",
+      "index": "30",
+      "fromtitle": "Legendary_Pok\u00e9mon",
+      "byteoffset": 21278,
+      "anchor": "Meloetta",
+      "linkAnchor": "Meloetta"
+    },
+    {
+      "toclevel": 2,
+      "level": "3",
+      "line": "Diancie",
+      "number": "2.25",
+      "index": "31",
+      "fromtitle": "Legendary_Pok\u00e9mon",
+      "byteoffset": 22879,
+      "anchor": "Diancie",
+      "linkAnchor": "Diancie"
+    },
+    {
+      "toclevel": 1,
+      "level": "2",
+      "line": "References",
+      "number": "3",
+      "index": "32",
+      "fromtitle": "Legendary_Pok\u00e9mon",
+      "byteoffset": 23729,
+      "anchor": "References",
+      "linkAnchor": "References"
+    }
+  ],
+  "tocdata": {
+    "sections": [
+      {
+        "tocLevel": 1,
+        "hLevel": 2,
+        "line": "Respawning Legendaries",
+        "number": "1",
+        "index": "1",
+        "fromTitle": "Legendary_Pok\u00e9mon",
+        "codepointOffset": 423,
+        "anchor": "Respawning_Legendaries"
+      },
+      {
+        "tocLevel": 2,
+        "hLevel": 3,
+        "line": "Defeating the Elite Four Pok\u00e9mon Champion",
+        "number": "1.1",
+        "index": "2",
+        "fromTitle": "Legendary_Pok\u00e9mon",
+        "codepointOffset": 591,
+        "anchor": "Defeating_the_Elite_Four_Pok\u00e9mon_Champion"
+      },
+      {
+        "tocLevel": 2,
+        "hLevel": 3,
+        "line": "Clearing Mt. Silver",
+        "number": "1.2",
+        "index": "3",
+        "fromTitle": "Legendary_Pok\u00e9mon",
+        "codepointOffset": 1224,
+        "anchor": "Clearing_Mt._Silver"
+      },
+      {
+        "tocLevel": 1,
+        "hLevel": 2,
+        "line": "Obtainable Legendaries",
+        "number": "2",
+        "index": "4",
+        "fromTitle": "Legendary_Pok\u00e9mon",
+        "codepointOffset": 1960,
+        "anchor": "Obtainable_Legendaries"
+      },
+      {
+        "tocLevel": 2,
+        "hLevel": 3,
+        "line": "Articuno",
+        "number": "2.1",
+        "index": "5",
+        "fromTitle": "Legendary_Pok\u00e9mon",
+        "codepointOffset": 1990,
+        "anchor": "Articuno"
+      },
+      {
+        "tocLevel": 2,
+        "hLevel": 3,
+        "line": "Zapdos",
+        "number": "2.2",
+        "index": "6",
+        "fromTitle": "Legendary_Pok\u00e9mon",
+        "codepointOffset": 2452,
+        "anchor": "Zapdos"
+      },
+      {
+        "tocLevel": 2,
+        "hLevel": 3,
+        "line": "Moltres",
+        "number": "2.3",
+        "index": "7",
+        "fromTitle": "Legendary_Pok\u00e9mon",
+        "codepointOffset": 3053,
+        "anchor": "Moltres"
+      },
+      {
+        "tocLevel": 2,
+        "hLevel": 3,
+        "line": "Mewtwo",
+        "number": "2.4",
+        "index": "8",
+        "fromTitle": "Legendary_Pok\u00e9mon",
+        "codepointOffset": 3424,
+        "anchor": "Mewtwo"
+      },
+      {
+        "tocLevel": 2,
+        "hLevel": 3,
+        "line": "Mew",
+        "number": "2.5",
+        "index": "9",
+        "fromTitle": "Legendary_Pok\u00e9mon",
+        "codepointOffset": 3838,
+        "anchor": "Mew"
+      },
+      {
+        "tocLevel": 2,
+        "hLevel": 3,
+        "line": "Entei",
+        "number": "2.6",
+        "index": "10",
+        "fromTitle": "Legendary_Pok\u00e9mon",
+        "codepointOffset": 4282,
+        "anchor": "Entei"
+      },
+      {
+        "tocLevel": 2,
+        "hLevel": 3,
+        "line": "Raikou / Suicune",
+        "number": "2.7",
+        "index": "11",
+        "fromTitle": "Legendary_Pok\u00e9mon",
+        "codepointOffset": 4777,
+        "anchor": "Raikou_/_Suicune"
+      },
+      {
+        "tocLevel": 2,
+        "hLevel": 3,
+        "line": "Ho-Oh / Lugia",
+        "number": "2.8",
+        "index": "12",
+        "fromTitle": "Legendary_Pok\u00e9mon",
+        "codepointOffset": 5375,
+        "anchor": "Ho-Oh_/_Lugia"
+      },
+      {
+        "tocLevel": 2,
+        "hLevel": 3,
+        "line": "Celebi",
+        "number": "2.9",
+        "index": "13",
+        "fromTitle": "Legendary_Pok\u00e9mon",
+        "codepointOffset": 5872,
+        "anchor": "Celebi"
+      },
+      {
+        "tocLevel": 2,
+        "hLevel": 3,
+        "line": "Groudon",
+        "number": "2.10",
+        "index": "14",
+        "fromTitle": "Legendary_Pok\u00e9mon",
+        "codepointOffset": 6196,
+        "anchor": "Groudon"
+      },
+      {
+        "tocLevel": 2,
+        "hLevel": 3,
+        "line": "Kyogre",
+        "number": "2.11",
+        "index": "15",
+        "fromTitle": "Legendary_Pok\u00e9mon",
+        "codepointOffset": 7080,
+        "anchor": "Kyogre"
+      },
+      {
+        "tocLevel": 2,
+        "hLevel": 3,
+        "line": "Rayquaza",
+        "number": "2.12",
+        "index": "16",
+        "fromTitle": "Legendary_Pok\u00e9mon",
+        "codepointOffset": 7965,
+        "anchor": "Rayquaza"
+      },
+      {
+        "tocLevel": 2,
+        "hLevel": 3,
+        "line": "Regigigas / Regirock / Registeel / Regice",
+        "number": "2.13",
+        "index": "17",
+        "fromTitle": "Legendary_Pok\u00e9mon",
+        "codepointOffset": 8431,
+        "anchor": "Regigigas_/_Regirock_/_Registeel_/_Regice"
+      },
+      {
+        "tocLevel": 2,
+        "hLevel": 3,
+        "line": "Dialga / Palkia / Giratina",
+        "number": "2.14",
+        "index": "18",
+        "fromTitle": "Legendary_Pok\u00e9mon",
+        "codepointOffset": 9766,
+        "anchor": "Dialga_/_Palkia_/_Giratina"
+      },
+      {
+        "tocLevel": 2,
+        "hLevel": 3,
+        "line": "Darkrai/Cresselia",
+        "number": "2.15",
+        "index": "19",
+        "fromTitle": "Legendary_Pok\u00e9mon",
+        "codepointOffset": 10910,
+        "anchor": "Darkrai/Cresselia"
+      },
+      {
+        "tocLevel": 3,
+        "hLevel": 4,
+        "line": "The Cresselia Path",
+        "number": "2.15.1",
+        "index": "20",
+        "fromTitle": "Legendary_Pok\u00e9mon",
+        "codepointOffset": 12729,
+        "anchor": "The_Cresselia_Path"
+      },
+      {
+        "tocLevel": 3,
+        "hLevel": 4,
+        "line": "The Darkrai Path",
+        "number": "2.15.2",
+        "index": "21",
+        "fromTitle": "Legendary_Pok\u00e9mon",
+        "codepointOffset": 13925,
+        "anchor": "The_Darkrai_Path"
+      },
+      {
+        "tocLevel": 2,
+        "hLevel": 3,
+        "line": "Arceus",
+        "number": "2.16",
+        "index": "22",
+        "fromTitle": "Legendary_Pok\u00e9mon",
+        "codepointOffset": 15058,
+        "anchor": "Arceus"
+      },
+      {
+        "tocLevel": 2,
+        "hLevel": 3,
+        "line": "Genesect",
+        "number": "2.17",
+        "index": "23",
+        "fromTitle": "Legendary_Pok\u00e9mon",
+        "codepointOffset": 15826,
+        "anchor": "Genesect"
+      },
+      {
+        "tocLevel": 2,
+        "hLevel": 3,
+        "line": "Reshiram / Zekrom",
+        "number": "2.18",
+        "index": "24",
+        "fromTitle": "Legendary_Pok\u00e9mon",
+        "codepointOffset": 16383,
+        "anchor": "Reshiram_/_Zekrom"
+      },
+      {
+        "tocLevel": 2,
+        "hLevel": 3,
+        "line": "Kyurem",
+        "number": "2.19",
+        "index": "25",
+        "fromTitle": "Legendary_Pok\u00e9mon",
+        "codepointOffset": 16820,
+        "anchor": "Kyurem"
+      },
+      {
+        "tocLevel": 2,
+        "hLevel": 3,
+        "line": "Latias / Latios",
+        "number": "2.20",
+        "index": "26",
+        "fromTitle": "Legendary_Pok\u00e9mon",
+        "codepointOffset": 17336,
+        "anchor": "Latias_/_Latios"
+      },
+      {
+        "tocLevel": 2,
+        "hLevel": 3,
+        "line": "Deoxys",
+        "number": "2.21",
+        "index": "27",
+        "fromTitle": "Legendary_Pok\u00e9mon",
+        "codepointOffset": 17882,
+        "anchor": "Deoxys"
+      },
+      {
+        "tocLevel": 2,
+        "hLevel": 3,
+        "line": "Jirachi",
+        "number": "2.22",
+        "index": "28",
+        "fromTitle": "Legendary_Pok\u00e9mon",
+        "codepointOffset": 18944,
+        "anchor": "Jirachi"
+      },
+      {
+        "tocLevel": 2,
+        "hLevel": 3,
+        "line": "Necrozma",
+        "number": "2.23",
+        "index": "29",
+        "fromTitle": "Legendary_Pok\u00e9mon",
+        "codepointOffset": 20034,
+        "anchor": "Necrozma"
+      },
+      {
+        "tocLevel": 2,
+        "hLevel": 3,
+        "line": "Meloetta",
+        "number": "2.24",
+        "index": "30",
+        "fromTitle": "Legendary_Pok\u00e9mon",
+        "codepointOffset": 21278,
+        "anchor": "Meloetta"
+      },
+      {
+        "tocLevel": 2,
+        "hLevel": 3,
+        "line": "Diancie",
+        "number": "2.25",
+        "index": "31",
+        "fromTitle": "Legendary_Pok\u00e9mon",
+        "codepointOffset": 22879,
+        "anchor": "Diancie"
+      },
+      {
+        "tocLevel": 1,
+        "hLevel": 2,
+        "line": "References",
+        "number": "3",
+        "index": "32",
+        "fromTitle": "Legendary_Pok\u00e9mon",
+        "codepointOffset": 23729,
+        "anchor": "References"
+      }
+    ],
+    "extensionData": []
+  },
+  "showtoc": "",
+  "parsewarnings": [],
+  "displaytitle": "<span class=\"mw-page-title-main\">Legendary Pok\u00e9mon</span>",
+  "iwlinks": [],
+  "properties": []
+}

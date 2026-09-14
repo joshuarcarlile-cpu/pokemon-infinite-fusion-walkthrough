@@ -1,0 +1,61 @@
+{
+  "name": "Seafoam Islands & Articuno",
+  "summary": "Enter the frigid caverns of Seafoam Islands. Push massive boulders through floor fissures with Strength to block raging subterranean rapids on B3F and B4F. Once the torrential currents calm, surf into the deepest inner sanctum to confront the Legendary Ice Bird, Articuno.",
+  "items": [
+    {
+      "name": "TM07 Hail",
+      "method": "Floor pickup at the eastern edge of the frozen lake on B2F",
+      "type": "TM"
+    },
+    {
+      "name": "Dawn Stone",
+      "method": "Pickup in a narrow northern icy alcove on B1F",
+      "type": "Evolution Stone"
+    },
+    {
+      "name": "Never-Melt Ice",
+      "method": "Pickup on the central snowy ledge on B3F",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Big Pearl",
+      "method": "Floor pickup after descending the first ladder past the ice wall",
+      "type": "Treasure"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Skier Bradley",
+      "team": [
+        {"species": "Swinub", "level": 43, "types": ["Ice", "Ground"]},
+        {"species": "Piloswine", "level": 45, "types": ["Ice", "Ground"]}
+      ]
+    },
+    {
+      "name": "Boarder Bryce",
+      "team": [
+        {"species": "Sneasel", "level": 44, "types": ["Dark", "Ice"]},
+        {"species": "Dewgong", "level": 44, "types": ["Water", "Ice"]}
+      ]
+    }
+  ],
+  "encounters": {
+    "Cave & Ice Ground": [
+      {"dex_id": "220", "name": "Swinub", "types": ["Ice", "Ground"], "levels": "30-38", "rates": "25%"},
+      {"dex_id": "086", "name": "Seel", "types": ["Water"], "levels": "30-38", "rates": "20%"},
+      {"dex_id": "090", "name": "Shellder", "types": ["Water"], "levels": "30-38", "rates": "20%"},
+      {"dex_id": "215", "name": "Sneasel", "types": ["Dark", "Ice"], "levels": "32-40", "rates": "15%"},
+      {"dex_id": "124", "name": "Jynx", "types": ["Ice", "Psychic"], "levels": "35-42", "rates": "10%"},
+      {"dex_id": "054", "name": "Psyduck", "types": ["Water"], "levels": "30-38", "rates": "10%"}
+    ],
+    "Subterranean Waters (Surf & Fish)": [
+      {"dex_id": "087", "name": "Dewgong", "types": ["Water", "Ice"], "levels": "38-46", "rates": "35%"},
+      {"dex_id": "091", "name": "Cloyster", "types": ["Water", "Ice"], "levels": "38-46", "rates": "25%"},
+      {"dex_id": "120", "name": "Staryu", "types": ["Water"], "levels": "30-40", "rates": "25%"},
+      {"dex_id": "121", "name": "Starmie", "types": ["Water", "Psychic"], "levels": "40-48", "rates": "15%"}
+    ],
+    "Static Legendary Encounter": [
+      {"dex_id": "144", "name": "Articuno", "types": ["Ice", "Flying"], "levels": "50", "rates": "B4F Deep Water Platform (Interact to Battle)"}
+    ]
+  }
+}

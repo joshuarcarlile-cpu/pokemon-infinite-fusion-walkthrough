@@ -1,0 +1,20 @@
+# Game Executables & Large Binaries
+IF GAME/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Temporary Scratch & System Files
+scratch/
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak

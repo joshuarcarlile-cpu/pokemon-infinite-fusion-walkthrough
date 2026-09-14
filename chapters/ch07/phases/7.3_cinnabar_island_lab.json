@@ -1,0 +1,58 @@
+{
+  "name": "Cinnabar Island & Pokémon Lab",
+  "summary": "Arrive at the volcanic sanctuary of Cinnabar Island. Obtain the Super Rod from the offshore fisherman, revive pre-historic fossils in the Pokémon Lab, complete high-value in-game NPC trades, and defeat the laboratory's security robots to claim Infinite Splicers and Infinite Reversers.",
+  "items": [
+    {
+      "name": "Super Rod",
+      "method": "Gift from the Fishing Guru in the moored fishing vessel off the southeast coast",
+      "type": "Key Item"
+    },
+    {
+      "name": "Infinite Splicers",
+      "method": "Reward in the laboratory testing room after defeating security robot R.E.D.",
+      "type": "Key Item"
+    },
+    {
+      "name": "Infinite Reversers",
+      "method": "Reward in the laboratory testing room after defeating all defense robots",
+      "type": "Key Item"
+    },
+    {
+      "name": "Metal Coat",
+      "method": "Trade Metal Powder and 5,000 PokeDollars in the house west of the Poke Mart",
+      "type": "Evolution Item"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Scientist Ted",
+      "team": [
+        {"species": "Magneton", "level": 44, "types": ["Electric", "Steel"]},
+        {"species": "Koffing", "level": 44, "types": ["Poison"]}
+      ]
+    },
+    {
+      "name": "Robot R.E.D.",
+      "team": [
+        {"species": "Porygon2", "level": 46, "types": ["Normal"]},
+        {"species": "Magnezone", "level": 46, "types": ["Electric", "Steel"]}
+      ]
+    }
+  ],
+  "encounters": {
+    "Fossil Resurrection (Cinnabar Lab)": [
+      {"dex_id": "138", "name": "Omanyte", "types": ["Rock", "Water"], "levels": "35", "rates": "Revive Helix Fossil"},
+      {"dex_id": "140", "name": "Kabuto", "types": ["Rock", "Water"], "levels": "35", "rates": "Revive Dome Fossil"},
+      {"dex_id": "142", "name": "Aerodactyl", "types": ["Rock", "Flying"], "levels": "35", "rates": "Revive Old Amber"}
+    ],
+    "In-Game NPC Trades (Cinnabar Lab & Island)": [
+      {"dex_id": "085", "name": "Dodrio", "types": ["Normal", "Flying"], "levels": "Same", "rates": "Trade Skarmory (Island Resident)"},
+      {"dex_id": "077", "name": "Ponyta", "types": ["Fire"], "levels": "Same", "rates": "Trade Seel (Lab Scientist)"},
+      {"dex_id": "036", "name": "Clefable", "types": ["Fairy"], "levels": "Same", "rates": "Trade Chansey (Lab Researcher)"},
+      {"dex_id": "026", "name": "Raichu", "types": ["Electric"], "levels": "Same", "rates": "Trade Electrode (Lab Assistant)"}
+    ],
+    "Static Encounter": [
+      {"dex_id": "359", "name": "Absol", "types": ["Dark"], "levels": "35", "rates": "Island Coast (Interact to Battle)"}
+    ]
+  }
+}

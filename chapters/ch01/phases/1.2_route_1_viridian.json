@@ -1,0 +1,40 @@
+{
+  "name": "Route 1 & Viridian City",
+  "summary": "The northern corridor connecting Pallet Town to Viridian City. Pick up the free Potion from the clerk in the grass, claim Oak's Parcel from the Viridian Poké Mart, and deliver it to Oak to unlock the Pokédex, Poké Balls, and DNA Splicers.",
+  "items": [
+    {
+      "name": "Potion",
+      "method": "Talk to the friendly Poké Mart clerk standing in the grass near southern Route 1",
+      "type": "Consumable"
+    },
+    {
+      "name": "Oak's Parcel",
+      "method": "Given by the Viridian Poké Mart clerk upon your first entry",
+      "type": "Key Item"
+    },
+    {
+      "name": "Pokédex",
+      "method": "Awarded by Professor Oak in Pallet Town upon delivering Oak's Parcel",
+      "type": "Key Item"
+    },
+    {
+      "name": "Poké Balls (x5)",
+      "method": "Gifted by Professor Oak alongside the Pokédex",
+      "type": "Consumable"
+    }
+  ],
+  "trainers": [],
+  "encounters": {
+    "Grass": [
+      {"dex_id": "016", "name": "Pidgey", "types": ["Normal", "Flying"], "levels": "2-5", "rates": "50% Morning / 50% Day"},
+      {"dex_id": "019", "name": "Rattata", "types": ["Normal"], "levels": "2-5", "rates": "45% All Times"},
+      {"dex_id": "114", "name": "Tangela", "types": ["Grass"], "levels": "2-3", "rates": "5% Morning / 5% Day"},
+      {"dex_id": "163", "name": "Hoothoot", "types": ["Normal", "Flying"], "levels": "2-5", "rates": "50% Night"},
+      {"dex_id": "258", "name": "Mime Jr.", "types": ["Psychic", "Fairy"], "levels": "2-3", "rates": "5% Night"}
+    ],
+    "Poké Radar": [
+      {"dex_id": "417", "name": "Fletchling", "types": ["Normal", "Flying"], "levels": "2-5", "rates": "50% Radar"}
+    ]
+  },
+  "navigation_notes": "Viridian Poké Mart stocks basic DNA Splicers ($300) immediately after Oak's Parcel is delivered! Purchase 3-4 Antidotes ($100 each) here before proceeding to Viridian Forest."
+}

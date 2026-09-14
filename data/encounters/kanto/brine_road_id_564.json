@@ -1,0 +1,279 @@
+{
+  "location": "Brine Road (ID 564)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "022",
+        "name": "Fearow",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "45-55",
+        "catch_rate": "90",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "055",
+        "name": "Golduck",
+        "type1": "Water",
+        "type2": "",
+        "levels": "55",
+        "catch_rate": "75",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "098",
+        "name": "Krabby",
+        "type1": "Water",
+        "type2": "",
+        "levels": "40-45",
+        "catch_rate": "225",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "188",
+        "name": "Skiploom",
+        "type1": "Grass",
+        "type2": "Flying",
+        "levels": "40-45",
+        "catch_rate": "120",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "dex_id": "189",
+        "name": "Jumpluff",
+        "type1": "Grass",
+        "type2": "Flying",
+        "levels": "50-55",
+        "catch_rate": "45",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "235",
+        "name": "Smeargle",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "50",
+        "catch_rate": "45",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "dex_id": "072",
+        "name": "Tentacool",
+        "type1": "Water",
+        "type2": "Poison",
+        "levels": "20-40",
+        "catch_rate": "190",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "116",
+        "name": "Horsea",
+        "type1": "Water",
+        "type2": "",
+        "levels": "25-30",
+        "catch_rate": "225",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "dex_id": "222",
+        "name": "Corsola",
+        "type1": "Water",
+        "type2": "Rock",
+        "levels": "40-45",
+        "catch_rate": "60",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "226",
+        "name": "Mantine",
+        "type1": "Water",
+        "type2": "Flying",
+        "levels": "50",
+        "catch_rate": "25",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "387",
+        "name": "Wailmer",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20-35",
+        "catch_rate": "125",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "437",
+        "name": "Sharpedo",
+        "type1": "Water",
+        "type2": "Dark",
+        "levels": "50",
+        "catch_rate": "60",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "469",
+        "name": "Bruxish",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "35-45",
+        "catch_rate": "80",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "dex_id": "116",
+        "name": "Horsea",
+        "type1": "Water",
+        "type2": "",
+        "levels": "10",
+        "catch_rate": "225",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "10",
+        "catch_rate": "255",
+        "rates": [
+          "70%"
+        ]
+      },
+      {
+        "dex_id": "501",
+        "name": "Luvdisc",
+        "type1": "Water",
+        "type2": "",
+        "levels": "10",
+        "catch_rate": "225",
+        "rates": [
+          "15%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "dex_id": "090",
+        "name": "Shellder",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "190",
+        "rates": [
+          "3%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "255",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "dex_id": "170",
+        "name": "Chinchou",
+        "type1": "Water",
+        "type2": "Electric",
+        "levels": "20",
+        "catch_rate": "190",
+        "rates": [
+          "7%"
+        ]
+      },
+      {
+        "dex_id": "501",
+        "name": "Luvdisc",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "225",
+        "rates": [
+          "30%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "dex_id": "090",
+        "name": "Shellder",
+        "type1": "Water",
+        "type2": "",
+        "levels": "40",
+        "catch_rate": "190",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "170",
+        "name": "Chinchou",
+        "type1": "Water",
+        "type2": "Electric",
+        "levels": "40",
+        "catch_rate": "190",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "dex_id": "171",
+        "name": "Lanturn",
+        "type1": "Water",
+        "type2": "Electric",
+        "levels": "40",
+        "catch_rate": "75",
+        "rates": [
+          "3%"
+        ]
+      },
+      {
+        "dex_id": "453",
+        "name": "Dhelmise",
+        "type1": "Ghost",
+        "type2": "Grass",
+        "levels": "40",
+        "catch_rate": "25",
+        "rates": [
+          "7%"
+        ]
+      }
+    ]
+  }
+}

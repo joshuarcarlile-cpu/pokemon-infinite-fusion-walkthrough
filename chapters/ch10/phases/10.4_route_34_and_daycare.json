@@ -1,0 +1,56 @@
+{
+  "name": "Route 34 & Pokémon Daycare",
+  "summary": "Head south from Goldenrod City onto Route 34. Visit the renowned Pokémon Daycare to breed or passively level Pokémon. Battle seaside trainers along the coastline and hunt for wild psychic and fairy species in the tall meadows, including Poké Radar Kirlia.",
+  "items": [
+    {
+      "name": "Soft Sand",
+      "method": "Gift from the seaside swimmer on the small sandy shore west of Route 34",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Nugget",
+      "method": "Hidden in the grassy thicket behind the Daycare fence",
+      "type": "Treasure"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Camper Todd",
+      "team": [
+        {"species": "Psyduck/Golduck", "level": 48, "types": ["Water"]},
+        {"species": "Poliwhirl", "level": 50, "types": ["Water"]}
+      ]
+    },
+    {
+      "name": "Picnicker Gina",
+      "team": [
+        {"species": "Hoppip/Skiploom", "level": 48, "types": ["Grass", "Flying"]},
+        {"species": "Jumpluff", "level": 51, "types": ["Grass", "Flying"]}
+      ]
+    }
+  ],
+  "encounters": {
+    "Grass": [
+      {"dex_id": "209", "name": "Granbull", "types": ["Fairy"], "levels": "34-35", "rates": "30%"},
+      {"dex_id": "020", "name": "Raticate", "types": ["Normal"], "levels": "30-32", "rates": "30%"},
+      {"dex_id": "017", "name": "Pidgeotto", "types": ["Normal", "Flying"], "levels": "30-32", "rates": "20%"},
+      {"dex_id": "064", "name": "Kadabra", "types": ["Psychic"], "levels": "33-34", "rates": "10%"},
+      {"dex_id": "040", "name": "Wigglytuff", "types": ["Normal", "Fairy"], "levels": "30", "rates": "5%"},
+      {"dex_id": "132", "name": "Ditto", "types": ["Normal"], "levels": "30", "rates": "5%"},
+      {"dex_id": "097", "name": "Hypno", "types": ["Psychic"], "levels": "34-35", "rates": "30% (Night)"},
+      {"dex_id": "164", "name": "Noctowl", "types": ["Normal", "Flying"], "levels": "30-32", "rates": "20% (Night)"}
+    ],
+    "Water (Surf)": [
+      {"dex_id": "072", "name": "Tentacool", "types": ["Water", "Poison"], "levels": "15-30", "rates": "90%"},
+      {"dex_id": "073", "name": "Tentacruel", "types": ["Water", "Poison"], "levels": "35", "rates": "10%"}
+    ],
+    "Fishing (Super Rod)": [
+      {"dex_id": "098", "name": "Krabby", "types": ["Water"], "levels": "40", "rates": "60%"},
+      {"dex_id": "120", "name": "Staryu", "types": ["Water"], "levels": "40", "rates": "30%"},
+      {"dex_id": "099", "name": "Kingler", "types": ["Water"], "levels": "40", "rates": "10%"}
+    ],
+    "Poké Radar": [
+      {"dex_id": "281", "name": "Kirlia", "types": ["Psychic", "Fairy"], "levels": "25-30", "rates": "Radar"}
+    ]
+  }
+}

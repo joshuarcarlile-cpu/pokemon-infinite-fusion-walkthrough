@@ -1,0 +1,435 @@
+{
+  "location": "Area 1 (ID 445)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "029",
+        "name": "Nidoran\u2640",
+        "type1": "Poison",
+        "type2": "",
+        "levels": "22",
+        "catch_rate": "235",
+        "rates": [
+          "-",
+          "10%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "030",
+        "name": "Nidorina",
+        "type1": "Poison",
+        "type2": "",
+        "levels": "31",
+        "catch_rate": "120",
+        "rates": [
+          "5%",
+          "5%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "032",
+        "name": "Nidoran\u2642",
+        "type1": "Poison",
+        "type2": "",
+        "levels": "22",
+        "catch_rate": "235",
+        "rates": [
+          "-",
+          "10%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "033",
+        "name": "Nidorino",
+        "type1": "Poison",
+        "type2": "",
+        "levels": "31",
+        "catch_rate": "120",
+        "rates": [
+          "5%",
+          "5%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "048",
+        "name": "Venonat",
+        "type1": "Bug",
+        "type2": "Poison",
+        "levels": "22",
+        "catch_rate": "190",
+        "rates": [
+          "15%",
+          "15%",
+          "25%"
+        ]
+      },
+      {
+        "dex_id": "049",
+        "name": "Venomoth",
+        "type1": "Bug",
+        "type2": "Poison",
+        "levels": "30",
+        "catch_rate": "75",
+        "rates": [
+          "-",
+          "-",
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "053",
+        "name": "Persian",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "25",
+        "catch_rate": "90",
+        "rates": [
+          "-",
+          "-",
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "054",
+        "name": "Psyduck",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20-30",
+        "catch_rate": "190",
+        "rates": [
+          "-",
+          "-",
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "061",
+        "name": "Poliwhirl",
+        "type1": "Water",
+        "type2": "",
+        "levels": "22-28",
+        "catch_rate": "120",
+        "rates": [
+          "-",
+          "-",
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "102",
+        "name": "Exeggcute",
+        "type1": "Grass",
+        "type2": "Psychic",
+        "levels": "24-25",
+        "catch_rate": "90",
+        "rates": [
+          "20%",
+          "12%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "108",
+        "name": "Lickitung",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "25-30",
+        "catch_rate": "45",
+        "rates": [
+          "10%",
+          "10%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "111",
+        "name": "Rhyhorn",
+        "type1": "Ground",
+        "type2": "Rock",
+        "levels": "25",
+        "catch_rate": "120",
+        "rates": [
+          "-",
+          "10%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "113",
+        "name": "Chansey",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "23",
+        "catch_rate": "30",
+        "rates": [
+          "1%",
+          "1%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "123",
+        "name": "Scyther",
+        "type1": "Bug",
+        "type2": "Flying",
+        "levels": "23",
+        "catch_rate": "45",
+        "rates": [
+          "14%",
+          "4%",
+          "4%"
+        ]
+      },
+      {
+        "dex_id": "127",
+        "name": "Pinsir",
+        "type1": "Bug",
+        "type2": "",
+        "levels": "23",
+        "catch_rate": "45",
+        "rates": [
+          "14%",
+          "8%",
+          "8%"
+        ]
+      },
+      {
+        "dex_id": "422",
+        "name": "Venipede",
+        "type1": "Bug",
+        "type2": "Poison",
+        "levels": "25",
+        "catch_rate": "255",
+        "rates": [
+          "10%",
+          "-",
+          "10%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "dex_id": "054",
+        "name": "Psyduck",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20-40",
+        "catch_rate": "190",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "dex_id": "055",
+        "name": "Golduck",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20-30",
+        "catch_rate": "75",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "079",
+        "name": "Slowpoke",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "20-40",
+        "catch_rate": "190",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "dex_id": "080",
+        "name": "Slowbro",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "20-30",
+        "catch_rate": "75",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "436",
+        "name": "Carvanha",
+        "type1": "Water",
+        "type2": "Dark",
+        "levels": "20-40",
+        "catch_rate": "225",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5",
+        "catch_rate": "255",
+        "rates": [
+          "80%"
+        ]
+      },
+      {
+        "dex_id": "436",
+        "name": "Carvanha",
+        "type1": "Water",
+        "type2": "Dark",
+        "levels": "5",
+        "catch_rate": "225",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "dex_id": "060",
+        "name": "Poliwag",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-15",
+        "catch_rate": "255",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "118",
+        "name": "Goldeen",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-15",
+        "catch_rate": "225",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-15",
+        "catch_rate": "255",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "147",
+        "name": "Dratini",
+        "type1": "Dragon",
+        "type2": "",
+        "levels": "10-15",
+        "catch_rate": "45",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "436",
+        "name": "Carvanha",
+        "type1": "Water",
+        "type2": "Dark",
+        "levels": "15-25",
+        "catch_rate": "225",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "dex_id": "054",
+        "name": "Psyduck",
+        "type1": "Water",
+        "type2": "",
+        "levels": "15-35",
+        "catch_rate": "190",
+        "rates": [
+          "8%"
+        ]
+      },
+      {
+        "dex_id": "079",
+        "name": "Slowpoke",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "15-35",
+        "catch_rate": "190",
+        "rates": [
+          "8%"
+        ]
+      },
+      {
+        "dex_id": "118",
+        "name": "Goldeen",
+        "type1": "Water",
+        "type2": "",
+        "levels": "15-25",
+        "catch_rate": "225",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "147",
+        "name": "Dratini",
+        "type1": "Dragon",
+        "type2": "",
+        "levels": "15-25",
+        "catch_rate": "45",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "148",
+        "name": "Dragonair",
+        "type1": "Dragon",
+        "type2": "",
+        "levels": "25-35",
+        "catch_rate": "45",
+        "rates": [
+          "4%"
+        ]
+      },
+      {
+        "dex_id": "436",
+        "name": "Carvanha",
+        "type1": "Water",
+        "type2": "Dark",
+        "levels": "20-30",
+        "catch_rate": "225",
+        "rates": [
+          "30%"
+        ]
+      }
+    ],
+    "Pok\u00e9 Radar": [
+      {
+        "dex_id": "395",
+        "name": "Bagon",
+        "type1": "Dragon",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "45",
+        "rates": [
+          "50% <small>([[Pok\u00e9 Radar#How_it_works",
+          "long rustle]])</small>"
+        ]
+      }
+    ]
+  }
+}

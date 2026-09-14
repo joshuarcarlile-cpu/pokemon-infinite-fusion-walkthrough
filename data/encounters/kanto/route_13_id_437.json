@@ -1,0 +1,321 @@
+{
+  "location": "Route 13 (ID 437)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "016",
+        "name": "Pidgey",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "25-27",
+        "catch_rate": "255",
+        "rates": [
+          "10%",
+          "10%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "017",
+        "name": "Pidgeotto",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "29",
+        "catch_rate": "120",
+        "rates": [
+          "5%",
+          "5%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "041",
+        "name": "Zubat",
+        "type1": "Poison",
+        "type2": "Flying",
+        "levels": "25-27",
+        "catch_rate": "255",
+        "rates": [
+          "-",
+          "-",
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "042",
+        "name": "Golbat",
+        "type1": "Poison",
+        "type2": "Flying",
+        "levels": "29",
+        "catch_rate": "90",
+        "rates": [
+          "-",
+          "-",
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "043",
+        "name": "Oddish",
+        "type1": "Grass",
+        "type2": "Poison",
+        "levels": "22-26",
+        "catch_rate": "255",
+        "rates": [
+          "20%",
+          "20%",
+          "40%"
+        ]
+      },
+      {
+        "dex_id": "044",
+        "name": "Gloom",
+        "type1": "Grass",
+        "type2": "Poison",
+        "levels": "28-30",
+        "catch_rate": "120",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "048",
+        "name": "Venonat",
+        "type1": "Bug",
+        "type2": "Poison",
+        "levels": "24-26",
+        "catch_rate": "190",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "069",
+        "name": "Bellsprout",
+        "type1": "Grass",
+        "type2": "Poison",
+        "levels": "22-26",
+        "catch_rate": "255",
+        "rates": [
+          "20%",
+          "20%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "070",
+        "name": "Weepinbell",
+        "type1": "Grass",
+        "type2": "Poison",
+        "levels": "28-30",
+        "catch_rate": "120",
+        "rates": [
+          "10%",
+          "10%",
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "083",
+        "name": "Farfetch'd",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "26",
+        "catch_rate": "45",
+        "rates": [
+          "10%",
+          "10%",
+          "5%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "dex_id": "060",
+        "name": "Poliwag",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5",
+        "catch_rate": "255",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5",
+        "catch_rate": "255",
+        "rates": [
+          "80%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "dex_id": "060",
+        "name": "Poliwag",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5",
+        "catch_rate": "255",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5",
+        "catch_rate": "255",
+        "rates": [
+          "80%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "dex_id": "098",
+        "name": "Krabby",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-15",
+        "catch_rate": "225",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "dex_id": "116",
+        "name": "Horsea",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-15",
+        "catch_rate": "225",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-15",
+        "catch_rate": "255",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "211",
+        "name": "Qwilfish",
+        "type1": "Water",
+        "type2": "Poison",
+        "levels": "5-15",
+        "catch_rate": "45",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "dex_id": "054",
+        "name": "Psyduck",
+        "type1": "Water",
+        "type2": "",
+        "levels": "25-35",
+        "catch_rate": "190",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "dex_id": "079",
+        "name": "Slowpoke",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "25-35",
+        "catch_rate": "190",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "dex_id": "098",
+        "name": "Krabby",
+        "type1": "Water",
+        "type2": "",
+        "levels": "15-35",
+        "catch_rate": "225",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "dex_id": "116",
+        "name": "Horsea",
+        "type1": "Water",
+        "type2": "",
+        "levels": "15-35",
+        "catch_rate": "225",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "dex_id": "130",
+        "name": "Gyarados",
+        "type1": "Water",
+        "type2": "Flying",
+        "levels": "15-25",
+        "catch_rate": "45",
+        "rates": [
+          "16%"
+        ]
+      },
+      {
+        "dex_id": "211",
+        "name": "Qwilfish",
+        "type1": "Water",
+        "type2": "Poison",
+        "levels": "15-35",
+        "catch_rate": "45",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Pok\u00e9 Radar": [
+      {
+        "dex_id": "408",
+        "name": "Cottonee",
+        "type1": "Grass",
+        "type2": "Fairy",
+        "levels": "22-25",
+        "catch_rate": "190",
+        "rates": [
+          "50% <small>([[Pok\u00e9 Radar#How_it_works",
+          "long rustle]])</small>"
+        ]
+      },
+      {
+        "dex_id": "412",
+        "name": "Joltik",
+        "type1": "Bug",
+        "type2": "Electric",
+        "levels": "22-25",
+        "catch_rate": "190",
+        "rates": [
+          "50% <small>([[Pok\u00e9 Radar#How_it_works",
+          "long rustle]])</small>"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "New Bark Town & Elm's Pokémon Laboratory",
+  "summary": "Step into historic New Bark Town, the tranquil settlement where winds of a new beginning blow. Enter Professor Elm's research laboratory. Impressed by your 11 League Badges, Elm celebrates your journey by offering your choice of a classic Gen 2 Johto Starter—Chikorita, Cyndaquil, or Totodile—at Level 5. In addition, Elm presents you with HM05 Waterfall, granting you the capability to ascend thunderous cascades across Johto and Kanto.",
+  "items": [
+    {
+      "name": "HM05 Waterfall",
+      "method": "Gifted by Professor Elm inside his New Bark Town lab after earning Johto Badges",
+      "type": "Key Item / HM"
+    },
+    {
+      "name": "Elm's Johto Starter (Chikorita / Cyndaquil / Totodile)",
+      "method": "Gifted by Professor Elm from the research counter; choose one of the three Level 5 starters",
+      "type": "Gift Pokémon"
+    },
+    {
+      "name": "Everstone",
+      "method": "Gifted by Elm's lab assistant after showing a successfully hatched Pokémon egg",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Potion",
+      "method": "Found on the shoreline path leading toward Route 27",
+      "type": "Medicine"
+    }
+  ],
+  "trainers": [],
+  "encounters": {
+    "Elm's Lab Starter Choice": [
+      {"dex_id": "152", "name": "Chikorita", "types": ["Grass"], "levels": "5", "rates": "Gift Choice"},
+      {"dex_id": "155", "name": "Cyndaquil", "types": ["Fire"], "levels": "5", "rates": "Gift Choice"},
+      {"dex_id": "158", "name": "Totodile", "types": ["Water"], "levels": "5", "rates": "Gift Choice"}
+    ]
+  }
+}

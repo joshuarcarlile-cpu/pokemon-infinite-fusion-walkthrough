@@ -1,0 +1,37 @@
+{
+  "name": "Route 22 & Pre-League Rival Clash",
+  "summary": "Head west from Viridian City along Route 22 toward the Pokémon League checkpoint. Rival Blue ambushes you with a fully evolved 6-Pokémon squad, serving as the ultimate gatekeeper before the badge inspection gates.",
+  "items": [
+    {
+      "name": "Max Potion",
+      "method": "Pickup in the cul-de-sac south of the reception gate",
+      "type": "Medicine"
+    },
+    {
+      "name": "Full Heal",
+      "method": "Hidden in the grassy terrace near the northern fence",
+      "type": "Medicine"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Rival Blue",
+      "team": [
+        {"species": "Pidgeot/Nidoking", "level": 47, "types": ["Normal", "Ground"]},
+        {"species": "Exeggcute/Tauros", "level": 45, "types": ["Grass", "Normal"]},
+        {"species": "Rhyhorn/Magmar", "level": 45, "types": ["Ground", "Fire"]},
+        {"species": "Gyarados/Electabuzz", "level": 47, "types": ["Water", "Electric"]},
+        {"species": "Alakazam/Starmie", "level": 50, "types": ["Psychic", "Water"]},
+        {"species": "Starter Fusion Ace", "level": 53, "types": ["Water", "Fire"]}
+      ]
+    }
+  ],
+  "encounters": {
+    "Wild Grass": [
+      {"dex_id": "056", "name": "Mankey", "types": ["Fighting"], "levels": "2-5", "rates": "20%"},
+      {"dex_id": "021", "name": "Spearow", "types": ["Normal", "Flying"], "levels": "3-5", "rates": "15%"},
+      {"dex_id": "019", "name": "Rattata", "types": ["Normal"], "levels": "2-5", "rates": "35%"},
+      {"dex_id": "163", "name": "Hoothoot", "types": ["Normal", "Flying"], "levels": "3-5", "rates": "15% (Night)"}
+    ]
+  }
+}

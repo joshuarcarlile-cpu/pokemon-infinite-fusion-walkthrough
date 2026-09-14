@@ -1,0 +1,233 @@
+{
+  "chapter_id": "ch24",
+  "title": "Act 4 - Chapter 2: Primordial Heavens & Abyssal Depths (Ho-Gia, Weather Trio & Creation)",
+  "act": 4,
+  "hard_mode_level_cap": 92,
+  "gym_duel_limit": 6,
+  "routes_covered": [
+    "Sky Pillar"
+  ],
+  "vanilla_divergence_alerts": [
+    "HM Slaves: 100% eliminated by 9 reusable Key Item tools. Do NOT instruct players to teach field moves to party members.",
+    "Friendship: Eliminated. All friendship evolutions use static level thresholds (e.g. Baby Pokémon evolve at Lv. 15).",
+    "Trade Evolutions: Evolve naturally at Level 40 OR via Linking Cord (not Level 37)."
+  ],
+  "critical_missables": [],
+  "hotel_milestone_target": {},
+  "active_and_ongoing_quests": [],
+  "boss_ground_truth": {},
+  "encounters_by_location": {
+    "Sky Pillar (ID 597)": {
+      "Cave": [
+        {
+          "name": "Golbat",
+          "dex_id": "042",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "48-50"
+        },
+        {
+          "name": "Mawile",
+          "dex_id": "300",
+          "types": [
+            "Steel",
+            "Fairy"
+          ],
+          "levels": "48-50"
+        },
+        {
+          "name": "Nosepass",
+          "dex_id": "325",
+          "types": [
+            "Rock"
+          ],
+          "levels": "47-50"
+        }
+      ]
+    },
+    "Sky Pillar (ID 633)": {
+      "Cave": [
+        {
+          "name": "Golbat",
+          "dex_id": "042",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "54-56"
+        },
+        {
+          "name": "Ariados",
+          "dex_id": "168",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "54-56"
+        },
+        {
+          "name": "Metang",
+          "dex_id": "292",
+          "types": [
+            "Steel",
+            "Psychic"
+          ],
+          "levels": "45"
+        },
+        {
+          "name": "Mawile",
+          "dex_id": "300",
+          "types": [
+            "Steel",
+            "Fairy"
+          ],
+          "levels": "54-56"
+        },
+        {
+          "name": "Dusclops",
+          "dex_id": "312",
+          "types": [
+            "Ghost"
+          ],
+          "levels": "54-56"
+        }
+      ]
+    },
+    "Sky Pillar (ID 634)": {
+      "Cave": [
+        {
+          "name": "Golbat",
+          "dex_id": "042",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "54-56"
+        },
+        {
+          "name": "Ariados",
+          "dex_id": "168",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "54-56"
+        },
+        {
+          "name": "Metang",
+          "dex_id": "292",
+          "types": [
+            "Steel",
+            "Psychic"
+          ],
+          "levels": "45"
+        },
+        {
+          "name": "Mawile",
+          "dex_id": "300",
+          "types": [
+            "Steel",
+            "Fairy"
+          ],
+          "levels": "54-56"
+        },
+        {
+          "name": "Dusclops",
+          "dex_id": "312",
+          "types": [
+            "Ghost"
+          ],
+          "levels": "54-56"
+        }
+      ]
+    },
+    "Sky Pillar (ID 640)": {
+      "Cave": [
+        {
+          "name": "Golbat",
+          "dex_id": "042",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "54-56"
+        },
+        {
+          "name": "Metang",
+          "dex_id": "292",
+          "types": [
+            "Steel",
+            "Psychic"
+          ],
+          "levels": "45"
+        },
+        {
+          "name": "Mawile",
+          "dex_id": "300",
+          "types": [
+            "Steel",
+            "Fairy"
+          ],
+          "levels": "54-56"
+        },
+        {
+          "name": "Dusclops",
+          "dex_id": "312",
+          "types": [
+            "Ghost"
+          ],
+          "levels": "54-56"
+        }
+      ]
+    },
+    "Sky Pillar (ID 641)": {
+      "Cave": [
+        {
+          "name": "Golbat",
+          "dex_id": "042",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "54-56"
+        },
+        {
+          "name": "Metang",
+          "dex_id": "292",
+          "types": [
+            "Steel",
+            "Psychic"
+          ],
+          "levels": "45"
+        },
+        {
+          "name": "Mawile",
+          "dex_id": "300",
+          "types": [
+            "Steel",
+            "Fairy"
+          ],
+          "levels": "54-56"
+        },
+        {
+          "name": "Dusclops",
+          "dex_id": "312",
+          "types": [
+            "Ghost"
+          ],
+          "levels": "54-56"
+        }
+      ]
+    }
+  },
+  "wiki_ground_truth": {},
+  "location_items_and_statics": [],
+  "authoring_guidance": {
+    "splicing_safety": "Explicitly state: HEAD species, BODY species, and WHICH ability to select at the DNA Splicer prompt.",
+    "gym_party_selection_rule": "Built-in 6v6 party limit! When challenged, the game prompts the player to choose which 6 Pokémon from their active party to bring into battle. No PC box deposits required.",
+    "stone_evolutions": "Advisory: Do NOT use evolution stones prematurely on stone-evolvers (e.g. Nidorino) before key level-up moves are learned.",
+    "undercover_informant_rocket": "Guide player to join Team Rocket for disguises/missions, BUT report crimes to police officer for +10 Karma and Diancie unlock!"
+  }
+}

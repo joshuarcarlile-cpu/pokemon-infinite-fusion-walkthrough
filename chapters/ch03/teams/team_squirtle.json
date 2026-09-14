@@ -1,0 +1,135 @@
+{
+  "starter": "Squirtle",
+  "name": "Team Squirtle: Bulky Balance & Ground Inversion",
+  "archetype": "Electric-immune Water/Ground starter tank, Ground/Flying aerial breaker, and status-immune Fighting/Poison pivots.",
+  "gym_duel_core": [1, 2, 3],
+  "gym_duel_rationale": "Lt. Surge enforces a strict 3v3 duel. Enter the arena with Wartortle/Geodude (Water/Ground typing inverts Water's greatest weakness into 100% Electric immunity, boasting 93 Base Defense with STAB Water Pulse and Magnitude), Dugtrio/Fearow (coveted Gliscor defensive typing with 100% immunity to both Electric and Ground, packing blazing 106 Speed), and Primeape/Gloom (Vital Spirit sleep immunity, resisting Water and Electric while punishing with Cross Chop and Mega Drain).",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Wartortle/Geodude",
+      "types": ["Water", "Ground"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 28,
+      "ability": "Torrent",
+      "held_item": "Mystic Water",
+      "role": "Electric-Immune Physical Fortress & Gym Duelist",
+      "current_reached_moveset": [
+        "Water Pulse",
+        "Magnitude",
+        "Bite",
+        "Rock Throw"
+      ],
+      "progression_notes": "Permanent starter anchor spliced with Mt. Moon Geodude. Inverts Water's greatest weakness into 100% Electric immunity while providing massive 93 Base Defense."
+    },
+    {
+      "slot": 2,
+      "species": "Dugtrio/Fearow",
+      "types": ["Ground", "Flying"],
+      "status": "Active in Party (Diglett's Cave & Route 9 Splice)",
+      "current_level": 28,
+      "ability": "Arena Trap",
+      "held_item": "Soft Sand",
+      "role": "Dual-Immune Speed Breaker & Gym Duelist",
+      "current_reached_moveset": [
+        "Aerial Ace",
+        "Magnitude",
+        "Drill Run",
+        "Sucker Punch"
+      ],
+      "progression_notes": "Ground/Flying typing grants total immunity to both Electric and Ground. 106 Base Speed with STAB Magnitude and priority Sucker Punch."
+    },
+    {
+      "slot": 3,
+      "species": "Primeape/Gloom",
+      "types": ["Fighting", "Poison"],
+      "status": "Active in Party (Route 3 & Route 24 Splice)",
+      "current_level": 27,
+      "ability": "Vital Spirit",
+      "held_item": "Miracle Seed",
+      "role": "Sleep-Immune Status Pivot & Gym Duelist",
+      "current_reached_moveset": [
+        "Cross Chop",
+        "Mega Drain",
+        "Sleep Powder",
+        "Seismic Toss"
+      ],
+      "progression_notes": "Vital Spirit grants complete immunity to sleep. Resists both Electric and Water attacks while applying Sleep Powder and heavy Fighting STAB."
+    },
+    {
+      "slot": 4,
+      "species": "Kadabra/Bellsprout",
+      "types": ["Psychic", "Poison"],
+      "status": "Active in Party (Route 24 Splice)",
+      "current_level": 27,
+      "ability": "Synchronize",
+      "held_item": "Twisted Spoon",
+      "role": "High-SpA Status Artillery",
+      "current_reached_moveset": [
+        "Psybeam",
+        "Vine Whip",
+        "Reflect",
+        "Sleep Powder"
+      ],
+      "progression_notes": "103 Special Attack glass cannon with dual Psychic/Poison typing. Sets Reflect screens and applies Sleep Powder."
+    },
+    {
+      "slot": 5,
+      "species": "Poliwhirl/Sandslash",
+      "types": ["Water", "Ground"],
+      "status": "Active in Party (Old Rod & Mt. Moon Splice)",
+      "current_level": 26,
+      "ability": "Water Absorb",
+      "held_item": "Black Belt",
+      "role": "Bulky Water/Ground Pivot & Hazard Absorber",
+      "current_reached_moveset": [
+        "Magnitude",
+        "Bubble Beam",
+        "Body Slam",
+        "Slash"
+      ],
+      "progression_notes": "423 BST physical wall with 95 Defense and Water Absorb. Completely shuts down enemy Water attacks while providing Ground STAB."
+    }
+  ],
+  "flex_bench": [
+    {
+      "slot": "B1",
+      "species": "Butterfree",
+      "types": ["Bug", "Flying"],
+      "current_level": 26,
+      "ability": "Compound Eyes",
+      "held_item": "Silver Powder",
+      "role": "Reliable 97.5% Accuracy Sleep Catcher",
+      "why_use": "Essential utility catcher with Compound Eyes Sleep Powder for capturing wild route assets."
+    },
+    {
+      "slot": "B2",
+      "species": "Clefairy/Zubat",
+      "types": ["Fairy", "Poison"],
+      "current_level": 26,
+      "ability": "Magic Guard",
+      "held_item": "Silk Scarf",
+      "role": "Defensive Fairy/Poison Pivot",
+      "why_use": "Magic Guard prevents all passive hazard damage, while Fairy/Poison covers Fighting and Bug foes."
+    }
+  ],
+  "fusion_lifecycle": {
+    "active_fusions": [
+      "Wartortle/Geodude (Water/Ground starter anchor with 100% Electric immunity and 93 Defense)",
+      "Dugtrio/Fearow (Ground/Flying dual-immune speed sweeper with 106 Speed)",
+      "Primeape/Gloom (Vital Spirit sleep-immune fighting pivot)",
+      "Kadabra/Bellsprout (103 SpA special artillery with Sleep Powder)",
+      "Poliwhirl/Sandslash (423 BST Water Absorb physical wall)"
+    ],
+    "unfuse_recommendations": [
+      "1. Visit the Vermilion City Poké Mart and pay $300 to unfuse Wartortle/Pikachu from Chapter 2, separating Wartortle.",
+      "2. Splice Wartortle with Mt. Moon Geodude to form Wartortle/Geodude, gaining 100% Electric immunity for the gym duel.",
+      "3. Catch Diglett in Diglett's Cave and splice with Fearow for an apex Ground/Flying dual-immune revenge killer."
+    ],
+    "upcoming_fusions": [
+      "Blastoise/Fearow (Water/Flying neutral-to-grass rain tank with 4x STAB Drill Peck for Erika)",
+      "Flareon/Sandslash (110 Attack Fire/Ground wallbreaker via Celadon Fire Stone)",
+      "Vileplume/Poliwrath (510 BST Chlorophyll weather-shifting titan)"
+    ]
+  }
+}

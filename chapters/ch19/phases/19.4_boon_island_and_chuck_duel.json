@@ -1,0 +1,85 @@
+{
+  "name": "Boon Island & Chuck's Waterfall Duel",
+  "summary": "Step ashore at Boon Island (Two Island), a peaceful tropical settlement featuring a bustling market, the Joyful Game Corner, and a Move Relearner house. Visit the secluded cabin where an elderly lady trades rare treasures for collected Heart Scales: claim the Dream Mirror for 10 Heart Scales and a Lucky Egg for 25. Activate the Poké Radar in the western grasslands to locate elusive wild Ninjask. Trek north into the mountain gorge where Cianwood Gym Leader Chuck trains under a thundering waterfall. Challenge Chuck to a 5 vs 5 duel to claim the Storm Badge, the Eyebrows & Stache vanity hat, and the Navel Ticket unlocking the ferry to Navel Rock.",
+  "items": [
+    {
+      "name": "Storm Badge",
+      "method": "Awarded by Gym Leader Chuck upon defeating his 5-member fighting squad",
+      "type": "Gym Badge"
+    },
+    {
+      "name": "Navel Ticket",
+      "method": "Gifted by Chuck alongside the Storm Badge; unlocks the ferry to Navel Rock",
+      "type": "Key Item"
+    },
+    {
+      "name": "Eyebrows & Stache",
+      "method": "Vanity hat awarded by Chuck upon victory",
+      "type": "Vanity / Outfit"
+    },
+    {
+      "name": "Dream Mirror",
+      "method": "Obtained from the elderly lady in the north cabin for 10 Heart Scales",
+      "type": "Key Item"
+    },
+    {
+      "name": "Lucky Egg",
+      "method": "Traded by the elderly lady in the north cabin for 25 Heart Scales",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Revive",
+      "method": "Behind a cuttable tree north of the Pokémon Center",
+      "type": "Medicine"
+    },
+    {
+      "name": "Heart Scale",
+      "method": "On the ground near the south ferry dock",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Heart Scale",
+      "method": "On the elevated plateau behind the market shop",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Heart Scale",
+      "method": "Hidden beside a rock near the elderly lady's cabin",
+      "type": "Hold Item"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Black Belt Hugh",
+      "title": "Black Belt",
+      "reward": "P1,344",
+      "pokemon": [
+        {
+          "species": "Primeape",
+          "level": 56,
+          "types": ["Fighting"]
+        },
+        {
+          "species": "Hitmonlee",
+          "level": 57,
+          "types": ["Fighting"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Grass": [
+      { "species": "Fearow", "levels": "36", "rate": "10%" },
+      { "species": "Gloom", "levels": "36-48", "rate": "15%" },
+      { "species": "Weepinbell", "levels": "36-48", "rate": "15%" },
+      { "species": "Psyduck", "levels": "41", "rate": "7%" },
+      { "species": "Slowpoke", "levels": "41", "rate": "8%" },
+      { "species": "Oricorio", "levels": "41", "rate": "15%" },
+      { "species": "Stufful", "levels": "41", "rate": "20%" },
+      { "species": "Jangmo-o", "levels": "35", "rate": "10%" }
+    ],
+    "Poké Radar": [
+      { "species": "Ninjask", "levels": "45-50", "rate": "50% (Long Rustle)" }
+    ]
+  }
+}

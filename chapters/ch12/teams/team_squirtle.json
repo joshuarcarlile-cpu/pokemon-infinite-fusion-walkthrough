@@ -1,0 +1,128 @@
+{
+  "starter": "Squirtle",
+  "name": "Team Squirtle: Hydro Artillery & Aerial Interception",
+  "archetype": "Water/Flying aerial artillery, Electric speed sweeping, and Intimidate attack reduction.",
+  "gym_duel_core": [1, 2, 3, 4, 5],
+  "gym_duel_rationale": "Falkner's 5v5 aerial battle prompts the player to select 5 active Pokémon: Blastoise/Fearow elevates to Cap 63 to anchor the frontline, using STAB Hydro Pump against Skarmory/Houndoom and Marowak/Dustox while drilling Granbull/Combusken with Drill Peck; Jolteon/Sandslash outspeeds and shocks Xatu/Noctowl and Ursaring/Pidgeot with Discharge; Arbok/Primeape cuts Ursaring/Pidgeot's Attack on switch-in with Intimidate and uses Close Combat against Skarmory/Houndoom; Alakazam/Weezing dismantles Granbull/Combusken and Marowak/Dustox with STAB Psychic; and Snorlax absorbs Flying moves with Rest and Leftovers.",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Blastoise/Fearow",
+      "types": ["Water", "Flying"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 63,
+      "ability": "Torrent",
+      "held_item": "Sharp Beak",
+      "role": "Aerial Water Sweeper",
+      "current_reached_moveset": [
+        "Drill Peck",
+        "Hydro Pump",
+        "Roost",
+        "Protect"
+      ],
+      "progression_notes": "486 BST starter hybrid elevated to Cap 63. STAB Hydro Pump douses Skarmory/Houndoom and Marowak/Dustox. Drill Peck drills Granbull/Combusken cleanly."
+    },
+    {
+      "slot": 2,
+      "species": "Alakazam/Weezing",
+      "types": ["Psychic", "Poison"],
+      "status": "Active in Party (Retained from Ch 11)",
+      "current_level": 62,
+      "ability": "Levitate",
+      "held_item": "Twisted Spoon",
+      "role": "Levitate Special Wallbreaker",
+      "current_reached_moveset": [
+        "Psychic",
+        "Sludge Bomb",
+        "Recover",
+        "Calm Mind"
+      ],
+      "progression_notes": "495 BST Levitate pivot with 118 SpA. Levitate grants Ground immunity. STAB Psychic dismantles Granbull/Combusken and Marowak/Dustox."
+    },
+    {
+      "slot": 3,
+      "species": "Jolteon/Sandslash",
+      "types": ["Electric", "Ground"],
+      "status": "Active in Party (Retained from Ch 11)",
+      "current_level": 62,
+      "ability": "Volt Absorb",
+      "held_item": "Soft Sand",
+      "role": "Speed Anti-Air Sweeper",
+      "current_reached_moveset": [
+        "Discharge",
+        "Earthquake",
+        "Pin Missile",
+        "Swords Dance"
+      ],
+      "progression_notes": "486 BST speed sweeper. Discharge electrocutes Xatu/Noctowl and Ursaring/Pidgeot. Earthquake delivers crushing 4x damage to Skarmory/Houndoom once its balloon pops."
+    },
+    {
+      "slot": 4,
+      "species": "Arbok/Primeape",
+      "types": ["Poison", "Fighting"],
+      "status": "Active in Party (Retained from Ch 11)",
+      "current_level": 62,
+      "ability": "Intimidate",
+      "held_item": "Black Belt",
+      "role": "Intimidate Physical Wallbreaker",
+      "current_reached_moveset": [
+        "Close Combat",
+        "Gunk Shot",
+        "Cross Chop",
+        "Glare"
+      ],
+      "progression_notes": "479 BST Intimidate bruiser. Intimidate neutralizes Ursaring/Pidgeot's Attack on entry. STAB Close Combat delivers massive damage to Skarmory/Houndoom."
+    },
+    {
+      "slot": 5,
+      "species": "Snorlax",
+      "types": ["Normal"],
+      "status": "Active in Party (Retained from Ch 11)",
+      "current_level": 62,
+      "ability": "Thick Fat",
+      "held_item": "Leftovers",
+      "role": "Thick Fat Normal Tank",
+      "current_reached_moveset": [
+        "Body Slam",
+        "Rest",
+        "Sleep Talk",
+        "Crunch"
+      ],
+      "progression_notes": "Colossal 160 HP tank. Absorbs stray Flying and Fire moves comfortably, resetting damage with Rest and Sleep Talk."
+    },
+    {
+      "slot": 6,
+      "species": "Lapras",
+      "types": ["Water", "Ice"],
+      "status": "Active in Party (Retained from Ch 11)",
+      "current_level": 60,
+      "ability": "Water Absorb",
+      "held_item": "Never-Melt Ice",
+      "role": "Bulky Water Pivot",
+      "current_reached_moveset": [
+        "Ice Beam",
+        "Hydro Pump",
+        "Confuse Ray",
+        "Body Slam"
+      ],
+      "progression_notes": "535 BST Water/Ice wall. Ice Beam cleanly freezes Flying threats across Union Cave, Route 32, and the National Park."
+    }
+  ],
+  "flex_bench": [
+    {
+      "species": "Venusaur",
+      "role": "Chlorophyll Sleep Tank",
+      "rationale": "High-durability Grass/Poison tank packing Leech Seed and Sleep Powder for status control."
+    },
+    {
+      "species": "Gyarados",
+      "role": "Dragon Dance Water Pivot",
+      "rationale": "Intimidate physical pivot and Dragon Dance sweeper with Aqua Tail."
+    },
+    {
+      "species": "Hitmontop",
+      "role": "Technician Rapid Spinner",
+      "rationale": "Technician-boosted Triple Kick and Rapid Spin hazard removal for tactical versatility."
+    }
+  ]
+}

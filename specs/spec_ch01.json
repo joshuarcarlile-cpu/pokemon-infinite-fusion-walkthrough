@@ -1,0 +1,76 @@
+{
+  "chapter_id": "ch01",
+  "title": "Act 1 - Segment 1: The Journey Begins to Boulder Badge",
+  "act": 1,
+  "hard_mode_level_cap": 14,
+  "gym_duel_limit": 2,
+  "routes_covered": [
+    "Pallet Town",
+    "Route 1",
+    "Viridian City",
+    "Route 22",
+    "Secret Garden",
+    "Route 2 (South)",
+    "Viridian Forest",
+    "Pewter City"
+  ],
+  "expected_classic_spawns": [
+    "Pidgey",
+    "Rattata",
+    "Tangela",
+    "Ditto",
+    "Eevee",
+    "Hoothoot",
+    "Mime Jr.",
+    "Fletchling",
+    "Spearow",
+    "Nidoran♀",
+    "Nidoran♂",
+    "Mankey",
+    "Caterpie",
+    "Metapod",
+    "Weedle",
+    "Kakuna",
+    "Meowth",
+    "Ledyba",
+    "Pichu",
+    "Shroomish",
+    "Sentret",
+    "Spinarak",
+    "Paras",
+    "Pineco",
+    "Tyrogue"
+  ],
+  "prohibited_spawns": [
+    "Ralts",
+    "Riolu",
+    "Beldum",
+    "Bagon",
+    "Torchic",
+    "Mudkip",
+    "Treecko",
+    "Chimchar",
+    "Piplup",
+    "Turtwig"
+  ],
+  "prohibited_tools": [
+    "Shears",
+    "Pickaxe",
+    "Dolly",
+    "Surfboard",
+    "Teleporter",
+    "Scuba Gear",
+    "Jetpack",
+    "Climbing Gear"
+  ],
+  "required_items": [
+    "Oak's Parcel",
+    "Pokédex",
+    "Potion"
+  ],
+  "starter_teams_required": [
+    "bulbasaur",
+    "charmander",
+    "squirtle"
+  ]
+}

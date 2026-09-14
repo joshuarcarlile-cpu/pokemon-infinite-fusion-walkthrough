@@ -1,0 +1,408 @@
+{
+  "chapter_id": "ch25",
+  "title": "Act 4 - Chapter 3: The Apex Sandbox: Vermilion Arena, Level 100 League & Triple Fusions",
+  "act": 4,
+  "hard_mode_level_cap": 100,
+  "gym_duel_limit": 6,
+  "routes_covered": [
+    "Route 23"
+  ],
+  "vanilla_divergence_alerts": [
+    "HM Slaves: 100% eliminated by 9 reusable Key Item tools. Do NOT instruct players to teach field moves to party members.",
+    "Friendship: Eliminated. All friendship evolutions use static level thresholds (e.g. Baby Pokémon evolve at Lv. 15).",
+    "Trade Evolutions: Evolve naturally at Level 40 OR via Linking Cord (not Level 37)."
+  ],
+  "critical_missables": [],
+  "hotel_milestone_target": {},
+  "active_and_ongoing_quests": [],
+  "boss_ground_truth": {},
+  "encounters_by_location": {
+    "Route 23 (ID 143)": {
+      "Grass": [
+        {
+          "name": "Pidgeotto",
+          "dex_id": "017",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "25-40"
+        },
+        {
+          "name": "Pidgeot",
+          "dex_id": "018",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "36"
+        },
+        {
+          "name": "Raticate",
+          "dex_id": "020",
+          "types": [
+            "Normal"
+          ],
+          "levels": "20-35"
+        },
+        {
+          "name": "Zubat",
+          "dex_id": "041",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "25-40"
+        },
+        {
+          "name": "Golbat",
+          "dex_id": "042",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "36"
+        },
+        {
+          "name": "Mankey",
+          "dex_id": "056",
+          "types": [
+            "Fighting"
+          ],
+          "levels": "20-40"
+        },
+        {
+          "name": "Primeape",
+          "dex_id": "057",
+          "types": [
+            "Fighting"
+          ],
+          "levels": "30"
+        },
+        {
+          "name": "Graveler",
+          "dex_id": "075",
+          "types": [
+            "Rock",
+            "Ground"
+          ],
+          "levels": "20-35"
+        },
+        {
+          "name": "Magnemite",
+          "dex_id": "081",
+          "types": [
+            "Steel",
+            "Electric"
+          ],
+          "levels": "30"
+        },
+        {
+          "name": "Magneton",
+          "dex_id": "082",
+          "types": [
+            "Steel",
+            "Electric"
+          ],
+          "levels": "20-40"
+        },
+        {
+          "name": "Seel",
+          "dex_id": "086",
+          "types": [
+            "Water"
+          ],
+          "levels": "20-35"
+        },
+        {
+          "name": "Hitmonlee",
+          "dex_id": "106",
+          "types": [
+            "Fighting"
+          ],
+          "levels": "30"
+        },
+        {
+          "name": "Hitmonchan",
+          "dex_id": "107",
+          "types": [
+            "Fighting"
+          ],
+          "levels": "30"
+        },
+        {
+          "name": "Snorlax",
+          "dex_id": "143",
+          "types": [
+            "Normal"
+          ],
+          "levels": "30"
+        },
+        {
+          "name": "Tyrogue",
+          "dex_id": "236",
+          "types": [
+            "Fighting"
+          ],
+          "levels": "25"
+        },
+        {
+          "name": "Munchlax",
+          "dex_id": "260",
+          "types": [
+            "Normal"
+          ],
+          "levels": "30"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Tentacool",
+          "dex_id": "072",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "20-40"
+        },
+        {
+          "name": "Tentacruel",
+          "dex_id": "073",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "30-35"
+        },
+        {
+          "name": "Seel",
+          "dex_id": "086",
+          "types": [
+            "Water"
+          ],
+          "levels": "20-35"
+        },
+        {
+          "name": "Shellder",
+          "dex_id": "090",
+          "types": [
+            "Water"
+          ],
+          "levels": "20-30"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-30"
+        },
+        {
+          "name": "Remoraid",
+          "dex_id": "223",
+          "types": [
+            "Water"
+          ],
+          "levels": "20-40"
+        },
+        {
+          "name": "Octillery",
+          "dex_id": "224",
+          "types": [
+            "Water"
+          ],
+          "levels": "30-35"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Goldeen",
+          "dex_id": "118",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Psyduck",
+          "dex_id": "054",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-25"
+        },
+        {
+          "name": "Poliwhirl",
+          "dex_id": "061",
+          "types": [
+            "Water"
+          ],
+          "levels": "20-30"
+        },
+        {
+          "name": "Slowpoke",
+          "dex_id": "079",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Gyarados",
+          "dex_id": "130",
+          "types": [
+            "Water",
+            "Flying"
+          ],
+          "levels": "15-25"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Riolu",
+          "dex_id": "384",
+          "types": [
+            "Fighting"
+          ],
+          "levels": "25"
+        }
+      ]
+    }
+  },
+  "wiki_ground_truth": {
+    "Route 23": {
+      "canonical_slug": "Route_23",
+      "lead_summary": "Also known as the Northern Kanto Coast, Route 23 is only accessible after getting Surf, and connects Cerulean Cape to Crimson City.",
+      "items": [
+        {
+          "internal_id": "SUPERPOTION",
+          "quantity": "",
+          "name": "Super Potion",
+          "location_details": "Hidden by a rock along the southeastern coast."
+        },
+        {
+          "internal_id": "FULLHEAL",
+          "quantity": "",
+          "name": "Full Heal",
+          "location_details": "Hidden by a boulder above the northern tall grass patch."
+        },
+        {
+          "internal_id": "machine_STEEL",
+          "quantity": "",
+          "name": "TM91 Flash Cannon",
+          "location_details": "By the Tall Grass patch."
+        },
+        {
+          "internal_id": "HARDSTONE",
+          "quantity": "",
+          "name": "Hard Stone",
+          "location_details": "Hidden by a rock between the southern tall grass patches."
+        },
+        {
+          "internal_id": "BIGPEARL",
+          "quantity": "",
+          "name": "Big Pearl",
+          "location_details": "On a small island on the North-Eastern path."
+        },
+        {
+          "internal_id": "machine_WATER",
+          "quantity": "",
+          "name": "TM105 Aqua Jet",
+          "location_details": "On a small island on the North-Eartern path."
+        },
+        {
+          "internal_id": "RAZZBERRY",
+          "quantity": "",
+          "name": "Razz Berry",
+          "location_details": "Given by Crush Girl Penelope after defeating her."
+        },
+        {
+          "internal_id": "NANABBERRY",
+          "quantity": "",
+          "name": "Nanab Berry",
+          "location_details": "Given by Crush Girl Penelope after defeating her."
+        },
+        {
+          "internal_id": "PINAPBERRY",
+          "quantity": "",
+          "name": "Pinap Berry",
+          "location_details": "Given by Crush Girl Penelope after defeating her."
+        },
+        {
+          "internal_id": "POKEBALL",
+          "quantity": "2",
+          "name": "Poké Ball",
+          "location_details": "Given by Black Belt Mitch after defeating him."
+        },
+        {
+          "internal_id": "GREATBALL",
+          "quantity": "2",
+          "name": "Great Ball",
+          "location_details": "Given by Black Belt Mitch after defeating him."
+        },
+        {
+          "internal_id": "ULTRABALL",
+          "quantity": "",
+          "name": "Ultra Ball",
+          "location_details": "Given by Black Belt Mitch after defeating him."
+        }
+      ],
+      "missable_warnings": [
+        "NOTE: Contains actions that alter player Karma."
+      ]
+    }
+  },
+  "location_items_and_statics": [],
+  "authoring_guidance": {
+    "splicing_safety": "Explicitly state: HEAD species, BODY species, and WHICH ability to select at the DNA Splicer prompt.",
+    "gym_party_selection_rule": "Built-in 6v6 party limit! When challenged, the game prompts the player to choose which 6 Pokémon from their active party to bring into battle. No PC box deposits required.",
+    "stone_evolutions": "Advisory: Do NOT use evolution stones prematurely on stone-evolvers (e.g. Nidorino) before key level-up moves are learned.",
+    "undercover_informant_rocket": "Guide player to join Team Rocket for disguises/missions, BUT report crimes to police officer for +10 Karma and Diancie unlock!"
+  }
+}

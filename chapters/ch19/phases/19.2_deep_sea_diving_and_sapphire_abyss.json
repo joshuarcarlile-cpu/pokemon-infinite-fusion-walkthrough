@@ -1,0 +1,63 @@
+{
+  "name": "Deep Sea Diving & Seabed Trench",
+  "summary": "Use your Scuba Gear over the deep ocean trench on Brine Road West to submerge beneath the surface into the Deep Sea. Explore the silent sunken trenches, kelp forests, and coral valleys that form the underwater maze leading toward Togepi Island and the Sapphire Cave chasm. Search the seabed to recover two Deep Sea Scales, multiple Heart Scales, and an elusive Shiny Stone resting upon an elevated seafloor ledge.",
+  "items": [
+    {
+      "name": "Shiny Stone",
+      "method": "On an elevated underwater ridge in the northeast sector",
+      "type": "Evolution Item"
+    },
+    {
+      "name": "Deep Sea Scale",
+      "method": "Sunken near the central seabed trench",
+      "type": "Evolution Item"
+    },
+    {
+      "name": "Deep Sea Scale",
+      "method": "Hidden in the deep southern kelp bed",
+      "type": "Evolution Item"
+    },
+    {
+      "name": "Heart Scale",
+      "method": "Hidden inside a seabed clam shell in the west cavern passage",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Heart Scale",
+      "method": "Hidden near the entrance to the deep subterranean chasm",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Heart Scale",
+      "method": "Buried in the sand near the northern reef edge",
+      "type": "Hold Item"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Diver Harold",
+      "title": "Diver",
+      "reward": "P1,840",
+      "pokemon": [
+        {
+          "species": "Chinchou",
+          "level": 55,
+          "types": ["Water", "Electric"]
+        },
+        {
+          "species": "Lanturn",
+          "level": 57,
+          "types": ["Water", "Electric"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Grass": [
+      { "species": "Togepi", "levels": "25-35", "rate": "30%" },
+      { "species": "Togetic", "levels": "35-45", "rate": "20%" },
+      { "species": "Ambipom", "levels": "40-48", "rate": "25%" },
+      { "species": "Krabby", "levels": "30-40", "rate": "25%" }
+    ]
+  }
+}

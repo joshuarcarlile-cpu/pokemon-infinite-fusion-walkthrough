@@ -1,0 +1,53 @@
+{
+  "name": "Route 37 Sunny Orchards",
+  "summary": "Depart north from the Route 36 junction along the sun-drenched pastoral highway of Route 37 toward Ecruteak City. Traverse grassy knolls where wild Vulpix, Growlithe, Stantler, and Bonsly roam freely. Retrieve a valuable Focus Sash lying in the eastern glade, harvest fresh berries from the orchard bushes, and challenge roadside trainers in double battles before passing through the northern gatehouse into Ecruteak City.",
+  "items": [
+    {
+      "name": "Focus Sash",
+      "method": "Found lying on the ground in the eastern meadow of Route 37",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Grepa Berry",
+      "method": "Daily random harvest from the Route 37 berry bushes",
+      "type": "Berry"
+    },
+    {
+      "name": "Tamato Berry",
+      "method": "Daily random harvest from the Route 37 berry bushes",
+      "type": "Berry"
+    },
+    {
+      "name": "Super Repel",
+      "method": "Located on the western grassy verge near the orchard fence",
+      "type": "Field Item"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Twins Ann & Anne",
+      "team": [
+        {"species": "Clefairy/Jigglypuff", "level": 50, "types": ["Fairy", "Normal"]},
+        {"species": "Togetic", "level": 51, "types": ["Fairy", "Flying"]}
+      ]
+    },
+    {
+      "name": "Psychic Greg",
+      "team": [
+        {"species": "Drowzee/Kadabra", "level": 51, "types": ["Psychic"]},
+        {"species": "Xatu", "level": 52, "types": ["Psychic", "Flying"]}
+      ]
+    }
+  ],
+  "encounters": {
+    "Route 37 Tall Grass": [
+      {"dex_id": "017", "name": "Pidgeotto", "types": ["Normal", "Flying"], "levels": "41-49", "rates": "30%"},
+      {"dex_id": "234", "name": "Stantler", "types": ["Normal"], "levels": "47-51", "rates": "30%"},
+      {"dex_id": "257", "name": "Bonsly", "types": ["Rock"], "levels": "35", "rates": "20%"},
+      {"dex_id": "037", "name": "Vulpix", "types": ["Fire"], "levels": "40-48", "rates": "10%"},
+      {"dex_id": "058", "name": "Growlithe", "types": ["Fire"], "levels": "40-48", "rates": "10%"},
+      {"dex_id": "164", "name": "Noctowl", "types": ["Normal", "Flying"], "levels": "41-48", "rates": "20% (Night)"},
+      {"dex_id": "168", "name": "Ariados", "types": ["Bug", "Poison"], "levels": "41-49", "rates": "25% (Night)"}
+    ]
+  }
+}

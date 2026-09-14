@@ -1,0 +1,112 @@
+{
+  "location": "Violet City (ID 230)",
+  "sections": {
+    "Surf": [
+      {
+        "dex_id": "060",
+        "name": "Poliwag",
+        "type1": "Water",
+        "type2": "",
+        "levels": "15-30",
+        "catch_rate": "255",
+        "rates": [
+          "90%"
+        ]
+      },
+      {
+        "dex_id": "061",
+        "name": "Poliwhirl",
+        "type1": "Water",
+        "type2": "",
+        "levels": "35",
+        "catch_rate": "120",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "dex_id": "060",
+        "name": "Poliwag",
+        "type1": "Water",
+        "type2": "",
+        "levels": "10",
+        "catch_rate": "255",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "10",
+        "catch_rate": "255",
+        "rates": [
+          "85%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "dex_id": "061",
+        "name": "Poliwhirl",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "120",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "255",
+        "rates": [
+          "85%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "dex_id": "062",
+        "name": "Poliwrath",
+        "type1": "Water",
+        "type2": "Fighting",
+        "levels": "40",
+        "catch_rate": "45",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "255",
+        "rates": [
+          "85%"
+        ]
+      },
+      {
+        "dex_id": "186",
+        "name": "Politoed",
+        "type1": "Water",
+        "type2": "",
+        "levels": "40",
+        "catch_rate": "45",
+        "rates": [
+          "10%"
+        ]
+      }
+    ]
+  }
+}

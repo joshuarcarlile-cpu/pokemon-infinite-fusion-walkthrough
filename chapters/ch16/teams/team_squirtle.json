@@ -1,0 +1,128 @@
+{
+  "starter": "Squirtle",
+  "name": "Team Squirtle: Torrential Surge & Frozen Tempest",
+  "archetype": "4x Electric and 4x Ice precision OHKOs, Intimidate physical blunting, and Fighting wallbreaking.",
+  "gym_duel_core": [1, 2, 3, 4, 5],
+  "gym_duel_rationale": "Clair's 5v5 dragon duel prompts the player to select 5 active Pokémon from the party: Jolteon/Sandslash leads with scorching speed to eliminate Feraligatr/Gyarados with an instant 4x super-effective STAB Discharge; Lapras rotates into the duel core to wall incoming attacks and fire devastating 4x STAB Ice Beams to delete Donphan/Dragonair and ace Garchomp/Aerodactyl; Blastoise/Fearow levels to Cap 68 to command the frontline, dousing fire hybrids with heavy STAB Hydro Pump artillery; Arbok/Primeape applies Intimidate to blunt Garchomp/Aerodactyl's Attack on entry and shatters Glaceon/Kingdra with STAB Close Combat; and Alakazam/Weezing utilizes Levitate to ignore Magnitude while executing Ariados/Charizard with STAB Psychic.",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Blastoise/Fearow",
+      "types": ["Water", "Flying"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 68,
+      "ability": "Torrent",
+      "held_item": "Mystic Water",
+      "role": "Starter Anchor & Aerial Water Sweeper",
+      "current_reached_moveset": [
+        "Hydro Pump",
+        "Drill Peck",
+        "Roost",
+        "Protect"
+      ],
+      "progression_notes": "486 BST starter hybrid elevated to Cap 68. STAB Hydro Pump douses opposing fire and rock threats, while Drill Peck cleans up weakened dragons."
+    },
+    {
+      "slot": 2,
+      "species": "Jolteon/Sandslash",
+      "types": ["Electric", "Ground"],
+      "status": "Active in Party (Retained from Ch 15)",
+      "current_level": 67,
+      "ability": "Volt Absorb",
+      "held_item": "Magnet",
+      "role": "4x Electric Lead Sweeper & Ground Cannon",
+      "current_reached_moveset": [
+        "Discharge",
+        "Earthquake",
+        "Pin Missile",
+        "Swords Dance"
+      ],
+      "progression_notes": "486 BST speed sweeper. High-speed Discharge delivers an effortless 4x super-effective OHKO against lead Feraligatr/Gyarados."
+    },
+    {
+      "slot": 3,
+      "species": "Lapras",
+      "types": ["Water", "Ice"],
+      "status": "Active in Party (Rotated into Duel Core)",
+      "current_level": 67,
+      "ability": "Water Absorb",
+      "held_item": "Never-Melt Ice",
+      "role": "4x Ice Dragon Slayer & Special Wall",
+      "current_reached_moveset": [
+        "Ice Beam",
+        "Hydro Pump",
+        "Confuse Ray",
+        "Body Slam"
+      ],
+      "progression_notes": "535 BST Water/Ice fortress elevated to Lv. 67. STAB Ice Beam lands catastrophic 4x super-effective blows to vaporize Donphan/Dragonair and ace Garchomp/Aerodactyl."
+    },
+    {
+      "slot": 4,
+      "species": "Arbok/Primeape",
+      "types": ["Poison", "Fighting"],
+      "status": "Active in Party (Retained from Ch 15)",
+      "current_level": 67,
+      "ability": "Intimidate",
+      "held_item": "Black Belt",
+      "role": "Intimidate 4x Fighting Wallbreaker",
+      "current_reached_moveset": [
+        "Close Combat",
+        "Gunk Shot",
+        "Cross Chop",
+        "Glare"
+      ],
+      "progression_notes": "479 BST Intimidate bruiser. Weakens physical dragons on entry, while STAB Close Combat crushes Glaceon/Kingdra."
+    },
+    {
+      "slot": 5,
+      "species": "Alakazam/Weezing",
+      "types": ["Psychic", "Poison"],
+      "status": "Active in Party (Retained from Ch 15)",
+      "current_level": 67,
+      "ability": "Levitate",
+      "held_item": "Twisted Spoon",
+      "role": "Levitate Ground-Immune Sweeper",
+      "current_reached_moveset": [
+        "Psychic",
+        "Sludge Bomb",
+        "Recover",
+        "Calm Mind"
+      ],
+      "progression_notes": "495 BST Levitate pivot with 118 SpA. Immune to Magnitude via Levitate. STAB Psychic cleanly executes Ariados/Charizard."
+    },
+    {
+      "slot": 6,
+      "species": "Snorlax",
+      "types": ["Normal"],
+      "status": "Active in Party (Benched for Gym Duel)",
+      "current_level": 67,
+      "ability": "Thick Fat",
+      "held_item": "Leftovers",
+      "role": "Route Travel Tank & Sustained Sponge",
+      "current_reached_moveset": [
+        "Body Slam",
+        "Rest",
+        "Sleep Talk",
+        "Crunch"
+      ],
+      "progression_notes": "Colossal 160 HP tank. Benched during the 5v5 duel in favor of 4x offensive counter-picks, but serves as route travel sponge."
+    }
+  ],
+  "flex_bench": [
+    {
+      "species": "Venusaur",
+      "role": "Chlorophyll Sleep Tank",
+      "rationale": "High-durability Grass/Poison tank packing Leech Seed and Sleep Powder for status control."
+    },
+    {
+      "species": "Gyarados",
+      "role": "Dragon Dance Water Pivot",
+      "rationale": "Intimidate physical pivot and Dragon Dance sweeper with Aqua Tail."
+    },
+    {
+      "species": "Hitmontop",
+      "role": "Technician Rapid Spinner",
+      "rationale": "Technician-boosted Triple Kick and Rapid Spin hazard removal for tactical versatility."
+    }
+  ]
+}

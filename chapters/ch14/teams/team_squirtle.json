@@ -1,0 +1,128 @@
+{
+  "starter": "Squirtle",
+  "name": "Team Squirtle: Aerial Deluge & Slumbering Safeguard",
+  "archetype": "Aerial water artillery, Ghost immunity tanking, and Poison anti-fairy execution.",
+  "gym_duel_core": [1, 2, 3, 4, 5],
+  "gym_duel_rationale": "Morty's 5v5 Ghost hybrid battle prompts the player to select 5 designated active Pokémon: Blastoise/Fearow levels to Cap 67 to anchor the frontline, using STAB Drill Peck to exploit Hitmonchan/Dusknoir's Flying weakness and launching massive STAB Hydro Pump artillery; Alakazam/Weezing cleanly dismantles Clefable/Spiritomb with super-effective STAB Sludge Bomb and strikes Hitmonchan/Dusknoir with STAB Psychic; Jolteon/Sandslash brings rapid speed control with Discharge and Pin Missile bug pressure; Snorlax brings absolute 100% immunity to all Ghost-type attacks (negating Shadow Balls and Shadow Punches completely), recovering infinitely with Rest and Leftovers while crushing Snorlax/Aegislash with super-effective Crunch; and Arbok/Primeape applies Intimidate to blunt Hitmonchan/Dusknoir's Attack while firing STAB Gunk Shot into Clefable/Spiritomb.",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Blastoise/Fearow",
+      "types": ["Water", "Flying"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 67,
+      "ability": "Torrent",
+      "held_item": "Sharp Beak",
+      "role": "Aerial Water Sweeper",
+      "current_reached_moveset": [
+        "Drill Peck",
+        "Hydro Pump",
+        "Roost",
+        "Protect"
+      ],
+      "progression_notes": "486 BST starter hybrid elevated to Cap 67. STAB Drill Peck directly exploits Hitmonchan/Dusknoir's Flying weakness. Hydro Pump douses Ghost hybrids."
+    },
+    {
+      "slot": 2,
+      "species": "Alakazam/Weezing",
+      "types": ["Psychic", "Poison"],
+      "status": "Active in Party (Retained from Ch 13)",
+      "current_level": 66,
+      "ability": "Levitate",
+      "held_item": "Poison Barb",
+      "role": "Levitate Anti-Fairy Cannon",
+      "current_reached_moveset": [
+        "Psychic",
+        "Sludge Bomb",
+        "Recover",
+        "Calm Mind"
+      ],
+      "progression_notes": "495 BST Levitate pivot with 118 SpA. STAB Sludge Bomb effortlessly melts Clefable/Spiritomb. STAB Psychic strikes Hitmonchan/Dusknoir."
+    },
+    {
+      "slot": 3,
+      "species": "Jolteon/Sandslash",
+      "types": ["Electric", "Ground"],
+      "status": "Active in Party (Retained from Ch 13)",
+      "current_level": 66,
+      "ability": "Volt Absorb",
+      "held_item": "Magnet",
+      "role": "Speed Electric Sweeper",
+      "current_reached_moveset": [
+        "Discharge",
+        "Earthquake",
+        "Pin Missile",
+        "Swords Dance"
+      ],
+      "progression_notes": "486 BST speed sweeper. Discharge provides high-speed electrical coverage, while Pin Missile applies multi-hit Bug pressure."
+    },
+    {
+      "slot": 4,
+      "species": "Snorlax",
+      "types": ["Normal"],
+      "status": "Active in Party (Retained from Ch 13)",
+      "current_level": 66,
+      "ability": "Thick Fat",
+      "held_item": "Leftovers",
+      "role": "Ghost-Immune Tank & Dark Crusher",
+      "current_reached_moveset": [
+        "Body Slam",
+        "Rest",
+        "Sleep Talk",
+        "Crunch"
+      ],
+      "progression_notes": "Colossal 160 HP tank. Completely immune to all Ghost moves. Absorbs all Shadow Balls without taking damage; Crunch destroys Snorlax/Aegislash."
+    },
+    {
+      "slot": 5,
+      "species": "Arbok/Primeape",
+      "types": ["Poison", "Fighting"],
+      "status": "Active in Party (Retained from Ch 13)",
+      "current_level": 66,
+      "ability": "Intimidate",
+      "held_item": "Black Belt",
+      "role": "Intimidate Physical Wallbreaker",
+      "current_reached_moveset": [
+        "Close Combat",
+        "Gunk Shot",
+        "Cross Chop",
+        "Glare"
+      ],
+      "progression_notes": "479 BST Intimidate bruiser. Cuts Hitmonchan/Dusknoir's Attack on entry. STAB Gunk Shot eliminates Clefable/Spiritomb."
+    },
+    {
+      "slot": 6,
+      "species": "Lapras",
+      "types": ["Water", "Ice"],
+      "status": "Active in Party (Retained from Ch 13)",
+      "current_level": 65,
+      "ability": "Water Absorb",
+      "held_item": "Never-Melt Ice",
+      "role": "Bulky Water Pivot",
+      "current_reached_moveset": [
+        "Ice Beam",
+        "Hydro Pump",
+        "Confuse Ray",
+        "Body Slam"
+      ],
+      "progression_notes": "535 BST Water/Ice wall. Sponges special attacks with massive HP, freezing opposing hybrids with Ice Beam during route and cave travel."
+    }
+  ],
+  "flex_bench": [
+    {
+      "species": "Venusaur",
+      "role": "Chlorophyll Sleep Tank",
+      "rationale": "High-durability Grass/Poison tank packing Leech Seed and Sleep Powder for status control."
+    },
+    {
+      "species": "Gyarados",
+      "role": "Dragon Dance Water Pivot",
+      "rationale": "Intimidate physical pivot and Dragon Dance sweeper with Aqua Tail."
+    },
+    {
+      "species": "Hitmontop",
+      "role": "Technician Rapid Spinner",
+      "rationale": "Technician-boosted Triple Kick and Rapid Spin hazard removal for tactical versatility."
+    }
+  ]
+}

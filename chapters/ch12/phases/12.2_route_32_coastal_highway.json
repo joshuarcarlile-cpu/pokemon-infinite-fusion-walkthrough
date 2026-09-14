@@ -1,0 +1,50 @@
+{
+  "name": "Route 32 Coastal Highway",
+  "summary": "Emerge from Union Cave onto the sunlit coastal corridor of Route 32. Battle northbound trainers along the seaside boardwalks, secure TM05 Roar and an ancient Spaceship Part, observe the western stone archway leading to the Ruins of Alph, and rest at the midway Pokémon Center before entering Violet City.",
+  "items": [
+    {
+      "name": "TM05 Roar",
+      "method": "Found tucked away in the southern coastal clearing west of the main path",
+      "type": "Technical Machine"
+    },
+    {
+      "name": "Spaceship Part",
+      "method": "Recovered from the secluded eastern shoreline reached via shallow surf",
+      "type": "Key Item"
+    },
+    {
+      "name": "Carbos",
+      "method": "Hidden in the grassy verge just south of the Route 32 Pokémon Center",
+      "type": "Vitamin"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Fisherman Justin",
+      "team": [
+        {"species": "Qwilfish/Magikarp", "level": 49, "types": ["Water", "Poison"]},
+        {"species": "Tentacruel", "level": 51, "types": ["Water", "Poison"]}
+      ]
+    },
+    {
+      "name": "Picnicker Liz",
+      "team": [
+        {"species": "Flaaffy/Marill", "level": 50, "types": ["Electric", "Fairy"]},
+        {"species": "Jumpluff", "level": 52, "types": ["Grass", "Flying"]}
+      ]
+    }
+  ],
+  "encounters": {
+    "Grass": [
+      {"dex_id": "180", "name": "Flaaffy", "types": ["Electric"], "levels": "42-44", "rates": "30%"},
+      {"dex_id": "179", "name": "Mareep", "types": ["Electric"], "levels": "40", "rates": "20%"},
+      {"dex_id": "024", "name": "Arbok", "types": ["Poison"], "levels": "44", "rates": "20%"},
+      {"dex_id": "020", "name": "Raticate", "types": ["Normal"], "levels": "42", "rates": "15%"},
+      {"dex_id": "195", "name": "Quagsire", "types": ["Water", "Ground"], "levels": "44", "rates": "15%"}
+    ],
+    "Water (Surf & Rod)": [
+      {"dex_id": "211", "name": "Qwilfish", "types": ["Water", "Poison"], "levels": "40", "rates": "40%"},
+      {"dex_id": "230", "name": "Kingdra", "types": ["Water", "Dragon"], "levels": "45", "rates": "10% (Super Rod)"}
+    ]
+  }
+}

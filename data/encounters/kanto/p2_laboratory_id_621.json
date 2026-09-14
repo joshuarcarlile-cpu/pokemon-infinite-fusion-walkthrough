@@ -1,0 +1,180 @@
+{
+  "location": "P2 Laboratory (ID 621)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "082",
+        "name": "Magneton",
+        "type1": "Steel",
+        "type2": "Electric",
+        "levels": "57-59",
+        "catch_rate": "60",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "263",
+        "name": "Magnezone",
+        "type1": "Steel",
+        "type2": "Electric",
+        "levels": "59",
+        "catch_rate": "30",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "330",
+        "name": "Pawniard",
+        "type1": "Dark",
+        "type2": "Steel",
+        "levels": "40",
+        "catch_rate": "120",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "397",
+        "name": "Klink",
+        "type1": "Steel",
+        "type2": "",
+        "levels": "57-58",
+        "catch_rate": "130",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "dex_id": "398",
+        "name": "Klang",
+        "type1": "Steel",
+        "type2": "",
+        "levels": "50-52",
+        "catch_rate": "60",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "dex_id": "116",
+        "name": "Horsea",
+        "type1": "Water",
+        "type2": "",
+        "levels": "35-45",
+        "catch_rate": "225",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "dex_id": "211",
+        "name": "Qwilfish",
+        "type1": "Water",
+        "type2": "Poison",
+        "levels": "40-45",
+        "catch_rate": "45",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "dex_id": "230",
+        "name": "Kingdra",
+        "type1": "Water",
+        "type2": "Dragon",
+        "levels": "45-70",
+        "catch_rate": "45",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "dex_id": "116",
+        "name": "Horsea",
+        "type1": "Water",
+        "type2": "",
+        "levels": "10",
+        "catch_rate": "225",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "10",
+        "catch_rate": "255",
+        "rates": [
+          "95%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "dex_id": "117",
+        "name": "Seadra",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "75",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "255",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "211",
+        "name": "Qwilfish",
+        "type1": "Water",
+        "type2": "Poison",
+        "levels": "20",
+        "catch_rate": "45",
+        "rates": [
+          "40%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "dex_id": "116",
+        "name": "Horsea",
+        "type1": "Water",
+        "type2": "",
+        "levels": "40",
+        "catch_rate": "225",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "dex_id": "211",
+        "name": "Qwilfish",
+        "type1": "Water",
+        "type2": "Poison",
+        "levels": "40",
+        "catch_rate": "45",
+        "rates": [
+          "60%"
+        ]
+      }
+    ]
+  }
+}

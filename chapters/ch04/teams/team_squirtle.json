@@ -1,0 +1,136 @@
+{
+  "starter": "Squirtle",
+  "name": "Team Squirtle: Bulky Balance & Weather Inversion",
+  "archetype": "Water/Flying weather inverter starter, 120 Speed Ground/Fighting breaker, and Fire/Ground physical wallbreaker.",
+  "gym_duel_core": [1, 2, 3],
+  "gym_duel_rationale": "Erika enforces a strict 3v3 duel. Lead with Blastoise/Fearow (496 BST Water/Flying with 92 Speed neutralizing Grass weakness, eliminating Sunny Day via Rain Dance, and hitting Tangela/Primeape with 4x STAB Drill Peck and Roost). Back with Dugtrio/Primeape (120 Speed Ground/Fighting sweeper with 100 BP Earthquake and Cross Chop) and Flareon/Sandslash (505 BST physical breaker with 110 Attack, Swords Dance, and Fire Fang/Lava Plume).",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Blastoise/Fearow",
+      "types": ["Water", "Flying"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 38,
+      "ability": "Torrent",
+      "held_item": "Mystic Water",
+      "role": "Weather Inverter & Gym Duelist",
+      "current_reached_moveset": [
+        "Drill Peck",
+        "Rain Dance",
+        "Roost",
+        "Water Pulse"
+      ],
+      "progression_notes": "Blastoise splices with Fearow. 496 BST with 92 Speed and 90 SpD. Neutral to Grass; Rain Dance extinguishes Sunny Day, halving Solar Beam. 4x STAB Drill Peck crushes Tangela/Primeape with Roost recovery."
+    },
+    {
+      "slot": 2,
+      "species": "Dugtrio/Primeape",
+      "types": ["Ground", "Fighting"],
+      "status": "Active in Party (Diglett & Route 3 Splice)",
+      "current_level": 38,
+      "ability": "Arena Trap",
+      "held_item": "Soft Sand",
+      "role": "Blazing Physical Sweeper & Gym Duelist",
+      "current_reached_moveset": [
+        "Earthquake",
+        "Cross Chop",
+        "Sucker Punch",
+        "Low Kick"
+      ],
+      "progression_notes": "439 BST speedster boasting 120 Base Speed and 95 Attack. Natural 100 BP Earthquake (Lv. 35) combined with high-crit Cross Chop easily breaks grounded targets."
+    },
+    {
+      "slot": 3,
+      "species": "Flareon/Sandslash",
+      "types": ["Fire", "Ground"],
+      "status": "Active in Party (Celadon Stone & Route 4 Splice)",
+      "current_level": 37,
+      "ability": "Flash Fire",
+      "held_item": "Charcoal",
+      "role": "High-Attack Physical Breaker & Gym Duelist",
+      "current_reached_moveset": [
+        "Fire Fang",
+        "Magnitude",
+        "Lava Plume",
+        "Swords Dance"
+      ],
+      "progression_notes": "Gift Eevee evolved with Fire Stone (Dept Store 4F) and spliced with Sandslash. 505 BST with 110 Base Attack, 93 Defense, and Swords Dance boosting."
+    },
+    {
+      "slot": 4,
+      "species": "Kadabra/Weezing",
+      "types": ["Psychic", "Poison"],
+      "status": "Active in Party (Route 24 & Celadon Sewers Splice)",
+      "current_level": 37,
+      "ability": "Levitate",
+      "held_item": "Twisted Spoon",
+      "role": "Rapid Special Artillery & Ground Immune",
+      "current_reached_moveset": [
+        "Psychic",
+        "Sludge Bomb",
+        "Recover",
+        "Reflect"
+      ],
+      "progression_notes": "462 BST with 108 Special Attack and 90 Defense. Levitate removes Ground weakness while STAB Psychic and Sludge Bomb deliver wide coverage."
+    },
+    {
+      "slot": 5,
+      "species": "Vileplume/Poliwrath",
+      "types": ["Grass", "Fighting"],
+      "status": "Active in Party (Route 24 & Celadon Stone Splice)",
+      "current_level": 37,
+      "ability": "Chlorophyll",
+      "held_item": "Miracle Seed",
+      "role": "Bulky Grass/Fighting Drain Bruiser",
+      "current_reached_moveset": [
+        "Giga Drain",
+        "Submission",
+        "Sleep Powder",
+        "Moonlight"
+      ],
+      "progression_notes": "Gloom (Leaf Stone) and Poliwhirl (Water Stone) stone-evolved and spliced. 510 BST with 91 Defense and 90 SpD, absorbing incoming Grass and Water attacks."
+    }
+  ],
+  "flex_bench": [
+    {
+      "slot": "B1",
+      "species": "Butterfree",
+      "types": ["Bug", "Flying"],
+      "current_level": 36,
+      "ability": "Compound Eyes",
+      "held_item": "Silver Powder",
+      "role": "97.5% Accuracy Sleep Catcher",
+      "why_use": "Retained for wild catches with Compound Eyes 97.5% accurate Sleep Powder."
+    },
+    {
+      "slot": "B2",
+      "species": "Clefable",
+      "types": ["Fairy"],
+      "current_level": 36,
+      "ability": "Magic Guard",
+      "held_item": "Silk Scarf",
+      "role": "Bulky Fairy Wall & Hazard Pivot",
+      "why_use": "Evolved from Clefairy with Lavender Moon Stone. Magic Guard blocks indirect and hazard damage."
+    }
+  ],
+  "fusion_lifecycle": {
+    "active_fusions": [
+      "Blastoise/Fearow (496 BST Water/Flying starter with Rain Dance, 4x Drill Peck, and Roost)",
+      "Dugtrio/Primeape (439 BST 120 Spe Ground/Fighting sweeper with Earthquake and Cross Chop)",
+      "Flareon/Sandslash (505 BST 110 Atk Fire/Ground wallbreaker with Swords Dance)",
+      "Kadabra/Weezing (462 BST 108 SpA Levitate Psychic/Poison sweeper with 90 Defense)",
+      "Vileplume/Poliwrath (510 BST Grass/Fighting drain bruiser with Moonlight)"
+    ],
+    "unfuse_recommendations": [
+      "1. Celadon Poké Mart: Pay $300 to unfuse Wartortle/Geodude from Chapter 3.",
+      "2. Level Wartortle to Lv. 36 to evolve into Blastoise.",
+      "3. Splice Blastoise with Fearow using Super Splicer for 4x Drill Peck and Roost.",
+      "4. Unfuse Dugtrio/Fearow and Poliwhirl/Sandslash from Chapter 3; splice Dugtrio with Primeape, and Sandslash with newly evolved Flareon (gift Eevee via Fire Stone).",
+      "5. Catch Koffing in Celadon Sewers, evolve at Lv. 35 into Weezing, and splice with Kadabra for Levitate Ground immunity."
+    ],
+    "upcoming_fusions": [
+      "Blastoise/Alakazam (Endgame Special titan with Linking Cord)",
+      "Vileplume/Machamp (Physical fighting tank)"
+    ]
+  }
+}

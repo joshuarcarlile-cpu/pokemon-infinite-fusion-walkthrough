@@ -1,0 +1,134 @@
+{
+  "location": "Route 3 (ID 490)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "016",
+        "name": "Pidgey",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "6-7",
+        "catch_rate": "255",
+        "rates": [
+          "20%",
+          "20%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "021",
+        "name": "Spearow",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "6-8",
+        "catch_rate": "255",
+        "rates": [
+          "20%",
+          "20%",
+          "25%"
+        ]
+      },
+      {
+        "dex_id": "029",
+        "name": "Nidoran\u2640",
+        "type1": "Poison",
+        "type2": "",
+        "levels": "6-7",
+        "catch_rate": "235",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "032",
+        "name": "Nidoran\u2642",
+        "type1": "Poison",
+        "type2": "",
+        "levels": "6-7",
+        "catch_rate": "235",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "052",
+        "name": "Meowth",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "7",
+        "catch_rate": "255",
+        "rates": [
+          "-",
+          "-",
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "056",
+        "name": "Mankey",
+        "type1": "Fighting",
+        "type2": "",
+        "levels": "7",
+        "catch_rate": "190",
+        "rates": [
+          "10%",
+          "10%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "163",
+        "name": "Hoothoot",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "6-7",
+        "catch_rate": "255",
+        "rates": [
+          "-",
+          "-",
+          "25%"
+        ]
+      },
+      {
+        "dex_id": "173",
+        "name": "Cleffa",
+        "type1": "Fairy",
+        "type2": "",
+        "levels": "3-7",
+        "catch_rate": "150",
+        "rates": [
+          "-",
+          "-",
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "174",
+        "name": "Igglybuff",
+        "type1": "Normal",
+        "type2": "Fairy",
+        "levels": "3-7",
+        "catch_rate": "170",
+        "rates": [
+          "20%",
+          "20%",
+          "-"
+        ]
+      }
+    ],
+    "Pok\u00e9 Radar": [
+      {
+        "dex_id": "400",
+        "name": "Budew",
+        "type1": "Grass",
+        "type2": "Poison",
+        "levels": "4-9",
+        "catch_rate": "255",
+        "rates": [
+          "50% <small>([[Pok\u00e9 Radar#How_it_works",
+          "long rustle]])</small>"
+        ]
+      }
+    ]
+  }
+}

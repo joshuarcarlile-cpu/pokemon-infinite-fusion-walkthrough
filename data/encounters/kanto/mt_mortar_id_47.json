@@ -1,0 +1,202 @@
+{
+  "location": "Mt. Mortar (ID 47)",
+  "sections": {
+    "Cave": [
+      {
+        "dex_id": "020",
+        "name": "Raticate",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "45",
+        "catch_rate": "127",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "042",
+        "name": "Golbat",
+        "type1": "Poison",
+        "type2": "Flying",
+        "levels": "45",
+        "catch_rate": "90",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "067",
+        "name": "Machoke",
+        "type1": "Fighting",
+        "type2": "",
+        "levels": "45",
+        "catch_rate": "90",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "068",
+        "name": "Machamp",
+        "type1": "Fighting",
+        "type2": "",
+        "levels": "55",
+        "catch_rate": "45",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "075",
+        "name": "Graveler",
+        "type1": "Rock",
+        "type2": "Ground",
+        "levels": "45",
+        "catch_rate": "120",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "dex_id": "076",
+        "name": "Golem",
+        "type1": "Rock",
+        "type2": "Ground",
+        "levels": "55",
+        "catch_rate": "45",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "310",
+        "name": "Absol",
+        "type1": "Dark",
+        "type2": "",
+        "levels": "43",
+        "catch_rate": "30",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "dex_id": "118",
+        "name": "Goldeen",
+        "type1": "Water",
+        "type2": "",
+        "levels": "25-40",
+        "catch_rate": "225",
+        "rates": [
+          "50%"
+        ]
+      },
+      {
+        "dex_id": "119",
+        "name": "Seaking",
+        "type1": "Water",
+        "type2": "",
+        "levels": "30-45",
+        "catch_rate": "60",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "dex_id": "184",
+        "name": "Azumarill",
+        "type1": "Water",
+        "type2": "Fairy",
+        "levels": "45",
+        "catch_rate": "75",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "dex_id": "118",
+        "name": "Goldeen",
+        "type1": "Water",
+        "type2": "",
+        "levels": "10",
+        "catch_rate": "225",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "10",
+        "catch_rate": "255",
+        "rates": [
+          "95%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "dex_id": "118",
+        "name": "Goldeen",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "225",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "255",
+        "rates": [
+          "60%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "dex_id": "118",
+        "name": "Goldeen",
+        "type1": "Water",
+        "type2": "",
+        "levels": "40",
+        "catch_rate": "225",
+        "rates": [
+          "90%"
+        ]
+      },
+      {
+        "dex_id": "119",
+        "name": "Seaking",
+        "type1": "Water",
+        "type2": "",
+        "levels": "40",
+        "catch_rate": "60",
+        "rates": [
+          "3%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "40",
+        "catch_rate": "255",
+        "rates": [
+          "7%"
+        ]
+      }
+    ]
+  }
+}

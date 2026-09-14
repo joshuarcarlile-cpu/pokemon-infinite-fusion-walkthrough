@@ -1,0 +1,45 @@
+{
+  "name": "Route 42 Northern Highway",
+  "summary": "Depart east from Ecruteak City along the rugged northern highway of Route 42, skirting the foothills of Mt. Mortar toward Mahogany Town. The highway is intersected by two tranquil water bodies requiring Surf (or cutting through the lower corridor of Mt. Mortar) and small cut trees. Defeat Hiker Benjamin along the rocky bluffs to receive the Hard Stone hold item, scavenge hidden recovery supplies, and battle native mountain wildlife including wild Primeape, Flaaffy, Fearow, and Golbat before reaching Mahogany Town.",
+  "items": [
+    {
+      "name": "Hard Stone",
+      "method": "Given by Hiker Benjamin after defeating him on Route 42",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Super Potion",
+      "method": "Located near the eastern water shore before the Mahogany gate",
+      "type": "Medicine"
+    },
+    {
+      "name": "Ultra Ball",
+      "method": "Tucked into the grassy alcove outside the central Mt. Mortar cavern entrance",
+      "type": "Poké Ball"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Hiker Benjamin",
+      "team": [
+        {"species": "Dugtrio", "level": 53, "types": ["Ground"]},
+        {"species": "Golem", "level": 53, "types": ["Rock", "Ground"]},
+        {"species": "Dugtrio/Sceptile", "level": 55, "types": ["Ground", "Grass"]}
+      ]
+    }
+  ],
+  "encounters": {
+    "Route 42 Tall Grass": [
+      {"dex_id": "020", "name": "Raticate", "types": ["Normal"], "levels": "46-52", "rates": "20%"},
+      {"dex_id": "022", "name": "Fearow", "types": ["Normal", "Flying"], "levels": "42-54", "rates": "20%"},
+      {"dex_id": "042", "name": "Golbat", "types": ["Poison", "Flying"], "levels": "42-54", "rates": "20%"},
+      {"dex_id": "057", "name": "Primeape", "types": ["Fighting"], "levels": "55", "rates": "15%"},
+      {"dex_id": "180", "name": "Flaaffy", "types": ["Electric"], "levels": "45-50", "rates": "15%"},
+      {"dex_id": "294", "name": "Bidoof", "types": ["Normal"], "levels": "40", "rates": "10%"}
+    ],
+    "Route 42 Surfing": [
+      {"dex_id": "072", "name": "Tentacool", "types": ["Water", "Poison"], "levels": "25-35", "rates": "60%"},
+      {"dex_id": "073", "name": "Tentacruel", "types": ["Water", "Poison"], "levels": "35-40", "rates": "40%"}
+    ]
+  }
+}

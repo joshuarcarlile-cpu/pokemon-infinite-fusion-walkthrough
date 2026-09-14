@@ -1,0 +1,54 @@
+{
+  "leader": "Blaine",
+  "title": "The Hotheaded Quiz Master",
+  "gym": "Cinnabar Island Gym",
+  "badge": "Volcano Badge",
+  "level_cap": 51,
+  "hard_mode_level_cap": 51,
+  "gym_duel_limit": 4,
+  "party_selection_rule": "4 vs 4 Party Selection (select your 4 designated Pokémon from your active party when prompted at battle start)",
+  "overview": "Blaine wields high-octane Fire sweepers fortified by synergistic dual typings and coverage items. Gloom/Rapidash sets up Sunny Day to fire off instant Solar Beams and boost Fire moves. Ninetales/Arcanine uses Intimidate and packs Thunder Fang to punish Water switch-ins. Magmar/Rhydon carries a Passho Berry to survive 4x Water strikes and retaliates with Drill Run and Hammer Arm. His ace, Charizard/Aerodactyl, boasts blazing 120 Speed, STAB Fire Blast, and Sky Drop while remaining completely immune to Ground moves.",
+  "roster": [
+    {
+      "species": "Gloom/Rapidash",
+      "level": 47,
+      "types": ["Grass", "Fire"],
+      "ability": "Chlorophyll",
+      "item": "Charcoal",
+      "moves": ["Sunny Day", "Solar Beam", "Flamethrower", "Toxic"],
+      "tactics": "Lead weather setter. Do NOT blindly switch in Water types while Sun is active or Solar Beam will OHKO. Use Flying, Rock, or Poison physical attacks to eliminate it before Sun takes full effect."
+    },
+    {
+      "species": "Ninetales/Arcanine",
+      "level": 47,
+      "types": ["Fire"],
+      "ability": "Intimidate",
+      "item": "Charcoal",
+      "moves": ["Roar", "Fire Fang", "Confuse Ray", "Thunder Fang"],
+      "tactics": "Cuts physical Attack upon entry. Packs Thunder Fang specifically to catch bulky Water types off-guard. Use Ground or Rock special attackers, or reset the Attack drop with a pivot."
+    },
+    {
+      "species": "Magmar/Rhydon",
+      "level": 49,
+      "types": ["Fire", "Rock"],
+      "ability": "Flame Body",
+      "item": "Passho Berry",
+      "moves": ["Fire Punch", "Drill Run", "Confuse Ray", "Hammer Arm"],
+      "tactics": "Passho Berry halves the first incoming Water move, preventing an immediate OHKO. Hits back with brutal STAB Drill Run and Hammer Arm. Ground-type attacks deal 4x super-effective damage and bypass the Passho Berry entirely."
+    },
+    {
+      "species": "Charizard/Aerodactyl",
+      "level": 51,
+      "types": ["Fire", "Flying"],
+      "ability": "Rock Head",
+      "item": "Charcoal",
+      "moves": ["Crunch", "Sky Drop", "Fire Blast", "Hyper Beam"],
+      "tactics": "Blaine's terrifying 120-Speed Ace. Immune to Ground-type Earthquake. However, it suffers a fatal 4x weakness to Rock moves (Rock Slide, Ancient Power, Stone Edge) and 2x weaknesses to Electric and Water."
+    }
+  ],
+  "starter_strategies": {
+    "bulbasaur": "Lead with Gyarados/Arbok or Snorlax to absorb Gloom/Rapidash's Fire attacks, then counter with Poison Jab or Rock Slide. Against Magmar/Rhydon, exploit 4x Ground weakness with Sandslash or Levitate Alakazam/Weezing. Charizard/Aerodactyl folds instantly to Rock Slide from Snorlax or Sandslash.",
+    "charmander": "Charizard/Venusaur resists Grass and Fire moves while setting up. Gyarados/Nidoking is the premier anti-Blaine wallbreaker, baiting Passho Berry with Aqua Tail or crushing Magmar/Rhydon with Earth Power. Primeape/Sandslash cleans up Charizard/Aerodactyl with Rock Slide.",
+    "squirtle": "Blastoise/Fearow and Jolteon/Sandslash form an unbreakable offensive tandem. Jolteon outspeeds Charizard/Aerodactyl and drops it with Thunderbolt, while Blastoise tanks Fire blasts with ease and sweeps with Surf once Passho Berry is consumed."
+  }
+}

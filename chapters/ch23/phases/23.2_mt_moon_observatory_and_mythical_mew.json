@@ -1,0 +1,56 @@
+{
+  "name": "Mt. Moon Observatory & Mythical Mew",
+  "summary": "Ascend to the summit of Mt. Moon to access the high-altitude astronomical observatory. If you have accrued at least 20 Positive Karma through heroic deeds and completed the celestial sidequest by locating all 8 regional constellations, the chief astronomer grants you permission to gaze through the grand reflector telescope. Center the crosshairs on the shimmering celestial anomaly to reveal the legendary origin of all species: Mythical Mew (Lv. 30). With its balanced base 100 stats across all attributes and Synchronize ability, Mew will test your ability to capture a slippery, low-level mythical safely without causing an accidental knockout.",
+  "items": [
+    {
+      "name": "Star Piece",
+      "method": "Gifted by the head astronomer upon verifying that all 8 constellations have been mapped",
+      "type": "Valuable"
+    },
+    {
+      "name": "Comet Shard",
+      "method": "Found on the exterior viewing platform of the observatory",
+      "type": "Valuable"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Astronomer Galileo",
+      "title": "Scientist",
+      "reward": "P3,400",
+      "pokemon": [
+        {
+          "species": "Clefable/Starmie",
+          "level": 66,
+          "types": ["Fairy", "Water"]
+        },
+        {
+          "species": "Metagross/Hypno",
+          "level": 67,
+          "types": ["Steel", "Psychic"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Summit": [
+      {
+        "species": "Clefairy",
+        "levels": "50",
+        "rate": "60%"
+      },
+      {
+        "species": "Jigglypuff",
+        "levels": "50",
+        "rate": "40%"
+      }
+    ],
+    "Special": [
+      {
+        "species": "Mew",
+        "levels": "30",
+        "rate": "Telescope Celestial Event (20+ Karma)"
+      }
+    ]
+  }
+}

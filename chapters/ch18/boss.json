@@ -1,0 +1,17 @@
+{
+  "leader": null,
+  "title": "Sevii Islands Arrival — Mt. Ember Team Rocket Confrontation",
+  "badge": null,
+  "hard_mode_level_cap": 72,
+  "gym_duel_limit": 6,
+  "recommended_party_level": 71,
+  "overview": "Chapter 18 initiates Act 3: Sevii Islands & True Endgame. There is no official Gym Leader duel in this segment. The player boards the ferry from Cinnabar Island to Knot Island, assists Bebe with the lost Network Adapter at Treasure Beach to unlock the portable Box Link, navigates north along Kindle Road past Ember Spa, and assaults the Team Rocket outpost on Mt. Ember's western slopes to liberate the mountain and claim the essential Seagallop Pass from the grateful sailor. All team rosters operate in full 6-member route-travel configuration under the Level 72 cap.",
+  "roster": [],
+  "starter_strategies": {},
+  "rewards": [
+    "Box Link (Portable PC storage access from bag, gifted by Bebe)",
+    "Seagallop Pass (Unlocks archipelago ferry transit, gifted by Sailor at Mt. Ember)",
+    "TM121 Scald (Ember Spa raised ground)",
+    "TM50 Overheat (Mt. Ember beach behind Corsolas)"
+  ]
+}

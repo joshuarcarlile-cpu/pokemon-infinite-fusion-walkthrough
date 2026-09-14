@@ -1,0 +1,171 @@
+{
+  "location": "Route 9 (ID 351)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "019",
+        "name": "Rattata",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "14-17",
+        "catch_rate": "255",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "020",
+        "name": "Raticate",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "15-16",
+        "catch_rate": "127",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "021",
+        "name": "Spearow",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "13-17",
+        "catch_rate": "255",
+        "rates": [
+          "19%",
+          "19%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "022",
+        "name": "Fearow",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "15-16",
+        "catch_rate": "90",
+        "rates": [
+          "5%",
+          "5%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "023",
+        "name": "Ekans",
+        "type1": "Poison",
+        "type2": "",
+        "levels": "11-17",
+        "catch_rate": "255",
+        "rates": [
+          "15%",
+          "15%",
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "027",
+        "name": "Sandshrew",
+        "type1": "Ground",
+        "type2": "",
+        "levels": "11-17",
+        "catch_rate": "255",
+        "rates": [
+          "15%",
+          "15%",
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "041",
+        "name": "Zubat",
+        "type1": "Poison",
+        "type2": "Flying",
+        "levels": "13-17",
+        "catch_rate": "255",
+        "rates": [
+          "-",
+          "-",
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "042",
+        "name": "Golbat",
+        "type1": "Poison",
+        "type2": "Flying",
+        "levels": "15-16",
+        "catch_rate": "90",
+        "rates": [
+          "-",
+          "-",
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "048",
+        "name": "Venonat",
+        "type1": "Bug",
+        "type2": "Poison",
+        "levels": "14-17",
+        "catch_rate": "190",
+        "rates": [
+          "-",
+          "-",
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "081",
+        "name": "Magnemite",
+        "type1": "Steel",
+        "type2": "Electric",
+        "levels": "13",
+        "catch_rate": "65",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "100",
+        "name": "Voltorb",
+        "type1": "Electric",
+        "type2": "",
+        "levels": "12-15",
+        "catch_rate": "190",
+        "rates": [
+          "10%",
+          "10%",
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "231",
+        "name": "Phanpy",
+        "type1": "Ground",
+        "type2": "",
+        "levels": "12-15",
+        "catch_rate": "120",
+        "rates": [
+          "6%",
+          "6%",
+          "-"
+        ]
+      }
+    ],
+    "Pok\u00e9 Radar": [
+      {
+        "dex_id": "390",
+        "name": "Aron",
+        "type1": "Steel",
+        "type2": "Rock",
+        "levels": "12-15",
+        "catch_rate": "180",
+        "rates": [
+          "50% <small>([[Pok\u00e9 Radar#How_it_works",
+          "long rustle]])</small>"
+        ]
+      }
+    ]
+  }
+}

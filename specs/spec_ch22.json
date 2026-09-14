@@ -1,0 +1,38 @@
+{
+  "chapter_id": "ch22",
+  "title": "Act 3 - Chapter 5: Mt. Silver Summit & The Ultimate Convergence",
+  "act": 3,
+  "hard_mode_level_cap": 82,
+  "gym_duel_limit": 6,
+  "routes_covered": [
+    "Mt. Silver"
+  ],
+  "expected_classic_spawns": [
+    "Dodrio",
+    "Donphan",
+    "Golbat",
+    "Graveler",
+    "Larvitar",
+    "Magikarp",
+    "Misdreavus",
+    "Onix",
+    "Phanpy",
+    "Politoed",
+    "Poliwag",
+    "Poliwhirl",
+    "Poliwrath",
+    "Pupitar",
+    "Rapidash",
+    "Skarmory",
+    "Sneasel",
+    "Steelix",
+    "Teddiursa",
+    "Ursaring",
+    "Weavile"
+  ],
+  "prohibited_spawns": [
+    "Altaria",
+    "Aurorus",
+    "Lucario"
+  ]
+}

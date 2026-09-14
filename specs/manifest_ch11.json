@@ -1,0 +1,909 @@
+{
+  "chapter_id": "ch11",
+  "title": "Act 2 - Chapter 2: Azalea Town & Ilex Forest (Hive Badge)",
+  "act": 2,
+  "hard_mode_level_cap": 62,
+  "gym_duel_limit": 5,
+  "routes_covered": [
+    "Ilex Forest",
+    "Azalea Town",
+    "Slowpoke Well",
+    "Route 33"
+  ],
+  "vanilla_divergence_alerts": [
+    "HM Slaves: 100% eliminated by 9 reusable Key Item tools. Do NOT instruct players to teach field moves to party members.",
+    "Friendship: Eliminated. All friendship evolutions use static level thresholds (e.g. Baby Pokémon evolve at Lv. 15).",
+    "Trade Evolutions: Evolve naturally at Level 40 OR via Linking Cord (not Level 37)."
+  ],
+  "critical_missables": [],
+  "hotel_milestone_target": {},
+  "active_and_ongoing_quests": [],
+  "boss_ground_truth": {
+    "classic": {
+      "leader": "Kurt",
+      "team": [
+        {
+          "species": "B168H15",
+          "level": 56,
+          "moves": [
+            "SPIDERWEB",
+            "TWINEEDLE",
+            "SHADOWSNEAK",
+            "QUIVERDANCE"
+          ],
+          "item": "SILVERPOWDER"
+        },
+        {
+          "species": "B91H205",
+          "level": 56,
+          "moves": [
+            "IRONDEFENSE",
+            "SPIKECANNON",
+            "EXPLOSION",
+            "BUGBITE"
+          ],
+          "ability_index": 0,
+          "item": "SILVERPOWDER"
+        },
+        {
+          "species": "B212H80",
+          "level": 58,
+          "moves": [
+            "RECOVER",
+            "PSYCHUP",
+            "XSCISSOR",
+            "IRONDEFENSE"
+          ],
+          "item": "SILVERPOWDER"
+        },
+        {
+          "species": "B230H270",
+          "level": 58,
+          "moves": [
+            "DRAGONPULSE",
+            "SUPERSONIC",
+            "UTURN",
+            "DOUBLETEAM"
+          ],
+          "item": "SILVERPOWDER"
+        },
+        {
+          "species": "B213H242",
+          "level": 62,
+          "moves": [
+            "POWERTRICK",
+            "MINIMIZE",
+            "BUGBITE",
+            "SOFTBOILED"
+          ],
+          "item": "LEFTOVERS"
+        }
+      ],
+      "party_size": 5
+    },
+    "expert": {
+      "leader": "Kurt",
+      "team": [
+        {
+          "species": "B299H452",
+          "level": 62,
+          "moves": [
+            "STEALTHROCK",
+            "EARTHQUAKE",
+            "BODYSLAM",
+            "CRUNCH"
+          ],
+          "ability": "ROUGHSKIN",
+          "item": "ROCKYHELMET",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 252,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B426H68",
+          "level": 64,
+          "moves": [
+            "DRAGONDANCE",
+            "DYNAMICPUNCH",
+            "IRONTAIL",
+            "DRAGONCLAW"
+          ],
+          "ability": "NOGUARD",
+          "item": "SITRUSBERRY",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B265H214",
+          "level": 64,
+          "moves": [
+            "MEGAHORN",
+            "STONEEDGE",
+            "HAMMERARM",
+            "BULLETSEED"
+          ],
+          "ability": "MOXIE",
+          "item": "SITRUSBERRY",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 4,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B309H127",
+          "level": 66,
+          "moves": [
+            "CLOSECOMBAT",
+            "BODYSLAM",
+            "STONEEDGE",
+            "XSCISSOR"
+          ],
+          "ability": "MOXIE",
+          "item": "LIFEORB",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 252,
+            "DEFENSE": 4,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B149H217",
+          "level": 65,
+          "moves": [
+            "EXTREMESPEED",
+            "EARTHQUAKE",
+            "ROOST",
+            "CRUNCH"
+          ],
+          "ability": "GUTS",
+          "item": "FLAMEORB",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B263H374",
+          "level": 66,
+          "moves": [
+            "QUIVERDANCE",
+            "FLASHCANNON",
+            "BUGBUZZ",
+            "FIERYDANCE"
+          ],
+          "ability": "MAGNETPULL",
+          "item": "SITRUSBERRY",
+          "happiness": 0,
+          "nature": "MODEST",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        }
+      ],
+      "party_size": 6
+    }
+  },
+  "encounters_by_location": {
+    "Ilex Forest (ID 266)": {
+      "Grass": [
+        {
+          "name": "Metapod",
+          "dex_id": "011",
+          "types": [
+            "Bug"
+          ],
+          "levels": "25-26"
+        },
+        {
+          "name": "Butterfree",
+          "dex_id": "012",
+          "types": [
+            "Bug",
+            "Flying"
+          ],
+          "levels": "31-33"
+        },
+        {
+          "name": "Kakuna",
+          "dex_id": "014",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "25-26"
+        },
+        {
+          "name": "Beedrill",
+          "dex_id": "015",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "31-33"
+        },
+        {
+          "name": "Gloom",
+          "dex_id": "044",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "31-33"
+        },
+        {
+          "name": "Parasect",
+          "dex_id": "047",
+          "types": [
+            "Bug",
+            "Grass"
+          ],
+          "levels": "35"
+        },
+        {
+          "name": "Aipom",
+          "dex_id": "190",
+          "types": [
+            "Normal"
+          ],
+          "levels": "33"
+        },
+        {
+          "name": "Pineco",
+          "dex_id": "204",
+          "types": [
+            "Bug"
+          ],
+          "levels": "30"
+        },
+        {
+          "name": "Heracross",
+          "dex_id": "214",
+          "types": [
+            "Bug",
+            "Fighting"
+          ],
+          "levels": "34"
+        },
+        {
+          "name": "Phantump",
+          "dex_id": "438",
+          "types": [
+            "Grass",
+            "Ghost"
+          ],
+          "levels": "33"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-30"
+        },
+        {
+          "name": "Poliwhirl",
+          "dex_id": "061",
+          "types": [
+            "Water"
+          ],
+          "levels": "35"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Poliwhirl",
+          "dex_id": "061",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Poliwrath",
+          "dex_id": "062",
+          "types": [
+            "Water",
+            "Fighting"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Politoed",
+          "dex_id": "186",
+          "types": [
+            "Water"
+          ],
+          "levels": "40"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Breloom",
+          "dex_id": "355",
+          "types": [
+            "Grass",
+            "Fighting"
+          ],
+          "levels": "30"
+        }
+      ]
+    },
+    "Slowpoke Well (ID 283)": {
+      "Cave": [
+        {
+          "name": "Golbat",
+          "dex_id": "042",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "45-48"
+        },
+        {
+          "name": "Slowpoke",
+          "dex_id": "079",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Slowbro",
+          "dex_id": "080",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "48"
+        },
+        {
+          "name": "Slowking",
+          "dex_id": "199",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "48"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Slowpoke",
+          "dex_id": "079",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Goldeen",
+          "dex_id": "118",
+          "types": [
+            "Water"
+          ],
+          "levels": "45"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "30"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Slowpoke",
+          "dex_id": "079",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Slowpoke",
+          "dex_id": "079",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Slowbro",
+          "dex_id": "080",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Slowking",
+          "dex_id": "199",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "20"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Slowpoke",
+          "dex_id": "079",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Slowbro",
+          "dex_id": "080",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Slowking",
+          "dex_id": "199",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "40"
+        }
+      ]
+    },
+    "Route 33 (ID 284)": {
+      "Grass": [
+        {
+          "name": "Rattata",
+          "dex_id": "019",
+          "types": [
+            "Normal"
+          ],
+          "levels": "45"
+        },
+        {
+          "name": "Raticate",
+          "dex_id": "020",
+          "types": [
+            "Normal"
+          ],
+          "levels": "43"
+        },
+        {
+          "name": "Fearow",
+          "dex_id": "022",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "40-43"
+        },
+        {
+          "name": "Arbok",
+          "dex_id": "024",
+          "types": [
+            "Poison"
+          ],
+          "levels": "40-44"
+        },
+        {
+          "name": "Golbat",
+          "dex_id": "042",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "44"
+        },
+        {
+          "name": "Skiploom",
+          "dex_id": "188",
+          "types": [
+            "Grass",
+            "Flying"
+          ],
+          "levels": "40-42"
+        },
+        {
+          "name": "Jumpluff",
+          "dex_id": "189",
+          "types": [
+            "Grass",
+            "Flying"
+          ],
+          "levels": "45"
+        },
+        {
+          "name": "Murkrow",
+          "dex_id": "198",
+          "types": [
+            "Dark",
+            "Flying"
+          ],
+          "levels": "40"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Luxio",
+          "dex_id": "389",
+          "types": [
+            "Electric"
+          ],
+          "levels": "40-45"
+        }
+      ]
+    }
+  },
+  "wiki_ground_truth": {
+    "Ilex Forest": {
+      "canonical_slug": "Ilex_Forest",
+      "lead_summary": "Ilex Forest is twisted path in a dense forest that connects Route 34 to Azalea Town.\nIf the player enters the forest from Route 34 and is not the Pokémon Champion (AKA beat the Elite Four and Rival), the path will be blocked, and a man with its Scyther will be on work chopped trees. If the player has become Pokémon Champion, the man will have created a path through the forest to reach Azalea Town. He will also offer the player to chop small trees, which will raise the player's Karma.\nIf the player enters the gate leading to the forest and is the Pokémon Champion but has not defeated Whitney in Goldenrod City, a passerby will notify them of the reopening of the gym and the player will be unable to progress until Whitney has been beaten.\nIf the player completed at least 50 Quests, the Quest Master will reward the player with a GS Ball, which will allow the capture of Celebi, near the shrine, located near the center of the forest.",
+      "items": [],
+      "missable_warnings": [
+        "NOTE: Contains actions that alter player Karma."
+      ]
+    },
+    "Azalea Town": {
+      "canonical_slug": "Azalea_Town",
+      "lead_summary": "Azalea Town exits West into Ilex Forest and East to Route 33.\nThe first time the player comes, the town is flooded and most buildings are not accessible or only partially. The Route 33 is also blocked by the water and construction workers.\nThis city contains Azalea Town's Gym, with Kurt as its leader, but cannot be challenged until the flood is resolved.",
+      "items": [
+        {
+          "internal_id": "machine_hm_WATER",
+          "quantity": "",
+          "name": "HM06 Dive",
+          "location_details": "Given by Kurt after defeating Eusine."
+        },
+        {
+          "internal_id": "WATERSTONE",
+          "quantity": "",
+          "name": "Water Stone",
+          "location_details": "Western side of the Slowpoke Well."
+        },
+        {
+          "internal_id": "CANDYBALL",
+          "quantity": "5",
+          "name": "Candy Ball",
+          "location_details": "Given by Kurt after unflooding the well."
+        },
+        {
+          "internal_id": "KINGSROCK",
+          "quantity": "",
+          "name": "King's Rock",
+          "location_details": "Found next to the well after unflooding it."
+        },
+        {
+          "internal_id": "FRESHWATER",
+          "quantity": "",
+          "name": "Fresh Water",
+          "location_details": "Given by the man inside the gym."
+        },
+        {
+          "internal_id": "SCORCHBALL",
+          "quantity": "",
+          "name": "Scorch Ball",
+          "location_details": "Given by Kurt in his house after beating him at the Gym."
+        },
+        {
+          "internal_id": "SPARKBALL",
+          "quantity": "",
+          "name": "SparkBall",
+          "location_details": "Given by Kurt in his house after beating him at the Gym."
+        },
+        {
+          "internal_id": "TOXICBALL",
+          "quantity": "",
+          "name": "Toxic Ball",
+          "location_details": "Given by Kurt in his house after beating him at the Gym."
+        },
+        {
+          "internal_id": "FROSTBALL",
+          "quantity": "",
+          "name": "Frost Ball",
+          "location_details": "Given by Kurt in his house after beating him at the Gym."
+        },
+        {
+          "internal_id": "INSECTPLATE",
+          "quantity": "",
+          "name": "Insect Plate",
+          "location_details": "Between the stumps in front of Kurt's house, after catching [[Legendary_Pokémon#Arceus"
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Slowpoke Well": {
+      "canonical_slug": "Slowpoke_Well",
+      "lead_summary": "Azalea Town exits West into Ilex Forest and East to Route 33.\nThe first time the player comes, the town is flooded and most buildings are not accessible or only partially. The Route 33 is also blocked by the water and construction workers.\nThis city contains Azalea Town's Gym, with Kurt as its leader, but cannot be challenged until the flood is resolved.",
+      "items": [
+        {
+          "internal_id": "machine_hm_WATER",
+          "quantity": "",
+          "name": "HM06 Dive",
+          "location_details": "Given by Kurt after defeating Eusine."
+        },
+        {
+          "internal_id": "WATERSTONE",
+          "quantity": "",
+          "name": "Water Stone",
+          "location_details": "Western side of the Slowpoke Well."
+        },
+        {
+          "internal_id": "CANDYBALL",
+          "quantity": "5",
+          "name": "Candy Ball",
+          "location_details": "Given by Kurt after unflooding the well."
+        },
+        {
+          "internal_id": "KINGSROCK",
+          "quantity": "",
+          "name": "King's Rock",
+          "location_details": "Found next to the well after unflooding it."
+        },
+        {
+          "internal_id": "FRESHWATER",
+          "quantity": "",
+          "name": "Fresh Water",
+          "location_details": "Given by the man inside the gym."
+        },
+        {
+          "internal_id": "SCORCHBALL",
+          "quantity": "",
+          "name": "Scorch Ball",
+          "location_details": "Given by Kurt in his house after beating him at the Gym."
+        },
+        {
+          "internal_id": "SPARKBALL",
+          "quantity": "",
+          "name": "SparkBall",
+          "location_details": "Given by Kurt in his house after beating him at the Gym."
+        },
+        {
+          "internal_id": "TOXICBALL",
+          "quantity": "",
+          "name": "Toxic Ball",
+          "location_details": "Given by Kurt in his house after beating him at the Gym."
+        },
+        {
+          "internal_id": "FROSTBALL",
+          "quantity": "",
+          "name": "Frost Ball",
+          "location_details": "Given by Kurt in his house after beating him at the Gym."
+        },
+        {
+          "internal_id": "INSECTPLATE",
+          "quantity": "",
+          "name": "Insect Plate",
+          "location_details": "Between the stumps in front of Kurt's house, after catching [[Legendary_Pokémon#Arceus"
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Route 33": {
+      "canonical_slug": "Route_33",
+      "lead_summary": "Route 33 is a route that connects Azalea Town to Union Cave.\nWhen the Slowpoke Well in Azalea Town is flooding, the route is blocked by construction workers and machine.",
+      "items": [
+        {
+          "internal_id": "ASPEARBERRY",
+          "quantity": "",
+          "name": "Aspear Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "CHERIBERRY",
+          "quantity": "",
+          "name": "Cheri Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "CHESTOBERRY",
+          "quantity": "",
+          "name": "Chesto Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "LEPPABERRY",
+          "quantity": "",
+          "name": "Leppa Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "LUMBERRY",
+          "quantity": "",
+          "name": "Lum Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "ORANBERRY",
+          "quantity": "",
+          "name": "Oran Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "PECHABERRY",
+          "quantity": "",
+          "name": "Pecha Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "PERSIMBERRY",
+          "quantity": "",
+          "name": "Persim Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "RAWSTBERRY",
+          "quantity": "",
+          "name": "Rawst Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "SITRUSBERRY",
+          "quantity": "",
+          "name": "Sitrus Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        }
+      ],
+      "missable_warnings": []
+    }
+  },
+  "location_items_and_statics": [
+    {
+      "type": "Static Encounter",
+      "pokemon": "Shedinja",
+      "level": "45",
+      "location": "Ilex Forest",
+      "notes": ""
+    }
+  ],
+  "authoring_guidance": {
+    "splicing_safety": "Explicitly state: HEAD species, BODY species, and WHICH ability to select at the DNA Splicer prompt.",
+    "gym_party_selection_rule": "Built-in 5v5 party limit! When challenged, the game prompts the player to choose which 5 Pokémon from their active party to bring into battle. No PC box deposits required.",
+    "stone_evolutions": "Advisory: Do NOT use evolution stones prematurely on stone-evolvers (e.g. Nidorino) before key level-up moves are learned.",
+    "undercover_informant_rocket": "Guide player to join Team Rocket for disguises/missions, BUT report crimes to police officer for +10 Karma and Diancie unlock!"
+  }
+}

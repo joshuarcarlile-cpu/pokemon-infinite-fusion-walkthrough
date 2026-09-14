@@ -1,0 +1,2019 @@
+{
+  "chapter_id": "ch04",
+  "title": "Act 1 - Segment 4: Rock Tunnel to Celadon City (Rainbow Badge)",
+  "act": 1,
+  "hard_mode_level_cap": 39,
+  "gym_duel_limit": 3,
+  "routes_covered": [
+    "Route 9",
+    "Route 10",
+    "Rock Tunnel",
+    "Lavender Town",
+    "Route 8",
+    "Route 7",
+    "Celadon City",
+    "Celadon Sewers",
+    "Celadon Gym"
+  ],
+  "vanilla_divergence_alerts": [
+    "HM Slaves: 100% eliminated by 9 reusable Key Item tools. Do NOT instruct players to teach field moves to party members.",
+    "Friendship: Eliminated. All friendship evolutions use static level thresholds (e.g. Baby Pokémon evolve at Lv. 15).",
+    "Trade Evolutions: Evolve naturally at Level 40 OR via Linking Cord (not Level 37)."
+  ],
+  "critical_missables": [
+    {
+      "quest_id": "q_rocket_celadon_01",
+      "title": "Supplying the New Grunts",
+      "deadline": "Before Gym 8 / Mt. Ember Archer",
+      "consequence": "Catch 4 Pokémon using Rocket Balls in the outskirts of Celadon City."
+    },
+    {
+      "quest_id": "q_rocket_celadon_02",
+      "title": "Interception!",
+      "deadline": "Before Gym 8 / Mt. Ember Archer",
+      "consequence": "Intercept the genuine TM shipment to Celadon Department Store and deliver fake TMs."
+    },
+    {
+      "quest_id": "q_rocket_celadon_03",
+      "title": "Pokémon Collector",
+      "deadline": "Before Gym 8 / Mt. Ember Archer",
+      "consequence": "UNDERCOVER INFORMANT PATH: Report the illegal trafficker to the Celadon police officer to gain +10 Karma."
+    }
+  ],
+  "hotel_milestone_target": {},
+  "active_and_ongoing_quests": [
+    {
+      "id": "q_rocket_celadon_01",
+      "title": "Supplying the New Grunts",
+      "type": "Team Rocket",
+      "region": "Kanto",
+      "location": "Celadon City",
+      "chapter_introduced": "ch04",
+      "chapter_resolvable": "ch04",
+      "is_missable": true,
+      "missable_deadline": "Before Gym 8 / Mt. Ember Archer",
+      "karma_delta": -5,
+      "police_reportable": false,
+      "rewards": [
+        "₽15,000"
+      ],
+      "objectives": [
+        "Catch 4 Pokémon using Rocket Balls in the outskirts of Celadon City."
+      ]
+    },
+    {
+      "id": "q_rocket_celadon_02",
+      "title": "Interception!",
+      "type": "Team Rocket",
+      "region": "Kanto",
+      "location": "Celadon Department Store",
+      "chapter_introduced": "ch04",
+      "chapter_resolvable": "ch04",
+      "is_missable": true,
+      "missable_deadline": "Before Gym 8 / Mt. Ember Archer",
+      "karma_delta": -5,
+      "police_reportable": false,
+      "rewards": [
+        "₽10,000",
+        "Choice of: TM13 Ice Beam, TM24 Thunderbolt, or TM35 Flamethrower"
+      ],
+      "objectives": [
+        "Intercept the genuine TM shipment to Celadon Department Store and deliver fake TMs."
+      ]
+    },
+    {
+      "id": "q_rocket_celadon_03",
+      "title": "Pokémon Collector",
+      "type": "Team Rocket",
+      "region": "Kanto",
+      "location": "Route 22 (Near Viridian)",
+      "chapter_introduced": "ch04",
+      "chapter_resolvable": "ch04",
+      "is_missable": true,
+      "missable_deadline": "Before Gym 8 / Mt. Ember Archer",
+      "karma_delta": -5,
+      "police_reportable": true,
+      "police_officer_location": "Celadon City Police Station",
+      "police_reward_karma": 10,
+      "unlocks_quest": "q_pinkan_island_police",
+      "rewards": [
+        "Scraggy (Rocket) OR +10 Karma & Diancie Police Path (Officer Jenny report)"
+      ],
+      "objectives": [
+        "Meet the Pokémon collector on Route 22.",
+        "UNDERCOVER INFORMANT PATH: Report the illegal trafficker to the Celadon police officer to gain +10 Karma."
+      ]
+    }
+  ],
+  "boss_ground_truth": {
+    "classic": {
+      "leader": "Erika",
+      "team": [
+        {
+          "species": "B84H103",
+          "level": 33,
+          "moves": [
+            "PLUCK",
+            "FURYATTACK",
+            "SEEDBOMB",
+            "HYPNOSIS"
+          ],
+          "ability_index": 1,
+          "item": "MIRACLESEED"
+        },
+        {
+          "species": "B57H114",
+          "level": 33,
+          "moves": [
+            "ANCIENTPOWER",
+            "SEISMICTOSS",
+            "MEGADRAIN",
+            "SLEEPPOWDER"
+          ],
+          "ability_index": 0,
+          "item": "MIRACLESEED"
+        },
+        {
+          "species": "B71H45",
+          "level": 35,
+          "moves": [
+            "SYNTHESIS",
+            "SUNNYDAY",
+            "SOLARBEAM",
+            "POISONPOWDER"
+          ],
+          "ability_index": 4,
+          "item": "SITRUSBERRY"
+        }
+      ],
+      "party_size": 3
+    },
+    "expert": {
+      "leader": "Erika",
+      "team": [
+        {
+          "species": "B148H36",
+          "level": 35,
+          "moves": [
+            "DAZZLINGGLEAM",
+            "DRAGONBREATH",
+            "WISH",
+            "WATERPULSE"
+          ],
+          "ability": "MAGICGUARD",
+          "item": "LIFEORB",
+          "nature": "MODEST",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 4,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B233H103",
+          "level": 36,
+          "moves": [
+            "SUNNYDAY",
+            "SOLARBEAM",
+            "PSYCHIC",
+            "PROTECT"
+          ],
+          "ability": "HARVEST",
+          "item": "STARFBERRY",
+          "nature": "MODEST",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 4
+          }
+        },
+        {
+          "species": "B49H263",
+          "level": 38,
+          "moves": [
+            "QUIVERDANCE",
+            "SLUDGEBOMB",
+            "GIGADRAIN",
+            "THUNDERBOLT"
+          ],
+          "ability": "TINTEDLENS",
+          "item": "AIRBALLOON",
+          "nature": "MODEST",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        }
+      ],
+      "party_size": 3
+    }
+  },
+  "encounters_by_location": {
+    "Route 9 (ID 351)": {
+      "Grass": [
+        {
+          "name": "Rattata",
+          "dex_id": "019",
+          "types": [
+            "Normal"
+          ],
+          "levels": "14-17"
+        },
+        {
+          "name": "Raticate",
+          "dex_id": "020",
+          "types": [
+            "Normal"
+          ],
+          "levels": "15-16"
+        },
+        {
+          "name": "Spearow",
+          "dex_id": "021",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "13-17"
+        },
+        {
+          "name": "Fearow",
+          "dex_id": "022",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "15-16"
+        },
+        {
+          "name": "Ekans",
+          "dex_id": "023",
+          "types": [
+            "Poison"
+          ],
+          "levels": "11-17"
+        },
+        {
+          "name": "Sandshrew",
+          "dex_id": "027",
+          "types": [
+            "Ground"
+          ],
+          "levels": "11-17"
+        },
+        {
+          "name": "Zubat",
+          "dex_id": "041",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "13-17"
+        },
+        {
+          "name": "Golbat",
+          "dex_id": "042",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "15-16"
+        },
+        {
+          "name": "Venonat",
+          "dex_id": "048",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "14-17"
+        },
+        {
+          "name": "Magnemite",
+          "dex_id": "081",
+          "types": [
+            "Steel",
+            "Electric"
+          ],
+          "levels": "13"
+        },
+        {
+          "name": "Voltorb",
+          "dex_id": "100",
+          "types": [
+            "Electric"
+          ],
+          "levels": "12-15"
+        },
+        {
+          "name": "Phanpy",
+          "dex_id": "231",
+          "types": [
+            "Ground"
+          ],
+          "levels": "12-15"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Aron",
+          "dex_id": "390",
+          "types": [
+            "Steel",
+            "Rock"
+          ],
+          "levels": "12-15"
+        }
+      ]
+    },
+    "Route 9 (ID 495)": {
+      "Grass": [
+        {
+          "name": "Rattata",
+          "dex_id": "019",
+          "types": [
+            "Normal"
+          ],
+          "levels": "18"
+        },
+        {
+          "name": "Raticate",
+          "dex_id": "020",
+          "types": [
+            "Normal"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Spearow",
+          "dex_id": "021",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "17"
+        },
+        {
+          "name": "Fearow",
+          "dex_id": "022",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "19"
+        },
+        {
+          "name": "Ekans",
+          "dex_id": "023",
+          "types": [
+            "Poison"
+          ],
+          "levels": "11-17"
+        },
+        {
+          "name": "Sandshrew",
+          "dex_id": "027",
+          "types": [
+            "Ground"
+          ],
+          "levels": "11-17"
+        },
+        {
+          "name": "Nidoran♀",
+          "dex_id": "029",
+          "types": [
+            "Poison"
+          ],
+          "levels": "16-18"
+        },
+        {
+          "name": "Nidorina",
+          "dex_id": "030",
+          "types": [
+            "Poison"
+          ],
+          "levels": "18"
+        },
+        {
+          "name": "Nidoran♂",
+          "dex_id": "032",
+          "types": [
+            "Poison"
+          ],
+          "levels": "16-18"
+        },
+        {
+          "name": "Nidorino",
+          "dex_id": "033",
+          "types": [
+            "Poison"
+          ],
+          "levels": "18"
+        },
+        {
+          "name": "Zubat",
+          "dex_id": "041",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "17"
+        },
+        {
+          "name": "Golbat",
+          "dex_id": "042",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "19"
+        },
+        {
+          "name": "Meowth",
+          "dex_id": "052",
+          "types": [
+            "Normal"
+          ],
+          "levels": "13-16"
+        },
+        {
+          "name": "Persian",
+          "dex_id": "053",
+          "types": [
+            "Normal"
+          ],
+          "levels": "15"
+        },
+        {
+          "name": "Mankey",
+          "dex_id": "056",
+          "types": [
+            "Fighting"
+          ],
+          "levels": "13"
+        },
+        {
+          "name": "Primeape",
+          "dex_id": "057",
+          "types": [
+            "Fighting"
+          ],
+          "levels": "15"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Aron",
+          "dex_id": "390",
+          "types": [
+            "Steel",
+            "Rock"
+          ],
+          "levels": "12-15"
+        }
+      ]
+    },
+    "Route 10 (ID 154)": {
+      "Grass": [
+        {
+          "name": "Spearow",
+          "dex_id": "021",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "13-17"
+        },
+        {
+          "name": "Ekans",
+          "dex_id": "023",
+          "types": [
+            "Poison"
+          ],
+          "levels": "11-17"
+        },
+        {
+          "name": "Sandshrew",
+          "dex_id": "027",
+          "types": [
+            "Ground"
+          ],
+          "levels": "11-17"
+        },
+        {
+          "name": "Zubat",
+          "dex_id": "041",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "13-17"
+        },
+        {
+          "name": "Magnemite",
+          "dex_id": "081",
+          "types": [
+            "Steel",
+            "Electric"
+          ],
+          "levels": "14-17"
+        },
+        {
+          "name": "Voltorb",
+          "dex_id": "100",
+          "types": [
+            "Electric"
+          ],
+          "levels": "14-17"
+        },
+        {
+          "name": "Cubone",
+          "dex_id": "104",
+          "types": [
+            "Ground"
+          ],
+          "levels": "14-17"
+        },
+        {
+          "name": "Phanpy",
+          "dex_id": "231",
+          "types": [
+            "Ground"
+          ],
+          "levels": "12-15"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Tentacool",
+          "dex_id": "072",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "5-40"
+        },
+        {
+          "name": "Tentacruel",
+          "dex_id": "073",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "35-40"
+        },
+        {
+          "name": "Goldeen",
+          "dex_id": "118",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-35"
+        },
+        {
+          "name": "Seaking",
+          "dex_id": "119",
+          "types": [
+            "Water"
+          ],
+          "levels": "35-40"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Krabby",
+          "dex_id": "098",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Psyduck",
+          "dex_id": "054",
+          "types": [
+            "Water"
+          ],
+          "levels": "25-35"
+        },
+        {
+          "name": "Slowpoke",
+          "dex_id": "079",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "25-35"
+        },
+        {
+          "name": "Krabby",
+          "dex_id": "098",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Gyarados",
+          "dex_id": "130",
+          "types": [
+            "Water",
+            "Flying"
+          ],
+          "levels": "15-25"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Klink",
+          "dex_id": "397",
+          "types": [
+            "Steel"
+          ],
+          "levels": "14-17"
+        }
+      ]
+    },
+    "Rock Tunnel (ID 349)": {
+      "Cave": [
+        {
+          "name": "Zubat",
+          "dex_id": "041",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "15-16"
+        },
+        {
+          "name": "Mankey",
+          "dex_id": "056",
+          "types": [
+            "Fighting"
+          ],
+          "levels": "16-17"
+        },
+        {
+          "name": "Machop",
+          "dex_id": "066",
+          "types": [
+            "Fighting"
+          ],
+          "levels": "17"
+        },
+        {
+          "name": "Geodude",
+          "dex_id": "074",
+          "types": [
+            "Rock",
+            "Ground"
+          ],
+          "levels": "15-17"
+        },
+        {
+          "name": "Onix",
+          "dex_id": "095",
+          "types": [
+            "Rock",
+            "Ground"
+          ],
+          "levels": "13-17"
+        },
+        {
+          "name": "Nosepass",
+          "dex_id": "325",
+          "types": [
+            "Rock"
+          ],
+          "levels": "15"
+        }
+      ],
+      "Rock Smash": [
+        {
+          "name": "Geodude",
+          "dex_id": "074",
+          "types": [
+            "Rock",
+            "Ground"
+          ],
+          "levels": "5-30"
+        },
+        {
+          "name": "Graveler",
+          "dex_id": "075",
+          "types": [
+            "Rock",
+            "Ground"
+          ],
+          "levels": "25-40"
+        },
+        {
+          "name": "Shuckle",
+          "dex_id": "213",
+          "types": [
+            "Bug",
+            "Rock"
+          ],
+          "levels": "20-30"
+        }
+      ]
+    },
+    "Rock Tunnel (ID 350)": {
+      "Cave": [
+        {
+          "name": "Zubat",
+          "dex_id": "041",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "8"
+        },
+        {
+          "name": "Golbat",
+          "dex_id": "042",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "12-15"
+        },
+        {
+          "name": "Mankey",
+          "dex_id": "056",
+          "types": [
+            "Fighting"
+          ],
+          "levels": "16-17"
+        },
+        {
+          "name": "Machop",
+          "dex_id": "066",
+          "types": [
+            "Fighting"
+          ],
+          "levels": "12"
+        },
+        {
+          "name": "Machoke",
+          "dex_id": "067",
+          "types": [
+            "Fighting"
+          ],
+          "levels": "14"
+        },
+        {
+          "name": "Geodude",
+          "dex_id": "074",
+          "types": [
+            "Rock",
+            "Ground"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Onix",
+          "dex_id": "095",
+          "types": [
+            "Rock",
+            "Ground"
+          ],
+          "levels": "13-15"
+        },
+        {
+          "name": "Cubone",
+          "dex_id": "104",
+          "types": [
+            "Ground"
+          ],
+          "levels": "10-13"
+        },
+        {
+          "name": "Nosepass",
+          "dex_id": "325",
+          "types": [
+            "Rock"
+          ],
+          "levels": "15"
+        }
+      ],
+      "Rock Smash": [
+        {
+          "name": "Geodude",
+          "dex_id": "074",
+          "types": [
+            "Rock",
+            "Ground"
+          ],
+          "levels": "5-30"
+        },
+        {
+          "name": "Graveler",
+          "dex_id": "075",
+          "types": [
+            "Rock",
+            "Ground"
+          ],
+          "levels": "25-40"
+        },
+        {
+          "name": "Shuckle",
+          "dex_id": "213",
+          "types": [
+            "Bug",
+            "Rock"
+          ],
+          "levels": "20-30"
+        }
+      ]
+    },
+    "Rock Tunnel (ID 800)": {
+      "Cave": [
+        {
+          "name": "Zubat",
+          "dex_id": "041",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "8"
+        },
+        {
+          "name": "Golbat",
+          "dex_id": "042",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "12-15"
+        },
+        {
+          "name": "Mankey",
+          "dex_id": "056",
+          "types": [
+            "Fighting"
+          ],
+          "levels": "16-17"
+        },
+        {
+          "name": "Machoke",
+          "dex_id": "067",
+          "types": [
+            "Fighting"
+          ],
+          "levels": "14"
+        },
+        {
+          "name": "Geodude",
+          "dex_id": "074",
+          "types": [
+            "Rock",
+            "Ground"
+          ],
+          "levels": "12"
+        },
+        {
+          "name": "Onix",
+          "dex_id": "095",
+          "types": [
+            "Rock",
+            "Ground"
+          ],
+          "levels": "13-15"
+        },
+        {
+          "name": "Nosepass",
+          "dex_id": "325",
+          "types": [
+            "Rock"
+          ],
+          "levels": "15"
+        },
+        {
+          "name": "Sableye",
+          "dex_id": "421",
+          "types": [
+            "Dark",
+            "Ghost"
+          ],
+          "levels": "14"
+        }
+      ]
+    },
+    "Route 8 (ID 409)": {
+      "Grass": [
+        {
+          "name": "Pidgey",
+          "dex_id": "016",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "18-20"
+        },
+        {
+          "name": "Ekans",
+          "dex_id": "023",
+          "types": [
+            "Poison"
+          ],
+          "levels": "17-19"
+        },
+        {
+          "name": "Sandshrew",
+          "dex_id": "027",
+          "types": [
+            "Ground"
+          ],
+          "levels": "17-19"
+        },
+        {
+          "name": "Vulpix",
+          "dex_id": "037",
+          "types": [
+            "Fire"
+          ],
+          "levels": "15-18"
+        },
+        {
+          "name": "Zubat",
+          "dex_id": "041",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "18-20"
+        },
+        {
+          "name": "Meowth",
+          "dex_id": "052",
+          "types": [
+            "Normal"
+          ],
+          "levels": "18-20"
+        },
+        {
+          "name": "Growlithe",
+          "dex_id": "058",
+          "types": [
+            "Fire"
+          ],
+          "levels": "15-18"
+        },
+        {
+          "name": "Poliwhirl",
+          "dex_id": "061",
+          "types": [
+            "Water"
+          ],
+          "levels": "16-17"
+        },
+        {
+          "name": "Hoothoot",
+          "dex_id": "163",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "18-20"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Shinx",
+          "dex_id": "388",
+          "types": [
+            "Electric"
+          ],
+          "levels": "17-18"
+        }
+      ]
+    },
+    "Route 7 (ID 413)": {
+      "Grass": [
+        {
+          "name": "Pidgey",
+          "dex_id": "016",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "19-22"
+        },
+        {
+          "name": "Pikachu",
+          "dex_id": "025",
+          "types": [
+            "Electric"
+          ],
+          "levels": "17-20"
+        },
+        {
+          "name": "Vulpix",
+          "dex_id": "037",
+          "types": [
+            "Fire"
+          ],
+          "levels": "18-20"
+        },
+        {
+          "name": "Zubat",
+          "dex_id": "041",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "19-22"
+        },
+        {
+          "name": "Oddish",
+          "dex_id": "043",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "19-22"
+        },
+        {
+          "name": "Meowth",
+          "dex_id": "052",
+          "types": [
+            "Normal"
+          ],
+          "levels": "17-20"
+        },
+        {
+          "name": "Psyduck",
+          "dex_id": "054",
+          "types": [
+            "Water"
+          ],
+          "levels": "18-20"
+        },
+        {
+          "name": "Growlithe",
+          "dex_id": "058",
+          "types": [
+            "Fire"
+          ],
+          "levels": "18-20"
+        },
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "18-20"
+        },
+        {
+          "name": "Bellsprout",
+          "dex_id": "069",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "19-22"
+        },
+        {
+          "name": "Murkrow",
+          "dex_id": "198",
+          "types": [
+            "Dark",
+            "Flying"
+          ],
+          "levels": "17-19"
+        },
+        {
+          "name": "Houndour",
+          "dex_id": "228",
+          "types": [
+            "Dark",
+            "Fire"
+          ],
+          "levels": "15"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Drifloon",
+          "dex_id": "402",
+          "types": [
+            "Ghost",
+            "Flying"
+          ],
+          "levels": "17-20"
+        }
+      ]
+    },
+    "Celadon City (ID 95)": {
+      "Grass": [
+        {
+          "name": "Pidgey",
+          "dex_id": "016",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "15-20"
+        },
+        {
+          "name": "Pidgeotto",
+          "dex_id": "017",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "18-20"
+        },
+        {
+          "name": "Rattata",
+          "dex_id": "019",
+          "types": [
+            "Normal"
+          ],
+          "levels": "14-20"
+        },
+        {
+          "name": "Zubat",
+          "dex_id": "041",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "15-20"
+        },
+        {
+          "name": "Meowth",
+          "dex_id": "052",
+          "types": [
+            "Normal"
+          ],
+          "levels": "15"
+        },
+        {
+          "name": "Grimer",
+          "dex_id": "088",
+          "types": [
+            "Poison"
+          ],
+          "levels": "15-20"
+        },
+        {
+          "name": "Koffing",
+          "dex_id": "109",
+          "types": [
+            "Poison"
+          ],
+          "levels": "15-20"
+        },
+        {
+          "name": "Eevee",
+          "dex_id": "133",
+          "types": [
+            "Normal"
+          ],
+          "levels": "15"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Grimer",
+          "dex_id": "088",
+          "types": [
+            "Poison"
+          ],
+          "levels": "15-20"
+        },
+        {
+          "name": "Muk",
+          "dex_id": "089",
+          "types": [
+            "Poison"
+          ],
+          "levels": "15"
+        },
+        {
+          "name": "Koffing",
+          "dex_id": "109",
+          "types": [
+            "Poison"
+          ],
+          "levels": "30-40"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Grimer",
+          "dex_id": "088",
+          "types": [
+            "Poison"
+          ],
+          "levels": "5-10"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-10"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Grimer",
+          "dex_id": "088",
+          "types": [
+            "Poison"
+          ],
+          "levels": "10-20"
+        },
+        {
+          "name": "Muk",
+          "dex_id": "089",
+          "types": [
+            "Poison"
+          ],
+          "levels": "10-20"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-10"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Grimer",
+          "dex_id": "088",
+          "types": [
+            "Poison"
+          ],
+          "levels": "30-40"
+        },
+        {
+          "name": "Muk",
+          "dex_id": "089",
+          "types": [
+            "Poison"
+          ],
+          "levels": "25-35"
+        }
+      ]
+    },
+    "Celadon Sewers (ID 431)": {
+      "Cave": [
+        {
+          "name": "Rattata",
+          "dex_id": "019",
+          "types": [
+            "Normal"
+          ],
+          "levels": "20-25"
+        },
+        {
+          "name": "Raticate",
+          "dex_id": "020",
+          "types": [
+            "Normal"
+          ],
+          "levels": "20-25"
+        },
+        {
+          "name": "Magnemite",
+          "dex_id": "081",
+          "types": [
+            "Steel",
+            "Electric"
+          ],
+          "levels": "20-27"
+        },
+        {
+          "name": "Grimer",
+          "dex_id": "088",
+          "types": [
+            "Poison"
+          ],
+          "levels": "20-25"
+        },
+        {
+          "name": "Muk",
+          "dex_id": "089",
+          "types": [
+            "Poison"
+          ],
+          "levels": "28"
+        }
+      ]
+    },
+    "Celadon Sewers (ID 446)": {
+      "Cave": [
+        {
+          "name": "Rattata",
+          "dex_id": "019",
+          "types": [
+            "Normal"
+          ],
+          "levels": "20-25"
+        },
+        {
+          "name": "Raticate",
+          "dex_id": "020",
+          "types": [
+            "Normal"
+          ],
+          "levels": "20-25"
+        },
+        {
+          "name": "Magnemite",
+          "dex_id": "081",
+          "types": [
+            "Steel",
+            "Electric"
+          ],
+          "levels": "20-27"
+        },
+        {
+          "name": "Grimer",
+          "dex_id": "088",
+          "types": [
+            "Poison"
+          ],
+          "levels": "20-25"
+        },
+        {
+          "name": "Muk",
+          "dex_id": "089",
+          "types": [
+            "Poison"
+          ],
+          "levels": "28"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Tentacool",
+          "dex_id": "072",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "20-30"
+        },
+        {
+          "name": "Grimer",
+          "dex_id": "088",
+          "types": [
+            "Poison"
+          ],
+          "levels": "25-30"
+        },
+        {
+          "name": "Muk",
+          "dex_id": "089",
+          "types": [
+            "Poison"
+          ],
+          "levels": "32"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-25"
+        }
+      ]
+    }
+  },
+  "wiki_ground_truth": {
+    "Route 9": {
+      "canonical_slug": "Route_9",
+      "lead_summary": "This route has two distinctive biome, which offers different catch tables:\n*The first being a canyon, where several trainers and items are present, as well as two small patch of grass, which connects to the Cerulean City terminal.\n*The second being a stream bank, with a large patch of grass, and connects to Route 10 and Cerulean Cape.\nTo reach Cerulean Cape, the player needs both Surf and Waterfall (or their respective HM Replacement Items).",
+      "items": [
+        {
+          "internal_id": "ETHER",
+          "quantity": "",
+          "name": "Ether",
+          "location_details": "Hidden by a boulder near Hiker Jeremy."
+        },
+        {
+          "internal_id": "machine_PSYCHIC",
+          "quantity": "",
+          "name": "TM51 Ally Switch",
+          "location_details": "On the ground near Hiker Jeremy."
+        },
+        {
+          "internal_id": "CHESTOBERRY",
+          "quantity": "3",
+          "name": "Chesto Berry",
+          "location_details": "Hidden in a tree in the northwest corner."
+        },
+        {
+          "internal_id": "FULLRESTORE",
+          "quantity": "",
+          "name": "Full Restore",
+          "location_details": "On the ground in a small patch of grass."
+        },
+        {
+          "internal_id": "LIGHTCLAY",
+          "quantity": "",
+          "name": "Light Clay",
+          "location_details": "Hidden by a large boulder near Camper Chris."
+        },
+        {
+          "internal_id": "RARECANDY",
+          "quantity": "",
+          "name": "Rare Candy",
+          "location_details": "On the ground near Hiker Brice."
+        },
+        {
+          "internal_id": "ETHER",
+          "quantity": "",
+          "name": "Ether",
+          "location_details": "Hidden by a boulder near Bug Catcher Conner."
+        },
+        {
+          "internal_id": "MAXPOTION",
+          "quantity": "",
+          "name": "Max Potion",
+          "location_details": "On the ground near Hiker Alan."
+        },
+        {
+          "internal_id": "ETHER",
+          "quantity": "",
+          "name": "Ether",
+          "location_details": "From Picnicker Caitlin, after defeating her."
+        },
+        {
+          "internal_id": "machine_FIRE",
+          "quantity": "",
+          "name": "TM43 Flame Charge",
+          "location_details": "On the ground in a large patch of grass."
+        },
+        {
+          "internal_id": "machine_DARK",
+          "quantity": "",
+          "name": "TM95 Snarl",
+          "location_details": "Between both waterfalls."
+        },
+        {
+          "internal_id": "JETPACK",
+          "quantity": "",
+          "name": "Jetpack",
+          "location_details": "Given by the trainer after showing him a Pokémon with the moves Aqua Jet, Waterfall and Fly."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Route 10": {
+      "canonical_slug": "Route_10",
+      "lead_summary": "__DISAMBIG__\nDid you mean:\n*Route 10 (Before Rock Tunnel)\n*Route 10 (After Rock Tunnel)\nCategory:Disambiguations",
+      "items": [],
+      "missable_warnings": []
+    },
+    "Rock Tunnel": {
+      "canonical_slug": "Rock_Tunnel",
+      "lead_summary": "Rock Tunnel is a dark cavern which splits the sections of Route 10. It is initially the only way to reach Lavender Town, due to the slumbering Snorlax and the Saffron gatekeepers.\nPlayers will want to use either the HM08 Flash or its HM Replacement Item (see List of TMs for more info) to navigate through the cavern, although it is possible without them.\nOn B1F, behind some breakable rocks, there is an exit which leads to a small cave with an old man with an Easter egg.",
+      "items": [
+        {
+          "internal_id": "ETHER",
+          "quantity": "",
+          "name": "Ether",
+          "location_details": "Hidden by a stalagmite near the entrance."
+        },
+        {
+          "internal_id": "REPEL",
+          "quantity": "",
+          "name": "Repel",
+          "location_details": "Hidden by a boulder in the small tunnel with TM47."
+        },
+        {
+          "internal_id": "machine_FIGHTING",
+          "quantity": "",
+          "name": "TM47 Low Sweep",
+          "location_details": "On the ground in the small tunnel."
+        },
+        {
+          "internal_id": "MAXREVIVE",
+          "quantity": "",
+          "name": "Max Revive",
+          "location_details": "From Hiker Oliver, after defeating him."
+        },
+        {
+          "internal_id": "FULLHEAL",
+          "quantity": "",
+          "name": "Full Heal",
+          "location_details": "Hidden by a stalagmite pass Hiker Lucas."
+        },
+        {
+          "internal_id": "SMOOTHROCK",
+          "quantity": "",
+          "name": "Smooth Rock",
+          "location_details": "Hidden by a boulder near the ladder wih two Picnickers."
+        },
+        {
+          "internal_id": "FULLRESTORE",
+          "quantity": "",
+          "name": "Full Restore",
+          "location_details": "From Picnicker Dana, after defeating her and giving her a drink."
+        },
+        {
+          "internal_id": "machine_ROCK",
+          "quantity": "",
+          "name": "TM80 Rock Slide",
+          "location_details": "Behind some breakable rocks."
+        },
+        {
+          "internal_id": "MAXETHER",
+          "quantity": "",
+          "name": "Max Ether",
+          "location_details": "On the ground near the exit."
+        },
+        {
+          "internal_id": "HYPERPOTION",
+          "quantity": "",
+          "name": "Hyper Potion",
+          "location_details": "From Cool Trainer Laura, after defeating her full roster."
+        },
+        {
+          "internal_id": "PPUP",
+          "quantity": "",
+          "name": "PP Up",
+          "location_details": "Hidden by a boulder near the exit."
+        },
+        {
+          "internal_id": "machine_POISON",
+          "quantity": "",
+          "name": "TM84 Poison Jab",
+          "location_details": "End of North Path before Picknicker Sofia."
+        },
+        {
+          "internal_id": "REVIVE",
+          "quantity": "",
+          "name": "Revive",
+          "location_details": "Hidden by a boulder."
+        },
+        {
+          "internal_id": "AWAKENING",
+          "quantity": "",
+          "name": "Awakening",
+          "location_details": "Hidden by a large boulder."
+        },
+        {
+          "internal_id": "ANTIDOTE",
+          "quantity": "",
+          "name": "Antidote",
+          "location_details": "Hidden by a stalagmite, next to the Max Revive."
+        },
+        {
+          "internal_id": "MAXREVIVE",
+          "quantity": "",
+          "name": "Max Revive",
+          "location_details": "Behind some breakable rocks."
+        },
+        {
+          "internal_id": "SUPERPOTION",
+          "quantity": "",
+          "name": "Super Potion",
+          "location_details": "On the ground, on the opposite corridor of the Max Revive."
+        },
+        {
+          "internal_id": "ESCAPEROPE",
+          "quantity": "",
+          "name": "Escape Rope",
+          "location_details": "On the ground, pass Picnicker Sofia."
+        },
+        {
+          "internal_id": "STRANGEPRISM",
+          "quantity": "",
+          "name": "Strange Prism",
+          "location_details": "At the end of the small room in the northeast corner of B1F."
+        },
+        {
+          "internal_id": "SPELLTAG",
+          "quantity": "",
+          "name": "Spell Tag",
+          "location_details": "On the ground, near the Old man's cave."
+        }
+      ],
+      "missable_warnings": [
+        "NOTE: Contains actions that alter player Karma."
+      ]
+    },
+    "Lavender Town": {
+      "canonical_slug": "Lavender_Town",
+      "lead_summary": "Lavender Town can be accessed from the North by Route 10 (After Rock Tunnel), the West by Route 8, and the South by Route 12.\nThe main attraction of this town is the Pokémon Tower.",
+      "items": [
+        {
+          "internal_id": "FULLHEAL",
+          "quantity": "",
+          "name": "Full Heal",
+          "location_details": "In the trash in the southwest house."
+        },
+        {
+          "internal_id": "MOONSTONE",
+          "quantity": "",
+          "name": "Moon Stone",
+          "location_details": "Given by the Stone Maniac at night."
+        },
+        {
+          "internal_id": "SUNSTONE",
+          "quantity": "",
+          "name": "Sun Stone",
+          "location_details": "Given by the Stone Maniac during the day."
+        },
+        {
+          "internal_id": "machine_DARK",
+          "quantity": "",
+          "name": "TM41 Torment",
+          "location_details": "In the flower field."
+        },
+        {
+          "internal_id": "machine_NORMAL",
+          "quantity": "",
+          "name": "TM87 Swagger",
+          "location_details": "Given by the Name Rater after showing him a Pokemon with a perfect nickname."
+        },
+        {
+          "internal_id": "LUNARFEATHER",
+          "quantity": "",
+          "name": "Lunar Feather",
+          "location_details": "On the bed in the Orphanage."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Route 8": {
+      "canonical_slug": "Route_8",
+      "lead_summary": "100,000\n}}This Route connects Lavender Town to Saffron City.\nIt also has an underground passage leading to Route 7.",
+      "items": [
+        {
+          "internal_id": "RARECANDY",
+          "quantity": "",
+          "name": "Rare Candy",
+          "location_details": "Given by Gambler Jasper after winning his game of Blackjack."
+        },
+        {
+          "internal_id": "RARECANDY",
+          "quantity": "",
+          "name": "Rare Candy",
+          "location_details": "Given by Gambler Stan after winning his game of Blackjack."
+        },
+        {
+          "internal_id": "ASPEARBERRY",
+          "quantity": "",
+          "name": "Aspear Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "CHERIBERRY",
+          "quantity": "",
+          "name": "Cheri Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "CHESTOBERRY",
+          "quantity": "",
+          "name": "Chesto Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "LEPPABERRY",
+          "quantity": "",
+          "name": "Leppa Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "LUMBERRY",
+          "quantity": "",
+          "name": "Lum Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "ORANBERRY",
+          "quantity": "",
+          "name": "Oran Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "PECHABERRY",
+          "quantity": "",
+          "name": "Pecha Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "PERSIMBERRY",
+          "quantity": "",
+          "name": "Persim Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "RAWSTBERRY",
+          "quantity": "",
+          "name": "Rawst Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "SITRUSBERRY",
+          "quantity": "",
+          "name": "Sitrus Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Route 7": {
+      "canonical_slug": "Route_7",
+      "lead_summary": "100,000\n}}This route connects Celadon City to Saffron City.\nIt also has an underground passage leading to Route 8.",
+      "items": [
+        {
+          "internal_id": "machine_NORMAL",
+          "quantity": "",
+          "name": "TM49 Echoed Voice",
+          "location_details": "Given by the Teacher after defeating all 3 Preschoolers"
+        },
+        {
+          "internal_id": "STRANGEPRISM",
+          "quantity": "",
+          "name": "Strange Prism",
+          "location_details": "Near the East gate, after placing 4 Strange Prisms at [[Pokémon Tower]]."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Celadon City": {
+      "canonical_slug": "Celadon_City",
+      "lead_summary": "Celadon City is a big city, with two entries: Route 16 to the West and Route 7 to the East.\nThis city contains Celadon City's Gym, with Erika as its leader.\nTeam Rocket have a hideout in the Celadon Sewers and Erika will help the player defeat them. After defeating Giovanni, the player will obtain the Silph Scope and can challenge Erika in her gym.",
+      "items": [
+        {
+          "internal_id": "COINCASE",
+          "quantity": "",
+          "name": "Coin Case",
+          "location_details": "Given by the Gentleman in the Café during day."
+        },
+        {
+          "internal_id": "CARBOS",
+          "quantity": "",
+          "name": "Carbos",
+          "location_details": "Given by the Cool Trainer in the Café during day after defeating him."
+        },
+        {
+          "internal_id": "COFFEE",
+          "quantity": "",
+          "name": "Coffee",
+          "location_details": "Bought from the Barista in the Café for ₽200."
+        },
+        {
+          "internal_id": "SKULLFOSSIL",
+          "quantity": "",
+          "name": "Skull Fossil",
+          "location_details": "Given as a choice by Super Nerd Miguel after defeating him in the Café."
+        },
+        {
+          "internal_id": "ARMORFOSSIL",
+          "quantity": "",
+          "name": "Armor Fossil",
+          "location_details": "Given as a choice by Super Nerd Miguel after defeating him in the Café."
+        },
+        {
+          "internal_id": "SUPERSPLICERS",
+          "quantity": "",
+          "name": "Super Splicers",
+          "location_details": "Given by the Female Cool Trainer in the house right to the Café."
+        },
+        {
+          "internal_id": "RARECANDY",
+          "quantity": "",
+          "name": "Rare Candy",
+          "location_details": "In the trash, near the game creator."
+        },
+        {
+          "internal_id": "SILVERPOWDER",
+          "quantity": "",
+          "name": "Silver Powder",
+          "location_details": "In the small forest, at the end of the North fork."
+        },
+        {
+          "internal_id": "PPMAX",
+          "quantity": "",
+          "name": "PP Max",
+          "location_details": "In the small forest, on the ground by the South fork."
+        },
+        {
+          "internal_id": "machine_BUG",
+          "quantity": "",
+          "name": "TM81 X-Scissor",
+          "location_details": "In the small forest, at the end of the South fork."
+        },
+        {
+          "internal_id": "TWISTEDSPOON",
+          "quantity": "",
+          "name": "Twisted Spoon",
+          "location_details": "On the ground near the Sewers entrance."
+        },
+        {
+          "internal_id": "machine_NORMAL",
+          "quantity": "",
+          "name": "TM90 Substitute",
+          "location_details": "Given by Old Man next to patch of grass."
+        },
+        {
+          "internal_id": "REDFLUTE",
+          "quantity": "",
+          "name": "Red Flute",
+          "location_details": "Given by the flute traveler in the small forest East of the Hotel."
+        },
+        {
+          "internal_id": "SUNSTONE",
+          "quantity": "",
+          "name": "Sun Stone",
+          "location_details": "Given by the Scientist at the hotel."
+        },
+        {
+          "internal_id": "MOONSTONE",
+          "quantity": "",
+          "name": "Moon Stone",
+          "location_details": "Given by the Scientist at the hotel."
+        },
+        {
+          "internal_id": "MEADOWPLATE",
+          "quantity": "",
+          "name": "Meadow Plate",
+          "location_details": "At the end of the north path, after catching [[Legendary_Pokémon#Arceus"
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Celadon Sewers": {
+      "canonical_slug": "Celadon_Sewers",
+      "lead_summary": "Team Rocket have a hideout within Celadon Sewers. After defeating all grunts in the sewer portion, the player will be able to take ladders to access Celadon City without taking the floating planks.",
+      "items": [
+        {
+          "internal_id": "ULTRABALL",
+          "quantity": "",
+          "name": "Ultra Ball",
+          "location_details": "On the lower ground, East of the entrance."
+        },
+        {
+          "internal_id": "SUPERREPEL",
+          "quantity": "",
+          "name": "Super Repel",
+          "location_details": "On the higher ground, pass Team Rocket Virginia."
+        },
+        {
+          "internal_id": "FULLRESTORE",
+          "quantity": "",
+          "name": "Full Restore",
+          "location_details": "On the higher ground, pass Team Rocket Max."
+        },
+        {
+          "internal_id": "machine_POISON",
+          "quantity": "",
+          "name": "TM34 Sludge Wave",
+          "location_details": "On the lower ground, pass the first PC, inside the small black tunnel."
+        },
+        {
+          "internal_id": "BLACKSLUDGE",
+          "quantity": "",
+          "name": "Black Sludge",
+          "location_details": "On the higher ground, pass the second PC, beyond the three wooden plank bridge."
+        },
+        {
+          "internal_id": "PPUP",
+          "quantity": "",
+          "name": "PP Up",
+          "location_details": "On the lower ground, pass Team Rocket Lionel."
+        },
+        {
+          "internal_id": "ANTIDOTE",
+          "quantity": "",
+          "name": "Antidote",
+          "location_details": "On the higher ground, pass Team Rocket Lionel."
+        },
+        {
+          "internal_id": "machine_NORMAL",
+          "quantity": "",
+          "name": "TM68 Giga Impact",
+          "location_details": "On the higher ground, after surfing East to a secondary room."
+        }
+      ],
+      "missable_warnings": []
+    }
+  },
+  "location_items_and_statics": [
+    {
+      "type": "HM Replacement",
+      "name": "Jetpack",
+      "replaces": "Waterfall",
+      "location": "Route 9"
+    },
+    {
+      "type": "Key Item",
+      "name": "Coin Case",
+      "location": "Celadon City Café",
+      "desc": "Holds coins for the Celadon Game Corner prizes."
+    },
+    {
+      "type": "Static Encounter",
+      "pokemon": "Gloom/Ekans",
+      "level": "20",
+      "location": "Celadon City",
+      "notes": "Random trashcan pokemon, only one is possible"
+    }
+  ],
+  "authoring_guidance": {
+    "splicing_safety": "Explicitly state: HEAD species, BODY species, and WHICH ability to select at the DNA Splicer prompt.",
+    "unfuse_safety": "Unfusing at Pokémon Mart costs $300. Check move retention before unfusing.",
+    "gym_duel_rule": "Strict 3v3 party limit! Instruct player to deposit extra party members in the PC before entering gym arena.",
+    "time_of_day": "Provide Day/Night alternative suggestions so players are never blocked by real-time spawn windows.",
+    "stone_evolutions": "Advisory: Do NOT use evolution stones prematurely on stone-evolvers (e.g. Nidorino) before key level-up moves are learned.",
+    "undercover_informant_rocket": "Guide player to join Team Rocket for disguises/missions, BUT report crimes to police officer for +10 Karma and Diancie unlock!"
+  }
+}

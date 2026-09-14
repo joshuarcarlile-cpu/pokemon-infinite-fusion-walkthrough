@@ -1,0 +1,120 @@
+[
+  {
+    "item": "Linking Cord",
+    "description": "Replaces trade evolutions. Used directly from Bag like an evolution stone, or triggers naturally at Level 40.",
+    "locations": [
+      "Any Hotel (Reward for 15 Quests)",
+      "Battle Factory / Battle Tower (10 Tokens)",
+      "Goldenrod Radio Tower (20,000 RP)"
+    ],
+    "evolutions": [
+      {"from": "Kadabra", "to": "Alakazam", "alternate_level": 40},
+      {"from": "Machoke", "to": "Machamp", "alternate_level": 40},
+      {"from": "Graveler", "to": "Golem", "alternate_level": 40},
+      {"from": "Haunter", "to": "Gengar", "alternate_level": 40},
+      {"from": "Phantump", "to": "Trevenant", "alternate_level": 40}
+    ]
+  },
+  {
+    "item": "Metal Coat",
+    "description": "Used directly from Bag to trigger trade evolution, or triggers naturally at Level 40.",
+    "locations": [
+      "Cinnabar Island (Exchange Metal Powder)",
+      "Dark Cave",
+      "Mt. Mortar",
+      "Battle Tower (10 Tokens)"
+    ],
+    "evolutions": [
+      {"from": "Onix", "to": "Steelix", "alternate_level": 40},
+      {"from": "Scyther", "to": "Scizor", "alternate_level": 40}
+    ]
+  },
+  {
+    "item": "King's Rock",
+    "description": "Used directly from Bag to trigger trade evolution, or triggers naturally at Level 37.",
+    "locations": ["Azalea Town", "Battle Tower (10 Tokens)"],
+    "evolutions": [
+      {"from": "Poliwhirl", "to": "Politoed", "alternate_level": 37},
+      {"from": "Slowpoke", "to": "Slowking", "alternate_method": "Water Stone"}
+    ]
+  },
+  {
+    "item": "Dragon Scale",
+    "description": "Used directly from Bag to trigger trade evolution, or triggers naturally at Level 50.",
+    "locations": ["Route 12", "Offshore Road", "Battle Tower (12 Tokens)"],
+    "evolutions": [
+      {"from": "Seadra", "to": "Kingdra", "alternate_level": 50}
+    ]
+  },
+  {
+    "item": "Protector",
+    "description": "Used directly from Bag to trigger trade evolution, or triggers naturally at Level 55.",
+    "locations": ["Cinnabar Island", "Battle Tower"],
+    "evolutions": [
+      {"from": "Rhydon", "to": "Rhyperior", "alternate_level": 55}
+    ]
+  },
+  {
+    "item": "Electirizer & Magmarizer",
+    "description": "Used directly from Bag to trigger trade evolution, or triggers naturally at Level 50.",
+    "locations": ["Power Plant", "Mt. Ember", "Battle Tower"],
+    "evolutions": [
+      {"from": "Electabuzz", "to": "Electivire", "alternate_level": 50},
+      {"from": "Magmar", "to": "Magmortar", "alternate_level": 50}
+    ]
+  },
+  {
+    "item": "Upgrade / Dubious Disc",
+    "description": "Used directly from Bag to evolve Porygon line.",
+    "locations": ["Silph Co.", "Goldenrod City (Bill's house after Gym 8)"],
+    "evolutions": [
+      {"from": "Porygon", "to": "Porygon2", "item": "Upgrade"},
+      {"from": "Porygon2", "to": "Porygon-Z", "item": "Dubious Disc"}
+    ]
+  },
+  {
+    "item": "Magnet Stone",
+    "description": "Replaces special magnetic field evolutions.",
+    "locations": ["Route 10 (requires Surf)"],
+    "evolutions": [
+      {"from": "Magneton", "to": "Magnezone"},
+      {"from": "Nosepass", "to": "Probopass"}
+    ]
+  },
+  {
+    "item": "Mist Stone",
+    "description": "Universal evolution stone; can evolve any Pokémon that requires a stone, trade, or special item.",
+    "locations": ["Vermilion City", "Any Hotel after 30 Quests"]
+  },
+  {
+    "item": "Level-Up Happiness Bypasses",
+    "description": "In Pokémon Infinite Fusion, all happiness evolutions are replaced by static level-up thresholds (friendship is not required).",
+    "evolutions": [
+      {"from": "Pichu", "to": "Pikachu", "level": 15},
+      {"from": "Cleffa", "to": "Clefairy", "level": 15},
+      {"from": "Igglybuff", "to": "Jigglypuff", "level": 15},
+      {"from": "Togepi", "to": "Togetic", "level": 15},
+      {"from": "Budew", "to": "Roselia", "level": 15},
+      {"from": "Azurill", "to": "Marill", "level": 15},
+      {"from": "Buneary", "to": "Lopunny", "level": 25},
+      {"from": "Riolu", "to": "Lucario", "level": 30},
+      {"from": "Munchlax", "to": "Snorlax", "level": 30},
+      {"from": "Golbat", "to": "Crobat", "level": 40},
+      {"from": "Chansey", "to": "Blissey", "level": 42}
+    ]
+  },
+  {
+    "item": "Eeveelution Stones",
+    "description": "All Eeveelutions in Infinite Fusion evolve via stones directly from Bag.",
+    "evolutions": [
+      {"stone": "Water Stone", "to": "Vaporeon", "vendor": "Celadon Dept Store ($5,000)"},
+      {"stone": "Thunder Stone", "to": "Jolteon", "vendor": "Celadon Dept Store ($5,000)"},
+      {"stone": "Fire Stone", "to": "Flareon", "vendor": "Celadon Dept Store ($5,000)"},
+      {"stone": "Sun Stone", "to": "Espeon", "vendor": "Goldenrod Dept Store ($5,000)"},
+      {"stone": "Moon Stone", "to": "Umbreon", "vendor": "Goldenrod Dept Store ($5,000)"},
+      {"stone": "Leaf Stone", "to": "Leafeon", "vendor": "Celadon Dept Store ($5,000)"},
+      {"stone": "Ice Stone", "to": "Glaceon", "vendor": "Celadon Dept Store ($5,000)"},
+      {"stone": "Shiny Stone", "to": "Sylveon", "vendor": "Goldenrod Dept Store ($5,000)"}
+    ]
+  }
+]

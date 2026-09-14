@@ -1,0 +1,153 @@
+{
+  "title": "Ruins_of_Alph",
+  "url": "https://infinitefusion.fandom.com/wiki/Ruins_of_Alph",
+  "lead_summary": "Ruins Of Alph can be accessed from the North by Route 36 and from the East by Route 32, where Chambers A, B and C can be visiting. Chambers D and E are accessed from B1F of Union Cave.\nA puzzle involves the player visiting all five chambers and deciphering the order to press the slabs.",
+  "missable_warnings": [],
+  "items": [
+    {
+      "internal_id": "NUGGET",
+      "quantity": "",
+      "name": "Nugget",
+      "location_details": "Behind smashable rocks near the eastern gate."
+    },
+    {
+      "internal_id": "RAREBONE",
+      "quantity": "",
+      "name": "Rare Bone",
+      "location_details": "Behind smashable rocks in the south."
+    },
+    {
+      "internal_id": "ESCAPEROPE",
+      "quantity": "",
+      "name": "Escape Rope",
+      "location_details": "Behind smashable rocks in the southeast."
+    },
+    {
+      "internal_id": "STARPIECE",
+      "quantity": "",
+      "name": "Star Piece",
+      "location_details": "Hidden by a statue."
+    },
+    {
+      "internal_id": "LIFEORB",
+      "quantity": "",
+      "name": "Life Orb",
+      "location_details": "Hidden by a statue."
+    },
+    {
+      "internal_id": "STARPIECE",
+      "quantity": "",
+      "name": "Star Piece",
+      "location_details": "Hidden by a statue."
+    },
+    {
+      "internal_id": "REVEALGLASS",
+      "quantity": "",
+      "name": "Weather Tracker",
+      "location_details": "Given by the male scientist after scaring Raicune."
+    },
+    {
+      "internal_id": "DREADPLATE",
+      "quantity": "",
+      "name": "Dread Plate",
+      "location_details": "Random chance in Hidden Chamber. Respawns daily."
+    },
+    {
+      "internal_id": "EARTHPLATE",
+      "quantity": "",
+      "name": "Earth Plate",
+      "location_details": "Random chance in Hidden Chamber. Respawns daily."
+    },
+    {
+      "internal_id": "FISTPLATE",
+      "quantity": "",
+      "name": "Fist Plate",
+      "location_details": "Random chance in Hidden Chamber. Respawns daily."
+    },
+    {
+      "internal_id": "ICICLEPLATE",
+      "quantity": "",
+      "name": "Icicle Plate",
+      "location_details": "Random chance in Hidden Chamber. Respawns daily."
+    },
+    {
+      "internal_id": "INSECTPLATE",
+      "quantity": "",
+      "name": "Insect Plate",
+      "location_details": "Random chance in Hidden Chamber. Respawns daily."
+    },
+    {
+      "internal_id": "IRONPLATE",
+      "quantity": "",
+      "name": "Iron Plate",
+      "location_details": "Random chance in Hidden Chamber. Respawns daily."
+    },
+    {
+      "internal_id": "MEADOWPLATE",
+      "quantity": "",
+      "name": "Meadow Plate",
+      "location_details": "Random chance in Hidden Chamber. Respawns daily."
+    },
+    {
+      "internal_id": "MINDPLATE",
+      "quantity": "",
+      "name": "Mind Plate",
+      "location_details": "Random chance in Hidden Chamber. Respawns daily."
+    },
+    {
+      "internal_id": "PIXIEPLATE",
+      "quantity": "",
+      "name": "Pixie Plate",
+      "location_details": "Random chance in Hidden Chamber. Respawns daily."
+    },
+    {
+      "internal_id": "SKYPLATE",
+      "quantity": "",
+      "name": "Sky Plate",
+      "location_details": "Random chance in Hidden Chamber. Respawns daily."
+    },
+    {
+      "internal_id": "SPLASHPLATE",
+      "quantity": "",
+      "name": "Splash Plate",
+      "location_details": "Random chance in Hidden Chamber. Respawns daily."
+    },
+    {
+      "internal_id": "SPOOKYPLATE",
+      "quantity": "",
+      "name": "Spooky Plate",
+      "location_details": "Random chance in Hidden Chamber. Respawns daily."
+    },
+    {
+      "internal_id": "STONEPLATE",
+      "quantity": "",
+      "name": "Stone Plate",
+      "location_details": "Random chance in Hidden Chamber. Respawns daily."
+    },
+    {
+      "internal_id": "TOXICPLATE",
+      "quantity": "",
+      "name": "Toxic Plate",
+      "location_details": "Random chance in Hidden Chamber. Respawns daily."
+    },
+    {
+      "internal_id": "ZAPPLATE",
+      "quantity": "",
+      "name": "Zap Plate",
+      "location_details": "Random chance in Hidden Chamber. Respawns daily."
+    }
+  ],
+  "sections": [
+    "Items",
+    "Outfits",
+    "Pokémon",
+    "Outside",
+    "Basement (after completing puzzle)",
+    "Trainers",
+    "Points of Interest",
+    "Hidden Chamber",
+    "Hidden Power Move Tutor",
+    "Changing Hidden Power Type"
+  ],
+  "raw_wikitext": "{{GlobalToggles}}\n{{InfoboxLocation\n|name=Ruins Of Alph\n|region=Johto\n|location_image=RuinsOfAlph.png\n|map_image=Ruins_Of_Alph_Map.png\n|connection_1_direction=north\n|connection_1_location=Route 36\n|connection_2_direction=east\n|connection_2_location=Route 32\n|connection_3_direction=west\n|connection_3_location=Union Cave\n|connection_3_restrictions=Entry/exit from Union Cave B1F only\n|connection_4_direction=southwest\n|connection_4_location=Union Cave\n|connection_4_restrictions=%surf%\n}}\n'''Ruins Of Alph''' can be accessed from the North by [[Route 36]] and from the East by [[Route 32]], where Chambers A, B and C can be visiting. Chambers D and E are accessed from B1F of [[Union Cave]].\n\nA puzzle involves the player visiting all five chambers and deciphering the order to press the slabs.\n\n==Items==\n{{ItemTable/Header}}\n{{ItemTable/Data|NUGGET||Nugget|Behind smashable rocks near the eastern gate.|}}\n{{ItemTable/Data|RAREBONE||Rare Bone|Behind smashable rocks in the south.|}}\n{{ItemTable/Data|ESCAPEROPE||Escape Rope|Behind smashable rocks in the southeast.|}}\n{{ItemTable/Data|STARPIECE||Star Piece|Hidden by a statue.|StarPiece1_RuinsOfAlph.png}}\n{{ItemTable/Data|LIFEORB||Life Orb|Hidden by a statue.|LifeOrb_RuinsOfAlph.png}}\n{{ItemTable/Data|STARPIECE||Star Piece|Hidden by a statue.|StarPiece2_RuinsOfAlph.png}}\n{{ItemTable/Data|REVEALGLASS||Weather Tracker|Given by the male scientist after scaring Raicune.|Tracker_RuinsOfAlph.png}}\n{{ItemTable/Section|Hidden Chamber}}\n{{ItemTable/Data|DREADPLATE||Dread Plate|Random chance in Hidden Chamber. Respawns daily.|RuinsOfAlph_HiddenChamber_DreadPlate.png}}\n{{ItemTable/Data|EARTHPLATE||Earth Plate|Random chance in Hidden Chamber. Respawns daily.|RuinsOfAlph_HiddenChamber_EarthPlate.png}}\n{{ItemTable/Data|FISTPLATE||Fist Plate|Random chance in Hidden Chamber. Respawns daily.|RuinsOfAlph_HiddenChamber_FistPlate.png}}\n{{ItemTable/Data|ICICLEPLATE||Icicle Plate|Random chance in Hidden Chamber. Respawns daily.|RuinsOfAlph_HiddenChamber_IciclePlate.png}}\n{{ItemTable/Data|INSECTPLATE||Insect Plate|Random chance in Hidden Chamber. Respawns daily.|RuinsOfAlph_HiddenChamber_InsectPlate.png}}\n{{ItemTable/Data|IRONPLATE||Iron Plate|Random chance in Hidden Chamber. Respawns daily.|RuinsOfAlph_HiddenChamber_IronPlate.png}}\n{{ItemTable/Data|MEADOWPLATE||Meadow Plate|Random chance in Hidden Chamber. Respawns daily.|RuinsOfAlph_HiddenChamber_MeadowPlate.png}}\n{{ItemTable/Data|MINDPLATE||Mind Plate|Random chance in Hidden Chamber. Respawns daily.|RuinsOfAlph_HiddenChamber_MindPlate.png}}\n{{ItemTable/Data|PIXIEPLATE||Pixie Plate|Random chance in Hidden Chamber. Respawns daily.|RuinsOfAlph_HiddenChamber_PixiePlate.png}}\n{{ItemTable/Data|SKYPLATE||Sky Plate|Random chance in Hidden Chamber. Respawns daily.|RuinsOfAlph_HiddenChamber_SkyPlate.png}}\n{{ItemTable/Data|SPLASHPLATE||Splash Plate|Random chance in Hidden Chamber. Respawns daily.|RuinsOfAlph_HiddenChamber_SplashPlate.png}}\n{{ItemTable/Data|SPOOKYPLATE||Spooky Plate|Random chance in Hidden Chamber. Respawns daily.|RuinsOfAlph_HiddenChamber_SpookyPlate.png}}\n{{ItemTable/Data|STONEPLATE||Stone Plate|Random chance in Hidden Chamber. Respawns daily.|RuinsOfAlph_HiddenChamber_StonePlate.png}}\n{{ItemTable/Data|TOXICPLATE||Toxic Plate|Random chance in Hidden Chamber. Respawns daily.|RuinsOfAlph_HiddenChamber_ToxicPlate.png}}\n{{ItemTable/Data|ZAPPLATE||Zap Plate|Random chance in Hidden Chamber. Respawns daily.|RuinsOfAlph_HiddenChamber_ZapPlate.png}}\n{{ItemTable/RockSmash}}\n{{ItemTable/Footer}}\n\n==Outfits==\n{{ItemTable/Header|Outfit}}\n{{ItemTable/Data/Outfit|clothes|sada||Defeat Super Nerd Miguel.}}\n{{ItemTable/Data/Outfit|clothes|sado||Defeat Super Nerd Miguel.}}\n{{ItemTable/Footer/Outfit}}\n\n==Pokémon==\n===Outside===\n<!-------------------------------------------!>\n<!-- CLASSIC & EXPERT MODE POKÉMON OUTSIDE --!>\n<!-------------------------------------------->\n<div class=\"classic-mode expert-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|177|Natu|Psychic|Flying|28-44|190|90%}}\n{{EncounterTable/Data|235|Smeargle|Normal||40-42|45|10%}}\n{{EncounterTable/Section|Surf}}\n{{EncounterTable/Data|194|Wooper|Water|Ground|20-30|255|60%}}\n{{EncounterTable/Data|195|Quagsire|Water|Ground|25-40|90|40%}}\n{{EncounterTable/Section|Old Rod}}\n{{EncounterTable/Data|060|Poliwag|Water||5|255|20%}}\n{{EncounterTable/Data|129|Magikarp|Water||5|255|80%}}\n{{EncounterTable/Section|Good Rod}}\n{{EncounterTable/Data|098|Krabby|Water||5-15|225|30%}}\n{{EncounterTable/Data|116|Horsea|Water||5-15|225|30%}}\n{{EncounterTable/Data|120|Staryu|Water||5-15|225|20%}}\n{{EncounterTable/Data|129|Magikarp|Water||5-15|255|20%}}\n{{EncounterTable/Section|Super Rod}}\n{{EncounterTable/Data|054|Psyduck|Water||25-35|190|2%}}\n{{EncounterTable/Data|079|Slowpoke|Water|Psychic|25-35|190|2%}}\n{{EncounterTable/Data|090|Shellder|Water||15-25|190|20%}}\n{{EncounterTable/Data|098|Krabby|Water||15-35|225|20%}}\n{{EncounterTable/Data|116|Horsea|Water||15-35|225|20%}}\n{{EncounterTable/Data|120|Staryu|Water||15-25|225|20%}}\n{{EncounterTable/Data|130|Gyarados|Water|Flying|15-25|45|16%}}\n{{EncounterTable/RockSmash}}\n{{EncounterTable/Section|Poké Radar}}\n{{EncounterTable/Data|416|Golett|Ground|Ghost|40-45|190|50% <small>([[Poké Radar#How_it_works|long rustle]])</small>}}\n{{EncounterTable/Footer}}\n</div>\n<!--------------------------------!>\n<!-- REMIX MODE POKÉMON OUTSIDE --!>\n<!--------------------------------->\n<div class=\"remix-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|177|Natu|Psychic|Flying|28-44|190|90%}}\n{{EncounterTable/Data|235|Smeargle|Normal||40-42|45|10%}}\n{{EncounterTable/Section|Surf}}\n{{EncounterTable/Data|054|Psyduck|Water||25-35|190|10%}}\n{{EncounterTable/Data|079|Slowpoke|Water|Psychic|25-35|190|10%}}\n{{EncounterTable/Data|118|Goldeen|Water||25-35|225|20%}}\n{{EncounterTable/Data|183|Marill|Water|Fairy|25-30|190|15%}}\n{{EncounterTable/Data|195|Quagsire|Water|Ground|35|90|5%}}\n{{EncounterTable/Data|394|Feebas|Water||15-25|255|10%}}\n{{EncounterTable/Data|501|Luvdisc|Water||25-30|225|30%}}\n{{EncounterTable/Section|Old Rod}}\n{{EncounterTable/Data|060|Poliwag|Water||5|255|20%}}\n{{EncounterTable/Data|434|Trubbish|Poison||5|190|1%}}\n{{EncounterTable/Data|436|Carvanha|Water|Dark|5|225|40%}}\n{{EncounterTable/Data|501|Luvdisc|Water||5|225|39%}}\n{{EncounterTable/Section|Good Rod}}\n{{EncounterTable/Data|183|Marill|Water|Fairy|5-15|190|40%}}\n{{EncounterTable/Data|394|Feebas|Water||5-15|255|20%}}\n{{EncounterTable/Data|453|Dhelmise|Ghost|Grass|5-15|25|40%}}\n{{EncounterTable/Section|Super Rod}}\n{{EncounterTable/Data|118|Goldeen|Water||35-40|225|30%}}\n{{EncounterTable/Data|119|Seaking|Water||35-40|60|10%}}\n{{EncounterTable/Data|183|Marill|Water|Fairy|35-40|190|20%}}\n{{EncounterTable/Data|184|Azumarill|Water|Fairy|35-40|75|10%}}\n{{EncounterTable/Data|195|Quagsire|Water|Ground|35-40|90|10%}}\n{{EncounterTable/Data|453|Dhelmise|Ghost|Grass|35-40|25|20%}}\n{{EncounterTable/RockSmash}}\n{{EncounterTable/Section|Poké Radar}}\n{{EncounterTable/Data|416|Golett|Ground|Ghost|40-45|190|50% <small>([[Poké Radar#How_it_works|long rustle]])</small>}}\n{{EncounterTable/Footer}}\n</div>\n\n===Basement (after completing puzzle)===\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Cave}}\n{{EncounterTable/Data|201|Unown|Psychic||25-30|225|100%}}\n{{EncounterTable/Footer}}\n\n==Trainers==\n{{Trainer\n| trainerClass=SUPERNERD\n| name=Miguel\n| trainerOverworldSprite=fossil_nerd.png\n| pokemon1=141.139\n| pokemon1Level=51\n| pokemon2=304.302\n| pokemon2Level=53\n| pokemon3=306.308\n| pokemon3Level=53\n| pokemon4=462.426\n| pokemon4Level=53\n| pokemon5=142.142\n| pokemon5Level=55\n| remixPokemon1=333.304\n| remixPokemon1Level=53\n| remixPokemon2=302.51\n| remixPokemon2Level=53\n| remixPokemon3=82.141\n| remixPokemon3Level=53\n| remixPokemon3Item=EVIOLITE\n| remixPokemon4=139.154\n| remixPokemon4Level=53\n| remixPokemon5=462.306\n| remixPokemon5Level=55\n| remixPokemon6=308.426\n| remixPokemon6Level=55\n}}\n\n==Points of Interest==\n===Hidden Chamber===\nAfter completing the [[Ruins of Alph Puzzle]], the player will be able to access the Hidden Chamber in the basement.\n\n====Hidden Power Move Tutor====\nBy interacting with the stone table on the left side of the chamber, the player can teach [[bulbapedia:Hidden Power (move)|Hidden Power]] to their Pokémon.\n\n====Changing Hidden Power Type====\nBy placing one of [[Arceus Plates Locations|Arceus's elemental plates]] into the basket on the right, the player can change the [[bulbapedia:type|type]] of one of their Pokémon's Hidden Power move.\n\n[[Category:Locations]]\n[[Category:Johto]]"
+}

@@ -1,0 +1,81 @@
+{
+  "name": "Cerulean Cave Depths & Mewtwo",
+  "summary": "Travel to Cerulean City and surf north along the river to reach the once-guarded entrance of Cerulean Cave. Inside, the dark subterranean labyrinth features the highest-level wild Pokémon in Kanto, including wild Ditto, Chansey, Rhydon, Raichu, and Electrode. Navigate the winding rock terraces and surf across the lower subterranean canals down to the B1F basement. Standing on the solitary crystalline island at the bottom of the cavern is the ultimate genetic lifeform, Mewtwo (Lv. 70). Command a tactical battle to subdue its staggering 154 Special Attack and capture it using sleep status or Lady Selphy's Master Ball.",
+  "items": [
+    {
+      "name": "Berserk Gene",
+      "method": "Hidden in the water near Mewtwo's crystalline platform in B1F",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Max Elixir",
+      "method": "Found in a dead-end rocky crevice on the upper 2F terraces",
+      "type": "Consumable"
+    },
+    {
+      "name": "Ultra Ball",
+      "method": "Located on an elevated ledge in 1F",
+      "type": "Poké Ball"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Cave Specialist Vance",
+      "title": "Super Nerd",
+      "reward": "P2,880",
+      "pokemon": [
+        {
+          "species": "Alakazam/Electrode",
+          "level": 68,
+          "types": ["Psychic", "Electric"]
+        },
+        {
+          "species": "Rhydon/Muk",
+          "level": 69,
+          "types": ["Ground", "Poison"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Cave": [
+      {
+        "species": "Ditto",
+        "levels": "50-55",
+        "rate": "15%"
+      },
+      {
+        "species": "Chansey",
+        "levels": "52-56",
+        "rate": "10%"
+      },
+      {
+        "species": "Rhydon",
+        "levels": "54-58",
+        "rate": "20%"
+      },
+      {
+        "species": "Raichu",
+        "levels": "53-56",
+        "rate": "15%"
+      },
+      {
+        "species": "Golbat",
+        "levels": "50-55",
+        "rate": "20%"
+      },
+      {
+        "species": "Kadabra",
+        "levels": "52-55",
+        "rate": "20%"
+      }
+    ],
+    "Special": [
+      {
+        "species": "Mewtwo",
+        "levels": "70",
+        "rate": "Static Legendary Boss"
+      }
+    ]
+  }
+}

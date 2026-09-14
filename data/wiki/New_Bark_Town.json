@@ -1,0 +1,21 @@
+{
+  "title": "New_Bark_Town",
+  "url": "https://infinitefusion.fandom.com/wiki/New_Bark_Town",
+  "lead_summary": "New Bark Town is a small town that can be entered from Route 29 by the West and from Route 27 by the East.\nProf. Elm's lab is located in New Bark Town, and will give Chikorita, Cyndquil or Totodile to the player's choice.",
+  "missable_warnings": [],
+  "items": [
+    {
+      "internal_id": "machine_hm_WATER",
+      "quantity": "",
+      "name": "HM05 Waterfall",
+      "location_details": "Given by Prof. Elm after obtaining at least two Johto's badges."
+    }
+  ],
+  "sections": [
+    "Pokémon",
+    "Items",
+    "Places of Interest",
+    "Blackjack Dealer"
+  ],
+  "raw_wikitext": "{{InfoboxLocation\n|region=Johto\n|location_image=NewBarkTown.png\n|map_image=New_Bark_Town_Map.png\n|connection_1_direction=west\n|connection_1_location=Route 29\n|connection_2_direction=east\n|connection_2_location=Route 27\n|connection_2_restrictions=%surf%\n}}\n'''New Bark Town''' is a small town that can be entered from [[Route 29]] by the West and from [[Route 27]] by the East.\n\nProf. Elm's lab is located in New Bark Town, and will give Chikorita, Cyndquil or Totodile to the player's choice.\n\n== Pokémon ==\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Gift (w/ 10+ Gym Badges)}}\n{{EncounterTable/Data|152|Chikorita|Grass||5|Choice|One}}\n{{EncounterTable/Data|155|Cyndaquil|Fire||5|Choice|One}}\n{{EncounterTable/Data|158|Totodile|Water||5|Choice|One}}\n{{EncounterTable/Section|Trade (after getting Hoenn starter from Prof. Oak)}}\n{{EncounterTable/Data|276|Treecko|Grass||Same as Traded|Chikorita|Mudkip chosen from Oak}}\n{{EncounterTable/Data|279|Torchic|Fire||Same as Traded|Cyndaquil|Treecko chosen from Oak}}\n{{EncounterTable/Data|282|Mudkip|Water||Same as Traded|Totodile|Torchic chosen from Oak}}\n{{EncounterTable/Footer/Time}}\n\n==Items==\n{{ItemTable/Header}}\n{{ItemTable/Data|machine_hm_WATER||HM05 Waterfall|Given by Prof. Elm after obtaining at least two Johto's badges.|HM05_NewBarkTown.png}}\n{{ItemTable/Footer}}\n\n== Places of Interest ==\n\n=== Blackjack Dealer ===\nIn the bottom left house is Gambler Dirk who will play blackjack with the player with a bet of ₽1,000. If the player wins 5 times then the game chances to high stakes betting, where the player can choose an amount to bet, but the amount paid is multiplied by the difference in card value at the end of the game.\n\n[[Category:Locations]]\n[[Category:Towns]]\n[[Category:Johto]]"
+}

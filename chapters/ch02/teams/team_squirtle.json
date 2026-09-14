@@ -1,0 +1,117 @@
+{
+  "starter": "Squirtle",
+  "name": "Team Squirtle: Bulky Balance & Electric/Grass Counters",
+  "archetype": "High physical defense, Water/Grass Regenerator pivots, and Electric/Psychic speed sweepers.",
+  "gym_duel_core": [1, 2],
+  "gym_duel_rationale": "Misty enforces a strict 2v2 duel. Enter the arena with Wartortle/Tangela (monstrous 103 Defense Water/Grass pivot taking 0.25x resistance from Water moves while draining health with Mega Drain) and Kadabra/Pikachu (Base 95 Speed special sweeper with super-effective Electro Ball and 100% Thunder Wave paralysis).",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Wartortle/Tangela",
+      "types": ["Water", "Grass"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 24,
+      "ability": "Torrent",
+      "held_item": "Miracle Seed",
+      "role": "Premier Defensive Wall & Gym Duelist",
+      "current_reached_moveset": [
+        "Mega Drain",
+        "Water Gun",
+        "Sleep Powder",
+        "Protect"
+      ],
+      "progression_notes": "Fusing Wartortle (evolved Lv. 16) with Route 1 Tangela yields a towering 103 Base Defense and 76 Special Attack. Completely walls Misty's Water Pulse with 4x quad-resistance."
+    },
+    {
+      "slot": 2,
+      "species": "Kadabra/Pikachu",
+      "types": ["Psychic", "Electric"],
+      "status": "Active in Party (Route 24 & Viridian Splice)",
+      "current_level": 24,
+      "ability": "Static",
+      "held_item": "Magnet",
+      "role": "Fast Special Sweeper & Gym Duelist",
+      "current_reached_moveset": [
+        "Psybeam",
+        "Electro Ball",
+        "Thunder Wave",
+        "Confusion"
+      ],
+      "progression_notes": "Fusing Kadabra with Viridian Forest Pikachu produces 95 Base Speed and 96 Special Attack. Super-effective Electro Ball shreds Misty's Water Pokémon."
+    },
+    {
+      "slot": 3,
+      "species": "Mankey/Spearow",
+      "types": ["Fighting", "Flying"],
+      "status": "Active in Party (Retained from Ch 1)",
+      "current_level": 23,
+      "ability": "Defiant",
+      "held_item": "Silk Scarf",
+      "role": "High-Speed Physical Breaker",
+      "current_reached_moveset": [
+        "Low Kick",
+        "Karate Chop",
+        "Aerial Ace",
+        "Fury Attack"
+      ],
+      "progression_notes": "Defiant physical attacker for general route progression, caves, and rival clearing."
+    },
+    {
+      "slot": 4,
+      "species": "Butterfree/Beedrill",
+      "types": ["Bug", "Poison"],
+      "status": "Active in Party (Retained from Ch 1)",
+      "current_level": 22,
+      "ability": "Compound Eyes",
+      "held_item": "Pecha Berry",
+      "role": "Status Inducer & Wild Encounter Controller",
+      "current_reached_moveset": [
+        "Confusion",
+        "Sleep Powder",
+        "Twineedle",
+        "Fury Attack"
+      ],
+      "progression_notes": "Compound Eyes Sleep Powder guarantees easy wild catches when hunting rare spawns."
+    }
+  ],
+  "flex_bench": [
+    {
+      "slot": "B1",
+      "species": "Geodude/Poliwag",
+      "types": ["Rock", "Water"],
+      "current_level": 22,
+      "ability": "Water Absorb",
+      "held_item": "Hard Stone",
+      "role": "Water-Absorbing Physical Rock Wall",
+      "why_use": "Mt. Moon Geodude spliced with Poliwag gains Water Absorb, removing Water weakness while maintaining high physical defense."
+    },
+    {
+      "slot": "B2",
+      "species": "Clefairy/Zubat",
+      "types": ["Fairy", "Flying"],
+      "current_level": 22,
+      "ability": "Magic Guard",
+      "held_item": "Silk Scarf",
+      "role": "Magic Guard Status Pivot",
+      "why_use": "Mt. Moon Clefairy with Magic Guard ignores entry hazard damage, poison ticks, and weather chip."
+    }
+  ],
+  "fusion_lifecycle": {
+    "active_fusions": [
+      "Wartortle/Tangela (Water/Grass starter wall quad-resisting Water with Mega Drain)",
+      "Kadabra/Pikachu (95 Spe Psychic/Electric special sweeper with Electro Ball)",
+      "Mankey/Spearow (Fighting/Flying physical cleaner with Low Kick)",
+      "Butterfree/Beedrill (Bug/Poison wild capture utility with 97.5% Sleep Powder)"
+    ],
+    "unfuse_recommendations": [
+      "1. Purchase Super Splicers at Cerulean Poké Mart ($300 at any Mart).",
+      "2. Evolve Squirtle to Wartortle (Lv. 16) and splice with Route 1 Tangela for 103 Base Defense and 4x Water resistance.",
+      "3. Splice Route 24 Kadabra with Viridian Forest Pikachu for high-speed Electric coverage.",
+      "4. Retain Butterfree/Beedrill from Chapter 1 for easy wild catches on Routes 4, 24, and 25."
+    ],
+    "upcoming_fusions": [
+      "Wartortle/Geodude (Chapter 3 Vermilion City starter splice for 100% Electric immunity against Surge)",
+      "Poliwhirl/Sandslash (Dual ground/water tank in Chapter 3)"
+    ]
+  }
+}

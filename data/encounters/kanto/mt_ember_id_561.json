@@ -1,0 +1,87 @@
+{
+  "location": "Mt. Ember (ID 561)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "067",
+        "name": "Machoke",
+        "type1": "Fighting",
+        "type2": "",
+        "levels": "35-40",
+        "catch_rate": "90",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "075",
+        "name": "Graveler",
+        "type1": "Rock",
+        "type2": "Ground",
+        "levels": "33-37",
+        "catch_rate": "120",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "077",
+        "name": "Ponyta",
+        "type1": "Fire",
+        "type2": "",
+        "levels": "39-42",
+        "catch_rate": "190",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "dex_id": "126",
+        "name": "Magmar",
+        "type1": "Fire",
+        "type2": "",
+        "levels": "45",
+        "catch_rate": "45",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "325",
+        "name": "Nosepass",
+        "type1": "Rock",
+        "type2": "",
+        "levels": "30-35",
+        "catch_rate": "255",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "442",
+        "name": "Swablu",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "30-33",
+        "catch_rate": "255",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Pok\u00e9 Radar": [
+      {
+        "dex_id": "418",
+        "name": "Fletchinder",
+        "type1": "Fire",
+        "type2": "Flying",
+        "levels": "32-45",
+        "catch_rate": "120",
+        "rates": [
+          "50% <small>([[Pok\u00e9 Radar#How_it_works",
+          "long rustle]])</small>"
+        ]
+      }
+    ]
+  }
+}

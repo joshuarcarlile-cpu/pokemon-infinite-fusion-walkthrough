@@ -1,0 +1,128 @@
+{
+  "location": "Cerulean Cave WTF (ID 544)",
+  "sections": {
+    "Cave": [
+      {
+        "dex_id": "026",
+        "name": "Raichu",
+        "type1": "Electric",
+        "type2": "",
+        "levels": "84",
+        "catch_rate": "75",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "036",
+        "name": "Clefable",
+        "type1": "Fairy",
+        "type2": "",
+        "levels": "84",
+        "catch_rate": "25",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "042",
+        "name": "Golbat",
+        "type1": "Poison",
+        "type2": "Flying",
+        "levels": "74-79",
+        "catch_rate": "90",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "075",
+        "name": "Graveler",
+        "type1": "Rock",
+        "type2": "Ground",
+        "levels": "75",
+        "catch_rate": "120",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "101",
+        "name": "Electrode",
+        "type1": "Electric",
+        "type2": "",
+        "levels": "75",
+        "catch_rate": "60",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "105",
+        "name": "Marowak",
+        "type1": "Ground",
+        "type2": "",
+        "levels": "75",
+        "catch_rate": "75",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "108",
+        "name": "Lickitung",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "70-75",
+        "catch_rate": "45",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "111",
+        "name": "Rhyhorn",
+        "type1": "Ground",
+        "type2": "Rock",
+        "levels": "72",
+        "catch_rate": "120",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "112",
+        "name": "Rhydon",
+        "type1": "Ground",
+        "type2": "Rock",
+        "levels": "82",
+        "catch_rate": "60",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "113",
+        "name": "Chansey",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "76",
+        "catch_rate": "30",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "132",
+        "name": "Ditto",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "80-85",
+        "catch_rate": "35",
+        "rates": [
+          "15%"
+        ]
+      }
+    ]
+  }
+}

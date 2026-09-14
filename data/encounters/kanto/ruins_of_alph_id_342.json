@@ -1,0 +1,216 @@
+{
+  "location": "Ruins of Alph (ID 342)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "177",
+        "name": "Natu",
+        "type1": "Psychic",
+        "type2": "Flying",
+        "levels": "28-44",
+        "catch_rate": "190",
+        "rates": [
+          "90%"
+        ]
+      },
+      {
+        "dex_id": "235",
+        "name": "Smeargle",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "40-42",
+        "catch_rate": "45",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "dex_id": "194",
+        "name": "Wooper",
+        "type1": "Water",
+        "type2": "Ground",
+        "levels": "20-30",
+        "catch_rate": "255",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "dex_id": "195",
+        "name": "Quagsire",
+        "type1": "Water",
+        "type2": "Ground",
+        "levels": "25-40",
+        "catch_rate": "90",
+        "rates": [
+          "40%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "dex_id": "060",
+        "name": "Poliwag",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5",
+        "catch_rate": "255",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5",
+        "catch_rate": "255",
+        "rates": [
+          "80%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "dex_id": "098",
+        "name": "Krabby",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-15",
+        "catch_rate": "225",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "116",
+        "name": "Horsea",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-15",
+        "catch_rate": "225",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "120",
+        "name": "Staryu",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-15",
+        "catch_rate": "225",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-15",
+        "catch_rate": "255",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "dex_id": "054",
+        "name": "Psyduck",
+        "type1": "Water",
+        "type2": "",
+        "levels": "25-35",
+        "catch_rate": "190",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "dex_id": "079",
+        "name": "Slowpoke",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "25-35",
+        "catch_rate": "190",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "dex_id": "090",
+        "name": "Shellder",
+        "type1": "Water",
+        "type2": "",
+        "levels": "15-25",
+        "catch_rate": "190",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "098",
+        "name": "Krabby",
+        "type1": "Water",
+        "type2": "",
+        "levels": "15-35",
+        "catch_rate": "225",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "116",
+        "name": "Horsea",
+        "type1": "Water",
+        "type2": "",
+        "levels": "15-35",
+        "catch_rate": "225",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "120",
+        "name": "Staryu",
+        "type1": "Water",
+        "type2": "",
+        "levels": "15-25",
+        "catch_rate": "225",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "130",
+        "name": "Gyarados",
+        "type1": "Water",
+        "type2": "Flying",
+        "levels": "15-25",
+        "catch_rate": "45",
+        "rates": [
+          "16%"
+        ]
+      }
+    ],
+    "Pok\u00e9 Radar": [
+      {
+        "dex_id": "416",
+        "name": "Golett",
+        "type1": "Ground",
+        "type2": "Ghost",
+        "levels": "40-45",
+        "catch_rate": "190",
+        "rates": [
+          "50% <small>([[Pok\u00e9 Radar#How_it_works",
+          "long rustle]])</small>"
+        ]
+      }
+    ]
+  }
+}

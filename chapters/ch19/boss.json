@@ -1,0 +1,64 @@
+{
+  "leader": "Chuck",
+  "title": "The Roaring Fist of Cianwood",
+  "gym": "Boon Island Waterfall",
+  "badge": "Storm Badge",
+  "level_cap": 72,
+  "hard_mode_level_cap": 72,
+  "recommended_party_level": 71,
+  "gym_duel_limit": 5,
+  "party_selection_rule": "5 vs 5 Party Selection (select 5 Pokémon from active party at battle start)",
+  "overview": "Cianwood Gym Leader Chuck trains under the roaring waterfall north of Boon Island. Chuck commands heavyweight Fighting hybrids with high physical power and elemental coverage. Kabutops/Machamp leads with 125 Attack, but suffers 2x weaknesses to Grass, Psychic, Ground, and Fairy. Blaziken/Wailord pairs 110 HP with Close Combat and Blaze Kick, weak to Electric, Ground, and Rock. Poliwrath/Primeape wields Belly Drum and Close Combat, crippled by Flying, Psychic, and Fairy. Lucario/Flygon is a speedy special sweeper with Wise Glasses, carrying a fatal 4x Fairy weakness alongside Flying and Psychic. Hitmonchan/Snorlax stacks 110 Sp. Def and Leftovers with Counter, but folds to sustained Flying and Psychic attacks. Victory awards the Storm Badge, Eyebrows & Stache hat, and the Navel Ticket to Navel Rock.",
+  "roster": [
+    {
+      "species": "Kabutops/Machamp",
+      "level": 62,
+      "types": ["Rock", "Fighting"],
+      "ability": "Battle Armor",
+      "item": "Muscle Band",
+      "moves": ["Dynamic Punch", "Waterfall", "Stone Edge", "Slash"],
+      "tactics": "Physical lead with 125 base Attack. Dynamic Punch hits hard but has 50% accuracy. Battle Armor blocks criticals. Exploit extensive weaknesses to Grass, Psychic, Ground, and Fairy."
+    },
+    {
+      "species": "Blaziken/Wailord",
+      "level": 62,
+      "types": ["Fire", "Water"],
+      "ability": "Blaze",
+      "item": "Expert Belt",
+      "moves": ["Close Combat", "Blaze Kick", "Brave Bird", "Taunt"],
+      "tactics": "Fire/Water tank with 110 HP. Uses Taunt to shut down recovery and strikes with recoil moves. Punish its low 53 Defense with Electric, Ground, or Rock attacks."
+    },
+    {
+      "species": "Poliwrath/Primeape",
+      "level": 64,
+      "types": ["Water", "Fighting"],
+      "ability": "Damp",
+      "item": "Expert Belt",
+      "moves": ["Circle Throw", "Belly Drum", "Close Combat", "Thrash"],
+      "tactics": "Dangerous setup threat with Belly Drum. Damp stops self-destructs. Blast it with Flying, Psychic, Electric, or Fairy attacks before it sets up."
+    },
+    {
+      "species": "Lucario/Flygon",
+      "level": 63,
+      "types": ["Fighting", "Dragon"],
+      "ability": "Steadfast",
+      "item": "Wise Glasses",
+      "moves": ["Aura Sphere", "Dragon Pulse", "Detect", "Earth Power"],
+      "tactics": "Fast 96 Speed mixed sweeper with Wise Glasses. Carries a fatal 4x Fairy weakness; Fairy moves OHKO instantly. Flying, Psychic, and Ice also hit hard."
+    },
+    {
+      "species": "Hitmonchan/Snorlax",
+      "level": 64,
+      "types": ["Fighting", "Normal"],
+      "ability": "Iron Fist",
+      "item": "Leftovers",
+      "moves": ["Rest", "Dizzy Punch", "Sky Uppercut", "Counter"],
+      "tactics": "Massive 110 Sp. Def anchor with Leftovers. Beware physical Counter. Target its lower 69 physical Defense with Flying, Psychic, or Fighting STAB while avoiding Counter."
+    }
+  ],
+  "starter_strategies": {
+    "bulbasaur": "Venusaur/Charizard (Lv. 72) leads with Sleep Powder to disable threats and fires STAB Petal Dance at Kabutops/Machamp. Alakazam/Weezing (Lv. 71) is immune to Earth Power via Levitate; its 118 SpA STAB Psychic shreds the Fighting roster for clean OHKOs. Gyarados/Arbok (Lv. 71) blunts physical strikes with Intimidate and lands 100% accurate Glare paralysis. Lapras (Lv. 71) provides Water Absorb and Ice Beam, while Kingler/Primeape (Lv. 71) breaks Hitmonchan/Snorlax with Close Combat.",
+    "charmander": "Alakazam/Raichu (Lv. 71) sweeps: 120 SpA STAB Psychic deletes Kabutops/Machamp, Poliwrath/Primeape, and Hitmonchan/Snorlax, while Thunderbolt fries Blaziken/Wailord. Charizard/Venusaur (Lv. 72) sleeps dangerous setup sweepers and attacks with Air Slash and Petal Dance. Gyarados/Nidoking (Lv. 71) cuts Chuck's Attack with Intimidate. Lapras (Lv. 71) walls Water with Water Absorb, while Primeape/Sandslash (Lv. 71) wallbreaks with Close Combat and Earthquake.",
+    "squirtle": "Blastoise/Fearow (Lv. 72) hard-counters Chuck: its Flying type resists Fighting while STAB Drill Peck carves through the team and Hydro Pump douses Blaziken/Wailord. Jolteon/Sandslash (Lv. 71) zaps Wailord and Poliwrath with Discharge and hits Kabutops with Earthquake. Alakazam/Weezing (Lv. 71) floats over Ground with Levitate and sweeps with STAB Psychic. Arbok/Primeape (Lv. 71) applies Intimidate and Glare paralysis."
+  }
+}

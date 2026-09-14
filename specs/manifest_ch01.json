@@ -1,0 +1,1476 @@
+{
+  "chapter_id": "ch01",
+  "title": "Act 1 - Segment 1: The Journey Begins to Boulder Badge",
+  "act": 1,
+  "hard_mode_level_cap": 14,
+  "gym_duel_limit": 2,
+  "routes_covered": [
+    "Pallet Town",
+    "Route 1",
+    "Viridian City",
+    "Route 22",
+    "Secret Garden",
+    "Route 2 (South)",
+    "Viridian Forest",
+    "Pewter City"
+  ],
+  "vanilla_divergence_alerts": [
+    "HM Slaves: 100% eliminated by 9 reusable Key Item tools. Do NOT instruct players to teach field moves to party members.",
+    "Friendship: Eliminated. All friendship evolutions use static level thresholds (e.g. Baby Pokémon evolve at Lv. 15).",
+    "Trade Evolutions: Evolve naturally at Level 40 OR via Linking Cord (not Level 37)."
+  ],
+  "critical_missables": [
+    {
+      "quest_id": "q_secret_garden_access",
+      "title": "Secret Garden Discovery",
+      "deadline": "Before defeating Brock (Gym 1)",
+      "consequence": "CRITICAL: If Brock is defeated before battling Blue on Route 22, Blue vacates Route 22 and the Secret Garden is permanently lost for the entire save!"
+    },
+    {
+      "quest_id": "q_rocket_celadon_03",
+      "title": "Pokémon Collector",
+      "deadline": "Before Gym 8 / Mt. Ember Archer",
+      "consequence": "UNDERCOVER INFORMANT PATH: Report the illegal trafficker to the Celadon police officer to gain +10 Karma."
+    }
+  ],
+  "hotel_milestone_target": {
+    "target_count": 3,
+    "recommended_quests": [
+      "Mushroom Gathering",
+      "Lost Medicine",
+      "Bug Evolution"
+    ]
+  },
+  "active_and_ongoing_quests": [
+    {
+      "id": "q_secret_garden_access",
+      "title": "Secret Garden Discovery",
+      "type": "Hidden Event",
+      "region": "Kanto",
+      "location": "Route 22 -> Route 1 Eastern Trees",
+      "chapter_introduced": "ch01",
+      "chapter_resolvable": "ch01",
+      "is_missable": true,
+      "missable_deadline": "Before defeating Brock (Gym 1)",
+      "karma_delta": 0,
+      "police_reportable": false,
+      "rewards": [
+        "Access to Secret Garden",
+        "Potion (x6)",
+        "Max Revive",
+        "Revive (x4)",
+        "Super Potion",
+        "Wild Eevee & Ditto Spawns"
+      ],
+      "objectives": [
+        "Defeat Rival Blue on Route 22 immediately after returning Oak's Parcel.",
+        "Walk through the tree gap on the eastern edge of Route 1 directly below the Viridian City ledge.",
+        "CRITICAL: If Brock is defeated before battling Blue on Route 22, Blue vacates Route 22 and the Secret Garden is permanently lost for the entire save!"
+      ]
+    },
+    {
+      "id": "q_secret_garden_egg",
+      "title": "Secret Garden Rockruff Nest",
+      "type": "Hidden Event",
+      "region": "Kanto",
+      "location": "Secret Garden (Center Nest)",
+      "chapter_introduced": "ch01",
+      "chapter_resolvable": "ch01",
+      "is_missable": false,
+      "missable_deadline": null,
+      "karma_delta": -5,
+      "police_reportable": false,
+      "rewards": [
+        "Rockruff Egg"
+      ],
+      "objectives": [
+        "Inspect the center Pokémon nest in Secret Garden.",
+        "WARNING: Taking the egg reduces your Karma by 5, which hinders the +20 Karma threshold required for Mew on Mt. Moon Summit."
+      ]
+    },
+    {
+      "id": "q_hotel_pewter_mushrooms",
+      "title": "Mushroom Gathering",
+      "type": "Hotel",
+      "region": "Kanto",
+      "location": "Pewter City Hotel (2nd Floor)",
+      "chapter_introduced": "ch01",
+      "chapter_resolvable": "ch01",
+      "is_missable": false,
+      "missable_deadline": null,
+      "karma_delta": 1,
+      "police_reportable": false,
+      "rewards": [
+        "Balm Mushroom (Sells for 6,250 Pokedollars)"
+      ],
+      "objectives": [
+        "Speak to the chef on the 2nd floor of Pewter Hotel.",
+        "Collect 3 Tiny Mushrooms from Viridian Forest.",
+        "Deliver the mushrooms to the chef for the Balm Mushroom reward."
+      ]
+    },
+    {
+      "id": "q_hotel_pewter_revive",
+      "title": "Lost Medicine",
+      "type": "Hotel",
+      "region": "Kanto",
+      "location": "Pewter City Hotel (2nd Floor)",
+      "chapter_introduced": "ch01",
+      "chapter_resolvable": "ch01",
+      "is_missable": false,
+      "missable_deadline": null,
+      "karma_delta": 1,
+      "police_reportable": false,
+      "rewards": [
+        "TM21 (Frustration)"
+      ],
+      "objectives": [
+        "Speak to the Youngster on the 2nd floor of Pewter Hotel.",
+        "Search under the benches across Pewter City to find his dropped Revive.",
+        "Return the Revive to the Youngster. (Do NOT sell or toss it, or you will lose 5 Karma!)."
+      ]
+    },
+    {
+      "id": "q_hotel_pewter_bug_evo",
+      "title": "Bug Evolution",
+      "type": "Hotel",
+      "region": "Kanto",
+      "location": "Pewter City Hotel (2nd Floor)",
+      "chapter_introduced": "ch01",
+      "chapter_resolvable": "ch01",
+      "is_missable": false,
+      "missable_deadline": null,
+      "karma_delta": 1,
+      "police_reportable": false,
+      "rewards": [
+        "Lv. 10 Pineco"
+      ],
+      "objectives": [
+        "Speak to the Bug Catcher on the 2nd floor of Pewter Hotel.",
+        "Show him a fully-evolved Bug Pokémon (Butterfree or Beedrill, evolved at Lv. 10).",
+        "Receive the gift Pineco."
+      ]
+    },
+    {
+      "id": "q_field_partner_cap",
+      "title": "I Choose You!",
+      "type": "Field",
+      "region": "Kanto",
+      "location": "Pewter City Poké Mart",
+      "chapter_introduced": "ch01",
+      "chapter_resolvable": "ch01",
+      "is_missable": false,
+      "missable_deadline": null,
+      "karma_delta": 1,
+      "police_reportable": false,
+      "rewards": [
+        "Partner Cap (Accessory)"
+      ],
+      "objectives": [
+        "Talk to the Pikachu inside the Pewter City Poké Mart.",
+        "Find the official League Hat in the city and return it."
+      ]
+    },
+    {
+      "id": "q_field_nectar_garden",
+      "title": "Nectar Garden",
+      "type": "Field",
+      "region": "Kanto",
+      "location": "Pewter City Flower Garden",
+      "chapter_introduced": "ch01",
+      "chapter_resolvable": "ch02",
+      "is_missable": false,
+      "missable_deadline": null,
+      "karma_delta": 1,
+      "police_reportable": false,
+      "rewards": [
+        "Oran Berry",
+        "Sitrus Berry",
+        "Lum Berry",
+        "Berry Juice",
+        "Oricorio Sensu Style (Ghost/Flying Lv. 15)"
+      ],
+      "objectives": [
+        "Talk to the old man in the Pewter City flower garden.",
+        "Deliver pink flowers from Route 2 (Before Forest) for Oran Berry.",
+        "Deliver red flowers from Route 3 for Sitrus Berry.",
+        "Deliver blue flowers from Route 4 for Lum Berry.",
+        "Catch the visiting Oricorio Sensu Style to receive Berry Juice."
+      ]
+    },
+    {
+      "id": "q_rocket_celadon_03",
+      "title": "Pokémon Collector",
+      "type": "Team Rocket",
+      "region": "Kanto",
+      "location": "Route 22 (Near Viridian)",
+      "chapter_introduced": "ch04",
+      "chapter_resolvable": "ch04",
+      "is_missable": true,
+      "missable_deadline": "Before Gym 8 / Mt. Ember Archer",
+      "karma_delta": -5,
+      "police_reportable": true,
+      "police_officer_location": "Celadon City Police Station",
+      "police_reward_karma": 10,
+      "unlocks_quest": "q_pinkan_island_police",
+      "rewards": [
+        "Scraggy (Rocket) OR +10 Karma & Diancie Police Path (Officer Jenny report)"
+      ],
+      "objectives": [
+        "Meet the Pokémon collector on Route 22.",
+        "UNDERCOVER INFORMANT PATH: Report the illegal trafficker to the Celadon police officer to gain +10 Karma."
+      ]
+    }
+  ],
+  "boss_ground_truth": {
+    "classic": {
+      "leader": "Brock",
+      "team": [
+        {
+          "species": "B16H74",
+          "level": 9,
+          "moves": [
+            "GUST",
+            "SANDATTACK",
+            "ROCKTOMB",
+            "ROCKPOLISH"
+          ],
+          "ability_index": 0
+        },
+        {
+          "species": "B95H50",
+          "level": 12,
+          "moves": [
+            "ROCKTOMB",
+            "BIND",
+            "DIG",
+            "RAGE"
+          ]
+        }
+      ],
+      "party_size": 2
+    },
+    "expert": {
+      "leader": "Brock",
+      "team": [
+        {
+          "species": "B138H114",
+          "level": 10,
+          "moves": [
+            "SLEEPPOWDER",
+            "ABSORB",
+            "WATERGUN",
+            "INGRAIN"
+          ],
+          "ability": "SHELLARMOR",
+          "item": "ORANBERRY",
+          "nature": "MODEST",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 4
+          }
+        },
+        {
+          "species": "B305H461",
+          "level": 12,
+          "moves": [
+            "FRUSTRATION",
+            "ROCKTOMB",
+            "FOCUSENERGY",
+            "ASSURANCE"
+          ],
+          "ability": "REFRIGERATE",
+          "item": "ORANBERRY",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        }
+      ],
+      "party_size": 2
+    }
+  },
+  "encounters_by_location": {
+    "Pallet Town (ID 42)": {
+      "Grass": [
+        {
+          "name": "Bulbasaur",
+          "dex_id": "001",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "5"
+        },
+        {
+          "name": "Ivysaur",
+          "dex_id": "002",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Venusaur",
+          "dex_id": "003",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "15"
+        },
+        {
+          "name": "Charmander",
+          "dex_id": "004",
+          "types": [
+            "Fire"
+          ],
+          "levels": "5"
+        },
+        {
+          "name": "Charmeleon",
+          "dex_id": "005",
+          "types": [
+            "Fire"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Charizard",
+          "dex_id": "006",
+          "types": [
+            "Fire",
+            "Flying"
+          ],
+          "levels": "15"
+        },
+        {
+          "name": "Squirtle",
+          "dex_id": "007",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        },
+        {
+          "name": "Wartortle",
+          "dex_id": "008",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Blastoise",
+          "dex_id": "009",
+          "types": [
+            "Water"
+          ],
+          "levels": "15"
+        },
+        {
+          "name": "Mew",
+          "dex_id": "151",
+          "types": [
+            "Psychic"
+          ],
+          "levels": "1"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "2-3"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "2-5"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Goldeen",
+          "dex_id": "118",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Psyduck",
+          "dex_id": "054",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Poliwhirl",
+          "dex_id": "061",
+          "types": [
+            "Water"
+          ],
+          "levels": "20-30"
+        },
+        {
+          "name": "Slowpoke",
+          "dex_id": "079",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "15-35"
+        }
+      ]
+    },
+    "Route 1 (ID 78)": {
+      "Grass": [
+        {
+          "name": "Pidgey",
+          "dex_id": "016",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "2-5"
+        },
+        {
+          "name": "Rattata",
+          "dex_id": "019",
+          "types": [
+            "Normal"
+          ],
+          "levels": "2-5"
+        },
+        {
+          "name": "Tangela",
+          "dex_id": "114",
+          "types": [
+            "Grass"
+          ],
+          "levels": "2-3"
+        },
+        {
+          "name": "Hoothoot",
+          "dex_id": "163",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "2-5"
+        },
+        {
+          "name": "Mime Jr.",
+          "dex_id": "258",
+          "types": [
+            "Psychic",
+            "Fairy"
+          ],
+          "levels": "2-3"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Fletchling",
+          "dex_id": "417",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "2-5"
+        }
+      ]
+    },
+    "Route 22 (ID 171)": {
+      "Grass": [
+        {
+          "name": "Rattata",
+          "dex_id": "019",
+          "types": [
+            "Normal"
+          ],
+          "levels": "2-5"
+        },
+        {
+          "name": "Spearow",
+          "dex_id": "021",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "3-5"
+        },
+        {
+          "name": "Nidoran♀",
+          "dex_id": "029",
+          "types": [
+            "Poison"
+          ],
+          "levels": "3-5"
+        },
+        {
+          "name": "Nidoran♂",
+          "dex_id": "032",
+          "types": [
+            "Poison"
+          ],
+          "levels": "3-5"
+        },
+        {
+          "name": "Mankey",
+          "dex_id": "056",
+          "types": [
+            "Fighting"
+          ],
+          "levels": "2-5"
+        },
+        {
+          "name": "Hoothoot",
+          "dex_id": "163",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "3-5"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Psyduck",
+          "dex_id": "054",
+          "types": [
+            "Water"
+          ],
+          "levels": "20-40"
+        },
+        {
+          "name": "Slowpoke",
+          "dex_id": "079",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "20-40"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Goldeen",
+          "dex_id": "118",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Psyduck",
+          "dex_id": "054",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-25"
+        },
+        {
+          "name": "Poliwhirl",
+          "dex_id": "061",
+          "types": [
+            "Water"
+          ],
+          "levels": "20-30"
+        },
+        {
+          "name": "Slowpoke",
+          "dex_id": "079",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Gyarados",
+          "dex_id": "130",
+          "types": [
+            "Water",
+            "Flying"
+          ],
+          "levels": "15-25"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Bidoof",
+          "dex_id": "294",
+          "types": [
+            "Normal"
+          ],
+          "levels": "2-5"
+        }
+      ]
+    },
+    "Secret Garden (ID 185)": {
+      "Grass": [
+        {
+          "name": "Pidgey",
+          "dex_id": "016",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "2-3"
+        },
+        {
+          "name": "Rattata",
+          "dex_id": "019",
+          "types": [
+            "Normal"
+          ],
+          "levels": "2-3"
+        },
+        {
+          "name": "Tangela",
+          "dex_id": "114",
+          "types": [
+            "Grass"
+          ],
+          "levels": "2-3"
+        },
+        {
+          "name": "Ditto",
+          "dex_id": "132",
+          "types": [
+            "Normal"
+          ],
+          "levels": "2-5"
+        },
+        {
+          "name": "Eevee",
+          "dex_id": "133",
+          "types": [
+            "Normal"
+          ],
+          "levels": "2-5"
+        },
+        {
+          "name": "Mime Jr.",
+          "dex_id": "258",
+          "types": [
+            "Psychic",
+            "Fairy"
+          ],
+          "levels": "2-3"
+        }
+      ]
+    },
+    "Route 2 (ID 86)": {
+      "Grass": [
+        {
+          "name": "Caterpie",
+          "dex_id": "010",
+          "types": [
+            "Bug"
+          ],
+          "levels": "4-5"
+        },
+        {
+          "name": "Weedle",
+          "dex_id": "013",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "4-5"
+        },
+        {
+          "name": "Pidgey",
+          "dex_id": "016",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "2-3"
+        },
+        {
+          "name": "Rattata",
+          "dex_id": "019",
+          "types": [
+            "Normal"
+          ],
+          "levels": "2-5"
+        },
+        {
+          "name": "Sentret",
+          "dex_id": "161",
+          "types": [
+            "Normal"
+          ],
+          "levels": "2-5"
+        },
+        {
+          "name": "Hoothoot",
+          "dex_id": "163",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "2-3"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Fletchling",
+          "dex_id": "417",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "2-5"
+        }
+      ]
+    },
+    "Route 2 (ID 90)": {
+      "Grass": [
+        {
+          "name": "Caterpie",
+          "dex_id": "010",
+          "types": [
+            "Bug"
+          ],
+          "levels": "4-5"
+        },
+        {
+          "name": "Weedle",
+          "dex_id": "013",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "4-5"
+        },
+        {
+          "name": "Pidgey",
+          "dex_id": "016",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "2-5"
+        },
+        {
+          "name": "Rattata",
+          "dex_id": "019",
+          "types": [
+            "Normal"
+          ],
+          "levels": "2-5"
+        },
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "4-5"
+        },
+        {
+          "name": "Sentret",
+          "dex_id": "161",
+          "types": [
+            "Normal"
+          ],
+          "levels": "2-5"
+        },
+        {
+          "name": "Hoothoot",
+          "dex_id": "163",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "2-5"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Fletchling",
+          "dex_id": "417",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "2-5"
+        }
+      ]
+    },
+    "Viridian Forest (ID 491)": {
+      "Grass": [
+        {
+          "name": "Caterpie",
+          "dex_id": "010",
+          "types": [
+            "Bug"
+          ],
+          "levels": "3-5"
+        },
+        {
+          "name": "Metapod",
+          "dex_id": "011",
+          "types": [
+            "Bug"
+          ],
+          "levels": "5"
+        },
+        {
+          "name": "Weedle",
+          "dex_id": "013",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "3-5"
+        },
+        {
+          "name": "Kakuna",
+          "dex_id": "014",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "4-6"
+        },
+        {
+          "name": "Pidgey",
+          "dex_id": "016",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "3-5"
+        },
+        {
+          "name": "Meowth",
+          "dex_id": "052",
+          "types": [
+            "Normal"
+          ],
+          "levels": "3-5"
+        },
+        {
+          "name": "Hoothoot",
+          "dex_id": "163",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "3-5"
+        },
+        {
+          "name": "Ledyba",
+          "dex_id": "165",
+          "types": [
+            "Bug",
+            "Flying"
+          ],
+          "levels": "3-5"
+        },
+        {
+          "name": "Pichu",
+          "dex_id": "172",
+          "types": [
+            "Electric"
+          ],
+          "levels": "3-5"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Shroomish",
+          "dex_id": "404",
+          "types": [
+            "Grass"
+          ],
+          "levels": "2-5"
+        }
+      ]
+    }
+  },
+  "wiki_ground_truth": {
+    "Pallet Town": {
+      "canonical_slug": "Pallet_Town",
+      "lead_summary": "Pallet Town is the first town, where the player begins the game. Located in Kanto, it leads to Route 1 in the north and Route 21 on the south, requiring Surf to access the latter.",
+      "items": [
+        {
+          "internal_id": "POTION",
+          "quantity": "",
+          "name": "Potion",
+          "location_details": "Withdraw from PC in player's bedroom."
+        },
+        {
+          "internal_id": "TOWNMAP",
+          "quantity": "",
+          "name": "Town Map",
+          "location_details": "Given by the Rival's sister in his house."
+        },
+        {
+          "internal_id": "POKEBALL",
+          "quantity": "5",
+          "name": "Poké Ball",
+          "location_details": "Given by Prof.Oak after delivering his Parcel."
+        },
+        {
+          "internal_id": "POKEDEX",
+          "quantity": "",
+          "name": "Pokédex",
+          "location_details": "Given by Prof.Oak after delivering his Parcel."
+        },
+        {
+          "internal_id": "POKEBALL",
+          "quantity": "2",
+          "name": "Poké Ball",
+          "location_details": "Given by Prof.Oak's assistant after delivering his Parcel."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Route 1": {
+      "canonical_slug": "Route_1",
+      "lead_summary": "|connection_3_direction=south\n|connection_3_location=Pallet Town\n|map_image=Route_1_Map.png\n}}\nRoute 1 is a route that connects Pallet Town to Viridian City. It is the first route the player goes on. During the initial journey through the route, the player lacks pokeballs as they have to deliver Professor Oak's package in order to be given their starter set as well as unlock access to the Poké Mart.",
+      "items": [
+        {
+          "internal_id": "POTION",
+          "quantity": "",
+          "name": "Potion",
+          "location_details": "From Poké Mart employee."
+        },
+        {
+          "internal_id": "ORANBERRY",
+          "quantity": "",
+          "name": "Oran Berry",
+          "location_details": "Left of Lass Mimi."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Viridian City": {
+      "canonical_slug": "Viridian_City",
+      "lead_summary": "Viridian City is the first town the player encounters after exiting Route 1. The paths West to Route 22 and North to Route 2 (Before the Forest) will be blocked until Oak received his Parcel.\nThe Gym will be closed until Team Rocket has been defeated on Mt. Ember.",
+      "items": [
+        {
+          "internal_id": "OAKSPARCEL",
+          "quantity": "",
+          "name": "Oak's Parcel",
+          "location_details": "From the Poké Mart cashier."
+        },
+        {
+          "internal_id": "DNASPLICERS",
+          "quantity": "",
+          "name": "DNA Splicers",
+          "location_details": "From the Poké Mart cashier."
+        },
+        {
+          "internal_id": "ORANBERRY",
+          "quantity": "2",
+          "name": "Oran Berry",
+          "location_details": "Given by Youngster in the Pokémon Academy."
+        },
+        {
+          "internal_id": "BRIGHTPOWDER",
+          "quantity": "",
+          "name": "Bright Powder",
+          "location_details": "On the ground when coming from Viridian River."
+        },
+        {
+          "internal_id": "machine_FIGHTING",
+          "quantity": "",
+          "name": "TM08 Bulk Up",
+          "location_details": "On the higher ground near Route 22 and Route 1 entrances."
+        },
+        {
+          "internal_id": "REVIVE",
+          "quantity": "",
+          "name": "Revive",
+          "location_details": "On the ground in the Gym."
+        },
+        {
+          "internal_id": "WOODENPLANKS",
+          "quantity": "",
+          "name": "Wooden Planks",
+          "location_details": "Given by the worker, after accepting the quest “Building Materials”."
+        },
+        {
+          "internal_id": "EARTHPLATE",
+          "quantity": "",
+          "name": "Earth Plate",
+          "location_details": "In the northeast, behind the Gym, after catching [[Legendary_Pokémon#Arceus"
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Route 22": {
+      "canonical_slug": "Route_22",
+      "lead_summary": "Route 22 is a route that connects Viridian City to Route 26. It's a short route that can be accessed almost immediately in the game - however, within the Gate you will be stopped by the Badge Checker as Route 26 leads to Victory Road.",
+      "items": [
+        {
+          "internal_id": "POTION",
+          "quantity": "",
+          "name": "Potion",
+          "location_details": "South of the stairs from Viridian City"
+        },
+        {
+          "internal_id": "POKEBALL",
+          "quantity": "",
+          "name": "Poké Ball",
+          "location_details": "From Youngster Pat, after defeating him."
+        },
+        {
+          "internal_id": "DNASPLICERS",
+          "quantity": "",
+          "name": "DNA Splicer",
+          "location_details": "From Youngster Mustafa, after defeating him and before {{gym"
+        },
+        {
+          "internal_id": "PECHABERRY",
+          "quantity": "",
+          "name": "Pecha Berry",
+          "location_details": "On the far left, south part of the road."
+        },
+        {
+          "internal_id": "POTION",
+          "quantity": "",
+          "name": "Potion",
+          "location_details": "On the top right of the road, besides the cuttable tree."
+        },
+        {
+          "internal_id": "DNASPLICERS",
+          "quantity": "",
+          "name": "DNA Splicer",
+          "location_details": "From Rival, after defeating him."
+        },
+        {
+          "internal_id": "ORANBERRY",
+          "quantity": "",
+          "name": "Oran Berry",
+          "location_details": "On the berry bushes, daily."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Secret Garden": {
+      "canonical_slug": "Secret_Garden",
+      "lead_summary": "This is a secret location that can be accessed only when defeating Blue in Route 22 the first time. It is possible to permanently miss this trigger due to it being an optional rival fight - Blue disappears from the route after the player defeats Brock.\nThe Secret Garden is accessed by going through the trees on the right side of Route 1, directly below the entrance to Viridian City. This area can be repeatedly returned to once unlocked.",
+      "items": [
+        {
+          "internal_id": "POTION",
+          "quantity": "6",
+          "name": "Potion",
+          "location_details": "Top left item ball."
+        },
+        {
+          "internal_id": "MAXREVIVE",
+          "quantity": "1",
+          "name": "Max Revive",
+          "location_details": "Bottom  left item ball."
+        },
+        {
+          "internal_id": "REVIVE",
+          "quantity": "4",
+          "name": "Revive",
+          "location_details": "Top right item ball."
+        },
+        {
+          "internal_id": "SUPERPOTION",
+          "quantity": "1",
+          "name": "Super Potion",
+          "location_details": "Bottom  right item ball."
+        }
+      ],
+      "missable_warnings": [
+        "WARNING: Contains permanently missable triggers!",
+        "NOTE: Contains actions that alter player Karma."
+      ]
+    },
+    "Route 2 (South)": {
+      "canonical_slug": "Route_2_(Before_the_Forest)",
+      "lead_summary": "Route 2 connects Viridian City in the south to Route 2 (After the Forest) in the north, it also contains the gate to Viridian Forest.",
+      "items": [
+        {
+          "internal_id": "ETHER",
+          "quantity": "",
+          "name": "Ether",
+          "location_details": "Next to the elderly man's house."
+        },
+        {
+          "internal_id": "LEMONADE",
+          "quantity": "",
+          "name": "Lemonade",
+          "location_details": "Given by the elderly man after completing the Lumberjack Quest."
+        },
+        {
+          "internal_id": "MACHETE",
+          "quantity": "",
+          "name": "Shears",
+          "location_details": "Given by the elderly man after completing the Lumberjack Quest."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Viridian Forest": {
+      "canonical_slug": "Viridian_Forest",
+      "lead_summary": "Viridian Forest splits both portions of Route 2: Route 2 (Before the Forest) to the South and Route 2 (After the Forest) to the North.",
+      "items": [
+        {
+          "internal_id": "ANTIDOTE",
+          "quantity": "",
+          "name": "Antidote",
+          "location_details": "On the bottom left, in a patch of grass."
+        },
+        {
+          "internal_id": "POKEBALL",
+          "quantity": "",
+          "name": "Poké Ball",
+          "location_details": "On the bottom right, in a patch of grass."
+        },
+        {
+          "internal_id": "ANTIDOTE",
+          "quantity": "",
+          "name": "Antidote",
+          "location_details": "On the top of the map."
+        },
+        {
+          "internal_id": "POTION",
+          "quantity": "",
+          "name": "Potion",
+          "location_details": "Left side, besides Youngster Sean"
+        },
+        {
+          "internal_id": "PECHABERRY",
+          "quantity": "3",
+          "name": "Pecha Berry",
+          "location_details": "Hidden, in the tree behind the potion"
+        },
+        {
+          "internal_id": "PECHABERRY",
+          "quantity": "",
+          "name": "Pecha Berry",
+          "location_details": "Given by Youngster Sean after defeating him."
+        },
+        {
+          "internal_id": "POISONMUSHROOM",
+          "quantity": "",
+          "name": "PoisonMushroom",
+          "location_details": "Collected from mushrooms around the forest, random chance daily (approx 19% chance for mushrooms behind the cuttable tree and 66% for other mushrooms)."
+        },
+        {
+          "internal_id": "TINYMUSHROOM",
+          "quantity": "",
+          "name": "Tiny Mushroom",
+          "location_details": "Collected from mushrooms around the forest, random chance daily (approx 54% chance for mushrooms behind the cuttable tree and 15% for other mushrooms)."
+        },
+        {
+          "internal_id": "BIGMUSHROOM",
+          "quantity": "",
+          "name": "Big Mushroom",
+          "location_details": "Collected from mushrooms around the forest, random chance daily (approx 27% chance for mushrooms behind the cuttable tree and 0.4% for other mushrooms)."
+        },
+        {
+          "internal_id": "PECHABERRY",
+          "quantity": "",
+          "name": "Pecha Berry",
+          "location_details": "Found in spider webs (except for the one behind the cuttable trees), random chance daily (approx 33%)."
+        },
+        {
+          "internal_id": "BUGGEM",
+          "quantity": "",
+          "name": "Bug Gem",
+          "location_details": "Found in spider webs (except for the one behind the cuttable trees), random chance daily (approx 16.6%)."
+        }
+      ],
+      "missable_warnings": [
+        "NOTE: Contains actions that alter player Karma."
+      ]
+    },
+    "Pewter City": {
+      "canonical_slug": "Pewter_City",
+      "lead_summary": "Pewter City is accessed from the South from Route 2 (After the Forest) and to the East from Route 3.\nThis city contains Pewter City's Gym with Brock as its leader, as well as the Pokémon Museum.",
+      "items": [
+        {
+          "internal_id": "FUSIONREPEL",
+          "quantity": "",
+          "name": "Fusion Incense",
+          "location_details": "Between the flower patch and the trees."
+        },
+        {
+          "internal_id": "REVIVE",
+          "quantity": "",
+          "name": "Revive",
+          "location_details": "Found under a random bench after starting Youngster's quest in the hotel."
+        },
+        {
+          "internal_id": "FRESHWATER",
+          "quantity": "",
+          "name": "Fresh Water",
+          "location_details": "Given by the man inside the gym."
+        },
+        {
+          "internal_id": "BLACKFLUTE",
+          "quantity": "",
+          "name": "Black Flute",
+          "location_details": "Given by the traveler on a bench, after defeating Brock."
+        },
+        {
+          "internal_id": "BALMMUSHROOM",
+          "quantity": "",
+          "name": "Balm Mushroom",
+          "location_details": "Given by the cook in the hotel after giving her 3 Tiny Mushrooms."
+        },
+        {
+          "internal_id": "machine_NORMAL",
+          "quantity": "",
+          "name": "TM21 Frustration",
+          "location_details": "Given by the Youngster in the hotel after returning his Revive."
+        },
+        {
+          "internal_id": "ORANBERRY",
+          "quantity": "",
+          "name": "Oran Berry",
+          "location_details": "Given by the man in the flower garden after delivering him some pink flowers from [[Route 2 (Before the Forest)]]."
+        },
+        {
+          "internal_id": "SITRUSBERRY",
+          "quantity": "",
+          "name": "Sitrus Berry",
+          "location_details": "Given by the man in the flower garden after delivering him some red flowers from [[Route 3]]."
+        },
+        {
+          "internal_id": "LUMBERRY",
+          "quantity": "",
+          "name": "Lum Berry",
+          "location_details": "Given by the man in the flower garden after delivering him some blue flowers from [[Route 4]]."
+        },
+        {
+          "internal_id": "BERRYJUICE",
+          "quantity": "",
+          "name": "Berry Juice",
+          "location_details": "Given by the man in the flower garden after delivery all the flower types and catching the Oricorio."
+        },
+        {
+          "internal_id": "BRICKS",
+          "quantity": "",
+          "name": "Bricks",
+          "location_details": "Given by the worker, after accepting the quest “Building Materials”."
+        },
+        {
+          "internal_id": "OLDAMBER",
+          "quantity": "",
+          "name": "Old Amber",
+          "location_details": "Given by the scientist in the museum, after helping her collect it from [[Viridian Forest]]."
+        },
+        {
+          "internal_id": "STONEPLATE",
+          "quantity": "",
+          "name": "Stone Plate",
+          "location_details": "In the north, after catching [[Legendary_Pokémon#Arceus"
+        }
+      ],
+      "missable_warnings": []
+    }
+  },
+  "location_items_and_statics": [
+    {
+      "type": "Key Item",
+      "name": "PokéDex",
+      "location": "Pallet Town",
+      "desc": "Records all encountered and captured Pokémon and fusions."
+    },
+    {
+      "type": "HM Replacement",
+      "name": "Dolly",
+      "replaces": "Strength",
+      "location": "Route 13"
+    },
+    {
+      "type": "HM Replacement",
+      "name": "Surfboard",
+      "replaces": "Surf",
+      "location": "Route 19"
+    },
+    {
+      "type": "Static Encounter",
+      "pokemon": "Snorlax",
+      "level": "30",
+      "location": "Route 12",
+      "notes": "Game Progression: Requires Pokéflute from Pokémon Tower"
+    },
+    {
+      "type": "Static Encounter",
+      "pokemon": "Grimer",
+      "level": "30",
+      "location": "Route 17",
+      "notes": "Quest Encounter"
+    },
+    {
+      "type": "Static Encounter",
+      "pokemon": "Pumpkaboo",
+      "level": "17-27",
+      "location": "Route 18",
+      "notes": "Interact with Pumpkins at night, Respawns daily"
+    },
+    {
+      "type": "Key Item",
+      "name": "Oak's Parcel",
+      "location": "Viridian City Pokémart",
+      "desc": "Must be delivered to Professor Oak in Pallet Town to obtain the PokéDex."
+    },
+    {
+      "type": "Key Item",
+      "name": "DNA Splicers",
+      "location": "Viridian City Pokémart / All Marts",
+      "desc": "Fuses two Pokémon or unfuses an existing fusion."
+    },
+    {
+      "type": "Static Encounter",
+      "pokemon": "Spinarak",
+      "level": "4",
+      "location": "Viridian Forest",
+      "notes": "Interact with Spider Webs, Respawns daily"
+    },
+    {
+      "type": "Static Encounter",
+      "pokemon": "Paras",
+      "level": "4",
+      "location": "Viridian Forest",
+      "notes": "Interact with Mushrooms, Respawns daily"
+    },
+    {
+      "type": "Static Encounter",
+      "pokemon": "Beedrill",
+      "level": "20",
+      "location": "Viridian Forest",
+      "notes": "Quest Encounter"
+    }
+  ],
+  "authoring_guidance": {
+    "splicing_safety": "Explicitly state: HEAD species, BODY species, and WHICH ability to select at the DNA Splicer prompt.",
+    "unfuse_safety": "Unfusing at Pokémon Mart costs $300. Check move retention before unfusing.",
+    "gym_duel_rule": "Strict 2v2 party limit! Instruct player to deposit extra party members in the PC before entering gym arena.",
+    "time_of_day": "Provide Day/Night alternative suggestions so players are never blocked by real-time spawn windows.",
+    "stone_evolutions": "Advisory: Do NOT use evolution stones prematurely on stone-evolvers (e.g. Nidorino) before key level-up moves are learned.",
+    "undercover_informant_rocket": "Guide player to join Team Rocket for disguises/missions, BUT report crimes to police officer for +10 Karma and Diancie unlock!"
+  }
+}

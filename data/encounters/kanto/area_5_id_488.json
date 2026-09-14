@@ -1,0 +1,51 @@
+{
+  "location": "Area 5 (ID 488)",
+  "sections": {
+    "Cave": [
+      {
+        "dex_id": "392",
+        "name": "Trapinch",
+        "type1": "Ground",
+        "type2": "",
+        "levels": "19-23",
+        "catch_rate": "255",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "411",
+        "name": "Yamask",
+        "type1": "Ghost",
+        "type2": "",
+        "levels": "20-24",
+        "catch_rate": "190",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "dex_id": "416",
+        "name": "Golett",
+        "type1": "Ground",
+        "type2": "Ghost",
+        "levels": "30",
+        "catch_rate": "190",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "419",
+        "name": "Larvesta",
+        "type1": "Bug",
+        "type2": "Fire",
+        "levels": "20-25",
+        "catch_rate": "45",
+        "rates": [
+          "30%"
+        ]
+      }
+    ]
+  }
+}

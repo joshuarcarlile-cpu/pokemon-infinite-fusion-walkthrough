@@ -1,0 +1,64 @@
+{
+  "leader": "Pryce",
+  "title": "The Winter Teacher",
+  "gym": "Mahogany Town Gym",
+  "badge": "Glacier Badge",
+  "level_cap": 67,
+  "hard_mode_level_cap": 67,
+  "recommended_party_level": 66,
+  "gym_duel_limit": 5,
+  "party_selection_rule": "5 vs 5 Party Selection (select your 5 designated Pokémon from your active party when prompted at battle start)",
+  "overview": "Gym Leader Pryce commands the frozen hockey rink of Mahogany Gym with hybrid Ice fusions engineered for defense, speed, and raw blizzard artillery. Dewgong/Slowking leads as a durable special setup pivot using Safeguard and Nasty Plot before Baton Passing boosts. Mamoswine/Bastiodon establishes Hail with Icy Rock while stacking Iron Defense, but suffers fatal 4x weaknesses to Fire and Fighting attacks. Infernape/Weavile brings blistering offensive speed with Close Combat and Flare Blitz, yet crumbles to a catastrophic 4x Rock weakness alongside Water and Fighting vulnerabilities. Probopass/Cloyster punishes physical contact via Rocky Helmet while stalling with Iron Defense and Rest, but shares fatal 4x weaknesses to Fighting and Steel. His ace Jynx/Wailord leverages huge HP and Wise Glasses to launch devastating Blizzards and Surfs. Conquering Pryce's 5 vs 5 duel awards the Glacier Badge, TM79 (Frost Breath), the Glalie Mask vanity hat, and 5 Wonder Trade tickets.",
+  "roster": [
+    {
+      "species": "Dewgong/Slowking",
+      "level": 65,
+      "types": ["Water", "Psychic"],
+      "ability": "Oblivious",
+      "item": "Leftovers",
+      "moves": ["Nasty Plot", "Baton Pass", "Safeguard", "Ice Shard"],
+      "tactics": "Bulky setup pivot with 92 HP and 106 SpD. Uses Safeguard to prevent status and Nasty Plot to set up Baton Pass. Exploit its Grass, Electric, Bug, Ghost, or Dark weaknesses to eliminate it before it passes boosts."
+    },
+    {
+      "species": "Mamoswine/Bastiodon",
+      "level": 64,
+      "types": ["Ice", "Steel"],
+      "ability": "Oblivious",
+      "item": "Icy Rock",
+      "moves": ["Hail", "Protect", "Iron Defense", "Earthquake"],
+      "tactics": "Physical weather setter with 134 Defense. Sets extended Hail with Icy Rock and stalls with Protect and Iron Defense. Crippled by fatal 4x weaknesses to Fire and Fighting attacks; strike hard on the special side."
+    },
+    {
+      "species": "Infernape/Weavile",
+      "level": 65,
+      "types": ["Fire", "Ice"],
+      "ability": "Pressure",
+      "item": "Never-Melt Ice",
+      "moves": ["Close Combat", "Flare Blitz", "Ice Punch", "Night Slash"],
+      "tactics": "Blistering dual-type physical wallbreaker with 113 Attack and 116 Speed. Wields lethal coverage with Close Combat and Flare Blitz. Punish its catastrophic 4x Rock weakness or exploit its Water, Fighting, and Ground vulnerabilities."
+    },
+    {
+      "species": "Probopass/Cloyster",
+      "level": 65,
+      "types": ["Rock", "Ice"],
+      "ability": "Magnet Pull",
+      "item": "Rocky Helmet",
+      "moves": ["Icicle Spear", "Spike Cannon", "Iron Defense", "Rest"],
+      "tactics": "Impenetrable physical wall with 162 Defense that punishes contact moves via Rocky Helmet and recovers with Rest. Heavily vulnerable to special strikes, and crushed by fatal 4x Fighting and 4x Steel damage."
+    },
+    {
+      "species": "Jynx/Wailord",
+      "level": 65,
+      "types": ["Ice", "Water"],
+      "ability": "Water Veil",
+      "item": "Wise Glasses",
+      "moves": ["Psychic", "Blizzard", "Surf", "Fake Tears"],
+      "tactics": "Colossal special sweeper pairing 142 base HP with Wise Glasses-boosted Blizzard and Surf artillery. Low 54 Defense makes it frail to physical strikes. Attack with super-effective Grass, Electric, Fighting, or Rock physical moves."
+    }
+  ],
+  "starter_strategies": {
+    "bulbasaur": "Venusaur/Charizard (Lv. 67) acts as the ultimate duel MVP; STAB Flamethrower deals devastating 4x super-effective damage to incinerate Mamoswine/Bastiodon, while STAB Petal Dance melts Dewgong/Slowking and ace Jynx/Wailord. Kingler/Primeape (Lv. 66) delivers lethal 4x STAB Close Combat against both Mamoswine/Bastiodon and Probopass/Cloyster, while dousing Infernape/Weavile with Crabhammer. Gyarados/Arbok blunts physical threats with Intimidate, while Snorlax sponges Ice attacks with Thick Fat.",
+    "charmander": "Charizard/Venusaur (Lv. 67) turns the frozen gym into kindling; STAB Flamethrower instantly vaporizes Mamoswine/Bastiodon with 4x super-effective heat and melts Probopass/Cloyster, while Petal Dance shreds Dewgong/Slowking and Jynx/Wailord. Primeape/Sandslash (Lv. 66) delivers fatal 4x Close Combat against the Ice/Steel and Rock/Ice fortresses, and drops Infernape/Weavile with Earthquake. Alakazam/Raichu electrocutes Water hybrids with Thunderbolt, while Thick Fat Snorlax walls Blizzard assaults.",
+    "squirtle": "Blastoise/Fearow (Lv. 67) douses Infernape/Weavile and Probopass/Cloyster with heavy STAB Hydro Pump artillery, and uses Drill Peck against fighting-weak fusions. Arbok/Primeape (Lv. 66) weakens physical threats with Intimidate and lands devastating 4x STAB Close Combat blows against Mamoswine/Bastiodon and Probopass/Cloyster. Jolteon/Sandslash zaps Dewgong/Slowking and Jynx/Wailord with Discharge. Thick Fat Snorlax easily sponges repeated Blizzards and Surfs using Rest and Leftovers."
+  }
+}

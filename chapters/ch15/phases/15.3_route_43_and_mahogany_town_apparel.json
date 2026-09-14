@@ -1,0 +1,45 @@
+{
+  "name": "Route 43 and Mahogany Town",
+  "summary": "Arrive in Mahogany Town, a quiet northern mountain enclave. Buy a local RageCandyBar from the eastern gate vendor for $300, and visit the elderly seamstress north of the gym to purchase warm winter apparel: Indigo Ice Beams, Snow Coat (Female), and Snow Coat (Male). Then journey north onto Route 43 along the highway leading to the Lake of Rage. Navigate through tall grass roamed by wild Girafarig, Venomoth, and Flaaffy, challenge Pokemaniac Shane, and collect a Max Elixir and Wise Glasses from the western river islets.",
+  "items": [
+    {
+      "name": "RageCandyBar",
+      "method": "Purchased from the salesman blocking the eastern gatehouse for $300",
+      "type": "Medicine"
+    },
+    {
+      "name": "Wise Glasses",
+      "method": "Found on a secluded river islet on the northwest side of Route 43",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Max Elixir",
+      "method": "Located on a small grassy islet on the west side of Route 43",
+      "type": "Medicine"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Pokemaniac Shane",
+      "team": [
+        {"species": "Nidoqueen/Spinda", "level": 55, "types": ["Poison", "Normal"]},
+        {"species": "Nidoking/Spinda", "level": 55, "types": ["Poison", "Normal"]}
+      ]
+    }
+  ],
+  "encounters": {
+    "Route 43 Tall Grass": [
+      {"dex_id": "017", "name": "Pidgeotto", "types": ["Normal", "Flying"], "levels": "42-54", "rates": "20%"},
+      {"dex_id": "042", "name": "Golbat", "types": ["Poison", "Flying"], "levels": "42-54", "rates": "15%"},
+      {"dex_id": "049", "name": "Venomoth", "types": ["Bug", "Poison"], "levels": "55", "rates": "15%"},
+      {"dex_id": "180", "name": "Flaaffy", "types": ["Electric"], "levels": "45-50", "rates": "15%"},
+      {"dex_id": "203", "name": "Girafarig", "types": ["Normal", "Psychic"], "levels": "46-52", "rates": "15%"},
+      {"dex_id": "204", "name": "Pineco", "types": ["Bug"], "levels": "55", "rates": "10%"},
+      {"dex_id": "294", "name": "Bidoof", "types": ["Normal"], "levels": "40", "rates": "10%"}
+    ],
+    "Route 43 Surfing": [
+      {"dex_id": "060", "name": "Poliwag", "types": ["Water"], "levels": "15-30", "rates": "70%"},
+      {"dex_id": "061", "name": "Poliwhirl", "types": ["Water"], "levels": "35", "rates": "30%"}
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Route_46",
+  "url": "https://infinitefusion.fandom.com/wiki/Route_46",
+  "lead_summary": "Route 46 is a dead-end path that can be accessed from Route 29.\nMost of the route can only be explored after obtaining HM05 Waterfall or its HM Replacement Item.",
+  "missable_warnings": [],
+  "items": [
+    {
+      "internal_id": "MAXPOTION",
+      "quantity": "",
+      "name": "Max Potion",
+      "location_details": "On the ground near the gate."
+    },
+    {
+      "internal_id": "machine_DARK",
+      "quantity": "",
+      "name": "TM12 Taunt",
+      "location_details": "On the ground near the North-West corner."
+    }
+  ],
+  "sections": [
+    "Items",
+    "Pokémon"
+  ],
+  "raw_wikitext": "{{GlobalToggles}}\n{{InfoboxLocation\n|region=Johto\n|location_image=Route46.png\n|map_image=Route_46_Map.png\n|connection_1_direction=south\n|connection_1_location=Route 29\n}}\n'''Route 46''' is a dead-end path that can be accessed from [[Route 29]].\n\nMost of the route can only be explored after obtaining HM05 Waterfall or its HM Replacement Item.\n\n==Items==\n{{ItemTable/Header}}\n{{ItemTable/Data|MAXPOTION||Max Potion|On the ground near the gate.|MaxPotion_Route46.png}}\n{{ItemTable/Data|machine_DARK||TM12 Taunt|On the ground near the North-West corner.|TM12_Route46.png}}\n{{ItemTable/Footer}}\n\n==Pokémon==\n<!-----------------------------------!>\n<!-- CLASSIC & EXPERT MODE POKÉMON --!>\n<!------------------------------------>\n<div class=\"classic-mode expert-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|022|Fearow|Normal|Flying|44-49|90|15%}}\n{{EncounterTable/Data|040|Wigglytuff|Normal|Fairy|50|50|5%}}\n{{EncounterTable/Data|075|Graveler|Rock|Ground|50|120|50%}}\n{{EncounterTable/Data|207|Gligar|Ground|Flying|45-50|60|15%}}\n{{EncounterTable/Data|232|Donphan|Ground||50|60|15%}}\n{{EncounterTable/Section|Static}}\n{{EncounterTable/Data|309|Slaking|Normal||45|45|One}}\n{{EncounterTable/Footer}}\n</div>\n<!------------------------!>\n<!-- REMIX MODE POKÉMON --!>\n<!------------------------->\n<div class=\"remix-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|040|Wigglytuff|Normal|Fairy|50|50|5%}}\n{{EncounterTable/Data|042|Golbat|Poison|Flying|45-51|90|10%}}\n{{EncounterTable/Data|162|Furret|Normal||45-51|90|10%}}\n{{EncounterTable/Data|207|Gligar|Ground|Flying|44-49|60|15%}}\n{{EncounterTable/Data|232|Donphan|Ground||50|60|15%}}\n{{EncounterTable/Data|273|Gliscor|Ground|Flying|45-50|30|15%}}\n{{EncounterTable/Data|386|Vigoroth|Normal||50|120|30%}}\n{{EncounterTable/Section|Static}}\n{{EncounterTable/Data|309|Slaking|Normal||45|45|One}}\n{{EncounterTable/Footer}}\n</div>\n[[Category:Locations]]\n[[Category:Johto]]"
+}

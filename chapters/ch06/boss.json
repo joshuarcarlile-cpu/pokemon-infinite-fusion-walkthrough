@@ -1,0 +1,99 @@
+{
+  "leader": "Sabrina",
+  "title": "Saffron City Gym Leader",
+  "badge": "Marsh Badge",
+  "hard_mode_level_cap": 45,
+  "gym_duel_limit": 4,
+  "recommended_party_level": 44,
+  "gym_trainers": [
+    {
+      "name": "Psychic Johan",
+      "team": [
+        {
+          "species": "Kadabra/Drowzee",
+          "level": 39,
+          "types": ["Psychic"],
+          "moves": ["Psybeam", "Headbutt", "Hypnosis", "Meditate"]
+        }
+      ]
+    },
+    {
+      "name": "Psychic Tyron",
+      "team": [
+        {
+          "species": "Slowpoke/Mr. Mime",
+          "level": 40,
+          "types": ["Water", "Fairy"],
+          "moves": ["Confusion", "Water Pulse", "Light Screen", "Encore"]
+        }
+      ]
+    }
+  ],
+  "leader_team": [
+    {
+      "species": "Hypno/Mr. Mime",
+      "level": 41,
+      "types": ["Psychic", "Fairy"],
+      "ability": "Soundproof",
+      "held_item": "Twisted Spoon",
+      "moves": [
+        "Nasty Plot",
+        "Baton Pass",
+        "Hypnosis",
+        "Psychic"
+      ]
+    },
+    {
+      "species": "Espeon/Umbreon",
+      "level": 41,
+      "types": ["Psychic", "Dark"],
+      "ability": "Synchronize",
+      "held_item": "Twisted Spoon",
+      "moves": [
+        "Moonlight",
+        "Future Sight",
+        "Dark Pulse",
+        "Light Screen"
+      ]
+    },
+    {
+      "species": "Alakazam/Slowbro",
+      "level": 42,
+      "types": ["Psychic", "Water"],
+      "ability": "Oblivious",
+      "held_item": "Twisted Spoon",
+      "moves": [
+        "Psycho Cut",
+        "Surf",
+        "Recover",
+        "Amnesia"
+      ]
+    },
+    {
+      "species": "Gengar/Alakazam",
+      "level": 45,
+      "types": ["Ghost", "Psychic"],
+      "ability": "Levitate",
+      "is_ace": true,
+      "held_item": "Twisted Spoon",
+      "moves": [
+        "Destiny Bond",
+        "Shadow Ball",
+        "Psycho Cut",
+        "Calm Mind"
+      ]
+    }
+  ],
+  "threat_analysis": "Sabrina commands a lethal Psychic arsenal engineered around Special setup and high-speed destruction. Her lead Hypno/Mr. Mime attempts to boost Special Attack via Nasty Plot and pass boosts or land Hypnosis sleep. Espeon/Umbreon establishes defensive Light Screen while firing Dark Pulse and Future Sight. Alakazam/Slowbro shores up physical bulk with Amnesia and Recover while retaliating with Surf and Psycho Cut. Her terrifying Ace, Gengar/Alakazam (Ghost/Psychic with Levitate), boasts a staggering 130 Special Attack and 120 Speed; it sets up Calm Mind, strikes with STAB Shadow Ball and Psycho Cut, and carries Destiny Bond to take down your sweeper if pushed to critical health.",
+  "tactical_counter_plan": [
+    "Bulbasaur Team Strategy: Venusaur/Aegislash (or Doublade) completely walls Psychic moves with its Steel typing, ignores Poison, and retaliates with super-effective Shadow Claw or Iron Head. Gyarados/Arbok or Snorlax absorbs Special hits and punishes with Crunch and Bite.",
+    "Charmander Team Strategy: Charizard sets up early offensive pressure. Dark-type fusions such as Houndoom/Primeape or Arbok/Dugtrio outspeed and dismantle Sabrina's Psychic core with STAB Crunch, Sucker Punch, and Night Slash. Beware of Gengar/Alakazam's Destiny Bond—bait the move or use priority to finish it.",
+    "Squirtle Team Strategy: Blastoise pairs with Dark or Ghost coverage; Bite and Dark Pulse hit every member for super-effective damage. Alakazam/Weezing or Snorlax tanks Gengar/Alakazam's hits and responds with Shadow Ball or Crunch.",
+    "Countering Destiny Bond & Levitate: Gengar/Alakazam is immune to Ground moves via Levitate. Do not attack blindly with physical contact moves when its health is under 25% to avoid triggering Destiny Bond; use non-damaging setup moves or status, then finish with priority (Shadow Sneak, Sucker Punch, Bite)."
+  ],
+  "rewards": [
+    "Marsh Badge (Ensures obedience of all traded/fused Pokémon up to Lv. 70)",
+    "TM03 (Psyshock)",
+    "3 Wonder Trade Tickets"
+  ]
+}

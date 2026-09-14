@@ -1,0 +1,653 @@
+{
+  "chapter_id": "ch06",
+  "title": "Act 1 - Segment 6: Saffron City to Silph Co. (Marsh Badge)",
+  "act": 1,
+  "hard_mode_level_cap": 45,
+  "gym_duel_limit": 4,
+  "routes_covered": [
+    "Saffron City",
+    "Silph Co. Head Office"
+  ],
+  "vanilla_divergence_alerts": [
+    "HM Slaves: 100% eliminated by 9 reusable Key Item tools. Do NOT instruct players to teach field moves to party members.",
+    "Friendship: Eliminated. All friendship evolutions use static level thresholds (e.g. Baby Pokémon evolve at Lv. 15).",
+    "Trade Evolutions: Evolve naturally at Level 40 OR via Linking Cord (not Level 37)."
+  ],
+  "critical_missables": [],
+  "hotel_milestone_target": {},
+  "active_and_ongoing_quests": [],
+  "boss_ground_truth": {
+    "classic": {
+      "leader": "Sabrina",
+      "team": [
+        {
+          "species": "B122H97",
+          "level": 41,
+          "moves": [
+            "NASTYPLOT",
+            "BATONPASS",
+            "HYPNOSIS",
+            "PSYCHIC"
+          ],
+          "ability_index": 0,
+          "item": "TWISTEDSPOON"
+        },
+        {
+          "species": "B197H196",
+          "level": 41,
+          "moves": [
+            "MOONLIGHT",
+            "FUTURESIGHT",
+            "DARKPULSE",
+            "LIGHTSCREEN"
+          ],
+          "ability_index": 0,
+          "item": "TWISTEDSPOON"
+        },
+        {
+          "species": "B80H65",
+          "level": 42,
+          "moves": [
+            "PSYCHOCUT",
+            "SURF",
+            "RECOVER",
+            "AMNESIA"
+          ],
+          "ability_index": 0,
+          "item": "TWISTEDSPOON"
+        },
+        {
+          "species": "B65H94",
+          "level": 45,
+          "moves": [
+            "DESTINYBOND",
+            "SHADOWBALL",
+            "PSYCHOCUT",
+            "CALMMIND"
+          ],
+          "ability_index": 1,
+          "item": "TWISTEDSPOON"
+        }
+      ],
+      "party_size": 4
+    },
+    "expert": {
+      "leader": "Sabrina",
+      "team": [
+        {
+          "species": "B237H208",
+          "level": 44,
+          "moves": [
+            "BULKUP",
+            "MACHPUNCH",
+            "BULLETPUNCH",
+            "STEALTHROCK"
+          ],
+          "ability": "TECHNICIAN",
+          "item": "SITRUSBERRY",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 252,
+            "DEFENSE": 4,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B55H275",
+          "level": 45,
+          "moves": [
+            "NASTYPLOT",
+            "DISCHARGE",
+            "TRIATTACK",
+            "HYDROPUMP"
+          ],
+          "ability": "ADAPTABILITY",
+          "item": "MYSTICWATER",
+          "nature": "MODEST",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B105H288",
+          "level": 46,
+          "moves": [
+            "PSYCHOCUT",
+            "BONEMERANG",
+            "CLOSECOMBAT",
+            "LEAFBLADE"
+          ],
+          "ability": "JUSTIFIED",
+          "item": "THICKCLUB",
+          "nature": "JOLLY",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B274H293",
+          "level": 48,
+          "moves": [
+            "METEORMASH",
+            "EARTHQUAKE",
+            "ICESHARD",
+            "ZENHEADBUTT"
+          ],
+          "ability": "THICKFAT",
+          "item": "ASSAULTVEST",
+          "nature": "ADAMANT",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 4
+          }
+        }
+      ],
+      "party_size": 4
+    }
+  },
+  "encounters_by_location": {},
+  "wiki_ground_truth": {
+    "Saffron City": {
+      "canonical_slug": "Saffron_City",
+      "lead_summary": "1,000 at the train station\n}}\nSaffron City is one of the most central cities of the Kanto Region and is home to Sabrina, the Psychic Type Gym Leader.",
+      "items": [
+        {
+          "internal_id": "machine_DARK",
+          "quantity": "",
+          "name": "TM63 Embargo",
+          "location_details": "West of Silph Co. Head Office Entrance"
+        },
+        {
+          "internal_id": "machine_PSYCHIC",
+          "quantity": "",
+          "name": "TM29 Psychic",
+          "location_details": "Given by the elderly man in the house right of the PokéCenter."
+        },
+        {
+          "internal_id": "MAXREVIVE",
+          "quantity": "",
+          "name": "Max Revive",
+          "location_details": "By the Tire yard, near West Gate."
+        },
+        {
+          "internal_id": "ROCKETMEAL",
+          "quantity": "",
+          "name": "Rocket Meal",
+          "location_details": "Given by the Team Rocket Grunt in the restaurant, daily, before clearing Silph Co. while while wearing the Team Rocket Uniform."
+        },
+        {
+          "internal_id": "FANCYMEAL",
+          "quantity": "",
+          "name": "Fancy Meal",
+          "location_details": "Given by the waitress in the restaurant, daily, after clearing Silph Co."
+        },
+        {
+          "internal_id": "POTION",
+          "quantity": "",
+          "name": "Potion",
+          "location_details": "In the trash in the restaurant."
+        },
+        {
+          "internal_id": "JAWFOSSIL",
+          "quantity": "",
+          "name": "Jaw Fossil",
+          "location_details": "Given as a choice by Super Nerd Miguel after defeating him in the restaurant."
+        },
+        {
+          "internal_id": "SAILFOSSIL",
+          "quantity": "",
+          "name": "Sail Fossil",
+          "location_details": "Given as a choice by Super Nerd Miguel after defeating him in the restaurant."
+        },
+        {
+          "internal_id": "LAVACOOKIE",
+          "quantity": "",
+          "name": "Lava Cookie",
+          "location_details": "Given by the man in the house left of the PokéCenter."
+        },
+        {
+          "internal_id": "SHINYSTONE",
+          "quantity": "",
+          "name": "Shiny Stone",
+          "location_details": "Given by the lady in the house left of the PokéCenter."
+        },
+        {
+          "internal_id": "LIFEORB",
+          "quantity": "",
+          "name": "Life Orb",
+          "location_details": "Given by a Police Office in the Police Station, after clearing Silph Co."
+        },
+        {
+          "internal_id": "MANKEYPAW",
+          "quantity": "",
+          "name": "Mankey Paw",
+          "location_details": "Bought from a Rocket Grunt for ₽20,000 outside the Poké Mart, once daily after clearing Silph Co."
+        },
+        {
+          "internal_id": "DIAMOND",
+          "quantity": "",
+          "name": "Diamond",
+          "location_details": "Given by the Hiker in the hotel after giving him a Rare Bone."
+        },
+        {
+          "internal_id": "DESTINYKNOT",
+          "quantity": "",
+          "name": "Destiny Knot",
+          "location_details": "Given by the Maid in the hotel after gathering her 8 Growlithes."
+        },
+        {
+          "internal_id": "FISTPLATE",
+          "quantity": "",
+          "name": "Fist Plate",
+          "location_details": "In the tire yard, after catching [[Legendary_Pokémon#Arceus"
+        },
+        {
+          "internal_id": "MINDPLATE",
+          "quantity": "",
+          "name": "Mind Plate",
+          "location_details": "Near the Poké Mart, next to the Silph Co. building, after catching [[Legendary_Pokémon#Arceus"
+        },
+        {
+          "internal_id": "FRESHWATER",
+          "quantity": "",
+          "name": "Fresh Water",
+          "location_details": "Given by a young man in the washroom."
+        },
+        {
+          "internal_id": "ENERGYPOWDER",
+          "quantity": "",
+          "name": "Energy Powder",
+          "location_details": "Given by a girl in the washroom if the player is [[Age"
+        },
+        {
+          "internal_id": "GOLDRING",
+          "quantity": "",
+          "name": "Gold Ring",
+          "location_details": "Found in the leftmost sink in the washroom."
+        },
+        {
+          "internal_id": "PPMAX",
+          "quantity": "",
+          "name": "PP Max",
+          "location_details": "Given by the lady after giving her lost ring."
+        },
+        {
+          "internal_id": "DAMPMULCH",
+          "quantity": "",
+          "name": "Damp Mulch",
+          "location_details": "Random chance in one of the toilets, daily."
+        },
+        {
+          "internal_id": "GOOEYMULCH",
+          "quantity": "",
+          "name": "Gooey Mulch",
+          "location_details": "Random chance in one of the toilets, daily."
+        },
+        {
+          "internal_id": "GROWTHMULCH",
+          "quantity": "",
+          "name": "Growth Mulch",
+          "location_details": "Random chance in one of the toilets, daily."
+        },
+        {
+          "internal_id": "STABLEMULCH",
+          "quantity": "",
+          "name": "Stable Mulch",
+          "location_details": "Random chance in one of the toilets, daily."
+        },
+        {
+          "internal_id": "BANDLOGO",
+          "quantity": "",
+          "name": "MMMMemorabilia",
+          "location_details": "Given by the drummer in the nightclub after defeating it."
+        },
+        {
+          "internal_id": "BEER",
+          "quantity": "",
+          "name": "Beer",
+          "location_details": "Given by a dancing man in the nightclub after finishing the \"A legendary band\" questline."
+        },
+        {
+          "internal_id": "GENDERBALL",
+          "quantity": "5",
+          "name": "Gender Ball",
+          "location_details": "Given by the Incredible Ball Man."
+        },
+        {
+          "internal_id": "TRADEBALL",
+          "quantity": "5",
+          "name": "Boost Ball",
+          "location_details": "Given by the Incredible Ball Man, after showing him a Pokémon caught with a Gender Ball."
+        },
+        {
+          "internal_id": "ABILITYBALL",
+          "quantity": "5",
+          "name": "Ability Ball",
+          "location_details": "Given by the Incredible Ball Man, after showing him a Pokémon caught with a Boost Ball."
+        },
+        {
+          "internal_id": "VIRUSBALL",
+          "quantity": "5",
+          "name": "Virus Ball",
+          "location_details": "Given by the Incredible Ball Man, after showing him a Pokémon caught with an Ability Ball."
+        },
+        {
+          "internal_id": "PERFECTBALL",
+          "quantity": "5",
+          "name": "Perfect Ball",
+          "location_details": "Given by the Incredible Ball Man, after showing him a Pokémon caught with a Virus Ball."
+        },
+        {
+          "internal_id": "SHINYBALL",
+          "quantity": "5",
+          "name": "Glitter Ball",
+          "location_details": "Given by the Incredible Ball Man, after showing him a Pokémon caught with a Perfect Ball."
+        }
+      ],
+      "missable_warnings": [
+        "NOTE: Contains actions that alter player Karma."
+      ]
+    },
+    "Silph Co. Head Office": {
+      "canonical_slug": "Silph_Co._Head_Office",
+      "lead_summary": "Also known as Silph Co. Headquarters, Silph Co. Head Office is an eleven-story building and houses the company behind Pokéballs and DNA Splicers.\nThe first time the player enters the office, it is overrun by Team Rocket, and must be defeated to liberate Saffron City and challenge Sabrina.\nThe keycard is located on 5F, blocked by a Grunt and a warp panel, and is required to open all locked sliding doors.\nThere is a big infirmary on 8F and a small infirmary on 9F where the player can heal their party by interacting with a bed.",
+      "items": [
+        {
+          "internal_id": "UPGRADE",
+          "quantity": "",
+          "name": "Upgrade",
+          "location_details": "Given by the Receptionist after defeating Team Rocket."
+        },
+        {
+          "internal_id": "STARDUST",
+          "quantity": "",
+          "name": "Stardust",
+          "location_details": "Given by the female scientist when saving her."
+        },
+        {
+          "internal_id": "ELIXIR",
+          "quantity": "",
+          "name": "Elixir",
+          "location_details": "On the ground near the Tan Warp Panel."
+        },
+        {
+          "internal_id": "HYPERPOTION",
+          "quantity": "",
+          "name": "Hyper Potion",
+          "location_details": "On the ground near the Blue Warp Panel."
+        },
+        {
+          "internal_id": "FULLHEAL",
+          "quantity": "",
+          "name": "Full Heal",
+          "location_details": "Hidden by a plant near the southwestern Orange Warp Panel."
+        },
+        {
+          "internal_id": "DNASPLICERS",
+          "quantity": "",
+          "name": "DNA Splicers",
+          "location_details": "Hidden by a Flower Pot near the stairs."
+        },
+        {
+          "internal_id": "machine_FAIRY",
+          "quantity": "",
+          "name": "TM107 Play Rough",
+          "location_details": "On the ground in the gaming room."
+        },
+        {
+          "internal_id": "FULLHEAL",
+          "quantity": "",
+          "name": "Full Heal",
+          "location_details": "On the ground in the western storage room."
+        },
+        {
+          "internal_id": "FULLRESTORE",
+          "quantity": "",
+          "name": "Full Restore",
+          "location_details": "On the ground in the western storage room."
+        },
+        {
+          "internal_id": "PROTEIN",
+          "quantity": "",
+          "name": "Protein",
+          "location_details": "On the ground in the western storage room."
+        },
+        {
+          "internal_id": "CARDKEY",
+          "quantity": "",
+          "name": "Card Key",
+          "location_details": "On the ground blocked by Team Rocket Ricky and the Lime Warp Portal."
+        },
+        {
+          "internal_id": "XACCURACY",
+          "quantity": "",
+          "name": "X Accuracy",
+          "location_details": "On the ground in a large closet near the Center."
+        },
+        {
+          "internal_id": "machine_PSYCHIC",
+          "quantity": "",
+          "name": "TM92 Trick Room",
+          "location_details": "On the ground in the western storage room."
+        },
+        {
+          "internal_id": "ULTRABALL",
+          "quantity": "5",
+          "name": "Ultra Ball",
+          "location_details": "On the ground next to the prototype PokéBall."
+        },
+        {
+          "internal_id": "GREATBALL",
+          "quantity": "",
+          "name": "Great Ball",
+          "location_details": "In the trash in the northwestern room."
+        },
+        {
+          "internal_id": "ELIXIR",
+          "quantity": "",
+          "name": "Elixir",
+          "location_details": "Hidden by a Flower Pot in the South-East Corner."
+        },
+        {
+          "internal_id": "CARBOS",
+          "quantity": "",
+          "name": "Carbos",
+          "location_details": "On the ground in the Assembly Point Room."
+        },
+        {
+          "internal_id": "RARECANDY",
+          "quantity": "",
+          "name": "Rare Candy",
+          "location_details": "On the ground in the Assembly Point Room."
+        },
+        {
+          "internal_id": "MASTERBALL",
+          "quantity": "",
+          "name": "Master Ball",
+          "location_details": "By the Pokéball Production Machine after defeating Team Rocket."
+        },
+        {
+          "internal_id": "HPUP",
+          "quantity": "",
+          "name": "HP Up",
+          "location_details": "On the ground in Eastern Computer Room."
+        },
+        {
+          "internal_id": "HYPERPOTION",
+          "quantity": "",
+          "name": "Hyper Potion",
+          "location_details": "On the ground in the meeting room."
+        },
+        {
+          "internal_id": "SUPERPOTION",
+          "quantity": "",
+          "name": "Super Potion",
+          "location_details": "By the flower pot near the Western Server Room."
+        },
+        {
+          "internal_id": "CALCIUM",
+          "quantity": "",
+          "name": "Calcium",
+          "location_details": "Hidden by the servers in the Western Server Room."
+        },
+        {
+          "internal_id": "XDEFENSE",
+          "quantity": "",
+          "name": "X Defense",
+          "location_details": "On the ground in the Infirmary."
+        },
+        {
+          "internal_id": "ELIXIR",
+          "quantity": "",
+          "name": "Elixir",
+          "location_details": "On the ground in the giant storage room."
+        },
+        {
+          "internal_id": "PPMAX",
+          "quantity": "",
+          "name": "PP Max",
+          "location_details": "On the ground in the giant storage room."
+        },
+        {
+          "internal_id": "MAXPOTION",
+          "quantity": "",
+          "name": "Max Potion",
+          "location_details": "Hidden by some beams in the giant storage room."
+        },
+        {
+          "internal_id": "SUPERSPLICERS",
+          "quantity": "",
+          "name": "Super Splicers",
+          "location_details": "On the ground in the giant storage room."
+        },
+        {
+          "internal_id": "DIREHIT",
+          "quantity": "",
+          "name": "Dire Hit",
+          "location_details": "Hidden in a carton in the giant storage room."
+        },
+        {
+          "internal_id": "FOCUSBAND",
+          "quantity": "",
+          "name": "Focus Band",
+          "location_details": "On the ground in the giant storage room."
+        },
+        {
+          "internal_id": "HYPERPOTION",
+          "quantity": "",
+          "name": "Hyper Potion",
+          "location_details": "Hidden by some beams in the giant storage room."
+        },
+        {
+          "internal_id": "GUARDSPEC",
+          "quantity": "",
+          "name": "Guard Spec.",
+          "location_details": "Hidden in a carton in the giant storage room."
+        },
+        {
+          "internal_id": "DNAREVERSER",
+          "quantity": "",
+          "name": "DNA Reverser",
+          "location_details": "On the ground in the giant storage room."
+        },
+        {
+          "internal_id": "PPMAX",
+          "quantity": "",
+          "name": "PP Max",
+          "location_details": "On the ground in the giant storage room."
+        },
+        {
+          "internal_id": "QUICKBALL",
+          "quantity": "",
+          "name": "Quick Ball",
+          "location_details": "On the ground in the giant storage room."
+        }
+      ],
+      "missable_warnings": []
+    }
+  },
+  "location_items_and_statics": [
+    {
+      "type": "Static Encounter",
+      "pokemon": "Kecleon",
+      "level": "40",
+      "location": "Saffron City",
+      "notes": "Quest Encounter"
+    },
+    {
+      "type": "Static Encounter",
+      "pokemon": "Stufful",
+      "level": "35",
+      "location": "Saffron City",
+      "notes": ""
+    },
+    {
+      "type": "Static Encounter",
+      "pokemon": "Rotom",
+      "level": "45",
+      "location": "Saffron City (House beside Silph Co. Building, after beating Team Rocket, only at night)",
+      "notes": "Respawned by defeating the Pokemon Champion a 2nd time (only if Rotom was not caught)."
+    }
+  ],
+  "authoring_guidance": {
+    "splicing_safety": "Explicitly state: HEAD species, BODY species, and WHICH ability to select at the DNA Splicer prompt.",
+    "unfuse_safety": "Unfusing at Pokémon Mart costs $300. Check move retention before unfusing.",
+    "gym_duel_rule": "Strict 4v4 party limit! Instruct player to deposit extra party members in the PC before entering gym arena.",
+    "time_of_day": "Provide Day/Night alternative suggestions so players are never blocked by real-time spawn windows.",
+    "stone_evolutions": "Advisory: Do NOT use evolution stones prematurely on stone-evolvers (e.g. Nidorino) before key level-up moves are learned.",
+    "undercover_informant_rocket": "Guide player to join Team Rocket for disguises/missions, BUT report crimes to police officer for +10 Karma and Diancie unlock!"
+  }
+}

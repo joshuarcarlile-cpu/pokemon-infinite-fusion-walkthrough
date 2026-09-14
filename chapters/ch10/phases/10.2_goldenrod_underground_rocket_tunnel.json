@@ -1,0 +1,33 @@
+{
+  "name": "Goldenrod Underground Tunnel & Rocket Cell",
+  "summary": "Descend into the vibrant subterranean bazaar of the Goldenrod Underground Tunnel. Browse the Pokemon Hairdresser, the Weekend Bargain Shop, and the Bitter Herb Shop. Infiltrate the storage wing to bust a clandestine Team Rocket cell and report their contraband to the police for a +10 Karma boost.",
+  "items": [
+    {
+      "name": "Coin Case",
+      "method": "Found on the table in the underground hallway alcove",
+      "type": "Key Item"
+    },
+    {
+      "name": "Super Potion",
+      "method": "Lying near the storage room crates behind the security gate",
+      "type": "Medicine"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Team Rocket Grunt",
+      "team": [
+        {"species": "Rattata/Koffing", "level": 48, "types": ["Normal", "Poison"]},
+        {"species": "Zubat/Ekans", "level": 49, "types": ["Poison", "Flying"]}
+      ]
+    },
+    {
+      "name": "Super Nerd Eric",
+      "team": [
+        {"species": "Grimer/Magnemite", "level": 48, "types": ["Poison", "Electric"]},
+        {"species": "Muk/Magneton", "level": 50, "types": ["Poison", "Electric"]}
+      ]
+    }
+  ],
+  "encounters": {}
+}

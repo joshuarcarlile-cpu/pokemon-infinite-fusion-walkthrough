@@ -1,0 +1,104 @@
+{
+  "starter": "Bulbasaur",
+  "name": "Team Bulbasaur: Grass Momentum & Status Control",
+  "archetype": "Balanced attrition, sleep suppression, and Ice/Special wallbreaking",
+  "gym_duel_core": [1, 2, 3, 4, 5, 6],
+  "gym_duel_rationale": "Advancing toward Tier 4 League rematches and challenging primordial dragons requires pinpoint status control. Lapras is the supreme weapon against Rayquaza, leveraging Never-Melt Ice and STAB Ice Beam for an immediate 4x knockout. Venusaur/Charizard and Gyarados/Arbok provide reliable sleep and paralysis to pacify Ho-Gia and Groudon. Kingler/Primeape and Snorlax absorb massive physical and special assaults, while Alakazam/Weezing delivers swift special executions against ancient dragon and steel defenders.",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Venusaur/Charizard",
+      "status": "Active in Party (Starter Splice & Sleep Anchor)",
+      "current_level": 92,
+      "types": ["Grass", "Fire"],
+      "ability": "Overgrow",
+      "held_item": "Leftovers",
+      "nature": "Modest",
+      "role": "Special Sweeper / Status Anchor",
+      "current_reached_moveset": ["Flamethrower", "Petal Dance", "Sleep Powder", "Synthesis"]
+    },
+    {
+      "slot": 2,
+      "species": "Lapras",
+      "status": "Active in Party (Dragonite & Rayquaza Slayer)",
+      "current_level": 91,
+      "types": ["Water", "Ice"],
+      "ability": "Water Absorb",
+      "held_item": "Never-Melt Ice",
+      "nature": "Modest",
+      "role": "Special Tank / Dragon Slayer",
+      "current_reached_moveset": ["Ice Beam", "Hydro Pump", "Confuse Ray", "Body Slam"]
+    },
+    {
+      "slot": 3,
+      "species": "Kingler/Primeape",
+      "status": "Active in Party (Physical Wallbreaker)",
+      "current_level": 91,
+      "types": ["Water", "Fighting"],
+      "ability": "Hyper Cutter",
+      "held_item": "Expert Belt",
+      "nature": "Adamant",
+      "role": "Physical Wallbreaker",
+      "current_reached_moveset": ["Close Combat", "Crabhammer", "Cross Chop", "Protect"]
+    },
+    {
+      "slot": 4,
+      "species": "Gyarados/Arbok",
+      "status": "Active in Party (Intimidate Pivot)",
+      "current_level": 91,
+      "types": ["Water", "Poison"],
+      "ability": "Intimidate",
+      "held_item": "Black Sludge",
+      "nature": "Impish",
+      "role": "Defensive Pivot / Setup Sweeper",
+      "current_reached_moveset": ["Aqua Tail", "Crunch", "Dragon Dance", "Glare"]
+    },
+    {
+      "slot": 5,
+      "species": "Alakazam/Weezing",
+      "status": "Active in Party (Special Breaker)",
+      "current_level": 91,
+      "types": ["Psychic", "Poison"],
+      "ability": "Synchronize",
+      "held_item": "Twisted Spoon",
+      "nature": "Timid",
+      "role": "Fast Special Breaker",
+      "current_reached_moveset": ["Psychic", "Sludge Bomb", "Recover", "Calm Mind"]
+    },
+    {
+      "slot": 6,
+      "species": "Snorlax",
+      "status": "Active in Party (Specially Defensive Anchor)",
+      "current_level": 91,
+      "types": ["Normal"],
+      "ability": "Thick Fat",
+      "held_item": "Chesto Berry",
+      "nature": "Careful",
+      "role": "Specially Defensive Wall",
+      "current_reached_moveset": ["Body Slam", "Rest", "Sleep Talk", "Crunch"]
+    }
+  ],
+  "flex_bench": [
+    {
+      "species": "Butterfree",
+      "level": 85,
+      "types": ["Bug", "Flying"],
+      "role": "Compound Eyes Sleep Pivot",
+      "recommended_moves": ["Sleep Powder", "Bug Buzz", "Air Slash", "Quiver Dance"]
+    },
+    {
+      "species": "Electabuzz",
+      "level": 85,
+      "types": ["Electric"],
+      "role": "Speed Pivot / Water Counter",
+      "recommended_moves": ["Thunderbolt", "Thunder Punch", "Low Kick", "Light Screen"]
+    },
+    {
+      "species": "Hitmonlee",
+      "level": 85,
+      "types": ["Fighting"],
+      "role": "High-Velocity Physical Striker",
+      "recommended_moves": ["High Jump Kick", "Close Combat", "Fake Out", "Stone Edge"]
+    }
+  ]
+}

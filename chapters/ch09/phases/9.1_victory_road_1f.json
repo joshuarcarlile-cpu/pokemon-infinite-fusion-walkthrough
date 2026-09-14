@@ -1,0 +1,49 @@
+{
+  "name": "Victory Road 1F Boulder Trials",
+  "summary": "Enter the foreboding caverns of Victory Road from Route 23. Deploy the Dolly to roll heavy granite boulders onto white pressure plates, unlocking ancient stone gates to advance deeper into the cave complex.",
+  "items": [
+    {
+      "name": "TM52 Focus Blast",
+      "method": "Found on the elevated northeastern plateau past the first boulder gate",
+      "type": "TM"
+    },
+    {
+      "name": "Rare Candy",
+      "method": "Lying on the cavern floor in the far northeast alcove",
+      "type": "Level-Up Item"
+    },
+    {
+      "name": "Full Restore",
+      "method": "Hidden in the isolated rock outcropping near the northeast corner",
+      "type": "Medicine"
+    },
+    {
+      "name": "Ultra Ball",
+      "method": "Hidden inside a fractured rock near the central corridor",
+      "type": "Poké Ball"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Cooltrainer Lindsay",
+      "team": [
+        {"species": "Bellsprout", "level": 40, "types": ["Grass", "Poison"]},
+        {"species": "Weepinbell/Skiploom", "level": 43, "types": ["Grass", "Flying"]},
+        {"species": "Victreebel/Bellossom", "level": 46, "types": ["Grass", "Poison"]}
+      ]
+    }
+  ],
+  "encounters": {
+    "Cave": [
+      {"dex_id": "095", "name": "Onix", "types": ["Rock", "Ground"], "levels": "40-46", "rates": "30%"},
+      {"dex_id": "075", "name": "Graveler", "types": ["Rock", "Ground"], "levels": "32", "rates": "20%"},
+      {"dex_id": "066", "name": "Machop", "types": ["Fighting"], "levels": "32", "rates": "15%"},
+      {"dex_id": "217", "name": "Ursaring", "types": ["Normal"], "levels": "42", "rates": "10%"},
+      {"dex_id": "067", "name": "Machoke", "types": ["Fighting"], "levels": "44-46", "rates": "5%"},
+      {"dex_id": "042", "name": "Golbat", "types": ["Poison", "Flying"], "levels": "44", "rates": "5%"},
+      {"dex_id": "024", "name": "Arbok", "types": ["Poison"], "levels": "44", "rates": "5%"},
+      {"dex_id": "028", "name": "Sandslash", "types": ["Ground"], "levels": "44", "rates": "5%"},
+      {"dex_id": "105", "name": "Marowak", "types": ["Ground"], "levels": "44-46", "rates": "5%"}
+    ]
+  }
+}

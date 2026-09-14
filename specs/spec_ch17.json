@@ -1,0 +1,37 @@
+{
+  "chapter_id": "ch17",
+  "title": "Act 2 - Chapter 8: Route 46 Mountain Descent & Johto Finale",
+  "act": 2,
+  "hard_mode_level_cap": 72,
+  "gym_duel_limit": 5,
+  "routes_covered": [
+    "Route 46",
+    "New Bark Town"
+  ],
+  "expected_classic_spawns": [
+    "Donphan",
+    "Fearow",
+    "Gligar",
+    "Graveler",
+    "Slaking",
+    "Wigglytuff"
+  ],
+  "prohibited_spawns": [
+    "Beldum",
+    "Torchic",
+    "Mudkip",
+    "Treecko",
+    "Chimchar",
+    "Piplup",
+    "Turtwig",
+    "Mewtwo",
+    "Moltres",
+    "Zapdos",
+    "Articuno"
+  ],
+  "required_starters": [
+    "Bulbasaur",
+    "Charmander",
+    "Squirtle"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "leader": "Super Nerd Miguel",
+  "title": "The Ruins of Alph Archaeologist",
+  "gym": "Ruins of Alph Deep Excavation",
+  "badge": "Sada / Sado Archeology Outfit",
+  "level_cap": 63,
+  "hard_mode_level_cap": 63,
+  "recommended_party_level": 60,
+  "gym_duel_limit": 5,
+  "party_selection_rule": "5 vs 5 Party Selection (select your 5 designated Pokémon from your active party when prompted at battle start)",
+  "overview": "Super Nerd Miguel commands an ancient fossil team unearthed from the subterranean strata of the Ruins of Alph. Kabutops/Omastar leads with Swift Swim and impenetrable physical shell defenses, though it is crippled by an extreme 4x Grass weakness. Aron/Sableye presents a deceptive defensive typing: as a Steel/Ghost hybrid, it is completely immune to Normal and Fighting attacks, forcing you to exploit Fire or Ground moves. Lairon/Medicham hits brutally with Pure Power-boosted physical strikes. Tyrantrum/Dragonite wields ferocious 129 Base Attack Rock/Flying power with Strong Jaw, while his ace Aerodactyl outspeeds most foes with Stone Edge and Aerial Ace. Overcoming Miguel grants unhindered access to the deep chambers and unlocks the Sada / Sado Outfit.",
+  "roster": [
+    {
+      "species": "Kabutops/Omastar",
+      "level": 51,
+      "types": ["Rock", "Water"],
+      "ability": "Shell Armor",
+      "item": "Hard Stone",
+      "moves": ["Ancient Power", "Hydro Pump", "Mud Shot", "Protect"],
+      "tactics": "Ancient physical tank. Shell Armor prevents critical hits, while Ancient Power threatens stat boosts. Exploit its devastating 4x Grass weakness to annihilate it with a single Petal Dance."
+    },
+    {
+      "species": "Aron/Sableye",
+      "level": 53,
+      "types": ["Steel", "Ghost"],
+      "ability": "Sturdy",
+      "item": "Metal Coat",
+      "moves": ["Shadow Sneak", "Iron Head", "Confuse Ray", "Will-O-Wisp"],
+      "tactics": "Defensive disruptor. Completely immune to Normal and Fighting moves. Sturdy ensures it survives a fatal hit. Burn it down with Flamethrower or blast it with Earthquake."
+    },
+    {
+      "species": "Lairon/Medicham",
+      "level": 53,
+      "types": ["Steel", "Psychic"],
+      "ability": "Pure Power",
+      "item": "Twisted Spoon",
+      "moves": ["Zen Headbutt", "Iron Head", "High Jump Kick", "Rock Slide"],
+      "tactics": "Pure Power physical breaker. Pure Power doubles its effective Attack stat to threaten heavy damage. Roast it with Fire STAB or hit its Ground and Dark weaknesses."
+    },
+    {
+      "species": "Tyrantrum/Dragonite",
+      "level": 53,
+      "types": ["Rock", "Flying"],
+      "ability": "Strong Jaw",
+      "item": "Dragon Fang",
+      "moves": ["Dragon Claw", "Rock Slide", "Wing Attack", "Crunch"],
+      "tactics": "Colossal 129 Attack physical juggernaut. Rock/Flying typing leaves it vulnerable to Ice, Water, Electric, Rock, and Steel. Hit it with fast Special Water STAB like Hydro Pump."
+    },
+    {
+      "species": "Aerodactyl",
+      "level": 55,
+      "types": ["Rock", "Flying"],
+      "ability": "Pressure",
+      "item": "Sharp Beak",
+      "moves": ["Stone Edge", "Aerial Ace", "Crunch", "Roar"],
+      "tactics": "High-Speed aerial predator. Boasts 130 Speed and fires lethal Stone Edge criticals. Blunt its physical damage with Intimidate and take it down with Water, Ice, or Electric attacks."
+    }
+  ],
+  "starter_strategies": {
+    "bulbasaur": "Venusaur/Charizard obliterates Kabutops/Omastar with 4x STAB Petal Dance and incinerates Aron/Sableye with Flamethrower. Gyarados/Arbok blunts Aerodactyl's Attack with Intimidate and washes away rock hybrids with Aqua Tail. Alakazam/Weezing shreds Lairon/Medicham with STAB Psychic.",
+    "charmander": "Charizard/Venusaur melts Aron/Sableye and Lairon/Medicham with Flamethrower and cleanly eliminates Kabutops/Omastar with Petal Dance. Alakazam/Raichu electrocutes Tyrantrum/Dragonite and Aerodactyl with Thunderbolt. Primeape/Sandslash crushes Steel/Rock foes with Earthquake.",
+    "squirtle": "Blastoise/Fearow douses Kabutops/Omastar, Tyrantrum/Dragonite, and Aerodactyl with massive STAB Hydro Pump artillery. Jolteon/Sandslash shocks rock flyers with Discharge and crumbles Aron/Sableye with Earthquake. Arbok/Primeape applies Intimidate to curb Aerodactyl's Stone Edge."
+  }
+}

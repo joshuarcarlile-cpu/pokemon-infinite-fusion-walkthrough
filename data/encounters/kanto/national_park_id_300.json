@@ -1,0 +1,161 @@
+{
+  "location": "National Park (ID 300)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "010",
+        "name": "Caterpie",
+        "type1": "Bug",
+        "type2": "",
+        "levels": "7-17",
+        "catch_rate": "255",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "011",
+        "name": "Metapod",
+        "type1": "Bug",
+        "type2": "",
+        "levels": "9-25",
+        "catch_rate": "120",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "012",
+        "name": "Butterfree",
+        "type1": "Bug",
+        "type2": "Flying",
+        "levels": "12-15",
+        "catch_rate": "45",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "013",
+        "name": "Weedle",
+        "type1": "Bug",
+        "type2": "Poison",
+        "levels": "7-17",
+        "catch_rate": "255",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "014",
+        "name": "Kakuna",
+        "type1": "Bug",
+        "type2": "Poison",
+        "levels": "9-25",
+        "catch_rate": "120",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "015",
+        "name": "Beedrill",
+        "type1": "Bug",
+        "type2": "Poison",
+        "levels": "12-15",
+        "catch_rate": "45",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "046",
+        "name": "Paras",
+        "type1": "Bug",
+        "type2": "Grass",
+        "levels": "15-17",
+        "catch_rate": "190",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "048",
+        "name": "Venonat",
+        "type1": "Bug",
+        "type2": "Poison",
+        "levels": "10-16",
+        "catch_rate": "190",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "123",
+        "name": "Scyther",
+        "type1": "Bug",
+        "type2": "Flying",
+        "levels": "23-34",
+        "catch_rate": "45",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "127",
+        "name": "Pinsir",
+        "type1": "Bug",
+        "type2": "",
+        "levels": "23-34",
+        "catch_rate": "45",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "430",
+        "name": "Oricorio",
+        "type1": "Fire",
+        "type2": "Flying",
+        "levels": "15",
+        "catch_rate": "45",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "431",
+        "name": "Oricorio",
+        "type1": "Electric",
+        "type2": "Flying",
+        "levels": "15",
+        "catch_rate": "45",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "432",
+        "name": "Oricorio",
+        "type1": "Psychic",
+        "type2": "Flying",
+        "levels": "15",
+        "catch_rate": "45",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "433",
+        "name": "Oricorio",
+        "type1": "Ghost",
+        "type2": "Flying",
+        "levels": "15",
+        "catch_rate": "45",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

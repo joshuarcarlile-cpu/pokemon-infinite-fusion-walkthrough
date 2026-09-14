@@ -1,0 +1,28 @@
+{
+  "title": "Sprout_Tower",
+  "url": "https://infinitefusion.fandom.com/wiki/Sprout_Tower",
+  "lead_summary": "Sprout Tower is the tower on the northern end of Violet City. It is a religious site where visitors are allowed on the first floor, but only the monks are permitted on the upper floors. On the top floor is the Golbat Boot key item which is required to progress through the Ice Mountains. There are also four Bellsprout Statues on the top floor, which if taken will lower the player's Karma by 5 each.",
+  "missable_warnings": [
+    "NOTE: Contains actions that alter player Karma."
+  ],
+  "items": [
+    {
+      "internal_id": "BELLSPROUTSTATUE",
+      "quantity": "",
+      "name": "Bellsprout Statues",
+      "location_details": "At the sides of the room."
+    },
+    {
+      "internal_id": "WAILMERPAIL",
+      "quantity": "",
+      "name": "Golbat Boot",
+      "location_details": "On the table at the back of the room."
+    }
+  ],
+  "sections": [
+    "Items",
+    "Puzzle",
+    "Layout"
+  ],
+  "raw_wikitext": "{{InfoboxLocation\n|region=Johto\n|location_image=Sprout_Tower_1F.png\n|map_image=Sprout_Tower_Map.png\n|connection_1_direction=south\n|connection_1_location=Violet City\n}}\nSprout Tower is the tower on the northern end of [[Violet City]]. It is a religious site where visitors are allowed on the first floor, but only the monks are permitted on the upper floors. On the top floor is the Golbat Boot key item which is required to progress through the [[Ice Mountains]]. There are also four Bellsprout Statues on the top floor, which if taken will lower the player's [[Karma]] by 5 each.\n\n==Items==\n{{ItemTable/Header}}\n{{ItemTable/Section|6F}}\n{{ItemTable/Data|BELLSPROUTSTATUE||Bellsprout Statues|At the sides of the room.|}}\n{{ItemTable/Data|WAILMERPAIL||Golbat Boot|On the table at the back of the room.|GolbatBoot_VioletCity.png}}\n{{ItemTable/Footer}}\n{{Clear}}\n==Puzzle==\n[[File:SproutTower.mp4|right|thumb|A player's route to the top floor]]\nThe player must reach the top floor to obtain the Golbat Boot, however on each floor are NPCs who will send the player back down to the previous floor.\n\nOn 2F and 3F are the monks. The player will be caught if they enter a monk's line of sight, the same way NPC trainers will notice the player. Most of the monks will stand still and turn at regular intervals, while some will move along a set path.\n\nOn 4F are Bellsprouts who will catch the player by coming into contact. The Bellsprouts will wander around and will move towards the player if they get close.\n\nOn 5F, in addition to Bellsprouts are some Weepinbells that dash back and forth from one wall to another. They will also catch the player by coming into contact with them. 5F also has holes in the floor that the player can fall through.\n\nOn 6F are Victreebels which will follow a circular single tile wide path. They will catch the player by coming into contact with them. The player must time their movements to stay in between the Victreebels, following the same path.{{Clear}}\n\n== Layout==\n{| class=\"roundy\" style=\"margin:auto; background: #000; border: 3px solid #{{Locationcolor/light|building}}\"\n|-\n! style=\"background:#{{Locationcolor/dark|building}}; {{roundytr|5px}}\" |1F\n! style=\"background:#{{Locationcolor/dark|building}}; {{roundytr|5px}}\" |2F\n|-\n|[[File:Sprout_Tower_1F.png|400x320px]]\n|[[File:Sprout_Tower_2F.png|480x400px]]\n|-\n! style=\"background:#{{Locationcolor/dark|building}}; {{roundytr|5px}}\" |3F\n! style=\"background:#{{Locationcolor/dark|building}}; {{roundytr|5px}}\" |4F\n|-\n|[[File:Sprout_Tower_3F.png|480x400px]]\n|[[File:Sprout_Tower_4F.png|480x400px]]\n|-\n! style=\"background:#{{Locationcolor/dark|building}}; {{roundytr|5px}}\" |5F\n! style=\"background:#{{Locationcolor/dark|building}}; {{roundytr|5px}}\" |6F\n|-\n|[[File:Sprout_Tower_5F.png|480x400px]]\n|[[File:Sprout_Tower_6F.png|480x400px]]\n|-\n| colspan=\"2\" style=\"background:#{{Locationcolor/dark|building}}; {{roundybottom|5px}}\" |&nbsp;\n|}\n\n[[Category:Locations]]\n[[Category:Johto]]"
+}

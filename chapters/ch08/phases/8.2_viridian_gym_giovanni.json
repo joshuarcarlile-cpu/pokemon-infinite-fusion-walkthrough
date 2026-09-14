@@ -1,0 +1,49 @@
+{
+  "name": "Viridian City Gym & Giovanni Showdown",
+  "summary": "The locked doors of Viridian Gym have finally opened. Solve the spin-arrow floor tile puzzle, defeat the 9 junior gym trainers, and confront Gym Leader Giovanni in a 5 vs 5 clash to earn the Earth Badge and TM26 Earthquake.",
+  "items": [
+    {
+      "name": "Earth Badge",
+      "method": "Defeat Gym Leader Giovanni in the 5 vs 5 gym match",
+      "type": "Gym Badge"
+    },
+    {
+      "name": "TM26 Earthquake",
+      "method": "Gift from Giovanni upon earning the Earth Badge",
+      "type": "TM"
+    },
+    {
+      "name": "Revive",
+      "method": "Hidden in the northwest corner beyond the spin-arrow tracks",
+      "type": "Medicine"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Blackbelt Atsushi",
+      "team": [
+        {"species": "Machoke", "level": 48, "types": ["Fighting"]},
+        {"species": "Hitmonlee", "level": 48, "types": ["Fighting"]}
+      ]
+    },
+    {
+      "name": "Cooltrainer Samuel",
+      "team": [
+        {"species": "Nidoking", "level": 50, "types": ["Poison", "Ground"]},
+        {"species": "Sandslash", "level": 50, "types": ["Ground"]}
+      ]
+    },
+    {
+      "name": "Cooltrainer Justine",
+      "team": [
+        {"species": "Nidoqueen", "level": 50, "types": ["Poison", "Ground"]},
+        {"species": "Marowak", "level": 50, "types": ["Ground"]}
+      ]
+    }
+  ],
+  "encounters": {
+    "In-Game NPC Trade": [
+      {"dex_id": "069", "name": "Bellsprout", "types": ["Grass", "Poison"], "levels": "Trade", "rates": "Trade for Spearow"}
+    ]
+  }
+}

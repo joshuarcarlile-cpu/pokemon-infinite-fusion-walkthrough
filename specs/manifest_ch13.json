@@ -1,0 +1,945 @@
+{
+  "chapter_id": "ch13",
+  "title": "Act 2 - Chapter 4: Ruins of Alph & New Bark Town (Elm's Lab & Johto Starter)",
+  "act": 2,
+  "hard_mode_level_cap": 63,
+  "gym_duel_limit": 5,
+  "routes_covered": [
+    "Route 31",
+    "Route 30",
+    "Cherrygrove City",
+    "Route 29",
+    "New Bark Town",
+    "Ruins of Alph"
+  ],
+  "vanilla_divergence_alerts": [
+    "HM Slaves: 100% eliminated by 9 reusable Key Item tools. Do NOT instruct players to teach field moves to party members.",
+    "Friendship: Eliminated. All friendship evolutions use static level thresholds (e.g. Baby Pokémon evolve at Lv. 15).",
+    "Trade Evolutions: Evolve naturally at Level 40 OR via Linking Cord (not Level 37)."
+  ],
+  "critical_missables": [],
+  "hotel_milestone_target": {},
+  "active_and_ongoing_quests": [],
+  "boss_ground_truth": {},
+  "encounters_by_location": {
+    "Route 31 (ID 261)": {
+      "Grass": [
+        {
+          "name": "Metapod",
+          "dex_id": "011",
+          "types": [
+            "Bug"
+          ],
+          "levels": "50-52"
+        },
+        {
+          "name": "Butterfree",
+          "dex_id": "012",
+          "types": [
+            "Bug",
+            "Flying"
+          ],
+          "levels": "55"
+        },
+        {
+          "name": "Kakuna",
+          "dex_id": "014",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "50-52"
+        },
+        {
+          "name": "Pidgeotto",
+          "dex_id": "017",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "53"
+        },
+        {
+          "name": "Golbat",
+          "dex_id": "042",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "52"
+        },
+        {
+          "name": "Weepinbell",
+          "dex_id": "070",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "50"
+        },
+        {
+          "name": "Noctowl",
+          "dex_id": "164",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "55"
+        },
+        {
+          "name": "Ledian",
+          "dex_id": "166",
+          "types": [
+            "Bug",
+            "Flying"
+          ],
+          "levels": "54-55"
+        },
+        {
+          "name": "Ariados",
+          "dex_id": "168",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "55"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-30"
+        },
+        {
+          "name": "Poliwhirl",
+          "dex_id": "061",
+          "types": [
+            "Water"
+          ],
+          "levels": "35"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Poliwhirl",
+          "dex_id": "061",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Poliwrath",
+          "dex_id": "062",
+          "types": [
+            "Water",
+            "Fighting"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Politoed",
+          "dex_id": "186",
+          "types": [
+            "Water"
+          ],
+          "levels": "40"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Bellossom",
+          "dex_id": "182",
+          "types": [
+            "Grass"
+          ],
+          "levels": "45-50"
+        }
+      ]
+    },
+    "Route 30 (ID 262)": {
+      "Grass": [
+        {
+          "name": "Metapod",
+          "dex_id": "011",
+          "types": [
+            "Bug"
+          ],
+          "levels": "50-52"
+        },
+        {
+          "name": "Butterfree",
+          "dex_id": "012",
+          "types": [
+            "Bug",
+            "Flying"
+          ],
+          "levels": "55"
+        },
+        {
+          "name": "Kakuna",
+          "dex_id": "014",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "50-52"
+        },
+        {
+          "name": "Pidgeotto",
+          "dex_id": "017",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "53"
+        },
+        {
+          "name": "Golbat",
+          "dex_id": "042",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "52"
+        },
+        {
+          "name": "Weepinbell",
+          "dex_id": "070",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "50"
+        },
+        {
+          "name": "Noctowl",
+          "dex_id": "164",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "55"
+        },
+        {
+          "name": "Ledian",
+          "dex_id": "166",
+          "types": [
+            "Bug",
+            "Flying"
+          ],
+          "levels": "54-55"
+        },
+        {
+          "name": "Ariados",
+          "dex_id": "168",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "55"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-30"
+        },
+        {
+          "name": "Poliwhirl",
+          "dex_id": "061",
+          "types": [
+            "Water"
+          ],
+          "levels": "35"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Poliwhirl",
+          "dex_id": "061",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Poliwrath",
+          "dex_id": "062",
+          "types": [
+            "Water",
+            "Fighting"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Politoed",
+          "dex_id": "186",
+          "types": [
+            "Water"
+          ],
+          "levels": "40"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Bibarel",
+          "dex_id": "383",
+          "types": [
+            "Normal",
+            "Water"
+          ],
+          "levels": "45-50"
+        }
+      ]
+    },
+    "Route 29 (ID 311)": {
+      "Grass": [
+        {
+          "name": "Pidgeotto",
+          "dex_id": "017",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "36-44"
+        },
+        {
+          "name": "Fearow",
+          "dex_id": "022",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "42-44"
+        },
+        {
+          "name": "Noctowl",
+          "dex_id": "164",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "42-44"
+        },
+        {
+          "name": "Ledian",
+          "dex_id": "166",
+          "types": [
+            "Bug",
+            "Flying"
+          ],
+          "levels": "44-48"
+        },
+        {
+          "name": "Ariados",
+          "dex_id": "168",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "42-45"
+        },
+        {
+          "name": "Jumpluff",
+          "dex_id": "189",
+          "types": [
+            "Grass",
+            "Flying"
+          ],
+          "levels": "44-46"
+        },
+        {
+          "name": "Ambipom",
+          "dex_id": "254",
+          "types": [
+            "Normal"
+          ],
+          "levels": "45"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Bidoof",
+          "dex_id": "294",
+          "types": [
+            "Normal"
+          ],
+          "levels": "5"
+        }
+      ]
+    },
+    "Ruins of Alph (ID 235)": {
+      "Cave": [
+        {
+          "name": "Unown",
+          "dex_id": "201",
+          "types": [
+            "Psychic"
+          ],
+          "levels": "25-30"
+        }
+      ]
+    },
+    "Ruins of Alph (ID 342)": {
+      "Grass": [
+        {
+          "name": "Natu",
+          "dex_id": "177",
+          "types": [
+            "Psychic",
+            "Flying"
+          ],
+          "levels": "28-44"
+        },
+        {
+          "name": "Smeargle",
+          "dex_id": "235",
+          "types": [
+            "Normal"
+          ],
+          "levels": "40-42"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Wooper",
+          "dex_id": "194",
+          "types": [
+            "Water",
+            "Ground"
+          ],
+          "levels": "20-30"
+        },
+        {
+          "name": "Quagsire",
+          "dex_id": "195",
+          "types": [
+            "Water",
+            "Ground"
+          ],
+          "levels": "25-40"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Krabby",
+          "dex_id": "098",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Staryu",
+          "dex_id": "120",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Psyduck",
+          "dex_id": "054",
+          "types": [
+            "Water"
+          ],
+          "levels": "25-35"
+        },
+        {
+          "name": "Slowpoke",
+          "dex_id": "079",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "25-35"
+        },
+        {
+          "name": "Shellder",
+          "dex_id": "090",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-25"
+        },
+        {
+          "name": "Krabby",
+          "dex_id": "098",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Staryu",
+          "dex_id": "120",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-25"
+        },
+        {
+          "name": "Gyarados",
+          "dex_id": "130",
+          "types": [
+            "Water",
+            "Flying"
+          ],
+          "levels": "15-25"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Golett",
+          "dex_id": "416",
+          "types": [
+            "Ground",
+            "Ghost"
+          ],
+          "levels": "40-45"
+        }
+      ]
+    }
+  },
+  "wiki_ground_truth": {
+    "Route 31": {
+      "canonical_slug": "Route_31",
+      "lead_summary": "Route 31 is a route that connects Violet City to both Route 30 and the Dark Cave.",
+      "items": [
+        {
+          "internal_id": "ASPEARBERRY",
+          "quantity": "",
+          "name": "Aspear Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "CHERIBERRY",
+          "quantity": "",
+          "name": "Cheri Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "CHESTOBERRY",
+          "quantity": "",
+          "name": "Chesto Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "LEPPABERRY",
+          "quantity": "",
+          "name": "Leppa Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "LUMBERRY",
+          "quantity": "",
+          "name": "Lum Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "ORANBERRY",
+          "quantity": "",
+          "name": "Oran Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "PECHABERRY",
+          "quantity": "",
+          "name": "Pecha Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "PERSIMBERRY",
+          "quantity": "",
+          "name": "Persim Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "RAWSTBERRY",
+          "quantity": "",
+          "name": "Rawst Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "SITRUSBERRY",
+          "quantity": "",
+          "name": "Sitrus Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Route 30": {
+      "canonical_slug": "Route_30",
+      "lead_summary": "Route 30 is a route that connects Route 31 to Cherrygrove City.\nNorth-East of the route is Mr. Pokémon, who gives hints about Arceus and the Azure Flute.",
+      "items": [
+        {
+          "internal_id": "AIRBALLOON",
+          "quantity": "",
+          "name": "Air Balloon",
+          "location_details": "In the Mr. Pokémon's Shed."
+        },
+        {
+          "internal_id": "FULLHEAL",
+          "quantity": "",
+          "name": "Full Heal",
+          "location_details": "On the ground South of Mr. Pokémon's house."
+        },
+        {
+          "internal_id": "IRON",
+          "quantity": "",
+          "name": "Iron",
+          "location_details": "On the other edge of the lake."
+        },
+        {
+          "internal_id": "GREPABERRY",
+          "quantity": "1-4",
+          "name": "Grepa Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "HONDEWBERRY",
+          "quantity": "1-4",
+          "name": "Hondew Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "KELPSYBERRY",
+          "quantity": "1-4",
+          "name": "Kelpsy Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "QUALOTBERRY",
+          "quantity": "1-4",
+          "name": "Qualot Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "TAMATOBERRY",
+          "quantity": "1-4",
+          "name": "Tamato Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Cherrygrove City": {
+      "canonical_slug": "Cherrygrove_City",
+      "lead_summary": "Cherrygrove City is a small town that can be entered from Route 30 by the North and from Route 29 by the East.",
+      "items": [
+        {
+          "internal_id": "MYSTICWATER",
+          "quantity": "",
+          "name": "Mystic Water",
+          "location_details": "On a small island in the South-West corner."
+        },
+        {
+          "internal_id": "AZUREFLUTE",
+          "quantity": "",
+          "name": "Azure Flute",
+          "location_details": "Given by Eusine after showing him Zapdos, Moltres, Articuno, Entei, Suicune and Raikou."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Route 29": {
+      "canonical_slug": "Route_29",
+      "lead_summary": "Route 29 is a route that connects Cherrygrove City to New Bark Town. There is an access to Route 46 near the middle of the path.",
+      "items": [],
+      "missable_warnings": []
+    },
+    "New Bark Town": {
+      "canonical_slug": "New_Bark_Town",
+      "lead_summary": "New Bark Town is a small town that can be entered from Route 29 by the West and from Route 27 by the East.\nProf. Elm's lab is located in New Bark Town, and will give Chikorita, Cyndquil or Totodile to the player's choice.",
+      "items": [
+        {
+          "internal_id": "machine_hm_WATER",
+          "quantity": "",
+          "name": "HM05 Waterfall",
+          "location_details": "Given by Prof. Elm after obtaining at least two Johto's badges."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Ruins of Alph": {
+      "canonical_slug": "Ruins_of_Alph",
+      "lead_summary": "Ruins Of Alph can be accessed from the North by Route 36 and from the East by Route 32, where Chambers A, B and C can be visiting. Chambers D and E are accessed from B1F of Union Cave.\nA puzzle involves the player visiting all five chambers and deciphering the order to press the slabs.",
+      "items": [
+        {
+          "internal_id": "NUGGET",
+          "quantity": "",
+          "name": "Nugget",
+          "location_details": "Behind smashable rocks near the eastern gate."
+        },
+        {
+          "internal_id": "RAREBONE",
+          "quantity": "",
+          "name": "Rare Bone",
+          "location_details": "Behind smashable rocks in the south."
+        },
+        {
+          "internal_id": "ESCAPEROPE",
+          "quantity": "",
+          "name": "Escape Rope",
+          "location_details": "Behind smashable rocks in the southeast."
+        },
+        {
+          "internal_id": "STARPIECE",
+          "quantity": "",
+          "name": "Star Piece",
+          "location_details": "Hidden by a statue."
+        },
+        {
+          "internal_id": "LIFEORB",
+          "quantity": "",
+          "name": "Life Orb",
+          "location_details": "Hidden by a statue."
+        },
+        {
+          "internal_id": "STARPIECE",
+          "quantity": "",
+          "name": "Star Piece",
+          "location_details": "Hidden by a statue."
+        },
+        {
+          "internal_id": "REVEALGLASS",
+          "quantity": "",
+          "name": "Weather Tracker",
+          "location_details": "Given by the male scientist after scaring Raicune."
+        },
+        {
+          "internal_id": "DREADPLATE",
+          "quantity": "",
+          "name": "Dread Plate",
+          "location_details": "Random chance in Hidden Chamber. Respawns daily."
+        },
+        {
+          "internal_id": "EARTHPLATE",
+          "quantity": "",
+          "name": "Earth Plate",
+          "location_details": "Random chance in Hidden Chamber. Respawns daily."
+        },
+        {
+          "internal_id": "FISTPLATE",
+          "quantity": "",
+          "name": "Fist Plate",
+          "location_details": "Random chance in Hidden Chamber. Respawns daily."
+        },
+        {
+          "internal_id": "ICICLEPLATE",
+          "quantity": "",
+          "name": "Icicle Plate",
+          "location_details": "Random chance in Hidden Chamber. Respawns daily."
+        },
+        {
+          "internal_id": "INSECTPLATE",
+          "quantity": "",
+          "name": "Insect Plate",
+          "location_details": "Random chance in Hidden Chamber. Respawns daily."
+        },
+        {
+          "internal_id": "IRONPLATE",
+          "quantity": "",
+          "name": "Iron Plate",
+          "location_details": "Random chance in Hidden Chamber. Respawns daily."
+        },
+        {
+          "internal_id": "MEADOWPLATE",
+          "quantity": "",
+          "name": "Meadow Plate",
+          "location_details": "Random chance in Hidden Chamber. Respawns daily."
+        },
+        {
+          "internal_id": "MINDPLATE",
+          "quantity": "",
+          "name": "Mind Plate",
+          "location_details": "Random chance in Hidden Chamber. Respawns daily."
+        },
+        {
+          "internal_id": "PIXIEPLATE",
+          "quantity": "",
+          "name": "Pixie Plate",
+          "location_details": "Random chance in Hidden Chamber. Respawns daily."
+        },
+        {
+          "internal_id": "SKYPLATE",
+          "quantity": "",
+          "name": "Sky Plate",
+          "location_details": "Random chance in Hidden Chamber. Respawns daily."
+        },
+        {
+          "internal_id": "SPLASHPLATE",
+          "quantity": "",
+          "name": "Splash Plate",
+          "location_details": "Random chance in Hidden Chamber. Respawns daily."
+        },
+        {
+          "internal_id": "SPOOKYPLATE",
+          "quantity": "",
+          "name": "Spooky Plate",
+          "location_details": "Random chance in Hidden Chamber. Respawns daily."
+        },
+        {
+          "internal_id": "STONEPLATE",
+          "quantity": "",
+          "name": "Stone Plate",
+          "location_details": "Random chance in Hidden Chamber. Respawns daily."
+        },
+        {
+          "internal_id": "TOXICPLATE",
+          "quantity": "",
+          "name": "Toxic Plate",
+          "location_details": "Random chance in Hidden Chamber. Respawns daily."
+        },
+        {
+          "internal_id": "ZAPPLATE",
+          "quantity": "",
+          "name": "Zap Plate",
+          "location_details": "Random chance in Hidden Chamber. Respawns daily."
+        }
+      ],
+      "missable_warnings": []
+    }
+  },
+  "location_items_and_statics": [
+    {
+      "type": "Static Encounter",
+      "pokemon": "Pineco",
+      "level": "40",
+      "location": "Route 30",
+      "notes": "Quest Encounter"
+    }
+  ],
+  "authoring_guidance": {
+    "splicing_safety": "Explicitly state: HEAD species, BODY species, and WHICH ability to select at the DNA Splicer prompt.",
+    "gym_party_selection_rule": "Built-in 5v5 party limit! When challenged, the game prompts the player to choose which 5 Pokémon from their active party to bring into battle. No PC box deposits required.",
+    "stone_evolutions": "Advisory: Do NOT use evolution stones prematurely on stone-evolvers (e.g. Nidorino) before key level-up moves are learned.",
+    "undercover_informant_rocket": "Guide player to join Team Rocket for disguises/missions, BUT report crimes to police officer for +10 Karma and Diancie unlock!"
+  }
+}

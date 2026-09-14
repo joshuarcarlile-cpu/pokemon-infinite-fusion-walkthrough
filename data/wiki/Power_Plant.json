@@ -1,0 +1,138 @@
+{
+  "title": "Power_Plant",
+  "url": "https://infinitefusion.fandom.com/wiki/Power_Plant",
+  "lead_summary": "Accessible from Route 10 (Before Rock Tunnel), wild Pokémons now roam the abandoned Power Plant. The basement can only be accessed after the player obtained its key to open the gate, which is obtained after defeating Team Rocket at Mt. Ember. The final part of the basement where Zapdos is located is behind a gate that can only be opened with 5 Cell Batteries. Several Cell Batteries can be found throughout the Power Plant.\nThe basement has two encounter tables:\n*B1F-1, when in the main hallways and colors are more greyed out.\n*B1F-2, when in the side rooms and colors are more vivid.",
+  "missable_warnings": [],
+  "items": [
+    {
+      "internal_id": "REPEL",
+      "quantity": "",
+      "name": "Repel",
+      "location_details": "On the ground on the South-East Corner."
+    },
+    {
+      "internal_id": "machine_ELECTRIC",
+      "quantity": "",
+      "name": "TM57 Charge Beam",
+      "location_details": "On the Table on the East Side."
+    },
+    {
+      "internal_id": "THUNDERSTONE",
+      "quantity": "",
+      "name": "Thunder Stone",
+      "location_details": "On the ground near the gate for the basement."
+    },
+    {
+      "internal_id": "CELLBATTERY",
+      "quantity": "",
+      "name": "Cell Battery",
+      "location_details": "Hidden in the trash bin by the stairs."
+    },
+    {
+      "internal_id": "CELLBATTERY",
+      "quantity": "",
+      "name": "Cell Battery",
+      "location_details": "In the small room south by the stairs."
+    },
+    {
+      "internal_id": "CARBOS",
+      "quantity": "",
+      "name": "Carbos",
+      "location_details": "On the ground near the stairs."
+    },
+    {
+      "internal_id": "MAXELIXIR",
+      "quantity": "",
+      "name": "Max Elixir",
+      "location_details": "On the ground in the first storage room."
+    },
+    {
+      "internal_id": "THUNDERSTONE",
+      "quantity": "",
+      "name": "Thunder Stone",
+      "location_details": "Hidden by a boulder in the first storage room."
+    },
+    {
+      "internal_id": "CELLBATTERY",
+      "quantity": "",
+      "name": "Cell Battery",
+      "location_details": "On the ground, near the Center South."
+    },
+    {
+      "internal_id": "CELLBATTERY",
+      "quantity": "",
+      "name": "Cell Battery",
+      "location_details": "On the ground, near the Center South."
+    },
+    {
+      "internal_id": "HYPERPOTION",
+      "quantity": "",
+      "name": "Hyper Potion",
+      "location_details": "Hidden by a machine in the small room, near the Center South."
+    },
+    {
+      "internal_id": "machine_ELECTRIC",
+      "quantity": "",
+      "name": "TM25 Thunder",
+      "location_details": "On the ground, in the small room, near the Center South."
+    },
+    {
+      "internal_id": "machine_PSYCHIC",
+      "quantity": "",
+      "name": "TM33 Reflect",
+      "location_details": "On the ground, near the South-East."
+    },
+    {
+      "internal_id": "THUNDERSTONE",
+      "quantity": "",
+      "name": "Thunder Stone",
+      "location_details": "Hidden by a boulder, in the South-East corner."
+    },
+    {
+      "internal_id": "CELLBATTERY",
+      "quantity": "",
+      "name": "Cell Battery",
+      "location_details": "On the ground, near the South-East.."
+    },
+    {
+      "internal_id": "CELLBATTERY",
+      "quantity": "",
+      "name": "Cell Battery",
+      "location_details": "On the ground, in the huge storage room."
+    },
+    {
+      "internal_id": "CELLBATTERY",
+      "quantity": "",
+      "name": "Cell Battery",
+      "location_details": "On the ground, in the huge storage room."
+    },
+    {
+      "internal_id": "RARECANDY",
+      "quantity": "",
+      "name": "Rare Candy",
+      "location_details": "On the ground, in the huge storage room."
+    },
+    {
+      "internal_id": "CELLBATTERY",
+      "quantity": "",
+      "name": "Cell Battery",
+      "location_details": "On the ground next to the Electabuzz."
+    },
+    {
+      "internal_id": "PPUP",
+      "quantity": "",
+      "name": "PP Up",
+      "location_details": "Hidden by an oil drum near the Northwest corner."
+    }
+  ],
+  "sections": [
+    "Items",
+    "Pokémon",
+    "1F",
+    "B1F-1",
+    "B1F-2",
+    "Trainers",
+    "Layout"
+  ],
+  "raw_wikitext": "{{GlobalToggles}}\n{{InfoboxLocation\n|region=Kanto\n|location_image=PowerPlant.png\n|map_image=Power Plant Map.png\n|connection_1_direction=south\n|connection_1_location=Route 10 (Before Rock Tunnel)\n}}\nAccessible from [[Route 10 (Before Rock Tunnel)]], wild Pokémons now roam the abandoned '''Power Plant'''. The basement can only be accessed after the player obtained its key to open the gate, which is obtained after defeating Team Rocket at [[Mt. Ember]]. The final part of the basement where Zapdos is located is behind a gate that can only be opened with 5 Cell Batteries. Several Cell Batteries can be found throughout the Power Plant.\n\nThe basement has two encounter tables:\n*'''B1F-1, when in the main hallways and colors are more greyed out.'''\n*'''B1F-2, when in the side rooms and colors are more vivid.'''\n\n==Items==\n{{ItemTable/Header}}\n{{ItemTable/Section|1F}}\n{{ItemTable/Data|REPEL||Repel|On the ground on the South-East Corner.|1F Repel PowerPlant.png}}\n{{ItemTable/Data|machine_ELECTRIC||TM57 Charge Beam|On the Table on the East Side.|1F TM57 PowerPlant.png}}\n{{ItemTable/Data|THUNDERSTONE||Thunder Stone|On the ground near the gate for the basement.|1F ThunderStone PowerPlant.png}}\n{{ItemTable/Data|CELLBATTERY||Cell Battery|Hidden in the trash bin by the stairs.|1F CellBattery PowerPlant.png}}\n{{ItemTable/Section|B1F}}\n{{ItemTable/Data|CELLBATTERY||Cell Battery|In the small room south by the stairs.|B1F CellBattery1 PowerPlant.png}}\n{{ItemTable/Data|CARBOS||Carbos|On the ground near the stairs.|B1F Carbos PowerPlant.png}}\n{{ItemTable/Data|MAXELIXIR||Max Elixir|On the ground in the first storage room.|B1F MaxElixir PowerPlant.png}}\n{{ItemTable/Data|THUNDERSTONE||Thunder Stone|Hidden by a boulder in the first storage room.|B1F ThunderStone2 PowerPlant.png}}\n{{ItemTable/Data|CELLBATTERY||Cell Battery|On the ground, near the Center South.|B1F CellBattery2 PowerPlant.png}}\n{{ItemTable/Data|CELLBATTERY||Cell Battery|On the ground, near the Center South.|B1F CellBattery3 PowerPlant.png}}\n{{ItemTable/Data|HYPERPOTION||Hyper Potion|Hidden by a machine in the small room, near the Center South.|B1F HyperPotion PowerPlant.png}}\n{{ItemTable/Data|machine_ELECTRIC||TM25 Thunder|On the ground, in the small room, near the Center South.|B1F TM25 PowerPlant.png}}\n{{ItemTable/Data|machine_PSYCHIC||TM33 Reflect|On the ground, near the South-East.|B1F TM33 PowerPlant.png}}\n{{ItemTable/Data|THUNDERSTONE||Thunder Stone|Hidden by a boulder, in the South-East corner.|B1F ThunderStone PowerPlant.png}}\n{{ItemTable/Data|CELLBATTERY||Cell Battery|On the ground, near the South-East..|B1F CellBattery4 PowerPlant.png}}\n{{ItemTable/Data|CELLBATTERY||Cell Battery|On the ground, in the huge storage room.|B1F CellBattery5 PowerPlant.png}}\n{{ItemTable/Data|CELLBATTERY||Cell Battery|On the ground, in the huge storage room.|B1F CellBattery6 PowerPlant.png}}\n{{ItemTable/Data|RARECANDY||Rare Candy|On the ground, in the huge storage room.|B1F RareCandy PowerPlant.png}}\n{{ItemTable/Data|CELLBATTERY||Cell Battery|On the ground next to the Electabuzz.|B1F CellBattery7 PowerPlant.png}}\n{{ItemTable/Data|PPUP||PP Up|Hidden by an oil drum near the Northwest corner.|B1F PPUp PowerPlant.png}}\n{{ItemTable/Footer}}\n\n==Pokémon==\n===1F===\n<!--------------------------------------!>\n<!-- CLASSIC & EXPERT MODE POKÉMON 1F --!>\n<!--------------------------------------->\n<div class=\"classic-mode expert-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Cave}}\n{{EncounterTable/Data|081|Magnemite|Steel|Electric|10-12|65|40%}}\n{{EncounterTable/Data|088|Grimer|Poison||14|190|10%}}\n{{EncounterTable/Data|100|Voltorb|Electric||11-13|190|40%}}\n{{EncounterTable/Data|397|Klink|Steel||14|130|10%}}\n{{EncounterTable/Section|Overworld}}\n{{EncounterTable/Data|100|Voltorb|Electric||15|190|Two}}\n{{EncounterTable/Footer}}\n</div>\n<!---------------------------!>\n<!-- REMIX MODE POKÉMON 1F --!>\n<!---------------------------->\n<div class=\"remix-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Cave}}\n{{EncounterTable/Data|081|Magnemite|Steel|Electric|14|65|20%}}\n{{EncounterTable/Data|100|Voltorb|Electric||14|190|10%}}\n{{EncounterTable/Data|172|Pichu|Electric||11-13|190|10%}}\n{{EncounterTable/Data|239|Elekid|Electric||10-12|45|20%}}\n{{EncounterTable/Data|389|Luxio|Electric||13-15|120|5%}}\n{{EncounterTable/Data|397|Klink|Steel||11-13|130|25%}}\n{{EncounterTable/Data|434|Trubbish|Poison||14|190|10%}}\n{{EncounterTable/Section|Overworld}}\n{{EncounterTable/Data|100|Voltorb|Electric||15|190|Two}}\n{{EncounterTable/Footer}}\n</div>\n\n===B1F-1===\n<!-----------------------------------------!>\n<!-- CLASSIC & EXPERT MODE POKÉMON B1F-1 --!>\n<!------------------------------------------>\n<div class=\"classic-mode expert-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Cave}}\n{{EncounterTable/Data|025|Pikachu|Electric||32-35|190|15%}}\n{{EncounterTable/Data|081|Magnemite|Steel|Electric|32-35|65|30%}}\n{{EncounterTable/Data|082|Magneton|Steel|Electric|32-35|60|10%}}\n{{EncounterTable/Data|100|Voltorb|Electric||32-35|190|30%}}\n{{EncounterTable/Data|101|Electrode|Electric||33-37|60|10%}}\n{{EncounterTable/Data|125|Electabuzz|Electric||33-35|45|5%}}\n{{EncounterTable/Section|Overworld}}\n{{EncounterTable/Data|100|Voltorb|Electric||25|190|One}}\n{{EncounterTable/Data|101|Electrode|Electric||35|60|Two}}\n{{EncounterTable/Data|101.100|Electrode/Voltorb|Electric||35|60|One}}\n{{EncounterTable/Data|26.101|Raichu/Electrode|Electric||40|60|One}}\n{{EncounterTable/Footer}}\n</div>\n<!------------------------------!>\n<!-- REMIX MODE POKÉMON B1F-1 --!>\n<!------------------------------->\n<div class=\"remix-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Cave}}\n{{EncounterTable/Data|081|Magnemite|Steel|Electric|32-35|65|12%}}\n{{EncounterTable/Data|100|Voltorb|Electric||33-35|190|12%}}\n{{EncounterTable/Data|239|Elekid|Electric||32-35|45|30%}}\n{{EncounterTable/Data|292|Metang|Steel|Psychic|33-37|3|1%}}\n{{EncounterTable/Data|389|Luxio|Electric||32-35|120|15%}}\n{{EncounterTable/Data|397|Klink|Steel||32-35|130|30%}}\n{{EncounterTable/Section|Overworld}}\n{{EncounterTable/Data|100|Voltorb|Electric||25|190|One}}\n{{EncounterTable/Data|101|Electrode|Electric||35|60|Two}}\n{{EncounterTable/Data|101.100|Electrode/Voltorb|Electric||35|60|One}}\n{{EncounterTable/Data|26.101|Raichu/Electrode|Electric||40|60|One}}\n{{EncounterTable/Footer}}\n</div>\n\n===B1F-2===\n<!-----------------------------------------!>\n<!-- CLASSIC & EXPERT MODE POKÉMON B1F-2 --!>\n<!------------------------------------------>\n<div class=\"classic-mode expert-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Cave}}\n{{EncounterTable/Data|025|Pikachu|Electric||32-36|190|20%}}\n{{EncounterTable/Data|081|Magnemite|Steel|Electric|32-35|65|30%}}\n{{EncounterTable/Data|082|Magneton|Steel|Electric|32-35|60|15%}}\n{{EncounterTable/Data|100|Voltorb|Electric||32-35|190|30%}}\n{{EncounterTable/Data|125|Electabuzz|Electric||37|45|5%}}\n{{EncounterTable/Section|Overworld}}\n{{EncounterTable/Data|100|Voltorb|Electric||25-35|190|Three}}\n{{EncounterTable/Data|101|Electrode|Electric||35|60|One}}\n{{EncounterTable/Data|125|Electabuzz|Electric||40|45|One}}\n{{EncounterTable/Data|145|Zapdos|Electric|Flying|50|3|One}}\n{{EncounterTable/Footer}}\n</div>\n<!------------------------------!>\n<!-- REMIX MODE POKÉMON B1F-2 --!>\n<!------------------------------->\n<div class=\"remix-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Cave}}\n{{EncounterTable/Data|081|Magnemite|Steel|Electric|32-35|65|10%}}\n{{EncounterTable/Data|100|Voltorb|Electric||32-35|190|10%}}\n{{EncounterTable/Data|135|Jolteon|Electric||37-46|45|5%}}\n{{EncounterTable/Data|389|Luxio|Electric||32-35|120|30%}}\n{{EncounterTable/Data|397|Klink|Steel||32-35|130|30%}}\n{{EncounterTable/Data|420|Stunfisk|Ground|Electric|32-36|75|15%}}\n{{EncounterTable/Section|Overworld}}\n{{EncounterTable/Data|100|Voltorb|Electric||25-35|190|Three}}\n{{EncounterTable/Data|101|Electrode|Electric||35|60|One}}\n{{EncounterTable/Data|125|Electabuzz|Electric||40|45|One}}\n{{EncounterTable/Data|145|Zapdos|Electric|Flying|50|3|One}}\n{{EncounterTable/Footer}}\n</div>\n\n==Trainers==\n{{Trainer\n| trainerClass=TYPE_EXPERT_ELECTRIC\n| name=Ray\n| trainerOverworldSprite=TYPE_EXPERT_ELECTRIC_Overworld.png\n| reward=%default%, and Electric Outfit\n| pokemon1=25.46\n| pokemon1Level=Max\n| pokemon2=74.81\n| pokemon2Level=Max\n| pokemon3=100.33\n| pokemon3Level=Max\n| pokemon4=239.95\n| pokemon4Level=Max\n| remixPokemon1=420.170\n| remixPokemon1Level=Max\n| remixPokemon1Ability=[[bulbapedia:Water Absorb (Ability)|Water Absorb]]\n| remixPokemon2=26.286\n| remixPokemon2Level=Max\n| remixPokemon2Item=CELLBATTERY\n| remixPokemon2Ability=[[bulbapedia:Synchronize (Ability)|Synchronize]]\n}}\n\n==Layout==\nThis is the location of all Cell Batteries, circled in green, provided by the Discord community:\n{|class=\"roundy\"style=\"margin:auto;background:#000;border:3px solid #{{Locationcolor/light|electric}}\"\n|-\n!style=\"background:#{{Locationcolor/light|electric}};{{roundytr|5px}}\"|Location of all Cell Batteries on B1F\n|-\n|[[File:Layout PowerPlant.png|800x732px]]\n|-\n|colspan=\"3\"style=\"background:#{{Locationcolor/light|electric}};{{roundybottom|5px}}\"|\n|}\n\n[[Category:Locations]]\n[[Category:Kanto]]"
+}

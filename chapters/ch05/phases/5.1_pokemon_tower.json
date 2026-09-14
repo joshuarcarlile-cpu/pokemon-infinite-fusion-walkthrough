@@ -1,0 +1,68 @@
+{
+  "name": "Pokémon Tower (Lavender Town)",
+  "summary": "Scale the haunted floors of Pokémon Tower using the Silph Scope to unmask aggressive Ghost identities. Calm the restless spirit of Ghost Marowak on 6F and rescue Mr. Fuji from Team Rocket grunts at the pinnacle to receive the Poké Flute.",
+  "items": [
+    {
+      "name": "Poké Flute",
+      "method": "Gift from Mr. Fuji at his Lavender Town home after clearing 7F",
+      "type": "Key Item"
+    },
+    {
+      "name": "Cleanse Tag",
+      "method": "Gift from a woman on 5F within the purified resting circle",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Escape Rope",
+      "method": "Floor pickup on 3F near the western headstones",
+      "type": "Consumable"
+    },
+    {
+      "name": "Elixir",
+      "method": "Hidden item in the southeastern urn on 4F",
+      "type": "Consumable"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Channeler Hope",
+      "team": [
+        {
+          "species": "Gastly",
+          "level": 23,
+          "types": ["Ghost", "Poison"]
+        }
+      ]
+    },
+    {
+      "name": "Rocket Grunt 7F",
+      "team": [
+        {
+          "species": "Zubat",
+          "level": 25,
+          "types": ["Poison", "Flying"]
+        },
+        {
+          "species": "Koffing",
+          "level": 25,
+          "types": ["Poison"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Floors 3F-6F (Silph Scope)": [
+      {"dex_id": "092", "name": "Gastly", "types": ["Ghost", "Poison"], "levels": "25-30", "rates": "65% All Times"},
+      {"dex_id": "093", "name": "Haunter", "types": ["Ghost", "Poison"], "levels": "30-35", "rates": "10% All Times"},
+      {"dex_id": "104", "name": "Cubone", "types": ["Ground"], "levels": "20-25", "rates": "10% All Times"},
+      {"dex_id": "020", "name": "Raticate", "types": ["Normal"], "levels": "25-35", "rates": "5% All Times"},
+      {"dex_id": "042", "name": "Golbat", "types": ["Poison", "Flying"], "levels": "25-35", "rates": "5% All Times"},
+      {"dex_id": "096", "name": "Drowzee", "types": ["Psychic"], "levels": "30-35", "rates": "5% All Times"}
+    ]
+  },
+  "navigation_notes": [
+    "The Silph Scope from Celadon Rocket Hideout automatically activates upon encountering ghosts.",
+    "Ghost Marowak (Lv. 30) blocks the staircase to 7F; it cannot be captured, only defeated or pacified.",
+    "Step into the blue magic circle on 5F for unlimited party healing while exploring."
+  ]
+}

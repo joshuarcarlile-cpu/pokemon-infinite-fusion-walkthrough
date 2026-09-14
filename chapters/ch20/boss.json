@@ -1,0 +1,64 @@
+{
+  "leader": "Jasmine",
+  "title": "The Steel-Clad Girl of Olivine",
+  "gym": "Bond Bridge Arena",
+  "badge": "Mineral Badge",
+  "level_cap": 76,
+  "hard_mode_level_cap": 76,
+  "recommended_party_level": 75,
+  "gym_duel_limit": 5,
+  "party_selection_rule": "5 vs 5 Party Selection (select 5 Pokémon from active party at battle start)",
+  "overview": "Olivine City's Gym Leader Jasmine battles the player on the scenic span of Bond Bridge after you rescue her nephew from Berry Forest. Jasmine commands heavily armored Steel hybrids pairing immense physical Defense with devastating counter-coverage. Skarmory/Dodrio leads with 96 Speed and Metal Coat, but suffers 2x weaknesses to Fire and Electric. Mawile/Rhydon holds Eviolite and sets Magnet Rise to overcome its fatal 4x Ground weakness, yet remains 4x weak to Fighting. Magnezone/Blastoise pairs 115 SpA with Zoom Lens and Hydro Cannon, weak to Electric, Fighting, and Ground. Scizor/Cacturne uses Swords Dance and Razor Claw crits, but is fragile and weak to Fire, Flying, and Rock. Her titanic ace Altaria/Steelix boasts 163 base Defense and Sturdy with massive physical moves, but collapses before a catastrophic 4x Ice weakness. Defeating Jasmine awards the Mineral Badge, the Magnemite Hairclips hat, and a gift Mareanie to part the Brine Road Corsola barrier.",
+  "roster": [
+    {
+      "species": "Skarmory/Dodrio",
+      "level": 66,
+      "types": ["Steel", "Flying"],
+      "ability": "Keen Eye",
+      "item": "Metal Coat",
+      "moves": ["Steel Wing", "Whirlwind", "Air Slash", "Spikes"],
+      "tactics": "High-speed hazard lead with 96 Speed. Sets Spikes and phases foes with Whirlwind. Immune to Ground and Poison, but folds quickly to Fire and Electric STAB attacks like Flamethrower or Thunderbolt."
+    },
+    {
+      "species": "Mawile/Rhydon",
+      "level": 67,
+      "types": ["Steel", "Rock"],
+      "ability": "Clear Body",
+      "item": "Eviolite",
+      "moves": ["Stone Edge", "Magnet Rise", "Meteor Mash", "Iron Defense"],
+      "tactics": "Bulky physical tank with 115 Attack and Eviolite. Immediately uses Magnet Rise to float over Ground moves. Counter its massive 108 Defense with special Fighting attacks (Aura Sphere) or special Water moves."
+    },
+    {
+      "species": "Magnezone/Blastoise",
+      "level": 66,
+      "types": ["Steel", "Water"],
+      "ability": "Magnet Pull",
+      "item": "Zoom Lens",
+      "moves": ["Iron Defense", "Hydro Cannon", "Lock-On", "Mirror Shot"],
+      "tactics": "Dangerous special wallbreaker with 115 SpA. Sets Lock-On to guarantee 100% accuracy on high-power Hydro Cannons. Punish its 2x weaknesses to Electric, Fighting, and Ground."
+    },
+    {
+      "species": "Scizor/Cacturne",
+      "level": 67,
+      "types": ["Bug", "Dark"],
+      "ability": "Defiant",
+      "item": "Razor Claw",
+      "moves": ["Swords Dance", "Night Slash", "X-Scissor", "Focus Energy"],
+      "tactics": "Hyper-offensive physical setup sweeper with 120 Attack. Sets Swords Dance and fishes for critical hits with Razor Claw. Lacks defensive bulk and melts instantly against Fire, Flying, or Rock attacks."
+    },
+    {
+      "species": "Altaria/Steelix",
+      "level": 68,
+      "types": ["Dragon", "Ground"],
+      "ability": "Sturdy",
+      "item": "Metal Coat",
+      "moves": ["Earthquake", "Double-Edge", "Heavy Slam", "Head Smash"],
+      "tactics": "Colossal physical juggernaut with 163 base Defense. Sturdy guarantees survival from any single hit. Suffer a catastrophic 4x Ice weakness; a bulky Ice-type like Lapras easily sponges a blow and finishes it with Ice Beam."
+    }
+  ],
+  "starter_strategies": {
+    "bulbasaur": "Venusaur/Charizard (Lv. 76) incinerates Skarmory/Dodrio and Scizor/Cacturne with STAB Flamethrower and provides Sleep Powder crowd control. Lapras (Lv. 75) is the ultimate ace counter: Water Absorb heals against Magnezone/Blastoise, while STAB 4x super-effective Ice Beam deletes Altaria/Steelix. Kingler/Primeape (Lv. 75) crushes Mawile/Rhydon with 4x STAB Close Combat. Gyarados/Arbok (Lv. 75) provides Intimidate to defang Jasmine's physical attackers, and Alakazam/Weezing (Lv. 75) floats over Ground with Levitate and supports with Calm Mind.",
+    "charmander": "Charizard/Venusaur (Lv. 76) acts as the prime wallbreaker: STAB Flamethrower vaporizes Skarmory/Dodrio and Scizor/Cacturne, while Sleep Powder shuts down Swords Dance setup. Alakazam/Raichu (Lv. 75) electrocutes Skarmory/Dodrio and Magnezone/Blastoise with STAB Thunderbolt. Lapras (Lv. 75) survives Altaria/Steelix's physical blows and retaliates with a lethal 4x Ice Beam. Primeape/Sandslash (Lv. 75) punches through Mawile/Rhydon with 4x super-effective Close Combat, while Gyarados/Nidoking (Lv. 75) blunts physical assaults with Intimidate.",
+    "squirtle": "Jolteon/Sandslash (Lv. 75) is Jasmine's natural predator: STAB Discharge zaps Skarmory/Dodrio and Magnezone/Blastoise, while STAB Earthquake punishes Mawile/Rhydon before Magnet Rise. Blastoise/Fearow (Lv. 76) resists Ground via Flying typing and strikes Scizor/Cacturne with Drill Peck. Lapras (Lv. 75) sponges heavy hits and vaporizes Altaria/Steelix with 4x STAB Ice Beam. Arbok/Primeape (Lv. 75) enters with Intimidate and shatters Mawile/Rhydon with 4x Close Combat, while Alakazam/Weezing (Lv. 75) provides Levitate Ground immunity."
+  }
+}

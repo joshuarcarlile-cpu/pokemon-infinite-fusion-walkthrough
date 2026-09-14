@@ -1,0 +1,175 @@
+{
+  "location": "Route 7 (ID 413)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "016",
+        "name": "Pidgey",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "19-22",
+        "catch_rate": "255",
+        "rates": [
+          "20%",
+          "20%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "025",
+        "name": "Pikachu",
+        "type1": "Electric",
+        "type2": "",
+        "levels": "17-20",
+        "catch_rate": "190",
+        "rates": [
+          "20%",
+          "20%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "037",
+        "name": "Vulpix",
+        "type1": "Fire",
+        "type2": "",
+        "levels": "18-20",
+        "catch_rate": "190",
+        "rates": [
+          "10%",
+          "10%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "041",
+        "name": "Zubat",
+        "type1": "Poison",
+        "type2": "Flying",
+        "levels": "19-22",
+        "catch_rate": "255",
+        "rates": [
+          "-",
+          "-",
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "043",
+        "name": "Oddish",
+        "type1": "Grass",
+        "type2": "Poison",
+        "levels": "19-22",
+        "catch_rate": "255",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "052",
+        "name": "Meowth",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "17-20",
+        "catch_rate": "255",
+        "rates": [
+          "10%",
+          "10%",
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "054",
+        "name": "Psyduck",
+        "type1": "Water",
+        "type2": "",
+        "levels": "18-20",
+        "catch_rate": "190",
+        "rates": [
+          "-",
+          "-",
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "058",
+        "name": "Growlithe",
+        "type1": "Fire",
+        "type2": "",
+        "levels": "18-20",
+        "catch_rate": "190",
+        "rates": [
+          "10%",
+          "10%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "060",
+        "name": "Poliwag",
+        "type1": "Water",
+        "type2": "",
+        "levels": "18-20",
+        "catch_rate": "255",
+        "rates": [
+          "-",
+          "-",
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "069",
+        "name": "Bellsprout",
+        "type1": "Grass",
+        "type2": "Poison",
+        "levels": "19-22",
+        "catch_rate": "255",
+        "rates": [
+          "15%",
+          "15%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "198",
+        "name": "Murkrow",
+        "type1": "Dark",
+        "type2": "Flying",
+        "levels": "17-19",
+        "catch_rate": "30",
+        "rates": [
+          "-",
+          "-",
+          "25%"
+        ]
+      },
+      {
+        "dex_id": "228",
+        "name": "Houndour",
+        "type1": "Dark",
+        "type2": "Fire",
+        "levels": "15",
+        "catch_rate": "120",
+        "rates": [
+          "-",
+          "-",
+          "5%"
+        ]
+      }
+    ],
+    "Pok\u00e9 Radar": [
+      {
+        "dex_id": "402",
+        "name": "Drifloon",
+        "type1": "Ghost",
+        "type2": "Flying",
+        "levels": "17-20",
+        "catch_rate": "125",
+        "rates": [
+          "50% <small>([[Pok\u00e9 Radar#How_it_works",
+          "long rustle]])</small>"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "starter": "Bulbasaur",
+  "name": "Team Bulbasaur: Sevii Ironbreaker Vanguard",
+  "archetype": "Sevii archipelago & Jasmine duel core — Fire incineration, 4x Ice execution, 4x Fighting breaking, Intimidate physical dampening, and Levitate Ground immunity.",
+  "gym_duel_core": [1, 2, 3, 4, 5],
+  "gym_duel_rationale": "Jasmine challenges the player on Bond Bridge in a 5 vs 5 duel. Slots 1 through 5 enter the arena: Venusaur/Charizard (Slot 1) incinerates Skarmory/Dodrio and Scizor/Cacturne with STAB Flamethrower and uses Sleep Powder for crowd control; Lapras (Slot 2) walls water attacks with Water Absorb and deletes Altaria/Steelix with 4x STAB Ice Beam; Kingler/Primeape (Slot 3) shatters Mawile/Rhydon with 4x STAB Close Combat; Gyarados/Arbok (Slot 4) provides Intimidate to defang Jasmine's massive physical powerhouses; and Alakazam/Weezing (Slot 5) floats above Ground moves with Levitate and supports with Calm Mind and Recover. Snorlax rests in reserve as the route endurance tank.",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Venusaur/Charizard",
+      "types": ["Grass", "Fire"],
+      "status": "Active in Party (Starter Splice & MVP)",
+      "current_level": 76,
+      "ability": "Overgrow",
+      "held_item": "Charcoal",
+      "role": "Starter Anchor & Fire Sweeper",
+      "current_reached_moveset": [
+        "Flamethrower",
+        "Petal Dance",
+        "Sleep Powder",
+        "Synthesis"
+      ],
+      "progression_notes": "530 BST starter hybrid elevated to Cap 76. STAB Flamethrower incinerates Jasmine's Skarmory/Dodrio and Scizor/Cacturne for clean OHKOs. Sleep Powder neutralizes dangerous setup sweepers immediately."
+    },
+    {
+      "slot": 2,
+      "species": "Lapras",
+      "types": ["Water", "Ice"],
+      "status": "Active in Party (Gym Duelist & MVP)",
+      "current_level": 75,
+      "ability": "Water Absorb",
+      "held_item": "Never-Melt Ice",
+      "role": "Ice Coverage & Water Sponge",
+      "current_reached_moveset": [
+        "Ice Beam",
+        "Hydro Pump",
+        "Confuse Ray",
+        "Body Slam"
+      ],
+      "progression_notes": "535 BST Water/Ice fortress elevated to Lv. 75. Water Absorb completely negates opposing water moves across Brine Road East. STAB Ice Beam hits Altaria/Steelix for fatal 4x super-effective damage."
+    },
+    {
+      "slot": 3,
+      "species": "Kingler/Primeape",
+      "types": ["Water", "Fighting"],
+      "status": "Active in Party (Gym Duelist)",
+      "current_level": 75,
+      "ability": "Hyper Cutter",
+      "held_item": "Black Belt",
+      "role": "Fighting Wallbreaker & Physical Bruiser",
+      "current_reached_moveset": [
+        "Close Combat",
+        "Crabhammer",
+        "Cross Chop",
+        "Protect"
+      ],
+      "progression_notes": "500 BST physical bruiser. STAB Close Combat delivers catastrophic 4x super-effective damage against Mawile/Rhydon and breaks Magnezone/Blastoise."
+    },
+    {
+      "slot": 4,
+      "species": "Gyarados/Arbok",
+      "types": ["Water", "Poison"],
+      "status": "Active in Party (Gym Duelist)",
+      "current_level": 75,
+      "ability": "Intimidate",
+      "held_item": "Mystic Water",
+      "role": "Intimidate Physical Pivot",
+      "current_reached_moveset": [
+        "Aqua Tail",
+        "Crunch",
+        "Dragon Dance",
+        "Glare"
+      ],
+      "progression_notes": "513 BST Intimidate pivot. Lowers Jasmine's physical Attack on entry to blunt incoming Earthquakes and Head Smashes. Glare secures 100% paralysis on fast threats."
+    },
+    {
+      "slot": 5,
+      "species": "Alakazam/Weezing",
+      "types": ["Psychic", "Poison"],
+      "status": "Active in Party (Gym Duelist)",
+      "current_level": 75,
+      "ability": "Levitate",
+      "held_item": "Twisted Spoon",
+      "role": "Levitate Ground-Immune Pivot",
+      "current_reached_moveset": [
+        "Psychic",
+        "Sludge Bomb",
+        "Recover",
+        "Calm Mind"
+      ],
+      "progression_notes": "495 BST Levitate pivot with 118 SpA. Immune to Earthquake and Earth Power via Levitate. Sets Calm Mind and fires powerful special attacks while shrugging off ground strikes."
+    },
+    {
+      "slot": 6,
+      "species": "Snorlax",
+      "types": ["Normal"],
+      "status": "Active in Party (Route Traversal Tank)",
+      "current_level": 75,
+      "ability": "Thick Fat",
+      "held_item": "Leftovers",
+      "role": "Route Travel Tank & Sustained Sponge",
+      "current_reached_moveset": [
+        "Body Slam",
+        "Rest",
+        "Sleep Talk",
+        "Crunch"
+      ],
+      "progression_notes": "Colossal 160 HP route sponge holding Leftovers. RestTalk loop absorbs wild status and damage across Kin Island and Berry Forest while resting in reserve during the 5v5 Gym duel."
+    }
+  ],
+  "flex_bench": [
+    {
+      "species": "Butterfree",
+      "role": "Compound Eyes Sleep Pivot",
+      "rationale": "97.5% accurate Sleep Powder for securing rare wild catches in Berry Forest and Bond Bridge."
+    },
+    {
+      "species": "Electabuzz",
+      "role": "Electric Speed Sweeper",
+      "rationale": "Discharge and Light Screen to sweep water routes and zap opposing flyers."
+    },
+    {
+      "species": "Hitmonlee",
+      "role": "Reckless Fighting Breaker",
+      "rationale": "High Jump Kick physical breaker for Rock and Normal type route encounters."
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "location": "Mt. Moon (ID 102)",
+  "sections": {
+    "Cave": [
+      {
+        "dex_id": "027",
+        "name": "Sandshrew",
+        "type1": "Ground",
+        "type2": "",
+        "levels": "12",
+        "catch_rate": "255",
+        "rates": [
+          "8%"
+        ]
+      },
+      {
+        "dex_id": "041",
+        "name": "Zubat",
+        "type1": "Poison",
+        "type2": "Flying",
+        "levels": "8-11",
+        "catch_rate": "255",
+        "rates": [
+          "41%"
+        ]
+      },
+      {
+        "dex_id": "046",
+        "name": "Paras",
+        "type1": "Bug",
+        "type2": "Grass",
+        "levels": "10-12",
+        "catch_rate": "190",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "074",
+        "name": "Geodude",
+        "type1": "Rock",
+        "type2": "Ground",
+        "levels": "9-10",
+        "catch_rate": "255",
+        "rates": [
+          "21%"
+        ]
+      },
+      {
+        "dex_id": "095",
+        "name": "Onix",
+        "type1": "Rock",
+        "type2": "Ground",
+        "levels": "10",
+        "catch_rate": "45",
+        "rates": [
+          "1%"
+        ]
+      },
+      {
+        "dex_id": "173",
+        "name": "Cleffa",
+        "type1": "Fairy",
+        "type2": "",
+        "levels": "6-9",
+        "catch_rate": "150",
+        "rates": [
+          "14%"
+        ]
+      }
+    ],
+    "Rock Smash": [
+      {
+        "dex_id": "074",
+        "name": "Geodude",
+        "type1": "Rock",
+        "type2": "Ground",
+        "levels": "9-10",
+        "catch_rate": "255",
+        "rates": [
+          "80%"
+        ]
+      },
+      {
+        "dex_id": "325",
+        "name": "Nosepass",
+        "type1": "Rock",
+        "type2": "",
+        "levels": "7",
+        "catch_rate": "255",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "478",
+        "name": "Carbink",
+        "type1": "Rock",
+        "type2": "Fairy",
+        "levels": "7",
+        "catch_rate": "60",
+        "rates": [
+          "15%"
+        ]
+      }
+    ]
+  }
+}

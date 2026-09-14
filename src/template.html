@@ -1,0 +1,4494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pokémon Infinite Fusion — Companion Walkthrough & Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg-primary: #090e1a;
+    --bg-secondary: #0f172a;
+    --bg-card: #131d33;
+    --bg-card-hover: #1e293b;
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+    --text-accent: #38bdf8;
+    --border-color: #1e293b;
+    --border-glow: rgba(56, 189, 248, 0.25);
+    --accent-red: #ef4444;
+    --accent-green: #22c55e;
+    --accent-yellow: #f59e0b;
+    --accent-blue: #3b82f6;
+    --accent-purple: #a855f7;
+    --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-heading: 'Outfit', var(--font-sans);
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  [data-theme="light"] {
+    --bg-primary: #f8fafc;
+    --bg-secondary: #ffffff;
+    --bg-card: #ffffff;
+    --bg-card-hover: #f1f5f9;
+    --text-primary: #0f172a;
+    --text-secondary: #64748b;
+    --text-accent: #0284c7;
+    --border-color: #cbd5e1;
+    --border-glow: rgba(2, 132, 199, 0.2);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+
+  /* Top Navigation */
+  header {
+    background: var(--bg-secondary);
+    border-bottom: 1px solid var(--border-color);
+    padding: 0.75rem 1.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+  }
+
+  .header-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .header-brand h1 {
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #38bdf8, #818cf8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .badge-tag {
+    display: inline-block;
+    white-space: nowrap;
+    background: rgba(56, 189, 248, 0.15);
+    color: var(--text-accent);
+    padding: 0.2rem 0.55rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1.25;
+    vertical-align: middle;
+    border: 1px solid rgba(56, 189, 248, 0.3);
+  }
+
+  .region-tabs { display: flex; gap: 0.5rem; }
+
+  .tab-btn {
+    background: transparent;
+    border: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    padding: 0.4rem 0.9rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .tab-btn:hover, .tab-btn.active {
+    background: var(--bg-card-hover);
+    color: var(--text-primary);
+    border-color: var(--text-accent);
+  }
+
+  .header-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  .search-input {
+    background: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    padding: 0.4rem 0.75rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    width: 200px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  .search-input:focus { border-color: var(--text-accent); }
+
+  .action-btn {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    padding: 0.4rem 0.75rem;
+    border-radius: 6px;
+    font-size: 0.82rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    transition: all 0.2s;
+  }
+
+  .action-btn:hover {
+    border-color: var(--text-accent);
+    background: var(--bg-card-hover);
+  }
+
+  /* App Layout */
+  .app-container {
+    display: flex;
+    flex: 1;
+    height: calc(100vh - 61px);
+    overflow: hidden;
+    position: relative;
+  }
+
+  /* Sidebar */
+  aside.sidebar {
+    width: 280px;
+    min-width: 280px;
+    background: var(--bg-secondary);
+    border-right: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+
+  .sidebar-section-title {
+    font-family: var(--font-heading);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    padding: 1rem 1rem 0.5rem;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+  }
+
+  .chapter-nav-item {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--border-color);
+    cursor: pointer;
+    transition: background 0.15s;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .chapter-nav-item:hover, .chapter-nav-item.active {
+    background: var(--bg-card-hover);
+    border-left: 3px solid var(--text-accent);
+  }
+
+  .nav-header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-chapter-title { font-size: 0.85rem; font-weight: 600; }
+
+  .nav-cap-pill {
+    font-family: var(--font-mono);
+    background: rgba(239, 68, 68, 0.2);
+    color: var(--accent-red);
+    font-size: 0.7rem;
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    font-weight: 700;
+  }
+
+  .nav-routes-sub {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Main Viewport */
+  main.main-viewport {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .chapter-hero {
+    background: linear-gradient(135deg, rgba(30, 41, 59, 0.8), rgba(15, 23, 42, 0.95));
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .hero-top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .hero-title { font-family: var(--font-heading); font-size: 1.5rem; font-weight: 800; }
+
+  .cap-banner {
+    font-family: var(--font-mono);
+    background: rgba(239, 68, 68, 0.15);
+    border: 1px solid rgba(239, 68, 68, 0.4);
+    color: var(--accent-red);
+    padding: 0.35rem 0.8rem;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  .hero-synopsis {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+  }
+
+  /* Filter Toolbar */
+  .filter-toolbar {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    padding: 0.5rem 0;
+  }
+
+  .filter-label {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    font-weight: 600;
+    margin-right: 0.5rem;
+  }
+
+  .tod-filter-btn {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    padding: 0.35rem 0.75rem;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.15s;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  .tod-filter-btn.active, .tod-filter-btn:hover {
+    color: var(--text-primary);
+    border-color: var(--text-accent);
+    background: var(--bg-card-hover);
+  }
+
+  /* Route Cards */
+  .route-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .route-header {
+    background: rgba(51, 65, 85, 0.4);
+    padding: 0.9rem 1.25rem;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .route-title { font-family: var(--font-heading); font-size: 1.1rem; font-weight: 700; }
+
+  .route-body {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .route-summary {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+  }
+
+  /* Encounters Table */
+  .encounters-container {
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    overflow-x: auto;
+  }
+
+  .encounters-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+    text-align: left;
+  }
+
+  .encounters-table th {
+    background: rgba(51, 65, 85, 0.6);
+    padding: 0.6rem 0.75rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    border-bottom: 1px solid var(--border-color);
+    white-space: nowrap;
+  }
+
+  .encounters-table td {
+    padding: 0.6rem 0.75rem;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  .encounters-table th:nth-child(2),
+  .encounters-table td:nth-child(2) {
+    white-space: nowrap;
+    width: 1%;
+  }
+
+  .encounters-table th:nth-child(4),
+  .encounters-table td:nth-child(4),
+  .encounters-table th:nth-child(5),
+  .encounters-table td:nth-child(5),
+  .encounters-table th:nth-child(6),
+  .encounters-table td:nth-child(6) {
+    white-space: nowrap;
+    width: 1%;
+  }
+
+  .encounters-table tr:last-child td { border-bottom: none; }
+  .encounters-table tr:hover { background: rgba(51, 65, 85, 0.3); }
+  .encounters-table tr.dimmed { opacity: 0.25; }
+
+  /* Hide inactive mode */
+  .encounters-container.hide-inactive tr.dimmed {
+    display: none !important;
+  }
+
+  /* Caught Row & Checkbox Styling */
+  .encounters-table tr.caught-row {
+    background: rgba(34, 197, 94, 0.12) !important;
+  }
+  .encounters-table tr.caught-row td {
+    color: var(--text-primary);
+  }
+  .catch-checkbox {
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    accent-color: var(--accent-green);
+  }
+
+  /* Gym Duel Banner & Badges */
+  .duel-limit-banner {
+    font-family: var(--font-mono);
+    background: linear-gradient(135deg, rgba(239, 68, 68, 0.2), rgba(234, 179, 8, 0.2));
+    border: 1px solid rgba(239, 68, 68, 0.5);
+    color: #fca5a5;
+    padding: 0.65rem 0.95rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0.75rem 0;
+    line-height: 1.4;
+  }
+
+  .duel-core-banner {
+    background: rgba(234, 179, 8, 0.12);
+    border: 1px solid rgba(234, 179, 8, 0.35);
+    border-radius: 6px;
+    padding: 0.6rem 0.8rem;
+    font-size: 0.82rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .duel-core-tag {
+    font-family: var(--font-mono);
+    background: rgba(234, 179, 8, 0.2) !important;
+    color: #fde047 !important;
+    border: 1px solid rgba(234, 179, 8, 0.5) !important;
+    font-weight: 800;
+  }
+
+  .mon-cell {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .dex-badge {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--text-secondary);
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid var(--border-color);
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    letter-spacing: 0.02em;
+  }
+
+  .mon-name-text {
+    font-weight: 600;
+    color: var(--text-primary);
+  }
+
+  .type-badge {
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    white-space: nowrap;
+  }
+
+  .type-Normal { background: #94a3b8; color: #000; }
+  .type-Fire { background: #f97316; color: #fff; }
+  .type-Water { background: #38bdf8; color: #000; }
+  .type-Grass { background: #4ade80; color: #000; }
+  .type-Electric { background: #facc15; color: #000; }
+  .type-Ice { background: #67e8f9; color: #000; }
+  .type-Fighting { background: #dc2626; color: #fff; }
+  .type-Poison { background: #c084fc; color: #000; }
+  .type-Ground { background: #d97706; color: #fff; }
+  .type-Flying { background: #818cf8; color: #fff; }
+  .type-Psychic { background: #f43f5e; color: #fff; }
+  .type-Bug { background: #84cc16; color: #000; }
+  .type-Rock { background: #78716c; color: #fff; }
+  .type-Ghost { background: #6b21a8; color: #fff; }
+  .type-Dragon { background: #4f46e5; color: #fff; }
+  .type-Steel { background: #64748b; color: #fff; }
+  .type-Fairy { background: #f472b6; color: #000; }
+  .type-Dark { background: #334155; color: #fff; }
+
+  /* Rarity Badges */
+  .rate-badge {
+    display: inline-block;
+    white-space: nowrap;
+    padding: 0.15rem 0.45rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 700;
+  }
+  .rate-common { background: rgba(34, 197, 94, 0.15); color: var(--accent-green); border: 1px solid rgba(34, 197, 94, 0.3); }
+  .rate-uncommon { background: rgba(234, 179, 8, 0.15); color: var(--accent-yellow); border: 1px solid rgba(234, 179, 8, 0.3); }
+  .rate-rare { background: rgba(168, 85, 247, 0.15); color: var(--accent-purple); border: 1px solid rgba(168, 85, 247, 0.3); }
+  .rate-special { background: rgba(239, 68, 68, 0.15); color: var(--accent-red); border: 1px solid rgba(239, 68, 68, 0.3); }
+
+  /* Checklists */
+  .checklist-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+  }
+
+  .checklist-card {
+    background: rgba(15, 23, 42, 0.4);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 0.85rem;
+  }
+
+  .checklist-title {
+    font-family: var(--font-heading);
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+    color: var(--text-accent);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  .checklist-item {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    font-size: 0.86rem;
+    padding: 0.4rem 0;
+    min-height: 32px;
+  }
+
+  .checklist-item input[type="checkbox"] {
+    accent-color: var(--text-accent);
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+
+  .checklist-item.done span {
+    text-decoration: line-through;
+    color: var(--text-secondary);
+  }
+
+  /* UXI: Sticky Chapter Subnav */
+  .chapter-subnav {
+    position: sticky;
+    top: 57px;
+    z-index: 80;
+    background: rgba(15, 23, 42, 0.92);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border-color);
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: thin;
+    margin: -1.5rem -1.5rem 1.25rem -1.5rem;
+  }
+
+  .subnav-label {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .subnav-pill {
+    background: rgba(30, 41, 59, 0.7);
+    border: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    padding: 0.25rem 0.65rem;
+    border-radius: 9999px;
+    font-size: 0.78rem;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  .subnav-pill:hover, .subnav-pill.active {
+    background: var(--bg-card-hover);
+    color: var(--text-accent);
+    border-color: var(--text-accent);
+  }
+
+  .subnav-pill.boss {
+    border-color: rgba(239, 68, 68, 0.4);
+    color: #fca5a5;
+  }
+  .subnav-pill.boss:hover {
+    border-color: var(--accent-red);
+    background: rgba(239, 68, 68, 0.15);
+  }
+
+  /* UXI: Chapter Completion HUD */
+  .chapter-hud {
+    background: linear-gradient(135deg, rgba(30, 41, 59, 0.8), rgba(15, 23, 42, 0.9));
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 0.85rem 1.25rem;
+    margin-bottom: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .hud-stats-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    font-size: 0.82rem;
+  }
+
+  .hud-stat {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-weight: 600;
+  }
+
+  .hud-meter-bg {
+    width: 100%;
+    height: 7px;
+    background: var(--bg-primary);
+    border-radius: 9999px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.08);
+  }
+
+  .hud-meter-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #38bdf8, #22c55e);
+    border-radius: 9999px;
+    transition: width 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  /* Collapsible Route Chevron */
+  .route-collapse-btn {
+    background: transparent;
+    border: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    border-radius: 4px;
+    width: 26px;
+    height: 26px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: all 0.2s;
+  }
+
+  .route-collapse-btn:hover {
+    color: var(--text-primary);
+    border-color: var(--text-accent);
+  }
+
+  .route-body-collapsed {
+    display: none !important;
+  }
+
+  /* Pulsing Missable Alert Glow */
+  @keyframes missablePulse {
+    0% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.35); }
+    70% { box-shadow: 0 0 0 10px rgba(239, 68, 68, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+  }
+
+  .missable-alert-card {
+    background: rgba(239, 68, 68, 0.12);
+    border: 1px solid var(--accent-red);
+    border-left: 5px solid var(--accent-red);
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1.25rem;
+    animation: missablePulse 2.5s infinite;
+  }
+
+  /* Boss Strategy */
+  .boss-card {
+    background: linear-gradient(135deg, rgba(30, 41, 59, 0.7), rgba(40, 20, 20, 0.4));
+    border: 1px solid rgba(239, 68, 68, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .boss-header {
+    padding: 1rem 1.25rem;
+    background: rgba(239, 68, 68, 0.15);
+    border-bottom: 1px solid rgba(239, 68, 68, 0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .boss-name { font-family: var(--font-heading); font-size: 1.2rem; font-weight: 800; color: #fca5a5; }
+
+  .boss-body {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .boss-team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 0.75rem;
+  }
+
+  .boss-mon-card {
+    background: rgba(15, 23, 42, 0.6);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .boss-mon-card.ace {
+    border-color: var(--accent-red);
+    box-shadow: 0 0 8px rgba(239, 68, 68, 0.2);
+  }
+
+  .strategy-steps {
+    background: rgba(15, 23, 42, 0.5);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1rem;
+  }
+
+  .strategy-step {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+    position: relative;
+  }
+
+  .strategy-step::before {
+    content: "•";
+    color: var(--accent-red);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+  }
+
+  /* Drawer & Pinned Layout */
+  .drawer-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 480px;
+    height: 100vh;
+    background: var(--bg-secondary);
+    border-left: 1px solid var(--border-color);
+    box-shadow: -10px 0 30px rgba(0,0,0,0.5);
+    z-index: 200;
+    display: flex;
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .drawer-overlay.open { transform: translateX(0); }
+
+  /* Desktop 3-Pane Split View */
+  @media (min-width: 1200px) {
+    .app-container.drawer-pinned .drawer-overlay {
+      position: static !important;
+      width: 440px !important;
+      min-width: 440px !important;
+      height: 100% !important;
+      transform: none !important;
+      box-shadow: none !important;
+      border-left: 1px solid var(--border-color) !important;
+      z-index: 10 !important;
+    }
+    .app-container.drawer-pinned .modal-backdrop {
+      display: none !important;
+    }
+  }
+
+  .drawer-header {
+    padding: 0.85rem 1.25rem;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .drawer-tabs { display: flex; gap: 0.35rem; }
+
+  .drawer-tab-btn {
+    background: transparent;
+    border: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    padding: 0.35rem 0.65rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    cursor: pointer;
+  }
+
+  .drawer-tab-btn.active {
+    background: var(--bg-card-hover);
+    color: var(--text-primary);
+    border-color: var(--text-accent);
+  }
+
+  .drawer-header-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  .drawer-close-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 0.2rem;
+  }
+
+  .drawer-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .starter-toggle-bar {
+    display: flex;
+    gap: 0.5rem;
+    background: var(--bg-primary);
+    padding: 0.4rem;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+  }
+
+  .starter-btn {
+    flex: 1;
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    padding: 0.4rem 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+
+  .starter-btn.active {
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  }
+
+  .starter-btn.bulba.active { color: var(--accent-green); border-bottom: 2px solid var(--accent-green); }
+  .starter-btn.char.active { color: var(--accent-red); border-bottom: 2px solid var(--accent-red); }
+  .starter-btn.squirt.active { color: var(--accent-blue); border-bottom: 2px solid var(--accent-blue); }
+
+  .core-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .core-name-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .core-pokemon { font-size: 1.05rem; font-weight: 700; color: var(--text-accent); }
+
+  .moveset-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.35rem;
+  }
+
+  .move-pill {
+    background: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    padding: 0.3rem 0.45rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  /* Interactive Fusion Lab Styles */
+  .fusion-lab-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+
+  .fusion-controls-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .fusion-selectors-row {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+
+  .fusion-select-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    flex: 1;
+  }
+
+  .fusion-select-label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-family: var(--font-heading);
+  }
+
+  .fusion-select {
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 0.45rem 0.5rem;
+    font-size: 0.82rem;
+    font-family: var(--font-sans);
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    transition: border-color 0.2s;
+  }
+
+  .fusion-select:focus {
+    border-color: var(--text-accent);
+  }
+
+  .fusion-swap-btn {
+    background: var(--bg-card-hover);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: all 0.2s;
+    align-self: flex-end;
+    margin-bottom: 2px;
+    flex-shrink: 0;
+  }
+
+  .fusion-swap-btn:hover {
+    border-color: var(--text-accent);
+    color: var(--text-accent);
+    transform: rotate(180deg);
+  }
+
+  .fusion-card {
+    background: linear-gradient(135deg, rgba(30, 41, 59, 0.7), rgba(15, 23, 42, 0.9));
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+  }
+
+  .fusion-header-box {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .fusion-crest-frame {
+    width: 90px;
+    height: 90px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border: 1px solid var(--border-color);
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(8px);
+    transition: all 0.3s ease;
+  }
+
+  .fusion-crest-inner {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+    margin-bottom: 4px;
+  }
+
+  .fusion-crest-icon {
+    font-size: 1.4rem;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+  }
+
+  .fusion-crest-label {
+    font-size: 0.68rem;
+    font-family: var(--font-mono);
+    font-weight: 700;
+    color: var(--text-primary);
+    background: rgba(15, 23, 42, 0.75);
+    padding: 0.1rem 0.4rem;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .fusion-info-box {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    flex: 1;
+  }
+
+  .fusion-name {
+    font-size: 1.2rem;
+    font-weight: 800;
+    font-family: var(--font-heading);
+    color: var(--text-primary);
+  }
+
+  .fusion-role-pill {
+    align-self: flex-start;
+    background: rgba(56, 189, 248, 0.15);
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    color: var(--text-accent);
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    font-family: var(--font-mono);
+  }
+
+  .stat-row {
+    display: grid;
+    grid-template-columns: 42px 35px 1fr;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.76rem;
+  }
+
+  .stat-label {
+    font-weight: 700;
+    color: var(--text-secondary);
+    font-family: var(--font-mono);
+  }
+
+  .stat-num {
+    font-weight: 700;
+    font-family: var(--font-mono);
+    text-align: right;
+  }
+
+  .stat-bar-track {
+    background: var(--bg-primary);
+    border-radius: 4px;
+    height: 8px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  .stat-bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.3s ease;
+  }
+
+  .fusion-section-title {
+    font-size: 0.78rem;
+    font-weight: 700;
+    font-family: var(--font-heading);
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 0.25rem;
+  }
+
+  .fusion-defense-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .defense-group {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    flex-wrap: wrap;
+    font-size: 0.75rem;
+  }
+
+  .defense-mult-pill {
+    font-family: var(--font-mono);
+    font-weight: 700;
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    min-width: 32px;
+    text-align: center;
+  }
+
+  .mult-4x { background: rgba(239, 68, 68, 0.3); color: #fca5a5; border: 1px solid var(--accent-red); }
+  .mult-2x { background: rgba(239, 68, 68, 0.15); color: #fca5a5; border: 1px solid rgba(239, 68, 68, 0.4); }
+  .mult-05x { background: rgba(34, 197, 94, 0.15); color: #86efac; border: 1px solid rgba(34, 197, 94, 0.4); }
+  .mult-025x { background: rgba(34, 197, 94, 0.3); color: #86efac; border: 1px solid var(--accent-green); }
+  .mult-0x { background: rgba(168, 85, 247, 0.2); color: #d8b4fe; border: 1px solid var(--accent-purple); }
+
+  .fusion-presets-bar {
+    display: flex;
+    gap: 0.35rem;
+    flex-wrap: wrap;
+  }
+
+  .fusion-preset-btn {
+    background: rgba(30, 41, 59, 0.6);
+    border: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.72rem;
+    cursor: pointer;
+    transition: all 0.15s;
+    font-family: var(--font-mono);
+  }
+
+  .fusion-preset-btn:hover {
+    color: var(--text-accent);
+    border-color: var(--text-accent);
+    background: var(--bg-card-hover);
+  }
+
+  /* Backdrop */
+  .modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 150;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s;
+  }
+
+  .modal-backdrop.open { opacity: 1; pointer-events: auto; }
+
+  /* Campaign Speedrun Cheat Sheet Modal */
+  .cheat-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.95);
+    width: 92vw;
+    max-width: 1250px;
+    max-height: 85vh;
+    background: var(--bg-surface);
+    border: 1px solid rgba(168, 85, 247, 0.35);
+    border-radius: 12px;
+    box-shadow: 0 24px 48px rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+    overflow: hidden;
+  }
+  .cheat-modal.open {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  .cheat-modal-header {
+    padding: 0.9rem 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+    background: var(--bg-card);
+  }
+  .cheat-modal-body {
+    padding: 1rem 1.4rem;
+    overflow-y: auto;
+    flex: 1;
+  }
+  .cheat-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.82rem;
+  }
+  .cheat-table th, .cheat-table td {
+    padding: 0.55rem 0.7rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+  }
+  .cheat-table th {
+    background: var(--bg-surface);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    color: var(--text-accent);
+    font-weight: 700;
+  }
+  .cheat-table tr:hover {
+    background: rgba(255, 255, 255, 0.03);
+  }
+
+  /* Custom Team Builder & Type Coverage Analyzer */
+  .team-builder-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+    padding-bottom: 2rem;
+  }
+
+  .team-top-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    background: rgba(15, 23, 42, 0.6);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 0.75rem 0.9rem;
+  }
+
+  .cap-stepper-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .cap-stepper {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+
+  .cap-step-btn {
+    background: var(--bg-card-hover);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.15s;
+  }
+  .cap-step-btn:hover { border-color: var(--text-accent); color: var(--text-accent); }
+
+  .cap-input {
+    background: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    color: var(--text-accent);
+    font-family: var(--font-mono);
+    font-weight: 700;
+    font-size: 0.9rem;
+    width: 55px;
+    text-align: center;
+    padding: 0.25rem 0.3rem;
+    border-radius: 4px;
+  }
+
+  .cap-presets-bar {
+    display: flex;
+    gap: 0.3rem;
+    overflow-x: auto;
+    padding-bottom: 2px;
+    scrollbar-width: thin;
+  }
+
+  .cap-pill {
+    background: rgba(30, 41, 59, 0.7);
+    border: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    padding: 0.15rem 0.5rem;
+    border-radius: 9999px;
+    font-size: 0.72rem;
+    font-family: var(--font-mono);
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.15s;
+  }
+  .cap-pill:hover, .cap-pill.active {
+    background: rgba(56, 189, 248, 0.2);
+    color: var(--text-accent);
+    border-color: var(--text-accent);
+  }
+
+  .team-actions-row {
+    display: flex;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+  }
+
+  .team-slot-card {
+    background: linear-gradient(135deg, rgba(30, 41, 59, 0.7), rgba(15, 23, 42, 0.9));
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+    transition: border-color 0.2s;
+  }
+  .team-slot-card:hover { border-color: rgba(56, 189, 248, 0.4); }
+
+  .team-slot-empty {
+    border: 2px dashed var(--border-color);
+    background: rgba(15, 23, 42, 0.25);
+    border-radius: 8px;
+    padding: 0.85rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: var(--text-secondary);
+    font-size: 0.84rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  .team-slot-empty:hover {
+    border-color: var(--text-accent);
+    color: var(--text-primary);
+    background: rgba(56, 189, 248, 0.05);
+  }
+
+  .slot-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .slot-title-box {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    flex-wrap: wrap;
+  }
+
+  .slot-num-badge {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--text-secondary);
+    background: rgba(255,255,255,0.06);
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+  }
+
+  .slot-mon-name {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 0.92rem;
+    color: var(--text-primary);
+  }
+
+  .slot-clear-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    cursor: pointer;
+    font-size: 0.95rem;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    transition: all 0.15s;
+  }
+  .slot-clear-btn:hover { color: var(--accent-red); background: rgba(239, 68, 68, 0.15); }
+
+  .slot-selects-row {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 0.35rem;
+    align-items: center;
+  }
+
+  .species-combobox {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .species-combobox-input {
+    background: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    padding: 0.35rem 1.4rem 0.35rem 0.45rem;
+    border-radius: 6px;
+    font-size: 0.78rem;
+    outline: none;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  }
+  .species-combobox-input:focus {
+    border-color: var(--text-accent);
+    box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.2);
+    cursor: text;
+  }
+  .combobox-arrow {
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.6rem;
+    color: var(--text-secondary);
+    pointer-events: none;
+    user-select: none;
+  }
+  .species-picker-dropdown {
+    position: fixed;
+    z-index: 2500;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.85);
+    overflow-y: auto;
+    max-height: 260px;
+    padding: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+  .species-picker-item {
+    padding: 0.35rem 0.55rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.78rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background 0.1s ease, color 0.1s ease;
+    color: var(--text-primary);
+  }
+  .species-picker-item:hover, .species-picker-item.active {
+    background: var(--bg-card-hover);
+    color: var(--text-accent);
+  }
+  .species-picker-none {
+    color: var(--accent-yellow);
+    font-weight: 600;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 0.2rem;
+    padding-bottom: 0.4rem;
+  }
+  .slot-select {
+    background: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    padding: 0.35rem 0.45rem;
+    border-radius: 6px;
+    font-size: 0.78rem;
+    outline: none;
+    width: 100%;
+  }
+  .slot-select:focus { border-color: var(--text-accent); }
+
+  .slot-swap-btn {
+    background: var(--bg-card-hover);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+  }
+  .slot-swap-btn:hover { border-color: var(--text-accent); color: var(--text-accent); transform: rotate(180deg); }
+
+  .moves-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.35rem;
+  }
+
+  .move-btn {
+    background: rgba(15, 23, 42, 0.5);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 0.35rem 0.5rem;
+    font-size: 0.74rem;
+    color: var(--text-primary);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    text-align: left;
+    transition: all 0.15s;
+  }
+  .move-btn:hover { border-color: var(--text-accent); background: var(--bg-card-hover); }
+  .move-btn.empty { border-style: dashed; color: var(--text-secondary); align-items: center; justify-content: center; height: 42px; }
+
+  .move-btn-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 0.25rem;
+  }
+
+  .move-btn-name { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 0.74rem; }
+
+  .move-btn-sub {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.68rem;
+    color: var(--text-secondary);
+    font-family: var(--font-mono);
+  }
+
+  .warning-tag {
+    background: rgba(245, 158, 11, 0.2);
+    border: 1px solid rgba(245, 158, 11, 0.4);
+    color: var(--accent-yellow);
+    padding: 0.1rem 0.35rem;
+    border-radius: 4px;
+    font-size: 0.65rem;
+    font-weight: 700;
+  }
+
+  /* Fullscreen Deep Matrix Modal */
+  .matrix-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.95);
+    width: 95vw;
+    max-width: 1350px;
+    max-height: 88vh;
+    background: var(--bg-secondary);
+    border: 1px solid rgba(56, 189, 248, 0.4);
+    border-radius: 12px;
+    box-shadow: 0 24px 50px rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+    overflow: hidden;
+  }
+  .matrix-modal.open {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  .matrix-modal-header {
+    padding: 0.85rem 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+    background: var(--bg-card);
+  }
+  .matrix-modal-body {
+    padding: 1rem 1.4rem;
+    overflow: auto;
+    flex: 1;
+  }
+
+  .matrix-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.78rem;
+  }
+  .matrix-table th, .matrix-table td {
+    padding: 0.45rem 0.6rem;
+    text-align: center;
+    border-bottom: 1px solid var(--border-color);
+    border-right: 1px solid rgba(255, 255, 255, 0.04);
+  }
+  .matrix-table th {
+    background: var(--bg-card);
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    color: var(--text-accent);
+    font-weight: 700;
+  }
+  .matrix-table th.sticky-col, .matrix-table td.sticky-col {
+    position: sticky;
+    left: 0;
+    z-index: 6;
+    background: var(--bg-secondary);
+    text-align: left;
+  }
+  .matrix-table th.sticky-col { z-index: 7; background: var(--bg-card); }
+  .matrix-table tr:hover { background: rgba(255, 255, 255, 0.03); }
+
+  /* Move Picker Dialog */
+  .move-picker-dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.95);
+    width: 90vw;
+    max-width: 600px;
+    max-height: 80vh;
+    background: var(--bg-secondary);
+    border: 1px solid var(--text-accent);
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8);
+    z-index: 1100;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.2s ease;
+    overflow: hidden;
+  }
+  .move-picker-dialog.open {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  .move-picker-header {
+    padding: 0.85rem 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+    background: var(--bg-card);
+  }
+  .move-picker-search {
+    padding: 0.6rem 1.2rem;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    gap: 0.5rem;
+    background: var(--bg-primary);
+  }
+  .move-picker-list {
+    overflow-y: auto;
+    flex: 1;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+  .move-picker-item {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 0.45rem 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 0.15s;
+    font-size: 0.8rem;
+  }
+  .move-picker-item:hover {
+    background: var(--bg-card-hover);
+    border-color: var(--text-accent);
+    transform: translateX(3px);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-brand">
+    <h1>⚔️ Infinite Fusion Companion</h1>
+    <span class="badge-tag">Classic Mode • Hard Cap</span>
+  </div>
+
+  <div class="region-tabs">
+    <button class="tab-btn active" onclick="switchAct(1)">Act 1: Kanto Campaign</button>
+    <button class="tab-btn" onclick="switchAct(2)">Act 2: Johto Mainland</button>
+    <button class="tab-btn" onclick="switchAct(3)">Act 3: Sevii & Endgame</button>
+    <button class="tab-btn" onclick="switchAct(4)">Act 4: Postgame Sandbox</button>
+  </div>
+
+  <div class="header-controls">
+    <input type="text" id="global-search" class="search-input" placeholder="Search Pokémon, TM, Route... (/)" oninput="onSearch(this.value)">
+    <button class="action-btn" onclick="toggleCheatSheet()" title="Campaign Speedrun Cheat Sheet (C)" style="background: rgba(168, 85, 247, 0.18); border-color: rgba(168, 85, 247, 0.45); color: #d8b4fe;"><span style="margin-right:3px;">📋</span> Cheat Sheet</button>
+    <button class="action-btn" onclick="openDrawer('team')" title="Custom Team Builder & Coverage (T)"><span style="margin-right:3px;">⚔️</span> My Team</button>
+    <button class="action-btn" onclick="openDrawer('fusion')" title="Interactive Fusion Lab (F)">🧪 Fusion Lab</button>
+    <button class="action-btn" onclick="openDrawer('party')">🛡️ Starter Teams</button>
+    <button class="action-btn" onclick="openDrawer('items')">🎒 Key Items</button>
+    <button class="action-btn" onclick="openDrawer('quests')">📜 Quests & Missables</button>
+    <button class="action-btn" onclick="exportProgress()" title="Backup checklist progress to JSON">💾 Export</button>
+    <button class="action-btn" onclick="document.getElementById('import-file-input').click()" title="Restore checklist progress from JSON">📥 Import</button>
+    <input type="file" id="import-file-input" style="display:none" accept=".json" onchange="importProgress(event)">
+    <button class="action-btn" onclick="toggleTheme()">🌓</button>
+  </div>
+</header>
+
+<div class="app-container" id="app-container">
+  <aside class="sidebar">
+    <div class="sidebar-section-title">Campaign Segments</div>
+    <div id="sidebar-chapters-list"></div>
+  </aside>
+
+  <main class="main-viewport" id="main-viewport">
+  </main>
+
+  <div class="drawer-overlay" id="drawer-overlay">
+    <div class="drawer-header">
+      <div class="drawer-tabs">
+        <button class="drawer-tab-btn" id="drawer-tab-team" onclick="setDrawerTab('team')">⚔️ My Team</button>
+        <button class="drawer-tab-btn" id="drawer-tab-fusion" onclick="setDrawerTab('fusion')">🧪 Fusion Lab</button>
+        <button class="drawer-tab-btn active" id="drawer-tab-party" onclick="setDrawerTab('party')">Starter Teams</button>
+        <button class="drawer-tab-btn" id="drawer-tab-items" onclick="setDrawerTab('items')">Key Items</button>
+        <button class="drawer-tab-btn" id="drawer-tab-quests" onclick="setDrawerTab('quests')">Quests & Missables</button>
+        <button class="drawer-tab-btn" id="drawer-tab-tms" onclick="setDrawerTab('tms')">Custom TMs</button>
+      </div>
+      <div class="drawer-header-actions">
+        <button class="drawer-tab-btn" id="pin-drawer-btn" onclick="togglePinDrawer()" title="Pin side-by-side on desktop">📌 Pin</button>
+        <button class="drawer-close-btn" onclick="closeDrawer()">✕</button>
+      </div>
+    </div>
+
+    <div class="drawer-content" id="drawer-content">
+    </div>
+  </div>
+</div>
+
+<!-- Campaign Speedrun Cheat Sheet Modal -->
+<div class="cheat-modal" id="cheat-modal">
+  <div class="cheat-modal-header">
+    <div style="display: flex; align-items: center; gap: 0.75rem;">
+      <h2 style="margin: 0; font-size: 1.15rem; color: #d8b4fe; font-weight: 700;">📋 Campaign Speedrun Cheat Sheet</h2>
+      <span class="badge-tag" style="background: rgba(168, 85, 247, 0.2); border-color: rgba(168, 85, 247, 0.4); color: #d8b4fe;">25 Chapters • 4 Acts • Master Matrix</span>
+    </div>
+    <button class="drawer-close-btn" onclick="toggleCheatSheet()" style="background: transparent; border: none; font-size: 1.25rem; color: var(--text-secondary); cursor: pointer;">✕</button>
+  </div>
+  <div class="cheat-modal-body">
+    <table class="cheat-table">
+      <thead>
+        <tr>
+          <th style="width: 80px;">Act / ID</th>
+          <th>Segment Title</th>
+          <th style="width: 85px;">Cap</th>
+          <th style="width: 60px; text-align: center;">Duel</th>
+          <th>Milestone Boss</th>
+          <th>Boss Ace & Types</th>
+          <th>Key HM Tools & Missables</th>
+        </tr>
+      </thead>
+      <tbody id="cheat-table-body"></tbody>
+    </table>
+  </div>
+</div>
+
+<!-- Fullscreen Deep Matrix Modal -->
+<div class="matrix-modal" id="matrix-modal">
+  <div class="matrix-modal-header">
+    <div style="display: flex; align-items: center; gap: 0.75rem;">
+      <h2 style="margin: 0; font-size: 1.15rem; color: var(--text-accent); font-weight: 700;">⚔️ Team Synergy & 18-Type Matchup Matrix</h2>
+      <span class="badge-tag" id="matrix-header-badge">6 Slots</span>
+    </div>
+    <div style="display: flex; gap: 0.5rem; align-items: center;">
+      <button class="action-btn" onclick="importActiveGuideTeam()">📥 Import Guide Team</button>
+      <button class="drawer-close-btn" onclick="toggleMatrixModal(false)" style="background: transparent; border: none; font-size: 1.25rem; color: var(--text-secondary); cursor: pointer;">✕</button>
+    </div>
+  </div>
+  <div class="matrix-modal-body" id="matrix-modal-body">
+  </div>
+</div>
+
+<!-- Move Picker Dialog -->
+<div class="move-picker-dialog" id="move-picker-modal">
+  <div class="move-picker-header">
+    <div>
+      <h3 id="move-picker-title" style="margin: 0; font-size: 0.95rem; color: var(--text-primary); font-weight: 700;">Select Move</h3>
+      <span id="move-picker-sub" style="font-size: 0.72rem; color: var(--text-secondary); font-family: var(--font-mono);">Cap: Lv. 50</span>
+    </div>
+    <button class="drawer-close-btn" onclick="closeMovePicker()" style="background: transparent; border: none; font-size: 1.25rem; color: var(--text-secondary); cursor: pointer;">✕</button>
+  </div>
+  <div class="move-picker-search">
+    <input type="text" id="move-search-input" class="search-input" style="flex:1;" placeholder="Filter moves (e.g. Earthquake, Fire, Phys)..." oninput="filterMovePickerList(this.value)">
+    <button class="action-btn" onclick="selectMove('')" style="color: var(--accent-red); font-size: 0.75rem;">Clear Slot</button>
+  </div>
+  <div class="move-picker-list" id="move-picker-list">
+  </div>
+</div>
+
+<!-- Floating Species Combobox Dropdown -->
+<div class="species-picker-dropdown" id="species-picker-dropdown" style="display:none;" tabindex="-1"></div>
+
+<div class="modal-backdrop" id="modal-backdrop" onclick="closeDrawer()"></div>
+
+<script>
+// Embedded Compressed Data Payload
+var COMPRESSED_APP_DATA = "__APP_DATA_B64__";
+let APP_DATA = null;
+
+async function decompressPayload(b64) {
+  const binaryString = atob(b64);
+  const len = binaryString.length;
+  const bytes = new Uint8Array(len);
+  for (let i = 0; i < len; i++) {
+    bytes[i] = binaryString.charCodeAt(i);
+  }
+  const stream = new Response(bytes).body.pipeThrough(new DecompressionStream('gzip'));
+  const jsonText = await new Response(stream).text();
+  return JSON.parse(jsonText);
+}
+
+function unpackBaseStats(data) {
+  if (!data || !data.base_stats) return;
+  const rawStats = data.base_stats;
+  const unpacked = {};
+  for (const [name, d] of Object.entries(rawStats)) {
+    if (Array.isArray(d)) {
+      unpacked[name] = {
+        dex_id: d[0],
+        types: (Array.isArray(d[1]) && d[1].length > 0 && typeof d[1][0] === "number") ? d[1].map(t => ALL_TYPES[t] || "Normal") : d[1],
+        hp: d[2][0], atk: d[2][1], def: d[2][2], spa: d[2][3], spd: d[2][4], spe: d[2][5],
+        bst: d[2].reduce((a, b) => a + b, 0),
+        abilities: d[3],
+        hidden_abilities: d[4]
+      };
+    } else {
+      unpacked[name] = d;
+    }
+  }
+  data.base_stats = unpacked;
+}
+
+let currentAct = 1;
+let currentChapterIndex = 0;
+let currentTodFilter = "all";
+let isHideMode = false;
+let currentDrawerTab = "party";
+let activeStarterTrack = "bulbasaur";
+let isDrawerPinned = localStorage.getItem("pif_drawer_pinned") === "true";
+
+function getChecklistState(key) {
+  try {
+    const saved = localStorage.getItem("pif_checklist_" + key);
+    return saved ? JSON.parse(saved) : false;
+  } catch(e) { return false; }
+}
+
+function setChecklistState(key, val) {
+  try { localStorage.setItem("pif_checklist_" + key, JSON.stringify(val)); } catch(e) {}
+}
+
+function initTheme() {
+  const theme = localStorage.getItem("pif_theme") || "dark";
+  document.documentElement.setAttribute("data-theme", theme);
+  if (isDrawerPinned && window.innerWidth >= 1200) {
+    document.getElementById("app-container").classList.add("drawer-pinned");
+    document.getElementById("drawer-overlay").classList.add("open");
+    updatePinButtonState();
+  }
+}
+
+function toggleTheme() {
+  const cur = document.documentElement.getAttribute("data-theme") || "dark";
+  const next = cur === "dark" ? "light" : "dark";
+  document.documentElement.setAttribute("data-theme", next);
+  localStorage.setItem("pif_theme", next);
+}
+
+function togglePinDrawer() {
+  isDrawerPinned = !isDrawerPinned;
+  localStorage.setItem("pif_drawer_pinned", isDrawerPinned);
+  const container = document.getElementById("app-container");
+  const overlay = document.getElementById("drawer-overlay");
+  
+  if (isDrawerPinned && window.innerWidth >= 1200) {
+    container.classList.add("drawer-pinned");
+    overlay.classList.add("open");
+    document.getElementById("modal-backdrop").classList.remove("open");
+  } else {
+    container.classList.remove("drawer-pinned");
+  }
+  updatePinButtonState();
+}
+
+function updatePinButtonState() {
+  const btn = document.getElementById("pin-drawer-btn");
+  if (btn) {
+    btn.style.borderColor = isDrawerPinned ? "var(--text-accent)" : "var(--border-color)";
+    btn.style.color = isDrawerPinned ? "var(--text-accent)" : "var(--text-secondary)";
+    btn.innerHTML = isDrawerPinned ? "📌 Pinned" : "📌 Pin";
+  }
+}
+
+function switchAct(actNum) {
+  currentAct = actNum;
+  document.querySelectorAll(".region-tabs .tab-btn").forEach((btn, idx) => {
+    btn.classList.toggle("active", (idx + 1) === actNum);
+  });
+  renderSidebar();
+  selectChapter(0);
+}
+
+function renderSidebar() {
+  const container = document.getElementById("sidebar-chapters-list");
+  container.innerHTML = "";
+  
+  const actChapters = APP_DATA.chapters.filter(ch => ch.act === currentAct);
+  if (actChapters.length === 0) {
+    container.innerHTML = '<div style="padding: 1rem; color: var(--text-secondary); font-size: 0.85rem;">No chapters written for this act yet. Stay tuned!</div>';
+    return;
+  }
+  
+  actChapters.forEach((ch, idx) => {
+    const item = document.createElement("div");
+    item.className = "chapter-nav-item" + (idx === currentChapterIndex ? " active" : "");
+    item.onclick = () => selectChapter(idx);
+    
+    const routesSummary = ch.routes ? ch.routes.map(r => r.name).join(", ") : "";
+    item.innerHTML = `
+      <div class="nav-header-row">
+        <span class="nav-chapter-title">${ch.title}</span>
+        <span class="nav-cap-pill">Cap Lv. ${ch.hard_mode_level_cap}</span>
+      </div>
+      <div class="nav-routes-sub">${routesSummary}</div>
+    `;
+    container.appendChild(item);
+  });
+}
+
+function selectChapter(idx) {
+  currentChapterIndex = idx;
+  document.querySelectorAll(".chapter-nav-item").forEach((el, i) => {
+    el.classList.toggle("active", i === idx);
+  });
+  renderChapter();
+}
+
+let isUncaughtOnly = false;
+
+function setTodFilter(tod) {
+  currentTodFilter = tod;
+  document.querySelectorAll(".tod-filter-btn[data-tod]").forEach(btn => {
+    btn.classList.toggle("active", btn.dataset.tod === tod);
+  });
+  applyTodFilter();
+}
+
+function toggleUncaughtOnly() {
+  isUncaughtOnly = !isUncaughtOnly;
+  const btn = document.getElementById("uncaught-filter-btn");
+  if (btn) {
+    btn.classList.toggle("active", isUncaughtOnly);
+    btn.style.background = isUncaughtOnly ? "rgba(234, 179, 8, 0.25)" : "transparent";
+  }
+  applyTodFilter();
+}
+
+function toggleTodMode() {
+  isHideMode = !isHideMode;
+  const btn = document.getElementById("tod-mode-btn");
+  if (btn) {
+    btn.innerHTML = isHideMode ? "👁️ Mode: Hide Inactive" : "👁️ Mode: Dim Inactive";
+    btn.classList.toggle("active", isHideMode);
+  }
+  document.querySelectorAll(".encounters-container").forEach(c => {
+    c.classList.toggle("hide-inactive", isHideMode);
+  });
+}
+
+function applyTodFilter() {
+  const rows = document.querySelectorAll(".encounters-table tbody tr");
+  rows.forEach(r => {
+    const rates = (r.dataset.rates || "").toLowerCase();
+    const isRadar = r.dataset.isRadar === "true";
+    const isCaught = r.classList.contains("caught-row");
+    
+    let matchesTod = true;
+    if (currentTodFilter === "morning") {
+      matchesTod = rates.includes("morning") || rates.includes("all");
+    } else if (currentTodFilter === "day") {
+      matchesTod = rates.includes("day") || rates.includes("all");
+    } else if (currentTodFilter === "night") {
+      matchesTod = rates.includes("night") || rates.includes("all");
+    } else if (currentTodFilter === "radar") {
+      matchesTod = isRadar;
+    }
+    
+    let shouldShow = matchesTod;
+    if (isUncaughtOnly && isCaught) {
+      shouldShow = false;
+    }
+    
+    r.classList.toggle("dimmed", !shouldShow);
+  });
+}
+
+function scrollToRoute(rIdx) {
+  const el = document.getElementById("route-card-" + rIdx);
+  if (el) {
+    el.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+}
+
+function scrollToBoss() {
+  const el = document.getElementById("boss-section");
+  if (el) {
+    el.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+}
+
+function toggleRouteCollapse(rIdx) {
+  const body = document.getElementById("route-body-" + rIdx);
+  const btn = document.getElementById("collapse-btn-" + rIdx);
+  if (body) {
+    const isCollapsed = body.classList.toggle("route-body-collapsed");
+    if (btn) btn.innerHTML = isCollapsed ? "▶" : "▼";
+  }
+}
+
+function updateChapterHud() {
+  const actChapters = APP_DATA.chapters.filter(ch => ch.act === currentAct);
+  const ch = actChapters[currentChapterIndex];
+  if (!ch) return;
+
+  // Items
+  let totalItems = 0;
+  let doneItems = 0;
+  (ch.routes || []).forEach((r, rIdx) => {
+    (r.items || []).forEach((it, itIdx) => {
+      totalItems++;
+      if (getChecklistState(`${ch.chapter_id}_r${rIdx}_it${itIdx}`)) doneItems++;
+    });
+  });
+
+  // Trainers
+  let totalTrainers = 0;
+  let doneTrainers = 0;
+  (ch.routes || []).forEach((r, rIdx) => {
+    (r.trainers || []).forEach((tr, trIdx) => {
+      totalTrainers++;
+      if (getChecklistState(`${ch.chapter_id}_r${rIdx}_tr${trIdx}`)) doneTrainers++;
+    });
+  });
+
+  // Catches (unique species in chapter)
+  const chapterSpecies = new Set();
+  (ch.routes || []).forEach(r => {
+    for (const monList of Object.values(r.encounters || {})) {
+      monList.forEach(m => {
+        const monKey = m.dex_id ? String(m.dex_id) : m.name.toLowerCase().replace(/\s+/g, '_');
+        chapterSpecies.add(monKey);
+      });
+    }
+  });
+  let totalCatches = chapterSpecies.size;
+  let doneCatches = 0;
+  chapterSpecies.forEach(monKey => {
+    if (localStorage.getItem("pif_caught_" + monKey) === "true") doneCatches++;
+  });
+
+  const totalTasks = totalItems + totalTrainers + totalCatches;
+  const doneTasks = doneItems + doneTrainers + doneCatches;
+  const pct = totalTasks > 0 ? Math.round((doneTasks / totalTasks) * 100) : 0;
+
+  const elItems = document.getElementById("hud-items-count");
+  if (elItems) elItems.innerText = `${doneItems} / ${totalItems}`;
+  const elTrainers = document.getElementById("hud-trainers-count");
+  if (elTrainers) elTrainers.innerText = `${doneTrainers} / ${totalTrainers}`;
+  const elCatches = document.getElementById("hud-catches-count");
+  if (elCatches) elCatches.innerText = `${doneCatches} / ${totalCatches}`;
+  const elPct = document.getElementById("hud-pct-text");
+  if (elPct) elPct.innerText = `${pct}%`;
+  const elMeter = document.getElementById("hud-meter-fill");
+  if (elMeter) elMeter.style.width = `${pct}%`;
+}
+
+function getRarityBadge(rateStr) {
+  if (!rateStr) return '<span class="rate-badge rate-common">Common</span>';
+  const s = rateStr.toLowerCase();
+  if (s.includes("radar")) return `<span class="rate-badge rate-special">📡 Radar</span>`;
+  const match = s.match(/(\d+)%/);
+  if (match) {
+    const pct = parseInt(match[1]);
+    if (pct >= 30) return `<span class="rate-badge rate-common">${rateStr}</span>`;
+    if (pct >= 10) return `<span class="rate-badge rate-uncommon">${rateStr}</span>`;
+    if (pct >= 5) return `<span class="rate-badge rate-rare">${rateStr}</span>`;
+    return `<span class="rate-badge rate-special">${rateStr}</span>`;
+  }
+  return `<span class="rate-badge rate-common">${rateStr}</span>`;
+}
+
+function renderChapter() {
+  const actChapters = APP_DATA.chapters.filter(ch => ch.act === currentAct);
+  const ch = actChapters[currentChapterIndex];
+  const vp = document.getElementById("main-viewport");
+  
+  if (!ch) {
+    vp.innerHTML = '<div style="padding: 2rem; color: var(--text-secondary);">Chapter not found.</div>';
+    return;
+  }
+  
+  let missablesHtml = "";
+  const masterQuestsList = (APP_DATA.master_quests && APP_DATA.master_quests.quests) || [];
+  const chMissables = masterQuestsList.filter(q => q.is_missable && (q.chapter_introduced === ch.chapter_id || (q.missable_deadline && q.missable_deadline.toLowerCase().includes(ch.title.toLowerCase()))));
+  if (chMissables.length > 0) {
+    missablesHtml = `
+      <div style="background: rgba(239, 68, 68, 0.12); border: 1px solid var(--accent-red); border-left: 5px solid var(--accent-red); border-radius: 8px; padding: 1rem 1.25rem; margin-bottom: 1.25rem;">
+        <div style="display: flex; align-items: center; gap: 0.5rem; font-weight: 800; color: #fca5a5; font-size: 0.95rem; margin-bottom: 0.4rem;">
+          <span>⚠️ PERMANENTLY MISSABLE ALERT FOR THIS CHAPTER</span>
+        </div>
+        ${chMissables.map(m => `
+          <div style="font-size: 0.82rem; line-height: 1.45; margin-bottom: 0.4rem; color: #fecaca;">
+            <b style="color: #ffffff; text-decoration: underline;">${m.title}</b>: <span style="font-weight: 700;">Deadline: ${m.missable_deadline}</span><br>
+            <span style="opacity: 0.9;">${m.objectives[m.objectives.length - 1]}</span>
+          </div>
+        `).join("")}
+      </div>
+    `;
+  }
+  
+  let routesHtml = "";
+  if (ch.routes) {
+    ch.routes.forEach((r, rIdx) => {
+      let itemsHtml = "";
+      if (r.items && r.items.length > 0) {
+        itemsHtml = `
+          <div class="checklist-card">
+            <div class="checklist-title">🎒 Route Pickups & Key Items</div>
+            ${r.items.map((it, itIdx) => {
+              const itemKey = `${ch.chapter_id}_r${rIdx}_it${itIdx}`;
+              const checked = getChecklistState(itemKey);
+              return `
+                <label class="checklist-item ${checked ? 'done' : ''}" id="lbl_${itemKey}">
+                  <input type="checkbox" ${checked ? 'checked' : ''} onchange="toggleChecklistItem('${itemKey}', this)">
+                  <span><b>${it.name}</b> (${it.type}): ${it.method}</span>
+                </label>
+              `;
+            }).join("")}
+          </div>
+        `;
+      }
+      
+      let trainersHtml = "";
+      if (r.trainers && r.trainers.length > 0) {
+        trainersHtml = `
+          <div class="checklist-card">
+            <div class="checklist-title">⚔️ Route Trainers</div>
+            ${r.trainers.map((tr, trIdx) => {
+              const trKey = `${ch.chapter_id}_r${rIdx}_tr${trIdx}`;
+              const checked = getChecklistState(trKey);
+              const teamDesc = (tr.team || []).map(m => `${m.species} Lv. ${m.level}`).join(", ");
+              return `
+                <label class="checklist-item ${checked ? 'done' : ''}" id="lbl_${trKey}">
+                  <input type="checkbox" ${checked ? 'checked' : ''} onchange="toggleChecklistItem('${trKey}', this)">
+                  <span><b>${tr.name}</b> [${teamDesc}] — Reward: ${tr.reward || 'None'}</span>
+                </label>
+              `;
+            }).join("")}
+          </div>
+        `;
+      }
+      
+      let encountersHtml = "";
+      if (r.encounters && Object.keys(r.encounters).length > 0) {
+        let tableRows = "";
+        for (const [secName, monList] of Object.entries(r.encounters)) {
+          const isRadar = secName.toLowerCase().includes("radar");
+          monList.forEach(m => {
+            const monInfo = (APP_DATA && APP_DATA.base_stats && APP_DATA.base_stats[m.name]) || {};
+            const dexId = m.dex_id || monInfo.dex_id;
+            const monKey = dexId ? String(dexId) : m.name.toLowerCase().replace(/\s+/g, '_');
+            const isCaught = localStorage.getItem("pif_caught_" + monKey) === "true";
+            const monTypes = (m.types && m.types.length > 0) ? m.types : (monInfo.types || []);
+            const typesBadge = monTypes.map(t => `<span class="type-badge type-${t}">${t}</span>`).join(" ");
+            const dexStr = dexId ? String(dexId).padStart(3, '0') : '???';
+            tableRows += `
+              <tr class="${isCaught ? 'caught-row' : ''}" data-rates="${m.rates || ''}" data-is-radar="${isRadar ? 'true' : ''}" data-mon-key="${monKey}">
+                <td style="text-align: center; width: 50px;">
+                  <input type="checkbox" class="catch-checkbox" data-mon-id="${monKey}" ${isCaught ? 'checked' : ''} onchange="toggleCaught('${monKey}', this)" title="Track #${dexStr} ${m.name} across all routes">
+                </td>
+                <td><span class="badge-tag">${secName}</span></td>
+                <td>
+                  <div class="mon-cell">
+                    <span class="dex-badge">#${dexStr}</span>
+                    <span class="mon-name-text">${m.name}</span>
+                  </div>
+                </td>
+                <td>${typesBadge}</td>
+                <td>${m.levels || '??'}</td>
+                <td>${getRarityBadge(m.rates)}</td>
+              </tr>
+            `;
+          });
+        }
+        
+        encountersHtml = `
+          <div class="encounters-container ${isHideMode ? 'hide-inactive' : ''}">
+            <table class="encounters-table">
+              <thead>
+                <tr>
+                  <th style="width: 50px; text-align: center;" title="Global Catch Tracker across whole guide">Caught</th>
+                  <th>Method</th>
+                  <th>Pokémon</th>
+                  <th>Type</th>
+                  <th>Levels</th>
+                  <th>Encounter Rate</th>
+                </tr>
+              </thead>
+              <tbody>${tableRows}</tbody>
+            </table>
+          </div>
+        `;
+      }
+      
+      routesHtml += `
+        <div class="route-card" id="route-card-${rIdx}" data-route-name="${r.name}">
+          <div class="route-header" style="cursor: pointer; display: flex; justify-content: space-between; align-items: center;" onclick="toggleRouteCollapse(${rIdx})">
+            <div style="display: flex; align-items: center; gap: 0.5rem;">
+              <button class="route-collapse-btn" id="collapse-btn-${rIdx}" onclick="event.stopPropagation(); toggleRouteCollapse(${rIdx})">▼</button>
+              <span class="route-title">📍 ${r.name}</span>
+            </div>
+            <span class="badge-tag" style="font-size: 0.72rem;">Route ${rIdx + 1}</span>
+          </div>
+          <div class="route-body" id="route-body-${rIdx}">
+            <div class="route-summary">${r.summary || ''}</div>
+            ${encountersHtml}
+            <div class="checklist-grid">
+              ${itemsHtml}
+              ${trainersHtml}
+            </div>
+            ${r.navigation_notes ? `<div style="font-size: 0.85rem; color: var(--accent-yellow); background: rgba(234, 179, 8, 0.1); border: 1px solid rgba(234, 179, 8, 0.3); padding: 0.6rem 0.8rem; border-radius: 6px;">⚠️ <b>Navigation Note:</b> ${r.navigation_notes}</div>` : ''}
+          </div>
+        </div>
+      `;
+    });
+  }
+  
+  let bossHtml = "";
+  if (ch.boss_strategy) {
+    const b = ch.boss_strategy;
+    const duelLimit = b.gym_duel_limit || ch.gym_duel_limit || 2;
+    const cap = b.hard_mode_level_cap || b.level_cap || ch.hard_mode_level_cap || "";
+    const isLeague = (b.leader && b.leader.toLowerCase().includes("champion")) || (ch.chapter_id === "ch09");
+    const hasLeader = Boolean(b.leader);
+    const leaderTitle = hasLeader 
+      ? (isLeague ? `👑 ${b.leader}` : `👑 Gym Leader ${b.leader}`)
+      : `🎖️ ${b.title || 'Chapter Finale & Milestone'}`;
+    const ruleBanner = hasLeader 
+      ? (isLeague 
+          ? `🏆 POKÉMON LEAGUE RULES: Full 6v6 Battle — All 6 party members enter combat against the Elite Four and Champion.`
+          : `⚔️ GYM RULES: ${duelLimit}v${duelLimit} BATTLE — Select your ${duelLimit} designated Pokémon from your party when prompted at battle start.`)
+      : `🎖️ ROUTE TRAVEL RULES: All 6 party members enter combat for route traversal — No gym duel restriction in this segment.`;
+
+    const overview = b.threat_analysis || b.overview || "";
+    const roster = b.leader_team || b.roster || [];
+    
+    let eliteFourHtml = "";
+    if (b.elite_four_summary && b.elite_four_summary.length > 0) {
+      eliteFourHtml = `
+        <div style="font-weight: 700; font-size: 0.9rem; margin-top: 1rem; margin-bottom: 0.5rem; color: var(--accent-yellow);">🎖️ The Elite Four Gauntlet:</div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0.75rem; margin-bottom: 1rem;">
+          ${b.elite_four_summary.map(e => `
+            <div style="background: rgba(15, 23, 42, 0.7); border: 1px solid var(--border-color); border-radius: 8px; padding: 0.75rem;">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.3rem;">
+                <b style="color: var(--text-primary); font-size: 0.9rem;">${e.trainer}</b>
+                <span class="nav-cap-pill">${e.specialty}</span>
+              </div>
+              <div style="font-size: 0.78rem; color: var(--text-secondary); line-height: 1.4;">${e.key_threats}</div>
+            </div>
+          `).join("")}
+        </div>
+      `;
+    }
+
+    let rosterHtml = "";
+    if (roster.length > 0) {
+      rosterHtml = `
+        <div style="font-weight: 700; font-size: 0.9rem; margin-top: 0.5rem; margin-bottom: 0.5rem;">${isLeague ? "Champion Blue's Final Team:" : "Leader Roster:"}</div>
+        <div class="boss-team-grid">
+          ${roster.map(m => {
+            const isAce = m.is_ace || (m.level === cap) || (roster.indexOf(m) === roster.length - 1 && !roster.some(x => x.is_ace));
+            return `
+              <div class="boss-mon-card ${isAce ? 'ace' : ''}">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                  <b>${m.species}</b>
+                  <span class="nav-cap-pill">Lv. ${m.level}</span>
+                </div>
+                <div>${(m.types || []).map(t => `<span class="type-badge type-${t}">${t}</span>`).join(" ")}</div>
+                ${m.ability ? `<div style="font-size: 0.75rem; color: var(--text-secondary);">Ability: ${m.ability}</div>` : ''}
+                ${m.item ? `<div style="font-size: 0.75rem; color: var(--accent-yellow);">Item: ${m.item}</div>` : ''}
+                <div style="font-size: 0.75rem;">Moves: ${(m.moves || []).join(", ")}</div>
+                ${m.tactics ? `<div style="font-size: 0.74rem; color: var(--text-secondary); margin-top: 0.3rem; font-style: italic;">${m.tactics}</div>` : ''}
+                ${isAce ? `<div style="color: var(--accent-red); font-size: 0.75rem; font-weight: bold; margin-top: 0.25rem;">⭐ ${isLeague ? 'CHAMPION ACE' : 'GYM ACE'}</div>` : ''}
+              </div>
+            `;
+          }).join("")}
+        </div>
+      `;
+    }
+
+    let stratHtml = "";
+    if (b.starter_strategies && typeof b.starter_strategies === "object") {
+      const bStrat = b.starter_strategies.bulbasaur || b.starter_strategies.Bulbasaur || "";
+      const cStrat = b.starter_strategies.charmander || b.starter_strategies.Charmander || "";
+      const sStrat = b.starter_strategies.squirtle || b.starter_strategies.Squirtle || "";
+      if (bStrat || cStrat || sStrat) {
+        stratHtml = `
+          <div style="font-weight: 700; font-size: 0.9rem; margin-top: 1rem; margin-bottom: 0.5rem;">Starter Matchup Strategies:</div>
+          <div style="display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.83rem;">
+            ${bStrat ? `<div style="background: rgba(34, 197, 94, 0.08); border-left: 3px solid var(--accent-green); padding: 0.5rem 0.75rem; border-radius: 4px;"><b style="color: var(--accent-green);">🌱 Team Bulbasaur:</b> ${bStrat}</div>` : ''}
+            ${cStrat ? `<div style="background: rgba(239, 68, 68, 0.08); border-left: 3px solid var(--accent-red); padding: 0.5rem 0.75rem; border-radius: 4px;"><b style="color: var(--accent-red);">🔥 Team Charmander:</b> ${cStrat}</div>` : ''}
+            ${sStrat ? `<div style="background: rgba(59, 130, 246, 0.08); border-left: 3px solid var(--accent-blue); padding: 0.5rem 0.75rem; border-radius: 4px;"><b style="color: var(--accent-blue);">💧 Team Squirtle:</b> ${sStrat}</div>` : ''}
+          </div>
+        `;
+      }
+    } else if (b.tactical_counter_plan && Array.isArray(b.tactical_counter_plan) && b.tactical_counter_plan.length > 0) {
+      stratHtml = `
+        <div style="font-weight: 700; font-size: 0.9rem; margin-top: 1rem; margin-bottom: 0.5rem;">Turn-by-Turn Tactical Blueprint:</div>
+        <div class="strategy-steps">
+          ${b.tactical_counter_plan.map(step => `
+            <div class="strategy-step">${step}</div>
+          `).join("")}
+        </div>
+      `;
+    }
+
+    let rewards = b.rewards;
+    if (!rewards || rewards.length === 0) {
+      if (b.badge) rewards = [b.badge];
+      else if (ch.badge_rewarded) rewards = [ch.badge_rewarded];
+    }
+    let rewardsHtml = "";
+    if (rewards && rewards.length > 0) {
+      rewardsHtml = `
+        <div style="font-size: 0.85rem; color: var(--accent-green); background: rgba(34, 197, 94, 0.1); border: 1px solid rgba(34, 197, 94, 0.3); padding: 0.6rem 0.8rem; border-radius: 6px; margin-top: 1rem;">
+          🏆 <b>Victory Rewards:</b> ${rewards.join(" • ")}
+        </div>
+      `;
+    }
+
+    bossHtml = `
+      <div class="boss-card" id="boss-section">
+        <div class="boss-header">
+          <div>
+            <div class="boss-name">${leaderTitle}</div>
+            <div style="font-size: 0.8rem; color: var(--text-secondary);">${b.title || ""} ${b.badge || ch.badge_rewarded ? `• ${b.badge || ch.badge_rewarded}` : ''}</div>
+          </div>
+          <div class="cap-banner">⛔ HARD MODE CAP: Lv. ${cap}</div>
+        </div>
+        <div class="duel-limit-banner">
+          ${ruleBanner}
+        </div>
+        <div class="boss-body">
+          ${overview ? `<div style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.5; margin-bottom: 0.75rem;">${overview}</div>` : ''}
+          ${eliteFourHtml}
+          ${rosterHtml}
+          ${stratHtml}
+          ${rewardsHtml}
+        </div>
+      </div>
+    `;
+  }
+
+  let starterHtml = "";
+  if (ch.starter_guidance && ch.starter_guidance.recommended_leads) {
+    const leads = ch.starter_guidance.recommended_leads;
+    const bLead = leads.Bulbasaur || leads.bulbasaur || "";
+    const cLead = leads.Charmander || leads.charmander || "";
+    const sLead = leads.Squirtle || leads.squirtle || "";
+    if (bLead || cLead || sLead) {
+      starterHtml = `
+        <div style="background: rgba(15, 23, 42, 0.6); border: 1px solid var(--border-color); border-radius: 8px; padding: 1rem; margin-top: 0.5rem;">
+          <div style="font-weight: 700; font-size: 0.9rem; color: var(--text-accent); margin-bottom: 0.5rem;">🔥 Three Starter Options (Pick Your Track):</div>
+          <div style="display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.83rem;">
+            ${bLead ? `<div><b style="color: var(--accent-green);">🌱 Team Bulbasaur:</b> ${bLead}</div>` : ''}
+            ${cLead ? `<div><b style="color: var(--accent-red);">🔥 Team Charmander:</b> ${cLead}</div>` : ''}
+            ${sLead ? `<div><b style="color: var(--accent-blue);">💧 Team Squirtle:</b> ${sLead}</div>` : ''}
+          </div>
+        </div>
+      `;
+    }
+  }
+
+  let subnavHtml = `
+    <div class="chapter-subnav">
+      <span class="subnav-label">Quick Jump:</span>
+      ${(ch.routes || []).map((r, rIdx) => `
+        <button class="subnav-pill" onclick="scrollToRoute(${rIdx})">📍 ${r.name.split('&')[0].trim()}</button>
+      `).join("")}
+      ${ch.boss_strategy ? `<button class="subnav-pill boss" onclick="scrollToBoss()">${ch.boss_strategy.leader ? `⚔️ Gym Duel: ${ch.boss_strategy.leader}` : `🎖️ Act Finale`}</button>` : ''}
+    </div>
+  `;
+
+  let hudHtml = `
+    <div class="chapter-hud" id="chapter-hud">
+      <div class="hud-stats-row">
+        <div class="hud-stat"><span style="color: var(--text-accent);">🎒 Pickups:</span> <span id="hud-items-count">0 / 0</span></div>
+        <div class="hud-stat"><span style="color: var(--accent-yellow);">⚔️ Trainers:</span> <span id="hud-trainers-count">0 / 0</span></div>
+        <div class="hud-stat"><span style="color: var(--accent-green);">🌿 Caught:</span> <span id="hud-catches-count">0 / 0</span></div>
+        <div class="hud-stat"><span style="color: #c084fc;">⭐ Progress:</span> <span id="hud-pct-text">0%</span></div>
+      </div>
+      <div class="hud-meter-bg">
+        <div class="hud-meter-fill" id="hud-meter-fill" style="width: 0%;"></div>
+      </div>
+    </div>
+  `;
+  
+  vp.innerHTML = `
+    <div class="chapter-hero">
+      <div class="hero-top-row">
+        <div class="hero-title">${ch.title}</div>
+        <div class="cap-banner">⛔ HARD MODE CAP: Lv. ${ch.hard_mode_level_cap}</div>
+      </div>
+      ${ch.synopsis ? `<div class="hero-synopsis">${ch.synopsis}</div>` : ''}
+      ${starterHtml}
+      
+      <div class="filter-toolbar">
+        <span class="filter-label">🕒 Filter Catches:</span>
+        <button class="tod-filter-btn active" data-tod="all" onclick="setTodFilter('all')">🌐 All Spawns</button>
+        <button class="tod-filter-btn" data-tod="morning" onclick="setTodFilter('morning')">☀️ Morning</button>
+        <button class="tod-filter-btn" data-tod="day" onclick="setTodFilter('day')">🌤️ Day</button>
+        <button class="tod-filter-btn" data-tod="night" onclick="setTodFilter('night')">🌙 Night</button>
+        <button class="tod-filter-btn" data-tod="radar" onclick="setTodFilter('radar')">📡 Poké Radar</button>
+        <button class="tod-filter-btn" id="uncaught-filter-btn" onclick="toggleUncaughtOnly()" style="border-color: var(--accent-yellow); color: var(--accent-yellow);">🔍 Uncaught Only</button>
+        <button class="tod-filter-btn" id="tod-mode-btn" onclick="toggleTodMode()">👁️ Mode: Dim</button>
+      </div>
+    </div>
+    
+    ${subnavHtml}
+    ${hudHtml}
+    ${missablesHtml}
+    ${routesHtml}
+    ${bossHtml}
+  `;
+  
+  applyTodFilter();
+  updateChapterHud();
+  if (isDrawerPinned) {
+    renderDrawerParty();
+  }
+}
+
+function toggleChecklistItem(key, checkbox) {
+  const isChecked = checkbox.checked;
+  setChecklistState(key, isChecked);
+  const lbl = document.getElementById("lbl_" + key);
+  if (lbl) lbl.classList.toggle("done", isChecked);
+  updateChapterHud();
+}
+
+function toggleCaught(monKey, checkbox) {
+  const isChecked = checkbox.checked;
+  localStorage.setItem("pif_caught_" + monKey, isChecked ? "true" : "false");
+  document.querySelectorAll(`input.catch-checkbox[data-mon-id="${monKey}"]`).forEach(cb => {
+    cb.checked = isChecked;
+    const row = cb.closest("tr");
+    if (row) row.classList.toggle("caught-row", isChecked);
+  });
+  applyTodFilter();
+  updateChapterHud();
+}
+
+function openDrawer(tab) {
+  document.getElementById("drawer-overlay").classList.add("open");
+  if (!isDrawerPinned || window.innerWidth < 1200) {
+    document.getElementById("modal-backdrop").classList.add("open");
+  }
+  setDrawerTab(tab);
+}
+
+function closeDrawer() {
+  if (isDrawerPinned && window.innerWidth >= 1200) {
+    togglePinDrawer();
+  }
+  document.getElementById("drawer-overlay").classList.remove("open");
+  const cheatModal = document.getElementById("cheat-modal");
+  if (cheatModal) cheatModal.classList.remove("open");
+  document.getElementById("modal-backdrop").classList.remove("open");
+}
+
+function toggleCheatSheet() {
+  const modal = document.getElementById("cheat-modal");
+  const backdrop = document.getElementById("modal-backdrop");
+  if (!modal) return;
+  const isOpen = modal.classList.contains("open");
+  if (isOpen) {
+    modal.classList.remove("open");
+    if (!document.getElementById("drawer-overlay").classList.contains("open")) {
+      backdrop.classList.remove("open");
+    }
+  } else {
+    renderCheatSheetTable();
+    modal.classList.add("open");
+    backdrop.classList.add("open");
+  }
+}
+
+function renderCheatSheetTable() {
+  const tbody = document.getElementById("cheat-table-body");
+  if (!tbody || !APP_DATA || !APP_DATA.chapters) return;
+  let rows = "";
+  APP_DATA.chapters.forEach(ch => {
+    const boss = ch.boss || {};
+    const ace = (boss.roster && boss.roster.length > 0) ? boss.roster[boss.roster.length - 1] : null;
+    const aceStr = ace ? `<span style="color: var(--text-primary); font-weight: 600;">${ace.species}</span> <span style="color: var(--text-secondary); font-size: 0.75rem;">(${(ace.types || []).join('/')} Lv.${ace.level})</span>` : "—";
+    
+    const tools = [];
+    (ch.routes || []).forEach(r => {
+      (r.items || []).forEach(it => {
+        if (it.type && (it.type.includes("HM") || it.type.includes("Tool") || it.type.includes("Key"))) {
+          tools.push(it.name);
+        }
+      });
+    });
+    const toolsStr = tools.length > 0 ? Array.from(new Set(tools)).join(", ") : "—";
+    
+    rows += `
+      <tr>
+        <td><span class="badge-tag" style="font-size: 0.72rem;">Act ${ch.act}</span> <b style="font-family: var(--font-mono); font-size: 0.78rem;">${(ch.chapter_id || '').toUpperCase()}</b></td>
+        <td><b>${ch.title}</b></td>
+        <td><span class="nav-cap-pill" style="font-size: 0.75rem;">Cap ${ch.hard_mode_level_cap}</span></td>
+        <td style="text-align: center; font-family: var(--font-mono); font-weight: 700;">${ch.gym_duel_limit ? ch.gym_duel_limit + 'v' + ch.gym_duel_limit : '6v6'}</td>
+        <td><b>${boss.leader || '—'}</b></td>
+        <td>${aceStr}</td>
+        <td style="color: var(--text-accent); font-size: 0.75rem;">${toolsStr}</td>
+      </tr>
+    `;
+  });
+  tbody.innerHTML = rows;
+}
+
+function setStarterTrack(track) {
+  activeStarterTrack = track;
+  document.querySelectorAll(".starter-btn").forEach(btn => {
+    btn.classList.toggle("active", btn.dataset.track === track);
+  });
+  renderDrawerParty();
+}
+
+function renderDrawerParty() {
+  const content = document.getElementById("drawer-content");
+  const actChapters = APP_DATA.chapters.filter(ch => ch.act === currentAct);
+  const ch = actChapters[currentChapterIndex] || APP_DATA.chapters[0];
+  if (!ch || !ch.teams) {
+    content.innerHTML = '<div style="color: var(--text-secondary);">No team data available.</div>';
+    return;
+  }
+  
+  const team = ch.teams[activeStarterTrack];
+  if (!team) {
+    content.innerHTML = '<div style="color: var(--text-secondary);">Starter track not found.</div>';
+    return;
+  }
+  
+  const accentColors = {
+    "bulbasaur": "var(--accent-green)",
+    "charmander": "var(--accent-red)",
+    "squirtle": "var(--accent-blue)"
+  };
+  const accent = accentColors[activeStarterTrack] || "var(--text-accent)";
+  
+  const duelLimit = ch.gym_duel_limit || (ch.boss_strategy ? ch.boss_strategy.gym_duel_limit : 2) || 2;
+  const duelCore = team.gym_duel_core || [1, 2];
+  const duelCoreMembers = (team.roster || []).filter(s => duelCore.includes(s.slot));
+  const duelCoreSummary = duelCoreMembers.map(s => `<b>Slot ${s.slot}: ${s.species}</b>`).join(" + ");
+  
+  const duelBoxHtml = `
+    <div class="duel-core-banner">
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <span style="font-weight: 700; color: var(--accent-yellow);">⚔️ Gym Battle Selection (${duelLimit}v${duelLimit}):</span>
+        <span class="badge-tag duel-core-tag">${duelLimit} POKÉMON</span>
+      </div>
+      <div style="font-size: 0.8rem; color: var(--text-primary); margin-top: 0.2rem;">
+        Designated Selection: ${duelCoreSummary || 'Top ' + duelLimit + ' Pokémon'}
+      </div>
+      ${team.gym_duel_rationale ? `<div style="font-size: 0.75rem; color: var(--text-secondary); line-height: 1.3; margin-top: 0.2rem;">💡 ${team.gym_duel_rationale}</div>` : ''}
+    </div>
+  `;
+  
+  let slotsHtml = "";
+  if (team.roster && team.roster.length > 0) {
+    slotsHtml = team.roster.map(slot => {
+      const isActive = (slot.status || "").toLowerCase().includes("active");
+      const isGymPick = duelCore.includes(slot.slot);
+      const isStarterAnchor = slot.slot === 1;
+      const typeBadges = (slot.types || []).map(t => `<span class="type-badge type-${t}">${t}</span>`).join(" ");
+      const targetTypeBadges = (slot.target_types || []).map(t => `<span class="type-badge type-${t}">${t}</span>`).join(" ");
+      
+      let reachedMovesHtml = "";
+      if (slot.current_reached_moveset && slot.current_reached_moveset.length > 0) {
+        reachedMovesHtml = `
+          <div style="margin-top: 0.3rem;">
+            <div style="font-size: 0.72rem; font-weight: 700; color: var(--accent-yellow); margin-bottom: 0.2rem;">⚡ REACHED MOVESET (CAP LV. ${ch.hard_mode_level_cap}):</div>
+            <div class="moveset-list">
+              ${slot.current_reached_moveset.map(m => `<div class="move-pill" style="border-color: rgba(234, 179, 8, 0.4);">${m}</div>`).join("")}
+            </div>
+          </div>
+        `;
+      }
+      
+      let finalMovesHtml = "";
+      if (slot.final_target_moveset && slot.final_target_moveset.length > 0) {
+        finalMovesHtml = `
+          <div style="margin-top: 0.3rem;">
+            <div style="font-size: 0.72rem; font-weight: 700; color: var(--text-accent); margin-bottom: 0.2rem;">🎯 FINAL TARGET MOVESET:</div>
+            <div class="moveset-list">
+              ${slot.final_target_moveset.map(m => `<div class="move-pill">${m}</div>`).join("")}
+            </div>
+          </div>
+        `;
+      }
+      
+      return `
+        <div class="core-card" style="border-left: 3px solid ${isActive ? accent : 'var(--border-color)'}; opacity: ${isActive ? '1' : '0.85'};">
+          <div class="core-name-row">
+            <div>
+              <div style="display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap;">
+                <span style="font-size: 0.7rem; font-weight: 700; color: var(--text-secondary);">SLOT ${slot.slot} • ${slot.role}</span>
+                ${isStarterAnchor ? `<span class="badge-tag" style="background: rgba(245, 158, 11, 0.2); border-color: var(--accent-yellow); color: var(--accent-yellow); font-weight: 700;">👑 Starter Anchor</span>` : ''}
+                ${isGymPick ? `<span class="badge-tag duel-core-tag">⭐ GYM TEAM</span>` : ''}
+              </div>
+              <div class="core-pokemon">
+                <span>${slot.species}</span>
+                ${slot.species && slot.species.includes('/') ? `<span style="font-size: 0.78rem; color: var(--accent-blue); cursor: pointer; background: rgba(59, 130, 246, 0.15); border: 1px solid rgba(59, 130, 246, 0.3); padding: 0.15rem 0.4rem; border-radius: 4px;" onclick="openFusionLabFromStr('${slot.species}')" title="Test in Fusion Lab (Click)">🧪 <span style="text-decoration: underline;">Test Splice</span></span>` : (slot.target_fusion ? `<span style="font-size: 0.8rem; color: var(--text-accent); cursor: pointer;" onclick="openFusionLabFromStr('${slot.target_fusion}')" title="Test in Fusion Lab (Click)">➜ <span style="text-decoration: underline;">${slot.target_fusion}</span> 🧪</span>` : '')}
+              </div>
+            </div>
+            <div>
+              ${isActive ? `<span class="nav-cap-pill">Lv. ${slot.current_level}</span>` : `<span class="badge-tag" style="font-size: 0.7rem;">Upcoming</span>`}
+            </div>
+          </div>
+          <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.3rem;">
+            <div>Current: ${typeBadges}</div>
+            ${slot.target_types ? `<div style="font-size: 0.75rem; color: var(--text-secondary);">Target: ${targetTypeBadges}</div>` : ''}
+          </div>
+          ${isActive ? `
+            <div style="font-size: 0.78rem; color: var(--text-secondary);">
+              <b>Ability:</b> ${slot.ability} • <b>Item:</b> ${slot.held_item}
+            </div>
+            ${reachedMovesHtml}
+            ${finalMovesHtml}
+            ${slot.progression_notes ? `<div style="font-size: 0.75rem; color: var(--text-secondary); line-height: 1.3; margin-top: 0.2rem;">💡 ${slot.progression_notes}</div>` : ''}
+          ` : `
+            <div style="font-size: 0.78rem; color: var(--text-secondary);">
+              <b>Acquisition:</b> ${slot.acquisition_milestone || 'Later chapter'}
+            </div>
+            ${finalMovesHtml}
+          `}
+        </div>
+      `;
+    }).join("");
+  }
+
+  let flexHtml = "";
+  const benchList = team.flex_bench || team.bench;
+  if (benchList && benchList.length > 0) {
+    flexHtml = `
+      <div style="margin-top: 0.5rem;">
+        <div style="font-size: 0.85rem; font-weight: 700; color: var(--accent-yellow); margin-bottom: 0.4rem;">🔄 Flex Bench / Tech Counters:</div>
+        <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+          ${benchList.map(b => {
+            const desc = b.rationale || b.why_use || b.progression_notes || "";
+            const movesHtml = (b.current_reached_moveset && b.current_reached_moveset.length > 0)
+              ? `<div style="display: flex; flex-wrap: wrap; gap: 0.25rem; margin-top: 0.35rem;">
+                  ${b.current_reached_moveset.map(m => `<span class="badge-tag" style="font-size: 0.72rem; padding: 0.15rem 0.4rem; background: rgba(59, 130, 246, 0.15); border: 1px solid rgba(59, 130, 246, 0.3); color: #93c5fd;">${m}</span>`).join("")}
+                </div>`
+              : "";
+            const typesHtml = (b.types && b.types.length > 0)
+              ? `<div style="display: inline-flex; gap: 0.25rem; align-items: center; margin-left: 0.4rem;">${b.types.map(t => `<span class="type-badge type-${t}" style="font-size: 0.65rem; padding: 0.1rem 0.35rem;">${t}</span>`).join(" ")}</div>`
+              : "";
+            return `
+            <div class="core-card" style="border-left: 3px solid var(--accent-yellow); padding: 0.75rem;">
+              <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.3rem;">
+                <div style="display: flex; align-items: center; gap: 0.3rem;">
+                  <b>${b.species}</b>
+                  ${typesHtml}
+                </div>
+                <span class="badge-tag">${b.role || 'Tech Counter'}</span>
+              </div>
+              ${desc ? `<div style="font-size: 0.78rem; color: var(--text-secondary); line-height: 1.4; margin-top: 0.25rem;">${desc}</div>` : ""}
+              ${movesHtml}
+            </div>
+          `;}).join("")}
+        </div>
+      </div>
+    `;
+  }
+  
+  let lifecycleHtml = "";
+  if (team.fusion_lifecycle) {
+    const fl = team.fusion_lifecycle;
+    const activeList = fl.active_fusions || [];
+    const unfuseList = fl.unfuse_recommendations || [];
+    const upcomingList = fl.upcoming_fusions || [];
+    if (activeList.length > 0 || unfuseList.length > 0 || upcomingList.length > 0) {
+      lifecycleHtml = `
+        <div style="margin-top: 0.8rem; background: rgba(15, 23, 42, 0.7); border: 1px solid var(--border-color); border-radius: 8px; padding: 0.75rem;">
+          <div style="font-size: 0.85rem; font-weight: 700; color: var(--text-accent); margin-bottom: 0.4rem;">🧬 Fusion Lifecycle & Splicer Strategy:</div>
+          ${activeList.length > 0 ? `
+            <div style="margin-bottom: 0.4rem;">
+              <div style="font-size: 0.72rem; font-weight: 700; color: var(--accent-green);">ACTIVE SPLICES:</div>
+              <ul style="font-size: 0.76rem; color: var(--text-secondary); margin-left: 1.1rem; line-height: 1.35;">
+                ${activeList.map(a => `<li>${a}</li>`).join("")}
+              </ul>
+            </div>
+          ` : ''}
+          ${unfuseList.length > 0 ? `
+            <div style="margin-bottom: 0.4rem;">
+              <div style="font-size: 0.72rem; font-weight: 700; color: var(--accent-yellow);">🔄 MART UNFUSE ($300):</div>
+              <ul style="font-size: 0.76rem; color: var(--text-secondary); margin-left: 1.1rem; line-height: 1.35;">
+                ${unfuseList.map(u => `<li>${u}</li>`).join("")}
+              </ul>
+            </div>
+          ` : ''}
+          ${upcomingList.length > 0 ? `
+            <div>
+              <div style="font-size: 0.72rem; font-weight: 700; color: var(--text-accent);">NEXT CHAPTER SPLICES:</div>
+              <ul style="font-size: 0.76rem; color: var(--text-secondary); margin-left: 1.1rem; line-height: 1.35;">
+                ${upcomingList.map(up => `<li>${up}</li>`).join("")}
+              </ul>
+            </div>
+          ` : ''}
+        </div>
+      `;
+    }
+  }
+
+  content.innerHTML = `
+    <div class="starter-toggle-bar">
+      <button class="starter-btn bulba ${activeStarterTrack === 'bulbasaur' ? 'active' : ''}" data-track="bulbasaur" onclick="setStarterTrack('bulbasaur')">🌱 Bulbasaur</button>
+      <button class="starter-btn char ${activeStarterTrack === 'charmander' ? 'active' : ''}" data-track="charmander" onclick="setStarterTrack('charmander')">🔥 Charmander</button>
+      <button class="starter-btn squirt ${activeStarterTrack === 'squirtle' ? 'active' : ''}" data-track="squirtle" onclick="setStarterTrack('squirtle')">💧 Squirtle</button>
+    </div>
+    <div style="font-size: 0.82rem; color: var(--text-secondary); margin-bottom: 0.4rem;">
+      <b>${team.name}</b>: ${team.archetype}
+    </div>
+    ${duelBoxHtml}
+    <div style="display: flex; flex-direction: column; gap: 0.65rem;">
+      ${slotsHtml}
+    </div>
+    ${flexHtml}
+    ${lifecycleHtml}
+  `;
+}
+
+let fusionLabHead = "Bulbasaur";
+let fusionLabBody = "Pikachu";
+
+const TYPE_CHART = {
+  Normal:   { Rock: 0.5, Ghost: 0, Steel: 0.5 },
+  Fire:     { Fire: 0.5, Water: 0.5, Grass: 2, Ice: 2, Bug: 2, Rock: 0.5, Dragon: 0.5, Steel: 2 },
+  Water:    { Fire: 2, Water: 0.5, Grass: 0.5, Ground: 2, Rock: 2, Dragon: 0.5 },
+  Grass:    { Fire: 0.5, Water: 2, Grass: 0.5, Poison: 0.5, Ground: 2, Flying: 0.5, Bug: 0.5, Rock: 2, Dragon: 0.5, Steel: 0.5 },
+  Electric: { Water: 2, Grass: 0.5, Electric: 0.5, Ground: 0, Flying: 2, Dragon: 0.5 },
+  Ice:      { Fire: 0.5, Water: 0.5, Grass: 2, Ice: 0.5, Ground: 2, Flying: 2, Dragon: 2, Steel: 0.5 },
+  Fighting: { Normal: 2, Ice: 2, Poison: 0.5, Flying: 0.5, Psychic: 0.5, Bug: 0.5, Rock: 2, Ghost: 0, Dark: 2, Steel: 2, Fairy: 0.5 },
+  Poison:   { Grass: 2, Poison: 0.5, Ground: 0.5, Rock: 0.5, Ghost: 0.5, Steel: 0, Fairy: 2 },
+  Ground:   { Fire: 2, Grass: 0.5, Electric: 2, Poison: 2, Flying: 0, Bug: 0.5, Rock: 2, Steel: 2 },
+  Flying:   { Grass: 2, Electric: 0.5, Fighting: 2, Bug: 2, Rock: 0.5, Steel: 0.5 },
+  Psychic:  { Fighting: 2, Poison: 2, Psychic: 0.5, Dark: 0, Steel: 0.5 },
+  Bug:      { Fire: 0.5, Grass: 2, Fighting: 0.5, Poison: 0.5, Flying: 0.5, Psychic: 2, Ghost: 0.5, Steel: 0.5, Fairy: 0.5 },
+  Rock:     { Fire: 2, Ice: 2, Fighting: 0.5, Ground: 0.5, Flying: 2, Bug: 2, Steel: 0.5 },
+  Ghost:    { Normal: 0, Psychic: 2, Ghost: 2, Dark: 0.5 },
+  Dragon:   { Dragon: 2, Steel: 0.5, Fairy: 0 },
+  Steel:    { Fire: 0.5, Water: 0.5, Electric: 0.5, Ice: 2, Rock: 2, Steel: 0.5, Fairy: 2 },
+  Fairy:    { Fire: 0.5, Fighting: 2, Poison: 0.5, Dragon: 2, Steel: 0.5, Dark: 2 },
+  Dark:     { Fighting: 0.5, Psychic: 2, Ghost: 2, Dark: 0.5, Fairy: 0.5 }
+};
+const ALL_TYPES = ["Normal", "Fire", "Water", "Grass", "Electric", "Ice", "Fighting", "Poison", "Ground", "Flying", "Psychic", "Bug", "Rock", "Ghost", "Dragon", "Steel", "Fairy", "Dark"];
+
+const TYPE_COLORS = {
+  Normal: "#94a3b8",
+  Fire: "#f97316",
+  Water: "#38bdf8",
+  Grass: "#4ade80",
+  Electric: "#facc15",
+  Ice: "#67e8f9",
+  Fighting: "#dc2626",
+  Poison: "#c084fc",
+  Ground: "#d97706",
+  Flying: "#818cf8",
+  Psychic: "#f43f5e",
+  Bug: "#84cc16",
+  Rock: "#78716c",
+  Ghost: "#6b21a8",
+  Dragon: "#4f46e5",
+  Steel: "#64748b",
+  Fairy: "#f472b6",
+  Dark: "#334155"
+};
+
+function getFusionEffectiveness(fusionTypes) {
+  const eff = {};
+  ALL_TYPES.forEach(att => {
+    let mult = 1.0;
+    fusionTypes.forEach(def => {
+      if (TYPE_CHART[att] && TYPE_CHART[att][def] !== undefined) {
+        mult *= TYPE_CHART[att][def];
+      }
+    });
+    eff[att] = mult;
+  });
+  return eff;
+}
+
+function getStatBarColor(val) {
+  if (val >= 120) return "linear-gradient(90deg, #22c55e, #10b981)";
+  if (val >= 90) return "linear-gradient(90deg, #38bdf8, #0ea5e9)";
+  if (val >= 65) return "linear-gradient(90deg, #facc15, #eab308)";
+  return "linear-gradient(90deg, #f87171, #ef4444)";
+}
+
+function getFusionRole(stats) {
+  if (stats.spe >= 95 && (stats.atk >= 100 || stats.spa >= 100)) return "⚡ Fast Sweeper";
+  if (stats.def >= 105 && stats.spd >= 105) return "🏰 Mixed Fortress";
+  if (stats.def >= 110) return "🛡️ Physical Wall";
+  if (stats.spd >= 110) return "🔮 Special Wall";
+  if (stats.atk >= 115) return "⚔️ Physical Wallbreaker";
+  if (stats.spa >= 115) return "💥 Special Wallbreaker";
+  if (stats.hp >= 100) return "🥩 Bulky Pivot";
+  return "⚖️ Balanced Hybrid";
+}
+
+function openFusionLab(head, body) {
+  if (head && APP_DATA.base_stats && APP_DATA.base_stats[head]) fusionLabHead = head;
+  if (body && APP_DATA.base_stats && APP_DATA.base_stats[body]) fusionLabBody = body;
+  openDrawer("fusion");
+}
+
+function openFusionLabFromStr(str) {
+  if (!str) return;
+  const parts = str.split("/").map(s => s.trim());
+  if (parts.length === 2) {
+    openFusionLab(parts[0], parts[1]);
+  }
+}
+
+function swapFusionLab() {
+  const temp = fusionLabHead;
+  fusionLabHead = fusionLabBody;
+  fusionLabBody = temp;
+  renderDrawerFusionLab();
+}
+
+function renderDrawerFusionLab() {
+  const content = document.getElementById("drawer-content");
+  if (!APP_DATA.base_stats) {
+    content.innerHTML = '<div style="color: var(--text-secondary);">Base stats data not available.</div>';
+    return;
+  }
+  
+  if (!APP_DATA.base_stats[fusionLabHead]) fusionLabHead = "Bulbasaur";
+  if (!APP_DATA.base_stats[fusionLabBody]) fusionLabBody = "Pikachu";
+  
+  const head = APP_DATA.base_stats[fusionLabHead];
+  const body = APP_DATA.base_stats[fusionLabBody];
+  
+  // PIF Canonical Typing with Redundancy Fallback
+  const headType = head.types[0];
+  let bodyType = (body.types.length > 1) ? body.types[1] : body.types[0];
+  if (bodyType === headType && body.types.length > 1) {
+    bodyType = body.types[0];
+  }
+  const fusionTypes = (bodyType === headType) ? [headType] : [headType, bodyType];
+  
+  // PIF Asymmetric Stat Calculations
+  const hp = Math.floor((2 * head.hp + 1 * body.hp) / 3);
+  const atk = Math.floor((1 * head.atk + 2 * body.atk) / 3);
+  const def = Math.floor((1 * head.def + 2 * body.def) / 3);
+  const spa = Math.floor((2 * head.spa + 1 * body.spa) / 3);
+  const spd = Math.floor((2 * head.spd + 1 * body.spd) / 3);
+  const spe = Math.floor((1 * head.spe + 2 * body.spe) / 3);
+  const bst = hp + atk + def + spa + spd + spe;
+  const stats = { hp, atk, def, spa, spd, spe, bst };
+  
+  // Ability Inheritance
+  const headPrimary = (head.abilities && head.abilities[0]) ? head.abilities[0] : "None";
+  const bodySecondary = (body.abilities && body.abilities.length > 1) ? body.abilities[1] : (body.abilities && body.abilities[0]) ? body.abilities[0] : "None";
+  const hiddenList = Array.from(new Set([...(head.hidden_abilities || []), ...(body.hidden_abilities || [])]));
+  
+  // Role & Matchup Defenses
+  const role = getFusionRole(stats);
+  const eff = getFusionEffectiveness(fusionTypes);
+  
+  const weak4x = ALL_TYPES.filter(t => eff[t] === 4);
+  const weak2x = ALL_TYPES.filter(t => eff[t] === 2);
+  const res05x = ALL_TYPES.filter(t => eff[t] === 0.5);
+  const res025x = ALL_TYPES.filter(t => eff[t] === 0.25);
+  const immune0x = ALL_TYPES.filter(t => eff[t] === 0);
+  
+  // Splice Crest Colors
+  const color1 = TYPE_COLORS[fusionTypes[0]] || "#38bdf8";
+  const color2 = TYPE_COLORS[fusionTypes[1] || fusionTypes[0]] || color1;
+  
+  // Quick Presets from current chapter team
+  const actChapters = APP_DATA.chapters.filter(ch => ch.act === currentAct);
+  const ch = actChapters[currentChapterIndex] || APP_DATA.chapters[0];
+  const team = ch && ch.teams ? ch.teams[activeStarterTrack] : null;
+  const plannedTargets = [];
+  if (team && team.roster) {
+    team.roster.forEach(s => {
+      const fuseMon = (s.species && s.species.includes('/')) ? s.species : (s.target_fusion && s.target_fusion.includes('/') ? s.target_fusion : null);
+      if (fuseMon && !plannedTargets.includes(fuseMon)) {
+        plannedTargets.push(fuseMon);
+      }
+    });
+  }
+
+  content.innerHTML = `
+    <div class="fusion-lab-container">
+      <div style="font-size: 0.82rem; color: var(--text-secondary); line-height: 1.4;">
+        Splice any Head + Body combination in real time. Canonical Gen 7 stats, dual-typing with PIF redundancy fallback, and full defensive matchup profile!
+      </div>
+
+      <!-- Quick Presets -->
+      ${plannedTargets.length > 0 ? `
+        <div>
+          <div class="fusion-section-title">⭐ ${activeStarterTrack.toUpperCase()} ACTIVE FUSIONS:</div>
+          <div class="fusion-presets-bar">
+            ${plannedTargets.map(tgt => `
+              <button class="fusion-preset-btn" onclick="openFusionLabFromStr('${tgt}')">${tgt}</button>
+            `).join("")}
+          </div>
+        </div>
+      ` : ''}
+
+      <!-- Component Selectors -->
+      <div class="fusion-controls-card">
+        <div class="fusion-selectors-row">
+          <div class="fusion-select-group">
+            <label class="fusion-select-label">Head (Sp. / Primary Type)</label>
+            <div class="species-combobox" id="combo-fusion-head">
+              <input type="text"
+                     class="species-combobox-input"
+                     id="input-fusion-head"
+                     value="#${head.dex_id || '???'} ${fusionLabHead}"
+                     placeholder="Type name or #..."
+                     autocomplete="off"
+                     spellcheck="false"
+                     onfocus="openSpeciesCombobox('fusion', 0, 'head', this)"
+                     onclick="this.select()"
+                     oninput="filterSpeciesCombobox(this.value)"
+                     onkeydown="handleSpeciesComboboxKey(event)">
+              <span class="combobox-arrow">▼</span>
+            </div>
+          </div>
+
+          <button class="fusion-swap-btn" onclick="swapFusionLab()" title="Swap Head & Body (⇄)">⇄</button>
+
+          <div class="fusion-select-group">
+            <label class="fusion-select-label">Body (Phys. / Sec. Type)</label>
+            <div class="species-combobox" id="combo-fusion-body">
+              <input type="text"
+                     class="species-combobox-input"
+                     id="input-fusion-body"
+                     value="#${body.dex_id || '???'} ${fusionLabBody}"
+                     placeholder="Type name or #..."
+                     autocomplete="off"
+                     spellcheck="false"
+                     onfocus="openSpeciesCombobox('fusion', 0, 'body', this)"
+                     onclick="this.select()"
+                     oninput="filterSpeciesCombobox(this.value)"
+                     onkeydown="handleSpeciesComboboxKey(event)">
+              <span class="combobox-arrow">▼</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Resulting Fusion Card -->
+      <div class="fusion-card">
+        <div class="fusion-header-box">
+          <div class="fusion-crest-frame" style="background: linear-gradient(135deg, ${color1}22, ${color2}22); border-color: ${color1}88; box-shadow: 0 0 16px ${color1}25;">
+            <div class="fusion-crest-inner" style="background: linear-gradient(135deg, ${color1}, ${color2});">
+              <span class="fusion-crest-icon">🧬</span>
+            </div>
+            <div class="fusion-crest-label">#${head.dex_id} × #${body.dex_id}</div>
+          </div>
+          <div class="fusion-info-box">
+            <div class="fusion-name">${fusionLabHead} / ${fusionLabBody}</div>
+            <div style="display: flex; gap: 0.35rem; align-items: center; flex-wrap: wrap;">
+              ${fusionTypes.map(t => `<span class="type-badge type-${t}">${t}</span>`).join(" ")}
+              <span class="badge-tag duel-core-tag">BST ${bst}</span>
+            </div>
+            <span class="fusion-role-pill">${role}</span>
+          </div>
+        </div>
+
+        <!-- Stat Distribution Bars -->
+        <div>
+          <div class="fusion-section-title">Base Stat Distribution</div>
+          <div style="display: flex; flex-direction: column; gap: 0.35rem; margin-top: 0.3rem;">
+            ${[
+              { key: "HP", val: hp },
+              { key: "Atk", val: atk },
+              { key: "Def", val: def },
+              { key: "SpA", val: spa },
+              { key: "SpD", val: spd },
+              { key: "Spe", val: spe }
+            ].map(st => `
+              <div class="stat-row">
+                <span class="stat-label">${st.key}</span>
+                <span class="stat-num">${st.val}</span>
+                <div class="stat-bar-track">
+                  <div class="stat-bar-fill" style="width: ${Math.min(100, Math.round(st.val / 160 * 100))}%; background: ${getStatBarColor(st.val)};"></div>
+                </div>
+              </div>
+            `).join("")}
+          </div>
+        </div>
+
+        <!-- Ability Inheritance -->
+        <div>
+          <div class="fusion-section-title">Ability Inheritance</div>
+          <div style="font-size: 0.78rem; display: flex; flex-direction: column; gap: 0.25rem; background: rgba(15, 23, 42, 0.4); padding: 0.6rem 0.75rem; border-radius: 6px; border: 1px solid var(--border-color);">
+            <div><b style="color: var(--text-accent);">Slot 1 (Head Primary):</b> ${headPrimary}</div>
+            <div><b style="color: var(--accent-yellow);">Slot 2 (Body Secondary):</b> ${bodySecondary}</div>
+            ${hiddenList.length > 0 ? `<div><b style="color: var(--accent-purple);">Hidden Options:</b> ${hiddenList.join(", ")}</div>` : ''}
+          </div>
+        </div>
+
+        <!-- Defensive Typing -->
+        <div>
+          <div class="fusion-section-title">Defensive Profile & Matchups</div>
+          <div class="fusion-defense-grid" style="background: rgba(15, 23, 42, 0.4); padding: 0.6rem 0.75rem; border-radius: 6px; border: 1px solid var(--border-color);">
+            ${weak4x.length > 0 ? `
+              <div class="defense-group">
+                <span class="defense-mult-pill mult-4x">4x</span>
+                ${weak4x.map(t => `<span class="type-badge type-${t}">${t}</span>`).join(" ")}
+              </div>
+            ` : ''}
+            ${weak2x.length > 0 ? `
+              <div class="defense-group">
+                <span class="defense-mult-pill mult-2x">2x</span>
+                ${weak2x.map(t => `<span class="type-badge type-${t}">${t}</span>`).join(" ")}
+              </div>
+            ` : ''}
+            ${res05x.length > 0 ? `
+              <div class="defense-group">
+                <span class="defense-mult-pill mult-05x">½x</span>
+                ${res05x.map(t => `<span class="type-badge type-${t}">${t}</span>`).join(" ")}
+              </div>
+            ` : ''}
+            ${res025x.length > 0 ? `
+              <div class="defense-group">
+                <span class="defense-mult-pill mult-025x">¼x</span>
+                ${res025x.map(t => `<span class="type-badge type-${t}">${t}</span>`).join(" ")}
+              </div>
+            ` : ''}
+            ${immune0x.length > 0 ? `
+              <div class="defense-group">
+                <span class="defense-mult-pill mult-0x">0x</span>
+                ${immune0x.map(t => `<span class="type-badge type-${t}">${t}</span>`).join(" ")}
+              </div>
+            ` : ''}
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+// --- Custom Team Builder & Type Coverage Engine ---
+let customTeam = [null, null, null, null, null, null];
+let customLevelCap = 50;
+let activeMovePickerSlot = null; // { slotIdx: 0..5, moveIdx: 0..3 }
+let currentMovePickerList = [];
+
+function initCustomTeam() {
+  try {
+    const savedCap = localStorage.getItem("pif_custom_level_cap");
+    if (savedCap) customLevelCap = Math.max(5, Math.min(100, parseInt(savedCap, 10) || 50));
+
+    const saved = localStorage.getItem("pif_custom_team");
+    if (saved) {
+      const parsed = JSON.parse(saved);
+      if (Array.isArray(parsed) && parsed.length === 6) {
+        customTeam = parsed.map(slot => {
+          if (!slot || typeof slot !== "object") return null;
+          return {
+            head: slot.head || "",
+            body: slot.body || "",
+            moves: Array.isArray(slot.moves) ? [slot.moves[0]||"", slot.moves[1]||"", slot.moves[2]||"", slot.moves[3]||""] : ["", "", "", ""]
+          };
+        });
+        return;
+      }
+    }
+  } catch (e) {}
+  customTeam = [null, null, null, null, null, null];
+}
+
+function saveCustomTeam() {
+  try {
+    localStorage.setItem("pif_custom_team", JSON.stringify(customTeam));
+    localStorage.setItem("pif_custom_level_cap", customLevelCap.toString());
+  } catch (e) {}
+}
+
+function setCustomLevelCap(cap) {
+  customLevelCap = Math.max(5, Math.min(100, parseInt(cap, 10) || 50));
+  saveCustomTeam();
+  if (currentDrawerTab === "team") renderDrawerTeam();
+  const modal = document.getElementById("matrix-modal");
+  if (modal && modal.classList.contains("open")) renderMatrixModal();
+}
+
+function stepCustomLevelCap(delta) {
+  setCustomLevelCap(customLevelCap + delta);
+}
+
+function getMoveDetails(moveName) {
+  if (!moveName || !APP_DATA || !APP_DATA.moves) return null;
+  const moveNames = APP_DATA.moves.move_names || [];
+  const moveTable = APP_DATA.moves.move_table || [];
+  const idx = moveNames.indexOf(moveName);
+  if (idx === -1) return null;
+  const info = moveTable[idx];
+  return {
+    name: moveName,
+    type: ALL_TYPES[info[0]] || "Normal",
+    cat: info[1], // 0: Phys, 1: Spec, 2: Status
+    pwr: info[2],
+    acc: info[3]
+  };
+}
+
+function getLegalMovesForSpecies(speciesName, cap) {
+  if (!APP_DATA || !APP_DATA.moves || !APP_DATA.base_stats) return [];
+  const moveNames = APP_DATA.moves.move_names || [];
+  const moveTable = APP_DATA.moves.move_table || [];
+  const speciesLearnsets = APP_DATA.moves.species_learnsets || [];
+  const speciesList = Object.keys(APP_DATA.base_stats).sort();
+  const preEvos = APP_DATA.pre_evolutions || {};
+
+  const targets = [speciesName, ...(preEvos[speciesName] || [])];
+  const legalMap = {};
+
+  targets.forEach(sp => {
+    const spIdx = speciesList.indexOf(sp);
+    if (spIdx !== -1 && speciesLearnsets[spIdx]) {
+      speciesLearnsets[spIdx].forEach(p => {
+        const lvl = Math.floor(p / 1000);
+        const mid = p % 1000;
+        if (lvl <= cap && mid < moveNames.length) {
+          const mvName = moveNames[mid];
+          if (!legalMap[mvName] || lvl < legalMap[mvName].lvl) {
+            const mInfo = moveTable[mid];
+            legalMap[mvName] = {
+              name: mvName,
+              lvl: lvl,
+              type: ALL_TYPES[mInfo[0]] || "Normal",
+              cat: mInfo[1],
+              pwr: mInfo[2],
+              acc: mInfo[3]
+            };
+          }
+        }
+      });
+    }
+  });
+
+  return Object.values(legalMap).sort((a, b) => a.lvl - b.lvl || a.name.localeCompare(b.name));
+}
+
+function getLegalMovesForMon(headName, bodyName, cap) {
+  if (!headName && !bodyName) return [];
+  if (headName && (!bodyName || bodyName === headName)) {
+    return getLegalMovesForSpecies(headName, cap);
+  }
+  const headMoves = headName ? getLegalMovesForSpecies(headName, cap) : [];
+  const bodyMoves = bodyName ? getLegalMovesForSpecies(bodyName, cap) : [];
+
+  const merged = {};
+  headMoves.forEach(m => { merged[m.name] = m; });
+  bodyMoves.forEach(m => {
+    if (!merged[m.name] || m.lvl < merged[m.name].lvl) {
+      merged[m.name] = m;
+    }
+  });
+  return Object.values(merged).sort((a, b) => a.lvl - b.lvl || a.name.localeCompare(b.name));
+}
+
+function getMonEffectiveTypes(headName, bodyName) {
+  if (!headName && !bodyName) return ["Normal"];
+  if (headName && (!bodyName || bodyName === headName)) {
+    const sp = APP_DATA.base_stats ? APP_DATA.base_stats[headName] : null;
+    return sp ? sp.types : ["Normal"];
+  }
+  const head = APP_DATA.base_stats ? APP_DATA.base_stats[headName] : null;
+  const body = APP_DATA.base_stats ? APP_DATA.base_stats[bodyName] : null;
+  if (!head && !body) return ["Normal"];
+  if (!body) return head.types;
+  if (!head) return body.types;
+
+  const headType = head.types[0];
+  let bodyType = (body.types.length > 1) ? body.types[1] : body.types[0];
+  if (bodyType === headType && body.types.length > 1) {
+    bodyType = body.types[0];
+  }
+  return (bodyType === headType) ? [headType] : [headType, bodyType];
+}
+
+function getMonEffectiveStats(headName, bodyName) {
+  if (!headName && !bodyName) return { hp: 0, atk: 0, def: 0, spa: 0, spd: 0, spe: 0, bst: 0 };
+  if (headName && (!bodyName || bodyName === headName)) {
+    const sp = APP_DATA.base_stats ? APP_DATA.base_stats[headName] : null;
+    if (!sp) return { hp: 0, atk: 0, def: 0, spa: 0, spd: 0, spe: 0, bst: 0 };
+    return { hp: sp.hp, atk: sp.atk, def: sp.def, spa: sp.spa, spd: sp.spd, spe: sp.spe, bst: sp.bst };
+  }
+  const head = APP_DATA.base_stats ? APP_DATA.base_stats[headName] : null;
+  const body = APP_DATA.base_stats ? APP_DATA.base_stats[bodyName] : null;
+  if (!head || !body) return { hp: 0, atk: 0, def: 0, spa: 0, spd: 0, spe: 0, bst: 0 };
+
+  const hp = Math.floor((2 * head.hp + 1 * body.hp) / 3);
+  const atk = Math.floor((1 * head.atk + 2 * body.atk) / 3);
+  const def = Math.floor((1 * head.def + 2 * body.def) / 3);
+  const spa = Math.floor((2 * head.spa + 1 * body.spa) / 3);
+  const spd = Math.floor((2 * head.spd + 1 * body.spd) / 3);
+  const spe = Math.floor((1 * head.spe + 2 * body.spe) / 3);
+  const bst = hp + atk + def + spa + spd + spe;
+  return { hp, atk, def, spa, spd, spe, bst };
+}
+
+function calculateTeamSynergy() {
+  const defensiveMatrix = {};
+  ALL_TYPES.forEach(t => {
+    defensiveMatrix[t] = { weak: 0, resist: 0, immune: 0, mults: [] };
+  });
+
+  const offensiveCoverage = {};
+  ALL_TYPES.forEach(t => {
+    offensiveCoverage[t] = { superEffective: false, hits: [] };
+  });
+
+  let activeMembers = 0;
+
+  customTeam.forEach((slot, sIdx) => {
+    if (!slot || !slot.head) {
+      ALL_TYPES.forEach(t => defensiveMatrix[t].mults.push(null));
+      return;
+    }
+    activeMembers++;
+    const types = getMonEffectiveTypes(slot.head, slot.body);
+    const eff = getFusionEffectiveness(types);
+
+    ALL_TYPES.forEach(t => {
+      const m = eff[t];
+      defensiveMatrix[t].mults.push(m);
+      if (m === 0) defensiveMatrix[t].immune++;
+      else if (m > 1) defensiveMatrix[t].weak++;
+      else if (m < 1) defensiveMatrix[t].resist++;
+    });
+
+    const monName = (slot.body && slot.body !== slot.head) ? `${slot.head}/${slot.body}` : slot.head;
+    const equippedDamagingMoves = [];
+    (slot.moves || []).forEach(mName => {
+      const mv = getMoveDetails(mName);
+      if (mv && mv.cat !== 2 && mv.pwr > 0) {
+        equippedDamagingMoves.push(mv);
+      }
+    });
+
+    if (equippedDamagingMoves.length > 0) {
+      equippedDamagingMoves.forEach(mv => {
+        const isStab = types.includes(mv.type);
+        ALL_TYPES.forEach(defType => {
+          const mult = (TYPE_CHART[mv.type] && TYPE_CHART[mv.type][defType] !== undefined) ? TYPE_CHART[mv.type][defType] : 1.0;
+          if (mult >= 2.0) {
+            offensiveCoverage[defType].superEffective = true;
+            offensiveCoverage[defType].hits.push({
+              slotIdx: sIdx,
+              monName: monName,
+              moveName: mv.name,
+              moveType: mv.type,
+              isStab: isStab
+            });
+          }
+        });
+      });
+    } else {
+      // Fallback: Natural STAB typing
+      types.forEach(st => {
+        ALL_TYPES.forEach(defType => {
+          const mult = (TYPE_CHART[st] && TYPE_CHART[st][defType] !== undefined) ? TYPE_CHART[st][defType] : 1.0;
+          if (mult >= 2.0) {
+            offensiveCoverage[defType].superEffective = true;
+            offensiveCoverage[defType].hits.push({
+              slotIdx: sIdx,
+              monName: monName,
+              moveName: `STAB ${st}`,
+              moveType: st,
+              isStab: true
+            });
+          }
+        });
+      });
+    }
+  });
+
+  const coveredTypesCount = ALL_TYPES.filter(t => offensiveCoverage[t].superEffective).length;
+  const blindspots = [];
+  ALL_TYPES.forEach(t => {
+    const d = defensiveMatrix[t];
+    if (d.weak >= 3 || (d.weak >= 2 && d.resist === 0 && d.immune === 0)) {
+      const quadCount = d.mults.filter(m => m >= 4).length;
+      blindspots.push({ type: t, weakCount: d.weak, resistCount: d.resist + d.immune, quadCount });
+    }
+  });
+
+  return { activeMembers, defensiveMatrix, offensiveCoverage, coveredTypesCount, blindspots };
+}
+
+function renderDrawerTeam() {
+  const content = document.getElementById("drawer-content");
+  if (!content) return;
+  if (!APP_DATA || !APP_DATA.base_stats) {
+    content.innerHTML = '<div style="padding:1rem; color:var(--text-secondary);">Walkthrough data loading...</div>';
+    return;
+  }
+
+  const gymPresets = [
+    { cap: 14, label: "14 (Brock)" },
+    { cap: 21, label: "21 (Misty)" },
+    { cap: 26, label: "26 (Surge)" },
+    { cap: 33, label: "33 (Erika)" },
+    { cap: 40, label: "40 (Koga)" },
+    { cap: 47, label: "47 (Sabrina)" },
+    { cap: 50, label: "50 (Blaine)" },
+    { cap: 53, label: "53 (Giovanni)" },
+    { cap: 56, label: "56 (E4)" },
+    { cap: 60, label: "60 (Champ)" },
+    { cap: 68, label: "68 (Whitney)" },
+    { cap: 75, label: "75 (Clair)" },
+    { cap: 80, label: "80 (Chrono)" },
+    { cap: 90, label: "90 (Red)" },
+    { cap: 100, label: "100 (Max)" }
+  ];
+
+  const synergy = calculateTeamSynergy();
+  const coveredPct = Math.round((synergy.coveredTypesCount / 18) * 100);
+
+  let html = `
+    <div class="team-builder-container">
+      <div class="team-top-bar">
+        <div class="cap-stepper-row">
+          <div style="display:flex; align-items:center; gap:0.5rem;">
+            <span style="font-size:0.8rem; font-weight:700; color:var(--text-secondary); text-transform:uppercase; letter-spacing:0.04em;">Level Cap:</span>
+            <div class="cap-stepper">
+              <button class="cap-step-btn" onclick="stepCustomLevelCap(-1)">−</button>
+              <input type="number" class="cap-input" value="${customLevelCap}" min="5" max="100" onchange="setCustomLevelCap(this.value)">
+              <button class="cap-step-btn" onclick="stepCustomLevelCap(1)">+</button>
+            </div>
+          </div>
+          <div class="team-actions-row">
+            <button class="action-btn" onclick="importActiveGuideTeam()" title="Clone active chapter starter team into custom builder">📥 Import Guide</button>
+            <button class="action-btn" onclick="toggleMatrixModal(true)" style="background:rgba(56,189,248,0.18); border-color:rgba(56,189,248,0.45); color:var(--text-accent);">⛶ Deep Matrix</button>
+            <button class="action-btn" onclick="clearAllTeamSlots()" style="color:var(--accent-red);" title="Reset all 6 slots">🗑️ Clear</button>
+          </div>
+        </div>
+
+        <div class="cap-presets-bar">
+          ${gymPresets.map(p => `
+            <button class="cap-pill ${customLevelCap === p.cap ? 'active' : ''}" onclick="setCustomLevelCap(${p.cap})">${p.label}</button>
+          `).join("")}
+        </div>
+      </div>
+
+      <!-- 6 Slots Grid -->
+      <div style="display:flex; flex-direction:column; gap:0.65rem;">
+  `;
+
+  customTeam.forEach((slot, sIdx) => {
+    if (!slot || !slot.head) {
+      html += `
+        <div class="team-slot-empty" onclick="addTeamSlot(${sIdx})">
+          <span style="font-size:1.1rem; color:var(--text-accent);">+</span>
+          <span><b>Add Slot ${sIdx + 1}</b> (Tap to select species)</span>
+        </div>
+      `;
+      return;
+    }
+
+    const headName = slot.head;
+    const bodyName = slot.body || "";
+    const isSingle = !bodyName || bodyName === headName;
+    const displayName = isSingle ? headName : `${headName} / ${bodyName}`;
+    const types = getMonEffectiveTypes(headName, bodyName);
+    const stats = getMonEffectiveStats(headName, bodyName);
+    const role = getFusionRole(stats);
+    const eff = getFusionEffectiveness(types);
+
+    const weak4x = ALL_TYPES.filter(t => eff[t] === 4);
+    const weak2x = ALL_TYPES.filter(t => eff[t] === 2);
+    const res05x = ALL_TYPES.filter(t => eff[t] === 0.5);
+    const res025x = ALL_TYPES.filter(t => eff[t] === 0.25);
+    const immune0x = ALL_TYPES.filter(t => eff[t] === 0);
+
+    const color1 = TYPE_COLORS[types[0]] || "#38bdf8";
+    const color2 = TYPE_COLORS[types[1] || types[0]] || color1;
+
+    html += `
+      <div class="team-slot-card">
+        <div class="slot-header">
+          <div class="slot-title-box">
+            <span class="slot-num-badge">Slot ${sIdx + 1}</span>
+            <span class="slot-mon-name" style="background: linear-gradient(135deg, ${color1}, ${color2}); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">${displayName}</span>
+            <div style="display:inline-flex; gap:0.25rem;">
+              ${types.map(t => `<span class="type-badge type-${t}" style="font-size:0.68rem; padding:0.1rem 0.35rem;">${t}</span>`).join("")}
+            </div>
+            <span class="badge-tag duel-core-tag" style="font-size:0.68rem;">BST ${stats.bst}</span>
+            <span class="fusion-role-pill" style="font-size:0.65rem; padding:0.1rem 0.35rem;">${role}</span>
+          </div>
+          <button class="slot-clear-btn" onclick="clearTeamSlot(${sIdx})" title="Clear Slot">✕</button>
+        </div>
+
+        <!-- Head / Body Selectors -->
+        <div class="slot-selects-row">
+          <div class="species-combobox" id="combo-slot-${sIdx}-head">
+            <input type="text"
+                   class="species-combobox-input"
+                   id="input-slot-${sIdx}-head"
+                   value="#${(APP_DATA.base_stats[headName] && APP_DATA.base_stats[headName].dex_id) || '???'} ${headName}"
+                   placeholder="Type name or #..."
+                   autocomplete="off"
+                   spellcheck="false"
+                   onfocus="openSpeciesCombobox('team', ${sIdx}, 'head', this)"
+                   onclick="this.select()"
+                   oninput="filterSpeciesCombobox(this.value)"
+                   onkeydown="handleSpeciesComboboxKey(event)">
+            <span class="combobox-arrow">▼</span>
+          </div>
+          <button class="slot-swap-btn" onclick="swapTeamSlot(${sIdx})" title="Swap Head & Body (⇄)">⇄</button>
+          <div class="species-combobox" id="combo-slot-${sIdx}-body">
+            <input type="text"
+                   class="species-combobox-input"
+                   id="input-slot-${sIdx}-body"
+                   value="${bodyName ? '#' + ((APP_DATA.base_stats[bodyName] && APP_DATA.base_stats[bodyName].dex_id) || '???') + ' ' + bodyName : 'None (Single Mon)'}"
+                   placeholder="None (Single Mon) or type name / #..."
+                   autocomplete="off"
+                   spellcheck="false"
+                   onfocus="openSpeciesCombobox('team', ${sIdx}, 'body', this)"
+                   onclick="this.select()"
+                   oninput="filterSpeciesCombobox(this.value)"
+                   onkeydown="handleSpeciesComboboxKey(event)">
+            <span class="combobox-arrow">▼</span>
+          </div>
+        </div>
+
+        <!-- Defenses Summary -->
+        <div class="fusion-defense-grid" style="background:rgba(15,23,42,0.4); padding:0.4rem 0.55rem; border-radius:6px; border:1px solid var(--border-color); font-size:0.7rem;">
+          ${weak4x.length > 0 ? `
+            <div class="defense-group">
+              <span class="defense-mult-pill mult-4x" style="font-size:0.65rem; padding:0.1rem 0.3rem;">4x</span>
+              ${weak4x.map(t => `<span class="type-badge type-${t}" style="font-size:0.65rem; padding:0.05rem 0.3rem;">${t}</span>`).join(" ")}
+            </div>
+          ` : ''}
+          ${weak2x.length > 0 ? `
+            <div class="defense-group">
+              <span class="defense-mult-pill mult-2x" style="font-size:0.65rem; padding:0.1rem 0.3rem;">2x</span>
+              ${weak2x.map(t => `<span class="type-badge type-${t}" style="font-size:0.65rem; padding:0.05rem 0.3rem;">${t}</span>`).join(" ")}
+            </div>
+          ` : ''}
+          ${res05x.length > 0 || res025x.length > 0 || immune0x.length > 0 ? `
+            <div class="defense-group">
+              ${res05x.length > 0 ? `<span class="defense-mult-pill mult-05x" style="font-size:0.65rem; padding:0.1rem 0.3rem;">½x</span>${res05x.map(t => `<span class="type-badge type-${t}" style="font-size:0.65rem; padding:0.05rem 0.3rem;">${t}</span>`).join(" ")}` : ''}
+              ${res025x.length > 0 ? `<span class="defense-mult-pill mult-025x" style="font-size:0.65rem; padding:0.1rem 0.3rem;">¼x</span>${res025x.map(t => `<span class="type-badge type-${t}" style="font-size:0.65rem; padding:0.05rem 0.3rem;">${t}</span>`).join(" ")}` : ''}
+              ${immune0x.length > 0 ? `<span class="defense-mult-pill mult-0x" style="font-size:0.65rem; padding:0.1rem 0.3rem;">0x</span>${immune0x.map(t => `<span class="type-badge type-${t}" style="font-size:0.65rem; padding:0.05rem 0.3rem;">${t}</span>`).join(" ")}` : ''}
+            </div>
+          ` : ''}
+        </div>
+
+        <!-- 4 Move Slots -->
+        <div>
+          <div style="font-size:0.7rem; font-weight:700; color:var(--text-secondary); text-transform:uppercase; margin-bottom:0.25rem; display:flex; justify-content:space-between;">
+            <span>Equipped Moves (Cap Lv. ${customLevelCap}):</span>
+            <span style="color:var(--text-accent); cursor:pointer;" onclick="openMovePicker(${sIdx}, 0)">Edit Moves</span>
+          </div>
+          <div class="moves-grid">
+            ${[0, 1, 2, 3].map(mIdx => {
+              const mvName = (slot.moves && slot.moves[mIdx]) ? slot.moves[mIdx] : "";
+              const mv = getMoveDetails(mvName);
+              if (!mv) {
+                return `<button class="move-btn empty" onclick="openMovePicker(${sIdx}, ${mIdx})">+ Move ${mIdx + 1}</button>`;
+              }
+              const isStab = types.includes(mv.type);
+              const catIcon = mv.cat === 0 ? "⚔️" : (mv.cat === 1 ? "🔮" : "🛡️");
+              return `
+                <button class="move-btn" onclick="openMovePicker(${sIdx}, ${mIdx})">
+                  <div class="move-btn-top">
+                    <span class="move-btn-name">${mv.name}</span>
+                    <span class="type-badge type-${mv.type}" style="font-size:0.62rem; padding:0.05rem 0.25rem;">${mv.type}</span>
+                  </div>
+                  <div class="move-btn-sub">
+                    <span>${catIcon} ${mv.pwr ? mv.pwr + ' BP' : 'Status'}</span>
+                    ${isStab ? '<span style="color:var(--accent-yellow); font-weight:700;">★STAB</span>' : ''}
+                  </div>
+                </button>
+              `;
+            }).join("")}
+          </div>
+        </div>
+      </div>
+    `;
+  });
+
+  // Summary HUD Card
+  html += `
+      </div>
+
+      <div class="chapter-hud" style="margin-top:0.5rem;">
+        <div class="hud-stats-row">
+          <div class="hud-stat">
+            <span>⚔️ Offensive Coverage:</span>
+            <b style="color:var(--text-accent);">${synergy.coveredTypesCount} / 18 Types</b>
+          </div>
+          <div class="hud-stat">
+            <span>Active Party:</span>
+            <b>${synergy.activeMembers} / 6 Mons</b>
+          </div>
+        </div>
+        <div class="hud-meter-bg">
+          <div class="hud-meter-fill" style="width: ${coveredPct}%;"></div>
+        </div>
+
+        ${synergy.blindspots.length > 0 ? `
+          <div style="display:flex; flex-direction:column; gap:0.25rem; margin-top:0.4rem;">
+            <div style="font-size:0.75rem; font-weight:700; color:var(--accent-yellow);">⚠️ Team Weakness Stacking:</div>
+            ${synergy.blindspots.map(b => `
+              <div style="font-size:0.74rem; background:rgba(239,68,68,0.12); border-left:3px solid var(--accent-red); padding:0.25rem 0.5rem; border-radius:4px; display:flex; justify-content:space-between;">
+                <span><b>${b.type}</b>: ${b.weakCount} Weak (${b.resistCount} Resists)</span>
+                ${b.quadCount > 0 ? `<span class="warning-tag" style="color:var(--accent-red);">${b.quadCount} Quad-Weak!</span>` : ''}
+              </div>
+            `).join("")}
+          </div>
+        ` : ''}
+
+        <button class="action-btn" onclick="toggleMatrixModal(true)" style="margin-top:0.5rem; justify-content:center; background:linear-gradient(135deg, rgba(56,189,248,0.2), rgba(129,140,248,0.2)); border-color:var(--text-accent); color:var(--text-primary); font-weight:700; padding:0.55rem;">
+          ⛶ Open Fullscreen Deep Matrix (Key: M)
+        </button>
+      </div>
+    </div>
+  `;
+
+  content.innerHTML = html;
+}
+
+function addTeamSlot(slotIdx) {
+  if (!APP_DATA || !APP_DATA.base_stats) return;
+  const list = Object.keys(APP_DATA.base_stats).sort();
+  const defaultSpecies = list[slotIdx] || "Bulbasaur";
+  customTeam[slotIdx] = {
+    head: defaultSpecies,
+    body: "",
+    moves: ["", "", "", ""]
+  };
+  saveCustomTeam();
+  renderDrawerTeam();
+}
+
+function updateTeamSlotSpecies(slotIdx, head, body) {
+  if (!customTeam[slotIdx]) {
+    customTeam[slotIdx] = { head: head, body: body, moves: ["", "", "", ""] };
+  } else {
+    customTeam[slotIdx].head = head;
+    customTeam[slotIdx].body = body;
+  }
+  saveCustomTeam();
+  renderDrawerTeam();
+  const modal = document.getElementById("matrix-modal");
+  if (modal && modal.classList.contains("open")) renderMatrixModal();
+}
+
+function swapTeamSlot(slotIdx) {
+  const slot = customTeam[slotIdx];
+  if (!slot || !slot.head) return;
+  const temp = slot.head;
+  slot.head = slot.body || temp;
+  slot.body = temp;
+  saveCustomTeam();
+  renderDrawerTeam();
+  const modal = document.getElementById("matrix-modal");
+  if (modal && modal.classList.contains("open")) renderMatrixModal();
+}
+
+function clearTeamSlot(slotIdx) {
+  customTeam[slotIdx] = null;
+  saveCustomTeam();
+  renderDrawerTeam();
+  const modal = document.getElementById("matrix-modal");
+  if (modal && modal.classList.contains("open")) renderMatrixModal();
+}
+
+function clearAllTeamSlots() {
+  if (confirm("Reset all 6 team slots to empty?")) {
+    customTeam = [null, null, null, null, null, null];
+    saveCustomTeam();
+    renderDrawerTeam();
+    const modal = document.getElementById("matrix-modal");
+    if (modal && modal.classList.contains("open")) renderMatrixModal();
+  }
+}
+
+// Interactive Species Combobox Controller
+let activeSpeciesCombobox = null;
+
+function openSpeciesCombobox(context, slotIdx, part, inputEl) {
+  activeSpeciesCombobox = {
+    context: context,
+    slotIdx: slotIdx,
+    part: part,
+    inputEl: inputEl,
+    filteredSpecies: [],
+    highlightedIndex: -1
+  };
+  repositionSpeciesDropdown();
+  if (inputEl) inputEl.select();
+  filterSpeciesCombobox("");
+}
+
+function repositionSpeciesDropdown() {
+  if (!activeSpeciesCombobox || !activeSpeciesCombobox.inputEl) return;
+  const dropdown = document.getElementById("species-picker-dropdown");
+  if (!dropdown) return;
+  const rect = activeSpeciesCombobox.inputEl.getBoundingClientRect();
+  const spaceBelow = window.innerHeight - rect.bottom;
+
+  dropdown.style.display = "flex";
+  dropdown.style.left = Math.max(10, Math.min(rect.left, window.innerWidth - 270)) + "px";
+  dropdown.style.width = Math.max(rect.width, 250) + "px";
+
+  if (spaceBelow < 260 && rect.top > 260) {
+    const h = Math.min(250, rect.top - 16);
+    dropdown.style.top = (rect.top - h - 4) + "px";
+    dropdown.style.maxHeight = h + "px";
+  } else {
+    const h = Math.min(260, Math.max(120, spaceBelow - 16));
+    dropdown.style.top = (rect.bottom + 4) + "px";
+    dropdown.style.maxHeight = h + "px";
+  }
+}
+
+function closeSpeciesCombobox(revert) {
+  const dropdown = document.getElementById("species-picker-dropdown");
+  if (dropdown) dropdown.style.display = "none";
+  if (activeSpeciesCombobox && revert && activeSpeciesCombobox.inputEl) {
+    const ctx = activeSpeciesCombobox.context;
+    const slotIdx = activeSpeciesCombobox.slotIdx;
+    const part = activeSpeciesCombobox.part;
+    const inputEl = activeSpeciesCombobox.inputEl;
+    if (ctx === "team") {
+      const slot = customTeam[slotIdx];
+      if (slot) {
+        if (part === "head") {
+          const s = slot.head;
+          const d = (APP_DATA && APP_DATA.base_stats && APP_DATA.base_stats[s]) ? APP_DATA.base_stats[s].dex_id : "???";
+          inputEl.value = "#" + d + " " + s;
+        } else {
+          const s = slot.body;
+          if (s) {
+            const d = (APP_DATA && APP_DATA.base_stats && APP_DATA.base_stats[s]) ? APP_DATA.base_stats[s].dex_id : "???";
+            inputEl.value = "#" + d + " " + s;
+          } else {
+            inputEl.value = "None (Single Mon)";
+          }
+        }
+      }
+    } else if (ctx === "fusion") {
+      const s = part === "head" ? fusionLabHead : fusionLabBody;
+      const d = (APP_DATA && APP_DATA.base_stats && APP_DATA.base_stats[s]) ? APP_DATA.base_stats[s].dex_id : "???";
+      inputEl.value = "#" + d + " " + s;
+    }
+  }
+  activeSpeciesCombobox = null;
+}
+
+function filterSpeciesCombobox(query) {
+  if (!activeSpeciesCombobox || !APP_DATA || !APP_DATA.base_stats) return;
+  const dropdown = document.getElementById("species-picker-dropdown");
+  if (!dropdown) return;
+
+  const ctx = activeSpeciesCombobox.context;
+  const part = activeSpeciesCombobox.part;
+  const rawQ = (query || "").trim();
+  const cleanQ = rawQ.toLowerCase().replace(/^#/, "");
+  const speciesKeys = Object.keys(APP_DATA.base_stats);
+  const allowNone = (part === "body" && ctx === "team");
+
+  let results = [];
+
+  if (!cleanQ) {
+    results = speciesKeys.slice().sort(function(a, b) {
+      const idA = (APP_DATA.base_stats[a] && APP_DATA.base_stats[a].dex_id) || 9999;
+      const idB = (APP_DATA.base_stats[b] && APP_DATA.base_stats[b].dex_id) || 9999;
+      return idA - idB;
+    });
+  } else {
+    const num = parseInt(cleanQ, 10);
+    const isNum = !isNaN(num) && String(num) === cleanQ;
+
+    if (isNum) {
+      const exactDex = [];
+      const startsDex = [];
+      const incDex = [];
+      speciesKeys.forEach(function(s) {
+        const inf = APP_DATA.base_stats[s];
+        const dexStr = inf ? String(inf.dex_id || "") : "";
+        if (inf && inf.dex_id === num) {
+          exactDex.push(s);
+        } else if (dexStr.startsWith(cleanQ)) {
+          startsDex.push(s);
+        } else if (dexStr.includes(cleanQ)) {
+          incDex.push(s);
+        }
+      });
+      const byDex = function(a, b) {
+        return ((APP_DATA.base_stats[a] && APP_DATA.base_stats[a].dex_id) || 0) - ((APP_DATA.base_stats[b] && APP_DATA.base_stats[b].dex_id) || 0);
+      };
+      startsDex.sort(byDex);
+      incDex.sort(byDex);
+      results = exactDex.concat(startsDex, incDex);
+    } else {
+      const exactName = [];
+      const startsName = [];
+      const incName = [];
+      speciesKeys.forEach(function(s) {
+        const sLow = s.toLowerCase();
+        const inf = APP_DATA.base_stats[s];
+        if (sLow === cleanQ) {
+          exactName.push(s);
+        } else if (sLow.startsWith(cleanQ)) {
+          startsName.push(s);
+        } else if (sLow.includes(cleanQ)) {
+          incName.push(s);
+        } else if (inf && inf.types && inf.types.some(function(t) { return t.toLowerCase() === cleanQ; })) {
+          incName.push(s);
+        }
+      });
+      startsName.sort();
+      incName.sort();
+      results = exactName.concat(startsName, incName);
+    }
+  }
+
+  activeSpeciesCombobox.filteredSpecies = results;
+  activeSpeciesCombobox.highlightedIndex = results.length > 0 ? 0 : -1;
+
+  let html = "";
+  const matchesNone = allowNone && (!cleanQ || "none".includes(cleanQ) || "single".includes(cleanQ) || "empty".includes(cleanQ));
+  if (matchesNone) {
+    html += '<div class="species-picker-item species-picker-none" onmousedown="selectSpeciesFromCombobox(\'\')" title="Single unfused Pokémon"><span>∅ None (Single Mon)</span><span style="font-size:0.68rem; color:var(--text-secondary);">Unfused</span></div>';
+  }
+
+  if (results.length === 0 && !matchesNone) {
+    html += '<div style="padding:0.6rem; text-align:center; color:var(--text-secondary); font-size:0.75rem;">No Pokémon found</div>';
+  } else {
+    for (let idx = 0; idx < results.length; idx++) {
+      const s = results[idx];
+      const info = APP_DATA.base_stats[s] || {};
+      const dex = info.dex_id ? "#" + info.dex_id : "";
+      const tBadges = (info.types || []).map(function(t) {
+        return '<span class="type-badge type-' + t + '" style="font-size:0.62rem; padding:0.05rem 0.25rem;">' + t + '</span>';
+      }).join(" ");
+      html += '<div class="species-picker-item' + (idx === 0 && !matchesNone ? ' active' : '') + '" id="species-item-' + idx + '" data-species="' + s + '" onmousedown="selectSpeciesFromCombobox(\'' + s + '\')"><div style="display:flex; align-items:center; gap:0.4rem;"><span style="font-family:var(--font-mono); font-size:0.7rem; color:var(--text-secondary); min-width:32px;">' + dex + '</span><span style="font-weight:600;">' + s + '</span></div><div style="display:flex; gap:0.25rem; align-items:center;">' + tBadges + '</div></div>';
+    }
+  }
+
+  dropdown.innerHTML = html;
+  dropdown.scrollTop = 0;
+}
+
+function selectSpeciesFromCombobox(speciesName) {
+  if (!activeSpeciesCombobox) return;
+  const ctx = activeSpeciesCombobox.context;
+  const slotIdx = activeSpeciesCombobox.slotIdx;
+  const part = activeSpeciesCombobox.part;
+  closeSpeciesCombobox(false);
+
+  if (ctx === "team") {
+    if (!customTeam[slotIdx]) {
+      customTeam[slotIdx] = { head: speciesName || "Bulbasaur", body: "", moves: ["", "", "", ""] };
+    }
+    if (part === "head") {
+      updateTeamSlotSpecies(slotIdx, speciesName || "Bulbasaur", customTeam[slotIdx].body);
+    } else {
+      updateTeamSlotSpecies(slotIdx, customTeam[slotIdx].head, speciesName || "");
+    }
+  } else if (ctx === "fusion") {
+    if (part === "head") {
+      fusionLabHead = speciesName || "Bulbasaur";
+    } else {
+      fusionLabBody = speciesName || "Pikachu";
+    }
+    renderDrawerFusionLab();
+  }
+}
+
+function handleSpeciesComboboxKey(e) {
+  if (!activeSpeciesCombobox) return;
+  const dropdown = document.getElementById("species-picker-dropdown");
+  if (!dropdown || dropdown.style.display === "none") return;
+
+  const filtered = activeSpeciesCombobox.filteredSpecies || [];
+  let hIdx = activeSpeciesCombobox.highlightedIndex;
+
+  if (e.key === "ArrowDown") {
+    e.preventDefault();
+    if (filtered.length > 0) {
+      const nextIdx = (hIdx + 1) % filtered.length;
+      updateHighlightedSpeciesItem(nextIdx);
+    }
+  } else if (e.key === "ArrowUp") {
+    e.preventDefault();
+    if (filtered.length > 0) {
+      const prevIdx = (hIdx - 1 + filtered.length) % filtered.length;
+      updateHighlightedSpeciesItem(prevIdx);
+    }
+  } else if (e.key === "Enter") {
+    e.preventDefault();
+    if (hIdx >= 0 && hIdx < filtered.length) {
+      selectSpeciesFromCombobox(filtered[hIdx]);
+    } else if (filtered.length > 0) {
+      selectSpeciesFromCombobox(filtered[0]);
+    } else if (activeSpeciesCombobox.part === "body" && activeSpeciesCombobox.context === "team") {
+      selectSpeciesFromCombobox("");
+    }
+  } else if (e.key === "Escape" || e.key === "Tab") {
+    closeSpeciesCombobox(true);
+  }
+}
+
+function updateHighlightedSpeciesItem(newIdx) {
+  if (!activeSpeciesCombobox) return;
+  activeSpeciesCombobox.highlightedIndex = newIdx;
+  document.querySelectorAll(".species-picker-item").forEach(function(el) { el.classList.remove("active"); });
+  const target = document.getElementById("species-item-" + newIdx);
+  if (target) {
+    target.classList.add("active");
+    target.scrollIntoView({ block: "nearest" });
+  }
+}
+
+function openMovePicker(slotIdx, moveIdx) {
+  const slot = customTeam[slotIdx];
+  if (!slot || !slot.head) return;
+  activeMovePickerSlot = { slotIdx, moveIdx };
+
+  const modal = document.getElementById("move-picker-modal");
+  const titleEl = document.getElementById("move-picker-title");
+  const subEl = document.getElementById("move-picker-sub");
+  const searchEl = document.getElementById("move-search-input");
+
+  const monName = (slot.body && slot.body !== slot.head) ? `${slot.head}/${slot.body}` : slot.head;
+  if (titleEl) titleEl.textContent = `Select Move ${moveIdx + 1} for ${monName}`;
+  if (subEl) subEl.textContent = `Legal Level-Up Moves at or below Cap Lv. ${customLevelCap}`;
+  if (searchEl) { searchEl.value = ""; }
+
+  currentMovePickerList = getLegalMovesForMon(slot.head, slot.body, customLevelCap);
+  filterMovePickerList("");
+
+  if (modal) modal.classList.add("open");
+  const backdrop = document.getElementById("modal-backdrop");
+  if (backdrop) backdrop.classList.add("open");
+  if (searchEl) setTimeout(() => searchEl.focus(), 100);
+}
+
+function closeMovePicker() {
+  activeMovePickerSlot = null;
+  const modal = document.getElementById("move-picker-modal");
+  if (modal) modal.classList.remove("open");
+  const backdrop = document.getElementById("modal-backdrop");
+  // Only close backdrop if drawer or cheat sheet is not open
+  const cheatModal = document.getElementById("cheat-modal");
+  const matrixModal = document.getElementById("matrix-modal");
+  if ((!cheatModal || !cheatModal.classList.contains("open")) &&
+      (!matrixModal || !matrixModal.classList.contains("open")) &&
+      !isDrawerPinned) {
+    // leave drawer backdrop logic to drawer
+  }
+}
+
+function filterMovePickerList(query) {
+  const container = document.getElementById("move-picker-list");
+  if (!container) return;
+
+  const q = (query || "").trim().toLowerCase();
+  const filtered = currentMovePickerList.filter(m => {
+    if (!q) return true;
+    return m.name.toLowerCase().includes(q) || m.type.toLowerCase().includes(q) || (m.cat === 0 ? "phys" : (m.cat === 1 ? "spec" : "status")).includes(q);
+  });
+
+  if (filtered.length === 0) {
+    container.innerHTML = `<div style="padding:1rem; text-align:center; color:var(--text-secondary); font-size:0.8rem;">No legal moves found at Lv. ${customLevelCap}.</div>`;
+    return;
+  }
+
+  const slot = activeMovePickerSlot ? customTeam[activeMovePickerSlot.slotIdx] : null;
+  const types = slot ? getMonEffectiveTypes(slot.head, slot.body) : [];
+
+  container.innerHTML = filtered.map(m => {
+    const isStab = types.includes(m.type);
+    const catIcon = m.cat === 0 ? "⚔️ Phys" : (m.cat === 1 ? "🔮 Spec" : "🛡️ Status");
+    return `
+      <div class="move-picker-item" onclick="selectMove('${m.name}')">
+        <div style="display:flex; align-items:center; gap:0.5rem;">
+          <span style="font-family:var(--font-mono); font-size:0.72rem; color:var(--text-accent); min-width:38px;">Lv.${m.lvl}</span>
+          <span style="font-weight:600;">${m.name}</span>
+          <span class="type-badge type-${m.type}" style="font-size:0.65rem; padding:0.1rem 0.35rem;">${m.type}</span>
+          ${isStab ? '<span class="badge-tag duel-core-tag" style="font-size:0.62rem;">★ STAB</span>' : ''}
+        </div>
+        <div style="font-family:var(--font-mono); font-size:0.72rem; color:var(--text-secondary); display:flex; gap:0.4rem;">
+          <span>${catIcon}</span>
+          <span>${m.pwr ? m.pwr + ' BP' : '—'}</span>
+          <span>${m.acc ? m.acc + '%' : '—'}</span>
+        </div>
+      </div>
+    `;
+  }).join("");
+}
+
+function selectMove(moveName) {
+  if (!activeMovePickerSlot) return;
+  const { slotIdx, moveIdx } = activeMovePickerSlot;
+  if (customTeam[slotIdx]) {
+    if (!Array.isArray(customTeam[slotIdx].moves)) {
+      customTeam[slotIdx].moves = ["", "", "", ""];
+    }
+    customTeam[slotIdx].moves[moveIdx] = moveName || "";
+    saveCustomTeam();
+  }
+  closeMovePicker();
+  renderDrawerTeam();
+  const modal = document.getElementById("matrix-modal");
+  if (modal && modal.classList.contains("open")) renderMatrixModal();
+}
+
+function importActiveGuideTeam() {
+  const actChapters = APP_DATA.chapters.filter(ch => ch.act === currentAct);
+  const ch = actChapters[currentChapterIndex] || APP_DATA.chapters[0];
+  if (!ch || !ch.teams || !ch.teams[activeStarterTrack]) {
+    alert("No active guide team found for this chapter track.");
+    return;
+  }
+
+  const roster = ch.teams[activeStarterTrack].roster || [];
+  customTeam = [null, null, null, null, null, null];
+
+  roster.forEach((mon, idx) => {
+    if (idx >= 6) return;
+    const species = mon.species || "";
+    let head = species;
+    let body = "";
+    if (species.includes("/")) {
+      const parts = species.split("/").map(s => s.trim());
+      head = parts[0];
+      body = parts[1];
+    }
+    const moves = (mon.current_reached_moveset || []).slice(0, 4);
+    while (moves.length < 4) moves.push("");
+
+    customTeam[idx] = { head, body, moves };
+  });
+
+  if (ch.level_cap) {
+    customLevelCap = ch.level_cap;
+  }
+
+  saveCustomTeam();
+  renderDrawerTeam();
+  const modal = document.getElementById("matrix-modal");
+  if (modal && modal.classList.contains("open")) renderMatrixModal();
+  alert(`Imported ${roster.length} Pokémon from ${activeStarterTrack.toUpperCase()} Starter Team (Cap: ${customLevelCap})!`);
+}
+
+function toggleMatrixModal(open) {
+  const modal = document.getElementById("matrix-modal");
+  const backdrop = document.getElementById("modal-backdrop");
+  if (!modal) return;
+  const isOpen = (open !== undefined) ? open : !modal.classList.contains("open");
+  if (isOpen) {
+    renderMatrixModal();
+    modal.classList.add("open");
+    if (backdrop) backdrop.classList.add("open");
+  } else {
+    modal.classList.remove("open");
+    if (backdrop && (!isDrawerPinned || window.innerWidth < 1200)) {
+      backdrop.classList.remove("open");
+    }
+  }
+}
+
+function renderMatrixModal() {
+  const bodyEl = document.getElementById("matrix-modal-body");
+  const badgeEl = document.getElementById("matrix-header-badge");
+  if (!bodyEl) return;
+
+  const synergy = calculateTeamSynergy();
+  if (badgeEl) {
+    badgeEl.textContent = `${synergy.activeMembers} / 6 Mons • ${synergy.coveredTypesCount} / 18 Types Covered`;
+  }
+
+  let tableHtml = `
+    <table class="matrix-table">
+      <thead>
+        <tr>
+          <th class="sticky-col" style="width:110px;">Defending Type</th>
+          ${customTeam.map((slot, i) => {
+            if (!slot || !slot.head) {
+              return `<th style="min-width:95px; color:var(--text-secondary);">Slot ${i + 1}<br><span style="font-weight:400; font-size:0.68rem;">(Empty)</span></th>`;
+            }
+            const displayName = (slot.body && slot.body !== slot.head) ? `${slot.head}/${slot.body}` : slot.head;
+            return `<th style="min-width:95px;">Slot ${i + 1}<br><span style="color:var(--text-accent); font-size:0.72rem;">${displayName}</span></th>`;
+          }).join("")}
+          <th style="width:60px; color:var(--accent-red);">Weak</th>
+          <th style="width:60px; color:var(--accent-green);">Resist</th>
+          <th style="width:60px; color:var(--accent-purple);">Immune</th>
+          <th style="width:125px;">Net Rating</th>
+          <th style="min-width:140px; text-align:left;">Offensive Counter</th>
+        </tr>
+      </thead>
+      <tbody>
+  `;
+
+  ALL_TYPES.forEach(t => {
+    const d = synergy.defensiveMatrix[t];
+    const off = synergy.offensiveCoverage[t];
+
+    let netBadge = `<span style="color:var(--text-secondary);">Neutral (0)</span>`;
+    if (d.weak >= 3) {
+      netBadge = `<span style="color:var(--accent-red); font-weight:700;">🚨 Critical (${d.weak}W)</span>`;
+    } else if (d.weak >= 2 && d.resist === 0 && d.immune === 0) {
+      netBadge = `<span style="color:var(--accent-yellow); font-weight:700;">⚠️ Blindspot</span>`;
+    } else if (d.weak === 0 && (d.resist + d.immune) >= 2) {
+      netBadge = `<span style="color:var(--accent-green); font-weight:700;">🛡️ Fortress (+${d.resist + d.immune})</span>`;
+    } else if ((d.resist + d.immune) > d.weak) {
+      netBadge = `<span style="color:var(--accent-green);">✅ Solid (+${(d.resist + d.immune) - d.weak})</span>`;
+    } else if (d.weak > (d.resist + d.immune)) {
+      netBadge = `<span style="color:var(--accent-yellow);">⚠️ Vulnerable (-${d.weak - (d.resist + d.immune)})</span>`;
+    }
+
+    let offText = `<span style="color:var(--text-secondary);">❌ Uncovered</span>`;
+    if (off.superEffective) {
+      const hitList = off.hits.slice(0, 2).map(h => `${h.monName} (${h.moveName})`).join(", ");
+      offText = `<span style="color:var(--accent-green); font-weight:600;">⚡ ${hitList}</span>`;
+    }
+
+    tableHtml += `
+      <tr>
+        <td class="sticky-col">
+          <span class="type-badge type-${t}" style="font-size:0.75rem; padding:0.15rem 0.45rem;">${t}</span>
+        </td>
+        ${d.mults.map(m => {
+          if (m === null) return `<td style="color:var(--text-secondary);">—</td>`;
+          if (m === 4) return `<td style="background:rgba(239,68,68,0.25); color:#fca5a5; font-weight:800;">4×</td>`;
+          if (m === 2) return `<td style="color:#fca5a5; font-weight:700;">2×</td>`;
+          if (m === 0.5) return `<td style="color:#86efac; font-weight:600;">½×</td>`;
+          if (m === 0.25) return `<td style="background:rgba(34,197,94,0.2); color:#86efac; font-weight:800;">¼×</td>`;
+          if (m === 0) return `<td style="background:rgba(168,85,247,0.25); color:#d8b4fe; font-weight:800;">0×</td>`;
+          return `<td style="color:var(--text-secondary); opacity:0.6;">1×</td>`;
+        }).join("")}
+        <td style="color:${d.weak > 0 ? 'var(--accent-red)' : 'var(--text-secondary)'}; font-weight:${d.weak > 0 ? '700' : '400'};">${d.weak}</td>
+        <td style="color:${d.resist > 0 ? 'var(--accent-green)' : 'var(--text-secondary)'}; font-weight:${d.resist > 0 ? '700' : '400'};">${d.resist}</td>
+        <td style="color:${d.immune > 0 ? 'var(--accent-purple)' : 'var(--text-secondary)'}; font-weight:${d.immune > 0 ? '700' : '400'};">${d.immune}</td>
+        <td>${netBadge}</td>
+        <td style="text-align:left; font-size:0.74rem;">${offText}</td>
+      </tr>
+    `;
+  });
+
+  tableHtml += `
+      </tbody>
+    </table>
+  `;
+
+  bodyEl.innerHTML = tableHtml;
+}
+
+function setDrawerTab(tab) {
+  currentDrawerTab = tab;
+  const tTab = document.getElementById("drawer-tab-team");
+  if (tTab) tTab.classList.toggle("active", tab === "team");
+  const fTab = document.getElementById("drawer-tab-fusion");
+  if (fTab) fTab.classList.toggle("active", tab === "fusion");
+  document.getElementById("drawer-tab-party").classList.toggle("active", tab === "party");
+  document.getElementById("drawer-tab-items").classList.toggle("active", tab === "items");
+  const qTab = document.getElementById("drawer-tab-quests");
+  if (qTab) qTab.classList.toggle("active", tab === "quests");
+  document.getElementById("drawer-tab-tms").classList.toggle("active", tab === "tms");
+  
+  const content = document.getElementById("drawer-content");
+  
+  if (tab === "team") {
+    renderDrawerTeam();
+  } else if (tab === "fusion") {
+    renderDrawerFusionLab();
+  } else if (tab === "party") {
+    renderDrawerParty();
+  } else if (tab === "quests") {
+    renderDrawerQuests();
+  } else if (tab === "items") {
+    content.innerHTML = `
+      <div style="font-size: 0.85rem; color: var(--text-secondary);">
+        Track your 9 HM replacement tools and critical campaign key items.
+      </div>
+      <div style="font-weight: bold; font-size: 0.9rem; color: var(--text-accent); margin-top: 0.5rem;">🛠️ 9 HM Replacement Tools:</div>
+      ${APP_DATA.hm_replacements.map(tool => {
+        const toolKey = "tool_" + tool.id;
+        const checked = getChecklistState(toolKey);
+        return `
+          <div class="core-card" style="padding: 0.75rem;">
+            <label class="checklist-item ${checked ? 'done' : ''}" id="lbl_${toolKey}">
+              <input type="checkbox" ${checked ? 'checked' : ''} onchange="toggleChecklistItem('${toolKey}', this)">
+              <div>
+                <b>${tool.name}</b> (Replaces HM ${tool.replaces_hm})<br>
+                <span style="font-size: 0.78rem; color: var(--text-secondary);">${tool.location} • Requires Badge ${tool.badge_required}</span>
+              </div>
+            </label>
+          </div>
+        `;
+      }).join("")}
+
+      <div style="font-weight: bold; font-size: 0.9rem; color: var(--text-accent); margin-top: 1rem;">🧬 Evolution Methods & Happiness Bypasses:</div>
+      ${(APP_DATA.evolution_methods || []).map(evo => `
+        <div class="core-card" style="padding: 0.75rem;">
+          <div style="font-weight: 700; color: var(--accent-yellow); font-size: 0.85rem;">${evo.item}</div>
+          <div style="font-size: 0.78rem; color: var(--text-secondary); margin-bottom: 0.3rem;">${evo.description}</div>
+          ${evo.locations ? `<div style="font-size: 0.75rem; color: var(--text-accent);">📍 Locations: ${evo.locations.join(", ")}</div>` : ''}
+          ${evo.evolutions ? `
+            <div style="margin-top: 0.3rem; font-size: 0.75rem; display: flex; flex-direction: column; gap: 0.15rem;">
+              ${evo.evolutions.map(e => {
+                if (e.from && e.to) {
+                  const methodStr = e.alternate_level ? `(or Lv. ${e.alternate_level})` : e.level ? `(at Lv. ${e.level})` : e.alternate_method ? `(${e.alternate_method})` : '';
+                  return `<div>• <b>${e.from}</b> ➜ <b>${e.to}</b> ${methodStr}</div>`;
+                } else if (e.stone && e.to) {
+                  return `<div>• <b>${e.to}</b>: ${e.stone} (${e.vendor})</div>`;
+                }
+                return '';
+              }).join("")}
+            </div>
+          ` : ''}
+        </div>
+      `).join("")}
+    `;
+  } else if (tab === "tms") {
+    content.innerHTML = `
+      <div style="font-size: 0.85rem; color: var(--text-secondary);">
+        12 Custom Infinite Fusion TMs with unique competitive distributions.
+      </div>
+      ${APP_DATA.custom_tms.map(tm => `
+        <div class="core-card" style="padding: 0.75rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <b style="color: var(--text-accent);">${tm.tm_id}: ${tm.move_name}</b>
+            <span class="stat-pill">${tm.type}</span>
+          </div>
+          <div style="font-size: 0.8rem; color: var(--text-secondary);">Location: ${tm.location}</div>
+          <div style="font-size: 0.78rem;">Compatible: ${tm.compatible_pokemon.slice(0, 6).join(", ")}...</div>
+        </div>
+      `).join("")}
+    `;
+  }
+}
+
+let currentQuestFilter = "all";
+
+function toggleQuest(qId, checkbox) {
+  const isChecked = checkbox.checked;
+  localStorage.setItem("pif_quest_" + qId, isChecked ? "true" : "false");
+  renderDrawerQuests(currentQuestFilter);
+}
+
+function setQuestFilter(filter) {
+  currentQuestFilter = filter;
+  renderDrawerQuests(filter);
+}
+
+function renderDrawerQuests(filter = currentQuestFilter) {
+  const content = document.getElementById("drawer-content");
+  const masterList = (APP_DATA.master_quests && APP_DATA.master_quests.quests) || [];
+  
+  // 1. Calculate Hotel Quest Milestone
+  const hotelQuests = masterList.filter(q => q.type === "Hotel");
+  let completedHotel = 0;
+  hotelQuests.forEach(q => {
+    if (localStorage.getItem("pif_quest_" + q.id) === "true") completedHotel++;
+  });
+  
+  let nextMilestone = 10;
+  let nextReward = "🏮 Lantern (Rock Tunnel Flash replacement)";
+  if (completedHotel < 1) { nextMilestone = 1; nextReward = "HM08 Flash"; }
+  else if (completedHotel < 5) { nextMilestone = 5; nextReward = "Amulet Coin (2x Money)"; }
+  else if (completedHotel < 10) { nextMilestone = 10; nextReward = "🏮 Lantern (Rock Tunnel Flash replacement)"; }
+  else if (completedHotel < 15) { nextMilestone = 15; nextReward = "🔗 Linking Cord x3 (Trade Evolutions)"; }
+  else if (completedHotel < 20) { nextMilestone = 20; nextReward = "Sleeping Bag (Time-of-Day Control)"; }
+  else { nextMilestone = 30; nextReward = "Mist Stone"; }
+  
+  const pct = Math.min(100, Math.round((completedHotel / nextMilestone) * 100));
+  
+  // 2. Filter Quests
+  let displayed = masterList;
+  if (filter === "hotel") displayed = masterList.filter(q => q.type === "Hotel");
+  else if (filter === "rocket") displayed = masterList.filter(q => q.type === "Team Rocket");
+  else if (filter === "missable") displayed = masterList.filter(q => q.is_missable);
+  
+  content.innerHTML = `
+    <!-- Hotel Milestone Progress Card -->
+    <div class="core-card" style="border: 1px solid var(--text-accent); background: rgba(56, 189, 248, 0.08); padding: 0.9rem;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.35rem;">
+        <span style="font-weight: 800; font-size: 0.9rem; color: var(--text-accent);">🏨 Hotel Quest Milestones</span>
+        <span class="badge-tag" style="font-weight: bold;">${completedHotel} / ${nextMilestone} Completed</span>
+      </div>
+      <div style="font-size: 0.78rem; color: var(--text-secondary); margin-bottom: 0.5rem;">
+        <b>Next Unlock:</b> ${nextReward}
+      </div>
+      <div style="width: 100%; height: 8px; background: var(--bg-primary); border-radius: 4px; overflow: hidden; border: 1px solid var(--border-color);">
+        <div style="width: ${pct}%; height: 100%; background: linear-gradient(90deg, #38bdf8, #818cf8); transition: width 0.3s;"></div>
+      </div>
+    </div>
+
+    <!-- Undercover Informant Advisory -->
+    <div class="core-card" style="border-left: 3px solid #818cf8; background: rgba(129, 140, 248, 0.08); padding: 0.75rem;">
+      <div style="font-weight: 800; font-size: 0.82rem; color: #a5b4fc; margin-bottom: 0.2rem;">
+        👮 Undercover Informant Strategy
+      </div>
+      <div style="font-size: 0.76rem; color: var(--text-secondary); line-height: 1.4;">
+        Join Team Rocket on Route 24 for disguise access, but report the Cerulean & Celadon crimes to the police officer. You gain <b>+10 Karma per report</b>, achieve the <b>+20 Karma needed for Mew</b>, and unlock the Police raid for <b>Mythical Diancie</b>!
+      </div>
+    </div>
+
+    <!-- Filter Buttons -->
+    <div style="display: flex; gap: 0.35rem; flex-wrap: wrap;">
+      <button class="drawer-tab-btn ${filter === 'all' ? 'active' : ''}" onclick="setQuestFilter('all')">All (${masterList.length})</button>
+      <button class="drawer-tab-btn ${filter === 'hotel' ? 'active' : ''}" onclick="setQuestFilter('hotel')">🏨 Hotel</button>
+      <button class="drawer-tab-btn ${filter === 'rocket' ? 'active' : ''}" onclick="setQuestFilter('rocket')">🚀 Team Rocket</button>
+      <button class="drawer-tab-btn ${filter === 'missable' ? 'active' : ''}" onclick="setQuestFilter('missable')">⚠️ Missables</button>
+    </div>
+
+    <!-- Quest Cards -->
+    <div style="display: flex; flex-direction: column; gap: 0.65rem;">
+      ${displayed.map(q => {
+        const isDone = localStorage.getItem("pif_quest_" + q.id) === "true";
+        const isMissable = q.is_missable;
+        const karmaColor = q.karma_delta > 0 ? "var(--accent-green)" : q.karma_delta < 0 ? "var(--accent-red)" : "var(--text-secondary)";
+        const karmaSign = q.karma_delta > 0 ? "+" : "";
+        
+        return `
+          <div class="core-card" style="padding: 0.85rem; border-left: 3px solid ${isMissable ? 'var(--accent-red)' : isDone ? 'var(--accent-green)' : 'var(--border-color)'}; opacity: ${isDone ? 0.75 : 1};">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 0.5rem; margin-bottom: 0.35rem;">
+              <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                <input type="checkbox" ${isDone ? 'checked' : ''} onchange="toggleQuest('${q.id}', this)" style="accent-color: var(--text-accent); width: 16px; height: 16px;">
+                <b style="font-size: 0.9rem; ${isDone ? 'text-decoration: line-through; color: var(--text-secondary);' : ''}">${q.title}</b>
+              </label>
+              <div style="display: flex; gap: 0.3rem; align-items: center; flex-wrap: wrap;">
+                <span class="badge-tag" style="font-size: 0.7rem;">${q.type}</span>
+                ${q.karma_delta !== 0 ? `<span class="badge-tag" style="color: ${karmaColor}; border-color: ${karmaColor}; font-size: 0.7rem;">${karmaSign}${q.karma_delta} Karma</span>` : ''}
+              </div>
+            </div>
+
+            <div style="font-size: 0.76rem; color: var(--text-secondary); margin-bottom: 0.35rem;">
+              📍 <b>Location:</b> ${q.location}
+            </div>
+
+            ${isMissable ? `
+              <div style="background: rgba(239, 68, 68, 0.15); border: 1px solid rgba(239, 68, 68, 0.4); border-radius: 4px; padding: 0.35rem 0.5rem; font-size: 0.74rem; color: #fca5a5; margin-bottom: 0.35rem;">
+                ⚠️ <b>CRITICAL DEADLINE:</b> ${q.missable_deadline}
+              </div>
+            ` : ''}
+
+            ${q.police_reportable ? `
+              <div style="background: rgba(34, 197, 94, 0.12); border: 1px solid rgba(34, 197, 94, 0.3); border-radius: 4px; padding: 0.35rem 0.5rem; font-size: 0.74rem; color: #86efac; margin-bottom: 0.35rem;">
+                👮 <b>POLICE REPORTABLE:</b> Report to Officer Jenny in ${q.police_officer_location} for <b>+${q.police_reward_karma} Karma</b> & Diancie unlock!
+              </div>
+            ` : ''}
+
+            <div style="font-size: 0.76rem; line-height: 1.4; color: var(--text-primary); margin-bottom: 0.35rem;">
+              ${(q.objectives || []).map(step => `<div>• ${step}</div>`).join("")}
+            </div>
+
+            <div style="font-size: 0.74rem; color: var(--text-accent);">
+              🎁 <b>Rewards:</b> ${(q.rewards || []).join(", ")}
+            </div>
+          </div>
+        `;
+      }).join("")}
+    </div>
+  `;
+}
+
+function exportProgress() {
+  const exportData = {};
+  for (let i = 0; i < localStorage.length; i++) {
+    const key = localStorage.key(i);
+    if (key && key.startsWith("pif_")) {
+      exportData[key] = localStorage.getItem(key);
+    }
+  }
+  const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `pif_walkthrough_progress_${new Date().toISOString().slice(0,10)}.json`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+function importProgress(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = function(e) {
+    try {
+      const data = JSON.parse(e.target.result);
+      for (const [k, v] of Object.entries(data)) {
+        if (k.startsWith("pif_")) {
+          localStorage.setItem(k, v);
+        }
+      }
+      alert("Progress imported successfully!");
+      renderChapter();
+      initCustomTeam();
+      if (currentDrawerTab === "party") renderDrawerParty();
+      if (currentDrawerTab === "team") renderDrawerTeam();
+    } catch(err) {
+      alert("Failed to parse progress JSON: " + err.message);
+    }
+  };
+  reader.readAsText(file);
+}
+
+function onSearch(query) {
+  const q = (query || "").trim().toLowerCase();
+  const routeCards = document.querySelectorAll(".route-card");
+  if (!q) {
+    routeCards.forEach(c => c.style.display = "");
+    return;
+  }
+  routeCards.forEach(c => {
+    const text = c.textContent.toLowerCase();
+    c.style.display = text.includes(q) ? "" : "none";
+  });
+}
+
+// Keyboard Shortcuts
+window.addEventListener("keydown", function(e) {
+  const tag = document.activeElement ? document.activeElement.tagName.toLowerCase() : "";
+  if (tag === "input" || tag === "textarea" || tag === "select") {
+    if (e.key === "Escape") {
+      document.activeElement.blur();
+    }
+    return;
+  }
+  
+  if (e.key === "Escape") {
+    closeMovePicker();
+    toggleMatrixModal(false);
+    closeDrawer();
+  } else if (e.key === "[" || e.key === "PageUp") {
+    if (currentChapterIndex > 0) {
+      selectChapter(currentChapterIndex - 1);
+    }
+  } else if (e.key === "]" || e.key === "PageDown") {
+    const actChapters = APP_DATA.chapters.filter(ch => ch.act === currentAct);
+    if (currentChapterIndex < actChapters.length - 1) {
+      selectChapter(currentChapterIndex + 1);
+    }
+  } else if (e.key === "1") {
+    setStarterTrack("bulbasaur");
+  } else if (e.key === "2") {
+    setStarterTrack("charmander");
+  } else if (e.key === "3") {
+    setStarterTrack("squirtle");
+  } else if (e.key === "/" || e.key === "s") {
+    const searchInput = document.getElementById("global-search");
+    if (searchInput) {
+      e.preventDefault();
+      searchInput.focus();
+    }
+  } else if (e.key === "t" || e.key === "T") {
+    openDrawer("team");
+  } else if (e.key === "m" || e.key === "M") {
+    toggleMatrixModal();
+  } else if (e.key === "f" || e.key === "F") {
+    openDrawer("fusion");
+  } else if (e.key === "c" || e.key === "C") {
+    toggleCheatSheet();
+  }
+});
+
+document.addEventListener("click", function(e) {
+  if (activeSpeciesCombobox) {
+    const dropdown = document.getElementById("species-picker-dropdown");
+    if (dropdown && !dropdown.contains(e.target) && (!activeSpeciesCombobox.inputEl || !activeSpeciesCombobox.inputEl.contains(e.target))) {
+      closeSpeciesCombobox(true);
+    }
+  }
+});
+
+window.addEventListener("resize", function() {
+  if (activeSpeciesCombobox) repositionSpeciesDropdown();
+});
+
+async function bootApp() {
+  initTheme();
+  try {
+    APP_DATA = await decompressPayload(COMPRESSED_APP_DATA);
+    window.APP_DATA = APP_DATA;
+    unpackBaseStats(APP_DATA);
+    initCustomTeam();
+    renderSidebar();
+    selectChapter(0);
+  } catch (err) {
+    console.error("Critical decompression error:", err);
+    const vp = document.getElementById("main-viewport");
+    if (vp) {
+      vp.innerHTML = `
+        <div style="padding: 3rem; text-align: center;">
+          <h2 style="color: var(--accent-red); margin-bottom: 1rem;">Failed to Decompress Walkthrough Data</h2>
+          <p style="color: var(--text-secondary);">${err.message}</p>
+        </div>
+      `;
+    }
+  }
+}
+
+bootApp();
+</script>
+</body>
+</html>

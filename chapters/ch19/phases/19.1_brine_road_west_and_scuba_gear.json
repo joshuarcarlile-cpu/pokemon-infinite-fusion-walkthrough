@@ -1,0 +1,83 @@
+{
+  "name": "Brine Road West & Scuba Gear",
+  "summary": "Surf west from Kindle Road across the rolling ocean waters of Brine Road West towards Boon Island. Meet the deep-sea researcher near the trench who gives you the Scuba Gear, the essential HM replacement tool for Dive that lets you submerge into underwater chasms without teaching Dive to any party member. Gather valuable coastal treasures including a Sun Stone, a Nugget, and hidden Heart Scales nestled in the coral shallows.",
+  "items": [
+    {
+      "name": "Scuba Gear",
+      "method": "Given by the diver floating near the deep ocean trench on Brine Road West",
+      "type": "HM Replacement"
+    },
+    {
+      "name": "Sun Stone",
+      "method": "On a small sandy islet in the southwest waters",
+      "type": "Evolution Item"
+    },
+    {
+      "name": "Nugget",
+      "method": "Hidden on the coral reef north of the trench",
+      "type": "Valuable"
+    },
+    {
+      "name": "Heart Scale",
+      "method": "Hidden in the shallow tide pool near the western bend",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Heart Scale",
+      "method": "Hidden in the sandbar south of the shipwreck perimeter",
+      "type": "Hold Item"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Swimmer Reece",
+      "title": "Swimmer",
+      "reward": "P1,120",
+      "pokemon": [
+        {
+          "species": "Sharpedo",
+          "level": 55,
+          "types": ["Water", "Dark"]
+        },
+        {
+          "species": "Mantine",
+          "level": 56,
+          "types": ["Water", "Flying"]
+        }
+      ]
+    },
+    {
+      "name": "Fisherman Barny",
+      "title": "Fisherman",
+      "reward": "P1,980",
+      "pokemon": [
+        {
+          "species": "Lanturn",
+          "level": 56,
+          "types": ["Water", "Electric"]
+        },
+        {
+          "species": "Wailmer",
+          "level": 57,
+          "types": ["Water"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Surf": [
+      { "species": "Tentacool", "levels": "20-40", "rate": "15%" },
+      { "species": "Horsea", "levels": "25-30", "rate": "30%" },
+      { "species": "Corsola", "levels": "40-45", "rate": "20%" },
+      { "species": "Mantine", "levels": "50", "rate": "5%" },
+      { "species": "Bruxish", "levels": "35-45", "rate": "10%" },
+      { "species": "Luvdisc", "levels": "25-30", "rate": "20%" }
+    ],
+    "Super Rod": [
+      { "species": "Shellder", "levels": "40", "rate": "30%" },
+      { "species": "Chinchou", "levels": "40", "rate": "60%" },
+      { "species": "Lanturn", "levels": "40", "rate": "3%" },
+      { "species": "Luvdisc", "levels": "40", "rate": "7%" }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Lavender Town & Tower Recon",
+  "summary": "Emerging from the southern exit of Rock Tunnel into the eerie tranquility of Lavender Town. Visit the Volunteer Pokémon House to learn that elder Mr. Fuji has gone missing inside Pokémon Tower. The upper floors of the tower are veiled in unidentifiable ghosts that require the Silph Scope from Celadon City.",
+  "items": [
+    {
+      "name": "Moon Stone",
+      "method": "Behind the Pokémon Tower entrance in the small fenced alcove",
+      "type": "Evolution Stone"
+    },
+    {
+      "name": "Sun Stone",
+      "method": "Inside the Volunteer Pokémon House on the lower table",
+      "type": "Evolution Stone"
+    },
+    {
+      "name": "TM41 Torment",
+      "method": "Given by the girl outside the Name Rater's house",
+      "type": "TM"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Rival Blue",
+      "team": [
+        {
+          "species": "Pidgeotto",
+          "level": 25,
+          "types": ["Normal", "Flying"]
+        },
+        {
+          "species": "Gyarados",
+          "level": 23,
+          "types": ["Water", "Flying"]
+        },
+        {
+          "species": "Growlithe",
+          "level": 22,
+          "types": ["Fire"]
+        },
+        {
+          "species": "Kadabra",
+          "level": 22,
+          "types": ["Psychic"]
+        },
+        {
+          "species": "Ivysaur",
+          "level": 25,
+          "types": ["Grass", "Poison"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Grass (Route 10 South)": [
+      {"dex_id": "100", "name": "Voltorb", "types": ["Electric"], "levels": "15-18", "rates": "25% All"},
+      {"dex_id": "081", "name": "Magnemite", "types": ["Electric", "Steel"], "levels": "15-18", "rates": "20% All"},
+      {"dex_id": "021", "name": "Spearow", "types": ["Normal", "Flying"], "levels": "15-18", "rates": "20% Day / Morning"},
+      {"dex_id": "023", "name": "Ekans", "types": ["Poison"], "levels": "15-18", "rates": "20% All"}
+    ]
+  }
+}

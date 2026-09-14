@@ -1,0 +1,128 @@
+{
+  "starter": "Charmander",
+  "name": "Team Charmander: Hyper-Offense & Seismic Supremacy",
+  "archetype": "Intimidate Water pivots, 4x Grass and Ice artillery, and STAB Earthquake pressure.",
+  "gym_duel_core": [1, 2, 4, 5, 6],
+  "gym_duel_rationale": "Giovanni relies on heavy physical Ground and Fighting bruisers. When challenged, select your 5 designated Pokémon: Charizard/Venusaur (Ground resistance and 4x Grass STAB to wipe out Rhyperior/Lapras), Gyarados/Nidoking (Intimidate softens incoming hits while Aqua Tail crushes Golem/Machamp), Primeape/Sandslash (devastating dual-STAB Earthquake and Close Combat to shatter Rhydon/Snorlax), Snorlax (unshakable 160 HP normal tank that absorbs hits effortlessly), and Lapras (Ice Beam obliterates Giovanni's Ground hybrids while Water Absorb absorbs Surf).",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Charizard/Venusaur",
+      "types": ["Fire", "Grass"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 54,
+      "ability": "Blaze",
+      "held_item": "Charcoal",
+      "role": "Solar Sweeper & Ground Wall",
+      "current_reached_moveset": [
+        "Flamethrower",
+        "Petal Dance",
+        "Sleep Powder",
+        "Air Slash"
+      ],
+      "progression_notes": "530 BST Fire/Grass powerhouse. Resists Fighting and takes neutral from Ground. Neutralizes Rhyperior/Lapras with 4x super-effective Petal Dance and immobilizes threats with Sleep Powder."
+    },
+    {
+      "slot": 2,
+      "species": "Gyarados/Nidoking",
+      "types": ["Water", "Ground"],
+      "status": "Active in Party (Retained from Ch 7)",
+      "current_level": 53,
+      "ability": "Intimidate",
+      "held_item": "Mystic Water",
+      "role": "Intimidate Water Wallbreaker",
+      "current_reached_moveset": [
+        "Aqua Tail",
+        "Earth Power",
+        "Dragon Dance",
+        "Crunch"
+      ],
+      "progression_notes": "515 BST Water/Ground bruiser. Intimidate neutralizes Giovanni's heavy physical hitters on switch-in. STAB Aqua Tail washes out Golem/Machamp and Electabuzz/Dugtrio."
+    },
+    {
+      "slot": 3,
+      "species": "Alakazam/Raichu",
+      "types": ["Psychic", "Electric"],
+      "status": "Active in Party (Retained from Ch 7)",
+      "current_level": 53,
+      "ability": "Synchronize",
+      "held_item": "Twisted Spoon",
+      "role": "Special Cannon & Speed Sweeper",
+      "current_reached_moveset": [
+        "Psychic",
+        "Discharge",
+        "Calm Mind",
+        "Recover"
+      ],
+      "progression_notes": "505 BST hyper-fast special sweeper. Outspeeds Giovanni's entire roster and delivers lethal STAB Psychic hits to Primeape/Nidoking and Golem/Machamp."
+    },
+    {
+      "slot": 4,
+      "species": "Primeape/Sandslash",
+      "types": ["Fighting", "Ground"],
+      "status": "Active in Party (Retained from Ch 7)",
+      "current_level": 53,
+      "ability": "Vital Spirit",
+      "held_item": "Soft Sand",
+      "role": "Dual-STAB Ground/Fighting Sweeper",
+      "current_reached_moveset": [
+        "Earthquake",
+        "Close Combat",
+        "Crush Claw",
+        "Cross Chop"
+      ],
+      "progression_notes": "472 BST physical sweeper. Vital Spirit prevents Rhyperior/Lapras from sleeping it with Sing. STAB Earthquake and Close Combat shatter Giovanni's Rhydon/Snorlax ace."
+    },
+    {
+      "slot": 5,
+      "species": "Snorlax",
+      "types": ["Normal"],
+      "status": "Active in Party (Retained from Ch 7)",
+      "current_level": 53,
+      "ability": "Thick Fat",
+      "held_item": "Leftovers",
+      "role": "Thick Fat Normal Sponge",
+      "current_reached_moveset": [
+        "Body Slam",
+        "Rest",
+        "Sleep Talk",
+        "Heavy Slam"
+      ],
+      "progression_notes": "Colossal 160 HP normal sponge. Absorbs heavy physical punishment, stalls Sandstorm turns with Rest + Sleep Talk, and inflicts paralysis with Body Slam."
+    },
+    {
+      "slot": 6,
+      "species": "Lapras",
+      "types": ["Water", "Ice"],
+      "status": "Active in Party (Retained from Ch 7)",
+      "current_level": 52,
+      "ability": "Water Absorb",
+      "held_item": "NeverMeltIce",
+      "role": "Ice Artillery & Water Pivot",
+      "current_reached_moveset": [
+        "Ice Beam",
+        "Hydro Pump",
+        "Body Slam",
+        "Confuse Ray"
+      ],
+      "progression_notes": "535 BST Water/Ice artillery. Water Absorb completely absorbs incoming Surf attacks, while STAB Ice Beam freezes Giovanni's Ground and Flying threats."
+    }
+  ],
+  "flex_bench": [
+    {
+      "species": "Pidgeot",
+      "role": "Ground-Immune Aerial Scout",
+      "rationale": "High-Speed Flying scout providing Tailwind team speed doubling."
+    },
+    {
+      "species": "Weezing",
+      "role": "Levitate Physical Wall",
+      "rationale": "Levitate provides total Ground immunity while Sludge Bomb poisons opposing walls."
+    },
+    {
+      "species": "Hitmonchan",
+      "role": "Iron Fist Elemental Puncher",
+      "rationale": "Versatile Fighting coverage with Fire Punch, Ice Punch, and Thunder Punch."
+    }
+  ]
+}

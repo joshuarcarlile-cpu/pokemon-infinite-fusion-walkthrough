@@ -1,0 +1,25 @@
+{
+  "name": "Flooded Azalea Town & Eusine Duel",
+  "summary": "Exit Ilex Forest into Azalea Town to discover an environmental crisis: surging floodwaters have inundated the settlement, partially submerging buildings and completely blocking Route 33 to the east. Defeat mystical seeker Eusine beside the flooded Slowpoke Well, then meet with master craftsman Kurt in his elevated northwest cottage to receive HM06 Dive to plunge into the well's subterranean drainage shafts.",
+  "items": [
+    {
+      "name": "HM06 Dive",
+      "method": "Gift from Kurt in his house after defeating Eusine beside the well",
+      "type": "Hidden Machine"
+    },
+    {
+      "name": "Fresh Water",
+      "method": "Received from the greeter standing near the entrance of Azalea Gym",
+      "type": "Drink"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Mystical Man Eusine",
+      "team": [
+        {"species": "Ditto/Meowth", "level": 49, "types": ["Normal"]}
+      ]
+    }
+  ],
+  "encounters": {}
+}

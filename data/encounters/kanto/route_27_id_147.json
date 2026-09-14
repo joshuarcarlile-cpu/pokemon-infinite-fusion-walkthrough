@@ -1,0 +1,237 @@
+{
+  "location": "Route 27 (ID 147)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "024",
+        "name": "Arbok",
+        "type1": "Poison",
+        "type2": "",
+        "levels": "33",
+        "catch_rate": "90",
+        "rates": [
+          "5%",
+          "5%",
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "078",
+        "name": "Rapidash",
+        "type1": "Fire",
+        "type2": "",
+        "levels": "40",
+        "catch_rate": "60",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "084",
+        "name": "Doduo",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "33-36",
+        "catch_rate": "190",
+        "rates": [
+          "35%",
+          "35%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "085",
+        "name": "Dodrio",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "35",
+        "catch_rate": "45",
+        "rates": [
+          "10%",
+          "10%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "195",
+        "name": "Quagsire",
+        "type1": "Water",
+        "type2": "Ground",
+        "levels": "34-36",
+        "catch_rate": "90",
+        "rates": [
+          "-",
+          "-",
+          "45%"
+        ]
+      },
+      {
+        "dex_id": "203",
+        "name": "Girafarig",
+        "type1": "Normal",
+        "type2": "Psychic",
+        "levels": "38",
+        "catch_rate": "60",
+        "rates": [
+          "5%",
+          "5%",
+          "-"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "dex_id": "072",
+        "name": "Tentacool",
+        "type1": "Water",
+        "type2": "Poison",
+        "levels": "25-35",
+        "catch_rate": "190",
+        "rates": [
+          "90%"
+        ]
+      },
+      {
+        "dex_id": "073",
+        "name": "Tentacruel",
+        "type1": "Water",
+        "type2": "Poison",
+        "levels": "35-40",
+        "catch_rate": "60",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "dex_id": "072",
+        "name": "Tentacool",
+        "type1": "Water",
+        "type2": "Poison",
+        "levels": "10",
+        "catch_rate": "190",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "10",
+        "catch_rate": "255",
+        "rates": [
+          "85%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "dex_id": "072",
+        "name": "Tentacool",
+        "type1": "Water",
+        "type2": "Poison",
+        "levels": "20",
+        "catch_rate": "190",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "090",
+        "name": "Shellder",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "190",
+        "rates": [
+          "3%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "255",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "dex_id": "170",
+        "name": "Chinchou",
+        "type1": "Water",
+        "type2": "Electric",
+        "levels": "20",
+        "catch_rate": "190",
+        "rates": [
+          "7%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "dex_id": "073",
+        "name": "Tentacruel",
+        "type1": "Water",
+        "type2": "Poison",
+        "levels": "40",
+        "catch_rate": "60",
+        "rates": [
+          "7%"
+        ]
+      },
+      {
+        "dex_id": "090",
+        "name": "Shellder",
+        "type1": "Water",
+        "type2": "",
+        "levels": "40",
+        "catch_rate": "190",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "170",
+        "name": "Chinchou",
+        "type1": "Water",
+        "type2": "Electric",
+        "levels": "40",
+        "catch_rate": "190",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "dex_id": "171",
+        "name": "Lanturn",
+        "type1": "Water",
+        "type2": "Electric",
+        "levels": "40",
+        "catch_rate": "75",
+        "rates": [
+          "3%"
+        ]
+      }
+    ],
+    "Pok\u00e9 Radar": [
+      {
+        "dex_id": "310",
+        "name": "Absol",
+        "type1": "Dark",
+        "type2": "",
+        "levels": "30-35",
+        "catch_rate": "30",
+        "rates": [
+          "50% <small>([[Pok\u00e9 Radar#How_it_works",
+          "long rustle]])</small>"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Chrono Island Meadow & Market",
+  "summary": "Navigate south through the Water Labyrinth to land at Chrono Island (Five Island), a quiet settlement bordering an expansive wildflower meadow. Visit the house directly south of the Pokémon Center to discover the archipelago's Heart Scale Merchant, who offers unlimited Heart Scales for $5,000 each. Search the swaying grass in Chrono Meadow to retrieve a Max Potion, and activate the Poké Radar to detect camouflaged wild Kecleon hiding among the flowers. Advance southeast toward the ominous industrial complex in the meadow.",
+  "items": [
+    {
+      "name": "Max Potion",
+      "method": "Lying on the ground among the wildflowers in Chrono Meadow",
+      "type": "Medicine"
+    },
+    {
+      "name": "Heart Scale",
+      "method": "Purchased from the merchant house south of the Pokémon Center ($5,000 each)",
+      "type": "Hold Item"
+    }
+  ],
+  "trainers": [],
+  "encounters": {
+    "Poké Radar": [
+      { "species": "Kecleon", "levels": "45-50", "rate": "50% (Long Rustle)" }
+    ],
+    "Grass": [
+      { "species": "Psyduck", "levels": "46-51", "rate": "10%" },
+      { "species": "Slowpoke", "levels": "46-51", "rate": "10%" },
+      { "species": "Furret", "levels": "55-59", "rate": "30%" },
+      { "species": "Skiploom", "levels": "51-54", "rate": "15%" },
+      { "species": "Dunsparce", "levels": "40-45", "rate": "15%" },
+      { "species": "Absol", "levels": "50", "rate": "5%" },
+      { "species": "Oricorio", "levels": "51-54", "rate": "15%" }
+    ]
+  }
+}

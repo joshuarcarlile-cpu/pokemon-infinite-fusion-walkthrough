@@ -1,0 +1,133 @@
+{
+  "starter": "Charmander",
+  "name": "Team Charmander: Hyper-Offense & Pyrotechnic Dominance",
+  "archetype": "Special Fire/Psychic starter sweeper, Ground physical breakers, and Intimidate aerial control.",
+  "gym_duel_core": [1, 2, 3, 4],
+  "gym_duel_rationale": "Koga enforces a strict 4v4 duel. Lead with Charizard/Kadabra (457 BST Fire/Psychic with 112 SpA and 103 Spe; incinerates Beedrill/Scyther with STAB Flamethrower and destroys Venomoth/Grimer with STAB Psychic). Back with Primeape/Sandslash (457 BST breaker whose Vital Spirit ignores sleep while STAB Magnitude and Close Combat punish grounded Poison foes), Gyarados/Fearow (495 BST Water/Flying intimidator that neuters physical attackers upon entry while packing STAB Drill Peck and Ice Fang), and Dugtrio/Arbok (422 BST Ground/Poison trapper whose natural 100 BP Earthquake and priority Sucker Punch quickly remove Magnemite/Koffing and check Chansey/Muk).",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Charizard/Kadabra",
+      "types": ["Fire", "Psychic"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 42,
+      "ability": "Blaze",
+      "held_item": "Charcoal",
+      "role": "Apex Special Sweeper & Gym Duelist",
+      "current_reached_moveset": [
+        "Flamethrower",
+        "Psychic",
+        "Air Slash",
+        "Recover"
+      ],
+      "progression_notes": "457 BST with 112 SpA and 103 Speed. Obliterates Koga's Bug and Poison typings with STAB Flamethrower and Psychic while possessing instant Recover sustain."
+    },
+    {
+      "slot": 2,
+      "species": "Primeape/Sandslash",
+      "types": ["Fighting", "Ground"],
+      "status": "Active in Party (Retained from Ch 4)",
+      "current_level": 41,
+      "ability": "Vital Spirit",
+      "held_item": "Soft Sand",
+      "role": "Physical Breaker & Gym Duelist",
+      "current_reached_moveset": [
+        "Close Combat",
+        "Magnitude",
+        "Slash",
+        "Swords Dance"
+      ],
+      "progression_notes": "457 BST physical fortress with 101 Attack and 93 Defense. Vital Spirit completely immunizes it against sleep powders while STAB Close Combat and Magnitude hit hard."
+    },
+    {
+      "slot": 3,
+      "species": "Gyarados/Fearow",
+      "types": ["Water", "Flying"],
+      "status": "Active in Party (Retained from Ch 4)",
+      "current_level": 41,
+      "ability": "Intimidate",
+      "held_item": "Never-Melt Ice",
+      "role": "Intimidate Pivot & Gym Duelist",
+      "current_reached_moveset": [
+        "Ice Fang",
+        "Drill Peck",
+        "Aqua Tail",
+        "Bite"
+      ],
+      "progression_notes": "495 BST with 101 Attack and 93 Speed. Intimidate cripples enemy physical attackers upon entry, while Drill Peck deals super-effective damage to Bug/Poison foes."
+    },
+    {
+      "slot": 4,
+      "species": "Dugtrio/Arbok",
+      "types": ["Ground", "Poison"],
+      "status": "Active in Party (Retained from Ch 4)",
+      "current_level": 41,
+      "ability": "Arena Trap",
+      "held_item": "Black Sludge",
+      "role": "High-Velocity Trapper & Gym Duelist",
+      "current_reached_moveset": [
+        "Earthquake",
+        "Crunch",
+        "Ice Fang",
+        "Sucker Punch"
+      ],
+      "progression_notes": "422 BST with 96 Attack and 93 Speed. Arena Trap prevents escapes, while natural 100 BP Earthquake and priority Sucker Punch eliminate key targets."
+    },
+    {
+      "slot": 5,
+      "species": "Jolteon/Houndour",
+      "types": ["Electric", "Fire"],
+      "status": "Active in Party (Retained from Ch 4)",
+      "current_level": 40,
+      "ability": "Volt Absorb",
+      "held_item": "Magnet",
+      "role": "Fast Dual-Elemental Special Cannon",
+      "current_reached_moveset": [
+        "Discharge",
+        "Fire Fang",
+        "Thunder Wave",
+        "Quick Attack"
+      ],
+      "progression_notes": "425 BST with 100 SpA and Volt Absorb electric immunity. High speed Electric/Fire coverage sweeps through Water routes and trainers."
+    }
+  ],
+  "flex_bench": [
+    {
+      "slot": "B1",
+      "species": "Bellsprout/Butterfree",
+      "types": ["Grass", "Flying"],
+      "current_level": 38,
+      "ability": "Compound Eyes",
+      "held_item": "Silver Powder",
+      "role": "97.5% Accuracy Sleep Catcher",
+      "why_use": "Retained for capturing rare Safari Zone targets with Compound Eyes boosted 97.5% accurate Sleep Powder."
+    },
+    {
+      "slot": "B2",
+      "species": "Clefairy/Zubat",
+      "types": ["Fairy", "Flying"],
+      "current_level": 38,
+      "ability": "Magic Guard",
+      "held_item": "Silk Scarf",
+      "role": "Magic Guard Hazard Pivot",
+      "why_use": "Magic Guard completely prevents indirect damage, entry hazard chips, and Toxic poison ticks."
+    }
+  ],
+  "fusion_lifecycle": {
+    "active_fusions": [
+      "Charizard/Kadabra (457 BST Fire/Psychic with 112 SpA, 103 Spe, and Recover)",
+      "Primeape/Sandslash (457 BST Vital Spirit sleep-immune physical breaker)",
+      "Gyarados/Fearow (495 BST Water/Flying intimidator with Ice Fang and Drill Peck)",
+      "Dugtrio/Arbok (422 BST Ground/Poison trapper with Earthquake and Sucker Punch)",
+      "Jolteon/Houndour (425 BST Electric/Fire dual cannon with Volt Absorb)"
+    ],
+    "unfuse_recommendations": [
+      "1. Maintain current party fusions; the lineup holds ideal Ground and Psychic coverage against Koga's Poison Gym.",
+      "2. When Linking Cords are obtained from Hotel Quests, unfuse Charizard/Kadabra ($300 at any Mart) to evolve Kadabra into Alakazam for maximum 135 SpA before re-fusing."
+    ],
+    "upcoming_fusions": [
+      "Charizard/Alakazam (Endgame Fire/Psychic titan with Linking Cord)",
+      "Gyarados/Tyranitar (Physical juggernaut)"
+    ]
+  }
+}

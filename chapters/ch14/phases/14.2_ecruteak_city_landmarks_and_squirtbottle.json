@@ -1,0 +1,33 @@
+{
+  "name": "Ecruteak City Landmarks & The Squirtbottle",
+  "summary": "Arrive in historic Ecruteak City, Johto's ancient cultural capital. Meet the friendly Pokémon Ranger inside the northwest cottage to obtain the Squirtbottle key item, allowing you to clear the Sudowoodo roadblock back on Route 36. Visit the Ecruteak Hotel where a connoisseur gifts you an XXX Sp. Atk 3 upon displaying a fully-evolved Ghost-type Pokémon. Consult the elderly seer in the northeastern estate to assess your current Karma tier, purchase Ghost and Dark Gems at the local Mart, and retrieve DNA Splicers resting outside the Bell Tower gates.",
+  "items": [
+    {
+      "name": "Squirtbottle",
+      "method": "Gifted by the Pokémon Ranger in the northwest residential cottage",
+      "type": "Key Item"
+    },
+    {
+      "name": "XXX Sp. Atk 3",
+      "method": "Gifted by the hotel guest after showing her a fully-evolved Ghost-type Pokémon",
+      "type": "Battle Item"
+    },
+    {
+      "name": "DNA Splicers",
+      "method": "Found on the grassy grounds directly beside the Bell Tower entrance gate",
+      "type": "Tool"
+    },
+    {
+      "name": "Ghost Gem",
+      "method": "Purchased at the Ecruteak City Poké Mart for 200 Pokédollars",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Dark Gem",
+      "method": "Purchased at the Ecruteak City Poké Mart for 200 Pokédollars",
+      "type": "Hold Item"
+    }
+  ],
+  "trainers": [],
+  "encounters": {}
+}

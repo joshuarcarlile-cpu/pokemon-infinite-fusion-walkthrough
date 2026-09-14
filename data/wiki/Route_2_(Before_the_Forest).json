@@ -1,0 +1,34 @@
+{
+  "title": "Route_2_(Before_the_Forest)",
+  "url": "https://infinitefusion.fandom.com/wiki/Route_2_(Before_the_Forest)",
+  "lead_summary": "Route 2 connects Viridian City in the south to Route 2 (After the Forest) in the north, it also contains the gate to Viridian Forest.",
+  "missable_warnings": [],
+  "items": [
+    {
+      "internal_id": "ETHER",
+      "quantity": "",
+      "name": "Ether",
+      "location_details": "Next to the elderly man's house."
+    },
+    {
+      "internal_id": "LEMONADE",
+      "quantity": "",
+      "name": "Lemonade",
+      "location_details": "Given by the elderly man after completing the Lumberjack Quest."
+    },
+    {
+      "internal_id": "MACHETE",
+      "quantity": "",
+      "name": "Shears",
+      "location_details": "Given by the elderly man after completing the Lumberjack Quest."
+    }
+  ],
+  "sections": [
+    "Items",
+    "Pokémon",
+    "Points of Interest",
+    "Fury Cutter Move Tutor",
+    "Bug Bite Move Tutor"
+  ],
+  "raw_wikitext": "{{GlobalToggles}}\n{{InfoboxLocation\n|region=Kanto\n|location_image=Route02.png\n|connection_1_direction=north\n|connection_1_location=Viridian Forest\n|connection_2_direction=northeast\n|connection_2_location=Route 2 (After the Forest)\n|connection_2_restrictions=%cut%\n|connection_3_direction=east\n|connection_3_location=Hidden Forest\n|connection_3_restrictions=%cut%\n|connection_4_direction=south\n|connection_4_location=Viridian City\n|map_image=Route 2 Map.png\n}}\n\n'''Route 2''' connects [[Viridian City]] in the south to [[Route 2 (After the Forest)]] in the north, it also contains the gate to [[Viridian Forest]].\n\n== Items==\n{{ItemTable/Header|Normal}}\n{{ItemTable/Data|ETHER||Ether|Next to the elderly man's house.|Ether_Route02.png}}\n{{ItemTable/Data|LEMONADE||Lemonade|Given by the elderly man after completing the Lumberjack Quest.|Lemonade_Route02.png}}\n{{ItemTable/Data|MACHETE||Shears|Given by the elderly man after completing the Lumberjack Quest.|Shears_Route02.png}}\n{{ItemTable/Footer|Normal}}\n\n==Pokémon==\n<!-----------------------------------!>\n<!-- CLASSIC & EXPERT MODE POKÉMON --!>\n<!------------------------------------>\n<div class=\"classic-mode expert-mode\">\n{{EncounterTable/Header/Time}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|010|Caterpie|Bug||4-5|255|5%|10%|5%}}\n{{EncounterTable/Data|013|Weedle|Bug|Poison|4-5|255|5%|5%|10%}}\n{{EncounterTable/Data|016|Pidgey|Normal|Flying|2-3|255|45%|40%|-}}\n{{EncounterTable/Data|019|Rattata|Normal||2-5|255|45%|35%|45%}}\n{{EncounterTable/Data|161|Sentret|Normal||2-5|255|-|10%|-}}\n{{EncounterTable/Data|163|Hoothoot|Normal|Flying|2-3|255|-|-|40%}}\n{{EncounterTable/Section|Poké Radar}}\n{{EncounterTable/Data|417|Fletchling|Normal|Flying|2-5|255|50% <small>([[Poké Radar#How_it_works|long rustle]])</small>}}\n{{EncounterTable/Footer/Time}}\n</div>\n<!------------------------!>\n<!-- REMIX MODE POKÉMON --!>\n<!------------------------->\n<div class=\"remix-mode\">\n{{EncounterTable/Header/Time}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|161|Sentret|Normal||2-5|255|-|-|10%}}\n{{EncounterTable/Data|163|Hoothoot|Normal|Flying|2-3|255|-|-|30%}}\n{{EncounterTable/Data|165|Ledyba|Bug|Flying|4-5|255|10%}}\n{{EncounterTable/Data|167|Spinarak|Bug|Poison|<abbr title{{=}}\"Morning: 2-5&#10;Day: 2-5&#10;Night: 4-5\">2-5</abbr>|255|10%}}\n{{EncounterTable/Data|285|Ralts|Psychic|Fairy|4-5|235|15%|15%|20%}}\n{{EncounterTable/Data|388|Shinx|Electric||2-4|235|25%|25%|-}}\n{{EncounterTable/Data|417|Fletchling|Normal|Flying|2-3|255|15%|-|-}}\n{{EncounterTable/Data|438|Phantump|Grass|Ghost|2-5|120|-|-|10%}}\n{{EncounterTable/Data|442|Swablu|Normal|Flying|2-5|255|10%|10%|-}}\n{{EncounterTable/Data|451|Stufful|Normal|Fighting|2-5|140|15%|15%|-}}\n{{EncounterTable/Data|489|Pumpkaboo|Ghost|Grass|2-5|120|-|-|10%}}\n{{EncounterTable/Data|495|Lotad|Water|Grass|2-3|255|-|15%|-}}\n{{EncounterTable/Section|Poké Radar}}\n{{EncounterTable/Data|417|Fletchling|Normal|Flying|2-5|255|50% <small>([[Poké Radar#How_it_works|long rustle]])</small>}}\n{{EncounterTable/Footer/Time}}\n</div>\n\n== Points of Interest ==\n=== Fury Cutter Move Tutor ===\nIn the Gate leading to [[Viridian Forest]], a female Bug Catcher teaches the move [[bulbapedia:Fury Cutter (move)|Fury Cutter]] for {{P$}}200.\n\n=== Bug Bite Move Tutor ===\nIn the Gate leading to [[Route 2 (After the Forest)]], a male Bug Catcher teaches the move [[bulbapedia:Bug Bite (move)|Bug Bite]] for {{P$}}2,000.\n\n[[fr:Route 2 (Avant Forêt de Jade)]]\n[[Category:Locations]]\n[[Category:Kanto]]"
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Sprout Tower Monk Stealth Trial",
+  "summary": "Arrive in historic Violet City and ascend the sacred Sprout Tower pagoda on the northern perimeter. Navigate a multi-floor stealth obstacle course across 2F to 6F: evade the vision cones of pacing monks, dodge wandering Bellsprouts, leap over floor pitfalls past dashing Weepinbells, and thread through a circular perimeter of Victreebels. Reach the top-floor altar to claim the vital Golbat Boot key item for Ice Mountain climbing, but leave the four sacred Bellsprout Statues undisturbed to avoid a severe -5 Karma penalty per statue.",
+  "items": [
+    {
+      "name": "Golbat Boot",
+      "method": "Crucial key item resting on the table at the back of Sprout Tower 6F, enabling ice climbing",
+      "type": "Key Item"
+    },
+    {
+      "name": "Sun Stone",
+      "method": "Found atop the tranquil waterfall pool east of the Sprout Tower entrance",
+      "type": "Evolution Stone"
+    },
+    {
+      "name": "Fresh Water",
+      "method": "Handed out freely by the energetic greeter inside Violet Gym's foyer",
+      "type": "Drink"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Sage Nico",
+      "team": [
+        {"species": "Bellsprout/Hoothoot", "level": 50, "types": ["Grass", "Normal"]},
+        {"species": "Weepinbell", "level": 52, "types": ["Grass", "Poison"]}
+      ]
+    },
+    {
+      "name": "Sage Troy",
+      "team": [
+        {"species": "Gastly/Bellsprout", "level": 51, "types": ["Ghost", "Grass"]},
+        {"species": "Haunter", "level": 53, "types": ["Ghost", "Poison"]}
+      ]
+    }
+  ],
+  "encounters": {}
+}

@@ -1,0 +1,577 @@
+{
+  "chapter_id": "ch21",
+  "title": "Act 3 - Chapter 4: Water Labyrinth, Chrono Island & Rocket Warehouse",
+  "act": 3,
+  "hard_mode_level_cap": 80,
+  "gym_duel_limit": 6,
+  "routes_covered": [
+    "Water Labyrinth",
+    "Resort Gorgeous",
+    "Chrono Island",
+    "Rocket Warehouse"
+  ],
+  "vanilla_divergence_alerts": [
+    "HM Slaves: 100% eliminated by 9 reusable Key Item tools. Do NOT instruct players to teach field moves to party members.",
+    "Friendship: Eliminated. All friendship evolutions use static level thresholds (e.g. Baby Pokémon evolve at Lv. 15).",
+    "Trade Evolutions: Evolve naturally at Level 40 OR via Linking Cord (not Level 37)."
+  ],
+  "critical_missables": [],
+  "hotel_milestone_target": {},
+  "active_and_ongoing_quests": [],
+  "boss_ground_truth": {},
+  "encounters_by_location": {
+    "Water Labyrinth (ID 594)": {
+      "Surf": [
+        {
+          "name": "Tentacool",
+          "dex_id": "072",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "5-40"
+        },
+        {
+          "name": "Tentacruel",
+          "dex_id": "073",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "35-40"
+        },
+        {
+          "name": "Corsola",
+          "dex_id": "222",
+          "types": [
+            "Water",
+            "Rock"
+          ],
+          "levels": "5-40"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Luvdisc",
+          "dex_id": "501",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Shellder",
+          "dex_id": "090",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Chinchou",
+          "dex_id": "170",
+          "types": [
+            "Water",
+            "Electric"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Luvdisc",
+          "dex_id": "501",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Shellder",
+          "dex_id": "090",
+          "types": [
+            "Water"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Chinchou",
+          "dex_id": "170",
+          "types": [
+            "Water",
+            "Electric"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Lanturn",
+          "dex_id": "171",
+          "types": [
+            "Water",
+            "Electric"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Luvdisc",
+          "dex_id": "501",
+          "types": [
+            "Water"
+          ],
+          "levels": "40"
+        }
+      ]
+    },
+    "Resort Gorgeous (ID 566)": {
+      "Surf": [
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "25-30"
+        },
+        {
+          "name": "Hoppip",
+          "dex_id": "187",
+          "types": [
+            "Grass",
+            "Flying"
+          ],
+          "levels": "20-40"
+        },
+        {
+          "name": "Corsola",
+          "dex_id": "222",
+          "types": [
+            "Water",
+            "Rock"
+          ],
+          "levels": "40-45"
+        },
+        {
+          "name": "Mantine",
+          "dex_id": "226",
+          "types": [
+            "Water",
+            "Flying"
+          ],
+          "levels": "50"
+        },
+        {
+          "name": "Bruxish",
+          "dex_id": "469",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "35-45"
+        },
+        {
+          "name": "Luvdisc",
+          "dex_id": "501",
+          "types": [
+            "Water"
+          ],
+          "levels": "25-30"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Luvdisc",
+          "dex_id": "501",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Shellder",
+          "dex_id": "090",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Chinchou",
+          "dex_id": "170",
+          "types": [
+            "Water",
+            "Electric"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Luvdisc",
+          "dex_id": "501",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Shellder",
+          "dex_id": "090",
+          "types": [
+            "Water"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Chinchou",
+          "dex_id": "170",
+          "types": [
+            "Water",
+            "Electric"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Lanturn",
+          "dex_id": "171",
+          "types": [
+            "Water",
+            "Electric"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Luvdisc",
+          "dex_id": "501",
+          "types": [
+            "Water"
+          ],
+          "levels": "40"
+        }
+      ]
+    },
+    "Chrono Island (ID 603)": {
+      "Grass": [
+        {
+          "name": "Psyduck",
+          "dex_id": "054",
+          "types": [
+            "Water"
+          ],
+          "levels": "46-51"
+        },
+        {
+          "name": "Slowpoke",
+          "dex_id": "079",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "46-51"
+        },
+        {
+          "name": "Furret",
+          "dex_id": "162",
+          "types": [
+            "Normal"
+          ],
+          "levels": "55-59"
+        },
+        {
+          "name": "Skiploom",
+          "dex_id": "188",
+          "types": [
+            "Grass",
+            "Flying"
+          ],
+          "levels": "51-54"
+        },
+        {
+          "name": "Dunsparce",
+          "dex_id": "206",
+          "types": [
+            "Normal"
+          ],
+          "levels": "40-45"
+        },
+        {
+          "name": "Absol",
+          "dex_id": "310",
+          "types": [
+            "Dark"
+          ],
+          "levels": "50"
+        },
+        {
+          "name": "Oricorio",
+          "dex_id": "433",
+          "types": [
+            "Ghost",
+            "Flying"
+          ],
+          "levels": "51-54"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "25-30"
+        },
+        {
+          "name": "Hoppip",
+          "dex_id": "187",
+          "types": [
+            "Grass",
+            "Flying"
+          ],
+          "levels": "20-40"
+        },
+        {
+          "name": "Corsola",
+          "dex_id": "222",
+          "types": [
+            "Water",
+            "Rock"
+          ],
+          "levels": "40-45"
+        },
+        {
+          "name": "Mantine",
+          "dex_id": "226",
+          "types": [
+            "Water",
+            "Flying"
+          ],
+          "levels": "50"
+        },
+        {
+          "name": "Bruxish",
+          "dex_id": "469",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "35-45"
+        },
+        {
+          "name": "Luvdisc",
+          "dex_id": "501",
+          "types": [
+            "Water"
+          ],
+          "levels": "25-30"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Luvdisc",
+          "dex_id": "501",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Shellder",
+          "dex_id": "090",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Mareanie",
+          "dex_id": "454",
+          "types": [
+            "Poison",
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Luvdisc",
+          "dex_id": "501",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Shellder",
+          "dex_id": "090",
+          "types": [
+            "Water"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Mareanie",
+          "dex_id": "454",
+          "types": [
+            "Poison",
+            "Water"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Toxapex",
+          "dex_id": "455",
+          "types": [
+            "Poison",
+            "Water"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Luvdisc",
+          "dex_id": "501",
+          "types": [
+            "Water"
+          ],
+          "levels": "40"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Kecleon",
+          "dex_id": "290",
+          "types": [
+            "Normal"
+          ],
+          "levels": "45-50"
+        }
+      ]
+    }
+  },
+  "wiki_ground_truth": {
+    "Water Labyrinth": {
+      "canonical_slug": "Water_Labyrinth",
+      "lead_summary": "Water Labyrinth is a water route that connects Brine Road (East of the Old Shipwreck) to Resort Gorgeous and Chrono Island.\nThere is an underwater passage leading to the Submerged Temple.",
+      "items": [],
+      "missable_warnings": []
+    },
+    "Resort Gorgeous": {
+      "canonical_slug": "Resort_Gorgeous",
+      "lead_summary": "Resort Gorgeous is a location north of the Water Labyrinth in the Sevii Islands. This location originally appeared in Pokémon Fire Red and Leaf Green. \nSelphy, a wealthy Pokémon Trainer, permanently resides in the resort. She asks the player to show her a fusion between two Pokémon. The fusion she wants to see is random and it changes every in-game day. If the player shows her the fusion she requested, she will give the player a reward. \n<br />",
+      "items": [],
+      "missable_warnings": []
+    },
+    "Chrono Island": {
+      "canonical_slug": "Chrono_Island",
+      "lead_summary": "Chrono Island, also known as Five Island is a small town that can be accessed from the North by the Water Labyrinth.\nTeam Rocket recently establish a Rocket Warehouse within the island's meadow. After defeating them, the harbour's sailor will offer the player to follow Team Plasma's motorboat to P2 Laboratory.",
+      "items": [
+        {
+          "internal_id": "MAXPOTION",
+          "quantity": "",
+          "name": "Max Potion",
+          "location_details": "On the ground in the Meadow."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Rocket Warehouse": {
+      "canonical_slug": "Rocket_Warehouse",
+      "lead_summary": "Rocket Warehouse, also known as Team Rocket Warehouse, is one of the last refuge of Team Rocket, located in the meadow of Chrono Island.\nThere is a static encounter with a Klinklang in the back room.",
+      "items": [],
+      "missable_warnings": []
+    }
+  },
+  "location_items_and_statics": [
+    {
+      "type": "Static Encounter",
+      "pokemon": "Klinklang",
+      "level": "55",
+      "location": "Rocket Warehouse",
+      "notes": ""
+    }
+  ],
+  "authoring_guidance": {
+    "splicing_safety": "Explicitly state: HEAD species, BODY species, and WHICH ability to select at the DNA Splicer prompt.",
+    "gym_party_selection_rule": "Built-in 6v6 party limit! When challenged, the game prompts the player to choose which 6 Pokémon from their active party to bring into battle. No PC box deposits required.",
+    "stone_evolutions": "Advisory: Do NOT use evolution stones prematurely on stone-evolvers (e.g. Nidorino) before key level-up moves are learned.",
+    "undercover_informant_rocket": "Guide player to join Team Rocket for disguises/missions, BUT report crimes to police officer for +10 Karma and Diancie unlock!"
+  }
+}

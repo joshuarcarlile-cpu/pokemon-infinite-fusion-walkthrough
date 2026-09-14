@@ -1,0 +1,125 @@
+{
+  "location": "Route 5 (ID 12)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "016",
+        "name": "Pidgey",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "13-16",
+        "catch_rate": "255",
+        "rates": [
+          "35%",
+          "35%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "019",
+        "name": "Rattata",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "13-16",
+        "catch_rate": "255",
+        "rates": [
+          "-",
+          "-",
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "039",
+        "name": "Jigglypuff",
+        "type1": "Normal",
+        "type2": "Fairy",
+        "levels": "12",
+        "catch_rate": "170",
+        "rates": [
+          "-",
+          "10%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "041",
+        "name": "Zubat",
+        "type1": "Poison",
+        "type2": "Flying",
+        "levels": "13-16",
+        "catch_rate": "255",
+        "rates": [
+          "-",
+          "-",
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "043",
+        "name": "Oddish",
+        "type1": "Grass",
+        "type2": "Poison",
+        "levels": "13-16",
+        "catch_rate": "255",
+        "rates": [
+          "15%",
+          "15%",
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "052",
+        "name": "Meowth",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "10-16",
+        "catch_rate": "255",
+        "rates": [
+          "35%",
+          "20%",
+          "25%"
+        ]
+      },
+      {
+        "dex_id": "069",
+        "name": "Bellsprout",
+        "type1": "Grass",
+        "type2": "Poison",
+        "levels": "13-16",
+        "catch_rate": "255",
+        "rates": [
+          "15%",
+          "15%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "216",
+        "name": "Teddiursa",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "7",
+        "catch_rate": "120",
+        "rates": [
+          "-",
+          "5%",
+          "-"
+        ]
+      }
+    ],
+    "Pok\u00e9 Radar": [
+      {
+        "dex_id": "175",
+        "name": "Togepi",
+        "type1": "Fairy",
+        "type2": "",
+        "levels": "10",
+        "catch_rate": "190",
+        "rates": [
+          "50% <small>([[Pok\u00e9 Radar#How_it_works",
+          "long rustle]])</small>"
+        ]
+      }
+    ]
+  }
+}

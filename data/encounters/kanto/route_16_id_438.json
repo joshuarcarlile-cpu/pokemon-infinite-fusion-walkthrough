@@ -1,0 +1,136 @@
+{
+  "location": "Route 16 (ID 438)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "019",
+        "name": "Rattata",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "18-22",
+        "catch_rate": "255",
+        "rates": [
+          "25%",
+          "25%",
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "020",
+        "name": "Raticate",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "23-25",
+        "catch_rate": "127",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "021",
+        "name": "Spearow",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "20-22",
+        "catch_rate": "255",
+        "rates": [
+          "30%",
+          "30%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "041",
+        "name": "Zubat",
+        "type1": "Poison",
+        "type2": "Flying",
+        "levels": "20-22",
+        "catch_rate": "255",
+        "rates": [
+          "-",
+          "-",
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "052",
+        "name": "Meowth",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "18-22",
+        "catch_rate": "255",
+        "rates": [
+          "-",
+          "-",
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "053",
+        "name": "Persian",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "23-25",
+        "catch_rate": "90",
+        "rates": [
+          "-",
+          "-",
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "084",
+        "name": "Doduo",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "18-22",
+        "catch_rate": "190",
+        "rates": [
+          "35%",
+          "35%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "198",
+        "name": "Murkrow",
+        "type1": "Dark",
+        "type2": "Flying",
+        "levels": "22-24",
+        "catch_rate": "30",
+        "rates": [
+          "-",
+          "-",
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "218",
+        "name": "Slugma",
+        "type1": "Fire",
+        "type2": "",
+        "levels": "26",
+        "catch_rate": "190",
+        "rates": [
+          "5%",
+          "5%",
+          "-"
+        ]
+      }
+    ],
+    "Pok\u00e9 Radar": [
+      {
+        "dex_id": "177",
+        "name": "Natu",
+        "type1": "Psychic",
+        "type2": "Flying",
+        "levels": "22-25",
+        "catch_rate": "190",
+        "rates": [
+          "50% <small>([[Pok\u00e9 Radar#How_it_works",
+          "long rustle]])</small>"
+        ]
+      }
+    ]
+  }
+}

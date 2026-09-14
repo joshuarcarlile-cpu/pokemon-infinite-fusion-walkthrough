@@ -1,0 +1,128 @@
+{
+  "starter": "Bulbasaur",
+  "name": "Team Bulbasaur: Zephyr Grounding & Solar Overgrowth",
+  "archetype": "Sleep control, Intimidate attack reduction, and psychic anti-air coverage.",
+  "gym_duel_core": [1, 2, 3, 4, 5],
+  "gym_duel_rationale": "Falkner's 5v5 aerial battle requires precise counter-measures against Lightning Rod traps and Air Balloons: Venusaur/Charizard levels to Cap 63 to match Falkner's ace, using Sleep Powder to immediately pacify Ursaring/Pidgeot and melting Skarmory/Houndoom with Flamethrower; Gyarados/Arbok enters to trigger Intimidate, dropping Ursaring/Pidgeot's physical Attack while popping Skarmory/Houndoom's Air Balloon with Aqua Tail; Alakazam/Weezing cleanly dismantles Granbull/Combusken and Marowak/Dustox with STAB Psychic; Kingler/Primeape smashes Skarmory/Houndoom with super-effective Close Combat; and Snorlax sponges special hits with Rest and Leftovers.",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Venusaur/Charizard",
+      "types": ["Grass", "Fire"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 63,
+      "ability": "Overgrow",
+      "held_item": "Charcoal",
+      "role": "Status Controller & Fire Wallbreaker",
+      "current_reached_moveset": [
+        "Flamethrower",
+        "Petal Dance",
+        "Sleep Powder",
+        "Synthesis"
+      ],
+      "progression_notes": "530 BST starter hybrid elevated to Cap 63. STAB Flamethrower burns down Skarmory/Houndoom. Sleep Powder immediately shuts down Falkner's fast Ursaring/Pidgeot ace."
+    },
+    {
+      "slot": 2,
+      "species": "Gyarados/Arbok",
+      "types": ["Water", "Poison"],
+      "status": "Active in Party (Retained from Ch 11)",
+      "current_level": 62,
+      "ability": "Intimidate",
+      "held_item": "Mystic Water",
+      "role": "Intimidate Aerial Neutralizer",
+      "current_reached_moveset": [
+        "Aqua Tail",
+        "Crunch",
+        "Dragon Dance",
+        "Glare"
+      ],
+      "progression_notes": "513 BST Intimidate pivot. Cuts Ursaring/Pidgeot's 96 Attack on switch-in. Aqua Tail pops Skarmory/Houndoom's Air Balloon and washes away Marowak/Dustox."
+    },
+    {
+      "slot": 3,
+      "species": "Alakazam/Weezing",
+      "types": ["Psychic", "Poison"],
+      "status": "Active in Party (Retained from Ch 11)",
+      "current_level": 62,
+      "ability": "Levitate",
+      "held_item": "Twisted Spoon",
+      "role": "Levitate Special Wallbreaker",
+      "current_reached_moveset": [
+        "Psychic",
+        "Sludge Bomb",
+        "Recover",
+        "Calm Mind"
+      ],
+      "progression_notes": "495 BST special sweeper with 118 SpA. STAB Psychic effortlessly destroys Granbull/Combusken and Marowak/Dustox while Levitate provides Bone Rush immunity."
+    },
+    {
+      "slot": 4,
+      "species": "Kingler/Primeape",
+      "types": ["Water", "Fighting"],
+      "status": "Active in Party (Retained from Ch 11)",
+      "current_level": 62,
+      "ability": "Hyper Cutter",
+      "held_item": "Black Belt",
+      "role": "Physical Wallbreaker",
+      "current_reached_moveset": [
+        "Close Combat",
+        "Crabhammer",
+        "Cross Chop",
+        "Protect"
+      ],
+      "progression_notes": "500 BST physical titan. Close Combat exploits Skarmory/Houndoom's Fighting weakness, while Crabhammer washes away Marowak/Dustox."
+    },
+    {
+      "slot": 5,
+      "species": "Snorlax",
+      "types": ["Normal"],
+      "status": "Active in Party (Retained from Ch 11)",
+      "current_level": 62,
+      "ability": "Thick Fat",
+      "held_item": "Leftovers",
+      "role": "Thick Fat Normal Tank",
+      "current_reached_moveset": [
+        "Body Slam",
+        "Rest",
+        "Sleep Talk",
+        "Crunch"
+      ],
+      "progression_notes": "Colossal 160 HP tank. Absorbs stray Flying and Fire moves effortlessly, sustaining infinitely across long duels with Rest and Sleep Talk."
+    },
+    {
+      "slot": 6,
+      "species": "Pidgeot",
+      "types": ["Normal", "Flying"],
+      "status": "Active in Party (Retained from Ch 11)",
+      "current_level": 60,
+      "ability": "Keen Eye",
+      "held_item": "Sharp Beak",
+      "role": "Fast Aerial Scout",
+      "current_reached_moveset": [
+        "Air Slash",
+        "Roost",
+        "Tailwind",
+        "Quick Attack"
+      ],
+      "progression_notes": "High-Speed Flying scout. Immune to Ground moves and provides team-wide Tailwind speed doubles during overworld cave and route traversal."
+    }
+  ],
+  "flex_bench": [
+    {
+      "species": "Butterfree",
+      "role": "Compound Eyes Sleep Pivot",
+      "rationale": "97.5% accurate Sleep Powder and Quiver Dance setup against bulky route trainers."
+    },
+    {
+      "species": "Electabuzz",
+      "role": "Electric Speed Sweeper",
+      "rationale": "High-speed Electric coverage packing Discharge and Light Screen against opposing birds."
+    },
+    {
+      "species": "Hitmonlee",
+      "role": "Reckless Fighting Breaker",
+      "rationale": "High Jump Kick physical breaker capable of substituting into the active party for Fighting STAB."
+    }
+  ]
+}

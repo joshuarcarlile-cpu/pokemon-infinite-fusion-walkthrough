@@ -1,0 +1,235 @@
+{
+  "location": "Bond Bridge (ID 600)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "012",
+        "name": "Butterfree",
+        "type1": "Bug",
+        "type2": "Flying",
+        "levels": "50-55",
+        "catch_rate": "45",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "044",
+        "name": "Gloom",
+        "type1": "Grass",
+        "type2": "Poison",
+        "levels": "50-55",
+        "catch_rate": "120",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "070",
+        "name": "Weepinbell",
+        "type1": "Grass",
+        "type2": "Poison",
+        "levels": "50-55",
+        "catch_rate": "120",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "080",
+        "name": "Slowbro",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "55",
+        "catch_rate": "75",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "182",
+        "name": "Bellossom",
+        "type1": "Grass",
+        "type2": "",
+        "levels": "50-55",
+        "catch_rate": "45",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "190",
+        "name": "Aipom",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "45-50",
+        "catch_rate": "45",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "203",
+        "name": "Girafarig",
+        "type1": "Normal",
+        "type2": "Psychic",
+        "levels": "50",
+        "catch_rate": "60",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "254",
+        "name": "Ambipom",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "55",
+        "catch_rate": "45",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "431",
+        "name": "Oricorio",
+        "type1": "Electric",
+        "type2": "Flying",
+        "levels": "50-55",
+        "catch_rate": "45",
+        "rates": [
+          "15%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "dex_id": "072",
+        "name": "Tentacool",
+        "type1": "Water",
+        "type2": "Poison",
+        "levels": "5-40",
+        "catch_rate": "190",
+        "rates": [
+          "55%"
+        ]
+      },
+      {
+        "dex_id": "073",
+        "name": "Tentacruel",
+        "type1": "Water",
+        "type2": "Poison",
+        "levels": "35-40",
+        "catch_rate": "60",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "211",
+        "name": "Qwilfish",
+        "type1": "Water",
+        "type2": "Poison",
+        "levels": "35-45",
+        "catch_rate": "45",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "436",
+        "name": "Carvanha",
+        "type1": "Water",
+        "type2": "Dark",
+        "levels": "20-40",
+        "catch_rate": "225",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "dex_id": "116",
+        "name": "Horsea",
+        "type1": "Water",
+        "type2": "",
+        "levels": "10",
+        "catch_rate": "225",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "10",
+        "catch_rate": "255",
+        "rates": [
+          "95%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "dex_id": "117",
+        "name": "Seadra",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "75",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "255",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "211",
+        "name": "Qwilfish",
+        "type1": "Water",
+        "type2": "Poison",
+        "levels": "20",
+        "catch_rate": "45",
+        "rates": [
+          "40%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "dex_id": "116",
+        "name": "Horsea",
+        "type1": "Water",
+        "type2": "",
+        "levels": "40",
+        "catch_rate": "225",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "dex_id": "211",
+        "name": "Qwilfish",
+        "type1": "Water",
+        "type2": "Poison",
+        "levels": "40",
+        "catch_rate": "45",
+        "rates": [
+          "60%"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "starter": "Bulbasaur",
+  "name": "Team Bulbasaur: Sevii Tides Vanguard",
+  "archetype": "Sevii oceanic traversal & Chuck duel core — Sleep status control, Levitate Ground immunity, Intimidate physical dampening, Water absorption, and Fighting wallbreaking.",
+  "gym_duel_core": [1, 2, 3, 4, 5],
+  "gym_duel_rationale": "Chuck challenges the player to a 5 vs 5 duel under the Boon Island waterfall. Slots 1 through 5 form the designated battle squad: Alakazam/Weezing (Slot 5) carries Levitate to float above Earth Power and melts Chuck's Fighting core with STAB Psychic; Venusaur/Charizard (Slot 1) uses Sleep Powder to shut down Belly Drum setup and eliminates Kabutops/Machamp with STAB Petal Dance; Gyarados/Arbok (Slot 4) defangs physical sweepers with Intimidate and lands 100% accurate Glare paralysis; Lapras (Slot 2) walls water attacks with Water Absorb and provides Ice Beam coverage; and Kingler/Primeape (Slot 3) shatters Hitmonchan/Snorlax with STAB Close Combat. Snorlax rests in reserve as the route endurance tank.",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Venusaur/Charizard",
+      "types": ["Grass", "Fire"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 72,
+      "ability": "Overgrow",
+      "held_item": "Charcoal",
+      "role": "Starter Anchor & Status Control",
+      "current_reached_moveset": [
+        "Flamethrower",
+        "Petal Dance",
+        "Sleep Powder",
+        "Synthesis"
+      ],
+      "progression_notes": "530 BST starter hybrid at Cap 72. Sleep Powder disables Chuck's dangerous setup sweepers on switch-in. STAB Petal Dance obliterates Kabutops/Machamp, while Synthesis provides reliable recovery."
+    },
+    {
+      "slot": 2,
+      "species": "Lapras",
+      "types": ["Water", "Ice"],
+      "status": "Active in Party (Gym Duelist)",
+      "current_level": 71,
+      "ability": "Water Absorb",
+      "held_item": "Never-Melt Ice",
+      "role": "Ice Coverage & Water Sponge",
+      "current_reached_moveset": [
+        "Ice Beam",
+        "Hydro Pump",
+        "Confuse Ray",
+        "Body Slam"
+      ],
+      "progression_notes": "535 BST bulky fortress. Water Absorb completely negates opposing water moves across Brine Road and Deep Sea. STAB Ice Beam targets Lucario/Flygon for heavy super-effective damage."
+    },
+    {
+      "slot": 3,
+      "species": "Kingler/Primeape",
+      "types": ["Water", "Fighting"],
+      "status": "Active in Party (Gym Duelist)",
+      "current_level": 71,
+      "ability": "Hyper Cutter",
+      "held_item": "Black Belt",
+      "role": "Fighting Wallbreaker & Physical Bruiser",
+      "current_reached_moveset": [
+        "Close Combat",
+        "Crabhammer",
+        "Cross Chop",
+        "Protect"
+      ],
+      "progression_notes": "500 BST physical bruiser. STAB Close Combat shatters Chuck's bulky Hitmonchan/Snorlax anchor. Crabhammer delivers colossal physical water impact against Fire switch-ins."
+    },
+    {
+      "slot": 4,
+      "species": "Gyarados/Arbok",
+      "types": ["Water", "Poison"],
+      "status": "Active in Party (Gym Duelist)",
+      "current_level": 71,
+      "ability": "Intimidate",
+      "held_item": "Mystic Water",
+      "role": "Intimidate Physical Pivot",
+      "current_reached_moveset": [
+        "Aqua Tail",
+        "Crunch",
+        "Dragon Dance",
+        "Glare"
+      ],
+      "progression_notes": "513 BST Intimidate pivot. Lowers Chuck's physical Attack on entry to neutralize heavy martial artists. Glare inflicts guaranteed 100% paralysis on fast threats."
+    },
+    {
+      "slot": 5,
+      "species": "Alakazam/Weezing",
+      "types": ["Psychic", "Poison"],
+      "status": "Active in Party (Gym Duelist & MVP)",
+      "current_level": 71,
+      "ability": "Levitate",
+      "held_item": "Twisted Spoon",
+      "role": "Levitate Ground-Immune Sweeper",
+      "current_reached_moveset": [
+        "Psychic",
+        "Sludge Bomb",
+        "Recover",
+        "Calm Mind"
+      ],
+      "progression_notes": "495 BST Levitate MVP with 118 SpA. Immune to Earth Power via Levitate. STAB Psychic decimates Kabutops/Machamp, Poliwrath/Primeape, Lucario/Flygon, and Hitmonchan/Snorlax for effortless OHKOs."
+    },
+    {
+      "slot": 6,
+      "species": "Snorlax",
+      "types": ["Normal"],
+      "status": "Active in Party (Route Traversal Tank)",
+      "current_level": 71,
+      "ability": "Thick Fat",
+      "held_item": "Leftovers",
+      "role": "Route Travel Tank & Sustained Sponge",
+      "current_reached_moveset": [
+        "Body Slam",
+        "Rest",
+        "Sleep Talk",
+        "Crunch"
+      ],
+      "progression_notes": "Colossal 160 HP route sponge holding Leftovers. RestTalk loop absorbs deep-sea status and damage during exploration while resting in reserve during the 5v5 Gym duel."
+    }
+  ],
+  "flex_bench": [
+    {
+      "species": "Butterfree",
+      "role": "Compound Eyes Sleep Pivot",
+      "rationale": "97.5% accurate Sleep Powder for securing wild Sevii and deep-sea catches."
+    },
+    {
+      "species": "Electabuzz",
+      "role": "Electric Speed Sweeper",
+      "rationale": "Discharge and Light Screen to sweep ocean water routes and zap opposing flyers."
+    },
+    {
+      "species": "Hitmonlee",
+      "role": "Reckless Fighting Breaker",
+      "rationale": "High Jump Kick physical breaker for Rock and Normal type encounters."
+    }
+  ]
+}

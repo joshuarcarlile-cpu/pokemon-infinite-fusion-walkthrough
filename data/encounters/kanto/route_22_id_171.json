@@ -1,0 +1,231 @@
+{
+  "location": "Route 22 (ID 171)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "019",
+        "name": "Rattata",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "2-5",
+        "catch_rate": "255",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "dex_id": "021",
+        "name": "Spearow",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "3-5",
+        "catch_rate": "255",
+        "rates": [
+          "15%",
+          "15%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "029",
+        "name": "Nidoran\u2640",
+        "type1": "Poison",
+        "type2": "",
+        "levels": "3-5",
+        "catch_rate": "235",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "032",
+        "name": "Nidoran\u2642",
+        "type1": "Poison",
+        "type2": "",
+        "levels": "3-5",
+        "catch_rate": "235",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "056",
+        "name": "Mankey",
+        "type1": "Fighting",
+        "type2": "",
+        "levels": "2-5",
+        "catch_rate": "190",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "163",
+        "name": "Hoothoot",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "3-5",
+        "catch_rate": "255",
+        "rates": [
+          "-",
+          "-",
+          "15%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "dex_id": "054",
+        "name": "Psyduck",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20-40",
+        "catch_rate": "190",
+        "rates": [
+          "50%"
+        ]
+      },
+      {
+        "dex_id": "079",
+        "name": "Slowpoke",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "20-40",
+        "catch_rate": "190",
+        "rates": [
+          "50%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "dex_id": "060",
+        "name": "Poliwag",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5",
+        "catch_rate": "255",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5",
+        "catch_rate": "255",
+        "rates": [
+          "80%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "dex_id": "060",
+        "name": "Poliwag",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-15",
+        "catch_rate": "255",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "dex_id": "118",
+        "name": "Goldeen",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-15",
+        "catch_rate": "225",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-15",
+        "catch_rate": "255",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "dex_id": "054",
+        "name": "Psyduck",
+        "type1": "Water",
+        "type2": "",
+        "levels": "15-35",
+        "catch_rate": "190",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "060",
+        "name": "Poliwag",
+        "type1": "Water",
+        "type2": "",
+        "levels": "15-25",
+        "catch_rate": "255",
+        "rates": [
+          "45%"
+        ]
+      },
+      {
+        "dex_id": "061",
+        "name": "Poliwhirl",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20-30",
+        "catch_rate": "120",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "079",
+        "name": "Slowpoke",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "15-35",
+        "catch_rate": "190",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "130",
+        "name": "Gyarados",
+        "type1": "Water",
+        "type2": "Flying",
+        "levels": "15-25",
+        "catch_rate": "45",
+        "rates": [
+          "15%"
+        ]
+      }
+    ],
+    "Pok\u00e9 Radar": [
+      {
+        "dex_id": "294",
+        "name": "Bidoof",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "2-5",
+        "catch_rate": "255",
+        "rates": [
+          "50% <small>([[Pok\u00e9 Radar#How_it_works",
+          "long rustle]])</small>"
+        ]
+      }
+    ]
+  }
+}

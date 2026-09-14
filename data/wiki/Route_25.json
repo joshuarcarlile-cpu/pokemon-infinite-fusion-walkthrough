@@ -1,0 +1,111 @@
+{
+  "title": "Route_25",
+  "url": "https://infinitefusion.fandom.com/wiki/Route_25",
+  "lead_summary": "Route 25 connects Route 24 to Cerulean Cape. It contains a gauntlet of trainers, but no wild Pokémon.",
+  "missable_warnings": [],
+  "items": [
+    {
+      "internal_id": "PROTEIN",
+      "quantity": "",
+      "name": "Protein",
+      "location_details": "Near the junction with Route 24"
+    },
+    {
+      "internal_id": "ORANBERRY",
+      "quantity": "",
+      "name": "Oran Berry",
+      "location_details": "Hidden in a tree near the junction with Route 24"
+    },
+    {
+      "internal_id": "REVIVE",
+      "quantity": "",
+      "name": "Revive",
+      "location_details": "Past Hiker Nob"
+    },
+    {
+      "internal_id": "ETHER",
+      "quantity": "",
+      "name": "Ether",
+      "location_details": "Hidden in a tree past Youngster Dan."
+    },
+    {
+      "internal_id": "ELIXIR",
+      "quantity": "",
+      "name": "Elixir",
+      "location_details": "Hidden in a tree below Camper Flint."
+    },
+    {
+      "internal_id": "machine_WATER",
+      "quantity": "",
+      "name": "TM18 Rain Dance",
+      "location_details": "Behind small trees near Hiker Wayne"
+    },
+    {
+      "internal_id": "ASPEARBERRY",
+      "quantity": "",
+      "name": "Aspear Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "CHERIBERRY",
+      "quantity": "",
+      "name": "Cheri Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "CHESTOBERRY",
+      "quantity": "",
+      "name": "Chesto Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "LEPPABERRY",
+      "quantity": "",
+      "name": "Leppa Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "LUMBERRY",
+      "quantity": "",
+      "name": "Lum Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "ORANBERRY",
+      "quantity": "",
+      "name": "Oran Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "PECHABERRY",
+      "quantity": "",
+      "name": "Pecha Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "PERSIMBERRY",
+      "quantity": "",
+      "name": "Persim Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "RAWSTBERRY",
+      "quantity": "",
+      "name": "Rawst Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "SITRUSBERRY",
+      "quantity": "",
+      "name": "Sitrus Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    }
+  ],
+  "sections": [
+    "Items",
+    "Outfits",
+    "Pokémon",
+    "Trainers"
+  ],
+  "raw_wikitext": "{{GlobalToggles}}\n{{InfoboxLocation\n|region=Kanto\n|location_image=Route25.png\n|map_image=Route_25_Map.png\n|connection_1_direction=east\n|connection_1_location=Cerulean Cape\n|connection_2_direction=west\n|connection_2_location=Route 24\n}}\n[[Route 25]] connects [[Route 24]] to [[Cerulean Cape]]. It contains a gauntlet of trainers, but no wild Pokémon.\n\n==Items==\n{{ItemTable/Header}}\n{{ItemTable/Data|PROTEIN||Protein|Near the junction with Route 24|Protein_Route25.png}}\n{{ItemTable/Data|ORANBERRY||Oran Berry|Hidden in a tree near the junction with Route 24|OranBerry_Route25.png}}\n{{ItemTable/Data|REVIVE||Revive|Past Hiker Nob|Revive_Route25.png}}\n{{ItemTable/Data|ETHER||Ether|Hidden in a tree past Youngster Dan.|Ether_Route25.png}}\n{{ItemTable/Data|ELIXIR||Elixir|Hidden in a tree below Camper Flint.|Elixir_Route25.png}}\n{{ItemTable/Data|machine_WATER||TM18 Rain Dance|Behind small trees near Hiker Wayne|TM18_Route25.png}}\n{{ItemTable/Section|Berry Bushes}}\n{{ItemTable/Data|ASPEARBERRY||Aspear Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|CHERIBERRY||Cheri Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|CHESTOBERRY||Chesto Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|LEPPABERRY||Leppa Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|LUMBERRY||Lum Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|ORANBERRY||Oran Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|PECHABERRY||Pecha Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|PERSIMBERRY||Persim Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|RAWSTBERRY||Rawst Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|SITRUSBERRY||Sitrus Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Footer}}\n\n==Outfits==\n{{ItemTable/Header|Outfit}}\n{{ItemTable/Data/Outfit|clothes|waterdress||Defeat the [[Type Experts|Water-type Expert]].}}\n{{ItemTable/Footer/Outfit}}\n\n==Pokémon==\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Lilypads}}\n{{EncounterTable/Data|495|Lotad|Water|Grass|11-14|255|100%}}\n{{EncounterTable/Section|Trade (Camper Flint)}}\n{{EncounterTable/Data|48.23|Venonat/Ekans|Bug|Poison|15|Any Poison-type, at least Lv14|Choice}}\n{{EncounterTable/Data|48.27|Venonat/Sandshrew|Bug|Ground|15|Any Poison-type, at least Lv14|Choice}}\n{{EncounterTable/Section|Trade (Hiker Wayne)}}\n{{EncounterTable/Data|43.95|Oddish/Onix|Grass|Ground|17|Any Pokémon, at least Lv17|One}}\n{{EncounterTable/Section|Trade (Youngster Chad)}}\n{{EncounterTable/Data|1.19|Bulbasaur/Rattata|Grass|Normal|14|Any Pokémon, at least Lv20|One}}\n{{EncounterTable/Footer}}\n\n==Trainers==\n{{Trainer\n| trainerClass=PICNICKER\n| name=Kelsey\n| trainerOverworldSprite=BW (22).png\n| postBattleAction=Rematch\n| pokemon1=32.29\n| pokemon1Level=15\n| pokemon2=29.32\n| pokemon2Level=15\n| remixPokemon1=259.116\n| remixPokemon1Level=16\n| remixPokemon2=370.260\n| remixPokemon2Level=16\n| remixPokemon3=371.258\n| remixPokemon3Level=17\n| expertPokemon1=43\n| expertPokemon1Level=16\n| expertPokemon1Item=OCCABERRY\n| expertPokemon1Nature=Timid\n| expertPokemon1Ability=[[bulbapedia:Chlorophyll (Ability)|Chlorophyll]]\n| expertPokemon1Move1=Stun Spore\n| expertPokemon1Move2=Acid\n| expertPokemon1Move3=Growth\n| expertPokemon1Move4=Venoshock\n| expertPokemon1IVHP=31\n| expertPokemon1IVAtk=31\n| expertPokemon1IVDef=31\n| expertPokemon1IVSpA=31\n| expertPokemon1IVSpD=31\n| expertPokemon1IVSpe=31\n| expertPokemon1EVHP=0\n| expertPokemon1EVAtk=0\n| expertPokemon1EVDef=0\n| expertPokemon1EVSpA=128\n| expertPokemon1EVSpD=0\n| expertPokemon1EVSpe=128\n| expertPokemon2=36.69\n| expertPokemon2Level=17\n| expertPokemon2Item=SITRUSBERRY\n| expertPokemon2Nature=Relaxed\n| expertPokemon2Ability=[[bulbapedia:Gluttony (Ability)|Gluttony]]\n| expertPokemon2Move1=Metronome\n| expertPokemon2IVHP=31\n| expertPokemon2IVAtk=31\n| expertPokemon2IVDef=31\n| expertPokemon2IVSpA=31\n| expertPokemon2IVSpD=31\n| expertPokemon2IVSpe=31\n| expertPokemon2EVHP=128\n| expertPokemon2EVAtk=0\n| expertPokemon2EVDef=128\n| expertPokemon2EVSpA=0\n| expertPokemon2EVSpD=0\n| expertPokemon2EVSpe=0\n}}\n\n{{Trainer\n| trainerClass=HIKER\n| name=Nob\n| trainerOverworldSprite=BW (72).png\n| postBattleAction=Rematch\n| pokemon1=74\n| pokemon1Level=13\n| pokemon2=74\n| pokemon2Level=13\n| pokemon3=74\n| pokemon3Level=13\n| pokemon4=25.66\n| pokemon4Level=13\n| remixPokemon1=222.436\n| remixPokemon1Level=15\n| remixPokemon2=191.208\n| remixPokemon2Level=17\n| remixPokemon2Move1=Mud Sport\n| remixPokemon2Move2=Tackle\n| remixPokemon2Move3=Harden\n| remixPokemon2Move4=Mega Drain\n| expertPokemon1=74\n| expertPokemon1Level=14\n| expertPokemon1Item=SMOOTHROCK\n| expertPokemon1Nature=Adamant\n| expertPokemon1Ability=[[bulbapedia:Sturdy (Ability)|Sturdy]]\n| expertPokemon1Move1=Sandstorm\n| expertPokemon1Move2=Rock Tomb\n| expertPokemon1IVHP=31\n| expertPokemon1IVAtk=31\n| expertPokemon1IVDef=31\n| expertPokemon1IVSpA=31\n| expertPokemon1IVSpD=31\n| expertPokemon1IVSpe=31\n| expertPokemon1EVHP=0\n| expertPokemon1EVAtk=128\n| expertPokemon1EVDef=0\n| expertPokemon1EVSpA=0\n| expertPokemon1EVSpD=0\n| expertPokemon1EVSpe=128\n| expertPokemon2=27\n| expertPokemon2Level=14\n| expertPokemon2Item=HARDSTONE\n| expertPokemon2Nature=Adamant\n| expertPokemon2Ability=[[bulbapedia:Sand Rush (Ability)|Sand Rush]]\n| expertPokemon2Move1=Rollout\n| expertPokemon2Move2=Defense Curl\n| expertPokemon2Move3=Fury Cutter\n| expertPokemon2Move4=Frustration\n| expertPokemon2IVHP=31\n| expertPokemon2IVAtk=31\n| expertPokemon2IVDef=31\n| expertPokemon2IVSpA=31\n| expertPokemon2IVSpD=31\n| expertPokemon2IVSpe=31\n| expertPokemon2EVHP=0\n| expertPokemon2EVAtk=128\n| expertPokemon2EVDef=0\n| expertPokemon2EVSpA=0\n| expertPokemon2EVSpD=0\n| expertPokemon2EVSpe=128\n| expertPokemon3=25.27\n| expertPokemon3Level=14\n| expertPokemon3Item=LIGHTBALL\n| expertPokemon3Nature=Adamant\n| expertPokemon3Ability=[[bulbapedia:Sand Rush (Ability)|Sand Rush]]\n| expertPokemon3Move1=Spark\n| expertPokemon3Move2=Magnitude\n| expertPokemon3Move3=Rollout\n| expertPokemon3Move4=Quick Attack\n| expertPokemon3IVHP=31\n| expertPokemon3IVAtk=31\n| expertPokemon3IVDef=31\n| expertPokemon3IVSpA=31\n| expertPokemon3IVSpD=31\n| expertPokemon3IVSpe=31\n| expertPokemon3EVHP=0\n| expertPokemon3EVAtk=128\n| expertPokemon3EVDef=0\n| expertPokemon3EVSpA=0\n| expertPokemon3EVSpD=0\n| expertPokemon3EVSpe=128\n| expertPokemon4=27\n| expertPokemon4Level=14\n| expertPokemon4Item=HARDSTONE\n| expertPokemon4Nature=Adamant\n| expertPokemon4Ability=[[bulbapedia:Sand Rush (Ability)|Sand Rush]]\n| expertPokemon4Move1=Rollout\n| expertPokemon4Move2=Defense Curl\n| expertPokemon4Move3=Fury Cutter\n| expertPokemon4Move4=Frustration\n| expertPokemon4IVHP=31\n| expertPokemon4IVAtk=31\n| expertPokemon4IVDef=31\n| expertPokemon4IVSpA=31\n| expertPokemon4IVSpD=31\n| expertPokemon4IVSpe=31\n| expertPokemon4EVHP=0\n| expertPokemon4EVAtk=128\n| expertPokemon4EVDef=0\n| expertPokemon4EVSpA=0\n| expertPokemon4EVSpD=0\n| expertPokemon4EVSpe=128\n}}\n\n{{Trainer\n| trainerClass=YOUNGSTER\n| name=Dan\n| trainerOverworldSprite=BW004.png\n| postBattleAction=Rematch\n| pokemon1=60.35\n| pokemon1Level=16\n| remixPokemon1=406.239\n| remixPokemon1Level=15\n| remixPokemon2=390.95\n| remixPokemon2Level=16\n| expertPokemon1=19\n| expertPokemon1Level=16\n| expertPokemon1Item=ORANBERRY\n| expertPokemon1Nature=Adamant\n| expertPokemon1Ability=[[bulbapedia:Hustle (Ability)|Hustle]]\n| expertPokemon1Move1=Quick Attack\n| expertPokemon1Move2=Pursuit\n| expertPokemon1Move3=Rock Smash\n| expertPokemon1Move4=Thief\n| expertPokemon1IVHP=31\n| expertPokemon1IVAtk=31\n| expertPokemon1IVDef=31\n| expertPokemon1IVSpA=31\n| expertPokemon1IVSpD=31\n| expertPokemon1IVSpe=31\n| expertPokemon1EVHP=0\n| expertPokemon1EVAtk=128\n| expertPokemon1EVDef=0\n| expertPokemon1EVSpA=0\n| expertPokemon1EVSpD=0\n| expertPokemon1EVSpe=128\n| expertPokemon2=19.15\n| expertPokemon2Level=16\n| expertPokemon2Item=ORANBERRY\n| expertPokemon2Nature=Adamant\n| expertPokemon2Ability=[[bulbapedia:Sniper (Ability)|Sniper]]\n| expertPokemon2Move1=Twineedle\n| expertPokemon2Move2=Bite\n| expertPokemon2Move3=Focus Energy\n| expertPokemon2Move4=Frustration\n| expertPokemon2IVHP=31\n| expertPokemon2IVAtk=31\n| expertPokemon2IVDef=31\n| expertPokemon2IVSpA=31\n| expertPokemon2IVSpD=31\n| expertPokemon2IVSpe=31\n| expertPokemon2EVHP=0\n| expertPokemon2EVAtk=128\n| expertPokemon2EVDef=0\n| expertPokemon2EVSpA=0\n| expertPokemon2EVSpD=0\n| expertPokemon2EVSpe=128\n}}\n\n{{Trainer\n| trainerClass=HIKER\n| name=Franklin\n| trainerOverworldSprite=BW (72).png\n| postBattleAction=Rematch\n| pokemon1=27\n| pokemon1Level=15\n| pokemon2=74.23\n| pokemon2Level=15\n| remixPokemon1=385.252\n| remixPokemon1Level=14\n| remixPokemon2=375.21\n| remixPokemon2Level=14\n| remixPokemon3=271.173\n| remixPokemon3Level=15\n| remixPokemon3Move1=Metronome\n| remixPokemon3Move2=Last Resort\n| expertPokemon1=46\n| expertPokemon1Level=16\n| expertPokemon1Item=ORANBERRY\n| expertPokemon1Nature=Adamant\n| expertPokemon1Ability=[[bulbapedia:Effect Spore (Ability)|Effect Spore]]\n| expertPokemon1Move1=Sunny Day\n| expertPokemon1Move2=Absorb\n| expertPokemon1Move3=Stun Spore\n| expertPokemon1Move4=Frustration\n| expertPokemon1IVHP=31\n| expertPokemon1IVAtk=31\n| expertPokemon1IVDef=31\n| expertPokemon1IVSpA=31\n| expertPokemon1IVSpD=31\n| expertPokemon1IVSpe=31\n| expertPokemon1EVHP=0\n| expertPokemon1EVAtk=128\n| expertPokemon1EVDef=0\n| expertPokemon1EVSpA=0\n| expertPokemon1EVSpD=0\n| expertPokemon1EVSpe=128\n| expertPokemon2=43.74\n| expertPokemon2Level=17\n| expertPokemon2Item=ORANBERRY\n| expertPokemon2Nature=Timid\n| expertPokemon2Ability=[[bulbapedia:Sturdy (Ability)|Sturdy]]\n| expertPokemon2Move1=Sleep Powder\n| expertPokemon2Move2=Magnitude\n| expertPokemon2Move3=Acid\n| expertPokemon2Move4=Growth\n| expertPokemon2IVHP=31\n| expertPokemon2IVAtk=31\n| expertPokemon2IVDef=31\n| expertPokemon2IVSpA=31\n| expertPokemon2IVSpD=31\n| expertPokemon2IVSpe=31\n| expertPokemon2EVHP=0\n| expertPokemon2EVAtk=0\n| expertPokemon2EVDef=0\n| expertPokemon2EVSpA=128\n| expertPokemon2EVSpD=0\n| expertPokemon2EVSpe=128\n}}\n\n{{Trainer\n| trainerClass=CAMPER\n| name=Flint\n| trainerOverworldSprite=BWBackpacker_male.png\n| postBattleAction=Trades one of his Pokémon for any Poison-type of at least level 14.\n| pokemon1=48.23\n| pokemon1Level=14\n| pokemon2=48.27\n| pokemon2Level=14\n| remixPokemon1=408.422\n| remixPokemon1Level=14\n| remixPokemon2=401.43\n| remixPokemon2Level=14\n| remixPokemon3=137.79\n| remixPokemon3Level=16\n| expertPokemon1=27\n| expertPokemon1Level=15\n| expertPokemon1Item=HARDSTONE\n| expertPokemon1Nature=Adamant\n| expertPokemon1Ability=[[bulbapedia:Sand Rush (Ability)|Sand Rush]]\n| expertPokemon1Move1=Rollout\n| expertPokemon1Move2=Defense Curl\n| expertPokemon1Move3=Fury Cutter\n| expertPokemon1Move4=Frustration\n| expertPokemon1IVHP=31\n| expertPokemon1IVAtk=31\n| expertPokemon1IVDef=31\n| expertPokemon1IVSpA=31\n| expertPokemon1IVSpD=31\n| expertPokemon1IVSpe=31\n| expertPokemon1EVHP=0\n| expertPokemon1EVAtk=128\n| expertPokemon1EVDef=0\n| expertPokemon1EVSpA=0\n| expertPokemon1EVSpD=0\n| expertPokemon1EVSpe=128\n| expertPokemon2=23.403\n| expertPokemon2Level=15\n| expertPokemon2Item=LEFTOVERS\n| expertPokemon2Nature=Adamant\n| expertPokemon2Ability=[[bulbapedia:Intimidate (Ability)|Intimidate]]\n| expertPokemon2Move1=Frustration\n| expertPokemon2Move2=Bite\n| expertPokemon2Move3=Glare\n| expertPokemon2Move4=Baby-Doll Eyes\n| expertPokemon2IVHP=31\n| expertPokemon2IVAtk=31\n| expertPokemon2IVDef=31\n| expertPokemon2IVSpA=31\n| expertPokemon2IVSpD=31\n| expertPokemon2IVSpe=31\n| expertPokemon2EVHP=0\n| expertPokemon2EVAtk=128\n| expertPokemon2EVDef=0\n| expertPokemon2EVSpA=0\n| expertPokemon2EVSpD=0\n| expertPokemon2EVSpe=128\n}}\n\n{{Trainer\n| trainerClass=LASS_blue\n| name=Haley\n| trainerOverworldSprite=LASS_blue.png\n| postBattleAction=Rematch\n| pokemon1=43\n| pokemon1Level=13\n| pokemon2=16\n| pokemon2Level=13\n| pokemon3=43.46\n| pokemon3Level=15\n| remixPokemon1=179.193\n| remixPokemon1Level=14\n| remixPokemon2=495.63\n| remixPokemon2Level=14\n| remixPokemon3=457.252\n| remixPokemon3Level=14\n| remixPokemon4=459.23\n| remixPokemon4Level=16\n}}\n\n{{Trainer\n| trainerClass=YOUNGSTER\n| name=Chad\n| trainerOverworldSprite=BW004.png\n| postBattleAction=Trades his Bulbtata for any Pokémon of at least level 20.\n| pokemon1=1.19\n| pokemon1Level=14\n| pokemon2=96.23\n| pokemon2Level=14\n| remixPokemon1=223.434\n| remixPokemon1Level=14\n| remixPokemon2=402.215\n| remixPokemon2Level=14\n| remixPokemon2Item=AIRBALLOON\n| remixPokemon3=253.405\n| remixPokemon3Level=15\n| expertPokemon1=36.2\n| expertPokemon1Level=16\n| expertPokemon1Item=LEFTOVERS\n| expertPokemon1Nature=Bold\n| expertPokemon1Ability=[[bulbapedia:Magic Guard (Ability)|Magic Guard]]\n| expertPokemon1Move1=Moonblast\n| expertPokemon1Move2=Leech Seed\n| expertPokemon1Move3=Moonlight\n| expertPokemon1Move4=Cosmic Power\n| expertPokemon1IVHP=31\n| expertPokemon1IVAtk=31\n| expertPokemon1IVDef=31\n| expertPokemon1IVSpA=31\n| expertPokemon1IVSpD=31\n| expertPokemon1IVSpe=31\n| expertPokemon1EVHP=128\n| expertPokemon1EVAtk=0\n| expertPokemon1EVDef=0\n| expertPokemon1EVSpA=128\n| expertPokemon1EVSpD=0\n| expertPokemon1EVSpe=0\n| expertPokemon2=129\n| expertPokemon2Level=16\n| expertPokemon2Item=ORANBERRY\n| expertPokemon2Nature=Adamant\n| expertPokemon2Ability=[[bulbapedia:Rattled (Ability)|Rattled]]\n| expertPokemon2Move1=Tackle\n| expertPokemon2IVHP=31\n| expertPokemon2IVAtk=31\n| expertPokemon2IVDef=31\n| expertPokemon2IVSpA=31\n| expertPokemon2IVSpD=31\n| expertPokemon2IVSpe=31\n| expertPokemon2EVHP=0\n| expertPokemon2EVAtk=128\n| expertPokemon2EVDef=0\n| expertPokemon2EVSpA=0\n| expertPokemon2EVSpD=0\n| expertPokemon2EVSpe=128\n}}\n\n{{Trainer\n| trainerClass=HIKER\n| name=Wayne\n| trainerOverworldSprite=BW (72).png\n| postBattleAction=Trades one of his Pokémon for any Pokémon of at least level 17.\n| pokemon1=43.95\n| pokemon1Level=17\n| remixPokemon1=463.77\n| remixPokemon1Level=16\n| remixPokemon2=301.400\n| remixPokemon2Level=15\n| remixPokemon3=420.172\n| remixPokemon3Level=16\n| expertPokemon1=69.95\n| expertPokemon1Level=18\n| expertPokemon1Item=HARDSTONE\n| expertPokemon1Nature=Adamant\n| expertPokemon1Ability=[[bulbapedia:Chlorophyll (Ability)|Chlorophyll]]\n| expertPokemon1Move1=Vine Whip\n| expertPokemon1Move2=Sunny Day\n| expertPokemon1Move3=Rock Throw\n| expertPokemon1Move4=Sleep Powder\n| expertPokemon1IVHP=31\n| expertPokemon1IVAtk=31\n| expertPokemon1IVDef=31\n| expertPokemon1IVSpA=31\n| expertPokemon1IVSpD=31\n| expertPokemon1IVSpe=31\n| expertPokemon1EVHP=0\n| expertPokemon1EVAtk=128\n| expertPokemon1EVDef=0\n| expertPokemon1EVSpA=0\n| expertPokemon1EVSpD=0\n| expertPokemon1EVSpe=128\n}}\n\n{{Trainer\n| trainerClass=TYPE_EXPERT_WATER\n| name=Marina\n| trainerOverworldSprite=TYPE_EXPERT_WATER_Overworld.png\n| reward=%default%, and Water Dress\n| pokemon1=501.100\n| pokemon1Level=Max\n| pokemon2=118.37\n| pokemon2Level=Max\n| pokemon3=134.194\n| pokemon3Level=Max\n| pokemon4=86.152\n| pokemon4Level=Max\n| remixPokemon1=501.469\n| remixPokemon1Level=Max\n| remixPokemon1Ability=[[bulbapedia:Strong Jaw (Ability)|Strong Jaw]]\n| remixPokemon2=404.61\n| remixPokemon2Level=Max\n| remixPokemon2Ability=[[bulbapedia:Swift Swim (Ability)|Swift Swim]]\n| remixPokemon3=25.496\n| remixPokemon3Level=Max\n| remixPokemon3Item=LIGHTBALL\n| remixPokemon3Ability=[[bulbapedia:Swift Swim (Ability)|Swift Swim]]\n}}\n\n[[Category:Locations]]\n[[Category:Kanto]]"
+}

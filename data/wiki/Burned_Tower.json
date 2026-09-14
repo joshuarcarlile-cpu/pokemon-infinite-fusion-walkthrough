@@ -1,0 +1,50 @@
+{
+  "title": "Burned_Tower",
+  "url": "https://infinitefusion.fandom.com/wiki/Burned_Tower",
+  "lead_summary": "The Burned Tower, formally known as the Brass Tower, is located in Ecruteak City. It was burnt down by a lightning strike 147 years prior to the events of this game.\nIt now is inhabited by Ghost Pokémon, and Morty often trains there.",
+  "missable_warnings": [],
+  "items": [
+    {
+      "internal_id": "DUSKSTONE",
+      "quantity": "",
+      "name": "Dusk Stone",
+      "location_details": "Northwest Corner."
+    },
+    {
+      "internal_id": "FLOATSTONE",
+      "quantity": "",
+      "name": "Float Stone",
+      "location_details": "Southwest Corner."
+    },
+    {
+      "internal_id": "OLDGATEAU",
+      "quantity": "",
+      "name": "Old Gateau",
+      "location_details": "Hidden in the northwest corner."
+    },
+    {
+      "internal_id": "ELIXIR",
+      "quantity": "",
+      "name": "Elixir",
+      "location_details": "Hidden in the south."
+    },
+    {
+      "internal_id": "RAREBONE",
+      "quantity": "",
+      "name": "Rare Bone",
+      "location_details": "Hidden in the north."
+    },
+    {
+      "internal_id": "REAPERCLOTH",
+      "quantity": "",
+      "name": "Reaper Cloth",
+      "location_details": "Northeast Corner."
+    }
+  ],
+  "sections": [
+    "Items",
+    "Pokémon",
+    "B1F"
+  ],
+  "raw_wikitext": "{{GlobalToggles}}\n{{InfoboxLocation\n|region=Johto\n|location_image=BurnedTower.png\n|map_image=Burned_Tower_Map.png\n|connection_1_direction=south\n|connection_1_location=Ecruteak City\n}}\nThe '''Burned Tower''', formally known as the Brass Tower, is located in [[Ecruteak City]]. It was burnt down by a lightning strike 147 years prior to the events of this game.\n\nIt now is inhabited by Ghost Pokémon, and [[Gym Leaders#Morty|Morty]] often trains there.\n\n<gallery>\nFile:Jump_BurnedTower.png|Spot to jump on 3F to reach Morty.\n</gallery>\n\n==Items==\n{{ItemTable/Header}}\n{{ItemTable/Section|1F}}\n{{ItemTable/Data|DUSKSTONE||Dusk Stone|Northwest Corner.|DuskStone_BurnedTower.png}}\n{{ItemTable/Section|B1F}}\n{{ItemTable/Data|FLOATSTONE||Float Stone|Southwest Corner.|FloatStone_BurnedTower.png}}\n{{ItemTable/Data|OLDGATEAU||Old Gateau|Hidden in the northwest corner.|OldGateau_BurnedTower.png}}\n{{ItemTable/Data|ELIXIR||Elixir|Hidden in the south.|Elixir_BurnedTower.png}}\n{{ItemTable/Data|RAREBONE||Rare Bone|Hidden in the north.|RareBone_BurnedTower.png}}\n{{ItemTable/Section|3F}}\n{{ItemTable/Data|REAPERCLOTH||Reaper Cloth|Northeast Corner.|ReaperCloth_BurnedTower.png}}\n{{ItemTable/Footer}}\n\n==Pokémon==\n===B1F===\n<!-----------------------------------!>\n<!-- CLASSIC & EXPERT MODE POKÉMON --!>\n<!------------------------------------>\n<div class=\"classic-mode expert-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Cave}}\n{{EncounterTable/Data|020|Raticate|Normal||36-41|127|30%}}\n{{EncounterTable/Data|092|Gastly|Ghost|Poison|22-32|190|20%}}\n{{EncounterTable/Data|093|Haunter|Ghost|Poison|33-39|90|15%}}\n{{EncounterTable/Data|110|Weezing|Poison||36|60|20%}}\n{{EncounterTable/Data|126|Magmar|Fire||44|45|10%}}\n{{EncounterTable/Data|200|Misdreavus|Ghost||33-39|45|5%}}\n{{EncounterTable/Footer}}\n</div>\n<!------------------------!>\n<!-- REMIX MODE POKÉMON --!>\n<!------------------------->\n<div class=\"remix-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Cave}}\n{{EncounterTable/Data|092|Gastly|Ghost|Poison|22-32|190|10%}}\n{{EncounterTable/Data|110|Weezing|Poison||36|60|20%}}\n{{EncounterTable/Data|136|Flareon|Fire||33-39|45|2%}}\n{{EncounterTable/Data|219|Magcargo|Fire|Rock|44|75|10%}}\n{{EncounterTable/Data|255|Mismagius|Ghost||33-39|45|13%}}\n{{EncounterTable/Data|295|Spiritomb|Dark|Ghost|33-39|100|15%}}\n{{EncounterTable/Data|366|Lampent|Ghost|Fire|36-41|90|20%}}\n{{EncounterTable/Data|488|Torkoal|Fire||33-40|90|10%}}\n{{EncounterTable/Footer}}\n</div>\n\n[[Category:Locations]]\n[[Category:Johto]]"
+}

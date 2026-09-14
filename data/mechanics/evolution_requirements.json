@@ -1,0 +1,2152 @@
+{
+  "Ivysaur": [
+    {
+      "from": "Bulbasaur",
+      "method": "Level",
+      "parameter": 16
+    }
+  ],
+  "Venusaur": [
+    {
+      "from": "Ivysaur",
+      "method": "Level",
+      "parameter": 32
+    }
+  ],
+  "Charmeleon": [
+    {
+      "from": "Charmander",
+      "method": "Level",
+      "parameter": 16
+    }
+  ],
+  "Charizard": [
+    {
+      "from": "Charmeleon",
+      "method": "Level",
+      "parameter": 36
+    }
+  ],
+  "Wartortle": [
+    {
+      "from": "Squirtle",
+      "method": "Level",
+      "parameter": 16
+    }
+  ],
+  "Blastoise": [
+    {
+      "from": "Wartortle",
+      "method": "Level",
+      "parameter": 36
+    }
+  ],
+  "Metapod": [
+    {
+      "from": "Caterpie",
+      "method": "Level",
+      "parameter": 7
+    }
+  ],
+  "Butterfree": [
+    {
+      "from": "Metapod",
+      "method": "Level",
+      "parameter": 10
+    }
+  ],
+  "Kakuna": [
+    {
+      "from": "Weedle",
+      "method": "Level",
+      "parameter": 7
+    }
+  ],
+  "Beedrill": [
+    {
+      "from": "Kakuna",
+      "method": "Level",
+      "parameter": 10
+    }
+  ],
+  "Pidgeotto": [
+    {
+      "from": "Pidgey",
+      "method": "Level",
+      "parameter": 18
+    }
+  ],
+  "Pidgeot": [
+    {
+      "from": "Pidgeotto",
+      "method": "Level",
+      "parameter": 36
+    }
+  ],
+  "Raticate": [
+    {
+      "from": "Rattata",
+      "method": "Level",
+      "parameter": 20
+    }
+  ],
+  "Fearow": [
+    {
+      "from": "Spearow",
+      "method": "Level",
+      "parameter": 20
+    }
+  ],
+  "Arbok": [
+    {
+      "from": "Ekans",
+      "method": "Level",
+      "parameter": 22
+    }
+  ],
+  "Raichu": [
+    {
+      "from": "Pikachu",
+      "method": "Item",
+      "parameter": "THUNDERSTONE"
+    }
+  ],
+  "Sandslash": [
+    {
+      "from": "Sandshrew",
+      "method": "Level",
+      "parameter": 22
+    }
+  ],
+  "Nidorina": [
+    {
+      "from": "Nidoran",
+      "method": "Level",
+      "parameter": 16
+    }
+  ],
+  "Nidoqueen": [
+    {
+      "from": "Nidorina",
+      "method": "Item",
+      "parameter": "MOONSTONE"
+    }
+  ],
+  "Nidorino": [
+    {
+      "from": "Nidoran",
+      "method": "Level",
+      "parameter": 16
+    }
+  ],
+  "Nidoking": [
+    {
+      "from": "Nidorino",
+      "method": "Item",
+      "parameter": "MOONSTONE"
+    }
+  ],
+  "Clefable": [
+    {
+      "from": "Clefairy",
+      "method": "Item",
+      "parameter": "MOONSTONE"
+    }
+  ],
+  "Ninetales": [
+    {
+      "from": "Vulpix",
+      "method": "Item",
+      "parameter": "FIRESTONE"
+    }
+  ],
+  "Wigglytuff": [
+    {
+      "from": "Jigglypuff",
+      "method": "Item",
+      "parameter": "MOONSTONE"
+    }
+  ],
+  "Golbat": [
+    {
+      "from": "Zubat",
+      "method": "Level",
+      "parameter": 22
+    }
+  ],
+  "Crobat": [
+    {
+      "from": "Golbat",
+      "method": "Level",
+      "parameter": 40
+    }
+  ],
+  "Gloom": [
+    {
+      "from": "Oddish",
+      "method": "Level",
+      "parameter": 21
+    }
+  ],
+  "Vileplume": [
+    {
+      "from": "Gloom",
+      "method": "Item",
+      "parameter": "LEAFSTONE"
+    }
+  ],
+  "Bellossom": [
+    {
+      "from": "Gloom",
+      "method": "Item",
+      "parameter": "SUNSTONE"
+    }
+  ],
+  "Parasect": [
+    {
+      "from": "Paras",
+      "method": "Level",
+      "parameter": 24
+    }
+  ],
+  "Venomoth": [
+    {
+      "from": "Venonat",
+      "method": "Level",
+      "parameter": 31
+    }
+  ],
+  "Dugtrio": [
+    {
+      "from": "Diglett",
+      "method": "Level",
+      "parameter": 26
+    }
+  ],
+  "Persian": [
+    {
+      "from": "Meowth",
+      "method": "Level",
+      "parameter": 28
+    }
+  ],
+  "Golduck": [
+    {
+      "from": "Psyduck",
+      "method": "Level",
+      "parameter": 33
+    }
+  ],
+  "Primeape": [
+    {
+      "from": "Mankey",
+      "method": "Level",
+      "parameter": 28
+    }
+  ],
+  "Arcanine": [
+    {
+      "from": "Growlithe",
+      "method": "Item",
+      "parameter": "FIRESTONE"
+    }
+  ],
+  "Poliwhirl": [
+    {
+      "from": "Poliwag",
+      "method": "Level",
+      "parameter": 25
+    }
+  ],
+  "Poliwrath": [
+    {
+      "from": "Poliwhirl",
+      "method": "Item",
+      "parameter": "WATERSTONE"
+    }
+  ],
+  "Politoed": [
+    {
+      "from": "Poliwhirl",
+      "method": "Level",
+      "parameter": 37
+    },
+    {
+      "from": "Poliwhirl",
+      "method": "Item",
+      "parameter": "KINGSROCK"
+    }
+  ],
+  "Kadabra": [
+    {
+      "from": "Abra",
+      "method": "Level",
+      "parameter": 16
+    }
+  ],
+  "Alakazam": [
+    {
+      "from": "Kadabra",
+      "method": "Level",
+      "parameter": 40
+    },
+    {
+      "from": "Kadabra",
+      "method": "Item",
+      "parameter": "LINKINGCORD"
+    }
+  ],
+  "Machoke": [
+    {
+      "from": "Machop",
+      "method": "Level",
+      "parameter": 28
+    }
+  ],
+  "Machamp": [
+    {
+      "from": "Machoke",
+      "method": "Level",
+      "parameter": 40
+    },
+    {
+      "from": "Machoke",
+      "method": "Item",
+      "parameter": "LINKINGCORD"
+    }
+  ],
+  "Weepinbell": [
+    {
+      "from": "Bellsprout",
+      "method": "Level",
+      "parameter": 21
+    }
+  ],
+  "Victreebel": [
+    {
+      "from": "Weepinbell",
+      "method": "Item",
+      "parameter": "LEAFSTONE"
+    }
+  ],
+  "Tentacruel": [
+    {
+      "from": "Tentacool",
+      "method": "Level",
+      "parameter": 30
+    }
+  ],
+  "Graveler": [
+    {
+      "from": "Geodude",
+      "method": "Level",
+      "parameter": 25
+    }
+  ],
+  "Golem": [
+    {
+      "from": "Graveler",
+      "method": "Level",
+      "parameter": 40
+    },
+    {
+      "from": "Graveler",
+      "method": "Item",
+      "parameter": "LINKINGCORD"
+    }
+  ],
+  "Rapidash": [
+    {
+      "from": "Ponyta",
+      "method": "Level",
+      "parameter": 40
+    }
+  ],
+  "Slowbro": [
+    {
+      "from": "Slowpoke",
+      "method": "Level",
+      "parameter": 37
+    }
+  ],
+  "Slowking": [
+    {
+      "from": "Slowpoke",
+      "method": "Item",
+      "parameter": "WATERSTONE"
+    },
+    {
+      "from": "Slowpoke",
+      "method": "Item",
+      "parameter": "KINGSROCK"
+    }
+  ],
+  "Magneton": [
+    {
+      "from": "Magnemite",
+      "method": "Level",
+      "parameter": 30
+    }
+  ],
+  "Magnezone": [
+    {
+      "from": "Magneton",
+      "method": "Item",
+      "parameter": "MAGNETSTONE"
+    }
+  ],
+  "Dodrio": [
+    {
+      "from": "Doduo",
+      "method": "Level",
+      "parameter": 31
+    }
+  ],
+  "Dewgong": [
+    {
+      "from": "Seel",
+      "method": "Level",
+      "parameter": 34
+    }
+  ],
+  "Muk": [
+    {
+      "from": "Grimer",
+      "method": "Level",
+      "parameter": 38
+    }
+  ],
+  "Cloyster": [
+    {
+      "from": "Shellder",
+      "method": "Item",
+      "parameter": "WATERSTONE"
+    }
+  ],
+  "Haunter": [
+    {
+      "from": "Gastly",
+      "method": "Level",
+      "parameter": 25
+    }
+  ],
+  "Gengar": [
+    {
+      "from": "Haunter",
+      "method": "Level",
+      "parameter": 40
+    },
+    {
+      "from": "Haunter",
+      "method": "Item",
+      "parameter": "LINKINGCORD"
+    }
+  ],
+  "Steelix": [
+    {
+      "from": "Onix",
+      "method": "Level",
+      "parameter": 40
+    },
+    {
+      "from": "Onix",
+      "method": "Item",
+      "parameter": "METALCOAT"
+    }
+  ],
+  "Hypno": [
+    {
+      "from": "Drowzee",
+      "method": "Level",
+      "parameter": 26
+    }
+  ],
+  "Kingler": [
+    {
+      "from": "Krabby",
+      "method": "Level",
+      "parameter": 28
+    }
+  ],
+  "Electrode": [
+    {
+      "from": "Voltorb",
+      "method": "Level",
+      "parameter": 30
+    }
+  ],
+  "Exeggutor": [
+    {
+      "from": "Exeggcute",
+      "method": "Item",
+      "parameter": "LEAFSTONE"
+    }
+  ],
+  "Marowak": [
+    {
+      "from": "Cubone",
+      "method": "Level",
+      "parameter": 28
+    }
+  ],
+  "Lickilicky": [
+    {
+      "from": "Lickitung",
+      "method": "HasMove",
+      "parameter": "ROLLOUT"
+    }
+  ],
+  "Weezing": [
+    {
+      "from": "Koffing",
+      "method": "Level",
+      "parameter": 35
+    }
+  ],
+  "Rhydon": [
+    {
+      "from": "Rhyhorn",
+      "method": "Level",
+      "parameter": 42
+    }
+  ],
+  "Rhyperior": [
+    {
+      "from": "Rhydon",
+      "method": "Level",
+      "parameter": 55
+    },
+    {
+      "from": "Rhydon",
+      "method": "Item",
+      "parameter": "PROTECTOR"
+    }
+  ],
+  "Blissey": [
+    {
+      "from": "Chansey",
+      "method": "Level",
+      "parameter": 42
+    }
+  ],
+  "Tangrowth": [
+    {
+      "from": "Tangela",
+      "method": "HasMove",
+      "parameter": "ANCIENTPOWER"
+    }
+  ],
+  "Seadra": [
+    {
+      "from": "Horsea",
+      "method": "Level",
+      "parameter": 32
+    }
+  ],
+  "Kingdra": [
+    {
+      "from": "Seadra",
+      "method": "Level",
+      "parameter": 50
+    },
+    {
+      "from": "Seadra",
+      "method": "Item",
+      "parameter": "DRAGONSCALE"
+    }
+  ],
+  "Seaking": [
+    {
+      "from": "Goldeen",
+      "method": "Level",
+      "parameter": 33
+    }
+  ],
+  "Starmie": [
+    {
+      "from": "Staryu",
+      "method": "Item",
+      "parameter": "WATERSTONE"
+    }
+  ],
+  "Scizor": [
+    {
+      "from": "Scyther",
+      "method": "Level",
+      "parameter": 40
+    },
+    {
+      "from": "Scyther",
+      "method": "Item",
+      "parameter": "METALCOAT"
+    }
+  ],
+  "Electivire": [
+    {
+      "from": "Electabuzz",
+      "method": "Level",
+      "parameter": 50
+    },
+    {
+      "from": "Electabuzz",
+      "method": "Item",
+      "parameter": "ELECTIRIZER"
+    }
+  ],
+  "Magmortar": [
+    {
+      "from": "Magmar",
+      "method": "Level",
+      "parameter": 50
+    },
+    {
+      "from": "Magmar",
+      "method": "Item",
+      "parameter": "MAGMARIZER"
+    }
+  ],
+  "Gyarados": [
+    {
+      "from": "Magikarp",
+      "method": "Level",
+      "parameter": 20
+    }
+  ],
+  "Vaporeon": [
+    {
+      "from": "Eevee",
+      "method": "Item",
+      "parameter": "WATERSTONE"
+    }
+  ],
+  "Jolteon": [
+    {
+      "from": "Eevee",
+      "method": "Item",
+      "parameter": "THUNDERSTONE"
+    }
+  ],
+  "Flareon": [
+    {
+      "from": "Eevee",
+      "method": "Item",
+      "parameter": "FIRESTONE"
+    }
+  ],
+  "Espeon": [
+    {
+      "from": "Eevee",
+      "method": "Item",
+      "parameter": "SUNSTONE"
+    }
+  ],
+  "Umbreon": [
+    {
+      "from": "Eevee",
+      "method": "Item",
+      "parameter": "MOONSTONE"
+    }
+  ],
+  "Leafeon": [
+    {
+      "from": "Eevee",
+      "method": "Item",
+      "parameter": "LEAFSTONE"
+    }
+  ],
+  "Glaceon": [
+    {
+      "from": "Eevee",
+      "method": "Item",
+      "parameter": "ICESTONE"
+    }
+  ],
+  "Sylveon": [
+    {
+      "from": "Eevee",
+      "method": "Item",
+      "parameter": "SHINYSTONE"
+    }
+  ],
+  "Porygon2": [
+    {
+      "from": "Porygon",
+      "method": "Item",
+      "parameter": "UPGRADE"
+    }
+  ],
+  "Omastar": [
+    {
+      "from": "Omanyte",
+      "method": "Level",
+      "parameter": 40
+    }
+  ],
+  "Kabutops": [
+    {
+      "from": "Kabuto",
+      "method": "Level",
+      "parameter": 40
+    }
+  ],
+  "Dragonair": [
+    {
+      "from": "Dratini",
+      "method": "Level",
+      "parameter": 30
+    }
+  ],
+  "Dragonite": [
+    {
+      "from": "Dragonair",
+      "method": "Level",
+      "parameter": 55
+    }
+  ],
+  "Bayleef": [
+    {
+      "from": "Chikorita",
+      "method": "Level",
+      "parameter": 16
+    }
+  ],
+  "Meganium": [
+    {
+      "from": "Bayleef",
+      "method": "Level",
+      "parameter": 32
+    }
+  ],
+  "Quilava": [
+    {
+      "from": "Cyndaquil",
+      "method": "Level",
+      "parameter": 14
+    }
+  ],
+  "Typhlosion": [
+    {
+      "from": "Quilava",
+      "method": "Level",
+      "parameter": 36
+    }
+  ],
+  "Croconaw": [
+    {
+      "from": "Totodile",
+      "method": "Level",
+      "parameter": 18
+    }
+  ],
+  "Feraligatr": [
+    {
+      "from": "Croconaw",
+      "method": "Level",
+      "parameter": 30
+    }
+  ],
+  "Furret": [
+    {
+      "from": "Sentret",
+      "method": "Level",
+      "parameter": 15
+    }
+  ],
+  "Noctowl": [
+    {
+      "from": "Hoothoot",
+      "method": "Level",
+      "parameter": 20
+    }
+  ],
+  "Ledian": [
+    {
+      "from": "Ledyba",
+      "method": "Level",
+      "parameter": 18
+    }
+  ],
+  "Ariados": [
+    {
+      "from": "Spinarak",
+      "method": "Level",
+      "parameter": 22
+    }
+  ],
+  "Lanturn": [
+    {
+      "from": "Chinchou",
+      "method": "Level",
+      "parameter": 27
+    }
+  ],
+  "Pikachu": [
+    {
+      "from": "Pichu",
+      "method": "Level",
+      "parameter": 15
+    }
+  ],
+  "Clefairy": [
+    {
+      "from": "Cleffa",
+      "method": "Level",
+      "parameter": 15
+    }
+  ],
+  "Jigglypuff": [
+    {
+      "from": "Igglybuff",
+      "method": "Level",
+      "parameter": 15
+    }
+  ],
+  "Togetic": [
+    {
+      "from": "Togepi",
+      "method": "Level",
+      "parameter": 15
+    }
+  ],
+  "Togekiss": [
+    {
+      "from": "Togetic",
+      "method": "Item",
+      "parameter": "SHINYSTONE"
+    }
+  ],
+  "Xatu": [
+    {
+      "from": "Natu",
+      "method": "Level",
+      "parameter": 25
+    }
+  ],
+  "Flaaffy": [
+    {
+      "from": "Mareep",
+      "method": "Level",
+      "parameter": 15
+    }
+  ],
+  "Ampharos": [
+    {
+      "from": "Flaaffy",
+      "method": "Level",
+      "parameter": 30
+    }
+  ],
+  "Azumarill": [
+    {
+      "from": "Marill",
+      "method": "Level",
+      "parameter": 18
+    }
+  ],
+  "Skiploom": [
+    {
+      "from": "Hoppip",
+      "method": "Level",
+      "parameter": 18
+    }
+  ],
+  "Jumpluff": [
+    {
+      "from": "Skiploom",
+      "method": "Level",
+      "parameter": 27
+    }
+  ],
+  "Ambipom": [
+    {
+      "from": "Aipom",
+      "method": "HasMove",
+      "parameter": "DOUBLEHIT"
+    }
+  ],
+  "Sunflora": [
+    {
+      "from": "Sunkern",
+      "method": "Item",
+      "parameter": "SUNSTONE"
+    }
+  ],
+  "Yanmega": [
+    {
+      "from": "Yanma",
+      "method": "HasMove",
+      "parameter": "ANCIENTPOWER"
+    }
+  ],
+  "Quagsire": [
+    {
+      "from": "Wooper",
+      "method": "Level",
+      "parameter": 20
+    }
+  ],
+  "Honchkrow": [
+    {
+      "from": "Murkrow",
+      "method": "Item",
+      "parameter": "DUSKSTONE"
+    }
+  ],
+  "Mismagius": [
+    {
+      "from": "Misdreavus",
+      "method": "Item",
+      "parameter": "DUSKSTONE"
+    }
+  ],
+  "Forretress": [
+    {
+      "from": "Pineco",
+      "method": "Level",
+      "parameter": 31
+    }
+  ],
+  "Gliscor": [
+    {
+      "from": "Gligar",
+      "method": "Item",
+      "parameter": "DUSKSTONE"
+    }
+  ],
+  "Granbull": [
+    {
+      "from": "Snubbull",
+      "method": "Level",
+      "parameter": 23
+    }
+  ],
+  "Weavile": [
+    {
+      "from": "Sneasel",
+      "method": "Item",
+      "parameter": "ICESTONE"
+    }
+  ],
+  "Ursaring": [
+    {
+      "from": "Teddiursa",
+      "method": "Level",
+      "parameter": 30
+    }
+  ],
+  "Magcargo": [
+    {
+      "from": "Slugma",
+      "method": "Level",
+      "parameter": 38
+    }
+  ],
+  "Piloswine": [
+    {
+      "from": "Swinub",
+      "method": "Level",
+      "parameter": 33
+    }
+  ],
+  "Mamoswine": [
+    {
+      "from": "Piloswine",
+      "method": "HasMove",
+      "parameter": "ANCIENTPOWER"
+    }
+  ],
+  "Octillery": [
+    {
+      "from": "Remoraid",
+      "method": "Level",
+      "parameter": 25
+    }
+  ],
+  "Houndoom": [
+    {
+      "from": "Houndour",
+      "method": "Level",
+      "parameter": 24
+    }
+  ],
+  "Donphan": [
+    {
+      "from": "Phanpy",
+      "method": "Level",
+      "parameter": 25
+    }
+  ],
+  "Porygon-Z": [
+    {
+      "from": "Porygon2",
+      "method": "Item",
+      "parameter": "DUBIOUSDISC"
+    }
+  ],
+  "Hitmonlee": [
+    {
+      "from": "Tyrogue",
+      "method": "AttackGreater",
+      "parameter": 20
+    }
+  ],
+  "Hitmonchan": [
+    {
+      "from": "Tyrogue",
+      "method": "DefenseGreater",
+      "parameter": 20
+    }
+  ],
+  "Hitmontop": [
+    {
+      "from": "Tyrogue",
+      "method": "AtkDefEqual",
+      "parameter": 20
+    }
+  ],
+  "Jynx": [
+    {
+      "from": "Smoochum",
+      "method": "Level",
+      "parameter": 21
+    }
+  ],
+  "Electabuzz": [
+    {
+      "from": "Elekid",
+      "method": "Level",
+      "parameter": 21
+    }
+  ],
+  "Magmar": [
+    {
+      "from": "Magby",
+      "method": "Level",
+      "parameter": 21
+    }
+  ],
+  "Pupitar": [
+    {
+      "from": "Larvitar",
+      "method": "Level",
+      "parameter": 30
+    }
+  ],
+  "Tyranitar": [
+    {
+      "from": "Pupitar",
+      "method": "Level",
+      "parameter": 55
+    }
+  ],
+  "Marill": [
+    {
+      "from": "Azurill",
+      "method": "Level",
+      "parameter": 15
+    }
+  ],
+  "Wobbuffet": [
+    {
+      "from": "Wynaut",
+      "method": "Level",
+      "parameter": 15
+    }
+  ],
+  "Sudowoodo": [
+    {
+      "from": "Bonsly",
+      "method": "HasMove",
+      "parameter": "MIMIC"
+    }
+  ],
+  "Mr. Mime": [
+    {
+      "from": "Mime Jr.",
+      "method": "HasMove",
+      "parameter": "MIMIC"
+    }
+  ],
+  "Chansey": [
+    {
+      "from": "Happiny",
+      "method": "DayHoldItem",
+      "parameter": "OVALSTONE"
+    }
+  ],
+  "Snorlax": [
+    {
+      "from": "Munchlax",
+      "method": "Level",
+      "parameter": 30
+    }
+  ],
+  "Mantine": [
+    {
+      "from": "Mantyke",
+      "method": "Level",
+      "parameter": 20
+    }
+  ],
+  "Grovyle": [
+    {
+      "from": "Treecko",
+      "method": "Level",
+      "parameter": 16
+    }
+  ],
+  "Sceptile": [
+    {
+      "from": "Grovyle",
+      "method": "Level",
+      "parameter": 36
+    }
+  ],
+  "Combusken": [
+    {
+      "from": "Torchic",
+      "method": "Level",
+      "parameter": 16
+    }
+  ],
+  "Blaziken": [
+    {
+      "from": "Combusken",
+      "method": "Level",
+      "parameter": 36
+    }
+  ],
+  "Marshtomp": [
+    {
+      "from": "Mudkip",
+      "method": "Level",
+      "parameter": 16
+    }
+  ],
+  "Swampert": [
+    {
+      "from": "Marshtomp",
+      "method": "Level",
+      "parameter": 36
+    }
+  ],
+  "Kirlia": [
+    {
+      "from": "Ralts",
+      "method": "Level",
+      "parameter": 20
+    }
+  ],
+  "Gardevoir": [
+    {
+      "from": "Kirlia",
+      "method": "Level",
+      "parameter": 30
+    }
+  ],
+  "Gallade": [
+    {
+      "from": "Kirlia",
+      "method": "Item",
+      "parameter": "DAWNSTONE"
+    }
+  ],
+  "Metang": [
+    {
+      "from": "Beldum",
+      "method": "Level",
+      "parameter": 20
+    }
+  ],
+  "Metagross": [
+    {
+      "from": "Metang",
+      "method": "Level",
+      "parameter": 45
+    }
+  ],
+  "Bibarel": [
+    {
+      "from": "Bidoof",
+      "method": "Level",
+      "parameter": 15
+    }
+  ],
+  "Gabite": [
+    {
+      "from": "Gible",
+      "method": "Level",
+      "parameter": 24
+    }
+  ],
+  "Garchomp": [
+    {
+      "from": "Gabite",
+      "method": "Level",
+      "parameter": 48
+    }
+  ],
+  "Cradily": [
+    {
+      "from": "Lileep",
+      "method": "Level",
+      "parameter": 40
+    }
+  ],
+  "Armaldo": [
+    {
+      "from": "Anorith",
+      "method": "Level",
+      "parameter": 40
+    }
+  ],
+  "Rampardos": [
+    {
+      "from": "Cranidos",
+      "method": "Level",
+      "parameter": 30
+    }
+  ],
+  "Bastiodon": [
+    {
+      "from": "Shieldon",
+      "method": "Level",
+      "parameter": 30
+    }
+  ],
+  "Dusclops": [
+    {
+      "from": "Duskull",
+      "method": "Level",
+      "parameter": 37
+    }
+  ],
+  "Dusknoir": [
+    {
+      "from": "Dusclops",
+      "method": "Level",
+      "parameter": 50
+    },
+    {
+      "from": "Dusclops",
+      "method": "Item",
+      "parameter": "REAPERCLOTH"
+    }
+  ],
+  "Grotle": [
+    {
+      "from": "Turtwig",
+      "method": "Level",
+      "parameter": 18
+    }
+  ],
+  "Torterra": [
+    {
+      "from": "Grotle",
+      "method": "Level",
+      "parameter": 32
+    }
+  ],
+  "Monferno": [
+    {
+      "from": "Chimchar",
+      "method": "Level",
+      "parameter": 14
+    }
+  ],
+  "Infernape": [
+    {
+      "from": "Monferno",
+      "method": "Level",
+      "parameter": 36
+    }
+  ],
+  "Prinplup": [
+    {
+      "from": "Piplup",
+      "method": "Level",
+      "parameter": 16
+    }
+  ],
+  "Empoleon": [
+    {
+      "from": "Prinplup",
+      "method": "Level",
+      "parameter": 36
+    }
+  ],
+  "Probopass": [
+    {
+      "from": "Nosepass",
+      "method": "Item",
+      "parameter": "MAGNETSTONE"
+    }
+  ],
+  "Doublade": [
+    {
+      "from": "Honedge",
+      "method": "Level",
+      "parameter": 35
+    }
+  ],
+  "Aegislash": [
+    {
+      "from": "Doublade",
+      "method": "Item",
+      "parameter": "DUSKSTONE"
+    }
+  ],
+  "Bisharp": [
+    {
+      "from": "Pawniard",
+      "method": "Level",
+      "parameter": 52
+    }
+  ],
+  "Lampent": [
+    {
+      "from": "Litwick",
+      "method": "Level",
+      "parameter": 41
+    }
+  ],
+  "Chandelure": [
+    {
+      "from": "Lampent",
+      "method": "Item",
+      "parameter": "DUSKSTONE"
+    }
+  ],
+  "Zweilous": [
+    {
+      "from": "Deino",
+      "method": "Level",
+      "parameter": 50
+    }
+  ],
+  "Hydreigon": [
+    {
+      "from": "Zweilous",
+      "method": "Level",
+      "parameter": 64
+    }
+  ],
+  "Ninjask": [
+    {
+      "from": "Nincada",
+      "method": "Ninjask",
+      "parameter": 20
+    }
+  ],
+  "Shedinja": [
+    {
+      "from": "Nincada",
+      "method": "Shedinja",
+      "parameter": 20
+    }
+  ],
+  "Lucario": [
+    {
+      "from": "Riolu",
+      "method": "Level",
+      "parameter": 30
+    }
+  ],
+  "Vigoroth": [
+    {
+      "from": "Slakoth",
+      "method": "Level",
+      "parameter": 18
+    }
+  ],
+  "Slaking": [
+    {
+      "from": "Vigoroth",
+      "method": "Level",
+      "parameter": 36
+    }
+  ],
+  "Wailord": [
+    {
+      "from": "Wailmer",
+      "method": "Level",
+      "parameter": 40
+    }
+  ],
+  "Luxio": [
+    {
+      "from": "Shinx",
+      "method": "Level",
+      "parameter": 15
+    }
+  ],
+  "Luxray": [
+    {
+      "from": "Luxio",
+      "method": "Level",
+      "parameter": 30
+    }
+  ],
+  "Lairon": [
+    {
+      "from": "Aron",
+      "method": "Level",
+      "parameter": 32
+    }
+  ],
+  "Aggron": [
+    {
+      "from": "Lairon",
+      "method": "Level",
+      "parameter": 42
+    }
+  ],
+  "Vibrava": [
+    {
+      "from": "Trapinch",
+      "method": "Level",
+      "parameter": 35
+    }
+  ],
+  "Flygon": [
+    {
+      "from": "Vibrava",
+      "method": "Level",
+      "parameter": 45
+    }
+  ],
+  "Milotic": [
+    {
+      "from": "Feebas",
+      "method": "Level",
+      "parameter": 35
+    },
+    {
+      "from": "Feebas",
+      "method": "Item",
+      "parameter": "PRISMSCALE"
+    }
+  ],
+  "Shelgon": [
+    {
+      "from": "Bagon",
+      "method": "Level",
+      "parameter": 30
+    }
+  ],
+  "Salamence": [
+    {
+      "from": "Shelgon",
+      "method": "Level",
+      "parameter": 50
+    }
+  ],
+  "Klang": [
+    {
+      "from": "Klink",
+      "method": "Level",
+      "parameter": 38
+    }
+  ],
+  "Klinklang": [
+    {
+      "from": "Klang",
+      "method": "Level",
+      "parameter": 49
+    }
+  ],
+  "Zoroark": [
+    {
+      "from": "Zorua",
+      "method": "Level",
+      "parameter": 30
+    }
+  ],
+  "Roselia": [
+    {
+      "from": "Budew",
+      "method": "Level",
+      "parameter": 15
+    }
+  ],
+  "Roserade": [
+    {
+      "from": "Roselia",
+      "method": "Item",
+      "parameter": "SHINYSTONE"
+    }
+  ],
+  "Drifblim": [
+    {
+      "from": "Drifloon",
+      "method": "Level",
+      "parameter": 28
+    }
+  ],
+  "Lopunny": [
+    {
+      "from": "Buneary",
+      "method": "Level",
+      "parameter": 25
+    }
+  ],
+  "Breloom": [
+    {
+      "from": "Shroomish",
+      "method": "Level",
+      "parameter": 23
+    }
+  ],
+  "Banette": [
+    {
+      "from": "Shuppet",
+      "method": "Level",
+      "parameter": 37
+    }
+  ],
+  "Duosion": [
+    {
+      "from": "Solosis",
+      "method": "Level",
+      "parameter": 32
+    }
+  ],
+  "Reuniclus": [
+    {
+      "from": "Duosion",
+      "method": "Level",
+      "parameter": 41
+    }
+  ],
+  "Whimsicott": [
+    {
+      "from": "Cottonee",
+      "method": "Item",
+      "parameter": "SUNSTONE"
+    }
+  ],
+  "Krokorok": [
+    {
+      "from": "Sandile",
+      "method": "Level",
+      "parameter": 29
+    }
+  ],
+  "Krookodile": [
+    {
+      "from": "Krokorok",
+      "method": "Level",
+      "parameter": 40
+    }
+  ],
+  "Cofagrigus": [
+    {
+      "from": "Yamask",
+      "method": "Level",
+      "parameter": 34
+    }
+  ],
+  "Galvantula": [
+    {
+      "from": "Joltik",
+      "method": "Level",
+      "parameter": 36
+    }
+  ],
+  "Ferrothorn": [
+    {
+      "from": "Ferroseed",
+      "method": "Level",
+      "parameter": 40
+    }
+  ],
+  "Fraxure": [
+    {
+      "from": "Axew",
+      "method": "Level",
+      "parameter": 38
+    }
+  ],
+  "Haxorus": [
+    {
+      "from": "Fraxure",
+      "method": "Level",
+      "parameter": 48
+    }
+  ],
+  "Golurk": [
+    {
+      "from": "Golett",
+      "method": "Level",
+      "parameter": 43
+    }
+  ],
+  "Fletchinder": [
+    {
+      "from": "Fletchling",
+      "method": "Level",
+      "parameter": 17
+    }
+  ],
+  "Talonflame": [
+    {
+      "from": "Fletchinder",
+      "method": "Level",
+      "parameter": 35
+    }
+  ],
+  "Volcarona": [
+    {
+      "from": "Larvesta",
+      "method": "Level",
+      "parameter": 59
+    }
+  ],
+  "Whirlipede": [
+    {
+      "from": "Venipede",
+      "method": "Level",
+      "parameter": 22
+    }
+  ],
+  "Scolipede": [
+    {
+      "from": "Whirlipede",
+      "method": "Level",
+      "parameter": 30
+    }
+  ],
+  "Tyrantrum": [
+    {
+      "from": "Tyrunt",
+      "method": "LevelDay",
+      "parameter": 39
+    }
+  ],
+  "Glalie": [
+    {
+      "from": "Snorunt",
+      "method": "Level",
+      "parameter": 42
+    }
+  ],
+  "Froslass": [
+    {
+      "from": "Snorunt",
+      "method": "Item",
+      "parameter": "DAWNSTONE"
+    }
+  ],
+  "Garbodor": [
+    {
+      "from": "Trubbish",
+      "method": "Level",
+      "parameter": 36
+    }
+  ],
+  "Sharpedo": [
+    {
+      "from": "Carvanha",
+      "method": "Level",
+      "parameter": 30
+    }
+  ],
+  "Trevenant": [
+    {
+      "from": "Phantump",
+      "method": "Level",
+      "parameter": 40
+    },
+    {
+      "from": "Phantump",
+      "method": "Item",
+      "parameter": "LINKINGCORD"
+    }
+  ],
+  "Noivern": [
+    {
+      "from": "Noibat",
+      "method": "Level",
+      "parameter": 48
+    }
+  ],
+  "Altaria": [
+    {
+      "from": "Swablu",
+      "method": "Level",
+      "parameter": 35
+    }
+  ],
+  "Sliggoo": [
+    {
+      "from": "Goomy",
+      "method": "Level",
+      "parameter": 40
+    }
+  ],
+  "Goodra": [
+    {
+      "from": "Sliggoo",
+      "method": "Level",
+      "parameter": 50
+    }
+  ],
+  "Bewear": [
+    {
+      "from": "Stufful",
+      "method": "Level",
+      "parameter": 27
+    }
+  ],
+  "Toxapex": [
+    {
+      "from": "Mareanie",
+      "method": "Level",
+      "parameter": 38
+    }
+  ],
+  "Cacturne": [
+    {
+      "from": "Cacnea",
+      "method": "Level",
+      "parameter": 32
+    }
+  ],
+  "Palossand": [
+    {
+      "from": "Sandygast",
+      "method": "Level",
+      "parameter": 42
+    }
+  ],
+  "Aurorus": [
+    {
+      "from": "Amaura",
+      "method": "LevelNight",
+      "parameter": 39
+    }
+  ],
+  "Lycanroc": [
+    {
+      "from": "Rockruff",
+      "method": "LevelNight",
+      "parameter": 25
+    },
+    {
+      "from": "Rockruff",
+      "method": "LevelDay",
+      "parameter": 25
+    }
+  ],
+  "Hakamo-o": [
+    {
+      "from": "Jangmo-o",
+      "method": "Level",
+      "parameter": 35
+    }
+  ],
+  "Kommo-o": [
+    {
+      "from": "Hakamo-o",
+      "method": "Level",
+      "parameter": 45
+    }
+  ],
+  "Golisopod": [
+    {
+      "from": "Wimpod",
+      "method": "Level",
+      "parameter": 30
+    }
+  ],
+  "Lurantis": [
+    {
+      "from": "Fomantis",
+      "method": "LevelDay",
+      "parameter": 34
+    }
+  ],
+  "Quilladin": [
+    {
+      "from": "Chespin",
+      "method": "Level",
+      "parameter": 16
+    }
+  ],
+  "Chesnaught": [
+    {
+      "from": "Quilladin",
+      "method": "Level",
+      "parameter": 36
+    }
+  ],
+  "Braixen": [
+    {
+      "from": "Fennekin",
+      "method": "Level",
+      "parameter": 16
+    }
+  ],
+  "Delphox": [
+    {
+      "from": "Braixen",
+      "method": "Level",
+      "parameter": 36
+    }
+  ],
+  "Frogadier": [
+    {
+      "from": "Froakie",
+      "method": "Level",
+      "parameter": 16
+    }
+  ],
+  "Greninja": [
+    {
+      "from": "Frogadier",
+      "method": "Level",
+      "parameter": 36
+    }
+  ],
+  "Gourgeist": [
+    {
+      "from": "Pumpkaboo",
+      "method": "Level",
+      "parameter": 40
+    },
+    {
+      "from": "Pumpkaboo",
+      "method": "Item",
+      "parameter": "LINKINGCORD"
+    }
+  ],
+  "Slurpuff": [
+    {
+      "from": "Swirlix",
+      "method": "Level",
+      "parameter": 35
+    }
+  ],
+  "Scrafty": [
+    {
+      "from": "Scraggy",
+      "method": "Level",
+      "parameter": 39
+    }
+  ],
+  "Lombre": [
+    {
+      "from": "Lotad",
+      "method": "Level",
+      "parameter": 14
+    }
+  ],
+  "Ludicolo": [
+    {
+      "from": "Lombre",
+      "method": "Item",
+      "parameter": "WATERSTONE"
+    }
+  ],
+  "Mightyena": [
+    {
+      "from": "Poochyena",
+      "method": "Level",
+      "parameter": 18
+    }
+  ],
+  "Linoone": [
+    {
+      "from": "Zigzagoon",
+      "method": "Level",
+      "parameter": 20
+    }
+  ],
+  "Silcoon": [
+    {
+      "from": "Wurmple",
+      "method": "LevelDay",
+      "parameter": 7
+    }
+  ],
+  "Cascoon": [
+    {
+      "from": "Wurmple",
+      "method": "LevelNight",
+      "parameter": 7
+    }
+  ],
+  "Beautifly": [
+    {
+      "from": "Silcoon",
+      "method": "Level",
+      "parameter": 10
+    }
+  ],
+  "Dustox": [
+    {
+      "from": "Cascoon",
+      "method": "Level",
+      "parameter": 10
+    }
+  ],
+  "Nuzleaf": [
+    {
+      "from": "Seedot",
+      "method": "Level",
+      "parameter": 14
+    }
+  ],
+  "Shiftry": [
+    {
+      "from": "Nuzleaf",
+      "method": "Item",
+      "parameter": "LEAFSTONE"
+    }
+  ],
+  "Swellow": [
+    {
+      "from": "Taillow",
+      "method": "Level",
+      "parameter": 22
+    }
+  ],
+  "Pelipper": [
+    {
+      "from": "Wingull",
+      "method": "Level",
+      "parameter": 25
+    }
+  ],
+  "Masquerain": [
+    {
+      "from": "Surskit",
+      "method": "Level",
+      "parameter": 22
+    }
+  ],
+  "Loudred": [
+    {
+      "from": "Whismur",
+      "method": "Level",
+      "parameter": 20
+    }
+  ],
+  "Exploud": [
+    {
+      "from": "Loudred",
+      "method": "Level",
+      "parameter": 40
+    }
+  ],
+  "Hariyama": [
+    {
+      "from": "Makuhita",
+      "method": "Level",
+      "parameter": 24
+    }
+  ],
+  "Delcatty": [
+    {
+      "from": "Skitty",
+      "method": "Item",
+      "parameter": "MOONSTONE"
+    }
+  ],
+  "Medicham": [
+    {
+      "from": "Meditite",
+      "method": "Level",
+      "parameter": 37
+    }
+  ],
+  "Manectric": [
+    {
+      "from": "Electrike",
+      "method": "Level",
+      "parameter": 26
+    }
+  ],
+  "Swalot": [
+    {
+      "from": "Gulpin",
+      "method": "Level",
+      "parameter": 26
+    }
+  ],
+  "Camerupt": [
+    {
+      "from": "Numel",
+      "method": "Level",
+      "parameter": 33
+    }
+  ],
+  "Grumpig": [
+    {
+      "from": "Spoink",
+      "method": "Level",
+      "parameter": 32
+    }
+  ],
+  "Whiscash": [
+    {
+      "from": "Barboach",
+      "method": "Level",
+      "parameter": 30
+    }
+  ],
+  "Crawdaunt": [
+    {
+      "from": "Corphish",
+      "method": "Level",
+      "parameter": 30
+    }
+  ],
+  "Claydol": [
+    {
+      "from": "Baltoy",
+      "method": "Level",
+      "parameter": 36
+    }
+  ],
+  "Chimecho": [
+    {
+      "from": "Chingling",
+      "method": "Level",
+      "parameter": 25
+    }
+  ],
+  "Sealeo": [
+    {
+      "from": "Spheal",
+      "method": "Level",
+      "parameter": 32
+    }
+  ],
+  "Walrein": [
+    {
+      "from": "Sealeo",
+      "method": "Level",
+      "parameter": 44
+    }
+  ],
+  "Huntail": [
+    {
+      "from": "Clamperl",
+      "method": "Item",
+      "parameter": "DEEPSEATOOTH"
+    }
+  ],
+  "Gorebyss": [
+    {
+      "from": "Clamperl",
+      "method": "Item",
+      "parameter": "DEEPSEASCALE"
+    }
+  ],
+  "Swoobat": [
+    {
+      "from": "Woobat",
+      "method": "Level",
+      "parameter": 25
+    }
+  ],
+  "Eelektrik": [
+    {
+      "from": "Tynamo",
+      "method": "Level",
+      "parameter": 39
+    }
+  ],
+  "Eelektross": [
+    {
+      "from": "Eelektrik",
+      "method": "Item",
+      "parameter": "THUNDERSTONE"
+    }
+  ],
+  "Dragalge": [
+    {
+      "from": "Skrelp",
+      "method": "Level",
+      "parameter": 48
+    }
+  ],
+  "Gastrodon": [
+    {
+      "from": "Shellos",
+      "method": "Level",
+      "parameter": 30
+    }
+  ],
+  "Ivymelortle": [
+    {
+      "from": "Bulbmantle",
+      "method": "Level",
+      "parameter": 16
+    }
+  ],
+  "Venustoizard": [
+    {
+      "from": "Ivymelortle",
+      "method": "Level",
+      "parameter": 36
+    }
+  ],
+  "Baylavanaw": [
+    {
+      "from": "Totoritaquil",
+      "method": "Level",
+      "parameter": 16
+    }
+  ],
+  "Megaligasion": [
+    {
+      "from": "Baylavanaw",
+      "method": "Level",
+      "parameter": 36
+    }
+  ],
+  "Gromarshken": [
+    {
+      "from": "Torkipcko",
+      "method": "Level",
+      "parameter": 16
+    }
+  ],
+  "Swamptiliken": [
+    {
+      "from": "Gromarshken",
+      "method": "Level",
+      "parameter": 36
+    }
+  ],
+  "Prinfernotle": [
+    {
+      "from": "Turcharlup",
+      "method": "Level",
+      "parameter": 16
+    }
+  ],
+  "Torterneon": [
+    {
+      "from": "Prinfernotle",
+      "method": "Level",
+      "parameter": 36
+    }
+  ],
+  "Brailladier": [
+    {
+      "from": "Chennekie",
+      "method": "Level",
+      "parameter": 16
+    }
+  ],
+  "Cheninphox": [
+    {
+      "from": "Brailladier",
+      "method": "Level",
+      "parameter": 36
+    }
+  ]
+}

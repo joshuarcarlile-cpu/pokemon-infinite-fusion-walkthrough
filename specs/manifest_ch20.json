@@ -1,0 +1,1201 @@
+{
+  "chapter_id": "ch20",
+  "title": "Act 3 - Chapter 3: Kin Island, Bond Bridge & Berry Forest (Jasmine & Mineral Badge)",
+  "act": 3,
+  "hard_mode_level_cap": 76,
+  "gym_duel_limit": 5,
+  "routes_covered": [
+    "Brine Road East",
+    "Kin Island",
+    "Bond Bridge",
+    "Berry Forest"
+  ],
+  "vanilla_divergence_alerts": [
+    "HM Slaves: 100% eliminated by 9 reusable Key Item tools. Do NOT instruct players to teach field moves to party members.",
+    "Friendship: Eliminated. All friendship evolutions use static level thresholds (e.g. Baby Pokémon evolve at Lv. 15).",
+    "Trade Evolutions: Evolve naturally at Level 40 OR via Linking Cord (not Level 37)."
+  ],
+  "critical_missables": [],
+  "hotel_milestone_target": {},
+  "active_and_ongoing_quests": [],
+  "boss_ground_truth": {
+    "classic": {
+      "leader": "Jasmine",
+      "team": [
+        {
+          "species": "B85H227",
+          "level": 66,
+          "moves": [
+            "STEELWING",
+            "WHIRLWIND",
+            "AIRSLASH",
+            "SPIKES"
+          ],
+          "ability_index": 1,
+          "item": "METALCOAT"
+        },
+        {
+          "species": "B112H293",
+          "level": 67,
+          "moves": [
+            "STONEEDGE",
+            "MAGNETRISE",
+            "METEORMASH",
+            "IRONDEFENSE"
+          ],
+          "ability_index": 1,
+          "item": "EVIOLITE"
+        },
+        {
+          "species": "B9H263",
+          "level": 66,
+          "moves": [
+            "IRONDEFENSE",
+            "HYDROCANNON",
+            "LOCKON",
+            "MIRRORSHOT"
+          ],
+          "ability_index": 1,
+          "item": "ZOOMLENS"
+        },
+        {
+          "species": "B331H212",
+          "level": 67,
+          "moves": [
+            "SWORDSDANCE",
+            "NIGHTSLASH",
+            "XSCISSOR",
+            "FOCUSENERGY"
+          ],
+          "ability_index": 0,
+          "item": "RAZORCLAW"
+        },
+        {
+          "species": "B208H333",
+          "level": 68,
+          "moves": [
+            "EARTHQUAKE",
+            "DOUBLEEDGE",
+            "HEAVYSLAM",
+            "HEADSMASH"
+          ],
+          "ability_index": 0,
+          "item": "METALCOAT"
+        }
+      ],
+      "party_size": 5
+    },
+    "expert": {
+      "leader": "Jasmine",
+      "team": [
+        {
+          "species": "B263H149",
+          "level": 71,
+          "moves": [
+            "VOLTSWITCH",
+            "DRAGONPULSE",
+            "FLASHCANNON",
+            "SURF"
+          ],
+          "ability": "ANALYTIC",
+          "item": "AIRBALLOON",
+          "happiness": 0,
+          "nature": "QUIET",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 0,
+            "DEFENSE": 4,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B437H208",
+          "level": 71,
+          "moves": [
+            "IRONHEAD",
+            "CRUNCH",
+            "STEALTHROCK",
+            "PSYCHICFANGS"
+          ],
+          "ability": "SPEEDBOOST",
+          "item": "FOCUSSASH",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B337H232",
+          "level": 73,
+          "moves": [
+            "SHIFTGEAR",
+            "EARTHQUAKE",
+            "GEARGRIND",
+            "PLAYROUGH"
+          ],
+          "ability": "STURDY",
+          "item": "WEAKNESSPOLICY",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 8,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 248
+          }
+        },
+        {
+          "species": "B329H293",
+          "level": 73,
+          "moves": [
+            "METEORMASH",
+            "SHADOWSNEAK",
+            "SACREDSWORD",
+            "KINGSSHIELD"
+          ],
+          "ability": "STANCECHANGE",
+          "item": "SITRUSBERRY",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 252,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B135H377",
+          "level": 74,
+          "moves": [
+            "DARKPULSE",
+            "THUNDER",
+            "EARTHPOWER",
+            "FIREBLAST"
+          ],
+          "ability": "LEVITATE",
+          "item": "SITRUSBERRY",
+          "happiness": 0,
+          "nature": "TIMID",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B296H275",
+          "level": 76,
+          "moves": [
+            "EXTREMESPEED",
+            "AURASPHERE",
+            "FLASHCANNON",
+            "CRUNCH"
+          ],
+          "ability": "DOWNLOAD",
+          "item": "FOCUSSASH",
+          "happiness": 0,
+          "nature": "SERIOUS",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 0,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 4
+          }
+        }
+      ],
+      "party_size": 6
+    }
+  },
+  "encounters_by_location": {
+    "Brine Road (ID 564)": {
+      "Grass": [
+        {
+          "name": "Fearow",
+          "dex_id": "022",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "45-55"
+        },
+        {
+          "name": "Golduck",
+          "dex_id": "055",
+          "types": [
+            "Water"
+          ],
+          "levels": "55"
+        },
+        {
+          "name": "Krabby",
+          "dex_id": "098",
+          "types": [
+            "Water"
+          ],
+          "levels": "40-45"
+        },
+        {
+          "name": "Skiploom",
+          "dex_id": "188",
+          "types": [
+            "Grass",
+            "Flying"
+          ],
+          "levels": "40-45"
+        },
+        {
+          "name": "Jumpluff",
+          "dex_id": "189",
+          "types": [
+            "Grass",
+            "Flying"
+          ],
+          "levels": "50-55"
+        },
+        {
+          "name": "Smeargle",
+          "dex_id": "235",
+          "types": [
+            "Normal"
+          ],
+          "levels": "50"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Tentacool",
+          "dex_id": "072",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "20-40"
+        },
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "25-30"
+        },
+        {
+          "name": "Corsola",
+          "dex_id": "222",
+          "types": [
+            "Water",
+            "Rock"
+          ],
+          "levels": "40-45"
+        },
+        {
+          "name": "Mantine",
+          "dex_id": "226",
+          "types": [
+            "Water",
+            "Flying"
+          ],
+          "levels": "50"
+        },
+        {
+          "name": "Wailmer",
+          "dex_id": "387",
+          "types": [
+            "Water"
+          ],
+          "levels": "20-35"
+        },
+        {
+          "name": "Sharpedo",
+          "dex_id": "437",
+          "types": [
+            "Water",
+            "Dark"
+          ],
+          "levels": "50"
+        },
+        {
+          "name": "Bruxish",
+          "dex_id": "469",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "35-45"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Luvdisc",
+          "dex_id": "501",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Shellder",
+          "dex_id": "090",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Chinchou",
+          "dex_id": "170",
+          "types": [
+            "Water",
+            "Electric"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Luvdisc",
+          "dex_id": "501",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Shellder",
+          "dex_id": "090",
+          "types": [
+            "Water"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Chinchou",
+          "dex_id": "170",
+          "types": [
+            "Water",
+            "Electric"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Lanturn",
+          "dex_id": "171",
+          "types": [
+            "Water",
+            "Electric"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Dhelmise",
+          "dex_id": "453",
+          "types": [
+            "Ghost",
+            "Grass"
+          ],
+          "levels": "40"
+        }
+      ]
+    },
+    "Kin Island (ID 563)": {
+      "Surf": [
+        {
+          "name": "Tentacool",
+          "dex_id": "072",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "20-40"
+        },
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "25-30"
+        },
+        {
+          "name": "Corsola",
+          "dex_id": "222",
+          "types": [
+            "Water",
+            "Rock"
+          ],
+          "levels": "40-45"
+        },
+        {
+          "name": "Mantine",
+          "dex_id": "226",
+          "types": [
+            "Water",
+            "Flying"
+          ],
+          "levels": "50"
+        },
+        {
+          "name": "Bruxish",
+          "dex_id": "469",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "35-45"
+        },
+        {
+          "name": "Luvdisc",
+          "dex_id": "501",
+          "types": [
+            "Water"
+          ],
+          "levels": "25-30"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Luvdisc",
+          "dex_id": "501",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Shellder",
+          "dex_id": "090",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Chinchou",
+          "dex_id": "170",
+          "types": [
+            "Water",
+            "Electric"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Luvdisc",
+          "dex_id": "501",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Shellder",
+          "dex_id": "090",
+          "types": [
+            "Water"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Chinchou",
+          "dex_id": "170",
+          "types": [
+            "Water",
+            "Electric"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Lanturn",
+          "dex_id": "171",
+          "types": [
+            "Water",
+            "Electric"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Luvdisc",
+          "dex_id": "501",
+          "types": [
+            "Water"
+          ],
+          "levels": "40"
+        }
+      ]
+    },
+    "Bond Bridge (ID 600)": {
+      "Grass": [
+        {
+          "name": "Butterfree",
+          "dex_id": "012",
+          "types": [
+            "Bug",
+            "Flying"
+          ],
+          "levels": "50-55"
+        },
+        {
+          "name": "Gloom",
+          "dex_id": "044",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "50-55"
+        },
+        {
+          "name": "Weepinbell",
+          "dex_id": "070",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "50-55"
+        },
+        {
+          "name": "Slowbro",
+          "dex_id": "080",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "55"
+        },
+        {
+          "name": "Bellossom",
+          "dex_id": "182",
+          "types": [
+            "Grass"
+          ],
+          "levels": "50-55"
+        },
+        {
+          "name": "Aipom",
+          "dex_id": "190",
+          "types": [
+            "Normal"
+          ],
+          "levels": "45-50"
+        },
+        {
+          "name": "Girafarig",
+          "dex_id": "203",
+          "types": [
+            "Normal",
+            "Psychic"
+          ],
+          "levels": "50"
+        },
+        {
+          "name": "Ambipom",
+          "dex_id": "254",
+          "types": [
+            "Normal"
+          ],
+          "levels": "55"
+        },
+        {
+          "name": "Oricorio",
+          "dex_id": "431",
+          "types": [
+            "Electric",
+            "Flying"
+          ],
+          "levels": "50-55"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Tentacool",
+          "dex_id": "072",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "5-40"
+        },
+        {
+          "name": "Tentacruel",
+          "dex_id": "073",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "35-40"
+        },
+        {
+          "name": "Qwilfish",
+          "dex_id": "211",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "35-45"
+        },
+        {
+          "name": "Carvanha",
+          "dex_id": "436",
+          "types": [
+            "Water",
+            "Dark"
+          ],
+          "levels": "20-40"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Seadra",
+          "dex_id": "117",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Qwilfish",
+          "dex_id": "211",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "20"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Qwilfish",
+          "dex_id": "211",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "40"
+        }
+      ]
+    },
+    "Berry Forest (ID 619)": {
+      "Grass": [
+        {
+          "name": "Pidgeotto",
+          "dex_id": "017",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "47"
+        },
+        {
+          "name": "Gloom",
+          "dex_id": "044",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "45"
+        },
+        {
+          "name": "Venonat",
+          "dex_id": "048",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "44"
+        },
+        {
+          "name": "Venomoth",
+          "dex_id": "049",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "47-50"
+        },
+        {
+          "name": "Drowzee",
+          "dex_id": "096",
+          "types": [
+            "Psychic"
+          ],
+          "levels": "44"
+        },
+        {
+          "name": "Hypno",
+          "dex_id": "097",
+          "types": [
+            "Psychic"
+          ],
+          "levels": "47-55"
+        },
+        {
+          "name": "Exeggcute",
+          "dex_id": "102",
+          "types": [
+            "Grass",
+            "Psychic"
+          ],
+          "levels": "45"
+        },
+        {
+          "name": "Stantler",
+          "dex_id": "234",
+          "types": [
+            "Normal"
+          ],
+          "levels": "50"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Psyduck",
+          "dex_id": "054",
+          "types": [
+            "Water"
+          ],
+          "levels": "10-40"
+        },
+        {
+          "name": "Golduck",
+          "dex_id": "055",
+          "types": [
+            "Water"
+          ],
+          "levels": "50-60"
+        }
+      ]
+    }
+  },
+  "wiki_ground_truth": {
+    "Brine Road East": {
+      "canonical_slug": "Brine_Road_(East_of_the_Old_Shipwreck)",
+      "lead_summary": "Brine Road is a water route that is split in two by an Old Shipwreck. The Eastern side connects to Kin Island and to the Water Labyrinth.",
+      "items": [
+        {
+          "internal_id": "CARBOS",
+          "quantity": "",
+          "name": "Carbos",
+          "location_details": "South of the Old Shipwreck."
+        },
+        {
+          "internal_id": "HPUP",
+          "quantity": "",
+          "name": "HP Up",
+          "location_details": "On the higher ground of the island South-East of the ShipWreck."
+        },
+        {
+          "internal_id": "HEARTSCALE",
+          "quantity": "",
+          "name": "Heart Scale",
+          "location_details": "Given by Fisherman Tommy after defeating him."
+        },
+        {
+          "internal_id": "BIGPEARL",
+          "quantity": "",
+          "name": "Big Pearl",
+          "location_details": "Near the path for Kin Island."
+        },
+        {
+          "internal_id": "machine_PSYCHIC",
+          "quantity": "",
+          "name": "TM16 Light Screen",
+          "location_details": "Behind the Corsolas North of the Old Shipwreck."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Kin Island": {
+      "canonical_slug": "Kin_Island",
+      "lead_summary": "Kin Island, also known as Three Island, is the biggest town in Sevii Islands, and can be accessed from the South by Brine Road (East of the Old Shipwreck) and from the North by the Bond Bridge.\nBebe is in the Pokémon Center and will give the one of the Sinnoh starters.\nJasmine is on vacation with some family at Kin Island, but went North with her nephew and some friends.\nIf the player saw of caught both Kyogre and Groudon, the elderly man in the North-Eastern house will arrange with his son to escort the player to the Sky Pillar in the Harbour.\nThere is a fisherman on the shore who will tell you where it is raining around the Sevii Islands if you are looking for Feebas.",
+      "items": [
+        {
+          "internal_id": "machine_BUG",
+          "quantity": "",
+          "name": "TM114 Leech Life",
+          "location_details": "Behind the cuttable tree."
+        },
+        {
+          "internal_id": "NUGGET",
+          "quantity": "",
+          "name": "Nugget",
+          "location_details": "Given by the Hiker in the Pokémon Appreciation Club."
+        },
+        {
+          "internal_id": "NUGGET",
+          "quantity": "",
+          "name": "Nugget",
+          "location_details": "Hidden in the southwest wall of the cave."
+        },
+        {
+          "internal_id": "NUGGET",
+          "quantity": "",
+          "name": "Nugget",
+          "location_details": "Hidden in the northwest ground of the cave."
+        },
+        {
+          "internal_id": "NUGGET",
+          "quantity": "",
+          "name": "Nugget",
+          "location_details": "Hidden in the northeast wall of the cave."
+        },
+        {
+          "internal_id": "HEARTSCALE",
+          "quantity": "",
+          "name": "Heart Scale",
+          "location_details": "Hidden in the ground in the middle of the cave."
+        },
+        {
+          "internal_id": "HEARTSCALE",
+          "quantity": "",
+          "name": "Heart Scale",
+          "location_details": "Hidden in the northeast of the cave."
+        },
+        {
+          "internal_id": "PRISMSCALE",
+          "quantity": "",
+          "name": "Prism Scale",
+          "location_details": "Given by the Fisherman after showing him a Feebas."
+        },
+        {
+          "internal_id": "GOLDENBANANA",
+          "quantity": "",
+          "name": "Golden Banana",
+          "location_details": "Given by the cook in the hotel after giving her 30 Bananas."
+        },
+        {
+          "internal_id": "STARPIECE",
+          "quantity": "",
+          "name": "Star Piece",
+          "location_details": "Given by the girl in the hotel after investigating the crater at [[Bond Bridge]]."
+        },
+        {
+          "internal_id": "PPMAX",
+          "quantity": "",
+          "name": "PP Max",
+          "location_details": "Given by the Ranger in the hotel after showing her a Pokémon native to Unova."
+        },
+        {
+          "internal_id": "SPRAYDUCK",
+          "quantity": "",
+          "name": "Mareanie Doll",
+          "location_details": "In the bottom-left house, after clearing [[Berry Forest]]."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Bond Bridge": {
+      "canonical_slug": "Bond_Bridge",
+      "lead_summary": "Bond Bridge is a route that connects Berry Forest to Kin Island.\nOne of the Spaceship component can be found on top of the waterfall, by two agents.\nAfter rescuing Jasmine's Nephew and his friends in the Berry Forest, she will accept the player's challenge and battle on the bridge.  \nAfter beating Jasmine, she will give the player a Lvl. 30 Mareanie, which can be used to scare away the Corsola on Brine Road, leading to the Water Labyrinth, Resort Gorgeous, and Chrono Island.\nNote: This Mareanie will not scare away the Corsola on Mt. Ember, that requires the Mareanie Doll found on Kin Island.",
+      "items": [
+        {
+          "internal_id": "BANANA",
+          "quantity": "",
+          "name": "Banana",
+          "location_details": "On several trees on the eastern side of the bridge. Daily respawn."
+        },
+        {
+          "internal_id": "machine_BUG",
+          "quantity": "",
+          "name": "TM89 U-Turn",
+          "location_details": "On the beach on the West side of the river."
+        },
+        {
+          "internal_id": "STARDUST",
+          "quantity": "",
+          "name": "Stardust",
+          "location_details": "On the beach on the East side of the river.."
+        },
+        {
+          "internal_id": "ELIXIR",
+          "quantity": "",
+          "name": "Elixir",
+          "location_details": "Near the entrance to the Berry Forest."
+        },
+        {
+          "internal_id": "GRACIDEA",
+          "quantity": "",
+          "name": "Spaceship Part",
+          "location_details": "Above the waterfall."
+        },
+        {
+          "internal_id": "SPRAYDUCK",
+          "quantity": "",
+          "name": "Mareanie Doll",
+          "location_details": "In [[Randomized Mode]] with Gift Pokémon randomized, given by Jasmine instead of the Mareanie."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Berry Forest": {
+      "canonical_slug": "Berry_Forest",
+      "lead_summary": "Berry Forest is at the end of the Bond Bridge.\nThe first time the player enters, Jasmine will request some help to find her nephew and his friends. After finding them all and defeating the imposter Zoroark, she will accept to duel the player on the Bond Bridge.",
+      "items": [
+        {
+          "internal_id": "machine_PSYCHIC",
+          "quantity": "",
+          "name": "TM85 Dream Eater",
+          "location_details": "On the table in the VR."
+        },
+        {
+          "internal_id": "BABIRIBERRY",
+          "quantity": "",
+          "name": "Babiri Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "CHILANBERRY",
+          "quantity": "",
+          "name": "Chilan Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "CHOPLEBERRY",
+          "quantity": "",
+          "name": "Chople Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "COBABERRY",
+          "quantity": "",
+          "name": "Coba Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "COLBURBERRY",
+          "quantity": "",
+          "name": "Colbur Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "HABANBERRY",
+          "quantity": "",
+          "name": "Haban Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "KASIBBERRY",
+          "quantity": "",
+          "name": "Kasib Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "KEBIABERRY",
+          "quantity": "",
+          "name": "Kebia Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "PAYAPABERRY",
+          "quantity": "",
+          "name": "Payapa Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "RINDOBERRY",
+          "quantity": "",
+          "name": "Rindo Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "SHUCABERRY",
+          "quantity": "",
+          "name": "Shuca Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "TANGABERRY",
+          "quantity": "",
+          "name": "Tanga Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "WACANBERRY",
+          "quantity": "",
+          "name": "Wacan Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "YACHEBERRY",
+          "quantity": "",
+          "name": "Yache Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        }
+      ],
+      "missable_warnings": []
+    }
+  },
+  "location_items_and_statics": [
+    {
+      "type": "Static Encounter",
+      "pokemon": "Feebas",
+      "level": "15",
+      "location": "Kin Island|Sevii Islands",
+      "notes": "Fishing in the Rain"
+    },
+    {
+      "type": "Static Encounter",
+      "pokemon": "Zoroark",
+      "level": "55",
+      "location": "Berry Forest",
+      "notes": "Game Progression"
+    }
+  ],
+  "authoring_guidance": {
+    "splicing_safety": "Explicitly state: HEAD species, BODY species, and WHICH ability to select at the DNA Splicer prompt.",
+    "gym_party_selection_rule": "Built-in 5v5 party limit! When challenged, the game prompts the player to choose which 5 Pokémon from their active party to bring into battle. No PC box deposits required.",
+    "stone_evolutions": "Advisory: Do NOT use evolution stones prematurely on stone-evolvers (e.g. Nidorino) before key level-up moves are learned.",
+    "undercover_informant_rocket": "Guide player to join Team Rocket for disguises/missions, BUT report crimes to police officer for +10 Karma and Diancie unlock!"
+  }
+}

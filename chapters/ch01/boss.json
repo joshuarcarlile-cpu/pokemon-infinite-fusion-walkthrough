@@ -1,0 +1,67 @@
+{
+  "leader": "Brock",
+  "title": "Pewter City Gym Leader",
+  "badge": "Boulder Badge",
+  "hard_mode_level_cap": 14,
+  "gym_duel_limit": 2,
+  "recommended_party_level": 13,
+  "gym_trainers": [
+    {
+      "name": "Camper Liam",
+      "team": [
+        {
+          "species": "Caterpie/Geodude",
+          "level": 7,
+          "types": ["Bug", "Rock"],
+          "moves": ["Tackle", "String Shot", "Rock Polish"]
+        },
+        {
+          "species": "Sandshrew/Geodude",
+          "level": 7,
+          "types": ["Ground", "Rock"],
+          "moves": ["Poison Sting", "Sand Attack", "Defense Curl", "Rock Polish"]
+        }
+      ]
+    }
+  ],
+  "leader_team": [
+    {
+      "species": "Geodude/Pidgey",
+      "level": 10,
+      "types": ["Rock", "Flying"],
+      "ability": "Tangled Feet",
+      "moves": [
+        "Gust",
+        "Sand Attack",
+        "Rock Tomb",
+        "Rock Polish"
+      ]
+    },
+    {
+      "species": "Diglett/Onix",
+      "level": 14,
+      "types": ["Ground", "Rock"],
+      "ability": "Sturdy",
+      "is_ace": true,
+      "moves": [
+        "Rock Tomb",
+        "Bind",
+        "Dig",
+        "Rage"
+      ]
+    }
+  ],
+  "threat_analysis": "Brock's Classic Hard Mode lineup pairs Rock with Flying and Ground bodies. Geodude/Pidgey eliminates Rock's Ground/Grass weakness via Flying typing and pressures Fighting types with STAB Gust. The Ace, Diglett/Onix (Lv. 14), carries Sturdy, surviving any lethal hit at 1 HP. Dig allows invulnerability turns while Bind chips and prevents switching. Rock Tomb drops Speed on hit.",
+  "tactical_counter_plan": [
+    "Bulbasaur Team Strategy: Lead with Bulbasaur. Use Leech Seed on turn 1. Leech Seed damage triggers at the end of the turn, completely nullifying Sturdy and bypassing Dig. Follow up with Vine Whip (4x super effective on Diglett/Onix).",
+    "Squirtle Team Strategy: Lead with Squirtle (or Squirtle/Tangela fusion). Water Gun cleanly 2HKOs both leads. High base Defense shrugs off Rock Tomb and Bind.",
+    "Charmander Team Strategy: DO NOT leave Charmander in against Diglett/Onix (Rock Tomb is an instant OHKO). Lead with Route 22 Mankey (Low Kick scales on Onix's 210 kg body for 100 base power x 4x weakness = 400 effective power). Alternatively, use Viridian Forest Butterfree Lv. 10 (Confusion targets low SpD and inflicts self-damaging confusion through Sturdy).",
+    "Handling the Dig/Bind Stall: If Diglett/Onix burrows underground with Dig, use that turn to use Growth, Tail Whip, or Leech Seed. Do not waste damaging moves into Dig."
+  ],
+  "rewards": [
+    "Boulder Badge (Enables use of Flash in overworld, ensures obedience up to Lv. 20)",
+    "TM39 (Rock Tomb)",
+    "Drying Pan & Premium Wonder Trade Ticket",
+    "Unlocks DNA Reversers ($300) for purchase in all Poké Marts"
+  ]
+}

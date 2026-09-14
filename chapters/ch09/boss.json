@@ -1,0 +1,95 @@
+{
+  "leader": "Champion Blue & The Elite Four",
+  "title": "The Pokémon League Gauntlet",
+  "gym": "Indigo Plateau",
+  "badge": "Champion Title",
+  "level_cap": 62,
+  "hard_mode_level_cap": 62,
+  "recommended_party_level": 62,
+  "gym_duel_limit": 6,
+  "party_selection_rule": "6 vs 6 Full Party Battle (standard Pokémon League rules; all 6 party members battle)",
+  "overview": "The Indigo Plateau gauntlet is the ultimate test of Act 1: five consecutive high-tier trainer battles with no mid-gauntlet Pokémon Center visits. Lorelei leads with Ice/Water bulks, Bruno commands Fighting/Steel brawn, Agatha exploits Ghost/Poison status hexes, Lance unleashes high-speed Dragons, and Champion Blue tests your mastery with a diverse 6-mon roster headlined by Mythical Mew (Lv. 62) wielding Hydro Cannon and Flare Blitz.",
+  "elite_four_summary": [
+    {
+      "trainer": "Lorelei",
+      "specialty": "Ice / Water",
+      "key_threats": "Weavile/Lapras (Lv. 57 Dark/Ice), Jynx/Tangrowth (Lv. 57 Ice/Grass), Magmar/Dewgong (Lv. 54 Fire/Ice). Exploit Rock, Fighting, and Electric moves; avoid Sleep and Hail chip."
+    },
+    {
+      "trainer": "Bruno",
+      "specialty": "Fighting / Steel",
+      "key_threats": "Magnezone/Onix (Lv. 57 Electric/Ground), Scizor/Heracross (Lv. 57 Bug/Fighting), Steelix/Machamp (Lv. 53 Steel/Fighting). Ground shreds Magnezone; Fire melts Scizor; Psychic wipes Fighting types."
+    },
+    {
+      "trainer": "Agatha",
+      "specialty": "Ghost / Dark / Poison",
+      "key_threats": "Snorlax/Gengar (Lv. 58 Normal/Ghost), Mismagius/Crobat (Lv. 57 Ghost/Poison), Wobbuffet/Gengar (Lv. 55 Destiny Bond/Counter). Beware Destiny Bond/Counter; strike with Dark or special bursts."
+    },
+    {
+      "trainer": "Lance",
+      "specialty": "Dragon / Flying",
+      "key_threats": "Tyranitar/Aerodactyl (Lv. 59 Rock/Flying), Togekiss/Dragonite (Lv. 58 Fairy/Flying), Dragonair/Gyarados (Lv. 55 Rain Dance). Ice Beam and Thunderbolt decimate his dual Flying/Dragon team."
+    }
+  ],
+  "roster": [
+    {
+      "species": "Starmie/Alakazam",
+      "level": 58,
+      "types": ["Water", "Psychic"],
+      "ability": "Synchronize",
+      "item": "Twisted Spoon",
+      "moves": ["Psychic", "Reflect", "Surf", "Cosmic Power"],
+      "tactics": "Blazing fast special lead. Sets Reflect and boosts defenses. Strike immediately with Electric, Grass, Ghost, Dark, or Bug moves before screens go up."
+    },
+    {
+      "species": "Tauros/Exeggutor",
+      "level": 59,
+      "types": ["Normal", "Grass"],
+      "ability": "Chlorophyll",
+      "item": "Miracle Seed",
+      "moves": ["Zen Headbutt", "Giga Impact", "Scary Face", "Swagger"],
+      "tactics": "Heavy wallbreaker. Suffers 4x Bug weakness (U-turn / X-Scissor) or 2x Fire, Ice, Flying, Poison, and Fighting. Punish the recharge turn after Giga Impact."
+    },
+    {
+      "species": "Nidoking/Pidgeot",
+      "level": 59,
+      "types": ["Poison", "Flying"],
+      "ability": "Poison Point",
+      "item": "Poison Barb",
+      "moves": ["Earthquake", "Wing Attack", "Double Team", "Swords Dance"],
+      "tactics": "Swords Dance booster with ground/flying coverage. Flying grants Ground immunity. Ice, Psychic, Electric, and Rock moves quickly take it down."
+    },
+    {
+      "species": "Rhydon/Magmortar",
+      "level": 60,
+      "types": ["Ground", "Fire"],
+      "ability": "Flame Body",
+      "item": "Hard Stone",
+      "moves": ["Fire Blast", "Drill Run", "Will-O-Wisp", "Stone Edge"],
+      "tactics": "Heavy mixed tank. Spreads burn with Will-O-Wisp. Suffers a fatal 4x weakness to Water and 2x to Ground. Cleanly OHKO with Surf or Waterfall."
+    },
+    {
+      "species": "Electivire/Gyarados",
+      "level": 61,
+      "types": ["Electric", "Flying"],
+      "ability": "Motor Drive",
+      "item": "Magnet",
+      "moves": ["Rain Dance", "Thunderbolt", "Waterfall", "Dragon Dance"],
+      "tactics": "Fierce Dragon Dancer. Electric/Flying grants Ground immunity; weak only to Rock and Ice. Hit hard with Stone Edge or Ice Beam before boosts stack."
+    },
+    {
+      "species": "Mew",
+      "level": 62,
+      "types": ["Psychic"],
+      "ability": "Synchronize",
+      "item": "Lum Berry",
+      "moves": ["Hydro Cannon", "Flare Blitz", "Protect", "Fly"],
+      "tactics": "Champion Blue's Mythical Ace. High all-around stats with Hydro Cannon and Flare Blitz. Exploit recharge and recoil turns with Dark, Ghost, and Bug STAB strikes."
+    }
+  ],
+  "starter_strategies": {
+    "bulbasaur": "Venusaur/Charizard uses Solar Beam/Petal Dance against Lorelei and Blue's Rhydon/Magmortar while resisting Bruno's Fighting moves. Alakazam/Weezing provides Levitate Ground immunity and Psychic STAB against Bruno and Agatha. Gyarados/Arbok intimidates and fires Ice Fang at Lance's dragons. Snorlax sponges Mew's bursts.",
+    "charmander": "Charizard/Venusaur provides Ground immunity and dual Grass/Fire STAB, melting Lorelei's Ice types and destroying Blue's Tauros and Rhydon. Lapras carries Ice Beam and Surf to dismantle Lance's Flying/Dragon squad. Gyarados/Nidoking pivots with Intimidate. Snorlax walls Mew with colossal HP and Body Slam.",
+    "squirtle": "Blastoise/Fearow provides Ground immunity and crushes Bruno and Blue's Fire/Ground threats with Hydro Pump. Alakazam/Weezing dominates Bruno with Psychic and pivots on Earthquakes. Jolteon/Sandslash outspeeds and electrocutes Lorelei's Water types and Blue's Gyarados fusion. Snorlax walls Agatha's Ghost strikes."
+  }
+}

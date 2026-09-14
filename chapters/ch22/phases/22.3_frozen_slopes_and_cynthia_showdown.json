@@ -1,0 +1,101 @@
+{
+  "name": "Frozen Ascent & Sinnoh Champion Cynthia",
+  "summary": "Use your newly acquired Rock Climb tool to scale the craggy cliff walls through 3F, emerging onto the blustery sub-zero Snow Field high upon Mt. Silver. Heavy snowfall blurs visibility while wild Sneasel, Weavile, Skarmory, and Ursaring brave the arctic winds. Weave across the ice-slicked precipices and re-enter the mountain interior via the 4F cavern entrance. Blocking the final stairway to the summit stands Sinnoh Champion Cynthia. To safeguard the realm from an untimely catastrophe, Cynthia insists on testing your battle mettle personally before allowing you near the spacetime rift. Defeat her balanced Sinnoh powerhouses (Lv. 71-73) to clear your path to the summit.",
+  "items": [
+    {
+      "name": "Max Revive",
+      "method": "Found in an icy cavern nook past the staircase leading to 3F",
+      "type": "Consumable"
+    },
+    {
+      "name": "Rare Candy",
+      "method": "Located on an elevated ledge during the Rock Climb ascent to 4F",
+      "type": "Consumable"
+    },
+    {
+      "name": "Hyper Potion",
+      "method": "Hidden behind a frozen stalagmite just before Cynthia's arena",
+      "type": "Consumable"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Champion Cynthia",
+      "title": "Sinnoh Champion",
+      "reward": "P8,760",
+      "pokemon": [
+        {
+          "species": "Porygon-Z/Spiritomb",
+          "level": 71,
+          "types": ["Normal", "Ghost"]
+        },
+        {
+          "species": "Togekiss/Ludicolo",
+          "level": 71,
+          "types": ["Fairy", "Water"]
+        },
+        {
+          "species": "Garchomp/Milotic",
+          "level": 73,
+          "types": ["Dragon", "Water"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Snow Field": [
+      {
+        "species": "Golbat",
+        "levels": "55-58",
+        "rate": "30%"
+      },
+      {
+        "species": "Sneasel",
+        "levels": "56-58",
+        "rate": "25%"
+      },
+      {
+        "species": "Skarmory",
+        "levels": "56-58",
+        "rate": "20%"
+      },
+      {
+        "species": "Ursaring",
+        "levels": "56-58",
+        "rate": "15%"
+      },
+      {
+        "species": "Weavile",
+        "levels": "60",
+        "rate": "10%"
+      }
+    ],
+    "Cave": [
+      {
+        "species": "Graveler",
+        "levels": "52-54",
+        "rate": "35%"
+      },
+      {
+        "species": "Golbat",
+        "levels": "56-58",
+        "rate": "25%"
+      },
+      {
+        "species": "Donphan",
+        "levels": "56-58",
+        "rate": "20%"
+      },
+      {
+        "species": "Larvitar",
+        "levels": "25-30",
+        "rate": "10%"
+      },
+      {
+        "species": "Pupitar",
+        "levels": "58",
+        "rate": "10%"
+      }
+    ]
+  }
+}

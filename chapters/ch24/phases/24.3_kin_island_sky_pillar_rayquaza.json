@@ -1,0 +1,81 @@
+{
+  "name": "Kin Island Sky Pillar & Rayquaza",
+  "summary": "With both Groudon and Kyogre awakened, speak to the knowledgeable elder in Kin Island's square, who escorts you to the harbor and pilots a chartered vessel to the ancient Sky Pillar. Enter the colossal stone tower and ascend through all five treacherous floors. High-level wild Metang, Dusclops, Mawile, and Ariados inhabit the ruined platforms. Reach the cloudswept pinnacle to confront the master of the skies, Rayquaza (Lv. 70). With its Air Lock ability suppressing all atmospheric weather, deploy Lapras's 4x STAB Ice Beam to bring the legendary dragon low and secure its capture.",
+  "items": [
+    {
+      "name": "Dragon Fang",
+      "method": "Hidden behind a crumbling dragon statue on Sky Pillar 4F",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Max Revive",
+      "method": "Found in a stone nook near the center staircase on 3F",
+      "type": "Consumable"
+    },
+    {
+      "name": "TM02 Dragon Claw",
+      "method": "Located on the outer wind-swept balcony on 5F",
+      "type": "TM"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Dragon Tamer Drake",
+      "title": "Dragon Tamer",
+      "reward": "P4,400",
+      "pokemon": [
+        {
+          "species": "Salamence/Flygon",
+          "level": 72,
+          "types": ["Dragon", "Ground"]
+        },
+        {
+          "species": "Kingdra/Altaria",
+          "level": 72,
+          "types": ["Water", "Dragon"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Cave": [
+      {
+        "species": "Metang",
+        "levels": "55-60",
+        "rate": "20%"
+      },
+      {
+        "species": "Dusclops",
+        "levels": "55-60",
+        "rate": "25%"
+      },
+      {
+        "species": "Mawile",
+        "levels": "54-58",
+        "rate": "20%"
+      },
+      {
+        "species": "Ariados",
+        "levels": "54-58",
+        "rate": "15%"
+      },
+      {
+        "species": "Golbat",
+        "levels": "55-60",
+        "rate": "10%"
+      },
+      {
+        "species": "Nosepass",
+        "levels": "54-58",
+        "rate": "10%"
+      }
+    ],
+    "Special": [
+      {
+        "species": "Rayquaza",
+        "levels": "70",
+        "rate": "Sky Pillar Apex Static Boss Event"
+      }
+    ]
+  }
+}

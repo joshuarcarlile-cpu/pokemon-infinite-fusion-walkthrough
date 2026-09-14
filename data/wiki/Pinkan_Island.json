@@ -1,0 +1,416 @@
+{
+  "title": "Pinkan_Island",
+  "url": "https://infinitefusion.fandom.com/wiki/Pinkan_Island",
+  "lead_summary": "Pinkan Island is a location that can only by accessed during the \"Pinkan Island!\" quest in Goldenrod City. If the player leaves the island, then the quest's progress is reset.",
+  "missable_warnings": [],
+  "items": [
+    {
+      "internal_id": "EMERGENCYWHISTLE",
+      "quantity": "",
+      "name": "Emergency Whistle",
+      "location_details": "Received upon arriving at the island."
+    },
+    {
+      "internal_id": "POKEBALL",
+      "quantity": "5",
+      "name": "Poké Ball",
+      "location_details": "When playing on the Police's side, given by the police officer on the right side of the south pier if the player has less than 5 Poké Balls."
+    },
+    {
+      "internal_id": "DNASPLICERS",
+      "quantity": "5",
+      "name": "DNA Splicer",
+      "location_details": "When playing on the Police's side, given by the police officer on the right side of the south pier if the player has less than 5 DNA Splicers."
+    },
+    {
+      "internal_id": "DNAREVERSER",
+      "quantity": "2",
+      "name": "DNA Reverser",
+      "location_details": "When playing on the Police's side, given by the police officer on the right side of the south pier if the player has less than 5 DNA Splicers."
+    },
+    {
+      "internal_id": "FULLRESTORE",
+      "quantity": "",
+      "name": "Full Restore",
+      "location_details": "When playing on the Police's side, given by a police officer after defeating Team Rocket Angelina."
+    },
+    {
+      "internal_id": "machine_NORMAL",
+      "quantity": "",
+      "name": "HM01 Cut",
+      "location_details": "When playing on the Police's side, behind a smashable rock on the western shore."
+    },
+    {
+      "internal_id": "PINKANBERRY",
+      "quantity": "",
+      "name": "Pinkan Berry",
+      "location_details": "When playing on the Police's side, dropped by a Team Rocket grunt next to the river on the northern end of the island."
+    },
+    {
+      "internal_id": "PINKANBERRY",
+      "quantity": "",
+      "name": "Pinkan Berry",
+      "location_details": "When playing on the Police's side, dropped by a Team Rocket grunt next on the northwestern end of the island."
+    },
+    {
+      "internal_id": "PINKANBERRY",
+      "quantity": "",
+      "name": "Pinkan Berry",
+      "location_details": "When playing on the Police's side, dropped by a Team Rocket grunt on the western shore."
+    },
+    {
+      "internal_id": "PINKANBERRY",
+      "quantity": "",
+      "name": "Pinkan Berry",
+      "location_details": "When playing on the Police's side, dropped by a Team Rocket grunt next to the forest's entrance."
+    },
+    {
+      "internal_id": "PINKANBERRY",
+      "quantity": "",
+      "name": "Pinkan Berry",
+      "location_details": "When playing on the Police's side, dropped by a Team Rocket grunt in the forest clearing."
+    },
+    {
+      "internal_id": "ROCKETBALL",
+      "quantity": "5",
+      "name": "Rocket Ball",
+      "location_details": "When playing on Team Rocket's side, given by a grunt on the western shore near the boat."
+    },
+    {
+      "internal_id": "DNASPLICERS",
+      "quantity": "5",
+      "name": "DNA Splicer",
+      "location_details": "When playing on Team Rocket's side, given by a grunt on the western shore near the boat if the player has less than 5 DNA Splicers."
+    },
+    {
+      "internal_id": "DNAREVERSER",
+      "quantity": "2",
+      "name": "DNA Reverser",
+      "location_details": "When playing on Team Rocket's side, given by a grunt on the western shore near the boat if the player has less than 5 DNA Splicers."
+    },
+    {
+      "internal_id": "FULLRESTORE",
+      "quantity": "",
+      "name": "Full Restore",
+      "location_details": "When playing on Team Rocket's side, given by a grunt after defeating Police Officer Graham."
+    },
+    {
+      "internal_id": "PINKANBERRY",
+      "quantity": "",
+      "name": "Pinkan Berry",
+      "location_details": "When playing on Team Rocket's side, taken from the berry bush next to the river on the northern end of the island."
+    },
+    {
+      "internal_id": "PINKANBERRY",
+      "quantity": "",
+      "name": "Pinkan Berry",
+      "location_details": "When playing on Team Rocket's side, taken from the berry bush on the northwestern end of the island."
+    },
+    {
+      "internal_id": "PINKANBERRY",
+      "quantity": "",
+      "name": "Pinkan Berry",
+      "location_details": "When playing on Team Rocket's side, taken from the berry bush on the western shore."
+    },
+    {
+      "internal_id": "PINKANBERRY",
+      "quantity": "",
+      "name": "Pinkan Berry",
+      "location_details": "When playing on Team Rocket's side, taken from the berry bush next to the forest's entrance."
+    },
+    {
+      "internal_id": "PINKANBERRY",
+      "quantity": "",
+      "name": "Pinkan Berry",
+      "location_details": "When playing on Team Rocket's side, taken from the berry bush in the forest clearing."
+    },
+    {
+      "internal_id": "FULLRESTORE",
+      "quantity": "",
+      "name": "Full Restore",
+      "location_details": "Next to a patch of grass on the southwestern edge of the island."
+    },
+    {
+      "internal_id": "BERRYJUICE",
+      "quantity": "",
+      "name": "Berry Juice",
+      "location_details": "On the western side of the island."
+    },
+    {
+      "internal_id": "GREATBALL",
+      "quantity": "2",
+      "name": "Great Ball",
+      "location_details": "Near the river."
+    },
+    {
+      "internal_id": "ENERGYROOT",
+      "quantity": "",
+      "name": "Energy Root",
+      "location_details": "Next to the smashable rocks by the Stufful/Rhyhorn fusion on the western side of the island."
+    },
+    {
+      "internal_id": "machine_FIGHTING",
+      "quantity": "",
+      "name": "TM94 Rock Smash",
+      "location_details": "Dropped by the Stufful/Rhyhorn fusion behind the smashable rocks, after feeding it a Pinkan Berry and defeating it."
+    },
+    {
+      "internal_id": "ENERGYPOWDER",
+      "quantity": "",
+      "name": "Energy Powder",
+      "location_details": "In between two ledges on the western side of the island."
+    },
+    {
+      "internal_id": "BERRYJUICE",
+      "quantity": "2",
+      "name": "Berry Juice",
+      "location_details": "On the ground outside the hollow on the northwestern end of the island."
+    },
+    {
+      "internal_id": "FULLRESTORE",
+      "quantity": "",
+      "name": "Full Restore",
+      "location_details": "Behind a cuttable tree on the western side of the island."
+    },
+    {
+      "internal_id": "ELIXIR",
+      "quantity": "",
+      "name": "Elixir",
+      "location_details": "Behind a cuttable tree on the southwestern end of the island."
+    },
+    {
+      "internal_id": "GOODROD",
+      "quantity": "",
+      "name": "Good Rod",
+      "location_details": "Behind a smashable rock on the southwestern end of the island."
+    },
+    {
+      "internal_id": "MOONSTONE",
+      "quantity": "",
+      "name": "Moon Stone",
+      "location_details": "At the top of the waterfall on the northern end of the island."
+    },
+    {
+      "internal_id": "ELIXIR",
+      "quantity": "",
+      "name": "Elixir",
+      "location_details": "Behind a cuttable tree on the southern end of the island next to the river."
+    },
+    {
+      "internal_id": "LEAFSTONE",
+      "quantity": "",
+      "name": "Leaf Stone",
+      "location_details": "Bewtwen some trees on the eastern side of the island next to the river."
+    },
+    {
+      "internal_id": "MOONSTONE",
+      "quantity": "",
+      "name": "Moon Stone",
+      "location_details": "Behind a cuttable tree and smashable rock on the eastern side of the island after exiting the forest."
+    },
+    {
+      "internal_id": "WATERSTONE",
+      "quantity": "",
+      "name": "Water Stone",
+      "location_details": "Behind a pushable rock on the southeastern corner of the island after exiting the forest."
+    },
+    {
+      "internal_id": "ULTRABALL",
+      "quantity": "2",
+      "name": "Ultra Ball",
+      "location_details": "Up the waterfalls on the southeastern end of the island."
+    },
+    {
+      "internal_id": "REVIVALHERB",
+      "quantity": "",
+      "name": "Revival Herb",
+      "location_details": "Up the waterfalls on the southeastern end of the island."
+    },
+    {
+      "internal_id": "MOONSTONE",
+      "quantity": "",
+      "name": "Moon Stone",
+      "location_details": "In exchange for any Pokémon, random chance to be given by either Ranger on the northwestern or southeastern ends of the island."
+    },
+    {
+      "internal_id": "LEAFSTONE",
+      "quantity": "",
+      "name": "Leaf Stone",
+      "location_details": "In exchange for any Pokémon, random chance to be given by either Ranger on the northwestern or southeastern ends of the island."
+    },
+    {
+      "internal_id": "WATERSTONE",
+      "quantity": "",
+      "name": "Water Stone",
+      "location_details": "In exchange for any Pokémon, random chance to be given by either Ranger on the northwestern or southeastern ends of the island."
+    },
+    {
+      "internal_id": "REVIVE",
+      "quantity": "",
+      "name": "Revive",
+      "location_details": "In exchange for any Pokémon, random chance to be given by either Ranger on the northwestern or southeastern ends of the island."
+    },
+    {
+      "internal_id": "MAXREVIVE",
+      "quantity": "",
+      "name": "Max Revive",
+      "location_details": "In exchange for any Pokémon, random chance to be given by either Ranger on the northwestern or southeastern ends of the island."
+    },
+    {
+      "internal_id": "MAXPOTION",
+      "quantity": "",
+      "name": "Max Potion",
+      "location_details": "In exchange for any Pokémon, random chance to be given by either Ranger on the northwestern or southeastern ends of the island."
+    },
+    {
+      "internal_id": "FULLRESTORE",
+      "quantity": "",
+      "name": "Full Restore",
+      "location_details": "In exchange for any Pokémon, random chance to be given by either Ranger on the northwestern or southeastern ends of the island."
+    },
+    {
+      "internal_id": "MAXELIXIR",
+      "quantity": "",
+      "name": "Max Elixir",
+      "location_details": "In exchange for any Pokémon, random chance to be given by either Ranger on the northwestern or southeastern ends of the island."
+    },
+    {
+      "internal_id": "machine_NORMAL",
+      "quantity": "",
+      "name": "HM01 Cut",
+      "location_details": "When playing on Team Rocket's side, in a box."
+    },
+    {
+      "internal_id": "KELPSYBERRY",
+      "quantity": "1-2",
+      "name": "Kelpsy Berry",
+      "location_details": "In a box, random chance daily."
+    },
+    {
+      "internal_id": "QUALOTBERRY",
+      "quantity": "1-2",
+      "name": "Qualot Berry",
+      "location_details": "In a box, random chance daily."
+    },
+    {
+      "internal_id": "HONDEWBERRY",
+      "quantity": "1-2",
+      "name": "Hondew Berry",
+      "location_details": "In a box, random chance daily."
+    },
+    {
+      "internal_id": "GREPABERRY",
+      "quantity": "1-2",
+      "name": "Grepa Berry",
+      "location_details": "In a box, random chance daily."
+    },
+    {
+      "internal_id": "TAMATOBERRY",
+      "quantity": "1-2",
+      "name": "Tamato Berry",
+      "location_details": "In a box, random chance daily."
+    },
+    {
+      "internal_id": "CORNNBERRY",
+      "quantity": "1-2",
+      "name": "Cornn Berry",
+      "location_details": "In a box, random chance daily."
+    },
+    {
+      "internal_id": "PINKANBERRY",
+      "quantity": "",
+      "name": "Pinkan Berry",
+      "location_details": "When playing on the Police's side, dropped by a Team Rocket grunt behind a cuttable tree."
+    },
+    {
+      "internal_id": "PINKANBERRY",
+      "quantity": "",
+      "name": "Pinkan Berry",
+      "location_details": "When playing on the Police's side, dropped by a Team Rocket grunt behind the water in the top left of the map."
+    },
+    {
+      "internal_id": "PINKANBERRY",
+      "quantity": "",
+      "name": "Pinkan Berry",
+      "location_details": "When playing on Team Rocket's side, taken from the berry bush behind a cuttable tree."
+    },
+    {
+      "internal_id": "PINKANBERRY",
+      "quantity": "",
+      "name": "Pinkan Berry",
+      "location_details": "When playing on Team Rocket's side, taken from the berry bush behind the water in the top left of the map."
+    },
+    {
+      "internal_id": "GREATBALL",
+      "quantity": "2",
+      "name": "Great Ball",
+      "location_details": "On the ground behind the water in the top left of the map."
+    },
+    {
+      "internal_id": "HEALPOWDER",
+      "quantity": "",
+      "name": "Heal Powder",
+      "location_details": "Near the Clefable/Machoke fusion."
+    },
+    {
+      "internal_id": "machine_NORMAL",
+      "quantity": "",
+      "name": "HM04 Strength",
+      "location_details": "Dropped by the Clefable/Machoke fusion, after feeding it a Pinkan Berry and defeating it."
+    },
+    {
+      "internal_id": "HEALPOWDER",
+      "quantity": "",
+      "name": "Heal Powder",
+      "location_details": "On the ground on the right side of the first (Slowbro/Jynx) hollow."
+    },
+    {
+      "internal_id": "machine_WATER",
+      "quantity": "",
+      "name": "HM03 Surf",
+      "location_details": "Dropped by the Slowbro/Jynx after defeating it."
+    },
+    {
+      "internal_id": "REVIVE",
+      "quantity": "",
+      "name": "Revive",
+      "location_details": "Behind the water in the first (Slowbro/Jynx) hollow."
+    },
+    {
+      "internal_id": "machine_WATER",
+      "quantity": "",
+      "name": "HM05 Waterfall",
+      "location_details": "Dropped by the Bruxish/Gyadaros after defeating it."
+    },
+    {
+      "internal_id": "ENERGYPOWDER",
+      "quantity": "2",
+      "name": "Energy Powder",
+      "location_details": "At the back of the second (Bruxish/Gyarados) hollow."
+    },
+    {
+      "internal_id": "DIAMOND",
+      "quantity": "",
+      "name": "Diamond",
+      "location_details": "On the right side of the third (Diancie) hollow."
+    }
+  ],
+  "sections": [
+    "Items",
+    "Pokémon",
+    "Pinkan Island",
+    "Pinkan Forest",
+    "Pinkan Hollow",
+    "Trainers",
+    "Team Rocket Side",
+    "Police Side",
+    "Quest Walkthrough",
+    "Police Side",
+    "Team Rocket Side",
+    "Layout",
+    "Points of Interest",
+    "Releasing Pokémon to the wild",
+    "Clearing the stage without stealing mons"
+  ],
+  "raw_wikitext": "{{InfoboxLocation\n|region=Sevii Islands\n|location_image=Pinkan Island.png\n|connection_1_direction=west\n|connection_1_location=Goldenrod City\n}}\n\nPinkan Island is a location that can only by accessed during the \"Pinkan Island!\" [[Quests|quest]] in [[Goldenrod City]]. If the player leaves the island, then the quest's progress is reset.\n\n==Items==\n{{ItemTable/Header}}\n{{ItemTable/Section|Pinkan Island}}\n{{ItemTable/Data|EMERGENCYWHISTLE||Emergency Whistle|Received upon arriving at the island.|}}\n{{ItemTable/Data|POKEBALL|5|Poké Ball|When playing on the Police's side, given by the police officer on the right side of the south pier if the player has less than 5 Poké Balls.|}}\n{{ItemTable/Data|DNASPLICERS|5|DNA Splicer|When playing on the Police's side, given by the police officer on the right side of the south pier if the player has less than 5 DNA Splicers.|}}\n{{ItemTable/Data|DNAREVERSER|2|DNA Reverser|When playing on the Police's side, given by the police officer on the right side of the south pier if the player has less than 5 DNA Splicers.|}}\n{{ItemTable/Data|FULLRESTORE||Full Restore|When playing on the Police's side, given by a police officer after defeating Team Rocket Angelina.|}}\n{{ItemTable/Data|machine_NORMAL||HM01 Cut|When playing on the Police's side, behind a smashable rock on the western shore.|}}\n{{ItemTable/Data|PINKANBERRY||Pinkan Berry|When playing on the Police's side, dropped by a Team Rocket grunt next to the river on the northern end of the island.|}}\n{{ItemTable/Data|PINKANBERRY||Pinkan Berry|When playing on the Police's side, dropped by a Team Rocket grunt next on the northwestern end of the island.|}}\n{{ItemTable/Data|PINKANBERRY||Pinkan Berry|When playing on the Police's side, dropped by a Team Rocket grunt on the western shore.|}}\n{{ItemTable/Data|PINKANBERRY||Pinkan Berry|When playing on the Police's side, dropped by a Team Rocket grunt next to the forest's entrance.|}}\n{{ItemTable/Data|PINKANBERRY||Pinkan Berry|When playing on the Police's side, dropped by a Team Rocket grunt in the forest clearing.|}}\n{{ItemTable/Data|ROCKETBALL|5|Rocket Ball|When playing on Team Rocket's side, given by a grunt on the western shore near the boat.|}}\n{{ItemTable/Data|DNASPLICERS|5|DNA Splicer|When playing on Team Rocket's side, given by a grunt on the western shore near the boat if the player has less than 5 DNA Splicers.|}}\n{{ItemTable/Data|DNAREVERSER|2|DNA Reverser|When playing on Team Rocket's side, given by a grunt on the western shore near the boat if the player has less than 5 DNA Splicers.|}}\n{{ItemTable/Data|FULLRESTORE||Full Restore|When playing on Team Rocket's side, given by a grunt after defeating Police Officer Graham.|}}\n{{ItemTable/Data|PINKANBERRY||Pinkan Berry|When playing on Team Rocket's side, taken from the berry bush next to the river on the northern end of the island.|}}\n{{ItemTable/Data|PINKANBERRY||Pinkan Berry|When playing on Team Rocket's side, taken from the berry bush on the northwestern end of the island.|}}\n{{ItemTable/Data|PINKANBERRY||Pinkan Berry|When playing on Team Rocket's side, taken from the berry bush on the western shore.|}}\n{{ItemTable/Data|PINKANBERRY||Pinkan Berry|When playing on Team Rocket's side, taken from the berry bush next to the forest's entrance.|}}\n{{ItemTable/Data|PINKANBERRY||Pinkan Berry|When playing on Team Rocket's side, taken from the berry bush in the forest clearing.|}}\n{{ItemTable/Data|FULLRESTORE||Full Restore|Next to a patch of grass on the southwestern edge of the island.|}}\n{{ItemTable/Data|BERRYJUICE||Berry Juice|On the western side of the island.|}}\n{{ItemTable/Data|GREATBALL|2|Great Ball|Near the river.|}}\n{{ItemTable/Data|ENERGYROOT||Energy Root|Next to the smashable rocks by the Stufful/Rhyhorn fusion on the western side of the island.|}}\n{{ItemTable/Data|machine_FIGHTING||TM94 Rock Smash|Dropped by the Stufful/Rhyhorn fusion behind the smashable rocks, after feeding it a Pinkan Berry and defeating it.|}}\n{{ItemTable/Data|ENERGYPOWDER||Energy Powder|In between two ledges on the western side of the island.|}}\n{{ItemTable/Data|BERRYJUICE|2|Berry Juice|On the ground outside the hollow on the northwestern end of the island.|}}\n{{ItemTable/Data|FULLRESTORE||Full Restore|Behind a cuttable tree on the western side of the island.|}}\n{{ItemTable/Data|ELIXIR||Elixir|Behind a cuttable tree on the southwestern end of the island.|}}\n{{ItemTable/Data|GOODROD||Good Rod|Behind a smashable rock on the southwestern end of the island.|}}\n{{ItemTable/Data|MOONSTONE||Moon Stone|At the top of the waterfall on the northern end of the island.|}}\n{{ItemTable/Data|ELIXIR||Elixir|Behind a cuttable tree on the southern end of the island next to the river.|}}\n{{ItemTable/Data|LEAFSTONE||Leaf Stone|Bewtwen some trees on the eastern side of the island next to the river.|}}\n{{ItemTable/Data|MOONSTONE||Moon Stone|Behind a cuttable tree and smashable rock on the eastern side of the island after exiting the forest.|}}\n{{ItemTable/Data|WATERSTONE||Water Stone|Behind a pushable rock on the southeastern corner of the island after exiting the forest.|}}\n{{ItemTable/Data|ULTRABALL|2|Ultra Ball|Up the waterfalls on the southeastern end of the island.|}}\n{{ItemTable/Data|REVIVALHERB||Revival Herb|Up the waterfalls on the southeastern end of the island.|}}\n{{ItemTable/Data|MOONSTONE||Moon Stone|In exchange for any Pokémon, random chance to be given by either Ranger on the northwestern or southeastern ends of the island.|}}\n{{ItemTable/Data|LEAFSTONE||Leaf Stone|In exchange for any Pokémon, random chance to be given by either Ranger on the northwestern or southeastern ends of the island.|}}\n{{ItemTable/Data|WATERSTONE||Water Stone|In exchange for any Pokémon, random chance to be given by either Ranger on the northwestern or southeastern ends of the island.|}}\n{{ItemTable/Data|REVIVE||Revive|In exchange for any Pokémon, random chance to be given by either Ranger on the northwestern or southeastern ends of the island.|}}\n{{ItemTable/Data|MAXREVIVE||Max Revive|In exchange for any Pokémon, random chance to be given by either Ranger on the northwestern or southeastern ends of the island.|}}\n{{ItemTable/Data|MAXPOTION||Max Potion|In exchange for any Pokémon, random chance to be given by either Ranger on the northwestern or southeastern ends of the island.|}}\n{{ItemTable/Data|FULLRESTORE||Full Restore|In exchange for any Pokémon, random chance to be given by either Ranger on the northwestern or southeastern ends of the island.|}}\n{{ItemTable/Data|MAXELIXIR||Max Elixir|In exchange for any Pokémon, random chance to be given by either Ranger on the northwestern or southeastern ends of the island.|}}\n{{ItemTable/Section|Ranger Cabin}}\n{{ItemTable/Data|machine_NORMAL||HM01 Cut|When playing on Team Rocket's side, in a box.|}}\n{{ItemTable/Data|KELPSYBERRY|1-2|Kelpsy Berry|In a box, random chance daily.|}}\n{{ItemTable/Data|QUALOTBERRY|1-2|Qualot Berry|In a box, random chance daily.|}}\n{{ItemTable/Data|HONDEWBERRY|1-2|Hondew Berry|In a box, random chance daily.|}}\n{{ItemTable/Data|GREPABERRY|1-2|Grepa Berry|In a box, random chance daily.|}}\n{{ItemTable/Data|TAMATOBERRY|1-2|Tamato Berry|In a box, random chance daily.|}}\n{{ItemTable/Data|CORNNBERRY|1-2|Cornn Berry|In a box, random chance daily.|}}\n{{ItemTable/Section|Pinkan Forest}}\n{{ItemTable/Data|PINKANBERRY||Pinkan Berry|When playing on the Police's side, dropped by a Team Rocket grunt behind a cuttable tree.|}}\n{{ItemTable/Data|PINKANBERRY||Pinkan Berry|When playing on the Police's side, dropped by a Team Rocket grunt behind the water in the top left of the map.|}}\n{{ItemTable/Data|PINKANBERRY||Pinkan Berry|When playing on Team Rocket's side, taken from the berry bush behind a cuttable tree.|}}\n{{ItemTable/Data|PINKANBERRY||Pinkan Berry|When playing on Team Rocket's side, taken from the berry bush behind the water in the top left of the map.|}}\n{{ItemTable/Data|GREATBALL|2|Great Ball|On the ground behind the water in the top left of the map.|}}\n{{ItemTable/Data|HEALPOWDER||Heal Powder|Near the Clefable/Machoke fusion.|}}\n{{ItemTable/Data|machine_NORMAL||HM04 Strength|Dropped by the Clefable/Machoke fusion, after feeding it a Pinkan Berry and defeating it.|}}\n{{ItemTable/Section|Pinkan Hollow}}\n{{ItemTable/Data|HEALPOWDER||Heal Powder|On the ground on the right side of the first (Slowbro/Jynx) hollow.|}}\n{{ItemTable/Data|machine_WATER||HM03 Surf|Dropped by the Slowbro/Jynx after defeating it.|}}\n{{ItemTable/Data|REVIVE||Revive|Behind the water in the first (Slowbro/Jynx) hollow.|}}\n{{ItemTable/Data|machine_WATER||HM05 Waterfall|Dropped by the Bruxish/Gyadaros after defeating it.|}}\n{{ItemTable/Data|ENERGYPOWDER|2|Energy Powder|At the back of the second (Bruxish/Gyarados) hollow.|}}\n{{ItemTable/Data|DIAMOND||Diamond|On the right side of the third (Diancie) hollow.|}}\n{{ItemTable/Footer}}\n\n==Pokémon==\n===Pinkan Island===\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Grass (1)|color=Grass}}\n{{EncounterTable/Data|173|Cleffa|Fairy||7-11|150|5%}}\n{{EncounterTable/Data|174|Igglybuff|Normal|Fairy|8-12|170|35%}}\n{{EncounterTable/Data|187|Hoppip|Grass|Flying|9-13|255|40%}}\n{{EncounterTable/Data|258|Mime Jr.|Psychic|Fairy|8-12|145|20%}}\n{{EncounterTable/Section|Grass (2)|color=Grass}}\n{{EncounterTable/Data|039|Jigglypuff|Normal|Fairy|9-12|170|10%}}\n{{EncounterTable/Data|079|Slowpoke|Water|Psychic|10-13|190|30%}}\n{{EncounterTable/Data|173|Cleffa|Fairy||10-13|150|30%}}\n{{EncounterTable/Data|476|Fomantis|Grass||10-13|190|30%}}\n{{EncounterTable/Section|Grass (3)|color=Grass}}\n{{EncounterTable/Data|122|Mr. Mime|Psychic|Fairy|16-21|45|20%}}\n{{EncounterTable/Data|180|Flaaffy|Electric||16-21|120|40%}}\n{{EncounterTable/Data|432|Oricorio|Psychic|Flying|15-21|45|40%}}\n{{EncounterTable/Section|Grass (4)|color=Grass}}\n{{EncounterTable/Data|113|Chansey|Normal||21-23|30|10%}}\n{{EncounterTable/Data|241|Miltank|Normal||21-25|45|30%}}\n{{EncounterTable/Data|491|Swirlix|Fairy||20-24|200|60%}}\n{{EncounterTable/Section|Surf}}\n{{EncounterTable/Data|501|Luvdisc|Water||10-15|225|100%}}\n{{EncounterTable/Section|Good Rod}}\n{{EncounterTable/Data|222|Corsola|Water|Rock|12-16|60|60%}}\n{{EncounterTable/Data|501|Luvdisc|Water||10-15|225|40%}}\n{{EncounterTable/Section|Rock Smash}}\n{{EncounterTable/Data|222|Corsola|Water|Rock|9-12|60|100%}}\n{{EncounterTable/Footer}}\n<div class=\"mw-collapsible\" id=\"mw-customcollapsible-grassEncountersShort\">\n<div class=\"mw-collapsible-content\">\n<div class=\"wds-button wds-is-secondary mw-customtoggle-grassEncountersShort mw-customtoggle-grassEncountersLong\" style=\"float:right;\">Show Grass Areas</div></div></div>\n<div class=\"mw-collapsible mw-collapsed\" id=\"mw-customcollapsible-grassEncountersShort\">\n<div class=\"mw-collapsible-content\">\n<div class=\"wds-button wds-is-secondary mw-customtoggle-grassEncountersShort mw-customtoggle-grassEncountersLong\" style=\"float:right;\">Hide Grass Areas</div>\n[[File:Pinkan Island Grass Encounters.png|630x544px]]\n</div></div>\n\n===Pinkan Forest===\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|079|Slowpoke|Water|Psychic|13-16|190|40%}}\n{{EncounterTable/Data|102|Exeggcute|Grass|Psychic|13-16|90|20%}}\n{{EncounterTable/Data|108|Lickitung|Normal||12-15|45|20%}}\n{{EncounterTable/Data|209|Snubbull|Fairy||13-16|190|20%}}\n{{EncounterTable/Section|Surf}}\n{{EncounterTable/Data|079|Slowpoke|Water|Psychic|14-17|190|60%}}\n{{EncounterTable/Data|501|Luvdisc|Water||14-17|225|40%}}\n{{EncounterTable/Section|Good Rod}}\n{{EncounterTable/Data|079|Slowpoke|Water|Psychic|14-17|190|30%}}\n{{EncounterTable/Data|501|Luvdisc|Water||14-17|225|70%}}\n{{EncounterTable/Section|Rock Smash}}\n{{EncounterTable/Data|222|Corsola|Water|Rock|12-18|60|100%}}\n{{EncounterTable/Footer}}\n\n===Pinkan Hollow===\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Cave}}\n{{EncounterTable/Data|035|Clefairy|Fairy||12-15|150|25%}}\n{{EncounterTable/Data|079|Slowpoke|Water|Psychic|11-14|190|30%}}\n{{EncounterTable/Data|173|Cleffa|Fairy||9-12|150|30%}}\n{{EncounterTable/Data|238|Smoochum|Ice|Psychic|11-14|45|10%}}\n{{EncounterTable/Data|478|Carbink|Rock|Fairy|9-13|60|5%}}\n{{EncounterTable/Section|Surf}}\n{{EncounterTable/Data|469|Bruxish|Water|Psychic|10-15|80|5%}}\n{{EncounterTable/Data|501|Luvdisc|Water||9-12|225|95%}}\n{{EncounterTable/Section|Good Rod}}\n{{EncounterTable/Data|222|Corsola|Water|Rock|13-17|60|70%}}\n{{EncounterTable/Data|469|Bruxish|Water|Psychic|14-18|80|30%}}\n{{EncounterTable/Section|Rock Smash}}\n{{EncounterTable/Data|222|Corsola|Water|Rock|11-15|60|100%}}\n{{EncounterTable/Section|Static}}\n{{EncounterTable/Data|500|Diancie|Rock|Fairy|30|-|One}}\n{{EncounterTable/Footer}}\n\n==Trainers==\n===Team Rocket Side===\n{{Trainer\n| trainerClass=TEAMROCKET_F\n| name=Angelina\n| trainerOverworldSprite=BW2_rocket(female).png\n| pokemon1=19\n| pokemon1Level=13\n| remixPokemon1=234.19\n| remixPokemon1Level=13\n}}\n\n{{Trainer\n| trainerClass=TEAMROCKET_F\n| name=Ellen\n| trainerOverworldSprite=BW2_rocket2(female).png\n| pokemon1=48\n| pokemon1Level=13\n| pokemon2=238.493\n| pokemon2Level=14\n| remixPokemon1=41.451\n| remixPokemon1Level=13\n| remixPokemon2=397.493\n| remixPokemon2Level=14\n}}\n\n{{Trainer\n| trainerClass=TEAMROCKET_M\n| name=Nathan\n| trainerOverworldSprite=BW2_rocket(male).png\n| pokemon1=39.109\n| pokemon1Level=17\n| remixPokemon1=488.109\n| remixPokemon1Level=17\n}}\n\n{{Trainer\n| trainerClass=TEAMROCKET_F\n| name=Zoe\n| trainerOverworldSprite=BW2_rocket2(female).png\n| pokemon1=79.215\n| pokemon1Level=20\n| remixPokemon1=457.74\n| remixPokemon1Level=20\n}}\n\n{{Trainer\n| trainerClass=TEAMROCKET_M\n| name=Rufus\n| trainerOverworldSprite=BW2_rocket(male).png\n| pokemon1=209\n| pokemon1Level=17\n| pokemon2=222.228\n| pokemon2Level=18\n| remixPokemon1=471.414\n| remixPokemon1Level=17\n| remixPokemon2=29.209\n| remixPokemon2Level=18\n}}\n\n{{Trainer\n| trainerClass=TEAMROCKET_M\n| name=Michael\n| trainerOverworldSprite=BW2_rocket(male).png\n| pokemon1=122.23\n| pokemon1Level=21\n| remixPokemon1=436.461\n| remixPokemon1Level=18\n| remixPokemon2=418.23\n| remixPokemon2Level=21\n}}\n\n===Police Side===\n{{Trainer\n| trainerClass=POLICE\n| name=Graham\n| trainerOverworldSprite=BW (80).png\n| pokemon1=209\n| pokemon1Level=13\n| remixPokemon1=414.209\n| remixPokemon1Level=13\n}}\n\n{{Trainer\n| trainerClass=POLICE\n| name=Ripley\n| trainerOverworldSprite=BW (80).png\n| pokemon1=451\n| pokemon1Level=13\n| pokemon2=491.58\n| pokemon2Level=14\n| remixPokemon1=454.58\n| remixPokemon1Level=14\n}}\n\n{{Trainer\n| trainerClass=POLICE\n| name=Adams\n| trainerOverworldSprite=BW (80).png\n| pokemon1=259.220\n| pokemon1Level=17\n| remixPokemon1=240.236\n| remixPokemon1Level=17\n}}\n\n{{Trainer\n| trainerClass=POLICE\n| name=Rayne\n| trainerOverworldSprite=BW (80).png\n| pokemon1=108.58\n| pokemon1Level=20\n| remixPokemon1=107.120\n| remixPokemon1Level=20\n}}\n\n{{Trainer\n| trainerClass=POLICE\n| name=Clifford\n| trainerOverworldSprite=BW (80).png\n| pokemon1=209\n| pokemon1Level=17\n| pokemon2=35.463\n| pokemon2Level=18\n| remixPokemon1=44.16\n| remixPokemon1Level=16\n| remixPokemon2=392.210\n| remixPokemon2Level=18\n}}\n\n{{Trainer\n| trainerClass=POLICE\n| name=Jackson\n| trainerOverworldSprite=BW (80).png\n| pokemon1=432.451\n| pokemon1Level=21\n| remixPokemon1=95.120\n| remixPokemon1Level=18\n| remixPokemon2=215.418\n| remixPokemon2Level=21\n}}\n\n==Quest Walkthrough==\nDepending on whether the player reported any of Team Rocket's crimes to the police during [[Quests|Team Rocket missions]] in [[Cerulean City]] or [[Celadon City]], this quest can be played from one of two teams: the Police or Team Rocket.\n\nRegardless of the side chosen, for the duration of the quest, the player will lose access to their Pokémon and items; these will be returned when the player leaves the island. To complete the quest, the player must use the limited resources available to catch Pokémon in order to progress across the island.\n\n===Police Side===\nTo start on the side of the police, the player must have reported at least one crime during any of the \"No Fishing Zone\", \"Disobedient Pokémon\" or \"Pokémon Collector\" missions. If they have done so, police officers will be standing outside the train station in [[Goldenrod City]]. While talking to them, they will ask the player help them out. The player can then depart from the docks near the Radio Tower.\n\nThe player will be given a level 15 Snubbull and an Emergency Whistle to start off with. The officer on the right side of the pier will heal the player's party and give the player 5 Poké Balls whenever the player has less than 5, and will give 5 DNA Splicers and 2 DNA Reversers whenever the player has less than 5 DNA Splicers.\n\nThe player may believe they are soft locked due to none of the gifted nor catch able Pokémon being able to learn either of the required HM's, however the can obtain a Igglyshrew (Igglybuff + Sandshrew Fusion) after speaking to the Team Rocket grunt on the left side of the island next to the black boat and then interacting with the Igglyshrew.\n\n{{Stub}}\n\n===Team Rocket Side===\nTo start on the side of Team Rocket, the player must go to Team Rocket's hideout in [[Goldenrod City|Goldenrod Tunnel]]. There they will be given the mission, and taken to a hidden dock where they can depart to Pinkan Island.\n\nThe player will be given a choice of a level 12 Ekans, Zubat or Koffing, and an Emergency Whistle to start off with. A grunt on the shore will heal the player's party and give the player 5 Rocket Balls whenever the player has less than 5, and will give 5 DNA Splicers and 2 DNA Reversers whenever the player has less than 5 DNA Splicers.\n\nThe player may believe they are soft locked due to none of the gifted nor catch able Pokémon being able to learn either of the required HM's, however the can obtain an Igglyran (Igglybuff + Nidoran Fusion) after talking to either of the two NPC's at the table in the house on the bottom right of the island and then interacting with the Igglyran. (Nevertheless, there does exist a way to get through the request without obtaining the Igglyran.)\n\n{{Stub}}\n\n==Layout==\n{| class=\"IFTable\"\n! Pinkan Island\n|-\n|[[File:Pinkan Island.png|600x520px]]\n|-\n! Pinkan Forest\n|-\n|[[File:Pinkan Forest.png|688x656px]]\n|-\n! Pinkan Hollow\n|-\n|[[File:Pinkan Hollow.png|640x256px]]\n|-\n! Strength Puzzle\n|-\n|[[File:Pinkan Strength Puzzle.png|788x528px]]\n|-\n! height=\"10\" |\n|}\n\n==Points of Interest==\n===Releasing Pokémon to the wild===\nThere are two local environmental protection agency staff members on the map. On interaction the player will trigger a dialogue where they can return one of their Pokémons to the wild. The staff member will then give the player a random reward from the list below(Chances unknown and completeness not veriefied):\n\n{| class=\"IFTable\"\n! colspan=2 | Item\n! Effect\n|-\n| {{ItemIcon|MAXELIXIR}}\n| Max Elixir\n| Fully restores PP to all moves of a single Pokémon.\n|-\n| {{ItemIcon|MAXPOTION}}\n| Max Potion\n| Fully restores HP to a single Pokémon.\n|-\n| {{ItemIcon|MAXREVIVE}}\n| Max Revive\n| Revives a fainted Pokémon to full HP.\n|-\n| {{ItemIcon|REVIVE}}\n| Revive\n| Revives a fainted Pokémon to half its maximum HP.\n|-\n| {{ItemIcon|FULLRESTORE}}\n| Full Restore\n| Fully heals HP and status problems of a single Pokémon.\n|-\n|{{ItemIcon|WATERSTONE}}\n|Water Stone\n| style=\"text-align: left; padding-inline: .5em; padding-top: .5em;\" |\n* {{PokeIcon|79}}[[bulbapedia:Slowpoke_(Pokémon)|Slowpoke]] -> {{PokeIcon|199}}[[bulbapedia:Slowking_(Pokémon)|Slowking]]\n|-\n|{{ItemIcon|LEAFSTONE}}\n|Leaf Stone\n| style=\"text-align: left; padding-inline: .5em; padding-top: .5em;\" |\n* {{PokeIcon|102}}[[bulbapedia:Exeggcute_(Pokémon)|Exeggcute]] -> {{PokeIcon|103}}[[bulbapedia:Exeggutor_(Pokémon)|Exeggutor]]\n|-\n|{{ItemIcon|MOONSTONE}}\n|Moon Stone\n| style=\"text-align: left; padding-inline: .5em; padding-top: .5em;\" |\n* {{PokeIcon|33}}[[bulbapedia:Nidorino_(Pokémon)|Nidorino]] -> {{PokeIcon|34}}[[bulbapedia:Nidoking_(Pokémon)|Nidoking]] (On team rockect side)\n* {{PokeIcon|35}}[[bulbapedia:Clefairy_(Pokémon)|Clefairy]] -> {{PokeIcon|36}}[[bulbapedia:Clefable_(Pokémon)|Clefable]]\n* {{PokeIcon|39}}[[bulbapedia:Jigglypuff_(Pokémon)|Jigglypuff]] -> {{PokeIcon|40}}[[bulbapedia:Wigglytuff_(Pokémon)|Wigglytuff]]\n|-\n! colspan=\"5\" height=\"10\" |\n|}\n\n===Clearing the stage without stealing mons===\nIf the player is too kind to steal a Pokémon from others, which should not be the case when they is playing on the team rocket side, that they does not obtain the Igglyran, there does exist a way to clear the stage with native Pokémons only.\n\nYet none of the first catch-able Pokémons seem to be able to learn the move rock smash, there is one exception. After leveling up a Cleffa to lv.15 and evolving them to a Clefairy, they will acquire the ability to learn rock smash. The player could speed up this process by fusing two Cleffas together to gain an exp boost.\n\nThe next challenge is TM01 cut. The only catch-able mon on the Pinkan island that is able to learn cut is Lickitung, thus the player has first to dive into the forest to catch it and then turn back to cut all the trees down.\n\n\n[[Category:Locations]]\n[[Category:Sevii Islands]]"
+}

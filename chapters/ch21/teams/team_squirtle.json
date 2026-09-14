@@ -1,0 +1,128 @@
+{
+  "starter": "Squirtle",
+  "name": "Team Squirtle: Sevii Tides Vanguard",
+  "archetype": "Sevii archipelago & Rocket Warehouse raid — 4x Ground execution, Aerial Flying striking, Electric speed sweeping, Levitate Ground immunity, and Intimidate Attack reduction.",
+  "gym_duel_core": [1, 2, 3, 4, 5, 6],
+  "gym_duel_rationale": "No gym duel in Chapter 21. All six party members deploy together in full 6-member syndicate raid configuration, storming the Rocket Warehouse to confront Executive Ariana and recover the stolen Sapphire under the Level 80 cap.",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Blastoise/Fearow",
+      "types": ["Water", "Flying"],
+      "status": "Active in Party (Starter Splice & MVP)",
+      "current_level": 80,
+      "ability": "Torrent",
+      "held_item": "Sharp Beak",
+      "role": "Starter Anchor & Aerial Striker",
+      "current_reached_moveset": [
+        "Hydro Pump",
+        "Drill Peck",
+        "Roost",
+        "Protect"
+      ],
+      "progression_notes": "486 BST starter hybrid elevated to Cap 80. Flying typing grants complete immunity to ground moves. STAB Drill Peck lands heavy super-effective damage on Tangrowth/Vileplume."
+    },
+    {
+      "slot": 2,
+      "species": "Jolteon/Sandslash",
+      "types": ["Electric", "Ground"],
+      "status": "Active in Party (Syndicate Raider & MVP)",
+      "current_level": 79,
+      "ability": "Volt Absorb",
+      "held_item": "Soft Sand",
+      "role": "Electric/Ground Speed Cannon",
+      "current_reached_moveset": [
+        "Discharge",
+        "Earthquake",
+        "Pin Missile",
+        "Swords Dance"
+      ],
+      "progression_notes": "486 BST speed sweeper. Soft Sand-boosted STAB Earthquake lands fatal 4x super-effective devastation to annihilate Arbok/Houndoom. STAB Discharge sweeps Water Labyrinth water spawns."
+    },
+    {
+      "slot": 3,
+      "species": "Lapras",
+      "types": ["Water", "Ice"],
+      "status": "Active in Party (Syndicate Raider)",
+      "current_level": 79,
+      "ability": "Water Absorb",
+      "held_item": "Never-Melt Ice",
+      "role": "Ice Coverage & Special Wall",
+      "current_reached_moveset": [
+        "Ice Beam",
+        "Hydro Pump",
+        "Confuse Ray",
+        "Body Slam"
+      ],
+      "progression_notes": "535 BST Water/Ice fortress elevated to Lv. 79. Water Absorb completely negates opposing water attacks across the Water Labyrinth. STAB Hydro Pump douses Arbok/Houndoom with heavy damage."
+    },
+    {
+      "slot": 4,
+      "species": "Arbok/Primeape",
+      "types": ["Poison", "Fighting"],
+      "status": "Active in Party (Syndicate Raider)",
+      "current_level": 79,
+      "ability": "Intimidate",
+      "held_item": "Black Belt",
+      "role": "Intimidate Fighting Wallbreaker",
+      "current_reached_moveset": [
+        "Close Combat",
+        "Gunk Shot",
+        "Cross Chop",
+        "Glare"
+      ],
+      "progression_notes": "479 BST Intimidate bruiser. Blunts enemy physical Attack on entry. STAB Close Combat crushes Skarmory/Combusken with massive force. Glare secures 100% paralysis on fast threats."
+    },
+    {
+      "slot": 5,
+      "species": "Alakazam/Weezing",
+      "types": ["Psychic", "Poison"],
+      "status": "Active in Party (Syndicate Raider)",
+      "current_level": 79,
+      "ability": "Levitate",
+      "held_item": "Twisted Spoon",
+      "role": "Levitate Ground-Immune Sweeper",
+      "current_reached_moveset": [
+        "Psychic",
+        "Sludge Bomb",
+        "Recover",
+        "Calm Mind"
+      ],
+      "progression_notes": "495 BST Levitate pivot with 118 SpA. Immune to ground moves via Levitate. STAB Psychic decimates Ariana's Tangrowth/Vileplume and Arbok/Houndoom for swift, decisive knockouts."
+    },
+    {
+      "slot": 6,
+      "species": "Snorlax",
+      "types": ["Normal"],
+      "status": "Active in Party (Syndicate Raider & Tank)",
+      "current_level": 79,
+      "ability": "Thick Fat",
+      "held_item": "Leftovers",
+      "role": "Route Travel Tank & Sustained Sponge",
+      "current_reached_moveset": [
+        "Body Slam",
+        "Rest",
+        "Sleep Talk",
+        "Crunch"
+      ],
+      "progression_notes": "Colossal 160 HP route sponge holding Leftovers. Thick Fat halves incoming Fire attacks from Houndoom fusions. RestTalk loop absorbs deep-sea and warehouse status."
+    }
+  ],
+  "flex_bench": [
+    {
+      "species": "Venusaur",
+      "role": "Chlorophyll Sleep Tank",
+      "rationale": "High-durability Grass/Poison tank packing Leech Seed and Sleep Powder for status control against wild encounters."
+    },
+    {
+      "species": "Gyarados",
+      "role": "Dragon Dance Water Pivot",
+      "rationale": "Intimidate physical pivot and Dragon Dance sweeper with Aqua Tail for Water STAB coverage."
+    },
+    {
+      "species": "Hitmontop",
+      "role": "Technician Rapid Spinner",
+      "rationale": "Technician-boosted Triple Kick and Rapid Spin for tactical versatility across route encounters."
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "location": "Rock Tunnel (ID 349)",
+  "sections": {
+    "Cave": [
+      {
+        "dex_id": "041",
+        "name": "Zubat",
+        "type1": "Poison",
+        "type2": "Flying",
+        "levels": "15-16",
+        "catch_rate": "255",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "056",
+        "name": "Mankey",
+        "type1": "Fighting",
+        "type2": "",
+        "levels": "16-17",
+        "catch_rate": "190",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "066",
+        "name": "Machop",
+        "type1": "Fighting",
+        "type2": "",
+        "levels": "17",
+        "catch_rate": "180",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "074",
+        "name": "Geodude",
+        "type1": "Rock",
+        "type2": "Ground",
+        "levels": "15-17",
+        "catch_rate": "255",
+        "rates": [
+          "34%"
+        ]
+      },
+      {
+        "dex_id": "095",
+        "name": "Onix",
+        "type1": "Rock",
+        "type2": "Ground",
+        "levels": "13-17",
+        "catch_rate": "45",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "325",
+        "name": "Nosepass",
+        "type1": "Rock",
+        "type2": "",
+        "levels": "15",
+        "catch_rate": "255",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Rock Smash": [
+      {
+        "dex_id": "074",
+        "name": "Geodude",
+        "type1": "Rock",
+        "type2": "Ground",
+        "levels": "5-30",
+        "catch_rate": "255",
+        "rates": [
+          "85%"
+        ]
+      },
+      {
+        "dex_id": "075",
+        "name": "Graveler",
+        "type1": "Rock",
+        "type2": "Ground",
+        "levels": "25-40",
+        "catch_rate": "120",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "213",
+        "name": "Shuckle",
+        "type1": "Bug",
+        "type2": "Rock",
+        "levels": "20-30",
+        "catch_rate": "190",
+        "rates": [
+          "10%"
+        ]
+      }
+    ]
+  }
+}

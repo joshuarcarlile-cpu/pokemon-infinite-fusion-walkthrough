@@ -1,0 +1,128 @@
+{
+  "starter": "Bulbasaur",
+  "name": "Team Bulbasaur: Solar Supremacy & League Mastery",
+  "archetype": "Grass/Fire solar sweeps, Intimidate water pivots, and Levitate hazard immunity.",
+  "gym_duel_core": [1, 2, 3, 4, 5, 6],
+  "gym_duel_rationale": "The Pokémon League gauntlet requires a full 6-member squad: Venusaur/Charizard melts Lorelei's Ice types and shreds Bruno's Fighting squad; Gyarados/Arbok blunts physical sweepers with Intimidate and counters Lance's dragons with Ice Fang; Alakazam/Weezing provides Levitate Ground immunity and Psychic STAB against Bruno and Agatha; Kingler/Primeape breaks Steel and Normal walls with Crabhammer and Close Combat; Snorlax sponges special blasts from Mew and Agatha's ghosts; and Pidgeot provides Tailwind speed control and Air Slash flinches.",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Venusaur/Charizard",
+      "types": ["Grass", "Fire"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 62,
+      "ability": "Overgrow",
+      "held_item": "Miracle Seed",
+      "role": "Solar Sweeper & Mixed Anchor",
+      "current_reached_moveset": [
+        "Petal Dance",
+        "Flamethrower",
+        "Sleep Powder",
+        "Synthesis"
+      ],
+      "progression_notes": "530 BST starter powerhouse. Resists Fighting and Grass moves while firing devastating Grass and Fire STABs. Destroys Lorelei's Ice types and Blue's Rhydon/Magmortar."
+    },
+    {
+      "slot": 2,
+      "species": "Gyarados/Arbok",
+      "types": ["Water", "Poison"],
+      "status": "Active in Party (Retained from Ch 8)",
+      "current_level": 61,
+      "ability": "Intimidate",
+      "held_item": "Mystic Water",
+      "role": "Intimidate Water Bruiser",
+      "current_reached_moveset": [
+        "Aqua Tail",
+        "Crunch",
+        "Dragon Dance",
+        "Glare"
+      ],
+      "progression_notes": "513 BST Intimidate pivot. Shuts down physical sweepers upon entry. Dragon Dance boosts Aqua Tail sweeps to dismantle Rock and Ground fusions."
+    },
+    {
+      "slot": 3,
+      "species": "Alakazam/Weezing",
+      "types": ["Psychic", "Poison"],
+      "status": "Active in Party (Retained from Ch 8)",
+      "current_level": 61,
+      "ability": "Levitate",
+      "held_item": "Twisted Spoon",
+      "role": "Levitate Special Wallbreaker",
+      "current_reached_moveset": [
+        "Psychic",
+        "Sludge Bomb",
+        "Recover",
+        "Calm Mind"
+      ],
+      "progression_notes": "495 BST Levitate sweeper with 118 SpA. Levitate provides Ground immunity. Calm Mind boosts Psychic sweeps against Bruno and Agatha."
+    },
+    {
+      "slot": 4,
+      "species": "Kingler/Primeape",
+      "types": ["Water", "Fighting"],
+      "status": "Active in Party (Retained from Ch 8)",
+      "current_level": 61,
+      "ability": "Hyper Cutter",
+      "held_item": "Black Belt",
+      "role": "Physical Wallbreaker",
+      "current_reached_moveset": [
+        "Crabhammer",
+        "Close Combat",
+        "Cross Chop",
+        "Protect"
+      ],
+      "progression_notes": "500 BST physical wallbreaker. Crabhammer and Close Combat dismantle Steel and Normal types like Bruno's Steelix and Agatha's Snorlax."
+    },
+    {
+      "slot": 5,
+      "species": "Snorlax",
+      "types": ["Normal"],
+      "status": "Active in Party (Retained from Ch 8)",
+      "current_level": 61,
+      "ability": "Thick Fat",
+      "held_item": "Leftovers",
+      "role": "Thick Fat Normal Tank",
+      "current_reached_moveset": [
+        "Body Slam",
+        "Rest",
+        "Sleep Talk",
+        "Crunch"
+      ],
+      "progression_notes": "Colossal 160 HP tank. Ghost immunity allows it to sponge Agatha's attacks. Rest + Sleep Talk provides infinite longevity against the Elite Four."
+    },
+    {
+      "slot": 6,
+      "species": "Pidgeot",
+      "types": ["Normal", "Flying"],
+      "status": "Active in Party (Retained from Ch 8)",
+      "current_level": 60,
+      "ability": "Keen Eye",
+      "held_item": "Sharp Beak",
+      "role": "Fast Aerial Scout",
+      "current_reached_moveset": [
+        "Air Slash",
+        "Roost",
+        "Tailwind",
+        "Quick Attack"
+      ],
+      "progression_notes": "High-Speed Flying scout. Immune to Ground moves. Provides team-wide Tailwind speed doubles and reliable Roost healing."
+    }
+  ],
+  "flex_bench": [
+    {
+      "species": "Butterfree",
+      "role": "Quiver Dance Sleep Pivot",
+      "rationale": "Accurate Sleep Powder and Quiver Dance setup against slower defensive walls."
+    },
+    {
+      "species": "Electabuzz",
+      "role": "Electric Speed Sweeper",
+      "rationale": "High-speed Electric coverage packing Discharge and Light Screen."
+    },
+    {
+      "species": "Hitmonlee",
+      "role": "Reckless Fighting Breaker",
+      "rationale": "High Jump Kick physical breaker with Unburden speed doubling."
+    }
+  ]
+}

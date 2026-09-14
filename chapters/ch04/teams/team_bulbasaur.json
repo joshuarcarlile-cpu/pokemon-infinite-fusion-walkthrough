@@ -1,0 +1,136 @@
+{
+  "starter": "Bulbasaur",
+  "name": "Team Bulbasaur: Grass Momentum & Aerial Breakers",
+  "archetype": "Special Grass/Flying starter pivot, quad-Flying STAB wallbreaker, and rapid Psychic offensive sweeper.",
+  "gym_duel_core": [1, 2, 3],
+  "gym_duel_rationale": "Erika enforces a strict 3v3 duel. Enter with Venusaur/Fearow (500 BST Grass/Flying powerhouse quad-resisting Grass with STAB Drill Peck hitting Tangela/Primeape for 4x damage and Roost recovery), Primeape/Sandslash (457 BST breaker with Vital Spirit sleep immunity, Cross Chop, and Magnitude), and Arcanine/Gloom (Fire/Poison quad-resisting Grass with Flamethrower and Extreme Speed).",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Venusaur/Fearow",
+      "types": ["Grass", "Flying"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 38,
+      "ability": "Overgrow",
+      "held_item": "Sharp Beak",
+      "role": "Grass/Flying Aerial Tank & Gym Duelist",
+      "current_reached_moveset": [
+        "Drill Peck",
+        "Petal Dance",
+        "Sleep Powder",
+        "Roost"
+      ],
+      "progression_notes": "Venusaur splices with Fearow. 500 BST with 93 Speed. Quad-resists Grass and immune to Ground. STAB Drill Peck inflicts 4x quad-effective damage on Tangela/Primeape with Roost recovery."
+    },
+    {
+      "slot": 2,
+      "species": "Primeape/Sandslash",
+      "types": ["Fighting", "Ground"],
+      "status": "Active in Party (Retained from Ch 3)",
+      "current_level": 38,
+      "ability": "Vital Spirit",
+      "held_item": "Soft Sand",
+      "role": "Sleep-Immune Physical Breaker & Gym Duelist",
+      "current_reached_moveset": [
+        "Cross Chop",
+        "Magnitude",
+        "Slash",
+        "Swords Dance"
+      ],
+      "progression_notes": "457 BST physical fortress with 101 Attack and 93 Defense. Vital Spirit completely immunizes it against Erika's Sleep Powder and Hypnosis."
+    },
+    {
+      "slot": 3,
+      "species": "Arcanine/Gloom",
+      "types": ["Fire", "Poison"],
+      "status": "Active in Party (Route 8 & Stone Splice)",
+      "current_level": 38,
+      "ability": "Flash Fire",
+      "held_item": "Charcoal",
+      "role": "Grass-Annihilating Fire Pivot & Gym Duelist",
+      "current_reached_moveset": [
+        "Flamethrower",
+        "Giga Drain",
+        "Sleep Powder",
+        "Extreme Speed"
+      ],
+      "progression_notes": "Growlithe (Fire Stone) and Gloom (Leaf Stone) stone-evolved and spliced. Quad-resists Grass while retaliating with STAB Flamethrower and Extreme Speed priority."
+    },
+    {
+      "slot": 4,
+      "species": "Kadabra/Weezing",
+      "types": ["Psychic", "Poison"],
+      "status": "Active in Party (Route 24 & Celadon Sewers Splice)",
+      "current_level": 38,
+      "ability": "Levitate",
+      "held_item": "Twisted Spoon",
+      "role": "High-Velocity Special Artillery & Ground Immune",
+      "current_reached_moveset": [
+        "Psychic",
+        "Sludge Bomb",
+        "Recover",
+        "Reflect"
+      ],
+      "progression_notes": "Combines Kadabra's 108 Special Attack with Weezing's Levitate ground immunity and 90 Defense. STAB Psychic cleanly dismantles Erika's Poison-type hybrids while Levitate provides complete Ground immunity."
+    },
+    {
+      "slot": 5,
+      "species": "Poliwrath/Dugtrio",
+      "types": ["Water", "Ground"],
+      "status": "Active in Party (Celadon Stone & Diglett Splice)",
+      "current_level": 37,
+      "ability": "Water Absorb",
+      "held_item": "Mystic Water",
+      "role": "Fast Water Absorb Sweeper & Ground Bruiser",
+      "current_reached_moveset": [
+        "Earthquake",
+        "Bubble Beam",
+        "Submission",
+        "Sucker Punch"
+      ],
+      "progression_notes": "Poliwhirl evolved with Water Stone and spliced with Dugtrio. 483 BST with 103 Speed and 98 Attack. Water Absorb counters Water while Earthquake deals heavy damage."
+    }
+  ],
+  "flex_bench": [
+    {
+      "slot": "B1",
+      "species": "Butterfree",
+      "types": ["Bug", "Flying"],
+      "current_level": 36,
+      "ability": "Compound Eyes",
+      "held_item": "Silver Powder",
+      "role": "97.5% Accuracy Sleep Catcher",
+      "why_use": "Retained for wild catches with Compound Eyes 97.5% accurate Sleep Powder."
+    },
+    {
+      "slot": "B2",
+      "species": "Marowak/Aron",
+      "types": ["Ground", "Rock"],
+      "current_level": 36,
+      "ability": "Lightning Rod",
+      "held_item": "Hard Stone",
+      "role": "Physical Rock/Ground Tank",
+      "why_use": "Rock Tunnel splice combining Marowak with Aron. 103 Base Defense wall."
+    }
+  ],
+  "fusion_lifecycle": {
+    "active_fusions": [
+      "Venusaur/Fearow (500 BST Grass/Flying starter with 4x STAB Drill Peck and Roost)",
+      "Primeape/Sandslash (457 BST Vital Spirit sleep-immune physical breaker)",
+      "Arcanine/Gloom (Fire/Poison quad-resisting Grass with Flamethrower and Extreme Speed)",
+      "Kadabra/Weezing (108 SpA Levitate Psychic/Poison special sweeper with 90 Defense)",
+      "Poliwrath/Dugtrio (483 BST Water Absorb fast ground sweeper with 103 Speed)"
+    ],
+    "unfuse_recommendations": [
+      "1. Celadon Poké Mart: Pay $300 to unfuse Ivysaur/Dugtrio from Chapter 3.",
+      "2. Level Ivysaur to Lv. 32 to evolve into Venusaur.",
+      "3. Splice Venusaur with Fearow for 4x STAB Drill Peck on Tangela/Primeape and Roost.",
+      "4. Purchase Fire and Leaf Stones at Celadon Dept Store 4F to evolve Growlithe and Gloom into Arcanine/Gloom.",
+      "5. Catch Koffing in Celadon Sewers, evolve at Lv. 35 to Weezing, and splice with Kadabra for Levitate Ground immunity."
+    ],
+    "upcoming_fusions": [
+      "Venusaur/Alakazam (Psychic Grass titan with Linking Cord)",
+      "Poliwrath/Machamp (Physical fighting juggernaut)"
+    ]
+  }
+}

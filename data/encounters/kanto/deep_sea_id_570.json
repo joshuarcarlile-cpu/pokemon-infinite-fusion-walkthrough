@@ -1,0 +1,51 @@
+{
+  "location": "Deep Sea (ID 570)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "098",
+        "name": "Krabby",
+        "type1": "Water",
+        "type2": "",
+        "levels": "33-36",
+        "catch_rate": "225",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "175",
+        "name": "Togepi",
+        "type1": "Fairy",
+        "type2": "",
+        "levels": "22-33",
+        "catch_rate": "190",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "dex_id": "176",
+        "name": "Togetic",
+        "type1": "Fairy",
+        "type2": "Flying",
+        "levels": "35-45",
+        "catch_rate": "75",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "254",
+        "name": "Ambipom",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "44-55",
+        "catch_rate": "45",
+        "rates": [
+          "35%"
+        ]
+      }
+    ]
+  }
+}

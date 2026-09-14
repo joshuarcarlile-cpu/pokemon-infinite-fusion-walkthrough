@@ -1,0 +1,56 @@
+{
+  "name": "Rocket Warehouse & Ariana Showdown",
+  "summary": "Infiltrate the sprawling Team Rocket Warehouse hidden within Chrono Meadow. Battle past security grunts and maneuver around heavy industrial machinery. In the rear generator room, confront and capture a Level 55 static Steel-type Klinklang. Eavesdrop on a heated summit between Rocket Executives and visiting Team Plasma operatives before breaching the command office. Defeat Executive Ariana in a 6 vs 6 syndicate raid, retrieve the stolen Sapphire from the office vault, and return to Knot Island to complete Celio's Network Machine.",
+  "items": [
+    {
+      "name": "Sapphire",
+      "method": "Retrieved from the executive office vault after defeating Executive Ariana",
+      "type": "Key Item"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Grunt Freddy",
+      "title": "Team Rocket Grunt",
+      "reward": "P1,952",
+      "pokemon": [
+        {
+          "species": "Glaceon",
+          "level": 61,
+          "types": ["Ice"]
+        },
+        {
+          "species": "Jynx",
+          "level": 61,
+          "types": ["Ice", "Psychic"]
+        }
+      ]
+    },
+    {
+      "name": "Grunt Cindy",
+      "title": "Team Rocket Grunt",
+      "reward": "P1,952",
+      "pokemon": [
+        {
+          "species": "Venomoth",
+          "level": 61,
+          "types": ["Bug", "Poison"]
+        },
+        {
+          "species": "Kadabra",
+          "level": 61,
+          "types": ["Psychic"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Static": [
+      {
+        "species": "Klinklang",
+        "level": "55",
+        "notes": "Static encounter vibrating within the warehouse rear generator room. Plus ability."
+      }
+    ]
+  }
+}

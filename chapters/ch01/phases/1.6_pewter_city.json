@@ -1,0 +1,89 @@
+{
+  "name": "Pewter City & Boulder Badge Gym",
+  "summary": "Historic stone-quarried city nestled in the foothills of Mt. Moon. Home of the Pewter Museum of Science, multiple valuable early-game sidequests, and Gym Leader Brock's Gym.",
+  "items": [
+    {
+      "name": "Fusion Incense",
+      "method": "Found tucked between the flower patch and the trees",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Fresh Water",
+      "method": "Given by the Gym Guide just inside the entrance of Pewter Gym",
+      "type": "Consumable"
+    },
+    {
+      "name": "Black Flute",
+      "method": "Gifted by the traveler sitting on the city bench immediately after defeating Brock",
+      "type": "Item"
+    },
+    {
+      "name": "Revive",
+      "method": "Found under a bench in Pewter City after accepting the Youngster's quest in the hotel",
+      "type": "Consumable"
+    },
+    {
+      "name": "TM21 (Frustration)",
+      "method": "Reward from the Youngster in the Pewter Hotel after returning his lost Revive",
+      "type": "TM"
+    },
+    {
+      "name": "Balm Mushroom",
+      "method": "Reward from the chef in Pewter Hotel after giving her 3 Tiny Mushrooms from Viridian Forest",
+      "type": "Valuable"
+    },
+    {
+      "name": "Partner Cap",
+      "method": "Reward from the Pikachu in the Poké Mart after finding its official League Hat",
+      "type": "Accessory"
+    }
+  ],
+  "trainers": [],
+  "encounters": {
+    "Quest Reward": [
+      {"dex_id": "204", "name": "Pineco", "types": ["Bug"], "levels": "10", "rates": "Hotel Bug Evolution Quest (Show Butterfree or Beedrill)"}
+    ],
+    "In-Game Trade": [
+      {"dex_id": "236", "name": "Tyrogue", "types": ["Fighting"], "levels": "Same as Traded", "rates": "Pewter House (Traded for Mankey)"}
+    ]
+  },
+  "move_tutors": [
+    {
+      "name": "Metronome Move Tutor",
+      "location": "Inside the Pewter Museum of Science (eastern lab)",
+      "cost": "Free",
+      "notes": "Teaches Metronome, executing a completely random move from the entire game."
+    },
+    {
+      "name": "Mud-Slap Move Tutor",
+      "location": "Pewter Museum 2nd floor scientist",
+      "cost": "Free (Quiz completion)",
+      "notes": "Teaches 20 BP Ground special move Mud-Slap (100% chance to lower opponent accuracy)."
+    }
+  ],
+  "sidequests": [
+    {
+      "title": "Lost Medicine",
+      "giver": "Youngster in Pewter Hotel",
+      "objective": "Check benches across Pewter City for his lost Revive",
+      "reward": "TM21 Frustration"
+    },
+    {
+      "title": "Mushroom Gathering",
+      "giver": "Hotel Cook",
+      "objective": "Bring 3 Tiny Mushrooms gathered from Viridian Forest",
+      "reward": "Balm Mushroom (sells for 6,250 Pokedollars)"
+    },
+    {
+      "title": "Bug Evolution",
+      "giver": "Bug Catcher in Pewter Hotel",
+      "objective": "Show a fully evolved Bug Pokémon (Butterfree or Beedrill)",
+      "reward": "Lv. 10 Pineco"
+    }
+  ],
+  "gym_duel_protocol": {
+    "restriction": "2v2 Pokémon battle limit",
+    "party_selection_instructions": "When initiating the Gym battle with Brock, the game automatically prompts you to select which 2 Pokémon from your active party to bring into combat. No PC box deposits required."
+  },
+  "navigation_notes": "Heal your party at the Pokémon Center and buy extra Potions ($300) before entering the Gym. Ensure your team does not exceed the Lv. 14 cap. After earning the Boulder Badge, talk to the traveler on the bench to claim the Black Flute, turn in your hotel quests, and proceed east to Route 3."
+}

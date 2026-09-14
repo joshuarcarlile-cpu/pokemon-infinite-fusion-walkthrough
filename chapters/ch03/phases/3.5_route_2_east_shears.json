@@ -1,0 +1,36 @@
+{
+  "name": "Route 2 East & Shears (Cut Tool)",
+  "summary": "Emerge from Diglett's Cave onto the secluded eastern ridge of Route 2. Complete 'The Lumberjack!' field quest to acquire the Shears—the permanent Key Item replacement for HM01 Cut—eliminating the need for HM slaves.",
+  "items": [
+    {
+      "name": "Shears",
+      "method": "Rewarded by the elderly woodsman after clearing all small trees in his backyard (The Lumberjack! Quest)",
+      "type": "Key Item"
+    },
+    {
+      "name": "Lemonade",
+      "method": "Given alongside the Shears after completing The Lumberjack! Quest",
+      "type": "Consumable"
+    },
+    {
+      "name": "Ether",
+      "method": "Located beside the woodsman's cabin on Route 2",
+      "type": "Consumable"
+    },
+    {
+      "name": "Mr. Mime (Marcel)",
+      "method": "In-game NPC trade in the southern gatehouse for an Abra",
+      "type": "Trade Gift"
+    }
+  ],
+  "trainers": [],
+  "encounters": {
+    "Grass": [
+      {"dex_id": "016", "name": "Pidgey", "types": ["Normal", "Flying"], "levels": "2-5", "rates": "40% Morning / Day"},
+      {"dex_id": "019", "name": "Rattata", "types": ["Normal"], "levels": "2-5", "rates": "35% All Times"},
+      {"dex_id": "161", "name": "Sentret", "types": ["Normal"], "levels": "2-5", "rates": "10% Day"},
+      {"dex_id": "163", "name": "Hoothoot", "types": ["Normal", "Flying"], "levels": "2-5", "rates": "40% Night"}
+    ]
+  },
+  "navigation_notes": "CRITICAL TOOL ACQUISITION: Speak to the elderly man in the cabin on Route 2 to accept 'The Lumberjack!' quest. Head into his backyard and interact with every small shrub to cut them down. Speak to him again to receive +1 Karma and the SHEARS. In Infinite Fusion, HM tools completely eliminate HM slaves—the Shears cut bushes directly from your Bag without teaching Cut to any Pokémon! Use the Shears to clear blocked paths across Kanto."
+}

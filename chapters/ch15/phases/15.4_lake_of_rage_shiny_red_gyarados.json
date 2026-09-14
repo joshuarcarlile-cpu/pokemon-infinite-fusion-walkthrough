@@ -1,0 +1,35 @@
+{
+  "name": "Lake of Rage and Red Gyarados",
+  "summary": "Arrive at the rain-lashed basin of the Lake of Rage north of Route 43. Rest inside the shoreline cabin's bed to fully restore party health and PP without returning to town. Navigate around the muddy banks to retrieve an Electirizer tucked in the northeast corner. Surf into the roaring waters to confront the legendary static Shiny Red Gyarados (Lv. 40), obtaining the Red Scale upon battle conclusion. Confer with Dragon Master Lance along the perimeter regarding suspicious radio waves broadcast from Mahogany Town, and speak with Scientist Colress investigating an ancient Icy Rock.",
+  "items": [
+    {
+      "name": "Red Scale",
+      "method": "Obtained automatically after capturing or defeating the static Shiny Red Gyarados in the lake center",
+      "type": "Key Item"
+    },
+    {
+      "name": "Electirizer",
+      "method": "Found tucked along the far northeast shoreline of the lake basin",
+      "type": "Evolution Item"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Fisherman Chris",
+      "team": [
+        {"species": "Qwilfish/Cloyster", "level": 58, "types": ["Water", "Poison"]}
+      ]
+    }
+  ],
+  "encounters": {
+    "Lake of Rage Surfing": [
+      {"dex_id": "129", "name": "Magikarp", "types": ["Water"], "levels": "5-45", "rates": "100%"}
+    ],
+    "Lake of Rage Tall Grass": [
+      {"dex_id": "017", "name": "Pidgeotto", "types": ["Normal", "Flying"], "levels": "42-54", "rates": "30%"},
+      {"dex_id": "180", "name": "Flaaffy", "types": ["Electric"], "levels": "45-50", "rates": "30%"},
+      {"dex_id": "204", "name": "Pineco", "types": ["Bug"], "levels": "55", "rates": "20%"},
+      {"dex_id": "294", "name": "Bidoof", "types": ["Normal"], "levels": "40", "rates": "20%"}
+    ]
+  }
+}

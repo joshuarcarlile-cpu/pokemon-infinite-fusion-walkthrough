@@ -1,0 +1,59 @@
+{
+  "name": "Celadon Gym (Rainbow Badge Duel)",
+  "summary": "Snip the outer hedge shrub with the Shears tool to enter the botanical greenhouse of Celadon Gym. Navigate the winding floral corridors, defeat Erika's apprentices, and initiate the formal 3 vs 3 duel against Gym Leader Erika under the Hard Mode Level 39 cap.",
+  "items": [
+    {
+      "name": "Rainbow Badge",
+      "method": "Awarded by Gym Leader Erika upon defeat (controls Pokémon up to Lv. 50)",
+      "type": "Badge"
+    },
+    {
+      "name": "TM22 Solar Beam",
+      "method": "Gift from Gym Leader Erika after winning the gym duel",
+      "type": "TM"
+    },
+    {
+      "name": "Red Headband",
+      "method": "Gift from Gym Leader Erika after winning the gym duel",
+      "type": "Cosmetic"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Beauty Tamia",
+      "team": [
+        {
+          "species": "Oddish/Caterpie",
+          "level": 31,
+          "types": ["Grass", "Bug"]
+        },
+        {
+          "species": "Weepinbell/Butterfree",
+          "level": 33,
+          "types": ["Grass", "Flying"]
+        }
+      ]
+    },
+    {
+      "name": "Beauty Lori",
+      "team": [
+        {
+          "species": "Oddish/Exeggcute",
+          "level": 36,
+          "types": ["Grass", "Psychic"]
+        }
+      ]
+    },
+    {
+      "name": "Lass Kay",
+      "team": [
+        {
+          "species": "Weepinbell/Doduo",
+          "level": 35,
+          "types": ["Grass", "Flying"]
+        }
+      ]
+    }
+  ],
+  "encounters": {}
+}

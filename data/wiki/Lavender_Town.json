@@ -1,0 +1,59 @@
+{
+  "title": "Lavender_Town",
+  "url": "https://infinitefusion.fandom.com/wiki/Lavender_Town",
+  "lead_summary": "Lavender Town can be accessed from the North by Route 10 (After Rock Tunnel), the West by Route 8, and the South by Route 12.\nThe main attraction of this town is the Pokémon Tower.",
+  "missable_warnings": [],
+  "items": [
+    {
+      "internal_id": "FULLHEAL",
+      "quantity": "",
+      "name": "Full Heal",
+      "location_details": "In the trash in the southwest house."
+    },
+    {
+      "internal_id": "MOONSTONE",
+      "quantity": "",
+      "name": "Moon Stone",
+      "location_details": "Given by the Stone Maniac at night."
+    },
+    {
+      "internal_id": "SUNSTONE",
+      "quantity": "",
+      "name": "Sun Stone",
+      "location_details": "Given by the Stone Maniac during the day."
+    },
+    {
+      "internal_id": "machine_DARK",
+      "quantity": "",
+      "name": "TM41 Torment",
+      "location_details": "In the flower field."
+    },
+    {
+      "internal_id": "machine_NORMAL",
+      "quantity": "",
+      "name": "TM87 Swagger",
+      "location_details": "Given by the Name Rater after showing him a Pokemon with a perfect nickname."
+    },
+    {
+      "internal_id": "LUNARFEATHER",
+      "quantity": "",
+      "name": "Lunar Feather",
+      "location_details": "On the bed in the Orphanage."
+    }
+  ],
+  "sections": [
+    "Items",
+    "Shops",
+    "Outfits",
+    "Shops",
+    "Pokémon",
+    "Lavender Town",
+    "Hidden Tomb",
+    "Points of Interest",
+    "Name Rater",
+    "Hidden Tomb",
+    "Ominous Wind Move Tutor",
+    "Morty Rematch"
+  ],
+  "raw_wikitext": "{{GlobalToggles}}\n{{InfoboxLocation\n|region=Kanto\n|location_image=LavenderTown.png\n|map_image=Lavender Town Map.png\n|has_pokemon_center=1\n|has_pokemart=1\n|connection_1_direction=north\n|connection_1_location=Route 10 (After Rock Tunnel)\n|connection_2_direction=west\n|connection_2_location=Route 8\n|connection_3_direction=south\n|connection_3_location=Route 12\n|connection_4_direction=northeast\n|connection_4_location=Pokémon Tower\n|connection_5_direction=southeast\n|connection_5_location=Halfmoon Island\n|connection_5_restrictions=%bedroomkey%\n}}'''Lavender Town''' can be accessed from the North by [[Route 10 (After Rock Tunnel)]], the West by [[Route 8]], and the South by [[Route 12]].\n\nThe main attraction of this town is the [[Pokémon Tower]].\n\n==Items==\n{{ItemTable/Header}}\n{{ItemTable/Section|Found/Given}}\n{{ItemTable/Data|FULLHEAL||Full Heal|In the trash in the southwest house.|FullHeal_LavenderTown.png}}\n{{ItemTable/Data|MOONSTONE||Moon Stone|Given by the Stone Maniac at night.|MoonStone_Lavender.png}}\n{{ItemTable/Data|SUNSTONE||Sun Stone|Given by the Stone Maniac during the day.|SunStone_Lavender.png}}\n{{ItemTable/Data|machine_DARK||TM41 Torment|In the flower field.|TM41_Lavender.png}}\n{{ItemTable/Data|machine_NORMAL||TM87 Swagger|Given by the Name Rater after showing him a Pokemon with a perfect nickname.|TM87_Lavender.png}}\n{{ItemTable/Data|LUNARFEATHER||Lunar Feather|On the bed in the Orphanage.|}}\n{{ItemTable/Footer}}\n\n===Shops===\n{{MartTable/Header}}\n{{MartTable/Section|Poké Mart Left Cashier (Town Exclusives)}}\n{{MartTable/Data|GHOSTGEM|Ghost Gem}}\n{{MartTable/Data|DARKGEM|Dark Gem}}\n{{MartTable/Data|DUSKBALL|Dusk Ball}}\n{{MartTable/General|Poké Mart Right Cashier (General Store)}}\n{{MartTable/Footer}}\n\n==Outfits==\n{{ItemTable/Header|Outfit}}\n{{ItemTable/Data/Outfit|hat|duskullmask||In the Hidden Tomb.}}\n{{ItemTable/Footer/Outfit}}\n\n===Shops===\n{{MartTable/Header|Outfit}}\n{{MartTable/Section|Poké Mart Right Cashier (Town Exclusive Hats)}}\n{{MartTable/Data/Outfit|hat|cloak}}\n{{MartTable/General/Hats|Poké Mart Right Cashier (Regular Hats)}}\n{{MartTable/Section|Poké Mart Left Cashier (Town Exclusive Clothes)}}\n{{MartTable/Data/Outfit|clothes|cloak}}\n{{MartTable/Data/Outfit|clothes|gothhoodie}}\n{{MartTable/Data/Outfit|clothes|HexManiac}}\n{{MartTable/General/Clothes|Poké Mart Left Cashier (Regular Clothes)}}\n{{MartTable/Section|Poké Mart (Old Lady)}}\n{{MartTable/Data/Outfit|hair|HexManiac}}\n{{MartTable/Salon|Hotel Hair Salon (Regular Hair Styles)}}\n{{MartTable/Footer}}\n\n\n==Pokémon==\n===Lavender Town===\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Pokémon Center}}\n{{EncounterTable/Data|253|Wynaut|Psychic||Egg|Gift|-}}\n{{EncounterTable/Section|Orphanage (after reporting TR mission)*}}\n{{EncounterTable/Data|252.41|Azurill/Zubat|Normal|Flying|20|Gift|-}}\n{{EncounterTable/Footer}}\n\n''*After reporting Team Rocket to the police during the Disobedient Pokémon mission, the Azurill/Zubat will be taken to the Lavender Orphanage where the player can adopt it. If during the mission the player leveled up or evolved the Pokémon, it will retain those changes.''\n\n===Hidden Tomb===\n<!-----------------------------------------------!>\n<!-- CLASSIC & EXPERT MODE POKÉMON HIDDEN TOMB --!>\n<!------------------------------------------------>\n<div class=\"classic-mode expert-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Cave}}\n{{EncounterTable/Data|311|Duskull|Ghost||12-22|190|100%}}\n{{EncounterTable/Footer}}\n</div>\n<!------------------------------------!>\n<!-- REMIX MODE POKÉMON HIDDEN TOMB --!>\n<!------------------------------------->\n<div class=\"remix-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Cave}}\n{{EncounterTable/Data|295|Spiritomb|Dark|Ghost|20-25|100|25%}}\n{{EncounterTable/Data|311|Duskull|Ghost||12-22|190|25%}}\n{{EncounterTable/Data|358|Rotom|Electric|Ghost|21-24|45|5%}}\n{{EncounterTable/Data|365|Litwick|Ghost|Fire|12-22|190|25%}}\n{{EncounterTable/Data|433|Oricorio|Ghost|Flying|20-25|45|20%}}\n{{EncounterTable/Footer}}\n</div>\n\n== Points of Interest ==\n=== Name Rater ===\nIn the tent, the player will find the Name Rater. If shown a Pokémon with a \"perfect nickname\", he will give the player a {{ItemIcon|machine_NORMAL}} TM87 Swagger.\n\n''Inspecting the picture next to the Name Rater gives a hint on what is a perfect nickname.''\n\nA Name Rater considers a perfect nickname to be both starting with the same letter and ending with the same letter as the Pokémon's species.\n\n=== Hidden Tomb ===\n[[File:QuestTime_LavenderTown.png|thumb|255x249px]]\nBy ringing the bell next to the Pokémon Tower at the right time, the entrance to the Hidden Tomb will appear.\n\nThe objective for the \"For Whom the Bell Tolls\" [[Quests|quest]] started in [[Celadon City|Celadon City's]] hotel is to solve the riddle to open the Hidden Tomb. \n\n{{Quote|...the bell in Lavender Town reveal its secret if one rings it at night, when the time is right.}}\n\n''The tomb can be opened without starting the quest however due to a bug, the quest cannot be completed if the tomb had already been opened.''\n{{Clear}}\n=== Ominous Wind Move Tutor ===\nA girl in the western house will teach [[bulbapedia:Ominous Wind (move)|Ominous Wind]] to the player's Pokémon for {{P$}}2,500.\n\n=== Morty Rematch ===\nAfter clearing [[Mt. Silver]], Morty can be found next to the Pokémon Tower during the [[Time|night]]. After talking to him, he will appear at the Fighting Arena in [[Vermillion City]] for a [[Gym Leader rematches|rematch]].\n\n[[Category:Locations]]\n[[Category:Towns]]\n[[Category:Kanto]]"
+}

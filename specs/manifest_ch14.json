@@ -1,0 +1,545 @@
+{
+  "chapter_id": "ch14",
+  "title": "Act 2 - Chapter 5: Morty & the Fog Badge (Ecruteak City, Burned Tower & Bell Tower)",
+  "act": 2,
+  "hard_mode_level_cap": 67,
+  "gym_duel_limit": 5,
+  "routes_covered": [
+    "Route 37",
+    "Ecruteak City",
+    "Burned Tower"
+  ],
+  "vanilla_divergence_alerts": [
+    "HM Slaves: 100% eliminated by 9 reusable Key Item tools. Do NOT instruct players to teach field moves to party members.",
+    "Friendship: Eliminated. All friendship evolutions use static level thresholds (e.g. Baby Pokémon evolve at Lv. 15).",
+    "Trade Evolutions: Evolve naturally at Level 40 OR via Linking Cord (not Level 37)."
+  ],
+  "critical_missables": [],
+  "hotel_milestone_target": {},
+  "active_and_ongoing_quests": [],
+  "boss_ground_truth": {
+    "classic": {
+      "leader": "Morty",
+      "team": [
+        {
+          "species": "B338H94",
+          "level": 65,
+          "moves": [
+            "MEANLOOK",
+            "PURSUIT",
+            "SHADOWBALL",
+            "CURSE"
+          ],
+          "ability_index": 0,
+          "item": "SPELLTAG"
+        },
+        {
+          "species": "B289H262",
+          "level": 63,
+          "moves": [
+            "GRUDGE",
+            "NIGHTSLASH",
+            "HEALBLOCK",
+            "SHADOWSNEAK"
+          ],
+          "ability_index": 0,
+          "item": "FOCUSSASH"
+        },
+        {
+          "species": "B295H36",
+          "level": 65,
+          "moves": [
+            "CURSE",
+            "ATTRACT",
+            "MINIMIZE",
+            "OMINOUSWIND"
+          ],
+          "ability_index": 1,
+          "item": "SPELLTAG"
+        },
+        {
+          "species": "B329H143",
+          "level": 64,
+          "moves": [
+            "SWORDSDANCE",
+            "KINGSSHIELD",
+            "BODYSLAM",
+            "SHADOWPUNCH"
+          ],
+          "ability_index": 1,
+          "item": "LEFTOVERS"
+        },
+        {
+          "species": "B313H107",
+          "level": 67,
+          "moves": [
+            "DRAINPUNCH",
+            "SHADOWCLAW",
+            "BULKUP",
+            "THUNDERPUNCH"
+          ],
+          "ability_index": 1,
+          "item": "BIGROOT"
+        }
+      ],
+      "party_size": 5
+    },
+    "expert": {
+      "leader": "Morty",
+      "team": [
+        {
+          "species": "B338H73",
+          "level": 67,
+          "moves": [
+            "TOXICSPIKES",
+            "SCALD",
+            "NIGHTDAZE",
+            "TAUNT"
+          ],
+          "ability": "ILLUSION",
+          "item": "LEFTOVERS",
+          "happiness": 0,
+          "nature": "MODEST",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 4,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B426H310",
+          "level": 67,
+          "moves": [
+            "CRUNCH",
+            "DRAGONDANCE",
+            "DRAGONCLAW",
+            "POISONFANG"
+          ],
+          "ability": "STRONGJAW",
+          "item": "CHOPLEBERRY",
+          "happiness": 0,
+          "nature": "JOLLY",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B295H123",
+          "level": 67,
+          "moves": [
+            "UTURN",
+            "SHADOWSNEAK",
+            "CRABHAMMER",
+            "ROOST"
+          ],
+          "ability": "INFILTRATOR",
+          "item": "EVIOLITE",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 252,
+            "DEFENSE": 4,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B287H263",
+          "level": 69,
+          "moves": [
+            "VOLTSWITCH",
+            "MOONBLAST",
+            "PSYCHIC",
+            "ENERGYBALL"
+          ],
+          "ability": "ANALYTIC",
+          "item": "ASSAULTVEST",
+          "happiness": 0,
+          "nature": "QUIET",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 4,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B296H22",
+          "level": 69,
+          "moves": [
+            "DRILLPECK",
+            "FOCUSENERGY",
+            "POWERUPPUNCH",
+            "BULLETPUNCH"
+          ],
+          "ability": "SNIPER",
+          "item": "SCOPELENS",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B464H25",
+          "level": 71,
+          "moves": [
+            "VOLTTACKLE",
+            "ACCELEROCK",
+            "FIREFANG",
+            "GRASSKNOT"
+          ],
+          "ability": "KEENEYE",
+          "item": "LIGHTBALL",
+          "happiness": 0,
+          "nature": "NAUGHTY",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        }
+      ],
+      "party_size": 6
+    }
+  },
+  "encounters_by_location": {
+    "Route 37 (ID 586)": {
+      "Grass": [
+        {
+          "name": "Pidgeotto",
+          "dex_id": "017",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "41-49"
+        },
+        {
+          "name": "Vulpix",
+          "dex_id": "037",
+          "types": [
+            "Fire"
+          ],
+          "levels": "40-48"
+        },
+        {
+          "name": "Growlithe",
+          "dex_id": "058",
+          "types": [
+            "Fire"
+          ],
+          "levels": "40-48"
+        },
+        {
+          "name": "Noctowl",
+          "dex_id": "164",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "41-48"
+        },
+        {
+          "name": "Ariados",
+          "dex_id": "168",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "41-49"
+        },
+        {
+          "name": "Stantler",
+          "dex_id": "234",
+          "types": [
+            "Normal"
+          ],
+          "levels": "47-51"
+        },
+        {
+          "name": "Bonsly",
+          "dex_id": "257",
+          "types": [
+            "Rock"
+          ],
+          "levels": "35"
+        }
+      ]
+    },
+    "Burned Tower (ID 696)": {
+      "Cave": [
+        {
+          "name": "Raticate",
+          "dex_id": "020",
+          "types": [
+            "Normal"
+          ],
+          "levels": "36-41"
+        },
+        {
+          "name": "Gastly",
+          "dex_id": "092",
+          "types": [
+            "Ghost",
+            "Poison"
+          ],
+          "levels": "22-32"
+        },
+        {
+          "name": "Haunter",
+          "dex_id": "093",
+          "types": [
+            "Ghost",
+            "Poison"
+          ],
+          "levels": "33-39"
+        },
+        {
+          "name": "Weezing",
+          "dex_id": "110",
+          "types": [
+            "Poison"
+          ],
+          "levels": "36"
+        },
+        {
+          "name": "Magmar",
+          "dex_id": "126",
+          "types": [
+            "Fire"
+          ],
+          "levels": "44"
+        },
+        {
+          "name": "Misdreavus",
+          "dex_id": "200",
+          "types": [
+            "Ghost"
+          ],
+          "levels": "33-39"
+        }
+      ]
+    }
+  },
+  "wiki_ground_truth": {
+    "Route 37": {
+      "canonical_slug": "Route_37",
+      "lead_summary": "Route 37 is a route that connects Ecruteak City to Route 36.",
+      "items": [
+        {
+          "internal_id": "FOCUSSASH",
+          "quantity": "",
+          "name": "Focus Sash",
+          "location_details": "On the ground on the East."
+        },
+        {
+          "internal_id": "CORNNBERRY",
+          "quantity": "1-2",
+          "name": "Cornn Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "GREPABERRY",
+          "quantity": "1-2",
+          "name": "Grepa Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "HONDEWBERRY",
+          "quantity": "1-2",
+          "name": "Hondew Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "KELPSYBERRY",
+          "quantity": "1-2",
+          "name": "Kelpsy Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "QUALOTBERRY",
+          "quantity": "1-2",
+          "name": "Qualot Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "TAMATOBERRY",
+          "quantity": "1-2",
+          "name": "Tamato Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Ecruteak City": {
+      "canonical_slug": "Ecruteak_City",
+      "lead_summary": "Ecruteak City can be accessed from the East by Route 42 and from the South by Route 37.\nThis city contains Ecruteak City's Gym, with Morty as its leader.\nThe player can access the Burned Tower in the North-West corner of the city, but the access to the Bell Tower is blocked by a Monk until shown both the Light and Dark Stones.",
+      "items": [
+        {
+          "internal_id": "FRESHWATER",
+          "quantity": "",
+          "name": "Fresh Water",
+          "location_details": "Given by the man inside the gym."
+        },
+        {
+          "internal_id": "SQUIRTBOTTLE",
+          "quantity": "",
+          "name": "Squirtbottle",
+          "location_details": "Given by the Ranger in the northwest house."
+        },
+        {
+          "internal_id": "XSPATK3",
+          "quantity": "",
+          "name": "XXX Sp. Atk 3",
+          "location_details": "Given by the woman in the Hotel after showing her a fully-evolved Ghost-type Pokémon."
+        },
+        {
+          "internal_id": "LIGHTSTONE",
+          "quantity": "",
+          "name": "Light Stone",
+          "location_details": "Given by Alder after defeating all four Kimono Girls."
+        },
+        {
+          "internal_id": "DARKSTONE",
+          "quantity": "",
+          "name": "Dark Stone",
+          "location_details": "Given by Alder after defeating all four Kimono Girls."
+        },
+        {
+          "internal_id": "DNASPLICERS",
+          "quantity": "",
+          "name": "DNA Splicers",
+          "location_details": "On the ground next to the Bell Tower."
+        },
+        {
+          "internal_id": "SPOOKYPLATE",
+          "quantity": "",
+          "name": "Spooky Plate",
+          "location_details": "Down a ledge, south of Bell Tower, after catching [[Legendary_Pokémon#Arceus"
+        }
+      ],
+      "missable_warnings": [
+        "NOTE: Contains actions that alter player Karma."
+      ]
+    },
+    "Burned Tower": {
+      "canonical_slug": "Burned_Tower",
+      "lead_summary": "The Burned Tower, formally known as the Brass Tower, is located in Ecruteak City. It was burnt down by a lightning strike 147 years prior to the events of this game.\nIt now is inhabited by Ghost Pokémon, and Morty often trains there.",
+      "items": [
+        {
+          "internal_id": "DUSKSTONE",
+          "quantity": "",
+          "name": "Dusk Stone",
+          "location_details": "Northwest Corner."
+        },
+        {
+          "internal_id": "FLOATSTONE",
+          "quantity": "",
+          "name": "Float Stone",
+          "location_details": "Southwest Corner."
+        },
+        {
+          "internal_id": "OLDGATEAU",
+          "quantity": "",
+          "name": "Old Gateau",
+          "location_details": "Hidden in the northwest corner."
+        },
+        {
+          "internal_id": "ELIXIR",
+          "quantity": "",
+          "name": "Elixir",
+          "location_details": "Hidden in the south."
+        },
+        {
+          "internal_id": "RAREBONE",
+          "quantity": "",
+          "name": "Rare Bone",
+          "location_details": "Hidden in the north."
+        },
+        {
+          "internal_id": "REAPERCLOTH",
+          "quantity": "",
+          "name": "Reaper Cloth",
+          "location_details": "Northeast Corner."
+        }
+      ],
+      "missable_warnings": []
+    }
+  },
+  "location_items_and_statics": [],
+  "authoring_guidance": {
+    "splicing_safety": "Explicitly state: HEAD species, BODY species, and WHICH ability to select at the DNA Splicer prompt.",
+    "gym_party_selection_rule": "Built-in 5v5 party limit! When challenged, the game prompts the player to choose which 5 Pokémon from their active party to bring into battle. No PC box deposits required.",
+    "stone_evolutions": "Advisory: Do NOT use evolution stones prematurely on stone-evolvers (e.g. Nidorino) before key level-up moves are learned.",
+    "undercover_informant_rocket": "Guide player to join Team Rocket for disguises/missions, BUT report crimes to police officer for +10 Karma and Diancie unlock!"
+  }
+}

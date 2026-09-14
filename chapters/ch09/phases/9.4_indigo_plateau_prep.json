@@ -1,0 +1,13 @@
+{
+  "name": "Indigo Plateau League Reception",
+  "summary": "Step through the grand double doors into Indigo Plateau, the supreme citadel of the Pokémon League. Utilize the Pokémon Center to heal, the PC storage terminal to assemble your definitive 6-member squad, and the League Mart to purchase essential battle supplies.",
+  "items": [
+    {
+      "name": "League Mart Inventory",
+      "method": "Purchase Full Restores ($3,000), Max Potions ($2,500), Revives ($1,500), and Full Heals ($600) from the League Clerk",
+      "type": "Supplies"
+    }
+  ],
+  "trainers": [],
+  "encounters": {}
+}

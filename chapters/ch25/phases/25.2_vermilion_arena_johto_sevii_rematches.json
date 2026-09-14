@@ -1,0 +1,69 @@
+{
+  "name": "Johto & Sevii Arena Rematches",
+  "summary": "Track the 8 Johto and Sevii Gym Leaders across their overworld retreats: Whitney visiting Goldenrod Department Store, Kurt gathering Apricorns in Slowpoke Well, Falkner observing from Violet Spire, Morty contemplating Bell Tower, Pryce at Lake of Rage, Clair training in Dragon's Den, Chuck sparring on Boon Island beach, and Jasmine tending Kin Island Lighthouse. Challenge each to fierce 6 vs 6 competitive rematches (Levels 82 to 86) inside the Vermilion Arena. Defeating all 16 Gym Leaders across both regional leagues completes the Grand Rematch circuit and unlocks Tier 4 and Tier 5 Elite Four Rematches.",
+  "items": [
+    {
+      "name": "Life Orb",
+      "method": "Purchased from the battle point exchange counter in the Vermilion Arena",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Assault Vest",
+      "method": "Purchased from the battle point exchange counter in the Vermilion Arena",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Ability Capsule",
+      "method": "Awarded by the Arena Master after defeating all 16 Gym Leaders in rematches",
+      "type": "Consumable"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Leader Jasmine (Rematch)",
+      "title": "Gym Leader",
+      "reward": "P10,560",
+      "pokemon": [
+        {
+          "species": "Steelix/Blastoise",
+          "level": 84,
+          "types": ["Steel", "Water"]
+        },
+        {
+          "species": "Magnezone/Electivire",
+          "level": 84,
+          "types": ["Electric", "Steel"]
+        },
+        {
+          "species": "Skarmory/Corviknight",
+          "level": 84,
+          "types": ["Steel", "Flying"]
+        },
+        {
+          "species": "Empoleon/Metagross",
+          "level": 85,
+          "types": ["Water", "Steel"]
+        },
+        {
+          "species": "Scizor/Lucario",
+          "level": 85,
+          "types": ["Bug", "Steel"]
+        },
+        {
+          "species": "Steelix/Tyranitar",
+          "level": 86,
+          "types": ["Steel", "Rock"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Arena": [
+      {
+        "species": "Johto & Sevii Leader Rematches",
+        "levels": "82-86",
+        "rate": "Competitive Overworld Rematches"
+      }
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "starter": "Bulbasaur",
+  "name": "Team Bulbasaur: Grass Momentum & Aerial Breakers",
+  "archetype": "Special Grass/Flying starter aerial pivot, Ground physical breakers, and high-velocity Psychic artillery.",
+  "gym_duel_core": [1, 2, 3, 4],
+  "gym_duel_rationale": "Koga enforces a strict 4v4 duel. Enter the arena with Venusaur/Fearow (500 BST Grass/Flying powerhouse quad-resisting Bug and immune to Toxic Spikes and Ground moves; STAB Drill Peck cleanly OHKOs Beedrill/Scyther and Venomoth/Grimer), Primeape/Sandslash (457 BST Ground/Fighting breaker whose Vital Spirit ignores sleep while STAB Magnitude and Close Combat punish Poison targets), Arcanine/Gloom (Fire/Poison quad-resisting Bug and Fairy with STAB Flamethrower and Extreme Speed priority), and Kadabra/Haunter (407 BST with 118 SpA, Levitate Ground immunity, and STAB Psychic to easily dismantle Koga's Ace Chansey/Muk before Acid Armor stacks).",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Venusaur/Fearow",
+      "types": ["Grass", "Flying"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 42,
+      "ability": "Overgrow",
+      "held_item": "Sharp Beak",
+      "role": "Aerial Tank & Gym Duelist",
+      "current_reached_moveset": [
+        "Drill Peck",
+        "Petal Dance",
+        "Sleep Powder",
+        "Roost"
+      ],
+      "progression_notes": "500 BST with 93 Speed. Quad-resists Grass and Bug, immune to Ground and Toxic Spikes. STAB Drill Peck shreds Koga's Bug/Poison lineup while Roost sustains through poison chip."
+    },
+    {
+      "slot": 2,
+      "species": "Primeape/Sandslash",
+      "types": ["Fighting", "Ground"],
+      "status": "Active in Party (Retained from Ch 4)",
+      "current_level": 41,
+      "ability": "Vital Spirit",
+      "held_item": "Soft Sand",
+      "role": "Physical Breaker & Gym Duelist",
+      "current_reached_moveset": [
+        "Close Combat",
+        "Magnitude",
+        "Slash",
+        "Swords Dance"
+      ],
+      "progression_notes": "457 BST physical fortress with 101 Attack and 93 Defense. Vital Spirit grants total sleep immunity while STAB Magnitude deals heavy Ground damage to grounded Poison types."
+    },
+    {
+      "slot": 3,
+      "species": "Arcanine/Gloom",
+      "types": ["Fire", "Poison"],
+      "status": "Active in Party (Retained from Ch 4)",
+      "current_level": 41,
+      "ability": "Flash Fire",
+      "held_item": "Charcoal",
+      "role": "Fire Pivot & Gym Duelist",
+      "current_reached_moveset": [
+        "Flamethrower",
+        "Giga Drain",
+        "Sleep Powder",
+        "Extreme Speed"
+      ],
+      "progression_notes": "Fire/Poison typing quad-resists Bug and Fairy while resisting Grass and Steel. STAB Flamethrower incinerates Beedrill/Scyther and Extreme Speed finishes weakened foes."
+    },
+    {
+      "slot": 4,
+      "species": "Kadabra/Haunter",
+      "types": ["Psychic", "Poison"],
+      "status": "Active in Party (Retained from Ch 4)",
+      "current_level": 41,
+      "ability": "Levitate",
+      "held_item": "Twisted Spoon",
+      "role": "Special Artillery & Gym Duelist",
+      "current_reached_moveset": [
+        "Psychic",
+        "Shadow Ball",
+        "Recover",
+        "Reflect"
+      ],
+      "progression_notes": "407 BST with 118 Special Attack and 98 Speed. Levitate grants Ground immunity. STAB Psychic targets Chansey/Muk's low physical defense before Acid Armor can be used."
+    },
+    {
+      "slot": 5,
+      "species": "Poliwrath/Dugtrio",
+      "types": ["Water", "Ground"],
+      "status": "Active in Party (Retained from Ch 4)",
+      "current_level": 40,
+      "ability": "Water Absorb",
+      "held_item": "Mystic Water",
+      "role": "Water Absorb Ground Bruiser",
+      "current_reached_moveset": [
+        "Earthquake",
+        "Bubble Beam",
+        "Submission",
+        "Sucker Punch"
+      ],
+      "progression_notes": "483 BST with 103 Speed and 98 Attack. Water Absorb counters water threats on Cycling Road while natural 100 BP Earthquake provides high ground pressure."
+    }
+  ],
+  "flex_bench": [
+    {
+      "slot": "B1",
+      "species": "Butterfree/Beedrill",
+      "types": ["Bug", "Poison"],
+      "current_level": 38,
+      "ability": "Compound Eyes",
+      "held_item": "Silver Powder",
+      "role": "97.5% Accuracy Sleep Catcher",
+      "why_use": "Retained for capturing rare Safari Zone encounters (Chansey, Tauros, Scyther) using 97.5% accurate Sleep Powder."
+    },
+    {
+      "slot": "B2",
+      "species": "Marowak/Aron",
+      "types": ["Ground", "Rock"],
+      "current_level": 38,
+      "ability": "Lightning Rod",
+      "held_item": "Hard Stone",
+      "role": "Rock/Ground Physical Tank",
+      "why_use": "Combines Thick Club Marowak physical power with Aron's 103 Base Defense, absorbing Normal and Electric attacks effortlessly."
+    }
+  ],
+  "fusion_lifecycle": {
+    "active_fusions": [
+      "Venusaur/Fearow (500 BST Grass/Flying starter with 4x STAB Drill Peck and Roost)",
+      "Primeape/Sandslash (457 BST Vital Spirit sleep-immune physical breaker)",
+      "Arcanine/Gloom (Fire/Poison quad-resisting Bug with Flamethrower and Extreme Speed)",
+      "Kadabra/Haunter (118 SpA Levitate Psychic/Poison special sweeper)",
+      "Poliwrath/Dugtrio (483 BST Water Absorb fast ground sweeper with 103 Speed)"
+    ],
+    "unfuse_recommendations": [
+      "1. Maintain current fusions through Fuchsia City; the roster hard-counters Koga's Bug/Poison setup.",
+      "2. Once Linking Cords are acquired from 15 Hotel Quests, unfuse Kadabra/Haunter at any Mart ($300) to evolve Kadabra into Alakazam and Haunter into Gengar before re-splicing."
+    ],
+    "upcoming_fusions": [
+      "Venusaur/Alakazam (Psychic Grass titan for Gym 6 Sabrina)",
+      "Poliwrath/Machamp (Physical fighting powerhouse)"
+    ]
+  }
+}

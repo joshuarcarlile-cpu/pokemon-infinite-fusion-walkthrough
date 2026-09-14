@@ -1,0 +1,136 @@
+{
+  "location": "Viridian Forest (ID 491)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "010",
+        "name": "Caterpie",
+        "type1": "Bug",
+        "type2": "",
+        "levels": "3-5",
+        "catch_rate": "255",
+        "rates": [
+          "35%",
+          "30%",
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "011",
+        "name": "Metapod",
+        "type1": "Bug",
+        "type2": "",
+        "levels": "5",
+        "catch_rate": "120",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "013",
+        "name": "Weedle",
+        "type1": "Bug",
+        "type2": "Poison",
+        "levels": "3-5",
+        "catch_rate": "255",
+        "rates": [
+          "25%",
+          "25%",
+          "35%"
+        ]
+      },
+      {
+        "dex_id": "014",
+        "name": "Kakuna",
+        "type1": "Bug",
+        "type2": "Poison",
+        "levels": "4-6",
+        "catch_rate": "120",
+        "rates": [
+          "5%",
+          "10%",
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "016",
+        "name": "Pidgey",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "3-5",
+        "catch_rate": "255",
+        "rates": [
+          "5%",
+          "10%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "052",
+        "name": "Meowth",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "3-5",
+        "catch_rate": "255",
+        "rates": [
+          "5%",
+          "-",
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "163",
+        "name": "Hoothoot",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "3-5",
+        "catch_rate": "255",
+        "rates": [
+          "-",
+          "-",
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "165",
+        "name": "Ledyba",
+        "type1": "Bug",
+        "type2": "Flying",
+        "levels": "3-5",
+        "catch_rate": "255",
+        "rates": [
+          "15%",
+          "10%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "172",
+        "name": "Pichu",
+        "type1": "Electric",
+        "type2": "",
+        "levels": "3-5",
+        "catch_rate": "190",
+        "rates": [
+          "5%",
+          "10%",
+          "-"
+        ]
+      }
+    ],
+    "Pok\u00e9 Radar": [
+      {
+        "dex_id": "404",
+        "name": "Shroomish",
+        "type1": "Grass",
+        "type2": "",
+        "levels": "2-5",
+        "catch_rate": "255",
+        "rates": [
+          "50% <small>([[Pok\u00e9 Radar#How_it_works",
+          "long rustle]])</small>"
+        ]
+      }
+    ]
+  }
+}

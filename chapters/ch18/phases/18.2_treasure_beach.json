@@ -1,0 +1,50 @@
+{
+  "name": "Treasure Beach",
+  "summary": "Surf south-southwest from Knot Island to explore Treasure Beach. Search the sands to recover the vital Network Adapter for Bebe alongside valuable Pearls and Stardust. Rare Oricorio (Pa'u Style) roam the vegetation while Pyukumuku can be detected with the Poké Radar.",
+  "items": [
+    {
+      "name": "Network Adapter",
+      "method": "Found lying on the beach sand (return to Bebe in Knot Island Center)",
+      "type": "Key Item"
+    },
+    {
+      "name": "Star Piece",
+      "method": "Found on the southern shoreline of the beach",
+      "type": "Valuable"
+    },
+    {
+      "name": "Big Pearl",
+      "method": "Hidden in the sand near the seashells",
+      "type": "Valuable"
+    },
+    {
+      "name": "Ultra Ball",
+      "method": "On the western edge of the beach",
+      "type": "Pokeball"
+    }
+  ],
+  "trainers": [],
+  "encounters": {
+    "Grass": [
+      {"dex_id": "054", "name": "Psyduck", "types": ["Water"], "levels": "20-30", "rates": "20%"},
+      {"dex_id": "079", "name": "Slowpoke", "types": ["Water", "Psychic"], "levels": "20-30", "rates": "20%"},
+      {"dex_id": "080", "name": "Slowbro", "types": ["Water", "Psychic"], "levels": "30", "rates": "5%"},
+      {"dex_id": "098", "name": "Krabby", "types": ["Water"], "levels": "20-30", "rates": "20%"},
+      {"dex_id": "099", "name": "Kingler", "types": ["Water"], "levels": "30", "rates": "5%"},
+      {"dex_id": "114", "name": "Tangela", "types": ["Grass"], "levels": "24", "rates": "20%"},
+      {"dex_id": "432", "name": "Oricorio", "types": ["Psychic", "Flying"], "levels": "25-27", "rates": "10%"}
+    ],
+    "Surf": [
+      {"dex_id": "072", "name": "Tentacool", "types": ["Water", "Poison"], "levels": "5-40", "rates": "20%"},
+      {"dex_id": "086", "name": "Seel", "types": ["Water"], "levels": "25-30", "rates": "10%"},
+      {"dex_id": "116", "name": "Horsea", "types": ["Water"], "levels": "15-30", "rates": "5%"},
+      {"dex_id": "117", "name": "Seadra", "types": ["Water"], "levels": "15-25", "rates": "5%"},
+      {"dex_id": "130", "name": "Gyarados", "types": ["Water", "Flying"], "levels": "15-25", "rates": "15%"},
+      {"dex_id": "131", "name": "Lapras", "types": ["Water", "Ice"], "levels": "15-25", "rates": "5%"},
+      {"dex_id": "501", "name": "Luvdisc", "types": ["Water"], "levels": "20-25", "rates": "30%"}
+    ],
+    "Poké Radar": [
+      {"dex_id": "370", "name": "Pyukumuku", "types": ["Water"], "levels": "20", "rates": "50% (Long Rustle)"}
+    ]
+  }
+}

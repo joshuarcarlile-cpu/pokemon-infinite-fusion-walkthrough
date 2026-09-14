@@ -1,0 +1,104 @@
+{
+  "starter": "Squirtle",
+  "name": "Team Squirtle: Bulky Balance & Regenerator Pivot",
+  "archetype": "Defensive balance, Electric/Ground immunity pivots, and relentless attrition",
+  "gym_duel_core": [1, 2, 3, 4, 5, 6],
+  "gym_duel_rationale": "Team Squirtle enters the Level 100 competitive sandbox with an ironclad defensive foundation. Jolteon/Sandslash provides complete immunity to Electric attacks and counters Gyarados/Dragonite with 4x Discharge/Thunderbolt. Blastoise/Fearow walls physical powerhouses with Roost and Hydro Pump, while Arbok/Primeape utilizes Glare paralysis to disable opposing speed sweepers. RestTalk Snorlax and Alakazam/Weezing neutralize special psychic and shadow ball barrages.",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Blastoise/Fearow",
+      "status": "Active in Party (Level 100 Apex Starter)",
+      "current_level": 100,
+      "types": ["Water", "Flying"],
+      "ability": "Torrent",
+      "held_item": "Mystic Water",
+      "nature": "Bold",
+      "role": "Bulky Pivot / Roost Recovery",
+      "current_reached_moveset": ["Hydro Pump", "Drill Peck", "Roost", "Protect"]
+    },
+    {
+      "slot": 2,
+      "species": "Jolteon/Sandslash",
+      "status": "Active in Party (Level 100 Electric Sweeper)",
+      "current_level": 100,
+      "types": ["Electric", "Ground"],
+      "ability": "Volt Absorb",
+      "held_item": "Magnet",
+      "nature": "Timid",
+      "role": "Electric Immune Fast Sweeper",
+      "current_reached_moveset": ["Discharge", "Earthquake", "Pin Missile", "Double Kick"]
+    },
+    {
+      "slot": 3,
+      "species": "Lapras",
+      "status": "Active in Party (Level 100 Dragon Slayer)",
+      "current_level": 100,
+      "types": ["Water", "Ice"],
+      "ability": "Water Absorb",
+      "held_item": "Never-Melt Ice",
+      "nature": "Calm",
+      "role": "Specially Defensive Dragon Check",
+      "current_reached_moveset": ["Ice Beam", "Hydro Pump", "Confuse Ray", "Body Slam"]
+    },
+    {
+      "slot": 4,
+      "species": "Arbok/Primeape",
+      "status": "Active in Party (Level 100 Intimidate Pivot)",
+      "current_level": 100,
+      "types": ["Poison", "Fighting"],
+      "ability": "Intimidate",
+      "held_item": "Black Belt",
+      "nature": "Jolly",
+      "role": "Intimidate Pivot / Fighting Wallbreaker",
+      "current_reached_moveset": ["Close Combat", "Gunk Shot", "Crunch", "Glare"]
+    },
+    {
+      "slot": 5,
+      "species": "Alakazam/Weezing",
+      "status": "Active in Party (Level 100 Special Cannon)",
+      "current_level": 100,
+      "types": ["Psychic", "Poison"],
+      "ability": "Levitate",
+      "held_item": "Twisted Spoon",
+      "nature": "Modest",
+      "role": "Levitate Pivot / Special Cannon",
+      "current_reached_moveset": ["Psychic", "Sludge Bomb", "Recover", "Calm Mind"]
+    },
+    {
+      "slot": 6,
+      "species": "Snorlax",
+      "status": "Active in Party (Level 100 Defensive Anchor)",
+      "current_level": 100,
+      "types": ["Normal"],
+      "ability": "Thick Fat",
+      "held_item": "Chesto Berry",
+      "nature": "Careful",
+      "role": "Specially Defensive Anchor",
+      "current_reached_moveset": ["Body Slam", "Crunch", "Rest", "Sleep Talk"]
+    }
+  ],
+  "flex_bench": [
+    {
+      "species": "Venusaur",
+      "level": 95,
+      "types": ["Grass", "Poison"],
+      "role": "Leech Seed / Status Support",
+      "recommended_moves": ["Giga Drain", "Sludge Bomb", "Sleep Powder", "Leech Seed"]
+    },
+    {
+      "species": "Gyarados",
+      "level": 95,
+      "types": ["Water", "Flying"],
+      "role": "Intimidate / Dragon Dance Sweeper",
+      "recommended_moves": ["Dragon Dance", "Waterfall", "Bounce", "Ice Fang"]
+    },
+    {
+      "species": "Hitmontop",
+      "level": 95,
+      "types": ["Fighting"],
+      "role": "Rapid Spin / Priority Utility",
+      "recommended_moves": ["Rapid Spin", "Close Combat", "Triple Kick", "Mach Punch"]
+    }
+  ]
+}

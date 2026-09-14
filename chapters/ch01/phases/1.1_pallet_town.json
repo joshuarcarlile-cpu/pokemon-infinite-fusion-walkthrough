@@ -1,0 +1,37 @@
+{
+  "name": "Pallet Town",
+  "summary": "Your home town. Select your starter Pokémon from Professor Oak's Laboratory, withdraw the bedroom PC Potion, and claim the Town Map from Daisy after delivering Oak's Parcel.",
+  "items": [
+    {
+      "name": "Potion",
+      "method": "Withdrawn from player's PC bedroom item storage",
+      "type": "Consumable"
+    },
+    {
+      "name": "Town Map",
+      "method": "Gifted by Daisy in the rival's house after delivering Oak's Parcel",
+      "type": "Key Item"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Rival Blue (Lab Battle)",
+      "team": [
+        {
+          "species": "Starter (Counter-pick)",
+          "level": 5,
+          "moves": ["Tackle", "Growl"]
+        }
+      ],
+      "reward": "175 Pokedollars",
+      "strategy": "Spam your primary attack (Tackle/Scratch). Use Growl or Tail Whip on turn 1 to win the damage race."
+    }
+  ],
+  "encounters": {
+    "Gift Pokémon": [
+      {"dex_id": "001", "name": "Bulbasaur", "types": ["Grass", "Poison"], "levels": "5", "rates": "Starter Choice"},
+      {"dex_id": "004", "name": "Charmander", "types": ["Fire"], "levels": "5", "rates": "Starter Choice"},
+      {"dex_id": "007", "name": "Squirtle", "types": ["Water"], "levels": "5", "rates": "Starter Choice"}
+    ]
+  }
+}

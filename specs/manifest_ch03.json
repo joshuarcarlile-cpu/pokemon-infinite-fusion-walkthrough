@@ -1,0 +1,1262 @@
+{
+  "chapter_id": "ch03",
+  "title": "Act 1 - Segment 3: Vermilion City to Route 2 (Thunder Badge)",
+  "act": 1,
+  "hard_mode_level_cap": 29,
+  "gym_duel_limit": 3,
+  "routes_covered": [
+    "Route 5",
+    "Route 6",
+    "Vermilion City",
+    "S.S. Anne",
+    "Route 11",
+    "Diglett's Cave",
+    "Route 2 (Before Forest)",
+    "Vermilion Gym"
+  ],
+  "vanilla_divergence_alerts": [
+    "HM Slaves: 100% eliminated by 9 reusable Key Item tools. Do NOT instruct players to teach field moves to party members.",
+    "Friendship: Eliminated. All friendship evolutions use static level thresholds (e.g. Baby Pokémon evolve at Lv. 15).",
+    "Trade Evolutions: Evolve naturally at Level 40 OR via Linking Cord (not Level 37).",
+    "S.S. ANNE DOES NOT DEPART: The ship is permanently moored in Vermilion City harbor. It provides free cabin healing and remains accessible for quests and post-gym gifts.",
+    "SHEARS CUT TOOL: Obtained in Route 2 Before Forest via Diglett's Cave from Vermilion City. Do NOT use HM01 Cut slave.",
+    "TELEPORT FIELD MOVE: Acts as Fly to fast-travel to any visited Pokémon Center once the Thunder Badge is obtained."
+  ],
+  "critical_missables": [
+    {
+      "quest_id": "q_field_building_materials",
+      "title": "Building Materials",
+      "deadline": "Before defeating the Elite Four",
+      "consequence": "Deliver the materials before beating the Elite Four to receive the Rocky Helmet."
+    }
+  ],
+  "hotel_milestone_target": {
+    "target_count": 8,
+    "recommended_quests": [
+      "Unusual Types 1",
+      "Seafood Cocktail",
+      "Fishing for Sole"
+    ]
+  },
+  "active_and_ongoing_quests": [
+    {
+      "id": "q_field_lumberjack",
+      "title": "The Lumberjack! (Shears Acquisition)",
+      "type": "Field",
+      "region": "Kanto",
+      "location": "Route 2 (Before Forest via Diglett's Cave)",
+      "chapter_introduced": "ch03",
+      "chapter_resolvable": "ch03",
+      "is_missable": false,
+      "missable_deadline": null,
+      "karma_delta": 1,
+      "police_reportable": false,
+      "rewards": [
+        "Shears (Key Item HM01 Cut replacement)",
+        "Lemonade"
+      ],
+      "objectives": [
+        "Enter Diglett's Cave from Route 11 / Vermilion City in Chapter 3.",
+        "Exit onto the isolated eastern portion of Route 2.",
+        "Enter the house surrounded by cuttable trees and accept the quest from the elderly man.",
+        "Go into the backyard and interact with every small tree to cut them all down.",
+        "Speak to the man to claim your Lemonade, +1 Karma, and the Shears!"
+      ]
+    },
+    {
+      "id": "q_field_building_materials",
+      "title": "Building Materials",
+      "type": "Field",
+      "region": "Kanto",
+      "location": "Vermilion City Construction Site",
+      "chapter_introduced": "ch03",
+      "chapter_resolvable": "ch03",
+      "is_missable": true,
+      "missable_deadline": "Before defeating the Elite Four",
+      "karma_delta": 1,
+      "police_reportable": false,
+      "rewards": [
+        "Rocky Helmet (Hold Item)"
+      ],
+      "objectives": [
+        "Speak to the construction foreman in Vermilion City.",
+        "Retrieve wooden planks from Viridian City and bricks from Pewter City.",
+        "Deliver the materials before beating the Elite Four to receive the Rocky Helmet."
+      ]
+    }
+  ],
+  "boss_ground_truth": {
+    "classic": {
+      "leader": "Lt. Surge",
+      "team": [
+        {
+          "species": "B98H100",
+          "level": 24,
+          "moves": [
+            "METALCLAW",
+            "BUBBLE",
+            "LIGHTSCREEN",
+            "SPARK"
+          ],
+          "ability_index": 1,
+          "item": "MAGNET"
+        },
+        {
+          "species": "B50H25",
+          "level": 24,
+          "moves": [
+            "SANDATTACK",
+            "MUDSLAP",
+            "QUICKATTACK",
+            "THUNDERSHOCK"
+          ],
+          "ability_index": 1,
+          "item": "MAGNET"
+        },
+        {
+          "species": "B125H26",
+          "level": 26,
+          "moves": [
+            "THUNDERPUNCH",
+            "THUNDERWAVE",
+            "QUICKATTACK",
+            "DOUBLETEAM"
+          ],
+          "ability_index": 0,
+          "item": "SITRUSBERRY"
+        }
+      ],
+      "party_size": 3
+    },
+    "expert": {
+      "leader": "Lt. Surge",
+      "team": [
+        {
+          "species": "B101H260",
+          "level": 24,
+          "moves": [
+            "ODORSLEUTH",
+            "BODYSLAM",
+            "SPARK",
+            "EXPLOSION"
+          ],
+          "ability": "AFTERMATH",
+          "item": "LIFEORB",
+          "nature": "ADAMANT",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 4
+          }
+        },
+        {
+          "species": "B224H86",
+          "level": 24,
+          "moves": [
+            "FOCUSENERGY",
+            "ICESHARD",
+            "AQUAJET",
+            "GUNKSHOT"
+          ],
+          "ability": "SNIPER",
+          "item": "SCOPELENS",
+          "nature": "ADAMANT",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 4
+          }
+        },
+        {
+          "species": "B107H125",
+          "level": 26,
+          "moves": [
+            "THUNDERPUNCH",
+            "BULLETPUNCH",
+            "ICEPUNCH",
+            "MACHPUNCH"
+          ],
+          "ability": "IRONFIST",
+          "item": "SITRUSBERRY",
+          "nature": "ADAMANT",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        }
+      ],
+      "party_size": 3
+    }
+  },
+  "encounters_by_location": {
+    "Route 5 (ID 12)": {
+      "Grass": [
+        {
+          "name": "Pidgey",
+          "dex_id": "016",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "13-16"
+        },
+        {
+          "name": "Rattata",
+          "dex_id": "019",
+          "types": [
+            "Normal"
+          ],
+          "levels": "13-16"
+        },
+        {
+          "name": "Jigglypuff",
+          "dex_id": "039",
+          "types": [
+            "Normal",
+            "Fairy"
+          ],
+          "levels": "12"
+        },
+        {
+          "name": "Zubat",
+          "dex_id": "041",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "13-16"
+        },
+        {
+          "name": "Oddish",
+          "dex_id": "043",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "13-16"
+        },
+        {
+          "name": "Meowth",
+          "dex_id": "052",
+          "types": [
+            "Normal"
+          ],
+          "levels": "10-16"
+        },
+        {
+          "name": "Bellsprout",
+          "dex_id": "069",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "13-16"
+        },
+        {
+          "name": "Teddiursa",
+          "dex_id": "216",
+          "types": [
+            "Normal"
+          ],
+          "levels": "7"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Togepi",
+          "dex_id": "175",
+          "types": [
+            "Fairy"
+          ],
+          "levels": "10"
+        }
+      ]
+    },
+    "Route 6 (ID 16)": {
+      "Grass": [
+        {
+          "name": "Pidgey",
+          "dex_id": "016",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "13-16"
+        },
+        {
+          "name": "Pikachu",
+          "dex_id": "025",
+          "types": [
+            "Electric"
+          ],
+          "levels": "10-16"
+        },
+        {
+          "name": "Zubat",
+          "dex_id": "041",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "13-16"
+        },
+        {
+          "name": "Oddish",
+          "dex_id": "043",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "13-16"
+        },
+        {
+          "name": "Gloom",
+          "dex_id": "044",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "13-16"
+        },
+        {
+          "name": "Meowth",
+          "dex_id": "052",
+          "types": [
+            "Normal"
+          ],
+          "levels": "10-16"
+        },
+        {
+          "name": "Mankey",
+          "dex_id": "056",
+          "types": [
+            "Fighting"
+          ],
+          "levels": "15"
+        },
+        {
+          "name": "Poliwhirl",
+          "dex_id": "061",
+          "types": [
+            "Water"
+          ],
+          "levels": "15"
+        },
+        {
+          "name": "Bellsprout",
+          "dex_id": "069",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "13-16"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Psyduck",
+          "dex_id": "054",
+          "types": [
+            "Water"
+          ],
+          "levels": "20-40"
+        },
+        {
+          "name": "Slowpoke",
+          "dex_id": "079",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "20-40"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Goldeen",
+          "dex_id": "118",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Psyduck",
+          "dex_id": "054",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-25"
+        },
+        {
+          "name": "Poliwhirl",
+          "dex_id": "061",
+          "types": [
+            "Water"
+          ],
+          "levels": "20-30"
+        },
+        {
+          "name": "Slowpoke",
+          "dex_id": "079",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "15-35"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Slakoth",
+          "dex_id": "385",
+          "types": [
+            "Normal"
+          ],
+          "levels": "12-15"
+        }
+      ]
+    },
+    "Route 11 (ID 155)": {
+      "Grass": [
+        {
+          "name": "Spearow",
+          "dex_id": "021",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "13-17"
+        },
+        {
+          "name": "Ekans",
+          "dex_id": "023",
+          "types": [
+            "Poison"
+          ],
+          "levels": "12-15"
+        },
+        {
+          "name": "Venonat",
+          "dex_id": "048",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "12-15"
+        },
+        {
+          "name": "Drowzee",
+          "dex_id": "096",
+          "types": [
+            "Psychic"
+          ],
+          "levels": "11-15"
+        },
+        {
+          "name": "Hoothoot",
+          "dex_id": "163",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "13-17"
+        },
+        {
+          "name": "Mareep",
+          "dex_id": "179",
+          "types": [
+            "Electric"
+          ],
+          "levels": "12-15"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Nincada",
+          "dex_id": "382",
+          "types": [
+            "Bug",
+            "Ground"
+          ],
+          "levels": "12-15"
+        }
+      ]
+    },
+    "Route 2 (ID 86)": {
+      "Grass": [
+        {
+          "name": "Caterpie",
+          "dex_id": "010",
+          "types": [
+            "Bug"
+          ],
+          "levels": "4-5"
+        },
+        {
+          "name": "Weedle",
+          "dex_id": "013",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "4-5"
+        },
+        {
+          "name": "Pidgey",
+          "dex_id": "016",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "2-3"
+        },
+        {
+          "name": "Rattata",
+          "dex_id": "019",
+          "types": [
+            "Normal"
+          ],
+          "levels": "2-5"
+        },
+        {
+          "name": "Sentret",
+          "dex_id": "161",
+          "types": [
+            "Normal"
+          ],
+          "levels": "2-5"
+        },
+        {
+          "name": "Hoothoot",
+          "dex_id": "163",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "2-3"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Fletchling",
+          "dex_id": "417",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "2-5"
+        }
+      ]
+    },
+    "Route 2 (ID 90)": {
+      "Grass": [
+        {
+          "name": "Caterpie",
+          "dex_id": "010",
+          "types": [
+            "Bug"
+          ],
+          "levels": "4-5"
+        },
+        {
+          "name": "Weedle",
+          "dex_id": "013",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "4-5"
+        },
+        {
+          "name": "Pidgey",
+          "dex_id": "016",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "2-5"
+        },
+        {
+          "name": "Rattata",
+          "dex_id": "019",
+          "types": [
+            "Normal"
+          ],
+          "levels": "2-5"
+        },
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "4-5"
+        },
+        {
+          "name": "Sentret",
+          "dex_id": "161",
+          "types": [
+            "Normal"
+          ],
+          "levels": "2-5"
+        },
+        {
+          "name": "Hoothoot",
+          "dex_id": "163",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "2-5"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Fletchling",
+          "dex_id": "417",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "2-5"
+        }
+      ]
+    }
+  },
+  "wiki_ground_truth": {
+    "Route 5": {
+      "canonical_slug": "Route_5",
+      "lead_summary": "100,000\n|connection_2_direction=southeast\n|connection_2_location=Underground Paths\n|connection_2_label=Underground Paths (to Route 6)\n|number=5}}This route connects Cerulean City to Saffron City.\nIt also has an underground passage leading to Route 6.",
+      "items": [
+        {
+          "internal_id": "REVIVE",
+          "quantity": "",
+          "name": "Revive",
+          "location_details": "By the Tall Grass North of the Tunnel Entrance."
+        },
+        {
+          "internal_id": "LAVACOOKIE",
+          "quantity": "",
+          "name": "Lava Cookie",
+          "location_details": "Given by Socialite Mathilda after defeating her."
+        },
+        {
+          "internal_id": "DESTINYKNOT",
+          "quantity": "",
+          "name": "Destiny Knot",
+          "location_details": "On the table in the back room of the Pokémon Day Care."
+        },
+        {
+          "internal_id": "FULLINCENSE",
+          "quantity": "",
+          "name": "Full Incense",
+          "location_details": "On the table upstairs in the Pokémon Day Care. Random 1/9 chance."
+        },
+        {
+          "internal_id": "LAXINCENSE",
+          "quantity": "",
+          "name": "Lax Incense",
+          "location_details": "On the table upstairs in the Pokémon Day Care. Random 1/9 chance."
+        },
+        {
+          "internal_id": "LUCKINCENSE",
+          "quantity": "",
+          "name": "Luck Incense",
+          "location_details": "On the table upstairs in the Pokémon Day Care. Random 1/9 chance."
+        },
+        {
+          "internal_id": "ODDINCENSE",
+          "quantity": "",
+          "name": "Odd Incense",
+          "location_details": "On the table upstairs in the Pokémon Day Care. Random 1/9 chance."
+        },
+        {
+          "internal_id": "PUREINCENSE",
+          "quantity": "",
+          "name": "Pure Incense",
+          "location_details": "On the table upstairs in the Pokémon Day Care. Random 1/9 chance."
+        },
+        {
+          "internal_id": "ROCKINCENSE",
+          "quantity": "",
+          "name": "Rock Incense",
+          "location_details": "On the table upstairs in the Pokémon Day Care. Random 1/9 chance."
+        },
+        {
+          "internal_id": "ROSEINCENSE",
+          "quantity": "",
+          "name": "Rose Incense",
+          "location_details": "On the table upstairs in the Pokémon Day Care. Random 1/9 chance."
+        },
+        {
+          "internal_id": "SEAINCENSE",
+          "quantity": "",
+          "name": "Sea Incense",
+          "location_details": "On the table upstairs in the Pokémon Day Care. Random 1/9 chance."
+        },
+        {
+          "internal_id": "WAVEINCENSE",
+          "quantity": "",
+          "name": "Wave Incense",
+          "location_details": "On the table upstairs in the Pokémon Day Care. Random 1/9 chance."
+        },
+        {
+          "internal_id": "LUNARFEATHER",
+          "quantity": "",
+          "name": "Lunar Feather",
+          "location_details": "On a bed upstairs in the Pokémon Day Care, after collecting one other Lunar Feather."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Route 6": {
+      "canonical_slug": "Route_6",
+      "lead_summary": "100,000\n|connection_2_direction=northeast\n|connection_2_location=Underground Paths\n|connection_3_direction=south\n|connection_3_location=Vermillion City\n}}This route connects Vermillion City to Saffron City.\nIt also has an underground passage leading to Route 5.",
+      "items": [
+        {
+          "internal_id": "machine_NORMAL",
+          "quantity": "",
+          "name": "TM54 False Swipe",
+          "location_details": "Behind Small Trees next to the Underground entrance."
+        },
+        {
+          "internal_id": "ETHER",
+          "quantity": "",
+          "name": "Ether",
+          "location_details": "Hidden between two ledges."
+        },
+        {
+          "internal_id": "ASPEARBERRY",
+          "quantity": "",
+          "name": "Aspear Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "CHERIBERRY",
+          "quantity": "",
+          "name": "Cheri Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "CHESTOBERRY",
+          "quantity": "",
+          "name": "Chesto Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "LEPPABERRY",
+          "quantity": "",
+          "name": "Leppa Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "LUMBERRY",
+          "quantity": "",
+          "name": "Lum Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "ORANBERRY",
+          "quantity": "",
+          "name": "Oran Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "PECHABERRY",
+          "quantity": "",
+          "name": "Pecha Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "PERSIMBERRY",
+          "quantity": "",
+          "name": "Persim Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "RAWSTBERRY",
+          "quantity": "",
+          "name": "Rawst Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "SITRUSBERRY",
+          "quantity": "",
+          "name": "Sitrus Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Vermilion City": {
+      "canonical_slug": "Vermillion_City",
+      "lead_summary": "Vermillion City is a coastal city accessible from Route 6 from the North and Route 11 from the East.\nThis city contains Vermillion City's Gym, with Lt. Surge as its leader.\nThe S.S. Anne is currently docked and be boarded with the S.S. Ticket.",
+      "items": [
+        {
+          "internal_id": "OLDROD",
+          "quantity": "",
+          "name": "Old Rod",
+          "location_details": "Given by the Fishing Guru."
+        },
+        {
+          "internal_id": "ELIXIR",
+          "quantity": "",
+          "name": "Elixir",
+          "location_details": "In the trash bin in the same house where the Youngster wants a Spearow for his Farfetch'd."
+        },
+        {
+          "internal_id": "SUNSTONE",
+          "quantity": "",
+          "name": "Sun Stone",
+          "location_details": "The Young girl on the bench with her Krabby."
+        },
+        {
+          "internal_id": "PICKAXE",
+          "quantity": "",
+          "name": "Pickaxe",
+          "location_details": "Blocked by the Breakable rocks north of the Hotel."
+        },
+        {
+          "internal_id": "BLUEFLUTE",
+          "quantity": "",
+          "name": "Blue Flute",
+          "location_details": "Given by the traveler in the South East, after defeating LT. Surge."
+        },
+        {
+          "internal_id": "RARECANDY",
+          "quantity": "",
+          "name": "Rare Candy",
+          "location_details": "Given by Crush Girl in the hotel after showing her a Pokémon that has both the Fire and Water types."
+        },
+        {
+          "internal_id": "ROCKYHELMET",
+          "quantity": "",
+          "name": "Rocky Helmet",
+          "location_details": "Given by the builder, after gathering building materials for him."
+        },
+        {
+          "internal_id": "PPMAX",
+          "quantity": "",
+          "name": "PP Max",
+          "location_details": "Behind the Fishing Guru house, on the ground."
+        },
+        {
+          "internal_id": "ETHER",
+          "quantity": "",
+          "name": "Ether",
+          "location_details": "Behind the Fishing Guru house, in a rock."
+        },
+        {
+          "internal_id": "LAVACOOKIE",
+          "quantity": "",
+          "name": "Lava Cookie",
+          "location_details": "After pushing the white van in the sea."
+        },
+        {
+          "internal_id": "MISTSTONE",
+          "quantity": "",
+          "name": "Mist Stone",
+          "location_details": "After pushing the white van in the sea."
+        },
+        {
+          "internal_id": "LUNARFEATHER",
+          "quantity": "",
+          "name": "Lunar Feather",
+          "location_details": "Found on the bed in the northernmost house, after interacting with the Lunar Feather in [[Lavender Town]]."
+        },
+        {
+          "internal_id": "ZAPPLATE",
+          "quantity": "",
+          "name": "Zap Plate",
+          "location_details": "In the southeast, after catching [[Legendary_Pokémon#Arceus"
+        }
+      ],
+      "missable_warnings": []
+    },
+    "S.S. Anne": {
+      "canonical_slug": "S.S._Anne",
+      "lead_summary": "The S. S. Anne does <u>not</u> depart when the player disembarks, and players may board and disembark as much as they want. The player has a room on board for healing up, saving trips to the Pokemon Center.",
+      "items": [
+        {
+          "internal_id": "MAXETHER",
+          "quantity": "",
+          "name": "Max Ether",
+          "location_details": "On the ground in Room B1."
+        },
+        {
+          "internal_id": "PECHABERRY",
+          "quantity": "",
+          "name": "Pecha Berry",
+          "location_details": "In the trash bin in Room B2."
+        },
+        {
+          "internal_id": "GREATBALL",
+          "quantity": "",
+          "name": "Great Ball",
+          "location_details": "On the ground in Room B3."
+        },
+        {
+          "internal_id": "RARECANDY",
+          "quantity": "",
+          "name": "Rare Candy",
+          "location_details": "On the ground in Room B4."
+        },
+        {
+          "internal_id": "SUPERPOTION",
+          "quantity": "",
+          "name": "Super Potion",
+          "location_details": "On the ground in Room 1."
+        },
+        {
+          "internal_id": "SUPERPOTION",
+          "quantity": "",
+          "name": "Super Potion",
+          "location_details": "In the trash bin in Room 2."
+        },
+        {
+          "internal_id": "ETHER",
+          "quantity": "",
+          "name": "Ether",
+          "location_details": "On the ground in Room 3."
+        },
+        {
+          "internal_id": "PIZZA",
+          "quantity": "",
+          "name": "Pizza",
+          "location_details": "In the right side of the middle oven in the Kitchen."
+        },
+        {
+          "internal_id": "CHESTOBERRY",
+          "quantity": "",
+          "name": "Chesto Berry",
+          "location_details": "In the trash bin in the Kitchen."
+        },
+        {
+          "internal_id": "GREATBALL",
+          "quantity": "",
+          "name": "Great Ball",
+          "location_details": "In the trash bin in the Kitchen."
+        },
+        {
+          "internal_id": "KRABBYLEGS",
+          "quantity": "",
+          "name": "Krabby Legs",
+          "location_details": "Given by a cook in the Kitchen, after starting the \"Seafood Cocktail\" [[Quests"
+        },
+        {
+          "internal_id": "POTION",
+          "quantity": "",
+          "name": "Potion",
+          "location_details": "In the trash bin in Room 12."
+        },
+        {
+          "internal_id": "machine_FIGHTING",
+          "quantity": "",
+          "name": "TM31 Brick Break",
+          "location_details": "On the ground in Room 13."
+        },
+        {
+          "internal_id": "STARDUST",
+          "quantity": "",
+          "name": "Stardust",
+          "location_details": "On the ground in Room 15."
+        },
+        {
+          "internal_id": "ROOTFOSSIL",
+          "quantity": "",
+          "name": "Root Fossil",
+          "location_details": "Given as a choice by Super Nerd Miguel after defeating him."
+        },
+        {
+          "internal_id": "CLAWFOSSIL",
+          "quantity": "",
+          "name": "Claw Fossil",
+          "location_details": "Given as a choice by Super Nerd Miguel after defeating him."
+        },
+        {
+          "internal_id": "SUPERPOTION",
+          "quantity": "",
+          "name": "Super Potion",
+          "location_details": "On the ground on the bow side."
+        },
+        {
+          "internal_id": "PARLYZHEAL",
+          "quantity": "",
+          "name": "Paralyze Heal",
+          "location_details": "On the ground on the stern side."
+        },
+        {
+          "internal_id": "CAPTAINSKEY",
+          "quantity": "",
+          "name": "Captain's Key",
+          "location_details": "On the ground on the stern side."
+        },
+        {
+          "internal_id": "machine_hm_NORMAL",
+          "quantity": "",
+          "name": "HM01 Cut",
+          "location_details": "Given by the Captain after feeling better."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Route 11": {
+      "canonical_slug": "Route_11",
+      "lead_summary": "This route connects Vermillion City to Route 12.",
+      "items": [
+        {
+          "internal_id": "RARECANDY",
+          "quantity": "",
+          "name": "Rare Candy",
+          "location_details": "Given by Gambler Jasper after winning his game of Blackjack."
+        },
+        {
+          "internal_id": "NUGGET",
+          "quantity": "",
+          "name": "Nugget",
+          "location_details": "Given by Gambler Dirk after winning his game of Blackjack."
+        },
+        {
+          "internal_id": "BIGNUGGET",
+          "quantity": "",
+          "name": "Big Nugget",
+          "location_details": "Given by Gambler Hugo after winning his game of Blackjack."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Diglett's Cave": {
+      "canonical_slug": "Diglett's_Cave",
+      "lead_summary": "This natural cave links Route 11 to Route 2 (After the Forest) via an underground tunnel.",
+      "items": [],
+      "missable_warnings": []
+    },
+    "Route 2 (Before Forest)": {
+      "canonical_slug": "Route_2_(Before_the_Forest)",
+      "lead_summary": "Route 2 connects Viridian City in the south to Route 2 (After the Forest) in the north, it also contains the gate to Viridian Forest.",
+      "items": [
+        {
+          "internal_id": "ETHER",
+          "quantity": "",
+          "name": "Ether",
+          "location_details": "Next to the elderly man's house."
+        },
+        {
+          "internal_id": "LEMONADE",
+          "quantity": "",
+          "name": "Lemonade",
+          "location_details": "Given by the elderly man after completing the Lumberjack Quest."
+        },
+        {
+          "internal_id": "MACHETE",
+          "quantity": "",
+          "name": "Shears",
+          "location_details": "Given by the elderly man after completing the Lumberjack Quest."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Vermilion Gym": {
+      "canonical_slug": "Vermillion_City",
+      "lead_summary": "Vermillion City is a coastal city accessible from Route 6 from the North and Route 11 from the East.\nThis city contains Vermillion City's Gym, with Lt. Surge as its leader.\nThe S.S. Anne is currently docked and be boarded with the S.S. Ticket.",
+      "items": [
+        {
+          "internal_id": "OLDROD",
+          "quantity": "",
+          "name": "Old Rod",
+          "location_details": "Given by the Fishing Guru."
+        },
+        {
+          "internal_id": "ELIXIR",
+          "quantity": "",
+          "name": "Elixir",
+          "location_details": "In the trash bin in the same house where the Youngster wants a Spearow for his Farfetch'd."
+        },
+        {
+          "internal_id": "SUNSTONE",
+          "quantity": "",
+          "name": "Sun Stone",
+          "location_details": "The Young girl on the bench with her Krabby."
+        },
+        {
+          "internal_id": "PICKAXE",
+          "quantity": "",
+          "name": "Pickaxe",
+          "location_details": "Blocked by the Breakable rocks north of the Hotel."
+        },
+        {
+          "internal_id": "BLUEFLUTE",
+          "quantity": "",
+          "name": "Blue Flute",
+          "location_details": "Given by the traveler in the South East, after defeating LT. Surge."
+        },
+        {
+          "internal_id": "RARECANDY",
+          "quantity": "",
+          "name": "Rare Candy",
+          "location_details": "Given by Crush Girl in the hotel after showing her a Pokémon that has both the Fire and Water types."
+        },
+        {
+          "internal_id": "ROCKYHELMET",
+          "quantity": "",
+          "name": "Rocky Helmet",
+          "location_details": "Given by the builder, after gathering building materials for him."
+        },
+        {
+          "internal_id": "PPMAX",
+          "quantity": "",
+          "name": "PP Max",
+          "location_details": "Behind the Fishing Guru house, on the ground."
+        },
+        {
+          "internal_id": "ETHER",
+          "quantity": "",
+          "name": "Ether",
+          "location_details": "Behind the Fishing Guru house, in a rock."
+        },
+        {
+          "internal_id": "LAVACOOKIE",
+          "quantity": "",
+          "name": "Lava Cookie",
+          "location_details": "After pushing the white van in the sea."
+        },
+        {
+          "internal_id": "MISTSTONE",
+          "quantity": "",
+          "name": "Mist Stone",
+          "location_details": "After pushing the white van in the sea."
+        },
+        {
+          "internal_id": "LUNARFEATHER",
+          "quantity": "",
+          "name": "Lunar Feather",
+          "location_details": "Found on the bed in the northernmost house, after interacting with the Lunar Feather in [[Lavender Town]]."
+        },
+        {
+          "internal_id": "ZAPPLATE",
+          "quantity": "",
+          "name": "Zap Plate",
+          "location_details": "In the southeast, after catching [[Legendary_Pokémon#Arceus"
+        }
+      ],
+      "missable_warnings": []
+    }
+  },
+  "location_items_and_statics": [
+    {
+      "type": "Static Encounter",
+      "pokemon": "Lotad",
+      "level": "14-22",
+      "location": "Route 6",
+      "notes": "Surf/walk over the lilypads"
+    },
+    {
+      "type": "HM Replacement",
+      "name": "Shears",
+      "replaces": "Cut",
+      "location": "Route 2 Before Forest (Lumberjack Quest house, accessed via Diglett's Cave from Vermilion City in Chapter 3)"
+    },
+    {
+      "type": "HM Replacement",
+      "name": "Pickaxe",
+      "replaces": "Rock Smash",
+      "location": "Vermilion City"
+    },
+    {
+      "type": "HM Replacement",
+      "name": "Shears",
+      "replaces": "Cut",
+      "location": "Route 2 Before Forest (Lumberjack Quest house, accessed via Diglett's Cave from Vermilion City in Chapter 3)"
+    }
+  ],
+  "authoring_guidance": {
+    "splicing_safety": "Explicitly state: HEAD species, BODY species, and WHICH ability to select at the DNA Splicer prompt.",
+    "unfuse_safety": "Unfusing at Pokémon Mart costs $300. Check move retention before unfusing.",
+    "gym_duel_rule": "Strict 3v3 party limit! Instruct player to deposit extra party members in the PC before entering gym arena.",
+    "time_of_day": "Provide Day/Night alternative suggestions so players are never blocked by real-time spawn windows.",
+    "stone_evolutions": "Advisory: Do NOT use evolution stones prematurely on stone-evolvers (e.g. Nidorino) before key level-up moves are learned.",
+    "undercover_informant_rocket": "Guide player to join Team Rocket for disguises/missions, BUT report crimes to police officer for +10 Karma and Diancie unlock!"
+  }
+}

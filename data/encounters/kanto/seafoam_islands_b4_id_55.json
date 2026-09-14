@@ -1,0 +1,290 @@
+{
+  "location": "Seafoam Islands B4 (ID 55)",
+  "sections": {
+    "Cave": [
+      {
+        "dex_id": "042",
+        "name": "Golbat",
+        "type1": "Poison",
+        "type2": "Flying",
+        "levels": "33",
+        "catch_rate": "90",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "054",
+        "name": "Psyduck",
+        "type1": "Water",
+        "type2": "",
+        "levels": "33-35",
+        "catch_rate": "190",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "055",
+        "name": "Golduck",
+        "type1": "Water",
+        "type2": "",
+        "levels": "36",
+        "catch_rate": "75",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "079",
+        "name": "Slowpoke",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "33-35",
+        "catch_rate": "190",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "080",
+        "name": "Slowbro",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "36",
+        "catch_rate": "75",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "086",
+        "name": "Seel",
+        "type1": "Water",
+        "type2": "",
+        "levels": "33-37",
+        "catch_rate": "190",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "090",
+        "name": "Shellder",
+        "type1": "Water",
+        "type2": "",
+        "levels": "33-34",
+        "catch_rate": "190",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "098",
+        "name": "Krabby",
+        "type1": "Water",
+        "type2": "",
+        "levels": "30-34",
+        "catch_rate": "225",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "124",
+        "name": "Jynx",
+        "type1": "Ice",
+        "type2": "Psychic",
+        "levels": "33-37",
+        "catch_rate": "45",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "dex_id": "042",
+        "name": "Golbat",
+        "type1": "Poison",
+        "type2": "Flying",
+        "levels": "35",
+        "catch_rate": "90",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "dex_id": "086",
+        "name": "Seel",
+        "type1": "Water",
+        "type2": "",
+        "levels": "33-37",
+        "catch_rate": "190",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "087",
+        "name": "Dewgong",
+        "type1": "Water",
+        "type2": "Ice",
+        "levels": "38",
+        "catch_rate": "75",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "090",
+        "name": "Shellder",
+        "type1": "Water",
+        "type2": "",
+        "levels": "33-34",
+        "catch_rate": "190",
+        "rates": [
+          "18%"
+        ]
+      },
+      {
+        "dex_id": "091",
+        "name": "Cloyster",
+        "type1": "Water",
+        "type2": "Ice",
+        "levels": "38",
+        "catch_rate": "60",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "dex_id": "098",
+        "name": "Krabby",
+        "type1": "Water",
+        "type2": "",
+        "levels": "33-34",
+        "catch_rate": "225",
+        "rates": [
+          "18%"
+        ]
+      },
+      {
+        "dex_id": "099",
+        "name": "Kingler",
+        "type1": "Water",
+        "type2": "",
+        "levels": "38",
+        "catch_rate": "60",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "dex_id": "116",
+        "name": "Horsea",
+        "type1": "Water",
+        "type2": "",
+        "levels": "30-34",
+        "catch_rate": "225",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "dex_id": "120",
+        "name": "Staryu",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5",
+        "catch_rate": "225",
+        "rates": [
+          "100%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "dex_id": "116",
+        "name": "Horsea",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "225",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "117",
+        "name": "Seadra",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "75",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "120",
+        "name": "Staryu",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "225",
+        "rates": [
+          "65%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "dex_id": "116",
+        "name": "Horsea",
+        "type1": "Water",
+        "type2": "",
+        "levels": "40",
+        "catch_rate": "225",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "dex_id": "117",
+        "name": "Seadra",
+        "type1": "Water",
+        "type2": "",
+        "levels": "40",
+        "catch_rate": "75",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "120",
+        "name": "Staryu",
+        "type1": "Water",
+        "type2": "",
+        "levels": "40",
+        "catch_rate": "225",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "dex_id": "121",
+        "name": "Starmie",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "40",
+        "catch_rate": "60",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

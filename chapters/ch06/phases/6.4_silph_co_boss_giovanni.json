@@ -1,0 +1,44 @@
+{
+  "name": "Silph Co. Boardroom & Boss Giovanni (10F–11F)",
+  "summary": "Take the warp portal from 7F directly into the 11F executive penthouse. Confront and defeat Team Rocket Boss Giovanni to liberate the Silph Corporation. Report the crime to Officer Jenny in Saffron for +10 Karma. Speak with the Silph President to receive the Master Ball, claim an Up-Grade from the 1F receptionist, and choose a free Johto starter.",
+  "items": [
+    {
+      "name": "Master Ball",
+      "method": "Gift from the Silph Co. President on 11F after routing Boss Giovanni",
+      "type": "Key Item"
+    },
+    {
+      "name": "Up-Grade",
+      "method": "Given by the front desk receptionist on 1F after Silph Co. is liberated",
+      "type": "Key Item"
+    },
+    {
+      "name": "HP Up",
+      "method": "Ground pickup in the 10F eastern mainframe room",
+      "type": "Consumable"
+    },
+    {
+      "name": "Johto Starter Gift",
+      "method": "Choice of Chikorita, Cyndaquil, or Totodile from the Silph President",
+      "type": "Gift Pokémon"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Boss Giovanni",
+      "team": [
+        {"species": "Nidorino", "level": 42, "types": ["Poison"]},
+        {"species": "Kangaskhan", "level": 41, "types": ["Normal"]},
+        {"species": "Nidoqueen", "level": 43, "types": ["Poison", "Ground"]},
+        {"species": "Nidoking", "level": 44, "types": ["Poison", "Ground"]}
+      ]
+    }
+  ],
+  "encounters": {
+    "Gift Pokémon (Silph President)": [
+      {"dex_id": "152", "name": "Chikorita", "types": ["Grass"], "levels": "15", "rates": "Choice from President after Silph Co."},
+      {"dex_id": "155", "name": "Cyndaquil", "types": ["Fire"], "levels": "15", "rates": "Choice from President after Silph Co."},
+      {"dex_id": "158", "name": "Totodile", "types": ["Water"], "levels": "15", "rates": "Choice from President after Silph Co."}
+    ]
+  }
+}

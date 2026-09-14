@@ -1,0 +1,117 @@
+{
+  "location": "Victory Road (ID 307)",
+  "sections": {
+    "Cave": [
+      {
+        "dex_id": "024",
+        "name": "Arbok",
+        "type1": "Poison",
+        "type2": "",
+        "levels": "44",
+        "catch_rate": "90",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "028",
+        "name": "Sandslash",
+        "type1": "Ground",
+        "type2": "",
+        "levels": "44",
+        "catch_rate": "90",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "042",
+        "name": "Golbat",
+        "type1": "Poison",
+        "type2": "Flying",
+        "levels": "44",
+        "catch_rate": "90",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "066",
+        "name": "Machop",
+        "type1": "Fighting",
+        "type2": "",
+        "levels": "32",
+        "catch_rate": "180",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "067",
+        "name": "Machoke",
+        "type1": "Fighting",
+        "type2": "",
+        "levels": "44-46",
+        "catch_rate": "90",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "095",
+        "name": "Onix",
+        "type1": "Rock",
+        "type2": "Ground",
+        "levels": "40-46",
+        "catch_rate": "45",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "105",
+        "name": "Marowak",
+        "type1": "Ground",
+        "type2": "",
+        "levels": "44-46",
+        "catch_rate": "75",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "111",
+        "name": "Rhyhorn",
+        "type1": "Ground",
+        "type2": "Rock",
+        "levels": "32",
+        "catch_rate": "120",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "217",
+        "name": "Ursaring",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "42",
+        "catch_rate": "60",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "232",
+        "name": "Donphan",
+        "type1": "Ground",
+        "type2": "",
+        "levels": "45-46",
+        "catch_rate": "60",
+        "rates": [
+          "10%"
+        ]
+      }
+    ]
+  }
+}

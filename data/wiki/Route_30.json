@@ -1,0 +1,62 @@
+{
+  "title": "Route_30",
+  "url": "https://infinitefusion.fandom.com/wiki/Route_30",
+  "lead_summary": "Route 30 is a route that connects Route 31 to Cherrygrove City.\nNorth-East of the route is Mr. Pokémon, who gives hints about Arceus and the Azure Flute.",
+  "missable_warnings": [],
+  "items": [
+    {
+      "internal_id": "AIRBALLOON",
+      "quantity": "",
+      "name": "Air Balloon",
+      "location_details": "In the Mr. Pokémon's Shed."
+    },
+    {
+      "internal_id": "FULLHEAL",
+      "quantity": "",
+      "name": "Full Heal",
+      "location_details": "On the ground South of Mr. Pokémon's house."
+    },
+    {
+      "internal_id": "IRON",
+      "quantity": "",
+      "name": "Iron",
+      "location_details": "On the other edge of the lake."
+    },
+    {
+      "internal_id": "GREPABERRY",
+      "quantity": "1-4",
+      "name": "Grepa Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "HONDEWBERRY",
+      "quantity": "1-4",
+      "name": "Hondew Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "KELPSYBERRY",
+      "quantity": "1-4",
+      "name": "Kelpsy Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "QUALOTBERRY",
+      "quantity": "1-4",
+      "name": "Qualot Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "TAMATOBERRY",
+      "quantity": "1-4",
+      "name": "Tamato Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    }
+  ],
+  "sections": [
+    "Items",
+    "Pokémon",
+    "Trainers"
+  ],
+  "raw_wikitext": "{{GlobalToggles}}\n{{InfoboxLocation\n|region=Johto\n|location_image=Route30.png\n|map_image=Route_30_Map.png\n|connection_1_direction=north\n|connection_1_location=Route 31\n|connection_2_direction=south\n|connection_2_location=Cherrygrove City\n|connection_3_direction=northeast\n|connection_3_location=Sinjoh Ruins\n|connection_3_restrictions=Show an [[Legendary Pokémon#Arceus|Arceus]] to Mr. Pokémon\n}}\n'''Route 30''' is a route that connects [[Route 31]] to [[Cherrygrove City]].\n\nNorth-East of the route is Mr. Pokémon, who gives hints about Arceus and the Azure Flute.\n\n==Items==\n{{ItemTable/Header}}\n{{ItemTable/Data|AIRBALLOON||Air Balloon|In the Mr. Pokémon's Shed.|AirBalloon_Route30.png}}\n{{ItemTable/Data|FULLHEAL||Full Heal|On the ground South of Mr. Pokémon's house.|FullHeal_Route30.png}}\n{{ItemTable/Data|IRON||Iron|On the other edge of the lake.|Iron_Route30.png}}\n{{ItemTable/Section|Berry Bushes}}\n{{ItemTable/Data|GREPABERRY|1-4|Grepa Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|HONDEWBERRY|1-4|Hondew Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|KELPSYBERRY|1-4|Kelpsy Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|QUALOTBERRY|1-4|Qualot Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|TAMATOBERRY|1-4|Tamato Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Footer}}\n\n==Pokémon==\n<!-----------------------------------!>\n<!-- CLASSIC & EXPERT MODE POKÉMON --!>\n<!------------------------------------>\n<div class=\"classic-mode expert-mode\">\n{{EncounterTable/Header/Time}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|011|Metapod|Bug||50-52|120|30%|30%|-}}\n{{EncounterTable/Data|012|Butterfree|Bug|Flying|55|45|15%|15%|-}}\n{{EncounterTable/Data|014|Kakuna|Bug|Poison|50-52|120|-|-|30%}}\n{{EncounterTable/Data|017|Pidgeotto|Normal|Flying|53|120|25%|25%|-}}\n{{EncounterTable/Data|042|Golbat|Poison|Flying|52|90|-|-|10%}}\n{{EncounterTable/Data|070|Weepinbell|Grass|Poison|50|120|20%}}\n{{EncounterTable/Data|164|Noctowl|Normal|Flying|55|90|-|-|25%}}\n{{EncounterTable/Data|166|Ledian|Bug|Flying|54-55|90|10%|10%|-}}\n{{EncounterTable/Data|168|Ariados|Bug|Poison|55|90|-|-|15%}}\n{{EncounterTable/Section|Surf}}\n{{EncounterTable/Data|060|Poliwag|Water||15-30|255|90%}}\n{{EncounterTable/Data|061|Poliwhirl|Water||35|120|10%}}\n{{EncounterTable/Section|Old Rod}}\n{{EncounterTable/Data|060|Poliwag|Water||10|255|15%}}\n{{EncounterTable/Data|129|Magikarp|Water||10|255|85%}}\n{{EncounterTable/Section|Good Rod}}\n{{EncounterTable/Data|061|Poliwhirl|Water||20|120|15%}}\n{{EncounterTable/Data|129|Magikarp|Water||20|255|85%}}\n{{EncounterTable/Section|Super Rod}}\n{{EncounterTable/Data|062|Poliwrath|Water|Fighting|40|45|5%}}\n{{EncounterTable/Data|129|Magikarp|Water||20|255|85%}}\n{{EncounterTable/Data|186|Politoed|Water||40|45|10%}}\n{{EncounterTable/Section|Poké Radar}}\n{{EncounterTable/Data|383|Bibarel|Normal|Water|45-50|127|50% <small>([[Poké Radar#How_it_works|long rustle]])</small>}}\n{{EncounterTable/Section|Quest}}\n{{EncounterTable/Data|204|Pineco|Bug||40|190|Six}}\n{{EncounterTable/Footer/Time}}\n</div>\n<!------------------------!>\n<!-- REMIX MODE POKÉMON --!>\n<!------------------------->\n<div class=\"remix-mode\">\n{{EncounterTable/Header/Time}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|012|Butterfree|Bug|Flying|50-52|45|20%|20%|-}}\n{{EncounterTable/Data|015|Beedrill|Bug|Poison|50-52|45|-|-|20%}}\n{{EncounterTable/Data|045|Vileplume|Grass|Poison|50|45|20%|20%|-}}\n{{EncounterTable/Data|164|Noctowl|Normal|Flying|55|90|-|-|25%}}\n{{EncounterTable/Data|166|Ledian|Bug|Flying|54-55|90|10%|10%|-}}\n{{EncounterTable/Data|168|Ariados|Bug|Poison|55|90|-|-|15%}}\n{{EncounterTable/Data|289|Shedinja|Bug|Ghost|52|45|-|-|10%}}\n{{EncounterTable/Data|339|Sylveon|Fairy||54-55|45|10%}}\n{{EncounterTable/Data|363|Galvantula|Bug|Electric|55|75|15%|15%|-}}\n{{EncounterTable/Data|372|Talonflame|Fire|Flying|53|255|25%|25%|-}}\n{{EncounterTable/Data|452|Bewear|Normal|Fighting|50|70|-|-|20%}}\n{{EncounterTable/Section|Surf}}\n{{EncounterTable/Data|060|Poliwag|Water||15-30|255|50%}}\n{{EncounterTable/Data|079|Slowpoke|Water|Psychic|35|190|10%}}\n{{EncounterTable/Data|469|Bruxish|Water|Psychic|15-30|80|40%}}\n{{EncounterTable/Section|Old Rod}}\n{{EncounterTable/Data|060|Poliwag|Water||10|255|15%}}\n{{EncounterTable/Data|394|Feebas|Water||5|255|54%}}\n{{EncounterTable/Data|434|Trubbish|Poison||5|190|1%}}\n{{EncounterTable/Data|469|Bruxish|Water|Psychic|5|80|30%}}\n{{EncounterTable/Section|Good Rod}}\n{{EncounterTable/Data|061|Poliwhirl|Water||20|120|15%}}\n{{EncounterTable/Data|453|Dhelmise|Ghost|Grass|20|25|45%}}\n{{EncounterTable/Data|469|Bruxish|Water|Psychic|20-24|80|40%}}\n{{EncounterTable/Section|Super Rod}}\n{{EncounterTable/Data|062|Poliwrath|Water|Fighting|40|45|5%}}\n{{EncounterTable/Data|091|Cloyster|Water|Ice|40|60|85%}}\n{{EncounterTable/Data|186|Politoed|Water||40|45|10%}}\n{{EncounterTable/Section|Poké Radar}}\n{{EncounterTable/Data|383|Bibarel|Normal|Water|45-50|127|50% <small>([[Poké Radar#How_it_works|long rustle]])</small>}}\n{{EncounterTable/Section|Quest}}\n{{EncounterTable/Data|204|Pineco|Bug||40|190|Six}}\n{{EncounterTable/Footer/Time}}\n</div>\n\n==Trainers==\n{{Trainer\n| trainerClass=YOUNGSTER\n| name=Bill\n| trainerOverworldSprite=BW004.png\n| postBattleAction=Rematch\n| item1=POTION\n| item1Quantity=1\n| pokemon1=19\n| pokemon1Level=71\n| remixItem1=POTION\n| remixItem1Quantity=1\n| remixPokemon1=280.125\n| remixPokemon1Level=59\n| remixPokemon2=153.318\n| remixPokemon2Level=59\n| remixPokemon3=101.370\n| remixPokemon3Level=62\n| remixPokemon3Move1=Explosion\n| expertItem1=FULLRESTORE\n| expertItem1Quantity=1\n| expertPokemon1=20.130\n| expertPokemon1Level=75\n| expertPokemon1Item=LUMBERRY\n| expertPokemon1Nature=Adamant\n| expertPokemon1Ability=[[bulbapedia:Moxie (Ability)|Moxie]]\n| expertPokemon1Move1=Thrash\n| expertPokemon1Move2=Crunch\n| expertPokemon1Move3=Earthquake\n| expertPokemon1Move4=Dragon Dance\n| expertPokemon1IVHP=31\n| expertPokemon1IVAtk=31\n| expertPokemon1IVDef=31\n| expertPokemon1IVSpA=31\n| expertPokemon1IVSpD=31\n| expertPokemon1IVSpe=31\n| expertPokemon1EVHP=4\n| expertPokemon1EVAtk=252\n| expertPokemon1EVDef=0\n| expertPokemon1EVSpA=0\n| expertPokemon1EVSpD=0\n| expertPokemon1EVSpe=252\n}}\n\n{{Trainer\n| trainerClass=LASS\n| name=Charline\n| trainerOverworldSprite=BW008.png\n| pokemon1=25.200\n| pokemon1Level=54\n| remixPokemon1=496.333\n| remixPokemon1Level=62\n| remixPokemon1Item=EVIOLITE\n| remixPokemon2=490.300\n| remixPokemon2Level=62\n| remixPokemon3=71.455\n| remixPokemon3Level=63\n| remixPokemon4=455.464\n| remixPokemon4Level=64\n| expertPokemon1=255.25\n| expertPokemon1Level=57\n| expertPokemon1Item=LIGHTBALL\n| expertPokemon1Nature=Modest\n| expertPokemon1Ability=[[bulbapedia:Levitate (Ability)|Levitate]]\n| expertPokemon1Move1=Shadow Ball\n| expertPokemon1Move2=Thunderbolt\n| expertPokemon1Move3=Mystical Fire\n| expertPokemon1Move4=Power Gem\n| expertPokemon1IVHP=31\n| expertPokemon1IVAtk=31\n| expertPokemon1IVDef=31\n| expertPokemon1IVSpA=31\n| expertPokemon1IVSpD=31\n| expertPokemon1IVSpe=31\n| expertPokemon1EVHP=4\n| expertPokemon1EVAtk=0\n| expertPokemon1EVDef=0\n| expertPokemon1EVSpA=252\n| expertPokemon1EVSpD=0\n| expertPokemon1EVSpe=252\n| expertPokemon2=182.233\n| expertPokemon2Level=57\n| expertPokemon2Item=EVIOLITE\n| expertPokemon2Nature=Modest\n| expertPokemon2Ability=[[bulbapedia:Download (Ability)|Download]]\n| expertPokemon2Move1=Quiver Dance\n| expertPokemon2Move2=Recover\n| expertPokemon2Move3=Giga Drain\n| expertPokemon2Move4=Tri Attack\n| expertPokemon2IVHP=31\n| expertPokemon2IVAtk=31\n| expertPokemon2IVDef=31\n| expertPokemon2IVSpA=31\n| expertPokemon2IVSpD=31\n| expertPokemon2IVSpe=31\n| expertPokemon2EVHP=4\n| expertPokemon2EVAtk=0\n| expertPokemon2EVDef=0\n| expertPokemon2EVSpA=252\n| expertPokemon2EVSpD=0\n| expertPokemon2EVSpe=252\n}}\n\n{{Trainer\n| trainerClass=YOUNGSTER\n| name=Joe\n| trainerOverworldSprite=BW004.png\n| pokemon1=206.20\n| pokemon1Level=51\n| remixPokemon1=279.89\n| remixPokemon1Level=60\n| expertPokemon1=20.424\n| expertPokemon1Level=54\n| expertPokemon1Item=CHOICEBAND\n| expertPokemon1Nature=Adamant\n| expertPokemon1Ability=[[bulbapedia:Hustle (Ability)|Hustle]]\n| expertPokemon1Move1=Double-Edge\n| expertPokemon1Move2=Poison Jab\n| expertPokemon1Move3=Earthquake\n| expertPokemon1Move4=Throat Chop\n| expertPokemon1IVHP=31\n| expertPokemon1IVAtk=31\n| expertPokemon1IVDef=31\n| expertPokemon1IVSpA=31\n| expertPokemon1IVSpD=31\n| expertPokemon1IVSpe=31\n| expertPokemon1EVHP=4\n| expertPokemon1EVAtk=252\n| expertPokemon1EVDef=0\n| expertPokemon1EVSpA=0\n| expertPokemon1EVSpD=0\n| expertPokemon1EVSpe=252\n| expertPokemon2=164.278\n| expertPokemon2Level=54\n| expertPokemon2Item=LIFEORB\n| expertPokemon2Nature=Modest\n| expertPokemon2Ability=[[bulbapedia:Tinted Lens (Ability)|Tinted Lens]]\n| expertPokemon2Move1=Energy Ball\n| expertPokemon2Move2=Air Slash\n| expertPokemon2Move3=Heat Wave\n| expertPokemon2Move4=Shadow Ball\n| expertPokemon2IVHP=31\n| expertPokemon2IVAtk=31\n| expertPokemon2IVDef=31\n| expertPokemon2IVSpA=31\n| expertPokemon2IVSpD=31\n| expertPokemon2IVSpe=31\n| expertPokemon2EVHP=4\n| expertPokemon2EVAtk=0\n| expertPokemon2EVDef=0\n| expertPokemon2EVSpA=252\n| expertPokemon2EVSpD=0\n| expertPokemon2EVSpe=252\n}}\n\n[[Category:Locations]]\n[[Category:Johto]]"
+}

@@ -1,0 +1,128 @@
+{
+  "starter": "Squirtle",
+  "name": "Team Squirtle: Aerial Dominance & Intimidate Breaker",
+  "archetype": "Flying STAB pressure, Intimidate attack reduction, and 4x fighting wallbreaking.",
+  "gym_duel_core": [1, 2, 3, 4, 5],
+  "gym_duel_rationale": "Kurt's 5v5 Gym battle prompts the player to select 5 active team members: Arbok/Primeape acts as the primary frontline breaker, cutting Kurt's physical Attack on entry with Intimidate and crushing Blissey/Shuckle through its catastrophic 4x Fighting weakness with STAB Close Combat; Blastoise/Fearow brings Flying STAB Drill Peck to destroy Bug hybrids and provides Ground immunity; Alakazam/Weezing bypasses high physical Defense using STAB Psychic; Jolteon/Sandslash shocks Slowbro/Scizor with Discharge; and Snorlax anchors the party with colossal HP and Rest longevity.",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Blastoise/Fearow",
+      "types": ["Water", "Flying"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 62,
+      "ability": "Torrent",
+      "held_item": "Sharp Beak",
+      "role": "Aerial Bug Hunter & Water Anchor",
+      "current_reached_moveset": [
+        "Drill Peck",
+        "Hydro Pump",
+        "Roost",
+        "Protect"
+      ],
+      "progression_notes": "486 BST starter hybrid. STAB Drill Peck provides devastating super-effective Flying coverage against Kurt's Bug fusions. Roost provides reliable recovery."
+    },
+    {
+      "slot": 2,
+      "species": "Alakazam/Weezing",
+      "types": ["Psychic", "Poison"],
+      "status": "Active in Party (Retained from Ch 10)",
+      "current_level": 61,
+      "ability": "Levitate",
+      "held_item": "Twisted Spoon",
+      "role": "Levitate Special Wallbreaker",
+      "current_reached_moveset": [
+        "Psychic",
+        "Sludge Bomb",
+        "Recover",
+        "Calm Mind"
+      ],
+      "progression_notes": "495 BST Levitate pivot with 118 SpA. Levitate grants Ground immunity, while STAB Psychic cleanly dismantles Beedrill/Ariados."
+    },
+    {
+      "slot": 3,
+      "species": "Jolteon/Sandslash",
+      "types": ["Electric", "Ground"],
+      "status": "Active in Party (Retained from Ch 10)",
+      "current_level": 61,
+      "ability": "Volt Absorb",
+      "held_item": "Soft Sand",
+      "role": "Speed Pivot & Physical Setup",
+      "current_reached_moveset": [
+        "Discharge",
+        "Earthquake",
+        "Pin Missile",
+        "Swords Dance"
+      ],
+      "progression_notes": "486 BST speed sweeper. Volt Absorb absorbs Electric moves. Discharge electrocutes Slowbro/Scizor and paralyzes Lotad/Kingdra."
+    },
+    {
+      "slot": 4,
+      "species": "Arbok/Primeape",
+      "types": ["Poison", "Fighting"],
+      "status": "Active in Party (Retained from Ch 10)",
+      "current_level": 61,
+      "ability": "Intimidate",
+      "held_item": "Black Belt",
+      "role": "Intimidate 4x Fighting Slayer",
+      "current_reached_moveset": [
+        "Close Combat",
+        "Gunk Shot",
+        "Cross Chop",
+        "Glare"
+      ],
+      "progression_notes": "479 BST Intimidate bruiser. Intimidate neutralizes Kurt's physical Attack on entry. STAB Close Combat delivers massive 4x damage to crush Blissey/Shuckle."
+    },
+    {
+      "slot": 5,
+      "species": "Snorlax",
+      "types": ["Normal"],
+      "status": "Active in Party (Retained from Ch 10)",
+      "current_level": 61,
+      "ability": "Thick Fat",
+      "held_item": "Leftovers",
+      "role": "Thick Fat Normal Tank",
+      "current_reached_moveset": [
+        "Body Slam",
+        "Rest",
+        "Sleep Talk",
+        "Crunch"
+      ],
+      "progression_notes": "Colossal 160 HP tank. Absorbs stray Dragon Pulses and special moves comfortably, resetting any damage or status with Rest and Sleep Talk."
+    },
+    {
+      "slot": 6,
+      "species": "Lapras",
+      "types": ["Water", "Ice"],
+      "status": "Active in Party (Retained from Ch 10)",
+      "current_level": 60,
+      "ability": "Water Absorb",
+      "held_item": "Never-Melt Ice",
+      "role": "Bulky Water Pivot",
+      "current_reached_moveset": [
+        "Ice Beam",
+        "Hydro Pump",
+        "Confuse Ray",
+        "Body Slam"
+      ],
+      "progression_notes": "535 BST Water/Ice wall. Shrugs off Water attacks with Water Absorb and provides consistent bulky support across Slowpoke Well and Route 33."
+    }
+  ],
+  "flex_bench": [
+    {
+      "species": "Venusaur",
+      "role": "Chlorophyll Sleep Tank",
+      "rationale": "High-durability Grass/Poison tank packing Leech Seed and Sleep Powder for status control."
+    },
+    {
+      "species": "Gyarados",
+      "role": "Dragon Dance Water Pivot",
+      "rationale": "Intimidate physical pivot and Dragon Dance sweeper with Aqua Tail."
+    },
+    {
+      "species": "Hitmontop",
+      "role": "Technician Rapid Spinner",
+      "rationale": "Technician-boosted Triple Kick and Rapid Spin hazard removal for tactical versatility."
+    }
+  ]
+}

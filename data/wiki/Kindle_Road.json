@@ -1,0 +1,151 @@
+{
+  "title": "Kindle_Road",
+  "url": "https://infinitefusion.fandom.com/wiki/Kindle_Road",
+  "lead_summary": "Kindle Road is a water route that connects Offshore Road, Mt. Ember, Knot Island and Brine Road (West of the Old Shipwreck).\nThe first time the player comes to Kindle Road, Corsolas block access to a portion of the beach. They can be scared away if the player has a Mareanie or Toxapex in their party.\nAfter obtaining Dive, the player can help another trainer push the giant boulder blocking the North-East portion.",
+  "missable_warnings": [
+    "NOTE: Contains actions that alter player Karma."
+  ],
+  "items": [
+    {
+      "internal_id": "HEARTSCALE",
+      "quantity": "",
+      "name": "Heart Scale",
+      "location_details": "Hidden by a rock above the grassy area."
+    },
+    {
+      "internal_id": "HEARTSCALE",
+      "quantity": "",
+      "name": "Heart Scale",
+      "location_details": "On the ground near the Trapinch nest."
+    },
+    {
+      "internal_id": "MAXREPEL",
+      "quantity": "",
+      "name": "Max Repel",
+      "location_details": "On the ground near the Trapinch nest."
+    },
+    {
+      "internal_id": "HEARTSCALE",
+      "quantity": "",
+      "name": "Heart Scale",
+      "location_details": "Hidden by a rock near the Trapinch nest."
+    },
+    {
+      "internal_id": "HEARTSCALE",
+      "quantity": "",
+      "name": "Heart Scale",
+      "location_details": "Hidden by a rock near the Trapinch nest."
+    },
+    {
+      "internal_id": "CARBOS",
+      "quantity": "",
+      "name": "Carbos",
+      "location_details": "On the grassy high ground."
+    },
+    {
+      "internal_id": "HEARTSCALE",
+      "quantity": "",
+      "name": "Heart Scale",
+      "location_details": "Behind two breakable rocks."
+    },
+    {
+      "internal_id": "HEARTSCALE",
+      "quantity": "",
+      "name": "Heart Scale",
+      "location_details": "Hidden by a rock near Crush Girl Sharon."
+    },
+    {
+      "internal_id": "HEARTSCALE",
+      "quantity": "",
+      "name": "Heart Scale",
+      "location_details": "On the ground near the Corsolas."
+    },
+    {
+      "internal_id": "HEARTSCALE",
+      "quantity": "",
+      "name": "Heart Scale",
+      "location_details": "On the small island with Swimmer Abigail."
+    },
+    {
+      "internal_id": "FIRESTONE",
+      "quantity": "",
+      "name": "Fire Stone",
+      "location_details": "In the water within the Ember Spa."
+    },
+    {
+      "internal_id": "machine_WATER",
+      "quantity": "",
+      "name": "TM121 Scald",
+      "location_details": "On the western side in Ember Spa, on raised ground."
+    },
+    {
+      "internal_id": "RELICGOLD",
+      "quantity": "",
+      "name": "Relic Gold",
+      "location_details": "North-East Edge of the Bay."
+    },
+    {
+      "internal_id": "PEARL",
+      "quantity": "",
+      "name": "Pearl",
+      "location_details": "On an island in the middle of the Bay."
+    },
+    {
+      "internal_id": "machine_GRASS",
+      "quantity": "",
+      "name": "TM86 Grass Knot",
+      "location_details": "Next to the Battle Factory."
+    },
+    {
+      "internal_id": "PEARL",
+      "quantity": "",
+      "name": "Pearl",
+      "location_details": "South-West Diving Spot in the Bay."
+    },
+    {
+      "internal_id": "RELICCOPPER",
+      "quantity": "",
+      "name": "Relic Copper",
+      "location_details": "South-West Diving Spot in the Bay."
+    },
+    {
+      "internal_id": "RELICBAND",
+      "quantity": "",
+      "name": "Relic Band",
+      "location_details": "North-West Diving Spot in the Bay."
+    },
+    {
+      "internal_id": "RELICCOPPER",
+      "quantity": "",
+      "name": "Relic Copper",
+      "location_details": "North-West Diving Spot in the Bay."
+    },
+    {
+      "internal_id": "RELICSILVER",
+      "quantity": "",
+      "name": "Relic Silver",
+      "location_details": "North-East Diving Spot in the Bay."
+    },
+    {
+      "internal_id": "RELICVASE",
+      "quantity": "",
+      "name": "Relic Vase",
+      "location_details": "South-East Diving Spot in the Bay."
+    },
+    {
+      "internal_id": "RELICCOPPER",
+      "quantity": "",
+      "name": "Relic Copper",
+      "location_details": "South-East Diving Spot in the Bay."
+    }
+  ],
+  "sections": [
+    "Items",
+    "Pokémon",
+    "Pokémon Nest",
+    "Trainers",
+    "Points of Interest",
+    "Battle Factory and Battle Tower"
+  ],
+  "raw_wikitext": "{{GlobalToggles}}\n{{InfoboxLocation\n|region=Sevii Islands\n|location_image=KindleRoad.png\n|map_image=Kindle_Road_Map.png\n|connection_1_direction=north\n|connection_1_location=Mt. Ember\n|connection_2_direction=northwest\n|connection_2_location=Offshore Road\n|connection_3_direction=southwest\n|connection_3_location=Knot Island\n|connection_4_direction=southeast\n|connection_4_location=Battle Factory and Battle Tower\n|connection_5_direction=northeast\n|connection_5_location=Brine Road (West of the Old Shipwreck)\n|connection_5_label=Brine Road (West)\n|connection_5_restrictions=%dive%\n}}\n'''Kindle Road''' is a water route that connects [[Offshore Road]], [[Mt. Ember]], [[Knot Island]] and [[Brine Road (West of the Old Shipwreck)]].\n\nThe first time the player comes to Kindle Road, Corsolas block access to a portion of the beach. They can be scared away if the player has a Mareanie or Toxapex in their party.\n\nAfter obtaining Dive, the player can help another trainer push the giant boulder blocking the North-East portion.\n\n==Items==\n{{ItemTable/Header}}\n{{ItemTable/Data|HEARTSCALE||Heart Scale|Hidden by a rock above the grassy area.|HeartScale8_KindleRoad.png}}\n{{ItemTable/Data|HEARTSCALE||Heart Scale|On the ground near the Trapinch nest.|HeartScale1_KindleRoad.png}}\n{{ItemTable/Data|MAXREPEL||Max Repel|On the ground near the Trapinch nest.|MaxRepel_KindleRoad.png}}\n{{ItemTable/Data|HEARTSCALE||Heart Scale|Hidden by a rock near the Trapinch nest.|HeartScale7_KindleRoad.png}}\n{{ItemTable/Data|HEARTSCALE||Heart Scale|Hidden by a rock near the Trapinch nest.|HeartScale6_KindleRoad.png}}\n{{ItemTable/Data|CARBOS||Carbos|On the grassy high ground.|Carbos_KindleRoad.png}}\n{{ItemTable/Data|HEARTSCALE||Heart Scale|Behind two breakable rocks.|HeartScale2_KindleRoad.png}}\n{{ItemTable/Data|HEARTSCALE||Heart Scale|Hidden by a rock near Crush Girl Sharon.|HeartScale3_KindleRoad.png}}\n{{ItemTable/Data|HEARTSCALE||Heart Scale|On the ground near the Corsolas.|HeartScale4_KindleRoad.png}}\n{{ItemTable/Data|HEARTSCALE||Heart Scale|On the small island with Swimmer Abigail.|HeartScale5_KindleRoad.png}}\n{{ItemTable/Data|FIRESTONE||Fire Stone|In the water within the Ember Spa.|FireStone_KindleRoad.png}}\n{{ItemTable/Data|machine_WATER||TM121 Scald|On the western side in Ember Spa, on raised ground.|TM121_EmberSpa.png}}\n{{ItemTable/Data|RELICGOLD||Relic Gold|North-East Edge of the Bay.|RelicGold_KindleRoad.png}}\n{{ItemTable/Data|PEARL||Pearl|On an island in the middle of the Bay.|Pearl_KindleRoad.png}}\n{{ItemTable/Data|machine_GRASS||TM86 Grass Knot|Next to the Battle Factory.|TM86_KindleRoad.png}}\n{{ItemTable/Section|Underwater}}\n{{ItemTable/Data|PEARL||Pearl|South-West Diving Spot in the Bay.|Underwater_Pearl_KindleRoad.png}}\n{{ItemTable/Data|RELICCOPPER||Relic Copper|South-West Diving Spot in the Bay.|Underwater_RelicCopper1_KindleRoad.png}}\n{{ItemTable/Data|RELICBAND||Relic Band|North-West Diving Spot in the Bay.|Underwater_RelicBand_KindleRoad.png}}\n{{ItemTable/Data|RELICCOPPER||Relic Copper|North-West Diving Spot in the Bay.|Underwater_RelicCopper2_KindleRoad.png}}\n{{ItemTable/Data|RELICSILVER||Relic Silver|North-East Diving Spot in the Bay.|Underwater_RelicSilver_KindleRoad.png}}\n{{ItemTable/Data|RELICVASE||Relic Vase|South-East Diving Spot in the Bay.|Underwater_RelicVase_KindleRoad.png}}\n{{ItemTable/Data|RELICCOPPER||Relic Copper|South-East Diving Spot in the Bay.|Underwater_RelicCopper3_KindleRoad.png}}\n{{ItemTable/RockSmash}}\n{{ItemTable/Footer}}\n\n==Pokémon==\n<!-----------------------------------!>\n<!-- CLASSIC & EXPERT MODE POKÉMON --!>\n<!------------------------------------>\n<div class=\"classic-mode expert-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|021|Spearow|Normal|Flying|30-32|255|20%}}\n{{EncounterTable/Data|022|Fearow|Normal|Flying|36|90|10%}}\n{{EncounterTable/Data|052|Meowth|Normal||31|255|10%}}\n{{EncounterTable/Data|053|Persian|Normal||37-40|90|5%}}\n{{EncounterTable/Data|077|Ponyta|Fire||31-34|190|30%}}\n{{EncounterTable/Data|078|Rapidash|Fire||37-40|60|5%}}\n{{EncounterTable/Data|325|Nosepass|Rock||31|255|20%}}\n{{EncounterTable/Section|Surf}}\n{{EncounterTable/Data|072|Tentacool|Water|Poison|5-40|190|25%}}\n{{EncounterTable/Data|073|Tentacruel|Water|Poison|35-40|60|5%}}\n{{EncounterTable/Data|222|Corsola|Water|Rock|5-40|60|20%}}\n{{EncounterTable/Data|387|Wailmer|Water||20-35|125|30%}}\n{{EncounterTable/Data|501|Luvdisc|Water||5-30|225|20%}}\n{{EncounterTable/Section|Old Rod}}\n{{EncounterTable/Data|072|Tentacool|Water|Poison|10|190|15%}}\n{{EncounterTable/Data|129|Magikarp|Water||10|255|85%}}\n{{EncounterTable/Section|Good Rod}}\n{{EncounterTable/Data|072|Tentacool|Water|Poison|20|190|30%}}\n{{EncounterTable/Data|090|Shellder|Water||20|190|3%}}\n{{EncounterTable/Data|129|Magikarp|Water||20|255|60%}}\n{{EncounterTable/Data|170|Chinchou|Water|Electric|20|190|7%}}\n{{EncounterTable/Section|Super Rod}}\n{{EncounterTable/Data|073|Tentacruel|Water|Poison|40|60|7%}}\n{{EncounterTable/Data|090|Shellder|Water||40|190|30%}}\n{{EncounterTable/Data|170|Chinchou|Water|Electric|40|190|60%}}\n{{EncounterTable/Data|171|Lanturn|Water|Electric|40|75|3%}}\n{{EncounterTable/RockSmash}}\n{{EncounterTable/Section|Poké Radar}}\n{{EncounterTable/Data|493|Scraggy|Dark|Fighting|32-45|180|50% <small>([[Poké Radar#How_it_works|long rustle]])</small>}}\n{{EncounterTable/Footer}}\n</div>\n<!------------------------!>\n<!-- REMIX MODE POKÉMON --!>\n<!------------------------->\n<div class=\"remix-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|044|Gloom|Grass|Poison|31|120|10%}}\n{{EncounterTable/Data|070|Weepinbell|Grass|Poison|31|120|10%}}\n{{EncounterTable/Data|084|Doduo|Normal|Flying|36|190|10%}}\n{{EncounterTable/Data|210|Granbull|Fairy||37-40|75|5%}}\n{{EncounterTable/Data|325|Nosepass|Rock||31|255|20%}}\n{{EncounterTable/Data|457|Cacnea|Grass||31-34|190|25%}}\n{{EncounterTable/Data|458|Cacturne|Grass|Dark|34-40|60|5%}}\n{{EncounterTable/Data|459|Sandygast|Ground|Ghost|30-32|140|9%}}\n{{EncounterTable/Data|479|Chespin|Grass||15-17|45|1%}}\n{{EncounterTable/Data|493|Scraggy|Dark|Fighting|37-40|180|5%}}\n{{EncounterTable/Section|Surf}}\n{{EncounterTable/Data|073|Tentacruel|Water|Poison|35-40|60|5%}}\n{{EncounterTable/Data|195|Quagsire|Water|Ground|30-40|90|20%}}\n{{EncounterTable/Data|222|Corsola|Water|Rock|5-40|60|20%}}\n{{EncounterTable/Data|370|Pyukumuku|Water||5-40|60|14%}}\n{{EncounterTable/Data|387|Wailmer|Water||20-35|125|20%}}\n{{EncounterTable/Data|485|Froakie|Water||15-17|45|1%}}\n{{EncounterTable/Data|501|Luvdisc|Water||20-40|225|20%}}\n{{EncounterTable/Section|Old Rod}}\n{{EncounterTable/Data|118|Goldeen|Water||10|225|20%}}\n{{EncounterTable/Data|138|Omanyte|Rock|Water|10|45|5%}}\n{{EncounterTable/Data|140|Kabuto|Rock|Water|10|45|5%}}\n{{EncounterTable/Data|301|Lileep|Rock|Grass|10|45|5%}}\n{{EncounterTable/Data|303|Anorith|Rock|Bug|10|45|5%}}\n{{EncounterTable/Data|370|Pyukumuku|Water||10|60|9%}}\n{{EncounterTable/Data|474|Wimpod|Bug|Water|10|90|20%}}\n{{EncounterTable/Data|485|Froakie|Water||10|45|1%}}\n{{EncounterTable/Data|501|Luvdisc|Water||10|225|30%}}\n{{EncounterTable/Section|Good Rod}}\n{{EncounterTable/Data|090|Shellder|Water||20|190|3%}}\n{{EncounterTable/Data|118|Goldeen|Water||20|225|40%}}\n{{EncounterTable/Data|170|Chinchou|Water|Electric|20|190|6%}}\n{{EncounterTable/Data|453|Dhelmise|Ghost|Grass|20|25|30%}}\n{{EncounterTable/Data|454|Mareanie|Poison|Water|20|190|20%}}\n{{EncounterTable/Data|485|Froakie|Water||20|45|1%}}\n{{EncounterTable/Section|Super Rod}}\n{{EncounterTable/Data|073|Tentacruel|Water|Poison|40|60|6%}}\n{{EncounterTable/Data|090|Shellder|Water||40|190|30%}}\n{{EncounterTable/Data|171|Lanturn|Water|Electric|40|75|3%}}\n{{EncounterTable/Data|453|Dhelmise|Ghost|Grass|40|25|60%}}\n{{EncounterTable/Data|485|Froakie|Water||1-50|45|1%}}\n{{EncounterTable/RockSmash}}\n{{EncounterTable/Section|Poké Radar}}\n{{EncounterTable/Data|493|Scraggy|Dark|Fighting|32-45|180|50% <small>([[Poké Radar#How_it_works|long rustle]])</small>}}\n{{EncounterTable/Footer}}\n</div>\n\n===Pokémon Nest===\n[[File:Pokémon Nest Trapinch Kindle Road.png|right|thumb|Trapinch nest]]\nSouth of the Ember Spa entrance, blocked off by a boulder that can be pushed with Strength, is a [[Pokémon Nests|Pokémon Nest]] containing a Trapinch egg. Taking the egg will lose the player 2 [[Karma]].\n\n== Trainers==\n{{Trainer\n| trainerClass=CRUSHGIRL\n| name=Celine\n| trainerOverworldSprite=BW040.png\n| pokemon1=237.76\n| pokemon1Level=38\n| remixPokemon1=103.494\n| remixPokemon1Level=44\n| remixPokemon2=483.277\n| remixPokemon2Level=44\n| remixPokemon3=58.266\n| remixPokemon3Level=45\n| expertPokemon1=318.106\n| expertPokemon1Level=45\n| expertPokemon1Item=LIFEORB\n| expertPokemon1Nature=Jolly\n| expertPokemon1Ability=[[bulbapedia:Reckless (Ability)|Reckless]]\n| expertPokemon1Move1=High Jump Kick\n| expertPokemon1Move2=Wood Hammer\n| expertPokemon1Move3=Bulk Up\n| expertPokemon1Move4=Synthesis\n| expertPokemon1IVHP=31\n| expertPokemon1IVAtk=31\n| expertPokemon1IVDef=31\n| expertPokemon1IVSpA=31\n| expertPokemon1IVSpD=31\n| expertPokemon1IVSpe=31\n| expertPokemon1EVHP=6\n| expertPokemon1EVAtk=252\n| expertPokemon1EVDef=0\n| expertPokemon1EVSpA=0\n| expertPokemon1EVSpD=0\n| expertPokemon1EVSpe=252\n}}\n\n{{Trainer\n| trainerClass=BLACKBELT\n| name=Hugh\n| trainerOverworldSprite=BWBlackbelt.png\n| pokemon1=66\n| pokemon1Level=37\n| pokemon2=67.210\n| pokemon2Level=37\n| remixPokemon1=456.142\n| remixPokemon1Level=44\n| remixPokemon2=211.61\n| remixPokemon2Level=44\n| remixPokemon3=201.284\n| remixPokemon3Level=44\n| remixPokemon4=22.460\n| remixPokemon4Level=44\n| expertPokemon1=333.68\n| expertPokemon1Level=47\n| expertPokemon1Item=SITRUSBERRY\n| expertPokemon1Nature=Adamant\n| expertPokemon1Ability=[[bulbapedia:No Guard (Ability)|No Guard]]\n| expertPokemon1Move1=Iron Tail\n| expertPokemon1Move2=Dynamic Punch\n| expertPokemon1Move3=Bulk Up\n| expertPokemon1Move4=Rock Slide\n| expertPokemon1IVHP=31\n| expertPokemon1IVAtk=31\n| expertPokemon1IVDef=31\n| expertPokemon1IVSpA=31\n| expertPokemon1IVSpD=31\n| expertPokemon1IVSpe=31\n| expertPokemon1EVHP=6\n| expertPokemon1EVAtk=252\n| expertPokemon1EVDef=0\n| expertPokemon1EVSpA=0\n| expertPokemon1EVSpD=0\n| expertPokemon1EVSpe=252\n| expertPokemon2=214.284\n| expertPokemon2Level=47\n| expertPokemon2Item=SITRUSBERRY\n| expertPokemon2Nature=Adamant\n| expertPokemon2Ability=[[bulbapedia:Moxie (Ability)|Moxie]]\n| expertPokemon2Move1=Rock Slide\n| expertPokemon2Move2=Bulk Up\n| expertPokemon2Move3=Close Combat\n| expertPokemon2Move4=Earthquake\n| expertPokemon2IVHP=31\n| expertPokemon2IVAtk=31\n| expertPokemon2IVDef=31\n| expertPokemon2IVSpA=31\n| expertPokemon2IVSpD=31\n| expertPokemon2IVSpe=31\n| expertPokemon2EVHP=6\n| expertPokemon2EVAtk=252\n| expertPokemon2EVDef=0\n| expertPokemon2EVSpA=0\n| expertPokemon2EVSpD=0\n| expertPokemon2EVSpe=252\n}}\n\n{{Trainer\n| trainerClass=CRUSHGIRL\n| name=Sharon\n| trainerOverworldSprite=BW040.png\n| pokemon1=56\n| pokemon1Level=37\n| pokemon2=57.224\n| pokemon2Level=37\n| remixPokemon1=18.281\n| remixPokemon1Level=43\n| remixPokemon2=130.208\n| remixPokemon2Level=43\n| remixPokemon3=103.154\n| remixPokemon3Level=43\n| remixPokemon4=353.122\n| remixPokemon4Level=43\n| remixPokemon4Item=AIRBALLOON\n| expertPokemon1=225.309\n| expertPokemon1Level=47\n| expertPokemon1Item=LIGHTCLAY\n| expertPokemon1Nature=Jolly\n| expertPokemon1Ability=[[bulbapedia:Snow Warning (Ability)|Snow Warning]]\n| expertPokemon1Move1=Aurora Veil\n| expertPokemon1Move2=Yawn\n| expertPokemon1Move3=Body Slam\n| expertPokemon1Move4=Ice Shard\n| expertPokemon1IVHP=31\n| expertPokemon1IVAtk=31\n| expertPokemon1IVDef=31\n| expertPokemon1IVSpA=31\n| expertPokemon1IVSpD=31\n| expertPokemon1IVSpe=31\n| expertPokemon1EVHP=6\n| expertPokemon1EVAtk=252\n| expertPokemon1EVDef=0\n| expertPokemon1EVSpA=0\n| expertPokemon1EVSpD=0\n| expertPokemon1EVSpe=252\n| expertPokemon2=429.94\n| expertPokemon2Level=47\n| expertPokemon2Item=BRIGHTPOWDER\n| expertPokemon2Nature=Modest\n| expertPokemon2Ability=[[bulbapedia:Snow Cloak (Ability)|Snow Cloak]]\n| expertPokemon2Move1=Ominous Wind\n| expertPokemon2Move2=Blizzard\n| expertPokemon2Move3=Double Team\n| expertPokemon2Move4=Sludge Bomb\n| expertPokemon2IVHP=31\n| expertPokemon2IVAtk=31\n| expertPokemon2IVDef=31\n| expertPokemon2IVSpA=31\n| expertPokemon2IVSpD=31\n| expertPokemon2IVSpe=31\n| expertPokemon2EVHP=6\n| expertPokemon2EVAtk=0\n| expertPokemon2EVDef=0\n| expertPokemon2EVSpA=252\n| expertPokemon2EVSpD=0\n| expertPokemon2EVSpe=252\n}}\n''Crush Girl Sharon will fight in a 2vs2.''\n\n{{Trainer\n| trainerClass=SWIMMER_F\n| name=Abigail\n| trainerOverworldSprite=BWSwimmer_female2.png\n| postBattleAction=Rematch\n| pokemon1=86\n| pokemon1Level=35\n| pokemon2=78.87\n| pokemon2Level=36\n| remixPokemon1=87.79\n| remixPokemon1Level=43\n| remixPokemon2=120.384\n| remixPokemon2Level=44\n| remixPokemon3=277.131\n| remixPokemon3Level=45\n| remixPokemon4=219.496\n| remixPokemon4Level=45\n| expertPokemon1=136.160\n| expertPokemon1Level=45\n| expertPokemon1Item=LIFEORB\n| expertPokemon1Nature=Adamant\n| expertPokemon1Ability=[[bulbapedia:Sheer Force (Ability)|Sheer Force]]\n| expertPokemon1Move1=Waterfall\n| expertPokemon1Move2=Flare Blitz\n| expertPokemon1Move3=Dragon Dance\n| expertPokemon1Move4=Ice Punch\n| expertPokemon1IVHP=31\n| expertPokemon1IVAtk=31\n| expertPokemon1IVDef=31\n| expertPokemon1IVSpA=31\n| expertPokemon1IVSpD=31\n| expertPokemon1IVSpe=31\n| expertPokemon1EVHP=6\n| expertPokemon1EVAtk=252\n| expertPokemon1EVDef=0\n| expertPokemon1EVSpA=0\n| expertPokemon1EVSpD=0\n| expertPokemon1EVSpe=252\n| expertPokemon2=160.355\n| expertPokemon2Level=45\n| expertPokemon2Item=SITRUSBERRY\n| expertPokemon2Nature=Adamant\n| expertPokemon2Ability=[[bulbapedia:Technician (Ability)|Technician]]\n| expertPokemon2Move1=Aqua Jet\n| expertPokemon2Move2=Bulk Up\n| expertPokemon2Move3=Bullet Punch\n| expertPokemon2Move4=Bite\n| expertPokemon2IVHP=31\n| expertPokemon2IVAtk=31\n| expertPokemon2IVDef=31\n| expertPokemon2IVSpA=31\n| expertPokemon2IVSpD=31\n| expertPokemon2IVSpe=31\n| expertPokemon2EVHP=6\n| expertPokemon2EVAtk=252\n| expertPokemon2EVDef=0\n| expertPokemon2EVSpA=0\n| expertPokemon2EVSpD=0\n| expertPokemon2EVSpe=252\n| expertPokemon3=210.160\n| expertPokemon3Level=45\n| expertPokemon3Item=LIFEORB\n| expertPokemon3Nature=Adamant\n| expertPokemon3Ability=[[bulbapedia:Sheer Force (Ability)|Sheer Force]]\n| expertPokemon3Move1=Waterfall\n| expertPokemon3Move2=Dragon Dance\n| expertPokemon3Move3=Play Rough\n| expertPokemon3Move4=Earthquake\n| expertPokemon3IVHP=31\n| expertPokemon3IVAtk=31\n| expertPokemon3IVDef=31\n| expertPokemon3IVSpA=31\n| expertPokemon3IVSpD=31\n| expertPokemon3IVSpe=31\n| expertPokemon3EVHP=6\n| expertPokemon3EVAtk=252\n| expertPokemon3EVDef=0\n| expertPokemon3EVSpA=0\n| expertPokemon3EVSpD=0\n| expertPokemon3EVSpe=252\n}}\n\n{{Trainer\n| trainerClass=SWIMMER_F\n| name=Maria\n| trainerOverworldSprite=BW (52).png\n| pokemon1=117\n| pokemon1Level=47\n| pokemon2=117.8\n| pokemon2Level=47\n| remixPokemon1=20.314\n| remixPokemon1Level=50\n| remixPokemon2=420.95\n| remixPokemon2Level=50\n| remixPokemon3=160.270\n| remixPokemon3Level=50\n| expertPokemon1=332.262\n| expertPokemon1Level=47\n| expertPokemon1Item=FLAMEORB\n| expertPokemon1Nature=Adamant\n| expertPokemon1Ability=[[bulbapedia:Guts (Ability)|Guts]]\n| expertPokemon1Move1=Revenge\n| expertPokemon1Move2=Crunch\n| expertPokemon1Move3=Wild Charge\n| expertPokemon1Move4=Ice Shard\n| expertPokemon1IVHP=31\n| expertPokemon1IVAtk=31\n| expertPokemon1IVDef=31\n| expertPokemon1IVSpA=31\n| expertPokemon1IVSpD=31\n| expertPokemon1IVSpe=31\n| expertPokemon1EVHP=6\n| expertPokemon1EVAtk=252\n| expertPokemon1EVDef=0\n| expertPokemon1EVSpA=0\n| expertPokemon1EVSpD=0\n| expertPokemon1EVSpe=252\n| expertPokemon2=314.28\n| expertPokemon2Level=47\n| expertPokemon2Item=SMOOTHROCK\n| expertPokemon2Nature=Adamant\n| expertPokemon2Ability=[[bulbapedia:Sand Rush (Ability)|Sand Rush]]\n| expertPokemon2Move1=Sandstorm\n| expertPokemon2Move2=Swords Dance\n| expertPokemon2Move3=Dive\n| expertPokemon2Move4=Dig\n| expertPokemon2IVHP=31\n| expertPokemon2IVAtk=31\n| expertPokemon2IVDef=31\n| expertPokemon2IVSpA=31\n| expertPokemon2IVSpD=31\n| expertPokemon2IVSpe=31\n| expertPokemon2EVHP=6\n| expertPokemon2EVAtk=252\n| expertPokemon2EVDef=0\n| expertPokemon2EVSpA=0\n| expertPokemon2EVSpD=0\n| expertPokemon2EVSpe=252\n}}\n\n{{Trainer\n| trainerClass=SWIMMER_M\n| name=Finn\n| trainerOverworldSprite=BW (51).png\n| pokemon1=211.121\n| pokemon1Level=48\n| remixPokemon1=194.352\n| remixPokemon1Level=50\n| remixPokemon2=139.132\n| remixPokemon2Level=50\n| remixPokemon3=195.444\n| remixPokemon3Level=50\n| remixPokemon4=147.318\n| remixPokemon4Level=50\n| expertPokemon1=329.99\n| expertPokemon1Level=48\n| expertPokemon1Item=SITRUSBERRY\n| expertPokemon1Nature=Impish\n| expertPokemon1Ability=[[bulbapedia:Stance Change (Ability)|Stance Change]]\n| expertPokemon1Move1=King's Shield\n| expertPokemon1Move2=Crabhammer\n| expertPokemon1Move3=Shadow Sneak\n| expertPokemon1Move4=Iron Head\n| expertPokemon1IVHP=31\n| expertPokemon1IVAtk=31\n| expertPokemon1IVDef=31\n| expertPokemon1IVSpA=31\n| expertPokemon1IVSpD=31\n| expertPokemon1IVSpe=31\n| expertPokemon1EVHP=252\n| expertPokemon1EVAtk=6\n| expertPokemon1EVDef=252\n| expertPokemon1EVSpA=0\n| expertPokemon1EVSpD=0\n| expertPokemon1EVSpe=0\n}}\n\n== Points of Interest ==\n=== Battle Factory and Battle Tower ===\nOn the eastern side of the map is a building containing the [[Battle Factory and Battle Tower]] where players can participate in battles to earn Battle Tokens, which they can trade for egg moves, items and TMs. \n\n[[Category:Locations]]\n[[Category:Sevii Islands]]"
+}

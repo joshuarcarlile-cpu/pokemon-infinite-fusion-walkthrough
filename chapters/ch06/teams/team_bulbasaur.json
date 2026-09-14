@@ -1,0 +1,147 @@
+{
+  "starter": "Bulbasaur",
+  "name": "Team Bulbasaur: Grass Momentum & Special Walls",
+  "archetype": "Special Grass/Flying starter aerial pivot, Intimidate dragon dance sweepers, and colossal Special walls.",
+  "gym_duel_core": [1, 2, 3, 4],
+  "gym_duel_rationale": "Sabrina commands high-velocity Special Psychic attackers. Enter her 4v4 arena with Snorlax (colossal 160 HP and 110 SpD that shrugs off Psychic assaults and dismantles foes with Body Slam and Bite), Gyarados/Arbok (Intimidate Water/Poison breaker carrying Dragon Dance, STAB Aqua Tail, and super-effective Crunch), Alakazam/Weezing (495 BST Levitate pivot with 118 SpA firing STAB Psychic and Sludge Bomb while ignoring Ground moves), and Venusaur/Fearow (Grass/Flying aerial anchor carrying Sleep Powder to neutralize Sabrina's setup and STAB Drill Peck/Petal Dance).",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Venusaur/Fearow",
+      "types": ["Grass", "Flying"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 44,
+      "ability": "Overgrow",
+      "held_item": "Sharp Beak",
+      "role": "Aerial Anchor & Gym Duelist",
+      "current_reached_moveset": [
+        "Drill Peck",
+        "Petal Dance",
+        "Sleep Powder",
+        "Roost"
+      ],
+      "progression_notes": "500 BST aerial titan with 93 Speed. Resists Grass and Fighting, completely immune to Ground. Sleep Powder puts Sabrina's fast leads to sleep while Petal Dance shreds Alakazam/Slowbro."
+    },
+    {
+      "slot": 2,
+      "species": "Gyarados/Arbok",
+      "types": ["Water", "Poison"],
+      "status": "Active in Party (Retained from Ch 5)",
+      "current_level": 44,
+      "ability": "Intimidate",
+      "held_item": "Mystic Water",
+      "role": "Dragon Dance Sweeper & Gym Duelist",
+      "current_reached_moveset": [
+        "Crunch",
+        "Dragon Dance",
+        "Aqua Tail",
+        "Glare"
+      ],
+      "progression_notes": "513 BST Intimidate bruiser with 110 Attack. Resists Water, Fairy, and Poison. Sets up Dragon Dance and tears through Sabrina's Psychic core with super-effective Crunch."
+    },
+    {
+      "slot": 3,
+      "species": "Snorlax",
+      "types": ["Normal"],
+      "status": "Active in Party (Awakened on Route 12/16)",
+      "current_level": 44,
+      "ability": "Thick Fat",
+      "held_item": "Leftovers",
+      "role": "Special Wall & Gym Duelist",
+      "current_reached_moveset": [
+        "Body Slam",
+        "Amnesia",
+        "Rest",
+        "Sleep Talk"
+      ],
+      "progression_notes": "540 BST legendary wall with 160 HP and 110 SpD. Thick Fat halves Fire and Ice damage. Amnesia boosts SpD into impenetrable territory while Body Slam paralyzes fast psychic sweepers."
+    },
+    {
+      "slot": 4,
+      "species": "Alakazam/Weezing",
+      "types": ["Psychic", "Poison"],
+      "status": "Active in Party (Evolved with Linking Cord)",
+      "current_level": 44,
+      "ability": "Levitate",
+      "held_item": "Twisted Spoon",
+      "role": "Special Artillery & Gym Duelist",
+      "current_reached_moveset": [
+        "Psychic",
+        "Sludge Bomb",
+        "Calm Mind",
+        "Recover"
+      ],
+      "progression_notes": "495 BST special juggernaut with 118 SpA and 98 Speed. Levitate grants Ground immunity. Sets up Calm Mind and recovers damage while firing high-powered STAB Psychic."
+    },
+    {
+      "slot": 5,
+      "species": "Doublade/Sandslash",
+      "types": ["Steel", "Ground"],
+      "status": "Active in Party (Honedge evolved at Lv. 35)",
+      "current_level": 43,
+      "ability": "Sand Veil",
+      "held_item": "Soft Sand",
+      "role": "Physical Steel/Ground Fortress",
+      "current_reached_moveset": [
+        "Iron Head",
+        "Magnitude",
+        "Shadow Sneak",
+        "Swords Dance"
+      ],
+      "progression_notes": "477 BST fortress with 120 Defense and 100 Attack. Quad-resists Poison and resists 8 other types. Shadow Sneak provides vital Ghost priority while Iron Head punishes Fairy types."
+    },
+    {
+      "slot": 6,
+      "species": "Arcanine/Primeape",
+      "types": ["Fire", "Fighting"],
+      "status": "Active in Party (Retained from Ch 5)",
+      "current_level": 43,
+      "ability": "Intimidate",
+      "held_item": "Black Belt",
+      "role": "Physical Fire/Fighting Wallbreaker",
+      "current_reached_moveset": [
+        "Flare Blitz",
+        "Close Combat",
+        "Extreme Speed",
+        "Crunch"
+      ],
+      "progression_notes": "527 BST offensive juggernaut with 107 Attack and 95 Speed. Extreme Speed offers +2 priority revenge killing, and Crunch provides reliable Dark coverage against Psychic types."
+    }
+  ],
+  "flex_bench": [
+    {
+      "slot": 1,
+      "species": "Lapras",
+      "types": ["Water", "Ice"],
+      "status": "Flex Bench (Gift from Silph Co. 7F)",
+      "current_level": 42,
+      "ability": "Water Absorb",
+      "held_item": "Never-Melt Ice",
+      "role": "Specially Bulky Water/Ice Pivot",
+      "current_reached_moveset": [
+        "Ice Beam",
+        "Body Slam",
+        "Confuse Ray",
+        "Rain Dance"
+      ],
+      "progression_notes": "535 BST tank with 130 HP. Free gift from Silph Co. Ice Beam provides devastating anti-Dragon and anti-Flying artillery."
+    },
+    {
+      "slot": 2,
+      "species": "Hitmonchan",
+      "types": ["Fighting"],
+      "status": "Flex Bench (Choice from Fighting Dojo)",
+      "current_level": 42,
+      "ability": "Iron Fist",
+      "held_item": "Punching Glove",
+      "role": "Elemental Coverage Attacker",
+      "current_reached_moveset": [
+        "Thunder Punch",
+        "Ice Punch",
+        "Fire Punch",
+        "Mach Punch"
+      ],
+      "progression_notes": "455 BST martial artist with 105 Attack. Iron Fist powers up all elemental punches, granting versatile super-effective coverage against every gym."
+    }
+  ]
+}

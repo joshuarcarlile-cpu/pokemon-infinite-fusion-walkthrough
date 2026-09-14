@@ -1,0 +1,72 @@
+{
+  "name": "Route 11 & Diglett's Cave",
+  "summary": "Advance east along Route 11, battling engineers and gamblers while checking in with Oak's Aide in the eastern guardhouse. Plunge into Diglett's Cave to secure high-speed Ground-type counters for the Vermilion Gym.",
+  "items": [
+    {
+      "name": "Dowsing Machine",
+      "method": "Given by Oak's Aide on 2F of the Route 11 gatehouse after catching 30 unique species",
+      "type": "Key Item"
+    },
+    {
+      "name": "Great Ball",
+      "method": "Hidden on the ground in the eastern grass fields of Route 11",
+      "type": "Consumable"
+    },
+    {
+      "name": "Escape Rope",
+      "method": "Near the entrance of Diglett's Cave",
+      "type": "Consumable"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Youngster Eddie",
+      "team": [
+        {
+          "species": "Ekans",
+          "level": 21,
+          "types": ["Poison"]
+        }
+      ]
+    },
+    {
+      "name": "Gambler Hugo",
+      "team": [
+        {
+          "species": "Poliwag",
+          "level": 18,
+          "types": ["Water"]
+        },
+        {
+          "species": "Horsea",
+          "level": 18,
+          "types": ["Water"]
+        }
+      ]
+    },
+    {
+      "name": "Engineer Bernie",
+      "team": [
+        {
+          "species": "Magnemite",
+          "level": 21,
+          "types": ["Electric", "Steel"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Route 11 Grass": [
+      {"dex_id": "096", "name": "Drowzee", "types": ["Psychic"], "levels": "15-18", "rates": "25% All Times"},
+      {"dex_id": "179", "name": "Mareep", "types": ["Electric"], "levels": "15-18", "rates": "20% Morning / Day"},
+      {"dex_id": "023", "name": "Ekans", "types": ["Poison"], "levels": "15-18", "rates": "20% All Times"},
+      {"dex_id": "290", "name": "Nincada", "types": ["Bug", "Ground"], "levels": "15-18", "rates": "15% Morning / Day"},
+      {"dex_id": "048", "name": "Venonat", "types": ["Bug", "Poison"], "levels": "15-18", "rates": "10% Night"}
+    ],
+    "Diglett's Cave": [
+      {"dex_id": "050", "name": "Diglett", "types": ["Ground"], "levels": "15-22", "rates": "95% Cave Encounter"},
+      {"dex_id": "051", "name": "Dugtrio", "types": ["Ground"], "levels": "19-22", "rates": "5% Cave Encounter"}
+    ]
+  },
+  "navigation_notes": "MANDATORY ENCOUNTER: Catch a Diglett or Dugtrio inside Diglett's Cave! Their pure Ground typing grants complete immunity to Lt. Surge's Electric attacks, while high Base Speed (Diglett 95, Dugtrio 120) ensures you outspeed Surge's Raichu/Electabuzz. Traverse the entire length of the cave to exit onto Route 2."
+}

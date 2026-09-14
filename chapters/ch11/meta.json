@@ -1,0 +1,10 @@
+{
+  "chapter_id": "ch11",
+  "title": "Act 2 - Chapter 2: Azalea Town & Ilex Forest (Hive Badge)",
+  "act": 2,
+  "hard_mode_level_cap": 62,
+  "gym_duel_limit": 5,
+  "badges_required": 9,
+  "badge_rewarded": "Hive Badge",
+  "synopsis": "Traverse the dense canopy of Ilex Forest to discover Azalea Town submerged in floodwaters. Acquire HM06 Dive from Kurt, solve the 4-Slowpoke evolution puzzle inside Slowpoke Well to drain the town, and duel Leader Kurt for the Hive Badge."
+}

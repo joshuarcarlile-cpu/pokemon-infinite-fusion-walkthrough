@@ -1,0 +1,104 @@
+{
+  "leader": "Koga",
+  "title": "Fuchsia City Gym Leader",
+  "badge": "Soul Badge",
+  "hard_mode_level_cap": 42,
+  "gym_duel_limit": 4,
+  "recommended_party_level": 41,
+  "gym_trainers": [
+    {
+      "name": "Juggler Kayden",
+      "team": [
+        {
+          "species": "Drowzee/Raticate",
+          "level": 37,
+          "types": ["Psychic", "Normal"],
+          "moves": ["Headbutt", "Confusion", "Hypnosis"]
+        }
+      ]
+    },
+    {
+      "name": "Tamer Edgar",
+      "team": [
+        {
+          "species": "Sandshrew/Nidorina",
+          "level": 36,
+          "types": ["Ground", "Poison"],
+          "moves": ["Poison Sting", "Slash", "Bite"]
+        },
+        {
+          "species": "Rhyhorn/Nidorino",
+          "level": 37,
+          "types": ["Ground", "Poison"],
+          "moves": ["Horn Attack", "Fury Attack", "Dig"]
+        }
+      ]
+    }
+  ],
+  "leader_team": [
+    {
+      "species": "Venomoth/Grimer",
+      "level": 39,
+      "types": ["Bug", "Poison"],
+      "ability": "Sticky Hold",
+      "held_item": "Poison Barb",
+      "moves": [
+        "Signal Beam",
+        "Sludge Bomb",
+        "Fling",
+        "Disable"
+      ]
+    },
+    {
+      "species": "Magnemite/Koffing",
+      "level": 40,
+      "types": ["Electric", "Poison"],
+      "ability": "Levitate",
+      "held_item": "Poison Barb",
+      "moves": [
+        "Sludge Bomb",
+        "Self-Destruct",
+        "Sonic Boom",
+        "Supersonic"
+      ]
+    },
+    {
+      "species": "Beedrill/Scyther",
+      "level": 40,
+      "types": ["Bug", "Flying"],
+      "ability": "Technician",
+      "held_item": "Poison Barb",
+      "moves": [
+        "Agility",
+        "Pin Missile",
+        "Poison Jab",
+        "Toxic Spikes"
+      ]
+    },
+    {
+      "species": "Chansey/Muk",
+      "level": 42,
+      "types": ["Normal", "Poison"],
+      "ability": "Sticky Hold",
+      "is_ace": true,
+      "held_item": "Black Sludge",
+      "moves": [
+        "Toxic",
+        "Double Team",
+        "Take Down",
+        "Acid Armor"
+      ]
+    }
+  ],
+  "threat_analysis": "Koga's Classic Hard Mode lineup combines evasive status attrition with explosive physical and special threats. Venomoth/Grimer leads with STAB Sludge Bomb and Disable to lock down counters. Magnemite/Koffing threatens Levitate-protected electric coverage and a catastrophic Self-Destruct. Beedrill/Scyther boosts speed with Agility and fires Technician-boosted Pin Missile and Poison Jab. His Ace, Chansey/Muk, is a colossal 180+ HP tank holding Black Sludge that stacks Acid Armor physical defense and Double Team evasion while rapidly decaying your team with badly poisoned Toxic tick damage.",
+  "tactical_counter_plan": [
+    "Bulbasaur Team Strategy: Venusaur/Fearow quad-resists Bug and Grass while completely ignoring Toxic Spikes and Ground moves; STAB Drill Peck cleanly OHKOs Beedrill/Scyther and Venomoth/Grimer. Kadabra/Haunter outspeeds Chansey/Muk and dismantles it with STAB Psychic before Acid Armor stacks.",
+    "Charmander Team Strategy: Charizard/Kadabra incinerates Beedrill/Scyther and Venomoth/Grimer with STAB Flamethrower and cleanses Poison types with STAB Psychic. Primeape/Sandslash or Dugtrio/Arbok absorbs Electric moves and punishes with high-velocity Ground power.",
+    "Squirtle Team Strategy: Blastoise/Fearow easily outspeeds and crushes Bug/Poison foes with Drill Peck while Roost neutralizes chip. Dugtrio/Primeape eliminates Magnemite/Koffing with Sucker Punch and Cross Chop, while Kadabra/Haunter obliterates Chansey/Muk with super-effective Psychic.",
+    "Countering Toxic & Evasion: Equip Pecha Berries or Lum Berries to ignore turn-1 Toxic. Use moves that bypass evasion or defeat Chansey/Muk with Special Psychic moves before Double Team spirals."
+  ],
+  "rewards": [
+    "Soul Badge (Enables use of Surf in field, boosts Pokémon Defense)",
+    "TM06 (Toxic)"
+  ]
+}

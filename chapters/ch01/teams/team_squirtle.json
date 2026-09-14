@@ -1,0 +1,113 @@
+{
+  "starter": "Squirtle",
+  "name": "Team Squirtle: Bulky Balance & Early Fusion Defense",
+  "archetype": "High physical defense, early status powders, and Water/Fighting core for complete gym domination.",
+  "gym_duel_core": [1, 2],
+  "gym_duel_rationale": "Brock enforces a strict 2v2 duel. Enter the arena with Squirtle (4x super-effective Water Gun) and Mankey/Spearow (weight-scaled Low Kick to crush Onix). Bench electric and bug fusions to avoid Rock Tomb.",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Squirtle",
+      "types": ["Water"],
+      "status": "Active in Party (Starter Anchor)",
+      "current_level": 13,
+      "ability": "Torrent",
+      "held_item": "Oran Berry",
+      "role": "Primary Water Tank & Gym Duelist",
+      "current_reached_moveset": [
+        "Water Gun",
+        "Withdraw",
+        "Bubble",
+        "Tackle"
+      ],
+      "progression_notes": "Water Gun easily defeats Brock's Rock/Ground lineup. Withdraw boosts already formidable 65 Defense. Fuses with Tangela in Chapter 2 for unmatched Water/Grass bulk."
+    },
+    {
+      "slot": 2,
+      "species": "Mankey/Spearow",
+      "types": ["Fighting", "Flying"],
+      "status": "Active in Party (Route 22 Splice)",
+      "current_level": 13,
+      "ability": "Defiant",
+      "held_item": "Oran Berry",
+      "role": "High-Speed Physical Breaker & Gym Duelist",
+      "current_reached_moveset": [
+        "Low Kick",
+        "Karate Chop",
+        "Peck",
+        "Pursuit"
+      ],
+      "progression_notes": "Fused from Route 22 catches. Low Kick scales off Onix's 210 kg weight, dealing massive 4x damage."
+    },
+    {
+      "slot": 3,
+      "species": "Pichu",
+      "types": ["Electric"],
+      "status": "Active in Party (Viridian Forest Catch)",
+      "current_level": 13,
+      "ability": "Static",
+      "held_item": "Oran Berry",
+      "role": "Electric Status Disruptor & Special Setup",
+      "current_reached_moveset": [
+        "Thunder Shock",
+        "Charm",
+        "Sweet Kiss",
+        "Nasty Plot"
+      ],
+      "progression_notes": "Caught in Viridian Forest. Nasty Plot doubles Special Attack while Charm halves enemy physical attack. Evolves into Pikachu at Lv. 15 in Chapter 2, then fuses with Kadabra."
+    },
+    {
+      "slot": 4,
+      "species": "Butterfree/Beedrill",
+      "types": ["Bug", "Poison"],
+      "status": "Active in Party (Viridian Forest Splice)",
+      "current_level": 11,
+      "ability": "Compound Eyes",
+      "held_item": "Pecha Berry",
+      "role": "Fast Status Disruptor & Forest Sweeper",
+      "current_reached_moveset": [
+        "Confusion",
+        "Sleep Powder",
+        "Twineedle",
+        "Fury Attack"
+      ],
+      "progression_notes": "Compound Eyes Sleep Powder guarantees early captures and disables tough wild encounters."
+    }
+  ],
+  "flex_bench": [
+    {
+      "slot": "B1",
+      "species": "Nidoran♂",
+      "types": ["Poison"],
+      "current_level": 12,
+      "ability": "Poison Point",
+      "held_item": "Pecha Berry",
+      "role": "Poison Striker & Double Kick Coverage",
+      "why_use": "Route 22 catch. Learns Double Kick at Lv. 12, giving vital Fighting-type coverage against Onix and Geodude."
+    },
+    {
+      "slot": "B2",
+      "species": "Pidgey",
+      "types": ["Normal", "Flying"],
+      "current_level": 12,
+      "ability": "Keen Eye",
+      "held_item": "Sharp Beak",
+      "role": "Aerial Normal/Flying Pivot",
+      "why_use": "Route 1 catch with Keen Eye, Gust, and Quick Attack."
+    }
+  ],
+  "fusion_lifecycle": {
+    "active_fusions": [
+      "Mankey/Spearow (Early Fighting/Flying speed breaker and Brock duelist)",
+      "Butterfree/Beedrill (Bug/Poison status duo with 97.5% accurate Sleep Powder)"
+    ],
+    "unfuse_recommendations": [
+      "1. Retain Mankey/Spearow through Mt. Moon for high-speed Fighting coverage.",
+      "2. In Chapter 2, purchase Super Splicers at Cerulean Poké Mart ($300 at any Mart) to fuse Wartortle with Route 1 Tangela."
+    ],
+    "upcoming_fusions": [
+      "Wartortle/Tangela (Monstrous Water/Grass defensive wall with 103 Def in Chapter 2)",
+      "Kadabra/Pikachu (Fast Electric/Psychic special sweeper in Chapter 2)"
+    ]
+  }
+}

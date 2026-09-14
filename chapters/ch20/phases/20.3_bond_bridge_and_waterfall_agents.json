@@ -1,0 +1,86 @@
+{
+  "name": "Bond Bridge & The Waterfall Secret",
+  "summary": "Trek north from Kin Island onto Bond Bridge, a lengthy causeway traversing coastal wetlands toward Berry Forest. Pick fresh daily Bananas from palm trees on the bridge's eastern verge. Battle seasoned Pokémon Rangers patrolling the span, then comb the river banks to find TM89 U-Turn on the western shore, a Stardust on the eastern sands, and an Elixir near the northern tree line. Scale the roaring waterfall to encounter two covert federal agents guarding a fallen extraterrestrial Spaceship Part.",
+  "items": [
+    {
+      "name": "TM89 U-Turn",
+      "method": "On the western beach shoreline beneath the bridge",
+      "type": "Technical Machine"
+    },
+    {
+      "name": "Banana",
+      "method": "Harvested from palm trees on the eastern bridge path (respawns daily)",
+      "type": "Key Item"
+    },
+    {
+      "name": "Spaceship Part",
+      "method": "Recovered above the waterfall beside two covert agents",
+      "type": "Key Item"
+    },
+    {
+      "name": "Stardust",
+      "method": "Buried on the eastern beach opposite the bridge pylons",
+      "type": "Valuable"
+    },
+    {
+      "name": "Elixir",
+      "method": "Lying near the northern forest entrance gate",
+      "type": "Medicine"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Ranger Selena",
+      "title": "Pokémon Ranger",
+      "reward": "P2,016",
+      "pokemon": [
+        {
+          "species": "Starmie",
+          "level": 56,
+          "types": ["Water", "Psychic"]
+        },
+        {
+          "species": "Beedrill",
+          "level": 56,
+          "types": ["Bug", "Poison"]
+        }
+      ]
+    },
+    {
+      "name": "Ranger Steve",
+      "title": "Pokémon Ranger",
+      "reward": "P1,908",
+      "pokemon": [
+        {
+          "species": "Swalot",
+          "level": 54,
+          "types": ["Poison"]
+        },
+        {
+          "species": "Delcatty",
+          "level": 53,
+          "types": ["Normal"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Grass": [
+      { "species": "Butterfree", "levels": "50-55", "rate": "20%" },
+      { "species": "Gloom", "levels": "50-55", "rate": "5%" },
+      { "species": "Weepinbell", "levels": "50-55", "rate": "5%" },
+      { "species": "Slowbro", "levels": "55", "rate": "5%" },
+      { "species": "Bellossom", "levels": "50-55", "rate": "10%" },
+      { "species": "Aipom", "levels": "45-50", "rate": "15%" },
+      { "species": "Girafarig", "levels": "50", "rate": "20%" },
+      { "species": "Ambipom", "levels": "55", "rate": "5%" },
+      { "species": "Oricorio", "levels": "50-55", "rate": "15%" }
+    ],
+    "Surf": [
+      { "species": "Tentacool", "levels": "5-40", "rate": "55%" },
+      { "species": "Tentacruel", "levels": "35-40", "rate": "5%" },
+      { "species": "Qwilfish", "levels": "35-45", "rate": "20%" },
+      { "species": "Carvanha", "levels": "20-40", "rate": "20%" }
+    ]
+  }
+}

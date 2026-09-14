@@ -1,0 +1,18 @@
+{
+  "location": "Hidden Tomb (ID 109)",
+  "sections": {
+    "Cave": [
+      {
+        "dex_id": "311",
+        "name": "Duskull",
+        "type1": "Ghost",
+        "type2": "",
+        "levels": "12-22",
+        "catch_rate": "190",
+        "rates": [
+          "100%"
+        ]
+      }
+    ]
+  }
+}

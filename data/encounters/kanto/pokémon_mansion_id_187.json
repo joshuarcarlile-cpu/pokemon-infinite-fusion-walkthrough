@@ -1,0 +1,62 @@
+{
+  "location": "Pok\u00e9mon Mansion (ID 187)",
+  "sections": {
+    "Cave": [
+      {
+        "dex_id": "019",
+        "name": "Rattata",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "26-28",
+        "catch_rate": "255",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "020",
+        "name": "Raticate",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "32-36",
+        "catch_rate": "127",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "088",
+        "name": "Grimer",
+        "type1": "Poison",
+        "type2": "",
+        "levels": "28",
+        "catch_rate": "190",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "109",
+        "name": "Koffing",
+        "type1": "Poison",
+        "type2": "",
+        "levels": "28-30",
+        "catch_rate": "190",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "132",
+        "name": "Ditto",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "30",
+        "catch_rate": "35",
+        "rates": [
+          "50%"
+        ]
+      }
+    ]
+  }
+}

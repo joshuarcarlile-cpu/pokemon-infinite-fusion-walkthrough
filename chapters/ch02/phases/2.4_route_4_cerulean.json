@@ -1,0 +1,21 @@
+{
+  "name": "Route 4 & Cerulean City",
+  "summary": "Exiting Mt. Moon onto the terraced cliffs of Route 4 downhill toward Cerulean City. Catch wild Ekans and Spearow along the ledges, then stock supplies and Super Splicers in Cerulean City.",
+  "items": [
+    {
+      "name": "Great Ball",
+      "method": "On the downhill ledge path approaching Cerulean City",
+      "type": "Consumable"
+    }
+  ],
+  "trainers": [],
+  "encounters": {
+    "Grass": [
+      {"dex_id": "019", "name": "Rattata", "types": ["Normal"], "levels": "10-12", "rates": "35% All Times"},
+      {"dex_id": "021", "name": "Spearow", "types": ["Normal", "Flying"], "levels": "10-12", "rates": "35% Morning / Day / 40% Night"},
+      {"dex_id": "023", "name": "Ekans", "types": ["Poison"], "levels": "10-12", "rates": "20% All Times"},
+      {"dex_id": "056", "name": "Mankey", "types": ["Fighting"], "levels": "10-12", "rates": "10% Morning / Day"}
+    ]
+  },
+  "navigation_notes": "Hop down the one-way ledges on Route 4 into Cerulean City. Be sure to catch an Ekans here if planning early Poison fusions like Gyarados/Arbok before heading to Nugget Bridge."
+}

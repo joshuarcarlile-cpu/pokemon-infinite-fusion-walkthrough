@@ -1,0 +1,60 @@
+{
+  "name": "Routes 19 & 20 (East Ocean Waves)",
+  "summary": "Depart south from Fuchsia City into Route 19 using the Surfboard. Traverse the open ocean channels, battling aquatic Swimmers and Fishermen across Route 19 and eastern Route 20 as you approach the twin sea caves of Seafoam Islands.",
+  "items": [
+    {
+      "name": "TM55 Brine",
+      "method": "Pickup on the small sandy islet on Route 19 near Swimmer Alice",
+      "type": "TM"
+    },
+    {
+      "name": "Pearl",
+      "method": "Hidden underwater sparkle near the rocks southwest of Route 19 gate",
+      "type": "Treasure"
+    },
+    {
+      "name": "Deep Sea Scale",
+      "method": "Gift from Swimmer Douglas on Route 20 East after defeating him",
+      "type": "Hold Item"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Swimmer Richard",
+      "team": [
+        {"species": "Tentacool", "level": 42, "types": ["Water", "Poison"]},
+        {"species": "Shellder", "level": 42, "types": ["Water"]}
+      ]
+    },
+    {
+      "name": "Swimmer Anya",
+      "team": [
+        {"species": "Golduck", "level": 43, "types": ["Water"]},
+        {"species": "Seadra", "level": 43, "types": ["Water"]}
+      ]
+    },
+    {
+      "name": "Fisherman Wade",
+      "team": [
+        {"species": "Gyarados", "level": 44, "types": ["Water", "Flying"]},
+        {"species": "Qwilfish", "level": 44, "types": ["Water", "Poison"]}
+      ]
+    }
+  ],
+  "encounters": {
+    "Water (Surf)": [
+      {"dex_id": "072", "name": "Tentacool", "types": ["Water", "Poison"], "levels": "25-35", "rates": "50%"},
+      {"dex_id": "073", "name": "Tentacruel", "types": ["Water", "Poison"], "levels": "35-42", "rates": "15%"},
+      {"dex_id": "116", "name": "Horsea", "types": ["Water"], "levels": "25-35", "rates": "15%"},
+      {"dex_id": "117", "name": "Seadra", "types": ["Water"], "levels": "35-42", "rates": "10%"},
+      {"dex_id": "086", "name": "Seel", "types": ["Water"], "levels": "28-36", "rates": "10%"}
+    ],
+    "Fishing (Good / Super Rod)": [
+      {"dex_id": "129", "name": "Magikarp", "types": ["Water"], "levels": "20-30", "rates": "40%"},
+      {"dex_id": "098", "name": "Krabby", "types": ["Water"], "levels": "25-35", "rates": "30%"},
+      {"dex_id": "223", "name": "Remoraid", "types": ["Water"], "levels": "28-38", "rates": "15%"},
+      {"dex_id": "226", "name": "Mantine", "types": ["Water", "Flying"], "levels": "32-40", "rates": "10%"},
+      {"dex_id": "130", "name": "Gyarados", "types": ["Water", "Flying"], "levels": "35-44", "rates": "5%"}
+    ]
+  }
+}

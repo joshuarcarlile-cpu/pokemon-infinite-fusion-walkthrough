@@ -1,0 +1,56 @@
+{
+  "name": "Mahogany Gym and Pryce",
+  "summary": "Step inside the frigid hockey rink arena of Mahogany Gym. Receive a Fresh Water from the gym greeter at the door. The arena tests challengers with an ice-sliding hockey puzzle: slide along the slick floor and push a massive Pokéball across the rink into the goal net on the right, using skating hockey players to rebound the ball's trajectory! Defeat hockey defenders Martin, Wayne, Sidney, and Maurice to clear the ice and line up your winning shot. Once scored, approach Gym Leader Pryce for a decisive 5 vs 5 duel to earn the Glacier Badge, TM79 (Frost Breath), the Glalie Mask vanity hat, and 5 Wonder Trade tickets.",
+  "items": [
+    {
+      "name": "Fresh Water",
+      "method": "Gifted by the gym greeter near the entrance inside Mahogany Gym",
+      "type": "Medicine"
+    },
+    {
+      "name": "Glacier Badge",
+      "method": "Awarded by Gym Leader Pryce upon winning the 5 vs 5 Gym duel",
+      "type": "Badge"
+    },
+    {
+      "name": "TM79 (Frost Breath)",
+      "method": "Gifted by Gym Leader Pryce alongside the Glacier Badge",
+      "type": "TM"
+    },
+    {
+      "name": "Glalie Mask",
+      "method": "Rewarded by Gym Leader Pryce as a commemorative vanity hat upon victory",
+      "type": "Vanity"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Player Martin",
+      "team": [
+        {"species": "Psyduck/Froslass", "level": 51, "types": ["Water", "Ice"]},
+        {"species": "Dewgong/Froslass", "level": 55, "types": ["Water", "Ice"]}
+      ]
+    },
+    {
+      "name": "Player Wayne",
+      "team": [
+        {"species": "Quagsire/Froslass", "level": 56, "types": ["Water", "Ice"]},
+        {"species": "Raichu/Froslass", "level": 56, "types": ["Electric", "Ice"]}
+      ]
+    },
+    {
+      "name": "Player Sidney",
+      "team": [
+        {"species": "Carvanha/Froslass", "level": 58, "types": ["Water", "Ice"]},
+        {"species": "Chimecho/Froslass", "level": 58, "types": ["Psychic", "Ice"]}
+      ]
+    },
+    {
+      "name": "Player Maurice",
+      "team": [
+        {"species": "Seviper/Froslass", "level": 60, "types": ["Poison", "Ice"]}
+      ]
+    }
+  ],
+  "encounters": {}
+}

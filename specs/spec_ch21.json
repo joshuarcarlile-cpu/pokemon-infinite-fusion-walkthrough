@@ -1,0 +1,44 @@
+{
+  "chapter_id": "ch21",
+  "title": "Act 3 - Chapter 4: Water Labyrinth, Chrono Island & Rocket Warehouse",
+  "act": 3,
+  "hard_mode_level_cap": 80,
+  "gym_duel_limit": 6,
+  "routes_covered": [
+    "Water Labyrinth",
+    "Resort Gorgeous",
+    "Chrono Island",
+    "Rocket Warehouse"
+  ],
+  "expected_classic_spawns": [
+    "Absol",
+    "Bruxish",
+    "Chinchou",
+    "Corsola",
+    "Dunsparce",
+    "Furret",
+    "Hoppip",
+    "Horsea",
+    "Kecleon",
+    "Klinklang",
+    "Lanturn",
+    "Luvdisc",
+    "Magikarp",
+    "Mantine",
+    "Mareanie",
+    "Oricorio",
+    "Psyduck",
+    "Shellder",
+    "Skiploom",
+    "Slowpoke",
+    "Tentacool",
+    "Tentacruel",
+    "Toxapex"
+  ],
+  "prohibited_spawns": [
+    "Rotom",
+    "Eevee",
+    "Xatu",
+    "Sandygast"
+  ]
+}

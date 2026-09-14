@@ -1,0 +1,62 @@
+{
+  "location": "Route 46 (ID 312)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "022",
+        "name": "Fearow",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "44-49",
+        "catch_rate": "90",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "040",
+        "name": "Wigglytuff",
+        "type1": "Normal",
+        "type2": "Fairy",
+        "levels": "50",
+        "catch_rate": "50",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "075",
+        "name": "Graveler",
+        "type1": "Rock",
+        "type2": "Ground",
+        "levels": "50",
+        "catch_rate": "120",
+        "rates": [
+          "50%"
+        ]
+      },
+      {
+        "dex_id": "207",
+        "name": "Gligar",
+        "type1": "Ground",
+        "type2": "Flying",
+        "levels": "45-50",
+        "catch_rate": "60",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "232",
+        "name": "Donphan",
+        "type1": "Ground",
+        "type2": "",
+        "levels": "50",
+        "catch_rate": "60",
+        "rates": [
+          "15%"
+        ]
+      }
+    ]
+  }
+}

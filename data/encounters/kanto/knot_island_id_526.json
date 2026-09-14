@@ -1,0 +1,178 @@
+{
+  "location": "Knot Island (ID 526)",
+  "sections": {
+    "Surf": [
+      {
+        "dex_id": "072",
+        "name": "Tentacool",
+        "type1": "Water",
+        "type2": "Poison",
+        "levels": "5-40",
+        "catch_rate": "190",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "dex_id": "073",
+        "name": "Tentacruel",
+        "type1": "Water",
+        "type2": "Poison",
+        "levels": "35-40",
+        "catch_rate": "60",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "222",
+        "name": "Corsola",
+        "type1": "Water",
+        "type2": "Rock",
+        "levels": "5-40",
+        "catch_rate": "60",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "387",
+        "name": "Wailmer",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20-35",
+        "catch_rate": "125",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "501",
+        "name": "Luvdisc",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-30",
+        "catch_rate": "225",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "10",
+        "catch_rate": "255",
+        "rates": [
+          "85%"
+        ]
+      },
+      {
+        "dex_id": "501",
+        "name": "Luvdisc",
+        "type1": "Water",
+        "type2": "",
+        "levels": "10",
+        "catch_rate": "225",
+        "rates": [
+          "15%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "dex_id": "090",
+        "name": "Shellder",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "190",
+        "rates": [
+          "3%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "255",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "dex_id": "170",
+        "name": "Chinchou",
+        "type1": "Water",
+        "type2": "Electric",
+        "levels": "20",
+        "catch_rate": "190",
+        "rates": [
+          "7%"
+        ]
+      },
+      {
+        "dex_id": "501",
+        "name": "Luvdisc",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "225",
+        "rates": [
+          "30%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "dex_id": "090",
+        "name": "Shellder",
+        "type1": "Water",
+        "type2": "",
+        "levels": "40",
+        "catch_rate": "190",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "170",
+        "name": "Chinchou",
+        "type1": "Water",
+        "type2": "Electric",
+        "levels": "40",
+        "catch_rate": "190",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "dex_id": "171",
+        "name": "Lanturn",
+        "type1": "Water",
+        "type2": "Electric",
+        "levels": "40",
+        "catch_rate": "75",
+        "rates": [
+          "3%"
+        ]
+      },
+      {
+        "dex_id": "501",
+        "name": "Luvdisc",
+        "type1": "Water",
+        "type2": "",
+        "levels": "40",
+        "catch_rate": "225",
+        "rates": [
+          "7%"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Pokémon League Reception Gate & Badge Inspection",
+  "summary": "Enter the majestic Reception Gate building connecting Route 22 to Route 23. League security officers verify all 8 Kanto Gym Badges in strict order, unlocking the pathway leading toward Victory Road.",
+  "items": [
+    {
+      "name": "Guard Spec",
+      "method": "Gift from the League gatekeeper after confirming all 8 Badges",
+      "type": "Battle Item"
+    },
+    {
+      "name": "Max Ether",
+      "method": "Hidden behind the ornate pillar near the Earth Badge checkpoint",
+      "type": "Medicine"
+    }
+  ],
+  "trainers": [],
+  "encounters": {
+    "Gate Waterway (Surf & Rod)": [
+      {"dex_id": "060", "name": "Poliwag", "types": ["Water"], "levels": "15-25", "rates": "40%"},
+      {"dex_id": "061", "name": "Poliwhirl", "types": ["Water"], "levels": "20-30", "rates": "30%"},
+      {"dex_id": "129", "name": "Magikarp", "types": ["Water"], "levels": "15-25", "rates": "30%"}
+    ]
+  }
+}

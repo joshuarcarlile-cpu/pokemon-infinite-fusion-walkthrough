@@ -1,0 +1,58 @@
+{
+  "name": "Route 31 & Route 30 Mr. Pokémon Homestead",
+  "summary": "Travel east from Violet City through Route 31 and head south along the rural orchards of Route 30. Visit the eccentric Mr. Pokémon in his cottage, exploring his shed to retrieve an Air Balloon. Gather hidden vitamin items across the lake and battle countryside trainers on your way south toward Cherrygrove City.",
+  "items": [
+    {
+      "name": "Air Balloon",
+      "method": "Found sitting inside Mr. Pokémon's wooden garden shed on Route 30",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Full Heal",
+      "method": "Found lying on the grassy verge south of Mr. Pokémon's residence",
+      "type": "Medicine"
+    },
+    {
+      "name": "Iron",
+      "method": "Located on the secluded southern embankment across the small lake",
+      "type": "Vitamin"
+    },
+    {
+      "name": "Grepa Berry",
+      "method": "Daily random harvest from the Route 30 berry grove",
+      "type": "Berry"
+    },
+    {
+      "name": "Tamato Berry",
+      "method": "Daily random harvest from the Route 30 berry grove",
+      "type": "Berry"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Youngster Joey",
+      "team": [
+        {"species": "Rattata/Raticate", "level": 50, "types": ["Normal"]},
+        {"species": "Bibarel", "level": 52, "types": ["Normal", "Water"]}
+      ]
+    },
+    {
+      "name": "Bug Catcher Don",
+      "team": [
+        {"species": "Caterpie/Butterfree", "level": 49, "types": ["Bug", "Flying"]},
+        {"species": "Ariados", "level": 51, "types": ["Bug", "Poison"]}
+      ]
+    }
+  ],
+  "encounters": {
+    "Route 30 & 31 Grass": [
+      {"dex_id": "182", "name": "Bellossom", "types": ["Grass"], "levels": "42-44", "rates": "25%"},
+      {"dex_id": "070", "name": "Weepinbell", "types": ["Grass", "Poison"], "levels": "42", "rates": "20%"},
+      {"dex_id": "017", "name": "Pidgeotto", "types": ["Normal", "Flying"], "levels": "42", "rates": "20%"},
+      {"dex_id": "166", "name": "Ledian", "types": ["Bug", "Flying"], "levels": "40", "rates": "15%"},
+      {"dex_id": "164", "name": "Noctowl", "types": ["Normal", "Flying"], "levels": "44", "rates": "20% (Night)"},
+      {"dex_id": "168", "name": "Ariados", "types": ["Bug", "Poison"], "levels": "42", "rates": "15% (Night)"},
+      {"dex_id": "204", "name": "Pineco", "types": ["Bug"], "levels": "40", "rates": "10%"}
+    ]
+  }
+}

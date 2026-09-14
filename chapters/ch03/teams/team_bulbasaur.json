@@ -1,0 +1,135 @@
+{
+  "starter": "Bulbasaur",
+  "name": "Team Bulbasaur: Grass Momentum & Ground Attrition",
+  "archetype": "Electric-immune Ground wallbreakers, Grass status control, and high-velocity physical breakers.",
+  "gym_duel_core": [1, 2, 3],
+  "gym_duel_rationale": "Lt. Surge enforces a strict 3v3 duel. Enter the arena with Ivysaur/Dugtrio (100% Electric immunity, 100 Speed, STAB Magnitude to shatter Surge's ace Raichu/Electabuzz, and STAB Razor Leaf to wash away Voltorb/Krabby), Sandslash/Primeape (103 Base Attack, 100% Electric immunity, and STAB Magnitude + Cross Chop), and Kadabra/Geodude (100% Electric immunity with 90 SpA Psybeam and Reflect defense).",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Ivysaur/Dugtrio",
+      "types": ["Grass", "Ground"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 28,
+      "ability": "Overgrow",
+      "held_item": "Miracle Seed",
+      "role": "Electric-Immune Starter Sweeper & Gym Duelist",
+      "current_reached_moveset": [
+        "Magnitude",
+        "Razor Leaf",
+        "Sleep Powder",
+        "Sucker Punch"
+      ],
+      "progression_notes": "Permanent starter anchor spliced with Diglett/Dugtrio from Diglett's Cave. 100 Base Speed with dual Grass/Ground STAB granting 100% Electric immunity."
+    },
+    {
+      "slot": 2,
+      "species": "Sandslash/Primeape",
+      "types": ["Ground", "Fighting"],
+      "status": "Active in Party (Route 3 & Diglett's Cave Splice)",
+      "current_level": 28,
+      "ability": "Sand Veil",
+      "held_item": "Soft Sand",
+      "role": "Electric-Immune Physical Breaker & Gym Duelist",
+      "current_reached_moveset": [
+        "Magnitude",
+        "Cross Chop",
+        "Crush Claw",
+        "Seismic Toss"
+      ],
+      "progression_notes": "Splicing Sandslash with Primeape yields a fearsome 103 Base Attack physical monster with 100% Electric immunity. Magnitude OHKOs Surge's ace."
+    },
+    {
+      "slot": 3,
+      "species": "Kadabra/Geodude",
+      "types": ["Psychic", "Ground"],
+      "status": "Active in Party (Route 24 & Mt. Moon Splice)",
+      "current_level": 28,
+      "ability": "Synchronize",
+      "held_item": "Twisted Spoon",
+      "role": "Electric-Immune Special Sweeper & Gym Duelist",
+      "current_reached_moveset": [
+        "Psybeam",
+        "Magnitude",
+        "Reflect",
+        "Rock Polish"
+      ],
+      "progression_notes": "Combines Kadabra's 90 Special Attack with Geodude's Ground typing, gaining 100% Electric immunity while screening physical damage with Reflect."
+    },
+    {
+      "slot": 4,
+      "species": "Poliwhirl/Bellsprout",
+      "types": ["Water", "Poison"],
+      "status": "Active in Party (Old Rod & Route 24 Splice)",
+      "current_level": 27,
+      "ability": "Water Absorb",
+      "held_item": "Mystic Water",
+      "role": "Water Absorb Tank & Status Inflictor",
+      "current_reached_moveset": [
+        "Bubble Beam",
+        "Vine Whip",
+        "Sleep Powder",
+        "Body Slam"
+      ],
+      "progression_notes": "Caught with the Old Rod and spliced with Route 24 Bellsprout. Water Absorb completely nullifies incoming Water attacks."
+    },
+    {
+      "slot": 5,
+      "species": "Gyarados/Arbok",
+      "types": ["Water", "Poison"],
+      "status": "Active in Party (Route 4 Purchase & Retained)",
+      "current_level": 27,
+      "ability": "Intimidate",
+      "held_item": "Mystic Water",
+      "role": "Physical Wallbreaker & Intimidate Pivot",
+      "current_reached_moveset": [
+        "Bite",
+        "Crunch",
+        "Ice Fang",
+        "Thrash"
+      ],
+      "progression_notes": "Retained from Chapter 2. Massive 494 BST with 105 Base Attack. Intimidate neutralizes enemy physical sweepers on open routes, and Crunch/Bite hit Psychic and Ghost threats hard."
+    }
+  ],
+  "flex_bench": [
+    {
+      "slot": "B1",
+      "species": "Butterfree",
+      "types": ["Bug", "Flying"],
+      "current_level": 26,
+      "ability": "Compound Eyes",
+      "held_item": "Silver Powder",
+      "role": "Reliable 97.5% Accuracy Sleep Catcher",
+      "why_use": "Essential utility catcher with Compound Eyes Sleep Powder for securing new route assets."
+    },
+    {
+      "slot": "B2",
+      "species": "Meowth/Pidgey",
+      "types": ["Normal", "Flying"],
+      "current_level": 26,
+      "ability": "Pickup",
+      "held_item": "Silk Scarf",
+      "role": "Pickup Utility & Pay Day Farmer",
+      "why_use": "Provides free passive item pickups after battles and generates bonus prize money."
+    }
+  ],
+  "fusion_lifecycle": {
+    "active_fusions": [
+      "Ivysaur/Dugtrio (Grass/Ground starter anchor granting 100% Electric immunity)",
+      "Sandslash/Primeape (Ground/Fighting physical juggernaut with 103 Attack)",
+      "Kadabra/Geodude (Psychic/Ground special sweeper with Reflect)",
+      "Poliwhirl/Bellsprout (Water/Poison pivot with Water Absorb)",
+      "Gyarados/Arbok (494 BST physical wallbreaker with Intimidate)"
+    ],
+    "unfuse_recommendations": [
+      "1. Visit the Vermilion City Poké Mart and pay $300 to unfuse Ivysaur/Pidgeotto from Chapter 2, freeing Ivysaur.",
+      "2. Head directly to Diglett's Cave on Route 11, catch a high-speed Diglett/Dugtrio, and splice with Ivysaur to create Ivysaur/Dugtrio for complete Electric immunity against Surge.",
+      "3. Unfuse Geodude/Mankey from Ch 2 ($300); evolve Mankey to Primeape and splice with Sandshrew to form Sandslash/Primeape."
+    ],
+    "upcoming_fusions": [
+      "Venusaur/Fearow (Grass/Flying quad-effective aerial sweeper against Erika's Tangela/Primeape)",
+      "Kadabra/Weezing (Levitate Psychic/Poison special powerhouse in Chapter 4)",
+      "Poliwrath/Dugtrio (Water/Ground physical tank after Celadon Water Stone)"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Saffron Magnet Train & Goldenrod City Arrival",
+  "summary": "With the Kanto League conquered, purchase a $1,000 ticket at Saffron City's central station to board the ultra-high-speed Magnet Train across Mt. Silver into Johto. Step onto the platform of Goldenrod City, the dazzling commercial heart of the region.",
+  "items": [
+    {
+      "name": "Carbos",
+      "method": "Located at the end of the secluded alleyway south of Bill's house",
+      "type": "Vitamin"
+    },
+    {
+      "name": "Fresh Water",
+      "method": "Given by the Gym Greeter standing near the entrance of Goldenrod Gym",
+      "type": "Medicine"
+    }
+  ],
+  "trainers": [],
+  "encounters": {}
+}

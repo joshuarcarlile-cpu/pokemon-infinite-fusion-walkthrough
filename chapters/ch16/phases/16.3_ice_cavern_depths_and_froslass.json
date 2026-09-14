@@ -1,0 +1,25 @@
+{
+  "name": "Ice Cavern Depths and Froslass",
+  "summary": "Enter the dark subterranean grotto of the Ice Cavern carved into the northeastern Ice Mountains. Use the Lantern (Flash) to illuminate the frozen hallways. Slide across slick ice sheets and navigate along frozen subterranean falls. Encounter wild cave Ice-types including wild Swinub, Piloswine, Snorunt, and Glalie. In the deepest chamber of the cave, discover a powerful static Froslass hovering above the frozen floor, offering a prime capture opportunity before descending the eastern slopes toward Blackthorn City.",
+  "items": [
+    {
+      "name": "Max Repel",
+      "method": "Found lying in a snowy rock alcove near the upper cavern entrance",
+      "type": "Field Item"
+    },
+    {
+      "name": "X Sp. Atk",
+      "method": "Hidden inside the frosty cavern wall adjacent to the frozen waterfall",
+      "type": "Battle Item"
+    }
+  ],
+  "trainers": [],
+  "encounters": {
+    "Ice Cavern Subterranean Grotto": [
+      {"dex_id": "220", "name": "Swinub", "types": ["Ice", "Ground"], "levels": "42-46", "rates": "30%"},
+      {"dex_id": "221", "name": "Piloswine", "types": ["Ice", "Ground"], "levels": "48-52", "rates": "25%"},
+      {"dex_id": "361", "name": "Snorunt", "types": ["Ice"], "levels": "44-48", "rates": "25%"},
+      {"dex_id": "362", "name": "Glalie", "types": ["Ice"], "levels": "52-55", "rates": "20%"}
+    ]
+  }
+}

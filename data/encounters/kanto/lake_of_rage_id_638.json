@@ -1,0 +1,114 @@
+{
+  "location": "Lake of Rage (ID 638)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "017",
+        "name": "Pidgeotto",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "42-54",
+        "catch_rate": "120",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "dex_id": "180",
+        "name": "Flaaffy",
+        "type1": "Electric",
+        "type2": "",
+        "levels": "45-50",
+        "catch_rate": "120",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "dex_id": "204",
+        "name": "Pineco",
+        "type1": "Bug",
+        "type2": "",
+        "levels": "55",
+        "catch_rate": "190",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "294",
+        "name": "Bidoof",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "40",
+        "catch_rate": "255",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-45",
+        "catch_rate": "255",
+        "rates": [
+          "100%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-45",
+        "catch_rate": "255",
+        "rates": [
+          "100%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-60",
+        "catch_rate": "255",
+        "rates": [
+          "100%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20-80",
+        "catch_rate": "255",
+        "rates": [
+          "70%"
+        ]
+      },
+      {
+        "dex_id": "130",
+        "name": "Gyarados",
+        "type1": "Water",
+        "type2": "Flying",
+        "levels": "45-75",
+        "catch_rate": "45",
+        "rates": [
+          "30%"
+        ]
+      }
+    ]
+  }
+}

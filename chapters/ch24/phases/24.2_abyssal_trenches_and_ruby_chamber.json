@@ -1,0 +1,54 @@
+{
+  "name": "Ruby Chamber & Sapphire Trench",
+  "summary": "Awaken the primordial land and sea titans across the Sevii archipelago. First, purchase heat-protection cream from the Cinnabar Island Mart and scale Mt. Ember on Knot Island to explore the subterranean Ruby Chamber. Follow the magma tunnels (Right to Left to Right) to locate and battle Groudon (Lv. 60). Next, surf south of Brine Road to the deep ocean trench, utilizing Scuba Gear to Dive into the depths and illuminate the submerged Sapphire Cave with Flash. Navigate the oceanic chasms to find Kyogre (Lv. 60). Subdue and capture both titans to fulfill the ancient prerequisite for the Sky Pillar.",
+  "items": [
+    {
+      "name": "Red Orb",
+      "method": "Found embedded in the magma wall directly behind Groudon in the Ruby Chamber",
+      "type": "Hold Item / Key Item"
+    },
+    {
+      "name": "Blue Orb",
+      "method": "Found resting on the ancient coral dais behind Kyogre in the Sapphire Cave",
+      "type": "Hold Item / Key Item"
+    },
+    {
+      "name": "Fire Gem",
+      "method": "Found in an elevated volcanic alcove within the Ruby Chamber",
+      "type": "Hold Item"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Magma Grunt Tabitha",
+      "title": "Team Magma",
+      "reward": "P2,500",
+      "pokemon": [
+        {
+          "species": "Camerupt/Weezing",
+          "level": 70,
+          "types": ["Fire", "Poison"]
+        },
+        {
+          "species": "Torkoal/Golem",
+          "level": 70,
+          "types": ["Fire", "Rock"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Special": [
+      {
+        "species": "Groudon",
+        "levels": "60",
+        "rate": "Ruby Chamber Depths Static Event"
+      },
+      {
+        "species": "Kyogre",
+        "levels": "60",
+        "rate": "Sapphire Cave Abyssal Static Event"
+      }
+    ]
+  }
+}

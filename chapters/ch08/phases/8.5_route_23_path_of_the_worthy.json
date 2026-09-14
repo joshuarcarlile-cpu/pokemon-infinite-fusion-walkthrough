@@ -1,0 +1,56 @@
+{
+  "name": "Route 23 (The Path of the Worthy)",
+  "summary": "Follow the monumental canyon road of Route 23 flanked by reflective waterways and badge statues. Capture high-level wild Pokémon including Tyrogue, Snorlax, Munchlax, and Poké Radar Riolu as you approach the cavern entrance of Victory Road.",
+  "items": [
+    {
+      "name": "Ultra Ball",
+      "method": "Hidden in the grassy patch west of the 5th badge pillar",
+      "type": "Poké Ball"
+    },
+    {
+      "name": "Full Restore",
+      "method": "Pickup on the rocky ledge west of the Victory Road entrance",
+      "type": "Medicine"
+    },
+    {
+      "name": "Max Revive",
+      "method": "Hidden near the waterfall channel at the base of the final cliff",
+      "type": "Medicine"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Cooltrainer Carson",
+      "team": [
+        {"species": "Hitmonchan", "level": 49, "types": ["Fighting"]},
+        {"species": "Hitmonlee", "level": 49, "types": ["Fighting"]}
+      ]
+    },
+    {
+      "name": "Cooltrainer Brooke",
+      "team": [
+        {"species": "Pidgeot", "level": 50, "types": ["Normal", "Flying"]},
+        {"species": "Magneton", "level": 50, "types": ["Steel", "Electric"]}
+      ]
+    }
+  ],
+  "encounters": {
+    "Wild Grass": [
+      {"dex_id": "075", "name": "Graveler", "types": ["Rock", "Ground"], "levels": "20-35", "rates": "20%"},
+      {"dex_id": "082", "name": "Magneton", "types": ["Steel", "Electric"], "levels": "20-40", "rates": "10%"},
+      {"dex_id": "057", "name": "Primeape", "types": ["Fighting"], "levels": "30", "rates": "10%"},
+      {"dex_id": "236", "name": "Tyrogue", "types": ["Fighting"], "levels": "25", "rates": "10%"},
+      {"dex_id": "143", "name": "Snorlax", "types": ["Normal"], "levels": "30", "rates": "5%"},
+      {"dex_id": "260", "name": "Munchlax", "types": ["Normal"], "levels": "30", "rates": "5%"}
+    ],
+    "Poké Radar": [
+      {"dex_id": "384", "name": "Riolu", "types": ["Fighting"], "levels": "25", "rates": "50% (Long Rustle)"}
+    ],
+    "Water (Surf & Rod)": [
+      {"dex_id": "086", "name": "Seel", "types": ["Water"], "levels": "20-35", "rates": "35%"},
+      {"dex_id": "223", "name": "Remoraid", "types": ["Water"], "levels": "20-40", "rates": "25%"},
+      {"dex_id": "224", "name": "Octillery", "types": ["Water"], "levels": "30-35", "rates": "5%"},
+      {"dex_id": "073", "name": "Tentacruel", "types": ["Water", "Poison"], "levels": "30-35", "rates": "5%"}
+    ]
+  }
+}

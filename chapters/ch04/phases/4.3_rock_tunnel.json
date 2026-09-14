@@ -1,0 +1,102 @@
+{
+  "name": "Rock Tunnel (1F & B1F)",
+  "summary": "Traversing the pitch-black subterranean chambers of Rock Tunnel. With the Lantern active, the cavern is fully illuminated. Battle Hikers and Pokemaniacs across upper and lower floors while catching essential Rock, Steel, and Ground assets. Climb the southwest ladder on B1F to access an outdoor Canyon with a cave containing a free gift Pokémon.",
+  "items": [
+    {
+      "name": "TM47 Low Sweep",
+      "method": "On the raised plateau on 1F near Pokemaniac Ashton",
+      "type": "TM"
+    },
+    {
+      "name": "TM80 Rock Slide",
+      "method": "In a dead-end alcove on B1F past Hiker Oliver",
+      "type": "TM"
+    },
+    {
+      "name": "Escape Rope",
+      "method": "Northwestern corner of B1F",
+      "type": "Consumable"
+    },
+    {
+      "name": "Spell Tag",
+      "method": "On the ground in the Canyon near the cave (accessed via B1F southwest ladder)",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Gift: Honedge",
+      "method": "From the old man in the Canyon cave (accessed via B1F southwest ladder)",
+      "type": "Gift Pokémon"
+    },
+    {
+      "name": "Smooth Rock",
+      "method": "Hidden in a boulder on 1F near the exit ladder",
+      "type": "Hold Item"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Pokemaniac Ashton",
+      "team": [
+        {
+          "species": "Cubone",
+          "level": 23,
+          "types": ["Ground"]
+        },
+        {
+          "species": "Slowpoke",
+          "level": 23,
+          "types": ["Water", "Psychic"]
+        }
+      ]
+    },
+    {
+      "name": "Hiker Lenny",
+      "team": [
+        {
+          "species": "Geodude",
+          "level": 21,
+          "types": ["Rock", "Ground"]
+        },
+        {
+          "species": "Machop",
+          "level": 21,
+          "types": ["Fighting"]
+        },
+        {
+          "species": "Geodude",
+          "level": 21,
+          "types": ["Rock", "Ground"]
+        }
+      ]
+    },
+    {
+      "name": "Hiker Oliver",
+      "team": [
+        {
+          "species": "Onix",
+          "level": 25,
+          "types": ["Rock", "Ground"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Cave": [
+      {"dex_id": "041", "name": "Zubat", "types": ["Poison", "Flying"], "levels": "15-18", "rates": "25% All"},
+      {"dex_id": "074", "name": "Geodude", "types": ["Rock", "Ground"], "levels": "15-18", "rates": "20% All"},
+      {"dex_id": "066", "name": "Machop", "types": ["Fighting"], "levels": "16-18", "rates": "15% All"},
+      {"dex_id": "095", "name": "Onix", "types": ["Rock", "Ground"], "levels": "15-18", "rates": "10% All"},
+      {"dex_id": "104", "name": "Cubone", "types": ["Ground"], "levels": "16-18", "rates": "10% All"},
+      {"dex_id": "304", "name": "Aron", "types": ["Rock", "Steel"], "levels": "15-18", "rates": "10% All"},
+      {"dex_id": "302", "name": "Sableye", "types": ["Dark", "Ghost"], "levels": "16-18", "rates": "10% Night"}
+    ],
+    "Rock Smash": [
+      {"dex_id": "074", "name": "Geodude", "types": ["Rock", "Ground"], "levels": "5-30", "rates": "85% (Pickaxe)"},
+      {"dex_id": "213", "name": "Shuckle", "types": ["Bug", "Rock"], "levels": "20-30", "rates": "10% (Pickaxe)"},
+      {"dex_id": "075", "name": "Graveler", "types": ["Rock", "Ground"], "levels": "25-40", "rates": "5% (Pickaxe)"}
+    ],
+    "Gift Pokémon": [
+      {"dex_id": "327", "name": "Honedge", "types": ["Steel", "Ghost"], "levels": "10", "rates": "Canyon Cave (Free Gift from Old Man via B1F SW ladder)"}
+    ]
+  }
+}

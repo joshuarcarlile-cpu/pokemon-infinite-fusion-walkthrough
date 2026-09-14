@@ -1,0 +1,33 @@
+{
+  "name": "Saffron Gym (Marsh Badge Duel)",
+  "summary": "With Silph Co. saved, the Rocket grunt guarding Saffron Gym flees. Enter the psychic sanctum and navigate its warp-tile maze. When challenging Sabrina, select your 4 designated Pokémon from your active party when prompted to begin the 4v4 Marsh Badge battle.",
+  "items": [
+    {
+      "name": "Marsh Badge",
+      "method": "Awarded by Gym Leader Sabrina upon defeat (ensures Pokémon obedience up to Lv. 70)",
+      "type": "Key Item"
+    },
+    {
+      "name": "TM03 Psyshock",
+      "method": "Reward from Gym Leader Sabrina after winning the Marsh Badge duel",
+      "type": "TM"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Psychic Cameron",
+      "team": [
+        {"species": "Kadabra", "level": 40, "types": ["Psychic"]},
+        {"species": "Slowpoke", "level": 40, "types": ["Water", "Psychic"]}
+      ]
+    },
+    {
+      "name": "Channeler Stacy",
+      "team": [
+        {"species": "Gastly", "level": 39, "types": ["Ghost", "Poison"]},
+        {"species": "Haunter", "level": 40, "types": ["Ghost", "Poison"]}
+      ]
+    }
+  ],
+  "encounters": {}
+}

@@ -1,0 +1,407 @@
+{
+  "chapter_id": "ch23",
+  "title": "Act 4 - Chapter 1: The Kanto & Johto Pantheon (Mewtwo, Birds & Beasts)",
+  "act": 4,
+  "hard_mode_level_cap": 85,
+  "gym_duel_limit": 6,
+  "routes_covered": [
+    "Cerulean Cave"
+  ],
+  "vanilla_divergence_alerts": [
+    "HM Slaves: 100% eliminated by 9 reusable Key Item tools. Do NOT instruct players to teach field moves to party members.",
+    "Friendship: Eliminated. All friendship evolutions use static level thresholds (e.g. Baby Pokémon evolve at Lv. 15).",
+    "Trade Evolutions: Evolve naturally at Level 40 OR via Linking Cord (not Level 37)."
+  ],
+  "critical_missables": [],
+  "hotel_milestone_target": {},
+  "active_and_ongoing_quests": [],
+  "boss_ground_truth": {},
+  "encounters_by_location": {
+    "Cerulean Cave (ID 322)": {
+      "Cave": [
+        {
+          "name": "Arbok",
+          "dex_id": "024",
+          "types": [
+            "Poison"
+          ],
+          "levels": "52"
+        },
+        {
+          "name": "Raichu",
+          "dex_id": "026",
+          "types": [
+            "Electric"
+          ],
+          "levels": "53"
+        },
+        {
+          "name": "Sandslash",
+          "dex_id": "028",
+          "types": [
+            "Ground"
+          ],
+          "levels": "52"
+        },
+        {
+          "name": "Golbat",
+          "dex_id": "042",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "56"
+        },
+        {
+          "name": "Gloom",
+          "dex_id": "044",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "55"
+        },
+        {
+          "name": "Parasect",
+          "dex_id": "047",
+          "types": [
+            "Bug",
+            "Grass"
+          ],
+          "levels": "52"
+        },
+        {
+          "name": "Venomoth",
+          "dex_id": "049",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "59"
+        },
+        {
+          "name": "Kadabra",
+          "dex_id": "064",
+          "types": [
+            "Psychic"
+          ],
+          "levels": "59"
+        },
+        {
+          "name": "Alakazam",
+          "dex_id": "065",
+          "types": [
+            "Psychic"
+          ],
+          "levels": "50"
+        },
+        {
+          "name": "Weepinbell",
+          "dex_id": "070",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "55"
+        },
+        {
+          "name": "Graveler",
+          "dex_id": "075",
+          "types": [
+            "Rock",
+            "Ground"
+          ],
+          "levels": "55"
+        },
+        {
+          "name": "Rapidash",
+          "dex_id": "078",
+          "types": [
+            "Fire"
+          ],
+          "levels": "59"
+        },
+        {
+          "name": "Magneton",
+          "dex_id": "082",
+          "types": [
+            "Steel",
+            "Electric"
+          ],
+          "levels": "56"
+        },
+        {
+          "name": "Dodrio",
+          "dex_id": "085",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "59"
+        },
+        {
+          "name": "Hypno",
+          "dex_id": "097",
+          "types": [
+            "Psychic"
+          ],
+          "levels": "56"
+        },
+        {
+          "name": "Ditto",
+          "dex_id": "132",
+          "types": [
+            "Normal"
+          ],
+          "levels": "53-55"
+        }
+      ]
+    },
+    "Cerulean Cave (ID 323)": {
+      "Cave": [
+        {
+          "name": "Wigglytuff",
+          "dex_id": "040",
+          "types": [
+            "Normal",
+            "Fairy"
+          ],
+          "levels": "54"
+        },
+        {
+          "name": "Golbat",
+          "dex_id": "042",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "58-59"
+        },
+        {
+          "name": "Parasect",
+          "dex_id": "047",
+          "types": [
+            "Bug",
+            "Grass"
+          ],
+          "levels": "51-52"
+        },
+        {
+          "name": "Venomoth",
+          "dex_id": "049",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "51"
+        },
+        {
+          "name": "Persian",
+          "dex_id": "053",
+          "types": [
+            "Normal"
+          ],
+          "levels": "58-59"
+        },
+        {
+          "name": "Kadabra",
+          "dex_id": "064",
+          "types": [
+            "Psychic"
+          ],
+          "levels": "51"
+        },
+        {
+          "name": "Alakazam",
+          "dex_id": "065",
+          "types": [
+            "Psychic"
+          ],
+          "levels": "55"
+        },
+        {
+          "name": "Machoke",
+          "dex_id": "067",
+          "types": [
+            "Fighting"
+          ],
+          "levels": "59"
+        },
+        {
+          "name": "Dodrio",
+          "dex_id": "085",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "51"
+        },
+        {
+          "name": "Electrode",
+          "dex_id": "101",
+          "types": [
+            "Electric"
+          ],
+          "levels": "52"
+        },
+        {
+          "name": "Marowak",
+          "dex_id": "105",
+          "types": [
+            "Ground"
+          ],
+          "levels": "52"
+        },
+        {
+          "name": "Rhydon",
+          "dex_id": "112",
+          "types": [
+            "Ground",
+            "Rock"
+          ],
+          "levels": "52"
+        },
+        {
+          "name": "Chansey",
+          "dex_id": "113",
+          "types": [
+            "Normal"
+          ],
+          "levels": "56"
+        },
+        {
+          "name": "Ditto",
+          "dex_id": "132",
+          "types": [
+            "Normal"
+          ],
+          "levels": "55-60"
+        }
+      ]
+    }
+  },
+  "wiki_ground_truth": {
+    "Cerulean Cave": {
+      "canonical_slug": "Cerulean_Cave",
+      "lead_summary": "Cerulean Cave is only accessed by Route 4 after obtaining Waterfall.\n2F is a dark room that requires either HM08 Flash or its HM Replacement Item.\nMewtwo is a static encounter at the end of 3F.",
+      "items": [
+        {
+          "internal_id": "machine_NORMAL",
+          "quantity": "",
+          "name": "TM20 Safeguard",
+          "location_details": "South-West of the Lake."
+        },
+        {
+          "internal_id": "SUPERPOTION",
+          "quantity": "",
+          "name": "Super Potion",
+          "location_details": "Hidden by a rock near the North-West ladder."
+        },
+        {
+          "internal_id": "ESCAPEROPE",
+          "quantity": "",
+          "name": "Escape Rope",
+          "location_details": "Near the North-West corner."
+        },
+        {
+          "internal_id": "ESCAPEROPE",
+          "quantity": "",
+          "name": "Escape Rope",
+          "location_details": "South-West corner."
+        },
+        {
+          "internal_id": "RARECANDY",
+          "quantity": "",
+          "name": "Rare Candy",
+          "location_details": "On the higher ground."
+        },
+        {
+          "internal_id": "MAXREPEL",
+          "quantity": "",
+          "name": "Max Repel",
+          "location_details": "On the higher ground."
+        },
+        {
+          "internal_id": "MAXREPEL",
+          "quantity": "",
+          "name": "Max Repel",
+          "location_details": "North-East corner."
+        },
+        {
+          "internal_id": "ELIXIR",
+          "quantity": "",
+          "name": "Elixir",
+          "location_details": "Near the North-East corner."
+        },
+        {
+          "internal_id": "STRANGEPRISM",
+          "quantity": "",
+          "name": "Strange Prism",
+          "location_details": "Near the South-East corner, from the Eastern path."
+        },
+        {
+          "internal_id": "ETHER",
+          "quantity": "",
+          "name": "Ether",
+          "location_details": "North-West corner."
+        },
+        {
+          "internal_id": "FULLHEAL",
+          "quantity": "",
+          "name": "Full Heal",
+          "location_details": "North-Center, from the North-Western path."
+        },
+        {
+          "internal_id": "NUGGET",
+          "quantity": "",
+          "name": "Nugget",
+          "location_details": "Center, from the North-Western path."
+        },
+        {
+          "internal_id": "REPEL",
+          "quantity": "",
+          "name": "Repel",
+          "location_details": "Center, from the North-Western path."
+        },
+        {
+          "internal_id": "PPUP",
+          "quantity": "",
+          "name": "PP Up",
+          "location_details": "Near the South-West, from the Center path."
+        },
+        {
+          "internal_id": "ESCAPEROPE",
+          "quantity": "",
+          "name": "Escape Rope",
+          "location_details": "Center, from the Center path."
+        },
+        {
+          "internal_id": "HYPERPOTION",
+          "quantity": "",
+          "name": "Hyper Potion",
+          "location_details": "North-East, from the Center path."
+        },
+        {
+          "internal_id": "DUSKBALL",
+          "quantity": "",
+          "name": "Dusk Ball",
+          "location_details": "Near the South-West corner, from the South-Western Path."
+        },
+        {
+          "internal_id": "machine_PSYCHIC",
+          "quantity": "",
+          "name": "TM04 Calm Mind",
+          "location_details": "South-Center, from the South-Western Path."
+        }
+      ],
+      "missable_warnings": []
+    }
+  },
+  "location_items_and_statics": [],
+  "authoring_guidance": {
+    "splicing_safety": "Explicitly state: HEAD species, BODY species, and WHICH ability to select at the DNA Splicer prompt.",
+    "gym_party_selection_rule": "Built-in 6v6 party limit! When challenged, the game prompts the player to choose which 6 Pokémon from their active party to bring into battle. No PC box deposits required.",
+    "stone_evolutions": "Advisory: Do NOT use evolution stones prematurely on stone-evolvers (e.g. Nidorino) before key level-up moves are learned.",
+    "undercover_informant_rocket": "Guide player to join Team Rocket for disguises/missions, BUT report crimes to police officer for +10 Karma and Diancie unlock!"
+  }
+}

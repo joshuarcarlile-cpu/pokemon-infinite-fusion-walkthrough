@@ -1,0 +1,134 @@
+{
+  "chapter_id": "ch17",
+  "title": "Act 2 - Chapter 8: Route 46 Mountain Descent & Johto Finale",
+  "act": 2,
+  "hard_mode_level_cap": 72,
+  "gym_duel_limit": 5,
+  "routes_covered": [
+    "Route 46",
+    "New Bark Town"
+  ],
+  "vanilla_divergence_alerts": [
+    "HM Slaves: 100% eliminated by 9 reusable Key Item tools. Do NOT instruct players to teach field moves to party members.",
+    "Friendship: Eliminated. All friendship evolutions use static level thresholds (e.g. Baby Pokémon evolve at Lv. 15).",
+    "Trade Evolutions: Evolve naturally at Level 40 OR via Linking Cord (not Level 37).",
+    "Route 45 does NOT exist in Pokémon Infinite Fusion. The mountain descent south of Blackthorn City is Route 46 only."
+  ],
+  "critical_missables": [],
+  "hotel_milestone_target": {},
+  "active_and_ongoing_quests": [],
+  "boss_ground_truth": {},
+  "encounters_by_location": {
+    "Route 46 (ID 312)": {
+      "Grass": [
+        {
+          "name": "Graveler",
+          "dex_id": "075",
+          "types": ["Rock", "Ground"],
+          "levels": "50",
+          "rates": "50%"
+        },
+        {
+          "name": "Fearow",
+          "dex_id": "022",
+          "types": ["Normal", "Flying"],
+          "levels": "44-49",
+          "rates": "15%"
+        },
+        {
+          "name": "Gligar",
+          "dex_id": "207",
+          "types": ["Ground", "Flying"],
+          "levels": "45-50",
+          "rates": "15%"
+        },
+        {
+          "name": "Donphan",
+          "dex_id": "232",
+          "types": ["Ground"],
+          "levels": "50",
+          "rates": "15%"
+        },
+        {
+          "name": "Wigglytuff",
+          "dex_id": "040",
+          "types": ["Normal", "Fairy"],
+          "levels": "50",
+          "rates": "5%"
+        }
+      ],
+      "Static": [
+        {
+          "name": "Slaking",
+          "dex_id": "289",
+          "types": ["Normal"],
+          "levels": "45",
+          "rates": "One"
+        }
+      ]
+    }
+  },
+  "wiki_ground_truth": {
+    "Route 46": {
+      "canonical_slug": "Route_46",
+      "lead_summary": "Route 46 is a dead-end path that can be accessed from Route 29.\nMost of the route can only be explored after obtaining HM05 Waterfall or its HM Replacement Item.",
+      "items": [
+        {
+          "internal_id": "MAXPOTION",
+          "quantity": "",
+          "name": "Max Potion",
+          "location_details": "On the ground near the gate."
+        },
+        {
+          "internal_id": "machine_DARK",
+          "quantity": "",
+          "name": "TM12 Taunt",
+          "location_details": "On the ground near the North-West corner."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "New Bark Town": {
+      "canonical_slug": "New_Bark_Town",
+      "lead_summary": "New Bark Town is a small town that can be entered from Route 29 by the West and from Route 27 by the East.\nProf. Elm's lab is located in New Bark Town, and will give Chikorita, Cyndquil or Totodile to the player's choice.",
+      "items": [
+        {
+          "internal_id": "machine_hm_WATER",
+          "quantity": "",
+          "name": "HM05 Waterfall",
+          "location_details": "Given by Prof. Elm after obtaining at least two Johto's badges."
+        }
+      ],
+      "missable_warnings": []
+    }
+  },
+  "location_items_and_statics": [
+    {
+      "type": "Static Encounter",
+      "pokemon": "Slaking",
+      "level": "45",
+      "location": "Route 46",
+      "notes": ""
+    },
+    {
+      "type": "Gift",
+      "pokemon": "Chikorita / Cyndaquil / Totodile",
+      "level": "15",
+      "location": "New Bark Town",
+      "notes": "Choice of one from Prof. Elm (requires 10+ Gym Badges)"
+    },
+    {
+      "type": "Item",
+      "pokemon": "HM05 Waterfall",
+      "level": "",
+      "location": "New Bark Town",
+      "notes": "From Prof. Elm after obtaining 2+ Johto Badges"
+    }
+  ],
+  "authoring_guidance": {
+    "splicing_safety": "Explicitly state: HEAD species, BODY species, and WHICH ability to select at the DNA Splicer prompt.",
+    "no_gym_boss": "This is a transitional chapter with NO gym leader battle. Boss card should be a minimal stub.",
+    "stone_evolutions": "Advisory: Do NOT use evolution stones prematurely on stone-evolvers before key level-up moves are learned.",
+    "undercover_informant_rocket": "Guide player to join Team Rocket for disguises/missions, BUT report crimes to police officer for +10 Karma and Diancie unlock!"
+  }
+}

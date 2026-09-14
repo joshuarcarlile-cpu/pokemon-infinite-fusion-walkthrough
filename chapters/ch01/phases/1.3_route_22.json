@@ -1,0 +1,43 @@
+{
+  "name": "Route 22",
+  "summary": "West of Viridian City, leading toward the Pokémon League reception gate. Critical early catching route for Fighting coverage (Mankey) and Poison lines (Nidoran), plus an optional early Rival battle.",
+  "items": [
+    {
+      "name": "Potion",
+      "method": "Hidden in the rock wall near the eastern gate",
+      "type": "Consumable"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Rival Blue (Optional Battle)",
+      "team": [
+        {
+          "species": "Pidgey",
+          "level": 8,
+          "moves": ["Tackle", "Sand Attack", "Gust"]
+        },
+        {
+          "species": "Starter (Counter-pick)",
+          "level": 9,
+          "moves": ["Tackle", "Tail Whip", "Primary STAB"]
+        }
+      ],
+      "reward": "280 Pokedollars",
+      "strategy": "Catch Mankey (Lv. 4-5) in the grass here first! Mankey's Karate Chop and Low Kick handle Blue's normal types and prepare your team for Brock."
+    }
+  ],
+  "encounters": {
+    "Grass": [
+      {"dex_id": "019", "name": "Rattata", "types": ["Normal"], "levels": "2-5", "rates": "35% All Times"},
+      {"dex_id": "021", "name": "Spearow", "types": ["Normal", "Flying"], "levels": "3-5", "rates": "15% Morning / 15% Day"},
+      {"dex_id": "029", "name": "Nidoran♀", "types": ["Poison"], "levels": "3-5", "rates": "15% All Times"},
+      {"dex_id": "032", "name": "Nidoran♂", "types": ["Poison"], "levels": "3-5", "rates": "15% All Times"},
+      {"dex_id": "056", "name": "Mankey", "types": ["Fighting"], "levels": "2-5", "rates": "20% All Times"}
+    ],
+    "Poké Radar": [
+      {"dex_id": "294", "name": "Bidoof", "types": ["Normal"], "levels": "2-5", "rates": "50% Radar"}
+    ]
+  },
+  "navigation_notes": "Catch Mankey before triggering the Rival Blue battle. Mankey is essential for Brock on Hard Mode. ⚠️ PERMANENTLY MISSABLE ALERT: Defeating Blue here is the ONLY trigger that unlocks the Secret Garden! You MUST defeat Blue before challenging Brock. If you defeat Brock first, Blue leaves Route 22 permanently and the Secret Garden is locked forever!"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Summit Temporal Vortex & The True Endgame",
+  "summary": "Ascend the final stairs out of 4F to reach Mt. Silver Summit. A roaring temporal fissure created by the resonance of Dialga, Palkia, and Giratina distorts the skies above the snowcapped pinnacle. Stepping into the vortex propels you into a temporal convergence where legendary Johto Champion Gold stands silently awaiting the ultimate challenger. Engage in the game's climactic 6 vs 6 battle against Gold's formidable legendary beast fusions. Once Gold is defeated, the spacetime distortion collapses peacefully, and you wake up back in your bedroom in Pallet Town. Head downstairs to receive the Shiny Charm from Mom, unlocking Tier 3 League rematches and legendary Triple Fusions.",
+  "items": [
+    {
+      "name": "Shiny Charm",
+      "method": "Awarded by Mom in Pallet Town after clearing Mt. Silver and defeating Gold",
+      "type": "Key Item"
+    },
+    {
+      "name": "Super DNA Splicers",
+      "method": "Unlocked for purchase at all Department Stores post-victory for Triple Fusions",
+      "type": "Evolution / Key Item"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Legendary Trainer Gold",
+      "title": "Champion of Johto",
+      "reward": "P15,800",
+      "pokemon": [
+        {
+          "species": "Sudowoodo/Shuckle",
+          "level": 76,
+          "types": ["Rock", "Bug"]
+        },
+        {
+          "species": "Togekiss/Umbreon",
+          "level": 78,
+          "types": ["Fairy", "Dark"]
+        },
+        {
+          "species": "Feraligatr/Raikou",
+          "level": 77,
+          "types": ["Water", "Electric"]
+        },
+        {
+          "species": "Typhlosion/Suicune",
+          "level": 77,
+          "types": ["Fire", "Water"]
+        },
+        {
+          "species": "Meganium/Entei",
+          "level": 77,
+          "types": ["Grass", "Fire"]
+        },
+        {
+          "species": "Dragonite/Gyarados",
+          "level": 79,
+          "types": ["Dragon", "Flying"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Summit": [
+      {
+        "species": "Dialga/Palkia/Giratina",
+        "levels": "75",
+        "rate": "Temporal Anomaly Boss Event"
+      }
+    ]
+  }
+}

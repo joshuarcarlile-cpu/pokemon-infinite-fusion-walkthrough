@@ -1,0 +1,104 @@
+{
+  "starter": "Charmander",
+  "name": "Team Charmander: Hyper-Offense & Fighting Wallbreakers",
+  "archetype": "Fast offensive momentum, Ground/Fighting wallbreakers, and priority electric coverage",
+  "gym_duel_core": [1, 2, 3, 4, 5, 6],
+  "gym_duel_rationale": "Team Charmander brings relentless offensive pressure to Mt. Silver Summit. Primeape/Sandslash and Gyarados/Nidoking lead the ground offensive, threatening Sudowoodo/Shuckle, Feraligatr/Raikou, and Meganium/Entei with lethal Earthquakes and Cross Chops. Alakazam/Raichu and Lapras combine to shut down Dragonite/Gyarados and Typhlosion/Suicune with high-speed Thunderbolt and 4x Ice Beam. Charizard/Venusaur dismantles Togekiss/Umbreon while sustaining momentum with Sleep Powder and Air Slash, and Snorlax absorbs powerful hits as a steady defensive cushion.",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Charizard/Venusaur",
+      "status": "Active in Party (Starter Splice & MVP)",
+      "current_level": 82,
+      "types": ["Fire", "Poison"],
+      "ability": "Blaze",
+      "held_item": "Charcoal",
+      "nature": "Timid",
+      "role": "Special Wallbreaker / Grass Slayer",
+      "current_reached_moveset": ["Flamethrower", "Petal Dance", "Sleep Powder", "Air Slash"]
+    },
+    {
+      "slot": 2,
+      "species": "Alakazam/Raichu",
+      "status": "Active in Party (High-Speed Cannon)",
+      "current_level": 81,
+      "types": ["Psychic", "Electric"],
+      "ability": "Synchronize",
+      "held_item": "Magnet",
+      "nature": "Timid",
+      "role": "High-Speed Special Sweeper",
+      "current_reached_moveset": ["Thunderbolt", "Psychic", "Nasty Plot", "Recover"]
+    },
+    {
+      "slot": 3,
+      "species": "Lapras",
+      "status": "Active in Party (Dragonite Slayer)",
+      "current_level": 81,
+      "types": ["Water", "Ice"],
+      "ability": "Shell Armor",
+      "held_item": "Never-Melt Ice",
+      "nature": "Modest",
+      "role": "Dragon Check / Ice Wall",
+      "current_reached_moveset": ["Ice Beam", "Hydro Pump", "Confuse Ray", "Body Slam"]
+    },
+    {
+      "slot": 4,
+      "species": "Primeape/Sandslash",
+      "status": "Active in Party (Ground Wallbreaker)",
+      "current_level": 81,
+      "types": ["Fighting", "Ground"],
+      "ability": "Vital Spirit",
+      "held_item": "Soft Sand",
+      "nature": "Jolly",
+      "role": "Physical Sweeper / Shuckle Breaker",
+      "current_reached_moveset": ["Earthquake", "Close Combat", "Cross Chop", "Swords Dance"]
+    },
+    {
+      "slot": 5,
+      "species": "Gyarados/Nidoking",
+      "status": "Active in Party (Intimidate Pivot)",
+      "current_level": 81,
+      "types": ["Water", "Ground"],
+      "ability": "Intimidate",
+      "held_item": "Life Orb",
+      "nature": "Adamant",
+      "role": "Intimidate Pivot / Dragon Dancer",
+      "current_reached_moveset": ["Aqua Tail", "Earth Power", "Dragon Dance", "Ice Fang"]
+    },
+    {
+      "slot": 6,
+      "species": "Snorlax",
+      "status": "Active in Party (Specially Defensive Anchor)",
+      "current_level": 81,
+      "types": ["Normal"],
+      "ability": "Thick Fat",
+      "held_item": "Leftovers",
+      "nature": "Careful",
+      "role": "Specially Defensive Anchor",
+      "current_reached_moveset": ["Body Slam", "Crunch", "Rest", "Sleep Talk"]
+    }
+  ],
+  "flex_bench": [
+    {
+      "species": "Pidgeot",
+      "level": 78,
+      "types": ["Normal", "Flying"],
+      "role": "Tailwind / Speed Support",
+      "recommended_moves": ["Brave Bird", "Roost", "U-turn", "Quick Attack"]
+    },
+    {
+      "species": "Weezing",
+      "level": 78,
+      "types": ["Poison"],
+      "role": "Physical Tank / Will-O-Wisp",
+      "recommended_moves": ["Sludge Bomb", "Flamethrower", "Will-O-Wisp", "Pain Split"]
+    },
+    {
+      "species": "Hitmonchan",
+      "level": 78,
+      "types": ["Fighting"],
+      "role": "Iron Fist Coverage Striker",
+      "recommended_moves": ["Drain Punch", "Fire Punch", "Ice Punch", "Mach Punch"]
+    }
+  ]
+}

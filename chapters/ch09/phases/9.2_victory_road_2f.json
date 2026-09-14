@@ -1,0 +1,54 @@
+{
+  "name": "Victory Road 2F Central Caverns",
+  "summary": "Ascend to 2F and traverse winding ridges lined with seasoned trainers. Note for vanilla players: Moltres does NOT spawn on this floor in Infinite Fusion; the Legendary Fire Bird is situated on Mt. Ember in the Sevii Islands (Act 3). Collect valuable battle TMs and prepare for the 3F drop puzzle.",
+  "items": [
+    {
+      "name": "TM82 Dragon Tail",
+      "method": "Lying along the central rocky pathway",
+      "type": "TM"
+    },
+    {
+      "name": "TM74 Gyro Ball",
+      "method": "Found in the far northeastern corner behind a maze of rocks",
+      "type": "TM"
+    },
+    {
+      "name": "Max Potion",
+      "method": "Located in the southeast corner near the climbing ledges",
+      "type": "Medicine"
+    },
+    {
+      "name": "Full Restore",
+      "method": "Tucked away in the northeast alcove past the trainer line",
+      "type": "Medicine"
+    },
+    {
+      "name": "Revive",
+      "method": "Adjacent to the pressure plate awaiting a dropped boulder from 3F",
+      "type": "Medicine"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Cooltrainer Rolando",
+      "team": [
+        {"species": "Charmeleon/Quilava", "level": 44, "types": ["Fire"]},
+        {"species": "Wartortle/Croconaw", "level": 44, "types": ["Water"]},
+        {"species": "Ivysaur/Bayleef", "level": 44, "types": ["Grass", "Poison"]}
+      ]
+    }
+  ],
+  "encounters": {
+    "Cave": [
+      {"dex_id": "095", "name": "Onix", "types": ["Rock", "Ground"], "levels": "40-46", "rates": "25%"},
+      {"dex_id": "075", "name": "Graveler", "types": ["Rock", "Ground"], "levels": "32", "rates": "15%"},
+      {"dex_id": "111", "name": "Rhyhorn", "types": ["Ground", "Rock"], "levels": "40", "rates": "15%"},
+      {"dex_id": "208", "name": "Steelix", "types": ["Steel", "Ground"], "levels": "46", "rates": "10%"},
+      {"dex_id": "217", "name": "Ursaring", "types": ["Normal"], "levels": "42", "rates": "10%"},
+      {"dex_id": "067", "name": "Machoke", "types": ["Fighting"], "levels": "44-46", "rates": "10%"},
+      {"dex_id": "042", "name": "Golbat", "types": ["Poison", "Flying"], "levels": "44", "rates": "5%"},
+      {"dex_id": "024", "name": "Arbok", "types": ["Poison"], "levels": "44", "rates": "5%"},
+      {"dex_id": "028", "name": "Sandslash", "types": ["Ground"], "levels": "44", "rates": "5%"}
+    ]
+  }
+}

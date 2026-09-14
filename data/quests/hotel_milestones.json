@@ -1,0 +1,97 @@
+{
+  "hotel_milestone_rewards": [
+    {
+      "quests_required": 1,
+      "reward": "HM08 Flash",
+      "type": "HM",
+      "description": "Illuminates dark caves. In PIF, can be taught or replaced by the Lantern."
+    },
+    {
+      "quests_required": 5,
+      "reward": "Amulet Coin",
+      "type": "Hold Item",
+      "description": "Doubles prize money earned from trainer battles if the holding Pokémon participates."
+    },
+    {
+      "quests_required": 10,
+      "reward": "Lantern",
+      "type": "Key Item",
+      "description": "Permanent overworld replacement for Flash! Permanently lights up dark caves like Rock Tunnel automatically without requiring any move or Pokémon."
+    },
+    {
+      "quests_required": 15,
+      "reward": "Linking Cord (x3)",
+      "type": "Evolution Item",
+      "description": "Consumable item that triggers trade evolutions when used on trade-evolution Pokémon (e.g. Kadabra -> Alakazam, Haunter -> Gengar, Machoke -> Machamp, Graveler -> Golem)."
+    },
+    {
+      "quests_required": 20,
+      "reward": "Sleeping Bag",
+      "type": "Key Item",
+      "description": "Allows the player to advance the in-game clock to any time of day (Morning, Day, Night) from anywhere in the overworld."
+    },
+    {
+      "quests_required": 30,
+      "reward": "Mist Stone",
+      "type": "Evolution Stone",
+      "description": "Special evolution stone capable of evolving any Pokémon that evolves via stone."
+    },
+    {
+      "quests_required": 50,
+      "reward": "GS Ball",
+      "type": "Key Item",
+      "description": "Mysterious golden Poké Ball linked to the Celebi legendary event in Ilex Forest."
+    },
+    {
+      "quests_required": 60,
+      "reward": "Master Ball",
+      "type": "Poké Ball",
+      "description": "Legendary Poké Ball that catches any wild Pokémon with a 100% guaranteed catch rate."
+    }
+  ],
+  "pacing_milestones": {
+    "ch01_pewter": {
+      "target_count": 3,
+      "recommended_quests": [
+        "Mushroom Gathering",
+        "Lost Medicine",
+        "Bug Evolution"
+      ]
+    },
+    "ch02_cerulean": {
+      "target_count": 5,
+      "target_unlock": "Amulet Coin",
+      "recommended_quests": [
+        "Playing Cupid",
+        "Johto Pokémon"
+      ]
+    },
+    "ch03_vermilion": {
+      "target_count": 8,
+      "recommended_quests": [
+        "Unusual Types 1",
+        "Seafood Cocktail",
+        "Fishing for Sole"
+      ]
+    },
+    "ch04_celadon": {
+      "target_count": 11,
+      "target_unlock": "Lantern (Before Rock Tunnel)",
+      "recommended_quests": [
+        "Sun or Moon",
+        "For Whom the Bell Tolls",
+        "Hardboiled"
+      ]
+    },
+    "ch05_saffron": {
+      "target_count": 15,
+      "target_unlock": "Linking Cord (x3) (Kadabra/Haunter/Machoke/Graveler Evolutions)",
+      "recommended_quests": [
+        "Lost Puppies",
+        "Invisible Pokémon",
+        "Kalos Pokémon",
+        "Bad to the Bone!"
+      ]
+    }
+  }
+}

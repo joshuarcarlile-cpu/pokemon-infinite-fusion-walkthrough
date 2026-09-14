@@ -1,0 +1,956 @@
+{
+  "chapter_id": "ch19",
+  "title": "Act 3 - Chapter 2: Brine Road, Deep Sea & Boon Island (Chuck & Storm Badge)",
+  "act": 3,
+  "hard_mode_level_cap": 72,
+  "gym_duel_limit": 5,
+  "routes_covered": [
+    "Brine Road",
+    "Old Shipwreck",
+    "Deep Sea",
+    "Boon Island"
+  ],
+  "vanilla_divergence_alerts": [
+    "HM Slaves: 100% eliminated by 9 reusable Key Item tools. Do NOT instruct players to teach field moves to party members.",
+    "Friendship: Eliminated. All friendship evolutions use static level thresholds (e.g. Baby Pokémon evolve at Lv. 15).",
+    "Trade Evolutions: Evolve naturally at Level 40 OR via Linking Cord (not Level 37)."
+  ],
+  "critical_missables": [],
+  "hotel_milestone_target": {},
+  "active_and_ongoing_quests": [],
+  "boss_ground_truth": {
+    "classic": {
+      "leader": "Chuck",
+      "team": [
+        {
+          "species": "B68H141",
+          "level": 62,
+          "moves": [
+            "DYNAMICPUNCH",
+            "WATERFALL",
+            "STONEEDGE",
+            "SLASH"
+          ],
+          "ability_index": 3,
+          "item": "MUSCLEBAND"
+        },
+        {
+          "species": "B321H281",
+          "level": 62,
+          "moves": [
+            "CLOSECOMBAT",
+            "BLAZEKICK",
+            "BRAVEBIRD",
+            "TAUNT"
+          ],
+          "ability_index": 0,
+          "item": "EXPERTBELT"
+        },
+        {
+          "species": "B57H62",
+          "level": 64,
+          "moves": [
+            "CIRCLETHROW",
+            "BELLYDRUM",
+            "CLOSECOMBAT",
+            "THRASH"
+          ],
+          "ability_index": 3,
+          "item": "EXPERTBELT"
+        },
+        {
+          "species": "B334H296",
+          "level": 63,
+          "moves": [
+            "AURASPHERE",
+            "DRAGONPULSE",
+            "DETECT",
+            "EARTHPOWER"
+          ],
+          "ability_index": 1,
+          "item": "WISEGLASSES"
+        },
+        {
+          "species": "B143H107",
+          "level": 64,
+          "moves": [
+            "REST",
+            "DIZZYPUNCH",
+            "SKYUPPERCUT",
+            "COUNTER"
+          ],
+          "ability_index": 1,
+          "item": "LEFTOVERS"
+        }
+      ],
+      "party_size": 5
+    },
+    "expert": {
+      "leader": "Chuck",
+      "team": [
+        {
+          "species": "B302H352",
+          "level": 69,
+          "moves": [
+            "STEALTHROCK",
+            "ANCIENTPOWER",
+            "ENERGYBALL",
+            "EARTHPOWER"
+          ],
+          "ability": "STORMDRAIN",
+          "item": "SITRUSBERRY",
+          "happiness": 0,
+          "nature": "MODEST",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 4,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B312H338",
+          "level": 69,
+          "moves": [
+            "SUCKERPUNCH",
+            "SHADOWCLAW",
+            "TAUNT",
+            "TOXIC"
+          ],
+          "ability": "ILLUSION",
+          "item": "EVIOLITE",
+          "happiness": 0,
+          "nature": "JOLLY",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B274H437",
+          "level": 71,
+          "moves": [
+            "EARTHQUAKE",
+            "WATERFALL",
+            "ICICLECRASH",
+            "PSYCHICFANGS"
+          ],
+          "ability": "SPEEDBOOST",
+          "item": "FOCUSSASH",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B169H426",
+          "level": 71,
+          "moves": [
+            "BRAVEBIRD",
+            "HEADSMASH",
+            "EARTHQUAKE",
+            "TAUNT"
+          ],
+          "ability": "ROCKHEAD",
+          "item": "FOCUSSASH",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B336H22",
+          "level": 73,
+          "moves": [
+            "DRAGONDANCE",
+            "DRILLPECK",
+            "DRAGONCLAW",
+            "EARTHQUAKE"
+          ],
+          "ability": "MOXIE",
+          "item": "FOCUSSASH",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B374H82",
+          "level": 74,
+          "moves": [
+            "QUIVERDANCE",
+            "BUGBUZZ",
+            "THUNDERBOLT",
+            "FIERYDANCE"
+          ],
+          "ability": "MAGNETPULL",
+          "item": "EVIOLITE",
+          "happiness": 0,
+          "nature": "MODEST",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        }
+      ],
+      "party_size": 6
+    }
+  },
+  "encounters_by_location": {
+    "Brine Road (ID 564)": {
+      "Grass": [
+        {
+          "name": "Fearow",
+          "dex_id": "022",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "45-55"
+        },
+        {
+          "name": "Golduck",
+          "dex_id": "055",
+          "types": [
+            "Water"
+          ],
+          "levels": "55"
+        },
+        {
+          "name": "Krabby",
+          "dex_id": "098",
+          "types": [
+            "Water"
+          ],
+          "levels": "40-45"
+        },
+        {
+          "name": "Skiploom",
+          "dex_id": "188",
+          "types": [
+            "Grass",
+            "Flying"
+          ],
+          "levels": "40-45"
+        },
+        {
+          "name": "Jumpluff",
+          "dex_id": "189",
+          "types": [
+            "Grass",
+            "Flying"
+          ],
+          "levels": "50-55"
+        },
+        {
+          "name": "Smeargle",
+          "dex_id": "235",
+          "types": [
+            "Normal"
+          ],
+          "levels": "50"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Tentacool",
+          "dex_id": "072",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "20-40"
+        },
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "25-30"
+        },
+        {
+          "name": "Corsola",
+          "dex_id": "222",
+          "types": [
+            "Water",
+            "Rock"
+          ],
+          "levels": "40-45"
+        },
+        {
+          "name": "Mantine",
+          "dex_id": "226",
+          "types": [
+            "Water",
+            "Flying"
+          ],
+          "levels": "50"
+        },
+        {
+          "name": "Wailmer",
+          "dex_id": "387",
+          "types": [
+            "Water"
+          ],
+          "levels": "20-35"
+        },
+        {
+          "name": "Sharpedo",
+          "dex_id": "437",
+          "types": [
+            "Water",
+            "Dark"
+          ],
+          "levels": "50"
+        },
+        {
+          "name": "Bruxish",
+          "dex_id": "469",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "35-45"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Luvdisc",
+          "dex_id": "501",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Shellder",
+          "dex_id": "090",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Chinchou",
+          "dex_id": "170",
+          "types": [
+            "Water",
+            "Electric"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Luvdisc",
+          "dex_id": "501",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Shellder",
+          "dex_id": "090",
+          "types": [
+            "Water"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Chinchou",
+          "dex_id": "170",
+          "types": [
+            "Water",
+            "Electric"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Lanturn",
+          "dex_id": "171",
+          "types": [
+            "Water",
+            "Electric"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Dhelmise",
+          "dex_id": "453",
+          "types": [
+            "Ghost",
+            "Grass"
+          ],
+          "levels": "40"
+        }
+      ]
+    },
+    "Deep Sea (ID 570)": {
+      "Grass": [
+        {
+          "name": "Krabby",
+          "dex_id": "098",
+          "types": [
+            "Water"
+          ],
+          "levels": "33-36"
+        },
+        {
+          "name": "Togepi",
+          "dex_id": "175",
+          "types": [
+            "Fairy"
+          ],
+          "levels": "22-33"
+        },
+        {
+          "name": "Togetic",
+          "dex_id": "176",
+          "types": [
+            "Fairy",
+            "Flying"
+          ],
+          "levels": "35-45"
+        },
+        {
+          "name": "Ambipom",
+          "dex_id": "254",
+          "types": [
+            "Normal"
+          ],
+          "levels": "44-55"
+        }
+      ]
+    },
+    "Boon Island (ID 562)": {
+      "Grass": [
+        {
+          "name": "Fearow",
+          "dex_id": "022",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "36"
+        },
+        {
+          "name": "Gloom",
+          "dex_id": "044",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "36-48"
+        },
+        {
+          "name": "Psyduck",
+          "dex_id": "054",
+          "types": [
+            "Water"
+          ],
+          "levels": "41"
+        },
+        {
+          "name": "Weepinbell",
+          "dex_id": "070",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "36-48"
+        },
+        {
+          "name": "Slowpoke",
+          "dex_id": "079",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "41"
+        },
+        {
+          "name": "Oricorio",
+          "dex_id": "430",
+          "types": [
+            "Fire",
+            "Flying"
+          ],
+          "levels": "41"
+        },
+        {
+          "name": "Stufful",
+          "dex_id": "451",
+          "types": [
+            "Normal",
+            "Fighting"
+          ],
+          "levels": "41"
+        },
+        {
+          "name": "Jangmo-o",
+          "dex_id": "471",
+          "types": [
+            "Dragon"
+          ],
+          "levels": "35"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Tentacool",
+          "dex_id": "072",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "20-40"
+        },
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "25-30"
+        },
+        {
+          "name": "Corsola",
+          "dex_id": "222",
+          "types": [
+            "Water",
+            "Rock"
+          ],
+          "levels": "40-45"
+        },
+        {
+          "name": "Mantine",
+          "dex_id": "226",
+          "types": [
+            "Water",
+            "Flying"
+          ],
+          "levels": "50"
+        },
+        {
+          "name": "Bruxish",
+          "dex_id": "469",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "35-45"
+        },
+        {
+          "name": "Luvdisc",
+          "dex_id": "501",
+          "types": [
+            "Water"
+          ],
+          "levels": "25-30"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Luvdisc",
+          "dex_id": "501",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Shellder",
+          "dex_id": "090",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Chinchou",
+          "dex_id": "170",
+          "types": [
+            "Water",
+            "Electric"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Luvdisc",
+          "dex_id": "501",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Shellder",
+          "dex_id": "090",
+          "types": [
+            "Water"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Chinchou",
+          "dex_id": "170",
+          "types": [
+            "Water",
+            "Electric"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Lanturn",
+          "dex_id": "171",
+          "types": [
+            "Water",
+            "Electric"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Luvdisc",
+          "dex_id": "501",
+          "types": [
+            "Water"
+          ],
+          "levels": "40"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Ninjask",
+          "dex_id": "356",
+          "types": [
+            "Bug",
+            "Flying"
+          ],
+          "levels": "45-50"
+        }
+      ]
+    }
+  },
+  "wiki_ground_truth": {
+    "Brine Road": {
+      "canonical_slug": "Brine_Road_(West_of_the_Old_Shipwreck)",
+      "lead_summary": "Brine Road is a water route that is split in two by an Old Shipwreck. The Western side connects Kindle Road to Boon Island and to the Deep Sea.",
+      "items": [
+        {
+          "internal_id": "SCUBAGEAR",
+          "quantity": "",
+          "name": "Scuba Gear",
+          "location_details": "Given by the swimmer after giving 5 Deep Sea Scales."
+        },
+        {
+          "internal_id": "HEARTSCALE",
+          "quantity": "",
+          "name": "Heart Scale",
+          "location_details": "Hidden by a rock near the Old Shipwreck."
+        },
+        {
+          "internal_id": "NUGGET",
+          "quantity": "",
+          "name": "Nugget",
+          "location_details": "West of the path for Boon Island."
+        },
+        {
+          "internal_id": "HEARTSCALE",
+          "quantity": "",
+          "name": "Heart Scale",
+          "location_details": "Hidden by a rock behind the Corsolas."
+        },
+        {
+          "internal_id": "SUNSTONE",
+          "quantity": "",
+          "name": "Sun Stone",
+          "location_details": "Blocked by Corsolas."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Old Shipwreck": {
+      "canonical_slug": "Old_Shipwreck",
+      "lead_summary": "The Old Shipwreck splits Brine Road into Brine Road (West of the Old Shipwreck) to Brine Road (East of the Old Shipwreck). The Golbat Boots are needed to jump the gap.",
+      "items": [
+        {
+          "internal_id": "DREADPLATE",
+          "quantity": "",
+          "name": "Dread Plate",
+          "location_details": "East side of the upper floor, after catching [[Legendary_Pokémon#Arceus"
+        },
+        {
+          "internal_id": "NUGGET",
+          "quantity": "",
+          "name": "Nugget",
+          "location_details": "Lower floor, between some barrels."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Deep Sea": {
+      "canonical_slug": "Deep_Sea",
+      "lead_summary": "Deep Sea is an underwater route that is accessible from Brine Road (West of the Old Shipwreck).\nThe underwater maze leads to Togepi Island and the Sapphire Cave.",
+      "items": [
+        {
+          "internal_id": "DEEPSEASCALE",
+          "quantity": "",
+          "name": "Deep Sea Scale",
+          "location_details": "Hidden by a boulder in the northeast corner."
+        },
+        {
+          "internal_id": "DEEPSEASCALE",
+          "quantity": "",
+          "name": "Deep Sea Scale",
+          "location_details": "Several pink scales found underwater. Daily respawn."
+        },
+        {
+          "internal_id": "HEARTSCALE",
+          "quantity": "",
+          "name": "Heart Scale",
+          "location_details": "Hidden by a boulder surrounded by seaweed."
+        },
+        {
+          "internal_id": "HEARTSCALE",
+          "quantity": "",
+          "name": "Heart Scale",
+          "location_details": "Hidden by a boulder on the western side."
+        },
+        {
+          "internal_id": "HEARTSCALE",
+          "quantity": "",
+          "name": "Heart Scale",
+          "location_details": "Hidden by a boulder near the Togepi Island surfacing point."
+        },
+        {
+          "internal_id": "SHINYSTONE",
+          "quantity": "",
+          "name": "Shiny Stone",
+          "location_details": "On the East side of the Togepi Island."
+        },
+        {
+          "internal_id": "SAPPHIRE",
+          "quantity": "",
+          "name": "Sapphire",
+          "location_details": "In an isolated corner deep within the maze."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Boon Island": {
+      "canonical_slug": "Boon_Island",
+      "lead_summary": "Boon Island, also known as Two Island, is a town that can be accessed from the South by Brine Road (West of the Old Shipwreck). Players with the Navel Ticket can ask the sailor to travel to the Navel Rock.\nThis city contains no gym, but Chuck from Cianwood City is on vacation, and can be challenged.",
+      "items": [
+        {
+          "internal_id": "HEARTSCALE",
+          "quantity": "",
+          "name": "Heart Scale",
+          "location_details": "On the ground near the dock."
+        },
+        {
+          "internal_id": "REVIVE",
+          "quantity": "",
+          "name": "Revive",
+          "location_details": "Behind a cuttable tree."
+        },
+        {
+          "internal_id": "HEARTSCALE",
+          "quantity": "",
+          "name": "Heart Scale",
+          "location_details": "On the higher ground behind the shop."
+        },
+        {
+          "internal_id": "HEARTSCALE",
+          "quantity": "",
+          "name": "Heart Scale",
+          "location_details": "Hidden by a rock near the Elderly Lady's cabin."
+        },
+        {
+          "internal_id": "LUCKYEGG",
+          "quantity": "",
+          "name": "Lucky Egg",
+          "location_details": "Exchange 25 Heart Scales."
+        },
+        {
+          "internal_id": "DREAMMIRROR",
+          "quantity": "",
+          "name": "Dream Mirror",
+          "location_details": "Given by the elderly lady for 10 Heart Scales."
+        },
+        {
+          "internal_id": "AURORATICKET",
+          "quantity": "",
+          "name": "Navel Ticket",
+          "location_details": "Given by Chuck after obtaining the Storm Badge."
+        }
+      ],
+      "missable_warnings": []
+    }
+  },
+  "location_items_and_statics": [
+    {
+      "type": "HM Replacement",
+      "name": "Scuba Gear",
+      "replaces": "Dive",
+      "location": "Brine Road (West of Old Shipwreck)"
+    },
+    {
+      "type": "HM Replacement",
+      "name": "Scuba Gear",
+      "replaces": "Dive",
+      "location": "Brine Road (West of Old Shipwreck)"
+    },
+    {
+      "type": "Static Encounter",
+      "pokemon": "Dhelmise",
+      "level": "50",
+      "location": "Old Shipwreck",
+      "notes": ""
+    },
+    {
+      "type": "Static Encounter",
+      "pokemon": "Mantine",
+      "level": "50",
+      "location": "Deep Sea",
+      "notes": "Respawns in 1 hour"
+    }
+  ],
+  "authoring_guidance": {
+    "splicing_safety": "Explicitly state: HEAD species, BODY species, and WHICH ability to select at the DNA Splicer prompt.",
+    "gym_party_selection_rule": "Built-in 5v5 party limit! When challenged, the game prompts the player to choose which 5 Pokémon from their active party to bring into battle. No PC box deposits required.",
+    "stone_evolutions": "Advisory: Do NOT use evolution stones prematurely on stone-evolvers (e.g. Nidorino) before key level-up moves are learned.",
+    "undercover_informant_rocket": "Guide player to join Team Rocket for disguises/missions, BUT report crimes to police officer for +10 Karma and Diancie unlock!"
+  }
+}

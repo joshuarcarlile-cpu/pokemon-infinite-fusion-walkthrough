@@ -1,0 +1,141 @@
+{
+  "location": "Rock Tunnel (ID 350)",
+  "sections": {
+    "Cave": [
+      {
+        "dex_id": "041",
+        "name": "Zubat",
+        "type1": "Poison",
+        "type2": "Flying",
+        "levels": "8",
+        "catch_rate": "255",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "042",
+        "name": "Golbat",
+        "type1": "Poison",
+        "type2": "Flying",
+        "levels": "12-15",
+        "catch_rate": "90",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "056",
+        "name": "Mankey",
+        "type1": "Fighting",
+        "type2": "",
+        "levels": "16-17",
+        "catch_rate": "190",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "066",
+        "name": "Machop",
+        "type1": "Fighting",
+        "type2": "",
+        "levels": "12",
+        "catch_rate": "180",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "067",
+        "name": "Machoke",
+        "type1": "Fighting",
+        "type2": "",
+        "levels": "14",
+        "catch_rate": "90",
+        "rates": [
+          "4%"
+        ]
+      },
+      {
+        "dex_id": "074",
+        "name": "Geodude",
+        "type1": "Rock",
+        "type2": "Ground",
+        "levels": "10",
+        "catch_rate": "255",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "095",
+        "name": "Onix",
+        "type1": "Rock",
+        "type2": "Ground",
+        "levels": "13-15",
+        "catch_rate": "45",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "104",
+        "name": "Cubone",
+        "type1": "Ground",
+        "type2": "",
+        "levels": "10-13",
+        "catch_rate": "190",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "325",
+        "name": "Nosepass",
+        "type1": "Rock",
+        "type2": "",
+        "levels": "15",
+        "catch_rate": "255",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Rock Smash": [
+      {
+        "dex_id": "074",
+        "name": "Geodude",
+        "type1": "Rock",
+        "type2": "Ground",
+        "levels": "5-30",
+        "catch_rate": "255",
+        "rates": [
+          "85%"
+        ]
+      },
+      {
+        "dex_id": "075",
+        "name": "Graveler",
+        "type1": "Rock",
+        "type2": "Ground",
+        "levels": "25-40",
+        "catch_rate": "120",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "213",
+        "name": "Shuckle",
+        "type1": "Bug",
+        "type2": "Rock",
+        "levels": "20-30",
+        "catch_rate": "190",
+        "rates": [
+          "10%"
+        ]
+      }
+    ]
+  }
+}

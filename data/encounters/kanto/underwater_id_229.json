@@ -1,0 +1,84 @@
+{
+  "location": "Underwater (ID 229)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "090",
+        "name": "Shellder",
+        "type1": "Water",
+        "type2": "",
+        "levels": "25-35",
+        "catch_rate": "190",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "098",
+        "name": "Krabby",
+        "type1": "Water",
+        "type2": "",
+        "levels": "25-35",
+        "catch_rate": "225",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "116",
+        "name": "Horsea",
+        "type1": "Water",
+        "type2": "",
+        "levels": "25-35",
+        "catch_rate": "225",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "120",
+        "name": "Staryu",
+        "type1": "Water",
+        "type2": "",
+        "levels": "25-35",
+        "catch_rate": "225",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "211",
+        "name": "Qwilfish",
+        "type1": "Water",
+        "type2": "Poison",
+        "levels": "25-35",
+        "catch_rate": "45",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "222",
+        "name": "Corsola",
+        "type1": "Water",
+        "type2": "Rock",
+        "levels": "25-35",
+        "catch_rate": "60",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "dex_id": "224",
+        "name": "Octillery",
+        "type1": "Water",
+        "type2": "",
+        "levels": "35",
+        "catch_rate": "75",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

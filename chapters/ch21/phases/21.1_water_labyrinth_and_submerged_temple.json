@@ -1,0 +1,37 @@
+{
+  "name": "Water Labyrinth & The Submerged Trench",
+  "summary": "Deploy your gift Mareanie from Jasmine at the Brine Road Corsola barrier. The terrified Corsola scatter instantly, opening the southern waterway into the churning currents of the Water Labyrinth. Navigate the winding nautical maze of coral reefs and sand spits. Locate the deep-sea diving chasm in the southern reach that plunges down to the ancient Submerged Temple. Battle wild oceanic encounters including high-level Tentacruel and Lanturn while navigating through the labyrinthine channels towards Resort Gorgeous and Chrono Island.",
+  "items": [],
+  "trainers": [
+    {
+      "name": "Swimmer Alana",
+      "title": "Swimmer",
+      "reward": "P1,240",
+      "pokemon": [
+        {
+          "species": "Tentacruel",
+          "level": 58,
+          "types": ["Water", "Poison"]
+        },
+        {
+          "species": "Corsola",
+          "level": 58,
+          "types": ["Water", "Rock"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Surf": [
+      { "species": "Tentacool", "levels": "5-40", "rate": "75%" },
+      { "species": "Tentacruel", "levels": "35-40", "rate": "5%" },
+      { "species": "Corsola", "levels": "5-40", "rate": "20%" }
+    ],
+    "Super Rod": [
+      { "species": "Shellder", "levels": "40", "rate": "30%" },
+      { "species": "Chinchou", "levels": "40", "rate": "60%" },
+      { "species": "Lanturn", "levels": "40", "rate": "3%" },
+      { "species": "Luvdisc", "levels": "40", "rate": "7%" }
+    ]
+  }
+}

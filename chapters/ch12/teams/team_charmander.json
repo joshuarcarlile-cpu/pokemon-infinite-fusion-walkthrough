@@ -1,0 +1,128 @@
+{
+  "starter": "Charmander",
+  "name": "Team Charmander: Thunderous Anti-Air & Pyro Momentum",
+  "archetype": "Electric anti-air, Fire STAB wallbreaking, and Intimidate physical pivot.",
+  "gym_duel_core": [1, 2, 3, 4, 5],
+  "gym_duel_rationale": "Falkner's aerial team requires tactical precision around abilities and held items: Charizard/Venusaur levels to Cap 63 to anchor the frontline, using Flamethrower against Steel/Fighting fusions and pacifying Ursaring/Pidgeot with Sleep Powder; Alakazam/Raichu cleanly electrocutes Xatu/Noctowl and Ursaring/Pidgeot with Thunderbolt, smartly bypassing Marowak/Dustox's Lightning Rod by blasting it with STAB Psychic; Gyarados/Nidoking blunts Ursaring/Pidgeot with Intimidate and pops Skarmory/Houndoom's Air Balloon with Aqua Tail; Primeape/Sandslash delivers Close Combat against Skarmory/Houndoom; and Snorlax absorbs Flying moves with massive HP and Rest.",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Charizard/Venusaur",
+      "types": ["Fire", "Grass"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 63,
+      "ability": "Blaze",
+      "held_item": "Charcoal",
+      "role": "Fire Wallbreaker & Status Anchor",
+      "current_reached_moveset": [
+        "Flamethrower",
+        "Petal Dance",
+        "Air Slash",
+        "Sleep Powder"
+      ],
+      "progression_notes": "530 BST hybrid anchor elevated to Cap 63. Flamethrower melts Granbull/Combusken and Skarmory/Houndoom. Sleep Powder immediately halts Ursaring/Pidgeot."
+    },
+    {
+      "slot": 2,
+      "species": "Gyarados/Nidoking",
+      "types": ["Water", "Poison"],
+      "status": "Active in Party (Retained from Ch 11)",
+      "current_level": 62,
+      "ability": "Intimidate",
+      "held_item": "Mystic Water",
+      "role": "Intimidate Physical Pivot",
+      "current_reached_moveset": [
+        "Aqua Tail",
+        "Dragon Dance",
+        "Megahorn",
+        "Earth Power"
+      ],
+      "progression_notes": "522 BST physical pivot. Intimidate neutralizes Ursaring/Pidgeot's Attack on switch-in. Aqua Tail pops Skarmory/Houndoom's Air Balloon and washes away Marowak/Dustox."
+    },
+    {
+      "slot": 3,
+      "species": "Alakazam/Raichu",
+      "types": ["Psychic", "Electric"],
+      "status": "Active in Party (Retained from Ch 11)",
+      "current_level": 62,
+      "ability": "Synchronize",
+      "held_item": "Magnet",
+      "role": "High-Speed Anti-Air Cannon",
+      "current_reached_moveset": [
+        "Psychic",
+        "Thunderbolt",
+        "Calm Mind",
+        "Recover"
+      ],
+      "progression_notes": "500 BST speed demon with 120 SpA. Thunderbolt electrocutes Xatu/Noctowl and Ursaring/Pidgeot. STAB Psychic bypasses Marowak/Dustox's Lightning Rod."
+    },
+    {
+      "slot": 4,
+      "species": "Primeape/Sandslash",
+      "types": ["Fighting", "Ground"],
+      "status": "Active in Party (Retained from Ch 11)",
+      "current_level": 62,
+      "ability": "Vital Spirit",
+      "held_item": "Black Belt",
+      "role": "Fighting Wallbreaker",
+      "current_reached_moveset": [
+        "Close Combat",
+        "Earthquake",
+        "Cross Chop",
+        "Swords Dance"
+      ],
+      "progression_notes": "477 BST wallbreaker. Vital Spirit prevents sleep. STAB Close Combat delivers massive super-effective damage to crush Skarmory/Houndoom."
+    },
+    {
+      "slot": 5,
+      "species": "Snorlax",
+      "types": ["Normal"],
+      "status": "Active in Party (Retained from Ch 11)",
+      "current_level": 62,
+      "ability": "Thick Fat",
+      "held_item": "Leftovers",
+      "role": "Thick Fat Normal Tank",
+      "current_reached_moveset": [
+        "Body Slam",
+        "Rest",
+        "Sleep Talk",
+        "Crunch"
+      ],
+      "progression_notes": "Colossal 160 HP tank. Absorbs stray Flying and Fire attacks comfortably, recovering to full health with Rest and Sleep Talk."
+    },
+    {
+      "slot": 6,
+      "species": "Lapras",
+      "types": ["Water", "Ice"],
+      "status": "Active in Party (Retained from Ch 11)",
+      "current_level": 60,
+      "ability": "Water Absorb",
+      "held_item": "Never-Melt Ice",
+      "role": "Bulky Dragon Counter",
+      "current_reached_moveset": [
+        "Ice Beam",
+        "Hydro Pump",
+        "Confuse Ray",
+        "Body Slam"
+      ],
+      "progression_notes": "535 BST Water/Ice wall. Ice Beam cleanly freezes Flying and Dragon threats across Route 32 and coastal waterways."
+    }
+  ],
+  "flex_bench": [
+    {
+      "species": "Pidgeot",
+      "role": "Tailwind Aerial Scout",
+      "rationale": "High-Speed Flying pivot providing Tailwind speed doubling and Roost recovery."
+    },
+    {
+      "species": "Weezing",
+      "role": "Levitate Physical Wall",
+      "rationale": "Levitate Ground immunity and high physical Defense with Sludge Bomb against physical attackers."
+    },
+    {
+      "species": "Hitmonchan",
+      "role": "Iron Fist Elemental Puncher",
+      "rationale": "Iron Fist-boosted Thunder Punch and Ice Punch for versatile tech coverage."
+    }
+  ]
+}

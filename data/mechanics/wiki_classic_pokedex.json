@@ -1,0 +1,6815 @@
+{
+  "Bulbasaur": {
+    "id": "1",
+    "dex_num": "001",
+    "name": "Bulbasaur",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Pallet Town"
+    ],
+    "summary": "Pallet Town [[Pallet Town"
+  },
+  "Ivysaur": {
+    "id": "2",
+    "dex_num": "002",
+    "name": "Ivysaur",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Bulbasaur (Lv16)",
+    "locations": [],
+    "summary": "Evolve Bulbasaur (Lv16)"
+  },
+  "Venusaur": {
+    "id": "3",
+    "dex_num": "003",
+    "name": "Venusaur",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Ivysaur (Lv32)",
+    "locations": [],
+    "summary": "Evolve Ivysaur (Lv32)"
+  },
+  "Charmander": {
+    "id": "4",
+    "dex_num": "004",
+    "name": "Charmander",
+    "types": [
+      "Fire"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Pallet Town"
+    ],
+    "summary": "Pallet Town [[Pallet Town"
+  },
+  "Charmeleon": {
+    "id": "5",
+    "dex_num": "005",
+    "name": "Charmeleon",
+    "types": [
+      "Fire"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Charmander (Lv16)",
+    "locations": [],
+    "summary": "Evolve Charmander (Lv16)"
+  },
+  "Charizard": {
+    "id": "6",
+    "dex_num": "006",
+    "name": "Charizard",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Charmeleon (Lv36)",
+    "locations": [],
+    "summary": "Evolve Charmeleon (Lv36)"
+  },
+  "Squirtle": {
+    "id": "7",
+    "dex_num": "007",
+    "name": "Squirtle",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Pallet Town"
+    ],
+    "summary": "Pallet Town [[Pallet Town"
+  },
+  "Wartortle": {
+    "id": "8",
+    "dex_num": "008",
+    "name": "Wartortle",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Squirtle (Lv16)",
+    "locations": [],
+    "summary": "Evolve Squirtle (Lv16)"
+  },
+  "Blastoise": {
+    "id": "9",
+    "dex_num": "009",
+    "name": "Blastoise",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Wartortle (Lv36)",
+    "locations": [],
+    "summary": "Evolve Wartortle (Lv36)"
+  },
+  "Caterpie": {
+    "id": "10",
+    "dex_num": "010",
+    "name": "Caterpie",
+    "types": [
+      "Bug"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Route 2 (Before the Forest)"
+  },
+  "Metapod": {
+    "id": "11",
+    "dex_num": "011",
+    "name": "Metapod",
+    "types": [
+      "Bug"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 24"
+    ],
+    "summary": "Route 24, [[Route 30"
+  },
+  "Butterfree": {
+    "id": "12",
+    "dex_num": "012",
+    "name": "Butterfree",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 30"
+    ],
+    "summary": "Route 30, [[Route 31"
+  },
+  "Weedle": {
+    "id": "13",
+    "dex_num": "013",
+    "name": "Weedle",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Route 2 (Before the Forest)"
+  },
+  "Kakuna": {
+    "id": "14",
+    "dex_num": "014",
+    "name": "Kakuna",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 24"
+    ],
+    "summary": "Route 24, [[Route 30"
+  },
+  "Beedrill": {
+    "id": "15",
+    "dex_num": "015",
+    "name": "Beedrill",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Viridian Forest"
+    ],
+    "summary": "Viridian Forest [[Quests"
+  },
+  "Pidgey": {
+    "id": "16",
+    "dex_num": "016",
+    "name": "Pidgey",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 1"
+    ],
+    "summary": "Route 1, [[Route 2 (Before the Forest)"
+  },
+  "Pidgeotto": {
+    "id": "17",
+    "dex_num": "017",
+    "name": "Pidgeotto",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Navel Rock"
+    ],
+    "summary": "Navel Rock [[List of Static Encounters"
+  },
+  "Pidgeot": {
+    "id": "18",
+    "dex_num": "018",
+    "name": "Pidgeot",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Pidgeotto (Lv36)",
+    "locations": [
+      "Route 23"
+    ],
+    "summary": "Route 23, Evolve Pidgeotto (Lv36)"
+  },
+  "Rattata": {
+    "id": "19",
+    "dex_num": "019",
+    "name": "Rattata",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 1"
+    ],
+    "summary": "Route 1, [[Route 2 (Before the Forest)"
+  },
+  "Raticate": {
+    "id": "20",
+    "dex_num": "020",
+    "name": "Raticate",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Mt. Mortar"
+    ],
+    "summary": "Mt. Mortar [[List of Static Encounters"
+  },
+  "Spearow": {
+    "id": "21",
+    "dex_num": "021",
+    "name": "Spearow",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Navel Rock"
+    ],
+    "summary": "Navel Rock [[List of Static Encounters"
+  },
+  "Fearow": {
+    "id": "22",
+    "dex_num": "022",
+    "name": "Fearow",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Navel Rock"
+    ],
+    "summary": "Navel Rock [[List of Static Encounters"
+  },
+  "Ekans": {
+    "id": "23",
+    "dex_num": "023",
+    "name": "Ekans",
+    "types": [
+      "Poison"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 4"
+    ],
+    "summary": "Route 4, [[Route 8"
+  },
+  "Arbok": {
+    "id": "24",
+    "dex_num": "024",
+    "name": "Arbok",
+    "types": [
+      "Poison"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 26"
+    ],
+    "summary": "Route 26, [[Route 27"
+  },
+  "Pikachu": {
+    "id": "25",
+    "dex_num": "025",
+    "name": "Pikachu",
+    "types": [
+      "Electric"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 6"
+    ],
+    "summary": "Route 6, [[Route 7"
+  },
+  "Raichu": {
+    "id": "26",
+    "dex_num": "026",
+    "name": "Raichu",
+    "types": [
+      "Electric"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Pikachu",
+    "locations": [
+      "Cerulean Cave"
+    ],
+    "summary": "Cerulean Cave, Evolve Pikachu ([[List of Items"
+  },
+  "Sandshrew": {
+    "id": "27",
+    "dex_num": "027",
+    "name": "Sandshrew",
+    "types": [
+      "Ground"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 4"
+    ],
+    "summary": "Route 4, [[Route 8"
+  },
+  "Sandslash": {
+    "id": "28",
+    "dex_num": "028",
+    "name": "Sandslash",
+    "types": [
+      "Ground"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 26"
+    ],
+    "summary": "Route 26, [[Route 27"
+  },
+  "Nidoran♀": {
+    "id": "29",
+    "dex_num": "029",
+    "name": "Nidoran♀",
+    "types": [
+      "Poison"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 3"
+    ],
+    "summary": "Route 3, [[Route 9"
+  },
+  "Nidorina": {
+    "id": "30",
+    "dex_num": "030",
+    "name": "Nidorina",
+    "types": [
+      "Poison"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 9"
+    ],
+    "summary": "Route 9, [[Route 35"
+  },
+  "Nidoqueen": {
+    "id": "31",
+    "dex_num": "031",
+    "name": "Nidoqueen",
+    "types": [
+      "Poison",
+      "Ground"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Nidorina",
+    "locations": [],
+    "summary": "Evolve Nidorina ([[List of Items"
+  },
+  "Nidoran♂": {
+    "id": "32",
+    "dex_num": "032",
+    "name": "Nidoran♂",
+    "types": [
+      "Poison"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 3"
+    ],
+    "summary": "Route 3, [[Route 9"
+  },
+  "Nidorino": {
+    "id": "33",
+    "dex_num": "033",
+    "name": "Nidorino",
+    "types": [
+      "Poison"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 9"
+    ],
+    "summary": "Route 9, [[Route 35"
+  },
+  "Nidoking": {
+    "id": "34",
+    "dex_num": "034",
+    "name": "Nidoking",
+    "types": [
+      "Poison",
+      "Ground"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Nidorino",
+    "locations": [],
+    "summary": "Evolve Nidorino ([[List of Items"
+  },
+  "Clefairy": {
+    "id": "35",
+    "dex_num": "035",
+    "name": "Clefairy",
+    "types": [
+      "Fairy"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Celadon City"
+  },
+  "Clefable": {
+    "id": "36",
+    "dex_num": "036",
+    "name": "Clefable",
+    "types": [
+      "Fairy"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Clefairy",
+    "locations": [
+      "Mt. Moon Summit"
+    ],
+    "summary": "Mt. Moon Summit, Evolve Clefairy ([[List of Items"
+  },
+  "Vulpix": {
+    "id": "37",
+    "dex_num": "037",
+    "name": "Vulpix",
+    "types": [
+      "Fire"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 7"
+    ],
+    "summary": "Route 7, [[Route 8"
+  },
+  "Ninetales": {
+    "id": "38",
+    "dex_num": "038",
+    "name": "Ninetales",
+    "types": [
+      "Fire"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Vulpix",
+    "locations": [],
+    "summary": "Evolve Vulpix ([[List of Items"
+  },
+  "Jigglypuff": {
+    "id": "39",
+    "dex_num": "039",
+    "name": "Jigglypuff",
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Igglybuff (Lv15)",
+    "locations": [
+      "Route 5"
+    ],
+    "summary": "Route 5, Evolve Igglybuff (Lv15)"
+  },
+  "Wigglytuff": {
+    "id": "40",
+    "dex_num": "040",
+    "name": "Wigglytuff",
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 34"
+    ],
+    "summary": "Route 34, [[Route 46"
+  },
+  "Zubat": {
+    "id": "41",
+    "dex_num": "041",
+    "name": "Zubat",
+    "types": [
+      "Poison",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 4"
+    ],
+    "summary": "Route 4, [[Route 5"
+  },
+  "Golbat": {
+    "id": "42",
+    "dex_num": "042",
+    "name": "Golbat",
+    "types": [
+      "Poison",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Mt. Mortar"
+    ],
+    "summary": "Mt. Mortar [[List of Static Encounters"
+  },
+  "Oddish": {
+    "id": "43",
+    "dex_num": "043",
+    "name": "Oddish",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 5"
+    ],
+    "summary": "Route 5, [[Route 6"
+  },
+  "Gloom": {
+    "id": "44",
+    "dex_num": "044",
+    "name": "Gloom",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 6"
+    ],
+    "summary": "Route 6, [[Route 12"
+  },
+  "Vileplume": {
+    "id": "45",
+    "dex_num": "045",
+    "name": "Vileplume",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Gloom",
+    "locations": [],
+    "summary": "Evolve Gloom ([[List of Items"
+  },
+  "Paras": {
+    "id": "46",
+    "dex_num": "046",
+    "name": "Paras",
+    "types": [
+      "Bug",
+      "Grass"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Viridian Forest"
+    ],
+    "summary": "Viridian Forest [[List of Static Encounters"
+  },
+  "Parasect": {
+    "id": "47",
+    "dex_num": "047",
+    "name": "Parasect",
+    "types": [
+      "Bug",
+      "Grass"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Cerulean Cave",
+      "Ilex Forest"
+    ],
+    "summary": "Cerulean Cave, Ilex Forest, [[Safari Zone (Area 1)"
+  },
+  "Venonat": {
+    "id": "48",
+    "dex_num": "048",
+    "name": "Venonat",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 9"
+    ],
+    "summary": "Route 9, [[Route 11"
+  },
+  "Venomoth": {
+    "id": "49",
+    "dex_num": "049",
+    "name": "Venomoth",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 12"
+    ],
+    "summary": "Route 12, [[Route 14"
+  },
+  "Diglett": {
+    "id": "50",
+    "dex_num": "050",
+    "name": "Diglett",
+    "types": [
+      "Ground"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Safari Zone (Area 5)"
+  },
+  "Dugtrio": {
+    "id": "51",
+    "dex_num": "051",
+    "name": "Dugtrio",
+    "types": [
+      "Ground"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Diglett (Lv26)",
+    "locations": [
+      "Diglett's Cave"
+    ],
+    "summary": "Diglett's Cave, Evolve Diglett (Lv26)"
+  },
+  "Meowth": {
+    "id": "52",
+    "dex_num": "052",
+    "name": "Meowth",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 3"
+    ],
+    "summary": "Route 3, [[Route 5"
+  },
+  "Persian": {
+    "id": "53",
+    "dex_num": "053",
+    "name": "Persian",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 9"
+    ],
+    "summary": "Route 9, [[Route 16"
+  },
+  "Psyduck": {
+    "id": "54",
+    "dex_num": "054",
+    "name": "Psyduck",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 4"
+    ],
+    "summary": "Route 4, [[Route 7"
+  },
+  "Golduck": {
+    "id": "55",
+    "dex_num": "055",
+    "name": "Golduck",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 35",
+      "Berry Forest"
+    ],
+    "summary": "Route 35, Berry Forest, [[Brine Road (East of the Old Shipwreck)"
+  },
+  "Mankey": {
+    "id": "56",
+    "dex_num": "056",
+    "name": "Mankey",
+    "types": [
+      "Fighting"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 3"
+    ],
+    "summary": "Route 3, [[Route 4"
+  },
+  "Primeape": {
+    "id": "57",
+    "dex_num": "057",
+    "name": "Primeape",
+    "types": [
+      "Fighting"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 9"
+    ],
+    "summary": "Route 9, [[Route 23"
+  },
+  "Growlithe": {
+    "id": "58",
+    "dex_num": "058",
+    "name": "Growlithe",
+    "types": [
+      "Fire"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "S.S. Anne"
+    ],
+    "summary": "S.S. Anne [[List of Gift Pokémon and Trades"
+  },
+  "Arcanine": {
+    "id": "59",
+    "dex_num": "059",
+    "name": "Arcanine",
+    "types": [
+      "Fire"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Growlithe",
+    "locations": [],
+    "summary": "Evolve Growlithe ([[List of Items"
+  },
+  "Poliwag": {
+    "id": "60",
+    "dex_num": "060",
+    "name": "Poliwag",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 5"
+    ],
+    "summary": "Route 5 [[List of Gift Pokémon and Trades"
+  },
+  "Poliwhirl": {
+    "id": "61",
+    "dex_num": "061",
+    "name": "Poliwhirl",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 6"
+    ],
+    "summary": "Route 6, [[Route 8"
+  },
+  "Poliwrath": {
+    "id": "62",
+    "dex_num": "062",
+    "name": "Poliwrath",
+    "types": [
+      "Water",
+      "Fighting"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 30"
+    ],
+    "summary": "Route 30, [[Route 31"
+  },
+  "Abra": {
+    "id": "63",
+    "dex_num": "063",
+    "name": "Abra",
+    "types": [
+      "Psychic"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Celadon City"
+  },
+  "Kadabra": {
+    "id": "64",
+    "dex_num": "064",
+    "name": "Kadabra",
+    "types": [
+      "Psychic"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 34"
+    ],
+    "summary": "Route 34, [[Route 35"
+  },
+  "Alakazam": {
+    "id": "65",
+    "dex_num": "065",
+    "name": "Alakazam",
+    "types": [
+      "Psychic"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Kadabra",
+    "locations": [
+      "Cerulean Cave"
+    ],
+    "summary": "Cerulean Cave, Evolve Kadabra (Lv40 or [[List of Items"
+  },
+  "Machop": {
+    "id": "66",
+    "dex_num": "066",
+    "name": "Machop",
+    "types": [
+      "Fighting"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Mt. Ember",
+      "Rock Tunnel",
+      "Victory Road"
+    ],
+    "summary": "Mt. Ember, Rock Tunnel, Victory Road"
+  },
+  "Machoke": {
+    "id": "67",
+    "dex_num": "067",
+    "name": "Machoke",
+    "types": [
+      "Fighting"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Mt. Mortar"
+    ],
+    "summary": "Mt. Mortar [[List of Static Encounters"
+  },
+  "Machamp": {
+    "id": "68",
+    "dex_num": "068",
+    "name": "Machamp",
+    "types": [
+      "Fighting"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Machoke",
+    "locations": [
+      "Mt. Mortar"
+    ],
+    "summary": "Mt. Mortar, Evolve Machoke (Lv40 or [[List of Items"
+  },
+  "Bellsprout": {
+    "id": "69",
+    "dex_num": "069",
+    "name": "Bellsprout",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Viridian City"
+    ],
+    "summary": "Viridian City [[List of Gift Pokémon and Trades"
+  },
+  "Weepinbell": {
+    "id": "70",
+    "dex_num": "070",
+    "name": "Weepinbell",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 12"
+    ],
+    "summary": "Route 12, [[Route 13"
+  },
+  "Victreebel": {
+    "id": "71",
+    "dex_num": "071",
+    "name": "Victreebel",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Weepinbell",
+    "locations": [],
+    "summary": "Evolve Weepinbell ([[List of Items"
+  },
+  "Tentacool": {
+    "id": "72",
+    "dex_num": "072",
+    "name": "Tentacool",
+    "types": [
+      "Water",
+      "Poison"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 4"
+    ],
+    "summary": "Route 4, [[Route 10 (Before Rock Tunnel)"
+  },
+  "Tentacruel": {
+    "id": "73",
+    "dex_num": "073",
+    "name": "Tentacruel",
+    "types": [
+      "Water",
+      "Poison"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 4"
+    ],
+    "summary": "Route 4, [[Route 10 (Before Rock Tunnel)"
+  },
+  "Geodude": {
+    "id": "74",
+    "dex_num": "074",
+    "name": "Geodude",
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Field Moves"
+  },
+  "Graveler": {
+    "id": "75",
+    "dex_num": "075",
+    "name": "Graveler",
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Mt. Mortar"
+    ],
+    "summary": "Mt. Mortar [[List of Static Encounters"
+  },
+  "Golem": {
+    "id": "76",
+    "dex_num": "076",
+    "name": "Golem",
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Graveler",
+    "locations": [
+      "Mt. Mortar"
+    ],
+    "summary": "Mt. Mortar, Evolve Graveler (Lv40 or [[List of Items"
+  },
+  "Ponyta": {
+    "id": "77",
+    "dex_num": "077",
+    "name": "Ponyta",
+    "types": [
+      "Fire"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Celadon City"
+    ],
+    "summary": "Celadon City [[List of Gift Pokémon and Trades"
+  },
+  "Rapidash": {
+    "id": "78",
+    "dex_num": "078",
+    "name": "Rapidash",
+    "types": [
+      "Fire"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 26"
+    ],
+    "summary": "Route 26, [[Route 27"
+  },
+  "Slowpoke": {
+    "id": "79",
+    "dex_num": "079",
+    "name": "Slowpoke",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Vermillion City"
+    ],
+    "summary": "Vermillion City [[List of Gift Pokémon and Trades"
+  },
+  "Slowbro": {
+    "id": "80",
+    "dex_num": "080",
+    "name": "Slowbro",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Mt. Mortar"
+    ],
+    "summary": "Mt. Mortar [[List of Static Encounters"
+  },
+  "Magnemite": {
+    "id": "81",
+    "dex_num": "081",
+    "name": "Magnemite",
+    "types": [
+      "Steel",
+      "Electric"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 9"
+    ],
+    "summary": "Route 9, [[Route 10 (Before Rock Tunnel)"
+  },
+  "Magneton": {
+    "id": "82",
+    "dex_num": "082",
+    "name": "Magneton",
+    "types": [
+      "Steel",
+      "Electric"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Magnemite (Lv30)",
+    "locations": [
+      "Route 23",
+      "Cerulean Cave",
+      "P2 Laboratory",
+      "Power Plant"
+    ],
+    "summary": "Route 23, Cerulean Cave, P2 Laboratory, Power Plant, Evolve Magnemite (Lv30)"
+  },
+  "Farfetch'd": {
+    "id": "83",
+    "dex_num": "083",
+    "name": "Farfetch'd",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Vermillion City"
+    ],
+    "summary": "Vermillion City [[List of Gift Pokémon and Trades"
+  },
+  "Doduo": {
+    "id": "84",
+    "dex_num": "084",
+    "name": "Doduo",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Vermillion City"
+    ],
+    "summary": "Vermillion City [[List of Gift Pokémon and Trades"
+  },
+  "Dodrio": {
+    "id": "85",
+    "dex_num": "085",
+    "name": "Dodrio",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 26"
+    ],
+    "summary": "Route 26, [[Route 27"
+  },
+  "Seel": {
+    "id": "86",
+    "dex_num": "086",
+    "name": "Seel",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "S.S. Anne"
+    ],
+    "summary": "S.S. Anne [[List of Gift Pokémon and Trades"
+  },
+  "Dewgong": {
+    "id": "87",
+    "dex_num": "087",
+    "name": "Dewgong",
+    "types": [
+      "Water",
+      "Ice"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Seel (Lv34)",
+    "locations": [
+      "Crimson City",
+      "Seafoam Islands"
+    ],
+    "summary": "Crimson City, Seafoam Islands, Evolve Seel (Lv34)"
+  },
+  "Grimer": {
+    "id": "88",
+    "dex_num": "088",
+    "name": "Grimer",
+    "types": [
+      "Poison"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 17"
+    ],
+    "summary": "Route 17 [[Quests"
+  },
+  "Muk": {
+    "id": "89",
+    "dex_num": "089",
+    "name": "Muk",
+    "types": [
+      "Poison"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 17"
+    ],
+    "summary": "Route 17 [[Quests"
+  },
+  "Shellder": {
+    "id": "90",
+    "dex_num": "090",
+    "name": "Shellder",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 17"
+    ],
+    "summary": "Route 17, [[Route 23"
+  },
+  "Cloyster": {
+    "id": "91",
+    "dex_num": "091",
+    "name": "Cloyster",
+    "types": [
+      "Water",
+      "Ice"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Deep Sea"
+    ],
+    "summary": "Deep Sea [[List of Static Encounters"
+  },
+  "Gastly": {
+    "id": "92",
+    "dex_num": "092",
+    "name": "Gastly",
+    "types": [
+      "Ghost",
+      "Poison"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Burned Tower",
+      "Pokémon Tower"
+    ],
+    "summary": "Burned Tower, Pokémon Tower"
+  },
+  "Haunter": {
+    "id": "93",
+    "dex_num": "093",
+    "name": "Haunter",
+    "types": [
+      "Ghost",
+      "Poison"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Gastly (Lv25)",
+    "locations": [
+      "Burned Tower",
+      "Pokémon Tower"
+    ],
+    "summary": "Burned Tower, Pokémon Tower, Evolve Gastly (Lv25)"
+  },
+  "Gengar": {
+    "id": "94",
+    "dex_num": "094",
+    "name": "Gengar",
+    "types": [
+      "Ghost",
+      "Poison"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Haunter",
+    "locations": [
+      "Pokémon Tower"
+    ],
+    "summary": "Pokémon Tower, Evolve Haunter (Lv40 or [[List of Items"
+  },
+  "Onix": {
+    "id": "95",
+    "dex_num": "095",
+    "name": "Onix",
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Mt. Mortar"
+    ],
+    "summary": "Mt. Mortar [[List of Static Encounters"
+  },
+  "Drowzee": {
+    "id": "96",
+    "dex_num": "096",
+    "name": "Drowzee",
+    "types": [
+      "Psychic"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 11"
+    ],
+    "summary": "Route 11, [[Route 35"
+  },
+  "Hypno": {
+    "id": "97",
+    "dex_num": "097",
+    "name": "Hypno",
+    "types": [
+      "Psychic"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 34"
+    ],
+    "summary": "Route 34, [[Route 35"
+  },
+  "Krabby": {
+    "id": "98",
+    "dex_num": "098",
+    "name": "Krabby",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 4"
+    ],
+    "summary": "Route 4, [[Route 10 (Before Rock Tunnel)"
+  },
+  "Kingler": {
+    "id": "99",
+    "dex_num": "099",
+    "name": "Kingler",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Krabby (Lv28)",
+    "locations": [
+      "Route 34",
+      "Cerulean Cave",
+      "Seafoam Islands",
+      "Treasure Beach"
+    ],
+    "summary": "Route 34, Cerulean Cave, Seafoam Islands, Treasure Beach, Evolve Krabby (Lv28)"
+  },
+  "Voltorb": {
+    "id": "100",
+    "dex_num": "100",
+    "name": "Voltorb",
+    "types": [
+      "Electric"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Vermillion City"
+    ],
+    "summary": "Vermillion City [[List of Gift Pokémon and Trades"
+  },
+  "Electrode": {
+    "id": "101",
+    "dex_num": "101",
+    "name": "Electrode",
+    "types": [
+      "Electric"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Cinnabar Island"
+    ],
+    "summary": "Cinnabar Island [[List of Gift Pokémon and Trades"
+  },
+  "Exeggcute": {
+    "id": "102",
+    "dex_num": "102",
+    "name": "Exeggcute",
+    "types": [
+      "Grass",
+      "Psychic"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Vermillion City"
+    ],
+    "summary": "Vermillion City [[List of Gift Pokémon and Trades"
+  },
+  "Exeggutor": {
+    "id": "103",
+    "dex_num": "103",
+    "name": "Exeggutor",
+    "types": [
+      "Grass",
+      "Psychic"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Exeggcute",
+    "locations": [],
+    "summary": "Evolve Exeggcute ([[List of Items"
+  },
+  "Cubone": {
+    "id": "104",
+    "dex_num": "104",
+    "name": "Cubone",
+    "types": [
+      "Ground"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Route 10 (Before Rock Tunnel)"
+  },
+  "Marowak": {
+    "id": "105",
+    "dex_num": "105",
+    "name": "Marowak",
+    "types": [
+      "Ground"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Mt. Mortar"
+    ],
+    "summary": "Mt. Mortar [[List of Static Encounters"
+  },
+  "Hitmonlee": {
+    "id": "106",
+    "dex_num": "106",
+    "name": "Hitmonlee",
+    "types": [
+      "Fighting"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Saffron City"
+  },
+  "Hitmonchan": {
+    "id": "107",
+    "dex_num": "107",
+    "name": "Hitmonchan",
+    "types": [
+      "Fighting"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Saffron City"
+  },
+  "Lickitung": {
+    "id": "108",
+    "dex_num": "108",
+    "name": "Lickitung",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 44",
+      "Pinkan Island"
+    ],
+    "summary": "Route 44, Pinkan Island, [[Safari Zone (Area 1)"
+  },
+  "Koffing": {
+    "id": "109",
+    "dex_num": "109",
+    "name": "Koffing",
+    "types": [
+      "Poison"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Celadon City",
+      "Pokémon Mansion"
+    ],
+    "summary": "Celadon City, Pokémon Mansion"
+  },
+  "Weezing": {
+    "id": "110",
+    "dex_num": "110",
+    "name": "Weezing",
+    "types": [
+      "Poison"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Koffing (Lv35)",
+    "locations": [
+      "Burned Tower",
+      "Pokémon Mansion"
+    ],
+    "summary": "Burned Tower, Pokémon Mansion, Evolve Koffing (Lv35)"
+  },
+  "Rhyhorn": {
+    "id": "111",
+    "dex_num": "111",
+    "name": "Rhyhorn",
+    "types": [
+      "Ground",
+      "Rock"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Safari Zone (Area 1)"
+  },
+  "Rhydon": {
+    "id": "112",
+    "dex_num": "112",
+    "name": "Rhydon",
+    "types": [
+      "Ground",
+      "Rock"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Rhyhorn (Lv42)",
+    "locations": [
+      "Cerulean Cave"
+    ],
+    "summary": "Cerulean Cave, Evolve Rhyhorn (Lv42)"
+  },
+  "Chansey": {
+    "id": "113",
+    "dex_num": "113",
+    "name": "Chansey",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Cinnabar Island"
+    ],
+    "summary": "Cinnabar Island [[List of Gift Pokémon and Trades"
+  },
+  "Tangela": {
+    "id": "114",
+    "dex_num": "114",
+    "name": "Tangela",
+    "types": [
+      "Grass"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 1"
+    ],
+    "summary": "Route 1, [[Route 21"
+  },
+  "Kangaskhan": {
+    "id": "115",
+    "dex_num": "115",
+    "name": "Kangaskhan",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Safari Zone (Area 2)"
+  },
+  "Horsea": {
+    "id": "116",
+    "dex_num": "116",
+    "name": "Horsea",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 4"
+    ],
+    "summary": "Route 4, [[Route 10 (Before Rock Tunnel)"
+  },
+  "Seadra": {
+    "id": "117",
+    "dex_num": "117",
+    "name": "Seadra",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Deep Sea"
+    ],
+    "summary": "Deep Sea [[List of Static Encounters"
+  },
+  "Goldeen": {
+    "id": "118",
+    "dex_num": "118",
+    "name": "Goldeen",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 4"
+    ],
+    "summary": "Route 4, [[Route 10 (Before Rock Tunnel)"
+  },
+  "Seaking": {
+    "id": "119",
+    "dex_num": "119",
+    "name": "Seaking",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Deep Sea"
+    ],
+    "summary": "Deep Sea [[List of Static Encounters"
+  },
+  "Staryu": {
+    "id": "120",
+    "dex_num": "120",
+    "name": "Staryu",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 17"
+    ],
+    "summary": "Route 17, [[Route 34"
+  },
+  "Starmie": {
+    "id": "121",
+    "dex_num": "121",
+    "name": "Starmie",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Staryu",
+    "locations": [
+      "Seafoam Islands"
+    ],
+    "summary": "Seafoam Islands, Evolve Staryu ([[List of Items"
+  },
+  "Mr. Mime": {
+    "id": "122",
+    "dex_num": "122",
+    "name": "Mr. Mime",
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Route 2 (Before the Forest)"
+  },
+  "Scyther": {
+    "id": "123",
+    "dex_num": "123",
+    "name": "Scyther",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Celadon City"
+  },
+  "Jynx": {
+    "id": "124",
+    "dex_num": "124",
+    "name": "Jynx",
+    "types": [
+      "Ice",
+      "Psychic"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Seafoam Islands"
+    ],
+    "summary": "Seafoam Islands [[List of Static Encounters"
+  },
+  "Electabuzz": {
+    "id": "125",
+    "dex_num": "125",
+    "name": "Electabuzz",
+    "types": [
+      "Electric"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Power Plant"
+    ],
+    "summary": "Power Plant [[List of Static Encounters"
+  },
+  "Magmar": {
+    "id": "126",
+    "dex_num": "126",
+    "name": "Magmar",
+    "types": [
+      "Fire"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Pokémon Mansion"
+    ],
+    "summary": "Pokémon Mansion [[List of Static Encounters"
+  },
+  "Pinsir": {
+    "id": "127",
+    "dex_num": "127",
+    "name": "Pinsir",
+    "types": [
+      "Bug"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Celadon City"
+  },
+  "Tauros": {
+    "id": "128",
+    "dex_num": "128",
+    "name": "Tauros",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Safari Zone (Area 3)"
+  },
+  "Magikarp": {
+    "id": "129",
+    "dex_num": "129",
+    "name": "Magikarp",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 3"
+    ],
+    "summary": "Route 3 [[List of Gift Pokémon and Trades"
+  },
+  "Gyarados": {
+    "id": "130",
+    "dex_num": "130",
+    "name": "Gyarados",
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Deep Sea"
+    ],
+    "summary": "Deep Sea [[List of Static Encounters"
+  },
+  "Lapras": {
+    "id": "131",
+    "dex_num": "131",
+    "name": "Lapras",
+    "types": [
+      "Water",
+      "Ice"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Silph Co. Head Office"
+  },
+  "Ditto": {
+    "id": "132",
+    "dex_num": "132",
+    "name": "Ditto",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 34"
+    ],
+    "summary": "Route 34, [[Route 35"
+  },
+  "Eevee": {
+    "id": "133",
+    "dex_num": "133",
+    "name": "Eevee",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Celadon City"
+    ],
+    "summary": "Celadon City [[Quests"
+  },
+  "Vaporeon": {
+    "id": "134",
+    "dex_num": "134",
+    "name": "Vaporeon",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Eevee",
+    "locations": [],
+    "summary": "Evolve Eevee ([[List of Items"
+  },
+  "Jolteon": {
+    "id": "135",
+    "dex_num": "135",
+    "name": "Jolteon",
+    "types": [
+      "Electric"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Eevee",
+    "locations": [],
+    "summary": "Evolve Eevee ([[List of Items"
+  },
+  "Flareon": {
+    "id": "136",
+    "dex_num": "136",
+    "name": "Flareon",
+    "types": [
+      "Fire"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Eevee",
+    "locations": [],
+    "summary": "Evolve Eevee ([[List of Items"
+  },
+  "Porygon": {
+    "id": "137",
+    "dex_num": "137",
+    "name": "Porygon",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[List of Static Encounters"
+  },
+  "Omanyte": {
+    "id": "138",
+    "dex_num": "138",
+    "name": "Omanyte",
+    "types": [
+      "Rock",
+      "Water"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Mt. Moon"
+    ],
+    "summary": "Mt. Moon [[List of Gift Pokémon and Trades"
+  },
+  "Omastar": {
+    "id": "139",
+    "dex_num": "139",
+    "name": "Omastar",
+    "types": [
+      "Rock",
+      "Water"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Omanyte (Lv40)",
+    "locations": [],
+    "summary": "Evolve Omanyte (Lv40)"
+  },
+  "Kabuto": {
+    "id": "140",
+    "dex_num": "140",
+    "name": "Kabuto",
+    "types": [
+      "Rock",
+      "Water"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Mt. Moon"
+    ],
+    "summary": "Mt. Moon [[List of Gift Pokémon and Trades"
+  },
+  "Kabutops": {
+    "id": "141",
+    "dex_num": "141",
+    "name": "Kabutops",
+    "types": [
+      "Rock",
+      "Water"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Kabuto (Lv40)",
+    "locations": [],
+    "summary": "Evolve Kabuto (Lv40)"
+  },
+  "Aerodactyl": {
+    "id": "142",
+    "dex_num": "142",
+    "name": "Aerodactyl",
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Pewter City"
+    ],
+    "summary": "Pewter City [[Quests"
+  },
+  "Snorlax": {
+    "id": "143",
+    "dex_num": "143",
+    "name": "Snorlax",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 12"
+    ],
+    "summary": "Route 12, [[Route 16"
+  },
+  "Articuno": {
+    "id": "144",
+    "dex_num": "144",
+    "name": "Articuno",
+    "types": [
+      "Ice",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Seafoam Islands"
+    ],
+    "summary": "Seafoam Islands [[Legendary Pokémon"
+  },
+  "Zapdos": {
+    "id": "145",
+    "dex_num": "145",
+    "name": "Zapdos",
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Power Plant"
+    ],
+    "summary": "Power Plant [[Legendary Pokémon"
+  },
+  "Moltres": {
+    "id": "146",
+    "dex_num": "146",
+    "name": "Moltres",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Mt. Ember"
+    ],
+    "summary": "Mt. Ember [[Legendary Pokémon"
+  },
+  "Dratini": {
+    "id": "147",
+    "dex_num": "147",
+    "name": "Dratini",
+    "types": [
+      "Dragon"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Celadon City"
+  },
+  "Dragonair": {
+    "id": "148",
+    "dex_num": "148",
+    "name": "Dragonair",
+    "types": [
+      "Dragon"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Blackthorn City"
+  },
+  "Dragonite": {
+    "id": "149",
+    "dex_num": "149",
+    "name": "Dragonite",
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Blackthorn City"
+  },
+  "Mewtwo": {
+    "id": "150",
+    "dex_num": "150",
+    "name": "Mewtwo",
+    "types": [
+      "Psychic"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Cerulean Cave"
+    ],
+    "summary": "Cerulean Cave [[Legendary Pokémon"
+  },
+  "Mew": {
+    "id": "151",
+    "dex_num": "151",
+    "name": "Mew",
+    "types": [
+      "Psychic"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Mt. Moon Summit"
+    ],
+    "summary": "Mt. Moon Summit [[Legendary Pokémon"
+  },
+  "Chikorita": {
+    "id": "152",
+    "dex_num": "152",
+    "name": "Chikorita",
+    "types": [
+      "Grass"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Silph Co. Head Office"
+  },
+  "Bayleef": {
+    "id": "153",
+    "dex_num": "153",
+    "name": "Bayleef",
+    "types": [
+      "Grass"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Chikorita (Lv16)",
+    "locations": [],
+    "summary": "Evolve Chikorita (Lv16)"
+  },
+  "Meganium": {
+    "id": "154",
+    "dex_num": "154",
+    "name": "Meganium",
+    "types": [
+      "Grass"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Bayleef (Lv32)",
+    "locations": [],
+    "summary": "Evolve Bayleef (Lv32)"
+  },
+  "Cyndaquil": {
+    "id": "155",
+    "dex_num": "155",
+    "name": "Cyndaquil",
+    "types": [
+      "Fire"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Silph Co. Head Office"
+  },
+  "Quilava": {
+    "id": "156",
+    "dex_num": "156",
+    "name": "Quilava",
+    "types": [
+      "Fire"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Cyndaquil (Lv14)",
+    "locations": [],
+    "summary": "Evolve Cyndaquil (Lv14)"
+  },
+  "Typhlosion": {
+    "id": "157",
+    "dex_num": "157",
+    "name": "Typhlosion",
+    "types": [
+      "Fire"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Quilava (Lv36)",
+    "locations": [],
+    "summary": "Evolve Quilava (Lv36)"
+  },
+  "Totodile": {
+    "id": "158",
+    "dex_num": "158",
+    "name": "Totodile",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Silph Co. Head Office"
+  },
+  "Croconaw": {
+    "id": "159",
+    "dex_num": "159",
+    "name": "Croconaw",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Totodile (Lv18)",
+    "locations": [],
+    "summary": "Evolve Totodile (Lv18)"
+  },
+  "Feraligatr": {
+    "id": "160",
+    "dex_num": "160",
+    "name": "Feraligatr",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Croconaw (Lv30)",
+    "locations": [],
+    "summary": "Evolve Croconaw (Lv30)"
+  },
+  "Sentret": {
+    "id": "161",
+    "dex_num": "161",
+    "name": "Sentret",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Route 2 (Before the Forest)"
+  },
+  "Furret": {
+    "id": "162",
+    "dex_num": "162",
+    "name": "Furret",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Sentret (Lv15)",
+    "locations": [
+      "Route 29",
+      "Chrono Island"
+    ],
+    "summary": "Route 29, Chrono Island, Evolve Sentret (Lv15)"
+  },
+  "Hoothoot": {
+    "id": "163",
+    "dex_num": "163",
+    "name": "Hoothoot",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 1"
+    ],
+    "summary": "Route 1, [[Route 2 (Before the Forest)"
+  },
+  "Noctowl": {
+    "id": "164",
+    "dex_num": "164",
+    "name": "Noctowl",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 29"
+    ],
+    "summary": "Route 29, [[Route 30"
+  },
+  "Ledyba": {
+    "id": "165",
+    "dex_num": "165",
+    "name": "Ledyba",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Viridian Forest"
+    ],
+    "summary": "Viridian Forest"
+  },
+  "Ledian": {
+    "id": "166",
+    "dex_num": "166",
+    "name": "Ledian",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 29"
+    ],
+    "summary": "Route 29, [[Route 30"
+  },
+  "Spinarak": {
+    "id": "167",
+    "dex_num": "167",
+    "name": "Spinarak",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Viridian Forest"
+    ],
+    "summary": "Viridian Forest [[List of Static Encounters"
+  },
+  "Ariados": {
+    "id": "168",
+    "dex_num": "168",
+    "name": "Ariados",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Viridian Forest"
+    ],
+    "summary": "Viridian Forest [[List of Static Encounters"
+  },
+  "Crobat": {
+    "id": "169",
+    "dex_num": "169",
+    "name": "Crobat",
+    "types": [
+      "Poison",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Mt. Mortar"
+    ],
+    "summary": "Mt. Mortar [[List of Static Encounters"
+  },
+  "Chinchou": {
+    "id": "170",
+    "dex_num": "170",
+    "name": "Chinchou",
+    "types": [
+      "Water",
+      "Electric"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Deep Sea"
+    ],
+    "summary": "Deep Sea [[List of Static Encounters"
+  },
+  "Lanturn": {
+    "id": "171",
+    "dex_num": "171",
+    "name": "Lanturn",
+    "types": [
+      "Water",
+      "Electric"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Deep Sea"
+    ],
+    "summary": "Deep Sea [[List of Static Encounters"
+  },
+  "Pichu": {
+    "id": "172",
+    "dex_num": "172",
+    "name": "Pichu",
+    "types": [
+      "Electric"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Route 5"
+  },
+  "Cleffa": {
+    "id": "173",
+    "dex_num": "173",
+    "name": "Cleffa",
+    "types": [
+      "Fairy"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Route 5"
+  },
+  "Igglybuff": {
+    "id": "174",
+    "dex_num": "174",
+    "name": "Igglybuff",
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Route 5"
+  },
+  "Togepi": {
+    "id": "175",
+    "dex_num": "175",
+    "name": "Togepi",
+    "types": [
+      "Fairy"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 5"
+    ],
+    "summary": "Route 5 [[Pokéradar"
+  },
+  "Togetic": {
+    "id": "176",
+    "dex_num": "176",
+    "name": "Togetic",
+    "types": [
+      "Fairy",
+      "Flying"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Togepi (Lv15)",
+    "locations": [
+      "Deep Sea"
+    ],
+    "summary": "Deep Sea, Evolve Togepi (Lv15)"
+  },
+  "Natu": {
+    "id": "177",
+    "dex_num": "177",
+    "name": "Natu",
+    "types": [
+      "Psychic",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 16"
+    ],
+    "summary": "Route 16 [[Pokéradar"
+  },
+  "Xatu": {
+    "id": "178",
+    "dex_num": "178",
+    "name": "Xatu",
+    "types": [
+      "Psychic",
+      "Flying"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Natu (Lv25)",
+    "locations": [],
+    "summary": "Evolve Natu (Lv25)"
+  },
+  "Mareep": {
+    "id": "179",
+    "dex_num": "179",
+    "name": "Mareep",
+    "types": [
+      "Electric"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 11"
+    ],
+    "summary": "Route 11 [[List of Gift Pokémon and Trades"
+  },
+  "Flaaffy": {
+    "id": "180",
+    "dex_num": "180",
+    "name": "Flaaffy",
+    "types": [
+      "Electric"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 32"
+    ],
+    "summary": "Route 32, [[Route 42"
+  },
+  "Ampharos": {
+    "id": "181",
+    "dex_num": "181",
+    "name": "Ampharos",
+    "types": [
+      "Electric"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Flaaffy (Lv30)",
+    "locations": [],
+    "summary": "Evolve Flaaffy (Lv30)"
+  },
+  "Bellossom": {
+    "id": "182",
+    "dex_num": "182",
+    "name": "Bellossom",
+    "types": [
+      "Grass"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 31"
+    ],
+    "summary": "Route 31 [[Pokéradar"
+  },
+  "Marill": {
+    "id": "183",
+    "dex_num": "183",
+    "name": "Marill",
+    "types": [
+      "Water",
+      "Fairy"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Azurill (Lv15)",
+    "locations": [
+      "Viridian River"
+    ],
+    "summary": "Viridian River, Evolve Azurill (Lv15)"
+  },
+  "Azumarill": {
+    "id": "184",
+    "dex_num": "184",
+    "name": "Azumarill",
+    "types": [
+      "Water",
+      "Fairy"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Mt. Mortar"
+    ],
+    "summary": "Mt. Mortar [[List of Static Encounters"
+  },
+  "Sudowoodo": {
+    "id": "185",
+    "dex_num": "185",
+    "name": "Sudowoodo",
+    "types": [
+      "Rock"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 36"
+    ],
+    "summary": "Route 36 [[List of Static Encounters"
+  },
+  "Politoed": {
+    "id": "186",
+    "dex_num": "186",
+    "name": "Politoed",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 30"
+    ],
+    "summary": "Route 30, [[Route 31"
+  },
+  "Hoppip": {
+    "id": "187",
+    "dex_num": "187",
+    "name": "Hoppip",
+    "types": [
+      "Grass",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 4",
+      "Chrono Island",
+      "Pinkan Island",
+      "Resort Gorgeous"
+    ],
+    "summary": "Route 4, Chrono Island, Pinkan Island, Resort Gorgeous"
+  },
+  "Skiploom": {
+    "id": "188",
+    "dex_num": "188",
+    "name": "Skiploom",
+    "types": [
+      "Grass",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 32"
+    ],
+    "summary": "Route 32, [[Route 33"
+  },
+  "Jumpluff": {
+    "id": "189",
+    "dex_num": "189",
+    "name": "Jumpluff",
+    "types": [
+      "Grass",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 29"
+    ],
+    "summary": "Route 29, [[Route 32"
+  },
+  "Aipom": {
+    "id": "190",
+    "dex_num": "190",
+    "name": "Aipom",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Bond Bridge",
+      "Ilex Forest"
+    ],
+    "summary": "Bond Bridge, Ilex Forest"
+  },
+  "Sunkern": {
+    "id": "191",
+    "dex_num": "191",
+    "name": "Sunkern",
+    "types": [
+      "Grass"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 3"
+    ],
+    "summary": "Route 3"
+  },
+  "Sunflora": {
+    "id": "192",
+    "dex_num": "192",
+    "name": "Sunflora",
+    "types": [
+      "Grass"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Sunkern",
+    "locations": [],
+    "summary": "Evolve Sunkern ([[List of Items"
+  },
+  "Yanma": {
+    "id": "193",
+    "dex_num": "193",
+    "name": "Yanma",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Cerulean City"
+    ],
+    "summary": "Cerulean City [[List of Gift Pokémon and Trades"
+  },
+  "Wooper": {
+    "id": "194",
+    "dex_num": "194",
+    "name": "Wooper",
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Cerulean City"
+    ],
+    "summary": "Cerulean City [[List of Gift Pokémon and Trades"
+  },
+  "Quagsire": {
+    "id": "195",
+    "dex_num": "195",
+    "name": "Quagsire",
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Mt. Mortar"
+    ],
+    "summary": "Mt. Mortar [[List of Static Encounters"
+  },
+  "Espeon": {
+    "id": "196",
+    "dex_num": "196",
+    "name": "Espeon",
+    "types": [
+      "Psychic"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Eevee",
+    "locations": [],
+    "summary": "Evolve Eevee ([[List of Items"
+  },
+  "Umbreon": {
+    "id": "197",
+    "dex_num": "197",
+    "name": "Umbreon",
+    "types": [
+      "Dark"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Eevee",
+    "locations": [],
+    "summary": "Evolve Eevee ([[List of Items"
+  },
+  "Murkrow": {
+    "id": "198",
+    "dex_num": "198",
+    "name": "Murkrow",
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 7"
+    ],
+    "summary": "Route 7, [[Route 16"
+  },
+  "Slowking": {
+    "id": "199",
+    "dex_num": "199",
+    "name": "Slowking",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Azalea Town"
+  },
+  "Misdreavus": {
+    "id": "200",
+    "dex_num": "200",
+    "name": "Misdreavus",
+    "types": [
+      "Ghost"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Burned Tower",
+      "Mt. Silver",
+      "Pokémon Tower"
+    ],
+    "summary": "Burned Tower, Mt. Silver, Pokémon Tower"
+  },
+  "Unown": {
+    "id": "201",
+    "dex_num": "201",
+    "name": "Unown",
+    "types": [
+      "Psychic"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Ruins of Alph"
+    ],
+    "summary": "Ruins of Alph"
+  },
+  "Wobbuffet": {
+    "id": "202",
+    "dex_num": "202",
+    "name": "Wobbuffet",
+    "types": [
+      "Psychic"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Mt. Mortar"
+    ],
+    "summary": "Mt. Mortar [[List of Static Encounters"
+  },
+  "Girafarig": {
+    "id": "203",
+    "dex_num": "203",
+    "name": "Girafarig",
+    "types": [
+      "Normal",
+      "Psychic"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 26"
+    ],
+    "summary": "Route 26, [[Route 27"
+  },
+  "Pineco": {
+    "id": "204",
+    "dex_num": "204",
+    "name": "Pineco",
+    "types": [
+      "Bug"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Pewter City"
+    ],
+    "summary": "Pewter City [[List of Gift Pokémon and Trades"
+  },
+  "Forretress": {
+    "id": "205",
+    "dex_num": "205",
+    "name": "Forretress",
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Pineco (Lv31)",
+    "locations": [],
+    "summary": "Evolve Pineco (Lv31)"
+  },
+  "Dunsparce": {
+    "id": "206",
+    "dex_num": "206",
+    "name": "Dunsparce",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 21"
+    ],
+    "summary": "Route 21 [[Pokéradar"
+  },
+  "Gligar": {
+    "id": "207",
+    "dex_num": "207",
+    "name": "Gligar",
+    "types": [
+      "Ground",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 46",
+      "Blackthorn City"
+    ],
+    "summary": "Route 46, Blackthorn City"
+  },
+  "Steelix": {
+    "id": "208",
+    "dex_num": "208",
+    "name": "Steelix",
+    "types": [
+      "Steel",
+      "Ground"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Onix",
+    "locations": [
+      "Mt. Silver",
+      "Mt. Silver Base",
+      "Union Cave",
+      "Victory Road"
+    ],
+    "summary": "Mt. Silver, Mt. Silver Base, Union Cave, Victory Road, Evolve Onix (Lv40 or [[List of Items"
+  },
+  "Snubbull": {
+    "id": "209",
+    "dex_num": "209",
+    "name": "Snubbull",
+    "types": [
+      "Fairy"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 8",
+      "Pinkan Island"
+    ],
+    "summary": "Route 8, Pinkan Island"
+  },
+  "Granbull": {
+    "id": "210",
+    "dex_num": "210",
+    "name": "Granbull",
+    "types": [
+      "Fairy"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Snubbull (Lv23)",
+    "locations": [
+      "Route 34"
+    ],
+    "summary": "Route 34, Evolve Snubbull (Lv23)"
+  },
+  "Qwilfish": {
+    "id": "211",
+    "dex_num": "211",
+    "name": "Qwilfish",
+    "types": [
+      "Water",
+      "Poison"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 12"
+    ],
+    "summary": "Route 12, [[Route 13"
+  },
+  "Scizor": {
+    "id": "212",
+    "dex_num": "212",
+    "name": "Scizor",
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Scyther",
+    "locations": [],
+    "summary": "Evolve Scyther (Lv40 or [[List of Items"
+  },
+  "Shuckle": {
+    "id": "213",
+    "dex_num": "213",
+    "name": "Shuckle",
+    "types": [
+      "Bug",
+      "Rock"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Rock Tunnel",
+      "Union Cave"
+    ],
+    "summary": "Rock Tunnel, Union Cave"
+  },
+  "Heracross": {
+    "id": "214",
+    "dex_num": "214",
+    "name": "Heracross",
+    "types": [
+      "Bug",
+      "Fighting"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Safari Zone (Area 3)"
+  },
+  "Sneasel": {
+    "id": "215",
+    "dex_num": "215",
+    "name": "Sneasel",
+    "types": [
+      "Dark",
+      "Ice"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Goldenrod City"
+    ],
+    "summary": "Goldenrod City [[List of Gift Pokémon and Trades"
+  },
+  "Teddiursa": {
+    "id": "216",
+    "dex_num": "216",
+    "name": "Teddiursa",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 5",
+      "Mt. Silver"
+    ],
+    "summary": "Route 5, Mt. Silver"
+  },
+  "Ursaring": {
+    "id": "217",
+    "dex_num": "217",
+    "name": "Ursaring",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Mt. Mortar"
+    ],
+    "summary": "Mt. Mortar [[List of Static Encounters"
+  },
+  "Slugma": {
+    "id": "218",
+    "dex_num": "218",
+    "name": "Slugma",
+    "types": [
+      "Fire"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Ruby Chamber"
+    ],
+    "summary": "Ruby Chamber [[List of Static Encounters"
+  },
+  "Magcargo": {
+    "id": "219",
+    "dex_num": "219",
+    "name": "Magcargo",
+    "types": [
+      "Fire",
+      "Rock"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Ruby Chamber"
+    ],
+    "summary": "Ruby Chamber [[List of Static Encounters"
+  },
+  "Swinub": {
+    "id": "220",
+    "dex_num": "220",
+    "name": "Swinub",
+    "types": [
+      "Ice",
+      "Ground"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Ice Mountains"
+  },
+  "Piloswine": {
+    "id": "221",
+    "dex_num": "221",
+    "name": "Piloswine",
+    "types": [
+      "Ice",
+      "Ground"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Ice Mountains"
+  },
+  "Corsola": {
+    "id": "222",
+    "dex_num": "222",
+    "name": "Corsola",
+    "types": [
+      "Water",
+      "Rock"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Boon Island"
+    ],
+    "summary": "Boon Island, [[Brine Road (East of the Old Shipwreck)"
+  },
+  "Remoraid": {
+    "id": "223",
+    "dex_num": "223",
+    "name": "Remoraid",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 20"
+    ],
+    "summary": "Route 20, [[Route 21"
+  },
+  "Octillery": {
+    "id": "224",
+    "dex_num": "224",
+    "name": "Octillery",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 21"
+    ],
+    "summary": "Route 21, [[Route 23"
+  },
+  "Delibird": {
+    "id": "225",
+    "dex_num": "225",
+    "name": "Delibird",
+    "types": [
+      "Ice",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Ice Mountains"
+    ],
+    "summary": "Ice Mountains"
+  },
+  "Mantine": {
+    "id": "226",
+    "dex_num": "226",
+    "name": "Mantine",
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Deep Sea"
+    ],
+    "summary": "Deep Sea [[List of Static Encounters"
+  },
+  "Skarmory": {
+    "id": "227",
+    "dex_num": "227",
+    "name": "Skarmory",
+    "types": [
+      "Steel",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Cinnabar Island"
+    ],
+    "summary": "Cinnabar Island [[List of Gift Pokémon and Trades"
+  },
+  "Houndour": {
+    "id": "228",
+    "dex_num": "228",
+    "name": "Houndour",
+    "types": [
+      "Dark",
+      "Fire"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 7"
+    ],
+    "summary": "Route 7"
+  },
+  "Houndoom": {
+    "id": "229",
+    "dex_num": "229",
+    "name": "Houndoom",
+    "types": [
+      "Dark",
+      "Fire"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Houndour (Lv24)",
+    "locations": [],
+    "summary": "Evolve Houndour (Lv24)"
+  },
+  "Kingdra": {
+    "id": "230",
+    "dex_num": "230",
+    "name": "Kingdra",
+    "types": [
+      "Water",
+      "Dragon"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Seadra",
+    "locations": [
+      "Route 32",
+      "P2 Laboratory"
+    ],
+    "summary": "Route 32, P2 Laboratory, Evolve Seadra (Lv50 or [[List of Items"
+  },
+  "Phanpy": {
+    "id": "231",
+    "dex_num": "231",
+    "name": "Phanpy",
+    "types": [
+      "Ground"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 9"
+    ],
+    "summary": "Route 9, [[Route 10 (Before Rock Tunnel)"
+  },
+  "Donphan": {
+    "id": "232",
+    "dex_num": "232",
+    "name": "Donphan",
+    "types": [
+      "Ground"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Phanpy (Lv25)",
+    "locations": [
+      "Route 46",
+      "Blackthorn City",
+      "Mt. Silver",
+      "Mt. Silver Base",
+      "Victory Road"
+    ],
+    "summary": "Route 46, Blackthorn City, Mt. Silver, Mt. Silver Base, Victory Road, Evolve Phanpy (Lv25)"
+  },
+  "Porygon2": {
+    "id": "233",
+    "dex_num": "233",
+    "name": "Porygon2",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Porygon",
+    "locations": [],
+    "summary": "Evolve Porygon ([[List of Items"
+  },
+  "Stantler": {
+    "id": "234",
+    "dex_num": "234",
+    "name": "Stantler",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 36"
+    ],
+    "summary": "Route 36, [[Route 37"
+  },
+  "Smeargle": {
+    "id": "235",
+    "dex_num": "235",
+    "name": "Smeargle",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Saffron City"
+  },
+  "Tyrogue": {
+    "id": "236",
+    "dex_num": "236",
+    "name": "Tyrogue",
+    "types": [
+      "Fighting"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Pewter City"
+    ],
+    "summary": "Pewter City [[List of Gift Pokémon and Trades"
+  },
+  "Hitmontop": {
+    "id": "237",
+    "dex_num": "237",
+    "name": "Hitmontop",
+    "types": [
+      "Fighting"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Saffron City"
+  },
+  "Smoochum": {
+    "id": "238",
+    "dex_num": "238",
+    "name": "Smoochum",
+    "types": [
+      "Ice",
+      "Psychic"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Route 5"
+  },
+  "Elekid": {
+    "id": "239",
+    "dex_num": "239",
+    "name": "Elekid",
+    "types": [
+      "Electric"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Route 5"
+  },
+  "Magby": {
+    "id": "240",
+    "dex_num": "240",
+    "name": "Magby",
+    "types": [
+      "Fire"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Route 5"
+  },
+  "Miltank": {
+    "id": "241",
+    "dex_num": "241",
+    "name": "Miltank",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 18"
+    ],
+    "summary": "Route 18"
+  },
+  "Blissey": {
+    "id": "242",
+    "dex_num": "242",
+    "name": "Blissey",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Chansey (Lv42)",
+    "locations": [],
+    "summary": "Evolve Chansey (Lv42)"
+  },
+  "Raikou": {
+    "id": "243",
+    "dex_num": "243",
+    "name": "Raikou",
+    "types": [
+      "Electric"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Ruins of Alph"
+  },
+  "Entei": {
+    "id": "244",
+    "dex_num": "244",
+    "name": "Entei",
+    "types": [
+      "Fire"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Victory Road"
+    ],
+    "summary": "Victory Road, [[Legendary Pokémon"
+  },
+  "Suicune": {
+    "id": "245",
+    "dex_num": "245",
+    "name": "Suicune",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Ruins of Alph"
+  },
+  "Larvitar": {
+    "id": "246",
+    "dex_num": "246",
+    "name": "Larvitar",
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Safari Zone (Area 4)"
+  },
+  "Pupitar": {
+    "id": "247",
+    "dex_num": "247",
+    "name": "Pupitar",
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Larvitar (Lv30)",
+    "locations": [
+      "Mt. Silver"
+    ],
+    "summary": "Mt. Silver, Evolve Larvitar (Lv30)"
+  },
+  "Tyranitar": {
+    "id": "248",
+    "dex_num": "248",
+    "name": "Tyranitar",
+    "types": [
+      "Rock",
+      "Dark"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Pupitar (Lv55)",
+    "locations": [],
+    "summary": "Evolve Pupitar (Lv55)"
+  },
+  "Lugia": {
+    "id": "249",
+    "dex_num": "249",
+    "name": "Lugia",
+    "types": [
+      "Psychic",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Navel Rock"
+    ],
+    "summary": "Navel Rock [[Legendary Pokémon"
+  },
+  "Ho-oh": {
+    "id": "250",
+    "dex_num": "250",
+    "name": "Ho-oh",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Navel Rock"
+    ],
+    "summary": "Navel Rock [[Legendary Pokémon"
+  },
+  "Celebi": {
+    "id": "251",
+    "dex_num": "251",
+    "name": "Celebi",
+    "types": [
+      "Psychic",
+      "Grass"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Ilex Forest"
+    ],
+    "summary": "Ilex Forest [[Legendary Pokémon"
+  },
+  "Azurill": {
+    "id": "252",
+    "dex_num": "252",
+    "name": "Azurill",
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Route 5"
+  },
+  "Wynaut": {
+    "id": "253",
+    "dex_num": "253",
+    "name": "Wynaut",
+    "types": [
+      "Psychic"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Lavender Town"
+    ],
+    "summary": "Lavender Town [[List of Gift Pokémon and Trades"
+  },
+  "Ambipom": {
+    "id": "254",
+    "dex_num": "254",
+    "name": "Ambipom",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Aipom (Learns Double Hit @ Lv32)",
+    "locations": [
+      "Route 29",
+      "Bond Bridge",
+      "Deep Sea"
+    ],
+    "summary": "Route 29, Bond Bridge, Deep Sea, Evolve Aipom (Learns Double Hit @ Lv32)"
+  },
+  "Mismagius": {
+    "id": "255",
+    "dex_num": "255",
+    "name": "Mismagius",
+    "types": [
+      "Ghost"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Misdreavus",
+    "locations": [],
+    "summary": "Evolve Misdreavus ([[List of Items"
+  },
+  "Honchkrow": {
+    "id": "256",
+    "dex_num": "256",
+    "name": "Honchkrow",
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Murkrow",
+    "locations": [],
+    "summary": "Evolve Murkrow ([[List of Items"
+  },
+  "Bonsly": {
+    "id": "257",
+    "dex_num": "257",
+    "name": "Bonsly",
+    "types": [
+      "Rock"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Route 5"
+  },
+  "Mime Jr.": {
+    "id": "258",
+    "dex_num": "258",
+    "name": "Mime Jr.",
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 1",
+      "Pinkan Island",
+      "Secret Garden"
+    ],
+    "summary": "Route 1, Pinkan Island, Secret Garden"
+  },
+  "Happiny": {
+    "id": "259",
+    "dex_num": "259",
+    "name": "Happiny",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Route 5"
+  },
+  "Munchlax": {
+    "id": "260",
+    "dex_num": "260",
+    "name": "Munchlax",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 23"
+    ],
+    "summary": "Route 23"
+  },
+  "Mantyke": {
+    "id": "261",
+    "dex_num": "261",
+    "name": "Mantyke",
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Route 5"
+  },
+  "Weavile": {
+    "id": "262",
+    "dex_num": "262",
+    "name": "Weavile",
+    "types": [
+      "Dark",
+      "Ice"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Ice Mountains"
+    ],
+    "summary": "Ice Mountains [[Pokéradar"
+  },
+  "Magnezone": {
+    "id": "263",
+    "dex_num": "263",
+    "name": "Magnezone",
+    "types": [
+      "Steel",
+      "Electric"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Magneton",
+    "locations": [
+      "P2 Laboratory"
+    ],
+    "summary": "P2 Laboratory, Evolve Magneton ([[List of Items"
+  },
+  "Lickilicky": {
+    "id": "264",
+    "dex_num": "264",
+    "name": "Lickilicky",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Lickitung",
+    "locations": [
+      "Route 44"
+    ],
+    "summary": "Route 44, Evolve Lickitung (Learns [[List of Tutors"
+  },
+  "Rhyperior": {
+    "id": "265",
+    "dex_num": "265",
+    "name": "Rhyperior",
+    "types": [
+      "Ground",
+      "Rock"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Rhydon",
+    "locations": [],
+    "summary": "Evolve Rhydon (Lv55 or [[List of Items"
+  },
+  "Tangrowth": {
+    "id": "266",
+    "dex_num": "266",
+    "name": "Tangrowth",
+    "types": [
+      "Grass"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Tangela",
+    "locations": [
+      "Route 44"
+    ],
+    "summary": "Route 44, Evolve Tangela (Learns [[List of Tutors"
+  },
+  "Electivire": {
+    "id": "267",
+    "dex_num": "267",
+    "name": "Electivire",
+    "types": [
+      "Electric"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Electabuzz",
+    "locations": [],
+    "summary": "Evolve Electabuzz (Lv50 or [[List of Items"
+  },
+  "Magmortar": {
+    "id": "268",
+    "dex_num": "268",
+    "name": "Magmortar",
+    "types": [
+      "Fire"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Magmar",
+    "locations": [],
+    "summary": "Evolve Magmar (Lv50 or [[List of Items"
+  },
+  "Togekiss": {
+    "id": "269",
+    "dex_num": "269",
+    "name": "Togekiss",
+    "types": [
+      "Fairy",
+      "Flying"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Togetic",
+    "locations": [],
+    "summary": "Evolve Togetic ([[List of Items"
+  },
+  "Yanmega": {
+    "id": "270",
+    "dex_num": "270",
+    "name": "Yanmega",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Yanma",
+    "locations": [],
+    "summary": "Evolve Yanma (Learns [[List of Tutors"
+  },
+  "Leafeon": {
+    "id": "271",
+    "dex_num": "271",
+    "name": "Leafeon",
+    "types": [
+      "Grass"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Eevee",
+    "locations": [],
+    "summary": "Evolve Eevee ([[List of Items"
+  },
+  "Glaceon": {
+    "id": "272",
+    "dex_num": "272",
+    "name": "Glaceon",
+    "types": [
+      "Ice"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Eevee",
+    "locations": [],
+    "summary": "Evolve Eevee ([[List of Items"
+  },
+  "Gliscor": {
+    "id": "273",
+    "dex_num": "273",
+    "name": "Gliscor",
+    "types": [
+      "Ground",
+      "Flying"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Gligar",
+    "locations": [],
+    "summary": "Evolve Gligar ([[List of Items"
+  },
+  "Mamoswine": {
+    "id": "274",
+    "dex_num": "274",
+    "name": "Mamoswine",
+    "types": [
+      "Ice",
+      "Ground"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Piloswine",
+    "locations": [],
+    "summary": "Evolve Piloswine (Learns [[List of Tutors"
+  },
+  "Porygon-Z": {
+    "id": "275",
+    "dex_num": "275",
+    "name": "Porygon-Z",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Porygon2",
+    "locations": [],
+    "summary": "Evolve Porygon2 ([[List of Items"
+  },
+  "Treecko": {
+    "id": "276",
+    "dex_num": "276",
+    "name": "Treecko",
+    "types": [
+      "Grass"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Pallet Town"
+    ],
+    "summary": "Pallet Town [[List of Gift Pokémon and Trades"
+  },
+  "Grovyle": {
+    "id": "277",
+    "dex_num": "277",
+    "name": "Grovyle",
+    "types": [
+      "Grass"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Treecko (Lv16)",
+    "locations": [],
+    "summary": "Evolve Treecko (Lv16)"
+  },
+  "Sceptile": {
+    "id": "278",
+    "dex_num": "278",
+    "name": "Sceptile",
+    "types": [
+      "Grass"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Grovyle (Lv36)",
+    "locations": [],
+    "summary": "Evolve Grovyle (Lv36)"
+  },
+  "Torchic": {
+    "id": "279",
+    "dex_num": "279",
+    "name": "Torchic",
+    "types": [
+      "Fire"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Pallet Town"
+    ],
+    "summary": "Pallet Town [[List of Gift Pokémon and Trades"
+  },
+  "Combusken": {
+    "id": "280",
+    "dex_num": "280",
+    "name": "Combusken",
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Torchic (Lv16)",
+    "locations": [],
+    "summary": "Evolve Torchic (Lv16)"
+  },
+  "Blaziken": {
+    "id": "281",
+    "dex_num": "281",
+    "name": "Blaziken",
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Combusken (Lv36)",
+    "locations": [],
+    "summary": "Evolve Combusken (Lv36)"
+  },
+  "Mudkip": {
+    "id": "282",
+    "dex_num": "282",
+    "name": "Mudkip",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Pallet Town"
+    ],
+    "summary": "Pallet Town [[List of Gift Pokémon and Trades"
+  },
+  "Marshtomp": {
+    "id": "283",
+    "dex_num": "283",
+    "name": "Marshtomp",
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Mudkip (Lv16)",
+    "locations": [],
+    "summary": "Evolve Mudkip (Lv16)"
+  },
+  "Swampert": {
+    "id": "284",
+    "dex_num": "284",
+    "name": "Swampert",
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Marshtomp (Lv36)",
+    "locations": [],
+    "summary": "Evolve Marshtomp (Lv36)"
+  },
+  "Ralts": {
+    "id": "285",
+    "dex_num": "285",
+    "name": "Ralts",
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "National Park"
+    ],
+    "summary": "National Park [[List of Gift Pokémon and Trades"
+  },
+  "Kirlia": {
+    "id": "286",
+    "dex_num": "286",
+    "name": "Kirlia",
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 34"
+    ],
+    "summary": "Route 34 [[Pokéradar"
+  },
+  "Gardevoir": {
+    "id": "287",
+    "dex_num": "287",
+    "name": "Gardevoir",
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Kirlia (Lv30)",
+    "locations": [],
+    "summary": "Evolve Kirlia (Lv30)"
+  },
+  "Gallade": {
+    "id": "288",
+    "dex_num": "288",
+    "name": "Gallade",
+    "types": [
+      "Psychic",
+      "Fighting"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Kirlia",
+    "locations": [],
+    "summary": "Evolve Kirlia ([[List of Items"
+  },
+  "Shedinja": {
+    "id": "289",
+    "dex_num": "289",
+    "name": "Shedinja",
+    "types": [
+      "Bug",
+      "Ghost"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Ilex Forest"
+    ],
+    "summary": "Ilex Forest [[List of Static Encounters"
+  },
+  "Kecleon": {
+    "id": "290",
+    "dex_num": "290",
+    "name": "Kecleon",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Saffron City"
+    ],
+    "summary": "Saffron City [[Quests"
+  },
+  "Beldum": {
+    "id": "291",
+    "dex_num": "291",
+    "name": "Beldum",
+    "types": [
+      "Steel",
+      "Psychic"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Violet City"
+    ],
+    "summary": "Violet City [[List of Gift Pokémon and Trades"
+  },
+  "Metang": {
+    "id": "292",
+    "dex_num": "292",
+    "name": "Metang",
+    "types": [
+      "Steel",
+      "Psychic"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Mt. Mortar"
+    ],
+    "summary": "Mt. Mortar [[List of Static Encounters"
+  },
+  "Metagross": {
+    "id": "293",
+    "dex_num": "293",
+    "name": "Metagross",
+    "types": [
+      "Steel",
+      "Psychic"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Metang (Lv45)",
+    "locations": [],
+    "summary": "Evolve Metang (Lv45)"
+  },
+  "Bidoof": {
+    "id": "294",
+    "dex_num": "294",
+    "name": "Bidoof",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 22"
+    ],
+    "summary": "Route 22, [[Route 29"
+  },
+  "Spiritomb": {
+    "id": "295",
+    "dex_num": "295",
+    "name": "Spiritomb",
+    "types": [
+      "Dark",
+      "Ghost"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Route 36"
+  },
+  "Lucario": {
+    "id": "296",
+    "dex_num": "296",
+    "name": "Lucario",
+    "types": [
+      "Fighting",
+      "Steel"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Blackthorn City"
+    ],
+    "summary": "Blackthorn City [[Quests"
+  },
+  "Gible": {
+    "id": "297",
+    "dex_num": "297",
+    "name": "Gible",
+    "types": [
+      "Dragon",
+      "Ground"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Blackthorn City"
+  },
+  "Gabite": {
+    "id": "298",
+    "dex_num": "298",
+    "name": "Gabite",
+    "types": [
+      "Dragon",
+      "Ground"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Gible (Lv24)",
+    "locations": [],
+    "summary": "Evolve Gible (Lv24)"
+  },
+  "Garchomp": {
+    "id": "299",
+    "dex_num": "299",
+    "name": "Garchomp",
+    "types": [
+      "Dragon",
+      "Ground"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Gabite (Lv48)",
+    "locations": [],
+    "summary": "Evolve Gabite (Lv48)"
+  },
+  "Mawile": {
+    "id": "300",
+    "dex_num": "300",
+    "name": "Mawile",
+    "types": [
+      "Steel",
+      "Fairy"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Crimson City"
+    ],
+    "summary": "Crimson City [[List of Static Encounters"
+  },
+  "Lileep": {
+    "id": "301",
+    "dex_num": "301",
+    "name": "Lileep",
+    "types": [
+      "Rock",
+      "Grass"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "S.S. Anne"
+    ],
+    "summary": "S.S. Anne [[List of Gift Pokémon and Trades"
+  },
+  "Cradily": {
+    "id": "302",
+    "dex_num": "302",
+    "name": "Cradily",
+    "types": [
+      "Rock",
+      "Grass"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Lileep (Lv40)",
+    "locations": [],
+    "summary": "Evolve Lileep (Lv40)"
+  },
+  "Anorith": {
+    "id": "303",
+    "dex_num": "303",
+    "name": "Anorith",
+    "types": [
+      "Rock",
+      "Bug"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "S.S. Anne"
+    ],
+    "summary": "S.S. Anne [[List of Gift Pokémon and Trades"
+  },
+  "Armaldo": {
+    "id": "304",
+    "dex_num": "304",
+    "name": "Armaldo",
+    "types": [
+      "Rock",
+      "Bug"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Anorith (Lv40)",
+    "locations": [],
+    "summary": "Evolve Anorith (Lv40)"
+  },
+  "Cranidos": {
+    "id": "305",
+    "dex_num": "305",
+    "name": "Cranidos",
+    "types": [
+      "Rock"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Celadon City"
+  },
+  "Rampardos": {
+    "id": "306",
+    "dex_num": "306",
+    "name": "Rampardos",
+    "types": [
+      "Rock"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Cranidos (Lv30)",
+    "locations": [],
+    "summary": "Evolve Cranidos (Lv30)"
+  },
+  "Shieldon": {
+    "id": "307",
+    "dex_num": "307",
+    "name": "Shieldon",
+    "types": [
+      "Rock",
+      "Steel"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Celadon City"
+  },
+  "Bastiodon": {
+    "id": "308",
+    "dex_num": "308",
+    "name": "Bastiodon",
+    "types": [
+      "Rock",
+      "Steel"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Shieldon (Lv30)",
+    "locations": [],
+    "summary": "Evolve Shieldon (Lv30)"
+  },
+  "Slaking": {
+    "id": "309",
+    "dex_num": "309",
+    "name": "Slaking",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 46"
+    ],
+    "summary": "Route 46 [[List of Static Encounters"
+  },
+  "Absol": {
+    "id": "310",
+    "dex_num": "310",
+    "name": "Absol",
+    "types": [
+      "Dark"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Cinnabar Island"
+    ],
+    "summary": "Cinnabar Island [[List of Static Encounters"
+  },
+  "Duskull": {
+    "id": "311",
+    "dex_num": "311",
+    "name": "Duskull",
+    "types": [
+      "Ghost"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Hidden Forest"
+    ],
+    "summary": "Hidden Forest, [[Lavender Town"
+  },
+  "Dusclops": {
+    "id": "312",
+    "dex_num": "312",
+    "name": "Dusclops",
+    "types": [
+      "Ghost"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Duskull (Lv37)",
+    "locations": [
+      "Sky Pillar"
+    ],
+    "summary": "Sky Pillar, Evolve Duskull (Lv37)"
+  },
+  "Dusknoir": {
+    "id": "313",
+    "dex_num": "313",
+    "name": "Dusknoir",
+    "types": [
+      "Ghost"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Dusclops",
+    "locations": [],
+    "summary": "Evolve Dusclops (Lv50 or [[List of Items"
+  },
+  "Wailord": {
+    "id": "314",
+    "dex_num": "314",
+    "name": "Wailord",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Wailmer (Lv40)",
+    "locations": [],
+    "summary": "Evolve Wailmer (Lv40)"
+  },
+  "Arceus": {
+    "id": "315",
+    "dex_num": "315",
+    "name": "Arceus",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Ice Mountains Peak"
+  },
+  "Turtwig": {
+    "id": "316",
+    "dex_num": "316",
+    "name": "Turtwig",
+    "types": [
+      "Grass"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Kin Island"
+    ],
+    "summary": "Kin Island [[List of Gift Pokémon and Trades"
+  },
+  "Grotle": {
+    "id": "317",
+    "dex_num": "317",
+    "name": "Grotle",
+    "types": [
+      "Grass"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Turtwig (Lv18)",
+    "locations": [],
+    "summary": "Evolve Turtwig (Lv18)"
+  },
+  "Torterra": {
+    "id": "318",
+    "dex_num": "318",
+    "name": "Torterra",
+    "types": [
+      "Grass",
+      "Ground"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Grotle (Lv32)",
+    "locations": [],
+    "summary": "Evolve Grotle (Lv32)"
+  },
+  "Chimchar": {
+    "id": "319",
+    "dex_num": "319",
+    "name": "Chimchar",
+    "types": [
+      "Fire"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Kin Island"
+    ],
+    "summary": "Kin Island [[List of Gift Pokémon and Trades"
+  },
+  "Monferno": {
+    "id": "320",
+    "dex_num": "320",
+    "name": "Monferno",
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Chimchar (Lv14)",
+    "locations": [],
+    "summary": "Evolve Chimchar (Lv14)"
+  },
+  "Infernape": {
+    "id": "321",
+    "dex_num": "321",
+    "name": "Infernape",
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Monferno (Lv36)",
+    "locations": [],
+    "summary": "Evolve Monferno (Lv36)"
+  },
+  "Piplup": {
+    "id": "322",
+    "dex_num": "322",
+    "name": "Piplup",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Kin Island"
+    ],
+    "summary": "Kin Island [[List of Gift Pokémon and Trades"
+  },
+  "Prinplup": {
+    "id": "323",
+    "dex_num": "323",
+    "name": "Prinplup",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Piplup (Lv16)",
+    "locations": [],
+    "summary": "Evolve Piplup (Lv16)"
+  },
+  "Empoleon": {
+    "id": "324",
+    "dex_num": "324",
+    "name": "Empoleon",
+    "types": [
+      "Water",
+      "Steel"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Prinplup (Lv36)",
+    "locations": [],
+    "summary": "Evolve Prinplup (Lv36)"
+  },
+  "Nosepass": {
+    "id": "325",
+    "dex_num": "325",
+    "name": "Nosepass",
+    "types": [
+      "Rock"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Mt. Mortar"
+    ],
+    "summary": "Mt. Mortar [[List of Static Encounters"
+  },
+  "Probopass": {
+    "id": "326",
+    "dex_num": "326",
+    "name": "Probopass",
+    "types": [
+      "Rock",
+      "Steel"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Nosepass",
+    "locations": [],
+    "summary": "Evolve Nosepass ([[List of Items"
+  },
+  "Honedge": {
+    "id": "327",
+    "dex_num": "327",
+    "name": "Honedge",
+    "types": [
+      "Steel",
+      "Ghost"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Rock Tunnel"
+    ],
+    "summary": "Rock Tunnel [[List of Gift Pokémon and Trades"
+  },
+  "Doublade": {
+    "id": "328",
+    "dex_num": "328",
+    "name": "Doublade",
+    "types": [
+      "Steel",
+      "Ghost"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Honedge (Lv35)",
+    "locations": [],
+    "summary": "Evolve Honedge (Lv35)"
+  },
+  "Aegislash": {
+    "id": "329",
+    "dex_num": "329",
+    "name": "Aegislash",
+    "types": [
+      "Steel",
+      "Ghost"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Doublade",
+    "locations": [],
+    "summary": "Evolve Doublade ([[List of Items"
+  },
+  "Pawniard": {
+    "id": "330",
+    "dex_num": "330",
+    "name": "Pawniard",
+    "types": [
+      "Dark",
+      "Steel"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Knot Island"
+    ],
+    "summary": "Knot Island [[List of Gift Pokémon and Trades"
+  },
+  "Bisharp": {
+    "id": "331",
+    "dex_num": "331",
+    "name": "Bisharp",
+    "types": [
+      "Dark",
+      "Steel"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Pawniard (Lv52)",
+    "locations": [],
+    "summary": "Evolve Pawniard (Lv52)"
+  },
+  "Luxray": {
+    "id": "332",
+    "dex_num": "332",
+    "name": "Luxray",
+    "types": [
+      "Electric"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Mt. Mortar"
+    ],
+    "summary": "Mt. Mortar [[List of Static Encounters"
+  },
+  "Aggron": {
+    "id": "333",
+    "dex_num": "333",
+    "name": "Aggron",
+    "types": [
+      "Steel",
+      "Rock"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Mt. Mortar"
+    ],
+    "summary": "Mt. Mortar [[List of Static Encounters"
+  },
+  "Flygon": {
+    "id": "334",
+    "dex_num": "334",
+    "name": "Flygon",
+    "types": [
+      "Ground",
+      "Dragon"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Vibrava (Lv45)",
+    "locations": [],
+    "summary": "Evolve Vibrava (Lv45)"
+  },
+  "Milotic": {
+    "id": "335",
+    "dex_num": "335",
+    "name": "Milotic",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Feebas",
+    "locations": [],
+    "summary": "Evolve Feebas (Lv35 or [[List of Items"
+  },
+  "Salamence": {
+    "id": "336",
+    "dex_num": "336",
+    "name": "Salamence",
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Shelgon (Lv50)",
+    "locations": [],
+    "summary": "Evolve Shelgon (Lv50)"
+  },
+  "Klinklang": {
+    "id": "337",
+    "dex_num": "337",
+    "name": "Klinklang",
+    "types": [
+      "Steel"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Rocket Warehouse"
+    ],
+    "summary": "Rocket Warehouse [[List of Static Encounters"
+  },
+  "Zoroark": {
+    "id": "338",
+    "dex_num": "338",
+    "name": "Zoroark",
+    "types": [
+      "Dark"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Berry Forest"
+    ],
+    "summary": "Berry Forest [[List of Static Encounters"
+  },
+  "Sylveon": {
+    "id": "339",
+    "dex_num": "339",
+    "name": "Sylveon",
+    "types": [
+      "Fairy"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Eevee",
+    "locations": [],
+    "summary": "Evolve Eevee ([[List of Items"
+  },
+  "Kyogre": {
+    "id": "340",
+    "dex_num": "340",
+    "name": "Kyogre",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Sapphire Cave"
+    ],
+    "summary": "Sapphire Cave [[Legendary Pokémon"
+  },
+  "Groudon": {
+    "id": "341",
+    "dex_num": "341",
+    "name": "Groudon",
+    "types": [
+      "Ground"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Ruby Chamber"
+    ],
+    "summary": "Ruby Chamber [[Legendary Pokémon"
+  },
+  "Rayquaza": {
+    "id": "342",
+    "dex_num": "342",
+    "name": "Rayquaza",
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Sky Pillar"
+    ],
+    "summary": "Sky Pillar [[Legendary Pokémon"
+  },
+  "Dialga": {
+    "id": "343",
+    "dex_num": "343",
+    "name": "Dialga",
+    "types": [
+      "Steel",
+      "Dragon"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Ruins of Alph"
+  },
+  "Palkia": {
+    "id": "344",
+    "dex_num": "344",
+    "name": "Palkia",
+    "types": [
+      "Water",
+      "Dragon"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Ruins of Alph"
+  },
+  "Giratina": {
+    "id": "345",
+    "dex_num": "345",
+    "name": "Giratina",
+    "types": [
+      "Ghost",
+      "Dragon"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Ruins of Alph"
+  },
+  "Regigigas": {
+    "id": "346",
+    "dex_num": "346",
+    "name": "Regigigas",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Submerged Temple"
+  },
+  "Darkrai": {
+    "id": "347",
+    "dex_num": "347",
+    "name": "Darkrai",
+    "types": [
+      "Dark"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Lavender Town"
+  },
+  "Genesect": {
+    "id": "348",
+    "dex_num": "348",
+    "name": "Genesect",
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "P2 Laboratory"
+    ],
+    "summary": "P2 Laboratory [[Legendary Pokémon"
+  },
+  "Reshiram": {
+    "id": "349",
+    "dex_num": "349",
+    "name": "Reshiram",
+    "types": [
+      "Dragon",
+      "Fire"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Bell Tower"
+    ],
+    "summary": "Bell Tower [[Legendary Pokémon"
+  },
+  "Zekrom": {
+    "id": "350",
+    "dex_num": "350",
+    "name": "Zekrom",
+    "types": [
+      "Dragon",
+      "Electric"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Bell Tower"
+    ],
+    "summary": "Bell Tower [[Legendary Pokémon"
+  },
+  "Kyurem": {
+    "id": "351",
+    "dex_num": "351",
+    "name": "Kyurem",
+    "types": [
+      "Dragon",
+      "Ice"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Lake of Rage"
+    ],
+    "summary": "Lake of Rage [[Legendary Pokémon"
+  },
+  "Roserade": {
+    "id": "352",
+    "dex_num": "352",
+    "name": "Roserade",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Roselia",
+    "locations": [],
+    "summary": "Evolve Roselia ([[List of Items"
+  },
+  "Drifblim": {
+    "id": "353",
+    "dex_num": "353",
+    "name": "Drifblim",
+    "types": [
+      "Ghost",
+      "Flying"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Drifloon (Lv28)",
+    "locations": [],
+    "summary": "Evolve Drifloon (Lv28)"
+  },
+  "Lopunny": {
+    "id": "354",
+    "dex_num": "354",
+    "name": "Lopunny",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Buneary (Lv25)",
+    "locations": [],
+    "summary": "Evolve Buneary (Lv25)"
+  },
+  "Breloom": {
+    "id": "355",
+    "dex_num": "355",
+    "name": "Breloom",
+    "types": [
+      "Grass",
+      "Fighting"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Ilex Forest"
+    ],
+    "summary": "Ilex Forest [[Pokéradar"
+  },
+  "Ninjask": {
+    "id": "356",
+    "dex_num": "356",
+    "name": "Ninjask",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Boon Island"
+    ],
+    "summary": "Boon Island [[Pokéradar"
+  },
+  "Banette": {
+    "id": "357",
+    "dex_num": "357",
+    "name": "Banette",
+    "types": [
+      "Ghost"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Creepy House"
+    ],
+    "summary": "Creepy House [[List of Static Encounters"
+  },
+  "Rotom": {
+    "id": "358",
+    "dex_num": "358",
+    "name": "Rotom",
+    "types": [
+      "Electric",
+      "Ghost"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Saffron City"
+    ],
+    "summary": "Saffron City [[List of Static Encounters"
+  },
+  "Reuniclus": {
+    "id": "359",
+    "dex_num": "359",
+    "name": "Reuniclus",
+    "types": [
+      "Psychic"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Duosion (Lv41)",
+    "locations": [],
+    "summary": "Evolve Duosion (Lv41)"
+  },
+  "Whimsicott": {
+    "id": "360",
+    "dex_num": "360",
+    "name": "Whimsicott",
+    "types": [
+      "Grass",
+      "Fairy"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Cottonee",
+    "locations": [],
+    "summary": "Evolve Cottonee ([[List of Items"
+  },
+  "Krookodile": {
+    "id": "361",
+    "dex_num": "361",
+    "name": "Krookodile",
+    "types": [
+      "Ground",
+      "Dark"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Krokorok (Lv40)",
+    "locations": [],
+    "summary": "Evolve Krokorok (Lv40)"
+  },
+  "Cofagrigus": {
+    "id": "362",
+    "dex_num": "362",
+    "name": "Cofagrigus",
+    "types": [
+      "Ghost"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Safari Zone Temple"
+    ],
+    "summary": "Safari Zone Temple [[List of Static Encounters"
+  },
+  "Galvantula": {
+    "id": "363",
+    "dex_num": "363",
+    "name": "Galvantula",
+    "types": [
+      "Bug",
+      "Electric"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Joltik (Lv36)",
+    "locations": [],
+    "summary": "Evolve Joltik (Lv36)"
+  },
+  "Ferrothorn": {
+    "id": "364",
+    "dex_num": "364",
+    "name": "Ferrothorn",
+    "types": [
+      "Steel",
+      "Grass"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Ferroseed (Lv40)",
+    "locations": [],
+    "summary": "Evolve Ferroseed (Lv40)"
+  },
+  "Litwick": {
+    "id": "365",
+    "dex_num": "365",
+    "name": "Litwick",
+    "types": [
+      "Ghost",
+      "Fire"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Creepy House"
+    ],
+    "summary": "Creepy House"
+  },
+  "Lampent": {
+    "id": "366",
+    "dex_num": "366",
+    "name": "Lampent",
+    "types": [
+      "Ghost",
+      "Fire"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Litwick (Lv41)",
+    "locations": [
+      "Creepy House"
+    ],
+    "summary": "Creepy House, Evolve Litwick (Lv41)"
+  },
+  "Chandelure": {
+    "id": "367",
+    "dex_num": "367",
+    "name": "Chandelure",
+    "types": [
+      "Ghost",
+      "Fire"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Lampent",
+    "locations": [],
+    "summary": "Evolve Lampent ([[List of Items"
+  },
+  "Haxorus": {
+    "id": "368",
+    "dex_num": "368",
+    "name": "Haxorus",
+    "types": [
+      "Dragon"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Fraxure (Lv48)",
+    "locations": [],
+    "summary": "Evolve Fraxure (Lv48)"
+  },
+  "Golurk": {
+    "id": "369",
+    "dex_num": "369",
+    "name": "Golurk",
+    "types": [
+      "Ground",
+      "Ghost"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Golett (Lv43)",
+    "locations": [],
+    "summary": "Evolve Golett (Lv43)"
+  },
+  "Pyukumuku": {
+    "id": "370",
+    "dex_num": "370",
+    "name": "Pyukumuku",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Treasure Beach"
+    ],
+    "summary": "Treasure Beach [[List of Static Encounters"
+  },
+  "Klefki": {
+    "id": "371",
+    "dex_num": "371",
+    "name": "Klefki",
+    "types": [
+      "Steel",
+      "Fairy"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 17"
+    ],
+    "summary": "Route 17 [[Pokéradar"
+  },
+  "Talonflame": {
+    "id": "372",
+    "dex_num": "372",
+    "name": "Talonflame",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Fletchinder (Lv35)",
+    "locations": [],
+    "summary": "Evolve Fletchinder (Lv35)"
+  },
+  "Mimikyu": {
+    "id": "373",
+    "dex_num": "373",
+    "name": "Mimikyu",
+    "types": [
+      "Ghost",
+      "Fairy"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Creepy House"
+    ],
+    "summary": "Creepy House [[List of Static Encounters"
+  },
+  "Volcarona": {
+    "id": "374",
+    "dex_num": "374",
+    "name": "Volcarona",
+    "types": [
+      "Bug",
+      "Fire"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Safari Zone Temple"
+    ],
+    "summary": "Safari Zone Temple [[List of Static Encounters"
+  },
+  "Deino": {
+    "id": "375",
+    "dex_num": "375",
+    "name": "Deino",
+    "types": [
+      "Dark",
+      "Dragon"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Safari Zone (Area 3)"
+  },
+  "Zweilous": {
+    "id": "376",
+    "dex_num": "376",
+    "name": "Zweilous",
+    "types": [
+      "Dark",
+      "Dragon"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Deino (Lv50)",
+    "locations": [],
+    "summary": "Evolve Deino (Lv50)"
+  },
+  "Hydreigon": {
+    "id": "377",
+    "dex_num": "377",
+    "name": "Hydreigon",
+    "types": [
+      "Dark",
+      "Dragon"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Zweilous (Lv64)",
+    "locations": [],
+    "summary": "Evolve Zweilous (Lv64)"
+  },
+  "Latias": {
+    "id": "378",
+    "dex_num": "378",
+    "name": "Latias",
+    "types": [
+      "Dragon",
+      "Psychic"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Boon_Island"
+  },
+  "Latios": {
+    "id": "379",
+    "dex_num": "379",
+    "name": "Latios",
+    "types": [
+      "Dragon",
+      "Psychic"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Boon_Island"
+  },
+  "Deoxys": {
+    "id": "380",
+    "dex_num": "380",
+    "name": "Deoxys",
+    "types": [
+      "Psychic"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Birth Island"
+    ],
+    "summary": "Birth Island [[Legendary Pokémon"
+  },
+  "Jirachi": {
+    "id": "381",
+    "dex_num": "381",
+    "name": "Jirachi",
+    "types": [
+      "Steel",
+      "Psychic"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Legendary Pokémon"
+  },
+  "Nincada": {
+    "id": "382",
+    "dex_num": "382",
+    "name": "Nincada",
+    "types": [
+      "Bug",
+      "Ground"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 4"
+    ],
+    "summary": "Route 4, [[Route 11"
+  },
+  "Bibarel": {
+    "id": "383",
+    "dex_num": "383",
+    "name": "Bibarel",
+    "types": [
+      "Normal",
+      "Water"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 30"
+    ],
+    "summary": "Route 30 [[Pokéradar"
+  },
+  "Riolu": {
+    "id": "384",
+    "dex_num": "384",
+    "name": "Riolu",
+    "types": [
+      "Fighting"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 23"
+    ],
+    "summary": "Route 23 [[Pokéradar"
+  },
+  "Slakoth": {
+    "id": "385",
+    "dex_num": "385",
+    "name": "Slakoth",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 6"
+    ],
+    "summary": "Route 6 [[Pokéradar"
+  },
+  "Vigoroth": {
+    "id": "386",
+    "dex_num": "386",
+    "name": "Vigoroth",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 32"
+    ],
+    "summary": "Route 32 [[Pokéradar"
+  },
+  "Wailmer": {
+    "id": "387",
+    "dex_num": "387",
+    "name": "Wailmer",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Brine Road (East of the Old Shipwreck)"
+  },
+  "Shinx": {
+    "id": "388",
+    "dex_num": "388",
+    "name": "Shinx",
+    "types": [
+      "Electric"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 8"
+    ],
+    "summary": "Route 8 [[Pokéradar"
+  },
+  "Luxio": {
+    "id": "389",
+    "dex_num": "389",
+    "name": "Luxio",
+    "types": [
+      "Electric"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 33"
+    ],
+    "summary": "Route 33 [[Pokéradar"
+  },
+  "Aron": {
+    "id": "390",
+    "dex_num": "390",
+    "name": "Aron",
+    "types": [
+      "Steel",
+      "Rock"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 9"
+    ],
+    "summary": "Route 9 [[Pokéradar"
+  },
+  "Lairon": {
+    "id": "391",
+    "dex_num": "391",
+    "name": "Lairon",
+    "types": [
+      "Steel",
+      "Rock"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Aron (Lv32)",
+    "locations": [],
+    "summary": "Evolve Aron (Lv32)"
+  },
+  "Trapinch": {
+    "id": "392",
+    "dex_num": "392",
+    "name": "Trapinch",
+    "types": [
+      "Ground"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Kindle Road"
+    ],
+    "summary": "Kindle Road [[Pokémon Nests"
+  },
+  "Vibrava": {
+    "id": "393",
+    "dex_num": "393",
+    "name": "Vibrava",
+    "types": [
+      "Ground",
+      "Dragon"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Safari Zone (Area 5)"
+  },
+  "Feebas": {
+    "id": "394",
+    "dex_num": "394",
+    "name": "Feebas",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Kin Island"
+  },
+  "Bagon": {
+    "id": "395",
+    "dex_num": "395",
+    "name": "Bagon",
+    "types": [
+      "Dragon"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Safari Zone (Area 1)"
+  },
+  "Shelgon": {
+    "id": "396",
+    "dex_num": "396",
+    "name": "Shelgon",
+    "types": [
+      "Dragon"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Bagon (Lv30)",
+    "locations": [],
+    "summary": "Evolve Bagon (Lv30)"
+  },
+  "Klink": {
+    "id": "397",
+    "dex_num": "397",
+    "name": "Klink",
+    "types": [
+      "Steel"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Route 10 (Before Rock Tunnel)"
+  },
+  "Klang": {
+    "id": "398",
+    "dex_num": "398",
+    "name": "Klang",
+    "types": [
+      "Steel"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Klink (Lv38)",
+    "locations": [
+      "P2 Laboratory"
+    ],
+    "summary": "P2 Laboratory, Evolve Klink (Lv38)"
+  },
+  "Zorua": {
+    "id": "399",
+    "dex_num": "399",
+    "name": "Zorua",
+    "types": [
+      "Dark"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Hidden Forest"
+    ],
+    "summary": "Hidden Forest"
+  },
+  "Budew": {
+    "id": "400",
+    "dex_num": "400",
+    "name": "Budew",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 3"
+    ],
+    "summary": "Route 3 [[Pokéradar"
+  },
+  "Roselia": {
+    "id": "401",
+    "dex_num": "401",
+    "name": "Roselia",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Budew (Lv15)",
+    "locations": [],
+    "summary": "Evolve Budew (Lv15)"
+  },
+  "Drifloon": {
+    "id": "402",
+    "dex_num": "402",
+    "name": "Drifloon",
+    "types": [
+      "Ghost",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 7"
+    ],
+    "summary": "Route 7 [[Pokéradar"
+  },
+  "Buneary": {
+    "id": "403",
+    "dex_num": "403",
+    "name": "Buneary",
+    "types": [
+      "Normal"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 24"
+    ],
+    "summary": "Route 24 [[Pokéradar"
+  },
+  "Shroomish": {
+    "id": "404",
+    "dex_num": "404",
+    "name": "Shroomish",
+    "types": [
+      "Grass"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Viridian Forest"
+    ],
+    "summary": "Viridian Forest [[Pokéradar"
+  },
+  "Shuppet": {
+    "id": "405",
+    "dex_num": "405",
+    "name": "Shuppet",
+    "types": [
+      "Ghost"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Creepy House"
+    ],
+    "summary": "Creepy House"
+  },
+  "Solosis": {
+    "id": "406",
+    "dex_num": "406",
+    "name": "Solosis",
+    "types": [
+      "Psychic"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 15"
+    ],
+    "summary": "Route 15 [[Pokéradar"
+  },
+  "Duosion": {
+    "id": "407",
+    "dex_num": "407",
+    "name": "Duosion",
+    "types": [
+      "Psychic"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Solosis (Lv32)",
+    "locations": [],
+    "summary": "Evolve Solosis (Lv32)"
+  },
+  "Cottonee": {
+    "id": "408",
+    "dex_num": "408",
+    "name": "Cottonee",
+    "types": [
+      "Grass",
+      "Fairy"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 12"
+    ],
+    "summary": "Route 12, [[Route 13"
+  },
+  "Sandile": {
+    "id": "409",
+    "dex_num": "409",
+    "name": "Sandile",
+    "types": [
+      "Ground",
+      "Dark"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Safari Zone (Area 5)"
+  },
+  "Krokorok": {
+    "id": "410",
+    "dex_num": "410",
+    "name": "Krokorok",
+    "types": [
+      "Ground",
+      "Dark"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Sandile (Lv29)",
+    "locations": [],
+    "summary": "Evolve Sandile (Lv29)"
+  },
+  "Yamask": {
+    "id": "411",
+    "dex_num": "411",
+    "name": "Yamask",
+    "types": [
+      "Ghost"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Safari Zone Temple"
+    ],
+    "summary": "Safari Zone Temple"
+  },
+  "Joltik": {
+    "id": "412",
+    "dex_num": "412",
+    "name": "Joltik",
+    "types": [
+      "Bug",
+      "Electric"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 13"
+    ],
+    "summary": "Route 13, [[Route 14"
+  },
+  "Ferroseed": {
+    "id": "413",
+    "dex_num": "413",
+    "name": "Ferroseed",
+    "types": [
+      "Steel",
+      "Grass"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 18"
+    ],
+    "summary": "Route 18 [[Pokéradar"
+  },
+  "Axew": {
+    "id": "414",
+    "dex_num": "414",
+    "name": "Axew",
+    "types": [
+      "Dragon"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Safari Zone (Area 2)"
+  },
+  "Fraxure": {
+    "id": "415",
+    "dex_num": "415",
+    "name": "Fraxure",
+    "types": [
+      "Dragon"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Axew (Lv38)",
+    "locations": [],
+    "summary": "Evolve Axew (Lv38)"
+  },
+  "Golett": {
+    "id": "416",
+    "dex_num": "416",
+    "name": "Golett",
+    "types": [
+      "Ground",
+      "Ghost"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Safari Zone Temple"
+    ],
+    "summary": "Safari Zone Temple [[List of Static Encounters"
+  },
+  "Fletchling": {
+    "id": "417",
+    "dex_num": "417",
+    "name": "Fletchling",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 1"
+    ],
+    "summary": "Route 1, [[Route 2 (Before the Forest)"
+  },
+  "Fletchinder": {
+    "id": "418",
+    "dex_num": "418",
+    "name": "Fletchinder",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Mt. Ember"
+    ],
+    "summary": "Mt. Ember [[Pokéradar"
+  },
+  "Larvesta": {
+    "id": "419",
+    "dex_num": "419",
+    "name": "Larvesta",
+    "types": [
+      "Bug",
+      "Fire"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Safari Zone Temple"
+    ],
+    "summary": "Safari Zone Temple"
+  },
+  "Stunfisk": {
+    "id": "420",
+    "dex_num": "420",
+    "name": "Stunfisk",
+    "types": [
+      "Ground",
+      "Electric"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 15"
+    ],
+    "summary": "Route 15"
+  },
+  "Sableye": {
+    "id": "421",
+    "dex_num": "421",
+    "name": "Sableye",
+    "types": [
+      "Dark",
+      "Ghost"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Crimson City"
+    ],
+    "summary": "Crimson City [[List of Static Encounters"
+  },
+  "Venipede": {
+    "id": "422",
+    "dex_num": "422",
+    "name": "Venipede",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Viridian Forest"
+    ],
+    "summary": "Viridian Forest [[Pokémon Nests"
+  },
+  "Whirlipede": {
+    "id": "423",
+    "dex_num": "423",
+    "name": "Whirlipede",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Safari Zone (Area 3)"
+  },
+  "Scolipede": {
+    "id": "424",
+    "dex_num": "424",
+    "name": "Scolipede",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Viridian Forest"
+    ],
+    "summary": "Viridian Forest [[Pokémon Nests"
+  },
+  "Tyrunt": {
+    "id": "425",
+    "dex_num": "425",
+    "name": "Tyrunt",
+    "types": [
+      "Rock",
+      "Dragon"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Saffron City"
+  },
+  "Tyrantrum": {
+    "id": "426",
+    "dex_num": "426",
+    "name": "Tyrantrum",
+    "types": [
+      "Rock",
+      "Dragon"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Tyrunt",
+    "locations": [],
+    "summary": "Evolve Tyrunt (Lv39 @ [[Time"
+  },
+  "Snorunt": {
+    "id": "427",
+    "dex_num": "427",
+    "name": "Snorunt",
+    "types": [
+      "Ice"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Seafoam Islands"
+    ],
+    "summary": "Seafoam Islands [[Pokémon Nests"
+  },
+  "Glalie": {
+    "id": "428",
+    "dex_num": "428",
+    "name": "Glalie",
+    "types": [
+      "Ice"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Seafoam Islands"
+    ],
+    "summary": "Seafoam Islands [[Pokémon Nests"
+  },
+  "Froslass": {
+    "id": "429",
+    "dex_num": "429",
+    "name": "Froslass",
+    "types": [
+      "Ice",
+      "Ghost"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Ice Mountains"
+  },
+  "Oricorio": {
+    "id": "433",
+    "dex_num": "433",
+    "name": "Oricorio",
+    "types": [
+      "Ghost",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Pewter City"
+    ],
+    "summary": "Pewter City [[Quests"
+  },
+  "Trubbish": {
+    "id": "434",
+    "dex_num": "434",
+    "name": "Trubbish",
+    "types": [
+      "Poison"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[List of Static Encounters"
+  },
+  "Garbodor": {
+    "id": "435",
+    "dex_num": "435",
+    "name": "Garbodor",
+    "types": [
+      "Poison"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Trubbish (Lv36)",
+    "locations": [],
+    "summary": "Evolve Trubbish (Lv36)"
+  },
+  "Carvanha": {
+    "id": "436",
+    "dex_num": "436",
+    "name": "Carvanha",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Bond Bridge"
+    ],
+    "summary": "Bond Bridge, [[Safari Zone (Area 1)"
+  },
+  "Sharpedo": {
+    "id": "437",
+    "dex_num": "437",
+    "name": "Sharpedo",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Brine Road (East of the Old Shipwreck)"
+  },
+  "Phantump": {
+    "id": "438",
+    "dex_num": "438",
+    "name": "Phantump",
+    "types": [
+      "Grass",
+      "Ghost"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Ilex Forest"
+    ],
+    "summary": "Ilex Forest"
+  },
+  "Trevenant": {
+    "id": "439",
+    "dex_num": "439",
+    "name": "Trevenant",
+    "types": [
+      "Grass",
+      "Ghost"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Phantump",
+    "locations": [],
+    "summary": "Evolve Phantump (Lv40 or [[List of Items"
+  },
+  "Noibat": {
+    "id": "440",
+    "dex_num": "440",
+    "name": "Noibat",
+    "types": [
+      "Flying",
+      "Dragon"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Rock Tunnel"
+    ],
+    "summary": "Rock Tunnel [[Pokémon Nests"
+  },
+  "Noivern": {
+    "id": "441",
+    "dex_num": "441",
+    "name": "Noivern",
+    "types": [
+      "Flying",
+      "Dragon"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Rock Tunnel"
+    ],
+    "summary": "Rock Tunnel [[Pokémon Nests"
+  },
+  "Swablu": {
+    "id": "442",
+    "dex_num": "442",
+    "name": "Swablu",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 23"
+    ],
+    "summary": "Route 23 [[Pokémon Nests"
+  },
+  "Altaria": {
+    "id": "443",
+    "dex_num": "443",
+    "name": "Altaria",
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 23"
+    ],
+    "summary": "Route 23 [[Pokémon Nests"
+  },
+  "Goomy": {
+    "id": "444",
+    "dex_num": "444",
+    "name": "Goomy",
+    "types": [
+      "Dragon"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 15"
+    ],
+    "summary": "Route 15 [[Pokémon Nests"
+  },
+  "Sliggoo": {
+    "id": "445",
+    "dex_num": "445",
+    "name": "Sliggoo",
+    "types": [
+      "Dragon"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Goomy (Lv40)",
+    "locations": [],
+    "summary": "Evolve Goomy (Lv40)"
+  },
+  "Goodra": {
+    "id": "446",
+    "dex_num": "446",
+    "name": "Goodra",
+    "types": [
+      "Dragon"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 15"
+    ],
+    "summary": "Route 15 [[Pokémon Nests"
+  },
+  "Regirock": {
+    "id": "447",
+    "dex_num": "447",
+    "name": "Regirock",
+    "types": [
+      "Rock"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Submerged Temple"
+    ],
+    "summary": "Submerged Temple [[Legendary Pokémon"
+  },
+  "Regice": {
+    "id": "448",
+    "dex_num": "448",
+    "name": "Regice",
+    "types": [
+      "Ice"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Submerged Temple"
+    ],
+    "summary": "Submerged Temple [[Legendary Pokémon"
+  },
+  "Registeel": {
+    "id": "449",
+    "dex_num": "449",
+    "name": "Registeel",
+    "types": [
+      "Steel"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Submerged Temple"
+    ],
+    "summary": "Submerged Temple [[Legendary Pokémon"
+  },
+  "Necrozma": {
+    "id": "470",
+    "dex_num": "470",
+    "name": "Necrozma",
+    "types": [
+      "Psychic",
+      "Dragon"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Legendary Pokémon"
+  },
+  "Stufful": {
+    "id": "451",
+    "dex_num": "451",
+    "name": "Stufful",
+    "types": [
+      "Normal",
+      "Fighting"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Saffron City"
+    ],
+    "summary": "Saffron City [[List of Static Encounters"
+  },
+  "Bewear": {
+    "id": "452",
+    "dex_num": "452",
+    "name": "Bewear",
+    "types": [
+      "Normal",
+      "Fighting"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Stufful (Lv27)",
+    "locations": [],
+    "summary": "Evolve Stufful (Lv27)"
+  },
+  "Dhelmise": {
+    "id": "453",
+    "dex_num": "453",
+    "name": "Dhelmise",
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Old Shipwreck"
+    ],
+    "summary": "Old Shipwreck [[List of Static Encounters"
+  },
+  "Mareanie": {
+    "id": "454",
+    "dex_num": "454",
+    "name": "Mareanie",
+    "types": [
+      "Poison",
+      "Water"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Bond Bridge"
+    ],
+    "summary": "Bond Bridge [[List of Gift Pokémon and Trades"
+  },
+  "Toxapex": {
+    "id": "455",
+    "dex_num": "455",
+    "name": "Toxapex",
+    "types": [
+      "Poison",
+      "Water"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Mareanie (Lv38)",
+    "locations": [
+      "Chrono Island",
+      "Submerged Temple"
+    ],
+    "summary": "Chrono Island, Submerged Temple, Evolve Mareanie (Lv38)"
+  },
+  "Hawlucha": {
+    "id": "456",
+    "dex_num": "456",
+    "name": "Hawlucha",
+    "types": [
+      "Fighting",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Saffron City"
+    ],
+    "summary": "Saffron City [[Pokémon Nests"
+  },
+  "Cacnea": {
+    "id": "457",
+    "dex_num": "457",
+    "name": "Cacnea",
+    "types": [
+      "Grass"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Safari Zone (Area 5)"
+  },
+  "Cacturne": {
+    "id": "458",
+    "dex_num": "458",
+    "name": "Cacturne",
+    "types": [
+      "Grass",
+      "Dark"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Safari Zone (Area 5)"
+  },
+  "Sandygast": {
+    "id": "459",
+    "dex_num": "459",
+    "name": "Sandygast",
+    "types": [
+      "Ground",
+      "Ghost"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[List of Static Encounters"
+  },
+  "Palossand": {
+    "id": "460",
+    "dex_num": "460",
+    "name": "Palossand",
+    "types": [
+      "Ground",
+      "Ghost"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Sandygast (Lv42)",
+    "locations": [],
+    "summary": "Evolve Sandygast (Lv42)"
+  },
+  "Amaura": {
+    "id": "461",
+    "dex_num": "461",
+    "name": "Amaura",
+    "types": [
+      "Rock",
+      "Ice"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Saffron City"
+  },
+  "Aurorus": {
+    "id": "462",
+    "dex_num": "462",
+    "name": "Aurorus",
+    "types": [
+      "Rock",
+      "Ice"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Amaura",
+    "locations": [],
+    "summary": "Evolve Amaura (Lv39 @ [[Time"
+  },
+  "Rockruff": {
+    "id": "463",
+    "dex_num": "463",
+    "name": "Rockruff",
+    "types": [
+      "Rock"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Secret Garden"
+    ],
+    "summary": "Secret Garden [[Pokémon Nests"
+  },
+  "Lycanroc": {
+    "id": "465",
+    "dex_num": "465",
+    "name": "Lycanroc",
+    "types": [
+      "Rock"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Rockruff",
+    "locations": [],
+    "summary": "Evolve Rockruff (Lv25 @ [[Time"
+  },
+  "Meloetta": {
+    "id": "467",
+    "dex_num": "467",
+    "name": "Meloetta",
+    "types": [
+      "Normal",
+      "Fighting"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Legendary Pokémon"
+  },
+  "Cresselia": {
+    "id": "468",
+    "dex_num": "468",
+    "name": "Cresselia",
+    "types": [
+      "Psychic"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Lavender Town"
+  },
+  "Bruxish": {
+    "id": "469",
+    "dex_num": "469",
+    "name": "Bruxish",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Brine Road (East of the Old Shipwreck)"
+  },
+  "Jangmo-o": {
+    "id": "471",
+    "dex_num": "471",
+    "name": "Jangmo-o",
+    "types": [
+      "Dragon"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Safari Zone (Area 5)"
+  },
+  "Hakamo-o": {
+    "id": "472",
+    "dex_num": "472",
+    "name": "Hakamo-o",
+    "types": [
+      "Dragon",
+      "Fighting"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Jangmo-o (Lv35)",
+    "locations": [],
+    "summary": "Evolve Jangmo-o (Lv35)"
+  },
+  "Kommo-o": {
+    "id": "473",
+    "dex_num": "473",
+    "name": "Kommo-o",
+    "types": [
+      "Dragon",
+      "Fighting"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Hakamo-o (Lv45)",
+    "locations": [],
+    "summary": "Evolve Hakamo-o (Lv45)"
+  },
+  "Wimpod": {
+    "id": "474",
+    "dex_num": "474",
+    "name": "Wimpod",
+    "types": [
+      "Bug",
+      "Water"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Cerulean City"
+  },
+  "Golisopod": {
+    "id": "475",
+    "dex_num": "475",
+    "name": "Golisopod",
+    "types": [
+      "Bug",
+      "Water"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Wimpod (Lv30)",
+    "locations": [],
+    "summary": "Evolve Wimpod (Lv30)"
+  },
+  "Fomantis": {
+    "id": "476",
+    "dex_num": "476",
+    "name": "Fomantis",
+    "types": [
+      "Grass"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[List of Static Encounters"
+  },
+  "Lurantis": {
+    "id": "477",
+    "dex_num": "477",
+    "name": "Lurantis",
+    "types": [
+      "Grass"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Fomantis (Lv34)",
+    "locations": [],
+    "summary": "Evolve Fomantis (Lv34)"
+  },
+  "Carbink": {
+    "id": "478",
+    "dex_num": "478",
+    "name": "Carbink",
+    "types": [
+      "Rock",
+      "Fairy"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Mt. Moon",
+      "Pinkan Island"
+    ],
+    "summary": "Mt. Moon, Pinkan Island"
+  },
+  "Chespin": {
+    "id": "479",
+    "dex_num": "479",
+    "name": "Chespin",
+    "types": [
+      "Grass"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Viridian River"
+    ],
+    "summary": "Viridian River [[List of Static Encounters"
+  },
+  "Quilladin": {
+    "id": "480",
+    "dex_num": "480",
+    "name": "Quilladin",
+    "types": [
+      "Grass"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Chespin (Lv16)",
+    "locations": [],
+    "summary": "Evolve Chespin (Lv16)"
+  },
+  "Chesnaught": {
+    "id": "481",
+    "dex_num": "481",
+    "name": "Chesnaught",
+    "types": [
+      "Grass",
+      "Fighting"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Quilladin (Lv36)",
+    "locations": [],
+    "summary": "Evolve Quilladin (Lv36)"
+  },
+  "Fennekin": {
+    "id": "482",
+    "dex_num": "482",
+    "name": "Fennekin",
+    "types": [
+      "Fire"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Viridian River"
+    ],
+    "summary": "Viridian River [[List of Static Encounters"
+  },
+  "Braixen": {
+    "id": "483",
+    "dex_num": "483",
+    "name": "Braixen",
+    "types": [
+      "Fire"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Fennekin (Lv16)",
+    "locations": [],
+    "summary": "Evolve Fennekin (Lv16)"
+  },
+  "Delphox": {
+    "id": "484",
+    "dex_num": "484",
+    "name": "Delphox",
+    "types": [
+      "Fire",
+      "Psychic"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Braixen (Lv36)",
+    "locations": [],
+    "summary": "Evolve Braixen (Lv36)"
+  },
+  "Froakie": {
+    "id": "485",
+    "dex_num": "485",
+    "name": "Froakie",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Viridian River"
+    ],
+    "summary": "Viridian River [[List of Static Encounters"
+  },
+  "Frogadier": {
+    "id": "486",
+    "dex_num": "486",
+    "name": "Frogadier",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Froakie (Lv16)",
+    "locations": [],
+    "summary": "Evolve Froakie (Lv16)"
+  },
+  "Greninja": {
+    "id": "487",
+    "dex_num": "487",
+    "name": "Greninja",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Frogadier (Lv36)",
+    "locations": [],
+    "summary": "Evolve Frogadier (Lv36)"
+  },
+  "Torkoal": {
+    "id": "488",
+    "dex_num": "488",
+    "name": "Torkoal",
+    "types": [
+      "Fire"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "S.S. Anne"
+    ],
+    "summary": "S.S. Anne [[List of Gift Pokémon and Trades"
+  },
+  "Pumpkaboo": {
+    "id": "489",
+    "dex_num": "489",
+    "name": "Pumpkaboo",
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 18"
+    ],
+    "summary": "Route 18 [[List of Static Encounters"
+  },
+  "Gourgeist": {
+    "id": "490",
+    "dex_num": "490",
+    "name": "Gourgeist",
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Pumpkaboo (Lv40)",
+    "locations": [],
+    "summary": "Evolve Pumpkaboo (Lv40)"
+  },
+  "Swirlix": {
+    "id": "491",
+    "dex_num": "491",
+    "name": "Swirlix",
+    "types": [
+      "Fairy"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "S.S. Anne"
+    ],
+    "summary": "S.S. Anne [[Quests"
+  },
+  "Slurpuff": {
+    "id": "492",
+    "dex_num": "492",
+    "name": "Slurpuff",
+    "types": [
+      "Fairy"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Swirlix (Lv35)",
+    "locations": [],
+    "summary": "Evolve Swirlix (Lv35)"
+  },
+  "Scraggy": {
+    "id": "493",
+    "dex_num": "493",
+    "name": "Scraggy",
+    "types": [
+      "Dark",
+      "Fighting"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Kindle Road"
+    ],
+    "summary": "Kindle Road [[Pokéradar"
+  },
+  "Scrafty": {
+    "id": "494",
+    "dex_num": "494",
+    "name": "Scrafty",
+    "types": [
+      "Dark",
+      "Fighting"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Scraggy (Lv39)",
+    "locations": [],
+    "summary": "Evolve Scraggy (Lv39)"
+  },
+  "Lotad": {
+    "id": "495",
+    "dex_num": "495",
+    "name": "Lotad",
+    "types": [
+      "Water",
+      "Grass"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Route 6"
+    ],
+    "summary": "Route 6, [[Route 14"
+  },
+  "Lombre": {
+    "id": "496",
+    "dex_num": "496",
+    "name": "Lombre",
+    "types": [
+      "Water",
+      "Grass"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "[[Safari Zone (Area 1)"
+  },
+  "Ludicolo": {
+    "id": "497",
+    "dex_num": "497",
+    "name": "Ludicolo",
+    "types": [
+      "Water",
+      "Grass"
+    ],
+    "is_evolution": true,
+    "evolution_info": "Evolve Lombre",
+    "locations": [],
+    "summary": "Evolve Lombre ([[List of Items"
+  },
+  "Minior": {
+    "id": "499",
+    "dex_num": "499",
+    "name": "Minior",
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [],
+    "summary": "Lower HP of Minior Meteor Form to less than 50%"
+  },
+  "Diancie": {
+    "id": "500",
+    "dex_num": "500",
+    "name": "Diancie",
+    "types": [
+      "Rock",
+      "Fairy"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Pinkan Island"
+    ],
+    "summary": "Pinkan Island [[Legendary Pokémon"
+  },
+  "Luvdisc": {
+    "id": "501",
+    "dex_num": "501",
+    "name": "Luvdisc",
+    "types": [
+      "Water"
+    ],
+    "is_evolution": false,
+    "evolution_info": "",
+    "locations": [
+      "Viridian City"
+    ],
+    "summary": "Viridian City [[List of Gift Pokémon and Trades"
+  }
+}

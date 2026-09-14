@@ -1,0 +1,57 @@
+{
+  "name": "Route 36 Corridor & National Park",
+  "summary": "Head northwest from Violet City onto Route 36 to survey the regional junction. Encounter the peculiar Sudowoodo blocking the northern highway toward Route 37 (interact to battle and earn the Sudowoodo Horns hat; clearing it requires the SquirtBottle from Ecruteak). Pick up TM83 Work Up, then enter the National Park to collect TM76 Struggle Bug and catch rare Bug, Psychic, and Fairy species in the contest meadow.",
+  "items": [
+    {
+      "name": "TM83 Work Up",
+      "method": "Found on the ground east of the blocking Sudowoodo on Route 36",
+      "type": "Technical Machine"
+    },
+    {
+      "name": "Sudowoodo Horns",
+      "method": "Rewarded as an outfit vanity hat upon engaging the blocking Sudowoodo",
+      "type": "Outfit"
+    },
+    {
+      "name": "TM76 Struggle Bug",
+      "method": "Hidden in the deep northwestern flower bed of National Park",
+      "type": "Technical Machine"
+    },
+    {
+      "name": "Full Restore",
+      "method": "Located along the eastern perimeter fence of National Park",
+      "type": "Medicine"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Schoolboy Alan",
+      "team": [
+        {"species": "Tangela/Pidgeotto", "level": 50, "types": ["Grass", "Flying"]},
+        {"species": "Noctowl", "level": 52, "types": ["Normal", "Flying"]}
+      ]
+    },
+    {
+      "name": "Lass Dana",
+      "team": [
+        {"species": "Flaaffy/Psyduck", "level": 50, "types": ["Electric", "Water"]},
+        {"species": "Golduck", "level": 52, "types": ["Water"]}
+      ]
+    }
+  ],
+  "encounters": {
+    "National Park Meadow": [
+      {"dex_id": "123", "name": "Scyther", "types": ["Bug", "Flying"], "levels": "40", "rates": "20%"},
+      {"dex_id": "127", "name": "Pinsir", "types": ["Bug"], "levels": "40", "rates": "20%"},
+      {"dex_id": "280", "name": "Ralts", "types": ["Psychic", "Fairy"], "levels": "35", "rates": "15%"},
+      {"dex_id": "741", "name": "Oricorio", "types": ["Flying"], "levels": "38", "rates": "15%"}
+    ],
+    "Route 36 Wilds": [
+      {"dex_id": "058", "name": "Growlithe", "types": ["Fire"], "levels": "42-44", "rates": "20%"},
+      {"dex_id": "037", "name": "Vulpix", "types": ["Fire"], "levels": "42-44", "rates": "20%"},
+      {"dex_id": "033", "name": "Nidorino", "types": ["Poison"], "levels": "42", "rates": "15%"},
+      {"dex_id": "030", "name": "Nidorina", "types": ["Poison"], "levels": "42", "rates": "15%"},
+      {"dex_id": "185", "name": "Sudowoodo", "types": ["Rock"], "levels": "50", "rates": "Static (One)"}
+    ]
+  }
+}

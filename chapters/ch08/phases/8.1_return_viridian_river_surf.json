@@ -1,0 +1,47 @@
+{
+  "name": "Viridian River & Route 2 Surf Detour",
+  "summary": "With the Surfboard unlocked, return to Viridian City and paddle across the Viridian River. Discover tranquil waterways teeming with aquatic wildlife and track down the rare static Chikorita hidden in the tall riverside reeds.",
+  "items": [
+    {
+      "name": "Mystic Water",
+      "method": "Pickup on the small sandy river islet behind the old fisherman's pier",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Miracle Seed",
+      "method": "Gift from the Botanist observing the riverside Chikorita habitat",
+      "type": "Hold Item"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Fisherman Barnaby",
+      "team": [
+        {"species": "Goldeen", "level": 40, "types": ["Water"]},
+        {"species": "Seaking", "level": 42, "types": ["Water"]}
+      ]
+    },
+    {
+      "name": "Swimmer Tyson",
+      "team": [
+        {"species": "Quagsire", "level": 43, "types": ["Water", "Ground"]},
+        {"species": "Azumarill", "level": 43, "types": ["Water", "Fairy"]}
+      ]
+    }
+  ],
+  "encounters": {
+    "Water (Surf)": [
+      {"dex_id": "194", "name": "Wooper", "types": ["Water", "Ground"], "levels": "25-30", "rates": "30%"},
+      {"dex_id": "183", "name": "Marill", "types": ["Water", "Fairy"], "levels": "25-30", "rates": "15%"},
+      {"dex_id": "195", "name": "Quagsire", "types": ["Water", "Ground"], "levels": "35", "rates": "5%"},
+      {"dex_id": "054", "name": "Psyduck", "types": ["Water"], "levels": "25-35", "rates": "10%"},
+      {"dex_id": "079", "name": "Slowpoke", "types": ["Water", "Psychic"], "levels": "25-35", "rates": "10%"}
+    ],
+    "Riverbanks (Grass & Static)": [
+      {"dex_id": "152", "name": "Chikorita", "types": ["Grass"], "levels": "5-15", "rates": "Static Reeds"},
+      {"dex_id": "193", "name": "Yanma", "types": ["Bug", "Flying"], "levels": "28", "rates": "20%"},
+      {"dex_id": "204", "name": "Pineco", "types": ["Bug"], "levels": "28", "rates": "15%"},
+      {"dex_id": "083", "name": "Farfetch'd", "types": ["Normal", "Flying"], "levels": "30", "rates": "10%"}
+    ]
+  }
+}

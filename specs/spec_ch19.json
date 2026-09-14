@@ -1,0 +1,51 @@
+{
+  "chapter_id": "ch19",
+  "title": "Act 3 - Chapter 2: Brine Road, Deep Sea & Boon Island (Chuck & Storm Badge)",
+  "act": 3,
+  "hard_mode_level_cap": 72,
+  "gym_duel_limit": 5,
+  "routes_covered": [
+    "Brine Road",
+    "Old Shipwreck",
+    "Deep Sea",
+    "Boon Island"
+  ],
+  "expected_classic_spawns": [
+    "Ambipom",
+    "Bruxish",
+    "Chinchou",
+    "Corsola",
+    "Dhelmise",
+    "Fearow",
+    "Gloom",
+    "Golduck",
+    "Horsea",
+    "Jangmo-o",
+    "Jumpluff",
+    "Krabby",
+    "Lanturn",
+    "Luvdisc",
+    "Magikarp",
+    "Mantine",
+    "Ninjask",
+    "Oricorio",
+    "Psyduck",
+    "Sharpedo",
+    "Shellder",
+    "Skiploom",
+    "Slowpoke",
+    "Smeargle",
+    "Stufful",
+    "Tentacool",
+    "Togepi",
+    "Togetic",
+    "Wailmer",
+    "Weepinbell"
+  ],
+  "prohibited_spawns": [
+    "Cacnea",
+    "Cacturne",
+    "Sandygast",
+    "Pyukumuku"
+  ]
+}

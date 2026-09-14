@@ -1,0 +1,72 @@
+{
+  "name": "Mt. Ember & Team Rocket Outpost",
+  "summary": "Ascend the volcanic crags of Mt. Ember. Confront and defeat the Team Rocket grunts scheming outside their western cave hideout. The liberated sailor gratefully awards you the Seagallop Pass, unlocking regular ferry transit across the Sevii archipelago. Navigate 1F caverns to collect a Magmarizer and Fire Stone, and discover the Power Plant Key near Moltres's summit nest.",
+  "items": [
+    {
+      "name": "Seagallop Pass",
+      "method": "Awarded by the Sailor after driving Team Rocket away from Mt. Ember",
+      "type": "Key Item"
+    },
+    {
+      "name": "TM50 Overheat",
+      "method": "On the western beach, behind the blocking Corsolas (scare away with Mareanie/Toxapex)",
+      "type": "TM"
+    },
+    {
+      "name": "Magmarizer",
+      "method": "Found on the ground along the eastern volcanic path",
+      "type": "Evolution Item"
+    },
+    {
+      "name": "Fire Stone",
+      "method": "On the ground near the entrance to the Team Rocket hideout",
+      "type": "Evolution Item"
+    },
+    {
+      "name": "Power Plant Key",
+      "method": "Found lying on the ground near Moltres's summit chamber",
+      "type": "Key Item"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Team Rocket Grunt",
+      "team": [
+        {"species": "Koffing/Houndour", "level": 46, "types": ["Poison", "Fire"]},
+        {"species": "Grimer/Raticate", "level": 46, "types": ["Poison", "Normal"]}
+      ],
+      "reward": "1472 Pokedollars",
+      "strategy": "Ground-type Earthquake cleans up both Poison hybrids swiftly."
+    },
+    {
+      "name": "Pokémon Ranger Beth",
+      "team": [
+        {"species": "Weepinbell", "level": 44, "types": ["Grass", "Poison"]},
+        {"species": "Gloom", "level": 44, "types": ["Grass", "Poison"]},
+        {"species": "Jolteon/Bellossom", "level": 46, "types": ["Electric", "Grass"]}
+      ],
+      "reward": "1656 Pokedollars",
+      "strategy": "Fire and Ice STAB incinerate her Grass-heavy team with ease."
+    }
+  ],
+  "encounters": {
+    "Grass": [
+      {"dex_id": "067", "name": "Machoke", "types": ["Fighting"], "levels": "35-40", "rates": "10%"},
+      {"dex_id": "075", "name": "Graveler", "types": ["Rock", "Ground"], "levels": "33-37", "rates": "10%"},
+      {"dex_id": "077", "name": "Ponyta", "types": ["Fire"], "levels": "39-42", "rates": "35%"},
+      {"dex_id": "126", "name": "Magmar", "types": ["Fire"], "levels": "45", "rates": "5%"},
+      {"dex_id": "325", "name": "Nosepass", "types": ["Rock"], "levels": "30-35", "rates": "30%"},
+      {"dex_id": "442", "name": "Swablu", "types": ["Normal", "Flying"], "levels": "30-33", "rates": "10%"}
+    ],
+    "Cave": [
+      {"dex_id": "066", "name": "Machop", "types": ["Fighting"], "levels": "34-36", "rates": "20%"},
+      {"dex_id": "074", "name": "Geodude", "types": ["Rock", "Ground"], "levels": "31-34", "rates": "15%"},
+      {"dex_id": "075", "name": "Graveler", "types": ["Rock", "Ground"], "levels": "34-36", "rates": "25%"},
+      {"dex_id": "218", "name": "Slugma", "types": ["Fire"], "levels": "31-34", "rates": "25%"},
+      {"dex_id": "488", "name": "Torkoal", "types": ["Fire"], "levels": "31-34", "rates": "15%"}
+    ],
+    "Poké Radar": [
+      {"dex_id": "418", "name": "Fletchinder", "types": ["Fire", "Flying"], "levels": "32-45", "rates": "50% (Long Rustle)"}
+    ]
+  }
+}

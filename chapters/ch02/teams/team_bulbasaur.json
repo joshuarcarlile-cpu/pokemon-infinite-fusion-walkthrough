@@ -1,0 +1,117 @@
+{
+  "starter": "Bulbasaur",
+  "name": "Team Bulbasaur: Grass Aerial Synergy & Intimidate Breakers",
+  "archetype": "Grass/Flying hybrid aerial coverage, sleep attrition, and Intimidate physical dominance.",
+  "gym_duel_core": [1, 2],
+  "gym_duel_rationale": "Misty enforces a strict 2v2 duel. Enter the arena with Ivysaur/Pidgeotto (Grass/Flying quad-resists Mega Drain and resists Water Pulse while sweeping with STAB Razor Leaf and Gust) and Gyarados/Arbok (Intimidate neuters Staryu, resisting Water and dealing massive physical neutral damage with Bite and Crunch).",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Ivysaur/Pidgeotto",
+      "types": ["Grass", "Flying"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 24,
+      "ability": "Overgrow",
+      "held_item": "Miracle Seed",
+      "role": "Grass/Flying Tank & Gym Duelist",
+      "current_reached_moveset": [
+        "Razor Leaf",
+        "Gust",
+        "Sleep Powder",
+        "Leech Seed"
+      ],
+      "progression_notes": "Ivysaur (evolved Lv. 16) spliced with Pidgeotto (evolved Lv. 18). Quad-resists Grass Mega Drain, resists Water Pulse, and is immune to Ground. STAB Razor Leaf easily dismantles Water foes."
+    },
+    {
+      "slot": 2,
+      "species": "Gyarados/Arbok",
+      "types": ["Water", "Poison"],
+      "status": "Active in Party (Route 4 Purchase & Catch Splice)",
+      "current_level": 24,
+      "ability": "Intimidate",
+      "held_item": "Mystic Water",
+      "role": "Physical Powerhouse & Gym Duelist",
+      "current_reached_moveset": [
+        "Bite",
+        "Crunch",
+        "Ice Fang",
+        "Thrash"
+      ],
+      "progression_notes": "Purchased as Magikarp on Route 3 for $500, evolved at Lv. 20, and spliced with Route 4 Ekans (evolved to Arbok at Lv. 22). Intimidate neuters Staryu while STAB Poison/Water resists Water Pulse and Crunch deals heavy super-effective damage."
+    },
+    {
+      "slot": 3,
+      "species": "Kadabra/Geodude",
+      "types": ["Psychic", "Ground"],
+      "status": "Active in Party (Route 24 & Mt. Moon Splice)",
+      "current_level": 23,
+      "ability": "Synchronize",
+      "held_item": "Twisted Spoon",
+      "role": "Special Artillery & Ground Pivot",
+      "current_reached_moveset": [
+        "Psybeam",
+        "Magnitude",
+        "Confusion",
+        "Rock Throw"
+      ],
+      "progression_notes": "Abra caught on Route 24 evolves into Kadabra at Lv. 16 and splices with Geodude. Combines 90 Special Attack with Rock/Ground physical defense and STAB Psybeam."
+    },
+    {
+      "slot": 4,
+      "species": "Mankey/Spearow",
+      "types": ["Fighting", "Flying"],
+      "status": "Active in Party (Retained from Ch 1)",
+      "current_level": 23,
+      "ability": "Defiant",
+      "held_item": "Silk Scarf",
+      "role": "High-Speed Physical Breaker",
+      "current_reached_moveset": [
+        "Low Kick",
+        "Karate Chop",
+        "Aerial Ace",
+        "Fury Attack"
+      ],
+      "progression_notes": "Fast physical cleaner for rival battles, Nugget Bridge, and trainer routes. Defiant punishes enemy stat drops."
+    }
+  ],
+  "flex_bench": [
+    {
+      "slot": "B1",
+      "species": "Butterfree/Beedrill",
+      "types": ["Bug", "Poison"],
+      "current_level": 22,
+      "ability": "Compound Eyes",
+      "held_item": "Pecha Berry",
+      "role": "97.5% Accuracy Sleep Catcher",
+      "why_use": "Retained from Chapter 1. Compound Eyes boosted Sleep Powder guarantees easy captures of wild Abra and rare spawns."
+    },
+    {
+      "slot": "B2",
+      "species": "Bellsprout/Sandshrew",
+      "types": ["Grass", "Ground"],
+      "current_level": 22,
+      "ability": "Chlorophyll",
+      "held_item": "Miracle Seed",
+      "role": "Grass/Ground Tech & Poison Absorber",
+      "why_use": "Route 24 Bellsprout spliced with Route 4 Sandshrew provides electric immunity and dual powder status support."
+    }
+  ],
+  "fusion_lifecycle": {
+    "active_fusions": [
+      "Ivysaur/Pidgeotto (Grass/Flying starter aerial hybrid with STAB Razor Leaf and Gust)",
+      "Gyarados/Arbok (Water/Poison physical powerhouse with Intimidate and Crunch)",
+      "Kadabra/Geodude (Psychic/Ground special artillery with Magnitude)",
+      "Mankey/Spearow (Fighting/Flying high-speed physical breaker with Low Kick)"
+    ],
+    "unfuse_recommendations": [
+      "1. Visit Cerulean City Poké Mart and purchase Super Splicers ($300 at any Mart).",
+      "2. Unfuse Chapter 1's Tangela/Pidgey at Cerulean Mart counter for $300.",
+      "3. Evolve Bulbasaur to Ivysaur (Lv. 16) and Pidgey to Pidgeotto (Lv. 18), then splice them into Ivysaur/Pidgeotto.",
+      "4. Evolve Route 3 Magikarp to Gyarados (Lv. 20) and splice with Route 4 Arbok (evolved Lv. 22) for massive Intimidate power."
+    ],
+    "upcoming_fusions": [
+      "Ivysaur/Dugtrio (Chapter 3 Vermilion City starter splice for 100% Electric immunity against Surge)",
+      "Kadabra/Alakazam (Post-Linking Cord special sweeper)"
+    ]
+  }
+}

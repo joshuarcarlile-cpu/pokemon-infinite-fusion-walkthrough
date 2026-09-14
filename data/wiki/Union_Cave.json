@@ -1,0 +1,117 @@
+{
+  "title": "Union_Cave",
+  "url": "https://infinitefusion.fandom.com/wiki/Union_Cave",
+  "lead_summary": "Union Cave can be accessed by the South from Route 33 and the North from Route 32.\nOn B1F, there are two exits on the North West which leads to Chamber D and Chamber E of the Ruins of Alph.",
+  "missable_warnings": [],
+  "items": [
+    {
+      "internal_id": "FULLHEAL",
+      "quantity": "",
+      "name": "Full Heal",
+      "location_details": "Hidden by the rock by the South-West corner."
+    },
+    {
+      "internal_id": "HYPERPOTION",
+      "quantity": "",
+      "name": "Hyper Potion",
+      "location_details": "On the ground by the Western side."
+    },
+    {
+      "internal_id": "GREATBALL",
+      "quantity": "",
+      "name": "Great Ball",
+      "location_details": "Hidden by a rock next to Pyromaniac Ray."
+    },
+    {
+      "internal_id": "ZINC",
+      "quantity": "",
+      "name": "Zinc",
+      "location_details": "On the ground by the Eastern side."
+    },
+    {
+      "internal_id": "machine_NORMAL",
+      "quantity": "",
+      "name": "TM67 Retaliate",
+      "location_details": "On a small island near the North-West corner."
+    },
+    {
+      "internal_id": "DUSKSTONE",
+      "quantity": "",
+      "name": "Dusk Stone",
+      "location_details": "On the ground by the North-West corner."
+    },
+    {
+      "internal_id": "TINYMUSHROOM",
+      "quantity": "",
+      "name": "Tiny Mushroom",
+      "location_details": "Hidden by a rock near the exit to Chamber E."
+    },
+    {
+      "internal_id": "ETHER",
+      "quantity": "",
+      "name": "Ether",
+      "location_details": "In the South-East corner."
+    },
+    {
+      "internal_id": "REVIVE",
+      "quantity": "",
+      "name": "Revive",
+      "location_details": "Revive by a rock near the South-West corner."
+    },
+    {
+      "internal_id": "TRADEBALL",
+      "quantity": "10",
+      "name": "Boost Ball",
+      "location_details": "Given by Pokémaniac Larry after defeating him and having captured at least 100 Pokémons."
+    },
+    {
+      "internal_id": "SUPERREPEL",
+      "quantity": "",
+      "name": "Super Repel",
+      "location_details": "Given by Hiker Russel after defeating him."
+    },
+    {
+      "internal_id": "ESCAPEROPE",
+      "quantity": "",
+      "name": "Escape Rope",
+      "location_details": "On the ground by the Eastern Side."
+    },
+    {
+      "internal_id": "machine_ROCK",
+      "quantity": "",
+      "name": "TM23 Smack Down",
+      "location_details": "On the higher ground by the Eastern side."
+    },
+    {
+      "internal_id": "PROTEIN",
+      "quantity": "",
+      "name": "Protein",
+      "location_details": "On the higher ground by the Western side."
+    },
+    {
+      "internal_id": "PARLYZHEAL",
+      "quantity": "",
+      "name": "Paralyze Heal",
+      "location_details": "Hidden by the rock by the Western side."
+    },
+    {
+      "internal_id": "ROCKGEM",
+      "quantity": "",
+      "name": "Rock Gem",
+      "location_details": "Given by Hiker Leonard after defeating him."
+    }
+  ],
+  "sections": [
+    "Items",
+    "Pokémon",
+    "1F",
+    "B1F",
+    "B2F",
+    "Trainers",
+    "1F",
+    "B1F",
+    "B2F",
+    "Layout"
+  ],
+  "raw_wikitext": "{{GlobalToggles}}\n{{InfoboxLocation\n|region=Johto\n|location_image=UnionCave.png\n|map_image=Union_Cave_Map.png\n|connection_1_direction=north\n|connection_1_location=Route 32\n|connection_2_direction=south\n|connection_2_location=Route 33\n|connection_3_direction=northwest\n|connection_3_location=Ruins of Alph\n|connection_3_restrictions=%surf%\n}}\n'''Union Cave''' can be accessed by the South from [[Route 33]] and the North from [[Route 32]].\n\nOn B1F, there are two exits on the North West which leads to Chamber D and Chamber E of the [[Ruins of Alph]].\n\n==Items==\n{{ItemTable/Header}}\n{{ItemTable/Section|1F}}\n{{ItemTable/Data|FULLHEAL||Full Heal|Hidden by the rock by the South-West corner.|1F_FullHeal_UnionCave.png}}\n{{ItemTable/Data|HYPERPOTION||Hyper Potion|On the ground by the Western side.|1F_HyperPotion_UnionCave.png}}\n{{ItemTable/Data|GREATBALL||Great Ball|Hidden by a rock next to Pyromaniac Ray.|1F_GreatBall_UnionCave.png}}\n{{ItemTable/Data|ZINC||Zinc|On the ground by the Eastern side.|1F_Zinc_UnionCave.png}}\n{{ItemTable/Data|machine_NORMAL||TM67 Retaliate|On a small island near the North-West corner.|1F_TM67_UnionCave.png}}\n{{ItemTable/Data|DUSKSTONE||Dusk Stone|On the ground by the North-West corner.|1F_DuskStone_UnionCave.png}}\n{{ItemTable/Section|B1F}}\n{{ItemTable/Data|TINYMUSHROOM||Tiny Mushroom|Hidden by a rock near the exit to Chamber E.|B1F_TinyMushroom_UnionCave.png}}\n{{ItemTable/Data|ETHER||Ether|In the South-East corner.|B1F_Ether_UnionCave.png}}\n{{ItemTable/Data|REVIVE||Revive|Revive by a rock near the South-West corner.|B1F_Revive_UnionCave.png}}\n{{ItemTable/Data|TRADEBALL|10|Boost Ball|Given by Pokémaniac Larry after defeating him and having captured at least 100 Pokémons.|B1F_BoostBall_UnionCave.png}}\n{{ItemTable/Section|B2F}}\n{{ItemTable/Data|SUPERREPEL||Super Repel|Given by Hiker Russel after defeating him.|B2F_SuperRepel_UnionCave.png}}\n{{ItemTable/Data|ESCAPEROPE||Escape Rope|On the ground by the Eastern Side.|B2F_EscapeRope_UnionCave.png}}\n{{ItemTable/Data|machine_ROCK||TM23 Smack Down|On the higher ground by the Eastern side.|B2F_TM23_UnionCave.png}}\n{{ItemTable/Data|PROTEIN||Protein|On the higher ground by the Western side.|B2F_Protein_UnionCave.png}}\n{{ItemTable/Data|PARLYZHEAL||Paralyze Heal|Hidden by the rock by the Western side.|B2F_ParalyzeHeal_UnionCave.png}}\n{{ItemTable/Data|ROCKGEM||Rock Gem|Given by Hiker Leonard after defeating him.|B2F_RockGem_UnionCave.png}}\n{{ItemTable/Footer}}\n\n==Pokémon==\n\n===1F===\n<!--------------------------------------!>\n<!-- CLASSIC & EXPERT MODE POKÉMON 1F --!>\n<!--------------------------------------->\n<div class=\"classic-mode expert-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Cave}}\n{{EncounterTable/Data|020|Raticate|Normal||44|127|10%}}\n{{EncounterTable/Data|028|Sandslash|Ground||43|90|25%}}\n{{EncounterTable/Data|042|Golbat|Poison|Flying|45-47|90|25%}}\n{{EncounterTable/Data|075|Graveler|Rock|Ground|44|120|25%}}\n{{EncounterTable/Data|095|Onix|Rock|Ground|46|45|5%}}\n{{EncounterTable/Data|213|Shuckle|Bug|Rock|40|190|10%}}\n{{EncounterTable/Section|Surf}}\n{{EncounterTable/Data|194|Wooper|Water|Ground|25-40|255|60%}}\n{{EncounterTable/Data|195|Quagsire|Water|Ground|30-45|90|40%}}\n{{EncounterTable/Section|Old Rod}}\n{{EncounterTable/Data|118|Goldeen|Water||10|225|5%}}\n{{EncounterTable/Data|129|Magikarp|Water||10|255|95%}}\n{{EncounterTable/Section|Good Rod}}\n{{EncounterTable/Data|118|Goldeen|Water||20|225|40%}}\n{{EncounterTable/Data|129|Magikarp|Water||20|255|60%}}\n{{EncounterTable/Section|Super Rod}}\n{{EncounterTable/Data|118|Goldeen|Water||40|225|90%}}\n{{EncounterTable/Data|119|Seaking|Water||40|60|3%}}\n{{EncounterTable/Data|129|Magikarp|Water||40|255|7%}}\n{{EncounterTable/Footer}}\n</div>\n<!---------------------------!>\n<!-- REMIX MODE POKÉMON 1F --!>\n<!---------------------------->\n<div class=\"remix-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Cave}}\n{{EncounterTable/Data|028|Sandslash|Ground||43|90|25%}}\n{{EncounterTable/Data|076|Golem|Rock|Ground|44|45|25%}}\n{{EncounterTable/Data|208|Steelix|Steel|Ground|46|25|5%}}\n{{EncounterTable/Data|213|Shuckle|Bug|Rock|40|190|10%}}\n{{EncounterTable/Data|441|Noivern|Flying|Dragon|45-47|45|25%}}\n{{EncounterTable/Data|478|Carbink|Rock|Fairy|44|60|10%}}\n{{EncounterTable/Section|Surf}}\n{{EncounterTable/Data|194|Wooper|Water|Ground|25-40|255|30%}}\n{{EncounterTable/Data|195|Quagsire|Water|Ground|30-45|90|40%}}\n{{EncounterTable/Data|454|Mareanie|Poison|Water|25-40|190|30%}}\n{{EncounterTable/Section|Old Rod}}\n{{EncounterTable/Data|211|Qwilfish|Water|Poison|10|45|5%}}\n{{EncounterTable/Data|434|Trubbish|Poison||5|190|1%}}\n{{EncounterTable/Data|436|Carvanha|Water|Dark|5|225|94%}}\n{{EncounterTable/Section|Good Rod}}\n{{EncounterTable/Data|211|Qwilfish|Water|Poison|20|45|40%}}\n{{EncounterTable/Data|453|Dhelmise|Ghost|Grass|20|25|60%}}\n{{EncounterTable/Section|Super Rod}}\n{{EncounterTable/Data|119|Seaking|Water||40|60|3%}}\n{{EncounterTable/Data|211|Qwilfish|Water|Poison|40|45|90%}}\n{{EncounterTable/Data|437|Sharpedo|Water|Dark|40|60|7%}}\n{{EncounterTable/Footer}}\n</div>\n\n===B1F===\n<!---------------------------------------!>\n<!-- CLASSIC & EXPERT MODE POKÉMON B1F --!>\n<!---------------------------------------->\n<div class=\"classic-mode expert-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Cave}}\n{{EncounterTable/Data|020|Raticate|Normal||44|127|10%}}\n{{EncounterTable/Data|028|Sandslash|Ground||45|90|25%}}\n{{EncounterTable/Data|042|Golbat|Poison|Flying|45-49|90|20%}}\n{{EncounterTable/Data|075|Graveler|Rock|Ground|46|120|25%}}\n{{EncounterTable/Data|095|Onix|Rock|Ground|46|45|10%}}\n{{EncounterTable/Data|169|Crobat|Poison|Flying|48|90|1%}}\n{{EncounterTable/Data|208|Steelix|Steel|Ground|48|25|4%}}\n{{EncounterTable/Data|213|Shuckle|Bug|Rock|40|190|5%}}\n{{EncounterTable/Section|Surf}}\n{{EncounterTable/Data|194|Wooper|Water|Ground|25-40|255|60%}}\n{{EncounterTable/Data|195|Quagsire|Water|Ground|30-45|90|40%}}\n{{EncounterTable/Section|Old Rod}}\n{{EncounterTable/Data|118|Goldeen|Water||10|225|5%}}\n{{EncounterTable/Data|129|Magikarp|Water||10|255|95%}}\n{{EncounterTable/Section|Good Rod}}\n{{EncounterTable/Data|118|Goldeen|Water||20|225|40%}}\n{{EncounterTable/Data|129|Magikarp|Water||20|255|60%}}\n{{EncounterTable/Section|Super Rod}}\n{{EncounterTable/Data|118|Goldeen|Water||40|225|90%}}\n{{EncounterTable/Data|119|Seaking|Water||40|60|3%}}\n{{EncounterTable/Data|129|Magikarp|Water||40|255|7%}}\n{{EncounterTable/Footer}}\n</div>\n<!----------------------------!>\n<!-- REMIX MODE POKÉMON B1F --!>\n<!----------------------------->\n<div class=\"remix-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Cave}}\n{{EncounterTable/Data|028|Sandslash|Ground||43|90|25%}}\n{{EncounterTable/Data|076|Golem|Rock|Ground|44|45|25%}}\n{{EncounterTable/Data|208|Steelix|Steel|Ground|46|25|5%}}\n{{EncounterTable/Data|213|Shuckle|Bug|Rock|40|190|10%}}\n{{EncounterTable/Data|441|Noivern|Flying|Dragon|45-47|45|25%}}\n{{EncounterTable/Data|478|Carbink|Rock|Fairy|44|60|10%}}\n{{EncounterTable/Section|Surf}}\n{{EncounterTable/Data|194|Wooper|Water|Ground|25-40|255|30%}}\n{{EncounterTable/Data|195|Quagsire|Water|Ground|30-45|90|40%}}\n{{EncounterTable/Data|454|Mareanie|Poison|Water|25-40|190|30%}}\n{{EncounterTable/Section|Old Rod}}\n{{EncounterTable/Data|211|Qwilfish|Water|Poison|10|45|5%}}\n{{EncounterTable/Data|434|Trubbish|Poison||5|190|1%}}\n{{EncounterTable/Data|436|Carvanha|Water|Dark|5|225|94%}}\n{{EncounterTable/Section|Good Rod}}\n{{EncounterTable/Data|211|Qwilfish|Water|Poison|20|45|40%}}\n{{EncounterTable/Data|453|Dhelmise|Ghost|Grass|20|25|60%}}\n{{EncounterTable/Section|Super Rod}}\n{{EncounterTable/Data|119|Seaking|Water||40|60|3%}}\n{{EncounterTable/Data|211|Qwilfish|Water|Poison|40|45|90%}}\n{{EncounterTable/Data|437|Sharpedo|Water|Dark|40|60|7%}}\n{{EncounterTable/Footer}}\n</div>\n\n===B2F===\n<!---------------------------------------!>\n<!-- CLASSIC & EXPERT MODE POKÉMON B2F --!>\n<!---------------------------------------->\n<div class=\"classic-mode expert-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Cave}}\n{{EncounterTable/Data|020|Raticate|Normal||44|127|10%}}\n{{EncounterTable/Data|028|Sandslash|Ground||45|90|25%}}\n{{EncounterTable/Data|042|Golbat|Poison|Flying|45-49|90|20%}}\n{{EncounterTable/Data|075|Graveler|Rock|Ground|46|120|25%}}\n{{EncounterTable/Data|095|Onix|Rock|Ground|46|45|10%}}\n{{EncounterTable/Data|169|Crobat|Poison|Flying|48|90|1%}}\n{{EncounterTable/Data|208|Steelix|Steel|Ground|48|25|4%}}\n{{EncounterTable/Data|213|Shuckle|Bug|Rock|40|190|5%}}\n{{EncounterTable/Section|Surf}}\n{{EncounterTable/Data|194|Wooper|Water|Ground|25-40|255|60%}}\n{{EncounterTable/Data|195|Quagsire|Water|Ground|30-45|90|40%}}\n{{EncounterTable/Section|Old Rod}}\n{{EncounterTable/Data|118|Goldeen|Water||10|225|5%}}\n{{EncounterTable/Data|129|Magikarp|Water||10|255|95%}}\n{{EncounterTable/Section|Good Rod}}\n{{EncounterTable/Data|118|Goldeen|Water||20|225|40%}}\n{{EncounterTable/Data|129|Magikarp|Water||20|255|60%}}\n{{EncounterTable/Section|Super Rod}}\n{{EncounterTable/Data|118|Goldeen|Water||40|225|90%}}\n{{EncounterTable/Data|119|Seaking|Water||40|60|3%}}\n{{EncounterTable/Data|129|Magikarp|Water||40|255|7%}}\n{{EncounterTable/Section|Static}}\n{{EncounterTable/Data|131|Lapras|Water|Ice|45|45|One}}\n{{EncounterTable/Footer}}\n</div>\n<!----------------------------!>\n<!-- REMIX MODE POKÉMON B2F --!>\n<!----------------------------->\n<div class=\"remix-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Cave}}\n{{EncounterTable/Data|028|Sandslash|Ground||43|90|25%}}\n{{EncounterTable/Data|076|Golem|Rock|Ground|44|45|25%}}\n{{EncounterTable/Data|208|Steelix|Steel|Ground|46|25|5%}}\n{{EncounterTable/Data|213|Shuckle|Bug|Rock|40|190|10%}}\n{{EncounterTable/Data|421|Sableye|Dark|Ghost|44|45|10%}}\n{{EncounterTable/Data|441|Noivern|Flying|Dragon|45-47|45|25%}}\n{{EncounterTable/Section|Surf}}\n{{EncounterTable/Data|194|Wooper|Water|Ground|25-40|255|30%}}\n{{EncounterTable/Data|195|Quagsire|Water|Ground|30-45|90|40%}}\n{{EncounterTable/Data|454|Mareanie|Poison|Water|25-40|190|30%}}\n{{EncounterTable/Section|Old Rod}}\n{{EncounterTable/Data|211|Qwilfish|Water|Poison|10|45|5%}}\n{{EncounterTable/Data|434|Trubbish|Poison||5|190|1%}}\n{{EncounterTable/Data|436|Carvanha|Water|Dark|5|225|94%}}\n{{EncounterTable/Section|Good Rod}}\n{{EncounterTable/Data|211|Qwilfish|Water|Poison|20|45|40%}}\n{{EncounterTable/Data|453|Dhelmise|Ghost|Grass|20|25|60%}}\n{{EncounterTable/Section|Super Rod}}\n{{EncounterTable/Data|119|Seaking|Water||40|60|3%}}\n{{EncounterTable/Data|211|Qwilfish|Water|Poison|40|45|90%}}\n{{EncounterTable/Data|437|Sharpedo|Water|Dark|40|60|7%}}\n{{EncounterTable/Section|Static}}\n{{EncounterTable/Data|131|Lapras|Water|Ice|45|45|One}}\n{{EncounterTable/Footer}}\n</div>\n\n==Trainers==\n===1F===\n{{Trainer\n| trainerClass=BLACKBELT\n| name=Peter\n| trainerOverworldSprite=BW (57).png\n| pokemon1=234.106\n| pokemon1Level=45\n| pokemon2=168.67\n| pokemon2Level=50\n| pokemon2Ability=[[bulbapedia:No Guard (Ability)|No Guard]]\n| pokemon2Move1=Revenge\n| pokemon2Move2=Foresight\n| pokemon2Move3=Spider Web\n| pokemon2Move4=Low Kick\n| remixPokemon1=362.168\n| remixPokemon1Level=52\n| remixPokemon2=269.293\n| remixPokemon2Level=52\n| remixPokemon3=105.473\n| remixPokemon3Level=55\n}}\n\n{{Trainer\n| trainerClass=PYROMANIAC\n| name=Ray\n| trainerOverworldSprite=BWPyro.png\n| pokemon1=164.38\n| pokemon1Level=48\n| remixPokemon1=126.494\n| remixPokemon1Level=55\n| remixPokemon2=488.475\n| remixPokemon2Level=56\n| remixPokemon3=498.59\n| remixPokemon3Level=57\n| remixPokemon3Ability=[[bulbapedia:Shields Down (Ability)|Shields Down]]\n| expertPokemon1=455.38\n| expertPokemon1Level=48\n| expertPokemon1Item=LEFTOVERS\n| expertPokemon1Nature=Calm\n| expertPokemon1Ability=[[bulbapedia:Drought (Ability)|Drought]]\n| expertPokemon1Move1=Will-O-Wisp\n| expertPokemon1Move2=Hex\n| expertPokemon1Move3=Haze\n| expertPokemon1Move4=Toxic Spikes\n| expertPokemon1IVHP=31\n| expertPokemon1IVAtk=31\n| expertPokemon1IVDef=31\n| expertPokemon1IVSpA=31\n| expertPokemon1IVSpD=31\n| expertPokemon1IVSpe=31\n| expertPokemon1EVHP=252\n| expertPokemon1EVAtk=0\n| expertPokemon1EVDef=6\n| expertPokemon1EVSpA=0\n| expertPokemon1EVSpD=252\n| expertPokemon1EVSpe=0\n| expertPokemon2=309.439\n| expertPokemon2Level=48\n| expertPokemon2Item=LIECHIBERRY\n| expertPokemon2Nature=Adamant\n| expertPokemon2Ability=[[bulbapedia:Harvest (Ability)|Harvest]]\n| expertPokemon2Move1=Phantom Force\n| expertPokemon2Move2=Horn Leech\n| expertPokemon2Move3=Body Slam\n| expertPokemon2Move4=Drain Punch\n| expertPokemon2IVHP=31\n| expertPokemon2IVAtk=31\n| expertPokemon2IVDef=31\n| expertPokemon2IVSpA=31\n| expertPokemon2IVSpD=31\n| expertPokemon2IVSpe=31\n| expertPokemon2EVHP=0\n| expertPokemon2EVAtk=252\n| expertPokemon2EVDef=6\n| expertPokemon2EVSpA=0\n| expertPokemon2EVSpD=0\n| expertPokemon2EVSpe=252\n}}\n\n{{Trainer\n| trainerClass=PYROMANIAC\n| name=Bill\n| trainerOverworldSprite=BWPyro.png\n| pokemon1=109\n| pokemon1Level=44\n| pokemon2=126.110\n| pokemon2Level=46\n| remixPokemon1=367.131\n| remixPokemon1Level=57\n| remixPokemon2=337.281\n| remixPokemon2Level=56\n| remixPokemon3=488.360\n| remixPokemon3Level=57\n}}\n\n{{Trainer\n| trainerClass=COOLTRAINER_F\n| name=Emma\n| trainerOverworldSprite=BW (42).png\n| postBattleAction=Rematch\n| pokemon1=62.199\n| pokemon1Level=47\n| remixPokemon1=437.324\n| remixPokemon1Level=53\n| remixPokemon2=281.284\n| remixPokemon2Level=55\n| remixPokemon3=318.265\n| remixPokemon3Level=57\n}}\n\n{{Trainer\n| trainerClass=COOLTRAINER_F\n| name=Amelia\n| trainerOverworldSprite=BW (42).png\n| postBattleAction=Rematch\n| pokemon1=189.80\n| pokemon1Level=47\n| remixPokemon1=284.130\n| remixPokemon1Level=54\n| remixPokemon2=24.334\n| remixPokemon2Level=55\n| remixPokemon3=497.443\n| remixPokemon3Level=55\n| remixPokemon4=441.62\n| remixPokemon4Level=56\n}}\n\n===B1F===\n{{Trainer\n| trainerClass=POKEMANIAC\n| name=Andrew\n| trainerOverworldSprite=BW (30).png\n| pokemon1=105\n| pokemon1Level=44\n| pokemon2=216.105\n| pokemon2Level=45\n| remixPokemon1=201.420\n| remixPokemon1Level=54\n}}\n\n{{Trainer\n| trainerClass=HIKER\n| name=Phillip\n| trainerOverworldSprite=BW (72).png\n| postBattleAction=Rematch\n| pokemon1=75\n| pokemon1Level=44\n| pokemon2=75\n| pokemon2Level=44\n| pokemon3=75.76\n| pokemon3Level=45\n| remixPokemon1=230.123\n| remixPokemon1Level=54\n| remixPokemon1Item=EVIOLITE\n| remixPokemon2=490.171\n| remixPokemon2Level=54\n}}\n\n{{Trainer\n| trainerClass=POKEMANIAC\n| name=Larry\n| trainerOverworldSprite=BW (30).png\n| postBattleAction=Gives {{ItemIcon|TRADEBALL}} {{#invoke:ItemHelper|name|TRADEBALL}} x10 if the player has caught at least 100 species of Pokémon\n| pokemon1=199.91\n| pokemon1Level=47\n| remixPokemon1=334.59\n| remixPokemon1Level=56\n| remixPokemon2=248.321\n| remixPokemon2Level=57\n| remixPokemon3=374.97\n| remixPokemon3Level=56\n}}\n\n===B2F===\n{{Trainer\n| trainerClass=HIKER\n| name=Russel\n| trainerOverworldSprite=BW (72).png\n| postBattleAction=Gives {{ItemIcon|SUPERREPEL}} {{#invoke:ItemHelper|name|SUPERREPEL}} x1\n| pokemon1=75\n| pokemon1Level=43\n| pokemon2=75\n| pokemon2Level=43\n| pokemon3=206.76\n| pokemon3Level=45\n| remixPokemon1=128.265\n| remixPokemon1Level=53\n| remixPokemon2=164.168\n| remixPokemon2Level=53\n| remixPokemon3=453.131\n| remixPokemon3Level=53\n}}\n\n{{Trainer\n| trainerClass=COOLTRAINER_F\n| name=Gwen\n| trainerOverworldSprite=BW (42).png\n| pokemon1=133\n| pokemon1Level=45\n| pokemon2=134.272\n| pokemon2Level=43\n| pokemon3=136.271\n| pokemon3Level=43\n| pokemon4=196.135\n| pokemon4Level=43\n| remixPokemon1=443.321\n| remixPokemon1Level=55\n| remixPokemon2=269.302\n| remixPokemon2Level=53\n| remixPokemon3=206.121\n| remixPokemon3Level=53\n| remixPokemon4=492.477\n| remixPokemon4Level=55\n}}\n\n{{Trainer\n| trainerClass=HIKER\n| name=Daniel\n| trainerOverworldSprite=BW (72).png\n| pokemon1=95\n| pokemon1Level=45\n| pokemon2=205.95\n| pokemon2Level=45\n| remixPokemon1=175.269\n| remixPokemon1Level=54\n| remixPokemon1Move1=Shell Smash\n| remixPokemon1Move2=Metronome\n| remixPokemon2=170.170\n| remixPokemon2Level=54\n| remixPokemon2Item=EVIOLITE\n| remixPokemon2Move1=Parabolic Charge\n| remixPokemon2Move2=Soak\n| remixPokemon3=36.95\n| remixPokemon3Level=55\n| remixPokemon3Item=EVIOLITE\n| remixPokemon3Move1=Metronome\n}}\n\n{{Trainer\n| trainerClass=COOLTRAINER_M\n| name=Nick\n| trainerOverworldSprite=BW (41).png\n| pokemon1=6.156\n| pokemon1Level=46\n| pokemon2=3.153\n| pokemon2Level=46\n| pokemon3=9.159\n| pokemon3Level=46\n| remixPokemon1=124.358\n| remixPokemon1Level=56\n| remixPokemon2=302.359\n| remixPokemon2Level=56\n| remixPokemon3=275.157\n| remixPokemon3Level=58\n}}\n\n{{Trainer\n| trainerClass=HIKER\n| name=Leonard\n| trainerOverworldSprite=BW (72).png\n| postBattleAction=Gives {{ItemIcon|ROCKGEM}} {{#invoke:ItemHelper|name|ROCKGEM}} x1\n| pokemon1=67\n| pokemon1Level=44\n| pokemon2=166.75\n| pokemon2Level=46\n| remixPokemon1=6.186\n| remixPokemon1Level=56\n| remixPokemon1Ability=[[bulbapedia:Drizzle (Ability)|Drizzle]]\n| remixPokemon1Move1=U-turn\n| remixPokemon2=248.372\n| remixPokemon2Level=56\n| remixPokemon2Ability=[[bulbapedia:Sand Stream (Ability)|Sand Stream]]\n| remixPokemon2Move1=U-turn\n| remixPokemon3=462.135\n| remixPokemon3Level=56\n| remixPokemon3Ability=[[bulbapedia:Snow Warning (Ability)|Snow Warning]]\n| remixPokemon3Move1=Volt Switch\n| remixPokemon4=38.430\n| remixPokemon4Level=56\n| remixPokemon4Ability=[[bulbapedia:Drought (Ability)|Drought]]\n| remixPokemon4Move1=U-turn\n}}\n\n==Layout==\n{| class=\"roundy\" style=\"margin:auto; background: #000; border: 3px solid #{{Locationcolor/dark|mountain}}\"\n|-\n! style=\"background:#{{Locationcolor/light|mountain}}; {{roundytr|5px}}\" |1F\n! style=\"background:#{{Locationcolor/light|mountain}}; {{roundytr|5px}}\" |B1F\n! style=\"background:#{{Locationcolor/light|mountain}}; {{roundytr|5px}}\" |B2F\n|-\n|[[File:UnionCave.png|320x400px]]\n|[[File:UnionCave_B1.png|320x400px]]\n|[[File:UnionCave_B2.png|320x400px]]\n|-\n| colspan=\"3\" style=\"background:#{{Locationcolor/light|mountain}}; {{roundybottom|5px}}\" |&nbsp;\n|}\n\n[[Category:Locations]]\n[[Category:Johto]]"
+}

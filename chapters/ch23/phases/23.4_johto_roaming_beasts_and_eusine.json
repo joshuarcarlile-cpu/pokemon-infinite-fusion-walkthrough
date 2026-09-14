@@ -1,0 +1,49 @@
+{
+  "name": "Johto Roaming Beasts & Eusine's Pursuit",
+  "summary": "Travel to the Ruins of Alph in Johto to rendezvous with legendary beast investigator Eusine. Enter Chamber A and descend into the subterranean basement where the sacred powers of Raikou and Suicune converge, manifesting as the formidable fused beast Raicune (Lv. 50). After this dramatic battle, the beasts scatter across Johto as roaming encounters alongside Entei (who roamed after your Victory Road encounter). Obtain the Weather Tracker from the research laboratory to pinpoint their roaming coordinates: Entei generates harsh sunlight, while Raicune summons fierce thunderstorms. Track and capture both beasts across the Johto mainland.",
+  "items": [
+    {
+      "name": "Weather Tracker",
+      "method": "Given by the lead scientist in the Ruins of Alph Research Center",
+      "type": "Key Item"
+    },
+    {
+      "name": "Magnet",
+      "method": "Hidden behind an ancient glyph pillar in Chamber A basement",
+      "type": "Hold Item"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Investigator Eusine",
+      "title": "Mythical Hunter",
+      "reward": "P5,500",
+      "pokemon": [
+        {
+          "species": "Alakazam/Hypno",
+          "level": 70,
+          "types": ["Psychic"]
+        },
+        {
+          "species": "Electrode/Gengar",
+          "level": 70,
+          "types": ["Electric", "Ghost"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Special": [
+      {
+        "species": "Raicune",
+        "levels": "50",
+        "rate": "Chamber A Basement Event / Johto Roamer"
+      },
+      {
+        "species": "Entei",
+        "levels": "45",
+        "rate": "Johto Sunny Weather Roamer"
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "title": "Route_33",
+  "url": "https://infinitefusion.fandom.com/wiki/Route_33",
+  "lead_summary": "Route 33 is a route that connects Azalea Town to Union Cave.\nWhen the Slowpoke Well in Azalea Town is flooding, the route is blocked by construction workers and machine.",
+  "missable_warnings": [],
+  "items": [
+    {
+      "internal_id": "ASPEARBERRY",
+      "quantity": "",
+      "name": "Aspear Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "CHERIBERRY",
+      "quantity": "",
+      "name": "Cheri Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "CHESTOBERRY",
+      "quantity": "",
+      "name": "Chesto Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "LEPPABERRY",
+      "quantity": "",
+      "name": "Leppa Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "LUMBERRY",
+      "quantity": "",
+      "name": "Lum Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "ORANBERRY",
+      "quantity": "",
+      "name": "Oran Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "PECHABERRY",
+      "quantity": "",
+      "name": "Pecha Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "PERSIMBERRY",
+      "quantity": "",
+      "name": "Persim Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "RAWSTBERRY",
+      "quantity": "",
+      "name": "Rawst Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "SITRUSBERRY",
+      "quantity": "",
+      "name": "Sitrus Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    }
+  ],
+  "sections": [
+    "Items",
+    "Pokémon"
+  ],
+  "raw_wikitext": "{{GlobalToggles}}\n{{InfoboxLocation\n|region=Johto\n|location_image=Route33.png\n|map_image=Route_33_Map.png\n|connection_1_direction=north\n|connection_1_location=Union Cave\n|connection_2_direction=west\n|connection_2_location=Azalea Town\n}}\n'''Route 33''' is a route that connects [[Azalea Town]] to [[Union Cave]].\n\nWhen the Slowpoke Well in Azalea Town is flooding, the route is blocked by construction workers and machine.\n\n==Items==\n{{ItemTable/Header}}\n{{ItemTable/Section|Berry Bushes}}\n{{ItemTable/Data|ASPEARBERRY||Aspear Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|CHERIBERRY||Cheri Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|CHESTOBERRY||Chesto Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|LEPPABERRY||Leppa Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|LUMBERRY||Lum Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|ORANBERRY||Oran Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|PECHABERRY||Pecha Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|PERSIMBERRY||Persim Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|RAWSTBERRY||Rawst Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|SITRUSBERRY||Sitrus Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Footer}}\n\n==Pokémon==\n<!-----------------------------------!>\n<!-- CLASSIC & EXPERT MODE POKÉMON --!>\n<!------------------------------------>\n<div class=\"classic-mode expert-mode\">\n{{EncounterTable/Header/Time}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|019|Rattata|Normal||45|255|-|-|20%}}\n{{EncounterTable/Data|020|Raticate|Normal||43|127|30%|30%|40%}}\n{{EncounterTable/Data|022|Fearow|Normal|Flying|40-43|90|20%|20%|-}}\n{{EncounterTable/Data|024|Arbok|Poison||40-44|90|15%|15%|-}}\n{{EncounterTable/Data|042|Golbat|Poison|Flying|44|90|-|-|20%}}\n{{EncounterTable/Data|188|Skiploom|Grass|Flying|40-42|120|30%|30%|-}}\n{{EncounterTable/Data|189|Jumpluff|Grass|Flying|45|45|5%|5%|-}}\n{{EncounterTable/Data|198|Murkrow|Dark|Flying|40|30|-|-|20%}}\n{{EncounterTable/Section|Poké Radar}}\n{{EncounterTable/Data|389|Luxio|Electric||40-45|120|50% <small>([[Poké Radar#How_it_works|long rustle]])</small>}}\n{{EncounterTable/Footer/Time}}\n</div>\n<!------------------------!>\n<!-- REMIX MODE POKÉMON --!>\n<!------------------------->\n<div class=\"remix-mode\">\n{{EncounterTable/Header/Time}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|188|Skiploom|Grass|Flying|40-42|120|30%|30%|-}}\n{{EncounterTable/Data|189|Jumpluff|Grass|Flying|45|45|5%|5%|-}}\n{{EncounterTable/Data|198|Murkrow|Dark|Flying|40|30|-|-|20%}}\n{{EncounterTable/Data|255|Mismagius|Ghost||42-44|45|-|-|10%}}\n{{EncounterTable/Data|256|Honchkrow|Dark|Flying|42-44|30|-|-|10%}}\n{{EncounterTable/Data|273|Gliscor|Ground|Flying|44|30|-|-|10%}}\n{{EncounterTable/Data|371|Klefki|Steel|Fairy|40-43|60|20%|20%|-}}\n{{EncounterTable/Data|373|Mimikyu|Ghost|Fairy|<abbr title{{=}}\"Morning: 40-44&#10;Day: 40-44&#10;Night: 45\">40-45</abbr>|45|15%|15%|20%}}\n{{EncounterTable/Data|383|Bibarel|Normal|Water|43|127|30%|30%|-}}\n{{EncounterTable/Data|452|Bewear|Normal|Fighting|43|70|-|-|30%}}\n{{EncounterTable/Section|Poké Radar}}\n{{EncounterTable/Data|389|Luxio|Electric||40-45|120|50% <small>([[Poké Radar#How_it_works|long rustle]])</small>}}\n{{EncounterTable/Footer/Time}}\n</div>\n[[Category:Locations]]\n[[Category:Johto]]"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Ilex Forest Canopy & The Woodcutter",
+  "summary": "Pass through the Route 34 southern gate into the ancient canopy of Ilex Forest, now accessible following Whitney's defeat. Assist the lumberjack and his Scyther by chopping fallen timbers to gain positive Karma. Discover the sacred Celebi Shrine in the forest center, defeat the static Shedinja to claim the Halo outfit hat, and catch Bug and Fighting species including wild Heracross and Poké Radar Breloom.",
+  "items": [
+    {
+      "name": "Halo",
+      "method": "Rewarded as a vanity hat outfit upon defeating the static Shedinja encounter",
+      "type": "Outfit"
+    },
+    {
+      "name": "Trevenant Forest King Crown",
+      "method": "Found lying beside a shaded ledge in the central canopy",
+      "type": "Outfit"
+    },
+    {
+      "name": "Trevenant Forest King Cloak",
+      "method": "Tucked away in the southeast clearing near the Azalea gate",
+      "type": "Outfit"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Bug Catcher Wayne",
+      "team": [
+        {"species": "Ledyba/Spinarak", "level": 48, "types": ["Bug", "Poison"]},
+        {"species": "Ariados", "level": 50, "types": ["Bug", "Poison"]}
+      ]
+    }
+  ],
+  "encounters": {
+    "Grass": [
+      {"dex_id": "012", "name": "Butterfree", "types": ["Bug", "Flying"], "levels": "31-33", "rates": "15%"},
+      {"dex_id": "015", "name": "Beedrill", "types": ["Bug", "Poison"], "levels": "31-33", "rates": "15%"},
+      {"dex_id": "214", "name": "Heracross", "types": ["Bug", "Fighting"], "levels": "34", "rates": "5%"},
+      {"dex_id": "204", "name": "Pineco", "types": ["Bug"], "levels": "30", "rates": "20%"},
+      {"dex_id": "190", "name": "Aipom", "types": ["Normal"], "levels": "33", "rates": "15%"},
+      {"dex_id": "047", "name": "Parasect", "types": ["Bug", "Grass"], "levels": "35", "rates": "5%"},
+      {"dex_id": "044", "name": "Gloom", "types": ["Grass", "Poison"], "levels": "31-33", "rates": "25% (Night)"},
+      {"dex_id": "438", "name": "Phantump", "types": ["Grass", "Ghost"], "levels": "33", "rates": "15% (Night)"}
+    ],
+    "Water (Surf & Rod)": [
+      {"dex_id": "060", "name": "Poliwag", "types": ["Water"], "levels": "15-30", "rates": "90%"},
+      {"dex_id": "061", "name": "Poliwhirl", "types": ["Water"], "levels": "35", "rates": "10%"},
+      {"dex_id": "062", "name": "Poliwrath", "types": ["Water", "Fighting"], "levels": "40", "rates": "5% (Super Rod)"},
+      {"dex_id": "186", "name": "Politoed", "types": ["Water"], "levels": "40", "rates": "10% (Super Rod)"}
+    ],
+    "Poké Radar & Static": [
+      {"dex_id": "355", "name": "Breloom", "types": ["Grass", "Fighting"], "levels": "30", "rates": "Radar (Long Rustle)"},
+      {"dex_id": "289", "name": "Shedinja", "types": ["Bug", "Ghost"], "levels": "45", "rates": "Static (One)"},
+      {"dex_id": "251", "name": "Celebi", "types": ["Psychic", "Grass"], "levels": "30", "rates": "Static (Shrine / GS Ball)"}
+    ]
+  }
+}

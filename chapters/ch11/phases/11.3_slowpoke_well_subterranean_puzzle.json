@@ -1,0 +1,40 @@
+{
+  "name": "Slowpoke Well Subterranean Puzzle",
+  "summary": "Plunge into the submerged depths of Slowpoke Well using HM06 Dive. The subterranean drainage valves are clogged by four immovable Slowpokes. Execute the boulder sequence to herd each Slowpoke into wild Shellders, triggering evolution into Slowbro to clear the drainage conduits and permanently unflood Azalea Town.",
+  "items": [
+    {
+      "name": "Water Stone",
+      "method": "Located on the western subterranean ledge inside Slowpoke Well",
+      "type": "Evolution Stone"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Rocket Grunt",
+      "team": [
+        {"species": "Koffing/Zubat", "level": 48, "types": ["Poison", "Flying"]},
+        {"species": "Golbat", "level": 50, "types": ["Poison", "Flying"]}
+      ]
+    },
+    {
+      "name": "Rocket Grunt",
+      "team": [
+        {"species": "Raticate/Arbok", "level": 49, "types": ["Normal", "Poison"]},
+        {"species": "Weezing", "level": 50, "types": ["Poison"]}
+      ]
+    }
+  ],
+  "encounters": {
+    "Cave (Classic)": [
+      {"dex_id": "079", "name": "Slowpoke", "types": ["Water", "Psychic"], "levels": "40", "rates": "45%"},
+      {"dex_id": "080", "name": "Slowbro", "types": ["Water", "Psychic"], "levels": "48", "rates": "16%"},
+      {"dex_id": "199", "name": "Slowking", "types": ["Water", "Psychic"], "levels": "48", "rates": "4%"},
+      {"dex_id": "042", "name": "Golbat", "types": ["Poison", "Flying"], "levels": "45-48", "rates": "35%"}
+    ],
+    "Water (Surf)": [
+      {"dex_id": "079", "name": "Slowpoke", "types": ["Water", "Psychic"], "levels": "40", "rates": "75%"},
+      {"dex_id": "118", "name": "Goldeen", "types": ["Water"], "levels": "45", "rates": "10%"},
+      {"dex_id": "129", "name": "Magikarp", "types": ["Water"], "levels": "30", "rates": "15%"}
+    ]
+  }
+}

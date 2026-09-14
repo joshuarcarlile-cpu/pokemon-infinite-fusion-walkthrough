@@ -1,0 +1,64 @@
+{
+  "leader": "Whitney",
+  "title": "The Incorrigible Crybaby",
+  "gym": "Goldenrod City Gym",
+  "badge": "Plain Badge",
+  "level_cap": 62,
+  "hard_mode_level_cap": 62,
+  "recommended_party_level": 60,
+  "gym_duel_limit": 5,
+  "party_selection_rule": "5 vs 5 Party Selection (select your 5 designated Pokémon from your active party when prompted at battle start)",
+  "overview": "Whitney commands Normal-type fusions combining massive defensive bulks, status disruption, and momentum-building setup moves. Lickitung/Granbull leads with Play Rough and Charm to cripple physical sweepers. Girafarig/Lanturn sets up Aqua Ring while using Power Swap to trade stat modifications. Dunsparce/Kangaskhan boosts with Coil and strikes with Dizzy Punch confusion. Aipom/Tauros hits with fast Take Down and resets damage with Rest and Lum Berry. Her ace, Chansey/Miltank, is an astonishing defensive titan: holding an Eviolite to boost its 1.5x defenses, it shrugs off special attacks, sustains with Milk Drink, and ramps up lethal momentum with Rollout.",
+  "roster": [
+    {
+      "species": "Lickitung/Granbull",
+      "level": 55,
+      "types": ["Normal", "Fairy"],
+      "ability": "Intimidate",
+      "item": "Silk Scarf",
+      "moves": ["Play Rough", "Lick", "Chip Away", "Charm"],
+      "tactics": "Lead physical debuffer. Fires Fairy STAB Play Rough and drops incoming physical Attack with Charm. Hit hard with Poison or Steel special attacks before Attack debuffs stack."
+    },
+    {
+      "species": "Girafarig/Lanturn",
+      "level": 55,
+      "types": ["Normal", "Electric"],
+      "ability": "Volt Absorb",
+      "item": "Silk Scarf",
+      "moves": ["Spark", "Double Hit", "Power Swap", "Aqua Ring"],
+      "tactics": "Electric/Normal hybrid. Sets Aqua Ring for passive recovery and uses Power Swap to steal offensive buffs. Exploit Ground-type moves like Earthquake for an easy super-effective KO."
+    },
+    {
+      "species": "Dunsparce/Kangaskhan",
+      "level": 56,
+      "types": ["Normal"],
+      "ability": "Early Bird",
+      "item": "Silk Scarf",
+      "moves": ["Double Hit", "Coil", "Dig", "Dizzy Punch"],
+      "tactics": "Coil booster. Coil increases Attack, Defense, and Accuracy simultaneously. Dizzy Punch inflicts confusion. Fighting moves like Close Combat cleanly punch through its bulk before Coil stacks."
+    },
+    {
+      "species": "Aipom/Tauros",
+      "level": 56,
+      "types": ["Normal"],
+      "ability": "Run Away",
+      "item": "Lum Berry",
+      "moves": ["Tickle", "Take Down", "Work Up", "Rest"],
+      "tactics": "Work Up physical breaker. Boosts offenses, hits hard with Take Down recoil, and cures status with Lum Berry after Rest. Hit with super-effective Fighting STAB to drop it rapidly."
+    },
+    {
+      "species": "Chansey/Miltank",
+      "level": 58,
+      "types": ["Normal"],
+      "ability": "Scrappy",
+      "item": "Eviolite",
+      "moves": ["Metronome", "Refresh", "Rollout", "Milk Drink"],
+      "tactics": "Whitney's signature nightmare Ace. Eviolite boosts its physical and special Defenses by 1.5x on top of massive Chansey HP. Scrappy allows it to hit Ghost types. Milk Drink restores 50% HP. Never let Rollout gain consecutive turns; reset its momentum immediately with Protect, Steel resistance, or devastating Fighting STAB like Close Combat."
+    }
+  ],
+  "starter_strategies": {
+    "bulbasaur": "Venusaur/Charizard resists Fairy Play Rough and puts Chansey/Miltank to sleep with Sleep Powder. Kingler/Primeape breaks Eviolite defenses with STAB Close Combat and Crabhammer. Alakazam/Weezing and Gyarados/Arbok pivot on physical strikes with Intimidate and recover freely.",
+    "charmander": "Charizard/Venusaur provides Ground immunity against Dig and melts Whitney's team with Flamethrower. Primeape/Sandslash is the primary wallbreaker, cleanly smashing Dunsparce/Kangaskhan and Chansey/Miltank with Close Combat. Snorlax mirrors Whitney's bulk and sponges Rollout.",
+    "squirtle": "Blastoise/Fearow evades Dig and tanks Normal hits with high Defense. Arbok/Primeape provides Intimidate support and shreds Chansey/Miltank with Close Combat. Jolteon/Sandslash sets up Swords Dance and wipes Girafarig/Lanturn with Earthquake."
+  }
+}

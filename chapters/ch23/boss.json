@@ -1,0 +1,50 @@
+{
+  "leader": "Mewtwo",
+  "title": "Genetic Apex Pokémon",
+  "gym": "Cerulean Cave Depths",
+  "badge": "Genetic Mastermind",
+  "hard_mode_level_cap": 85,
+  "gym_duel_limit": 6,
+  "recommended_party_level": 83,
+  "party_selection_rule": "Full 6 vs 6 Legendary Capture Trial",
+  "overview": "Mewtwo awaits in the crystalline depths of Cerulean Cave as the ultimate genetic challenge of Kanto. Boasting an overwhelming 154 Special Attack and 130 Speed with Pressure, Mewtwo commands destructive psychic artillery that obliterates unprepared teams. Its Psystrike targets physical defense using special calculation, while Aura Sphere punishes Dark-type counters. Use heavy Dark or Ghost physical attackers with status suppression (Sleep Powder or Glare) to incapacitate it before attempting capture. If you retained Lady Selphy's Master Ball from Resort Gorgeous, this is the premier encounter to deploy it without risk.",
+  "roster": [
+    {
+      "species": "Mewtwo",
+      "level": 70,
+      "types": ["Psychic"],
+      "ability": "Pressure",
+      "item": "Life Orb",
+      "moves": ["Psystrike", "Aura Sphere", "Ice Beam", "Recover"],
+      "tactics": "Monstrous 154 Sp. Atk sweeper. Hits physical defense with Psystrike and shatters Dark switch-ins with Aura Sphere. Invalidate it with faster Dark/Ghost priority or bulky paralysis."
+    },
+    {
+      "species": "Alakazam/Gengar",
+      "level": 72,
+      "types": ["Psychic", "Ghost"],
+      "ability": "Levitate",
+      "item": "Focus Sash",
+      "moves": ["Shadow Ball", "Psychic", "Focus Blast", "Destiny Bond"],
+      "tactics": "Blistering 125 Speed special cannon. Focus Sash guarantees it survives one blow. Beware Destiny Bond if you knock it out recklessly; use priority or status to bypass."
+    },
+    {
+      "species": "Ditto/Chansey",
+      "level": 72,
+      "types": ["Normal"],
+      "ability": "Natural Cure",
+      "item": "Eviolite",
+      "moves": ["Soft-Boiled", "Toxic", "Seismic Toss", "Aromatherapy"],
+      "tactics": "Immense 250 HP physical wall with Eviolite. Stalls with Toxic and Soft-Boiled. Overwhelm it quickly with powerful STAB Fighting attacks like Close Combat."
+    }
+  ],
+  "starter_strategies": {
+    "bulbasaur": "Lead with Venusaur/Charizard to put Mewtwo immediately to sleep with Sleep Powder. Switch to Gyarados/Arbok to set up Dragon Dance and hit with super-effective Crunch. Alakazam/Weezing provides immune pivoting against Fighting moves, while Kingler/Primeape obliterates Ditto/Chansey with Close Combat.",
+    "charmander": "Deploy Charizard/Venusaur to incapacitate Mewtwo with Sleep Powder. Bring in Primeape/Sandslash to dismantle Ditto/Chansey with Cross Chop and Earthquake. Alakazam/Raichu outspeeds Alakazam/Gengar to strike with Shadow Ball, and Snorlax easily sponges special hits.",
+    "squirtle": "Deploy Blastoise/Fearow to tank Aura Spheres, pivoting into Arbok/Primeape for Intimidate suppression and Glare paralysis. Alakazam/Weezing resists Fighting and wipes out psychic guards, while Curse Snorlax soaks special hits and delivers fatal Crunches."
+  },
+  "rewards": [
+    "Mewtwo Capture (or Berserk Gene hold item)",
+    "Kanto Legendary Pantheon Completion (towards Hall of Origin)",
+    "Tier 3 Elite Four Rematch Eligibility (Lv. 81-90)"
+  ]
+}

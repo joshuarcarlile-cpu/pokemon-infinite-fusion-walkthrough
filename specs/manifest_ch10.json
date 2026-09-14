@@ -1,0 +1,668 @@
+{
+  "chapter_id": "ch10",
+  "title": "Act 2 - Chapter 1: Goldenrod City & Route 34 (Plain Badge)",
+  "act": 2,
+  "hard_mode_level_cap": 62,
+  "gym_duel_limit": 5,
+  "routes_covered": [
+    "Route 34",
+    "Goldenrod City"
+  ],
+  "vanilla_divergence_alerts": [
+    "HM Slaves: 100% eliminated by 9 reusable Key Item tools. Do NOT instruct players to teach field moves to party members.",
+    "Friendship: Eliminated. All friendship evolutions use static level thresholds (e.g. Baby Pokémon evolve at Lv. 15).",
+    "Trade Evolutions: Evolve naturally at Level 40 OR via Linking Cord (not Level 37)."
+  ],
+  "critical_missables": [],
+  "hotel_milestone_target": {},
+  "active_and_ongoing_quests": [
+    {
+      "id": "q_pinkan_island_police",
+      "title": "Pinkan Island Police Raid",
+      "type": "Field",
+      "region": "Johto",
+      "location": "Goldenrod City Police Department",
+      "chapter_introduced": "ch09",
+      "chapter_resolvable": "ch09",
+      "is_missable": false,
+      "missable_deadline": null,
+      "karma_delta": 1,
+      "police_reportable": false,
+      "rewards": [
+        "Mythical Diancie Encounter (Catchable)"
+      ],
+      "objectives": [
+        "Available if you reported Rocket crimes to the police during Cerulean or Celadon missions.",
+        "Join forces with Officer Jenny to raid Team Rocket's operation on Pinkan Island.",
+        "Rescue the island and encounter Mythical Diancie."
+      ]
+    }
+  ],
+  "boss_ground_truth": {
+    "classic": {
+      "leader": "Whitney",
+      "team": [
+        {
+          "species": "B210H108",
+          "level": 55,
+          "moves": [
+            "PLAYROUGH",
+            "LICK",
+            "CHIPAWAY",
+            "CHARM"
+          ],
+          "item": "SILKSCARF"
+        },
+        {
+          "species": "B171H203",
+          "level": 55,
+          "moves": [
+            "SPARK",
+            "DOUBLEHIT",
+            "POWERSWAP",
+            "AQUARING"
+          ],
+          "ability_index": 0,
+          "item": "SILKSCARF"
+        },
+        {
+          "species": "B115H206",
+          "level": 56,
+          "moves": [
+            "DOUBLEHIT",
+            "COIL",
+            "DIG",
+            "DIZZYPUNCH"
+          ],
+          "ability_index": 2,
+          "item": "SILKSCARF"
+        },
+        {
+          "species": "B128H190",
+          "level": 56,
+          "moves": [
+            "TICKLE",
+            "TAKEDOWN",
+            "WORKUP",
+            "REST"
+          ],
+          "item": "LUMBERRY"
+        },
+        {
+          "species": "B241H113",
+          "level": 58,
+          "moves": [
+            "METRONOME",
+            "REFRESH",
+            "ROLLOUT",
+            "MILKDRINK"
+          ],
+          "item": "EVIOLITE"
+        }
+      ],
+      "party_size": 5
+    },
+    "expert": {
+      "leader": "Whitney",
+      "team": [
+        {
+          "species": "B273H309",
+          "level": 60,
+          "moves": [
+            "STEALTHROCK",
+            "BODYSLAM",
+            "UTURN",
+            "EARTHQUAKE"
+          ],
+          "ability": "POISONHEAL",
+          "item": "TOXICORB",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 4
+          }
+        },
+        {
+          "species": "B141H184",
+          "level": 60,
+          "moves": [
+            "KNOCKOFF",
+            "CRABHAMMER",
+            "STONEEDGE",
+            "PLAYROUGH"
+          ],
+          "ability": "HUGEPOWER",
+          "item": "LIFEORB",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B321H363",
+          "level": 63,
+          "moves": [
+            "FOCUSBLAST",
+            "THUNDER",
+            "BUGBUZZ",
+            "NASTYPLOT"
+          ],
+          "ability": "COMPOUNDEYES",
+          "item": "WIDELENS",
+          "happiness": 0,
+          "nature": "MODEST",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B455H446",
+          "level": 63,
+          "moves": [
+            "DRAGONTAIL",
+            "LIQUIDATION",
+            "EARTHQUAKE",
+            "POISONJAB"
+          ],
+          "ability": "SAPSIPPER",
+          "item": "LEFTOVERS",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 4,
+            "DEFENSE": 252,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B248H269",
+          "level": 65,
+          "moves": [
+            "DARKPULSE",
+            "MOONBLAST",
+            "AURASPHERE",
+            "EARTHPOWER"
+          ],
+          "ability": "SANDSTREAM",
+          "item": "SITRUSBERRY",
+          "happiness": 0,
+          "nature": "MODEST",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 252,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B465H241",
+          "level": 65,
+          "moves": [
+            "ROLLOUT",
+            "PLAYROUGH",
+            "PROTECT",
+            "BODYSLAM"
+          ],
+          "ability": "SAPSIPPER",
+          "item": "METRONOME",
+          "happiness": 0,
+          "nature": "JOLLY",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        }
+      ],
+      "party_size": 6
+    }
+  },
+  "encounters_by_location": {
+    "Route 34 (ID 265)": {
+      "Grass": [
+        {
+          "name": "Pidgeotto",
+          "dex_id": "017",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "30-32"
+        },
+        {
+          "name": "Raticate",
+          "dex_id": "020",
+          "types": [
+            "Normal"
+          ],
+          "levels": "30-32"
+        },
+        {
+          "name": "Wigglytuff",
+          "dex_id": "040",
+          "types": [
+            "Normal",
+            "Fairy"
+          ],
+          "levels": "30"
+        },
+        {
+          "name": "Kadabra",
+          "dex_id": "064",
+          "types": [
+            "Psychic"
+          ],
+          "levels": "33-34"
+        },
+        {
+          "name": "Hypno",
+          "dex_id": "097",
+          "types": [
+            "Psychic"
+          ],
+          "levels": "34-35"
+        },
+        {
+          "name": "Ditto",
+          "dex_id": "132",
+          "types": [
+            "Normal"
+          ],
+          "levels": "30"
+        },
+        {
+          "name": "Noctowl",
+          "dex_id": "164",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "30-32"
+        },
+        {
+          "name": "Granbull",
+          "dex_id": "210",
+          "types": [
+            "Fairy"
+          ],
+          "levels": "34-35"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Tentacool",
+          "dex_id": "072",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "15-30"
+        },
+        {
+          "name": "Tentacruel",
+          "dex_id": "073",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "35"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Krabby",
+          "dex_id": "098",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Krabby",
+          "dex_id": "098",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Krabby",
+          "dex_id": "098",
+          "types": [
+            "Water"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Kingler",
+          "dex_id": "099",
+          "types": [
+            "Water"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Staryu",
+          "dex_id": "120",
+          "types": [
+            "Water"
+          ],
+          "levels": "40"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Kirlia",
+          "dex_id": "286",
+          "types": [
+            "Psychic",
+            "Fairy"
+          ],
+          "levels": "25-30"
+        }
+      ]
+    }
+  },
+  "wiki_ground_truth": {
+    "Goldenrod City": {
+      "canonical_slug": "Goldenrod_City",
+      "lead_summary": "1,000 at train station\n|connection_4_direction=west\n|connection_4_location=Pinkan Island\n|connection_4_restrictions=Start Team Rocket mission, or report crime to police in a previous mission then talk to police near pier.\n}}\nGoldenrod City features the Radio Tower and the Train Station connecting to Saffron City in Kanto.\nConnects to Route 35 to the North and Route 34 to the South.\nThis city contains Goldenrod City's Gym, but will be opened only after the player becomes the Champion of Kanto.",
+      "items": [
+        {
+          "internal_id": "CARBOS",
+          "quantity": "",
+          "name": "Carbos",
+          "location_details": "At the end of an alleyway, south of Bill's house."
+        },
+        {
+          "internal_id": "DUBIOUSDISC",
+          "quantity": "",
+          "name": "Dubious Disc",
+          "location_details": "In Bill's house, next to the Museum."
+        },
+        {
+          "internal_id": "machine_NORMAL",
+          "quantity": "",
+          "name": "TM27 Return",
+          "location_details": "Surf northwest of the Radio Tower."
+        },
+        {
+          "internal_id": "POKEDOLL",
+          "quantity": "",
+          "name": "Poké Doll",
+          "location_details": "Received upon entering the Gym."
+        },
+        {
+          "internal_id": "FRESHWATER",
+          "quantity": "",
+          "name": "Fresh Water",
+          "location_details": "Given by the man in the Gym."
+        },
+        {
+          "internal_id": "LUMINOUSMOSS",
+          "quantity": "5",
+          "name": "Luminous Moss",
+          "location_details": "In the hotel as a reward for showing the child a Phantump."
+        },
+        {
+          "internal_id": "PIXIEPLATE",
+          "quantity": "",
+          "name": "Pixie Plate",
+          "location_details": "In the northeast near the Gym, after catching [[Legendary_Pokémon#Arceus"
+        },
+        {
+          "internal_id": "GREATBALL",
+          "quantity": "",
+          "name": "Great Ball",
+          "location_details": "Match the last number of a Pokémon's Trainer ID in the Lottery."
+        },
+        {
+          "internal_id": "MAXREVIVE",
+          "quantity": "",
+          "name": "Max Revive",
+          "location_details": "Match the last 2 numbers of a Pokémon's Trainer ID in the Lottery."
+        },
+        {
+          "internal_id": "PPUP",
+          "quantity": "",
+          "name": "PP Up",
+          "location_details": "Match the last 3 numbers of a Pokémon's Trainer ID in the Lottery."
+        },
+        {
+          "internal_id": "EXPSHARE",
+          "quantity": "",
+          "name": "Exp. Share",
+          "location_details": "Match the last 4 numbers of a Pokémon's Trainer ID in the Lottery."
+        },
+        {
+          "internal_id": "MASTERBALL",
+          "quantity": "",
+          "name": "Master Ball",
+          "location_details": "Match all 5 numbers of a Pokémon's Trainer ID in the Lottery."
+        },
+        {
+          "internal_id": "TELEPORTER",
+          "quantity": "",
+          "name": "Teleporter",
+          "location_details": "After obtaining at least 5,000 points from \"Guess that Fusion Quiz Show\" in a single game."
+        },
+        {
+          "internal_id": "STARDUST",
+          "quantity": "",
+          "name": "Stardust",
+          "location_details": "Score at least 5,000 point in a single game of \"Guess that Fusion Quiz Show\", after obtaining the Box Link."
+        },
+        {
+          "internal_id": "MAXREVIVE",
+          "quantity": "",
+          "name": "Max Revive",
+          "location_details": "Score at least 8,000 point in a single game of \"Guess that Fusion Quiz Show\", after obtaining the Box Link."
+        },
+        {
+          "internal_id": "INCUBATOR",
+          "quantity": "",
+          "name": "Super Incubator",
+          "location_details": "Score at least 12,000 point in a single game of \"Guess that Fusion Quiz Show\", after obtaining the Box Link."
+        },
+        {
+          "internal_id": "MASTERBALL",
+          "quantity": "",
+          "name": "Master Ball",
+          "location_details": "Score at least 25,000 point in a single game of \"Guess that Fusion Quiz Show\", after obtaining the Box Link."
+        },
+        {
+          "internal_id": "INCUBATOR",
+          "quantity": "",
+          "name": "Super Incubator",
+          "location_details": "Answer all questions of the quiz correctly on the 3rd floor."
+        },
+        {
+          "internal_id": "DAWNSTONE",
+          "quantity": "",
+          "name": "Dawn Stone",
+          "location_details": "Given by the Stone Maniac at morning."
+        },
+        {
+          "internal_id": "SUNSTONE",
+          "quantity": "",
+          "name": "Sun Stone",
+          "location_details": "Given by the Stone Maniac at day."
+        },
+        {
+          "internal_id": "DUSKSTONE",
+          "quantity": "",
+          "name": "Dusk Stone",
+          "location_details": "Given by the Stone Maniac at evening."
+        },
+        {
+          "internal_id": "MOONSTONE",
+          "quantity": "",
+          "name": "Moon Stone",
+          "location_details": "Given by the Stone Maniac at night."
+        },
+        {
+          "internal_id": "SHINYSTONE",
+          "quantity": "",
+          "name": "Shiny Stone",
+          "location_details": "Given by the Stone Maniac after obtaining all four previous stones."
+        },
+        {
+          "internal_id": "ZINC",
+          "quantity": "",
+          "name": "Zinc",
+          "location_details": "Behind the counter."
+        },
+        {
+          "internal_id": "ULTRABALL",
+          "quantity": "",
+          "name": "Ultra Ball",
+          "location_details": "On the ground."
+        },
+        {
+          "internal_id": "MAXREVIVE",
+          "quantity": "",
+          "name": "Max Revive",
+          "location_details": "On the ground."
+        },
+        {
+          "internal_id": "XACCURACY",
+          "quantity": "",
+          "name": "X Accuracy",
+          "location_details": "Hidden in a box."
+        },
+        {
+          "internal_id": "BEDROOMKEY",
+          "quantity": "",
+          "name": "Bedroom Key",
+          "location_details": "On the ground on the west side."
+        },
+        {
+          "internal_id": "MAXELIXIR",
+          "quantity": "",
+          "name": "Max Elixir",
+          "location_details": "On the ground."
+        },
+        {
+          "internal_id": "SUPERREPEL",
+          "quantity": "",
+          "name": "Super Repel",
+          "location_details": "Hidden in a box."
+        }
+      ],
+      "missable_warnings": []
+    }
+  },
+  "location_items_and_statics": [
+    {
+      "type": "HM Replacement",
+      "name": "Teleporter",
+      "replaces": "Fly",
+      "location": "Goldenrod City"
+    },
+    {
+      "type": "Static Encounter",
+      "pokemon": "Cool Dino",
+      "level": "50",
+      "location": "Goldenrod City",
+      "notes": "Can't be caught, special easter egg"
+    }
+  ],
+  "authoring_guidance": {
+    "splicing_safety": "Explicitly state: HEAD species, BODY species, and WHICH ability to select at the DNA Splicer prompt.",
+    "gym_party_selection_rule": "Built-in 5v5 party limit! When challenged, the game prompts the player to choose which 5 Pokémon from their active party to bring into battle. No PC box deposits required.",
+    "stone_evolutions": "Advisory: Do NOT use evolution stones prematurely on stone-evolvers (e.g. Nidorino) before key level-up moves are learned.",
+    "undercover_informant_rocket": "Guide player to join Team Rocket for disguises/missions, BUT report crimes to police officer for +10 Karma and Diancie unlock!"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "title": "Cerulean_Cave",
+  "url": "https://infinitefusion.fandom.com/wiki/Cerulean_Cave",
+  "lead_summary": "Cerulean Cave is only accessed by Route 4 after obtaining Waterfall.\n2F is a dark room that requires either HM08 Flash or its HM Replacement Item.\nMewtwo is a static encounter at the end of 3F.",
+  "missable_warnings": [],
+  "items": [
+    {
+      "internal_id": "machine_NORMAL",
+      "quantity": "",
+      "name": "TM20 Safeguard",
+      "location_details": "South-West of the Lake."
+    },
+    {
+      "internal_id": "SUPERPOTION",
+      "quantity": "",
+      "name": "Super Potion",
+      "location_details": "Hidden by a rock near the North-West ladder."
+    },
+    {
+      "internal_id": "ESCAPEROPE",
+      "quantity": "",
+      "name": "Escape Rope",
+      "location_details": "Near the North-West corner."
+    },
+    {
+      "internal_id": "ESCAPEROPE",
+      "quantity": "",
+      "name": "Escape Rope",
+      "location_details": "South-West corner."
+    },
+    {
+      "internal_id": "RARECANDY",
+      "quantity": "",
+      "name": "Rare Candy",
+      "location_details": "On the higher ground."
+    },
+    {
+      "internal_id": "MAXREPEL",
+      "quantity": "",
+      "name": "Max Repel",
+      "location_details": "On the higher ground."
+    },
+    {
+      "internal_id": "MAXREPEL",
+      "quantity": "",
+      "name": "Max Repel",
+      "location_details": "North-East corner."
+    },
+    {
+      "internal_id": "ELIXIR",
+      "quantity": "",
+      "name": "Elixir",
+      "location_details": "Near the North-East corner."
+    },
+    {
+      "internal_id": "STRANGEPRISM",
+      "quantity": "",
+      "name": "Strange Prism",
+      "location_details": "Near the South-East corner, from the Eastern path."
+    },
+    {
+      "internal_id": "ETHER",
+      "quantity": "",
+      "name": "Ether",
+      "location_details": "North-West corner."
+    },
+    {
+      "internal_id": "FULLHEAL",
+      "quantity": "",
+      "name": "Full Heal",
+      "location_details": "North-Center, from the North-Western path."
+    },
+    {
+      "internal_id": "NUGGET",
+      "quantity": "",
+      "name": "Nugget",
+      "location_details": "Center, from the North-Western path."
+    },
+    {
+      "internal_id": "REPEL",
+      "quantity": "",
+      "name": "Repel",
+      "location_details": "Center, from the North-Western path."
+    },
+    {
+      "internal_id": "PPUP",
+      "quantity": "",
+      "name": "PP Up",
+      "location_details": "Near the South-West, from the Center path."
+    },
+    {
+      "internal_id": "ESCAPEROPE",
+      "quantity": "",
+      "name": "Escape Rope",
+      "location_details": "Center, from the Center path."
+    },
+    {
+      "internal_id": "HYPERPOTION",
+      "quantity": "",
+      "name": "Hyper Potion",
+      "location_details": "North-East, from the Center path."
+    },
+    {
+      "internal_id": "DUSKBALL",
+      "quantity": "",
+      "name": "Dusk Ball",
+      "location_details": "Near the South-West corner, from the South-Western Path."
+    },
+    {
+      "internal_id": "machine_PSYCHIC",
+      "quantity": "",
+      "name": "TM04 Calm Mind",
+      "location_details": "South-Center, from the South-Western Path."
+    }
+  ],
+  "sections": [
+    "Items",
+    "Pokémon",
+    "1F",
+    "2F",
+    "3F",
+    "3F (Rare)",
+    "Layout",
+    "Path"
+  ],
+  "raw_wikitext": "{{GlobalToggles}}\n{{InfoboxLocation\n|region=Kanto\n|location_image=CeruleanCave.png\n|map_image=Cerulean_Cave_Map.png\n|connection_1_direction=south\n|connection_1_location=Route 4\n}}'''Cerulean Cave''' is only accessed by [[Route 4]] after obtaining Waterfall.\n\n2F is a dark room that requires either HM08 Flash or its HM Replacement Item.\n\nMewtwo is a static encounter at the end of 3F.\n\n==Items==\n{{ItemTable/Header}}\n{{ItemTable/Section|1F}}\n{{ItemTable/Data|machine_NORMAL||TM20 Safeguard|South-West of the Lake.|1F_TM20_CeruleanCave.png}}\n{{ItemTable/Data|SUPERPOTION||Super Potion|Hidden by a rock near the North-West ladder.|1F_SuperPotion_CeruleanCave.png}}\n{{ItemTable/Data|ESCAPEROPE||Escape Rope|Near the North-West corner.|1F_EscapeRope1_CeruleanCave.png}}\n{{ItemTable/Data|ESCAPEROPE||Escape Rope|South-West corner.|1F_EscapeRope2_CeruleanCave.png}}\n{{ItemTable/Data|RARECANDY||Rare Candy|On the higher ground.|1F_RareCandy_CeruleanCave.png}}\n{{ItemTable/Data|MAXREPEL||Max Repel|On the higher ground.|1F_MaxRepel_CeruleanCave.png}}\n{{ItemTable/Section|2F}}\n{{ItemTable/Data|MAXREPEL||Max Repel|North-East corner.|2F_MaxRepel_CeruleanCave.png}}\n{{ItemTable/Data|ELIXIR||Elixir|Near the North-East corner.|2F_Elixir_CeruleanCave.png}}\n{{ItemTable/Data|STRANGEPRISM||Strange Prism|Near the South-East corner, from the Eastern path.|StrangePrism_CeruleanCave.png}}\n{{ItemTable/Data|ETHER||Ether|North-West corner.|2F_Ether_CeruleanCave.png}}\n{{ItemTable/Data|FULLHEAL||Full Heal|North-Center, from the North-Western path.|2F_FullHeal_CeruleanCave.png}}\n{{ItemTable/Data|NUGGET||Nugget|Center, from the North-Western path.|2F_Nugget_CeruleanCave.png}}\n{{ItemTable/Data|REPEL||Repel|Center, from the North-Western path.|2F_Repel_CeruleanCave.png}}\n{{ItemTable/Data|PPUP||PP Up|Near the South-West, from the Center path.|2F_PPUp_CeruleanCave.png}}\n{{ItemTable/Data|ESCAPEROPE||Escape Rope|Center, from the Center path.|2F_EscapeRope_CeruleanCave.png}}\n{{ItemTable/Data|HYPERPOTION||Hyper Potion|North-East, from the Center path.|2F_HyperPotion_CeruleanCave.png}}\n{{ItemTable/Data|DUSKBALL||Dusk Ball|Near the South-West corner, from the South-Western Path.|2F_DuskBall_CeruleanCave.png}}\n{{ItemTable/Data|machine_PSYCHIC||TM04 Calm Mind|South-Center, from the South-Western Path.|2F_TM04_CeruleanCave.png}}\n{{ItemTable/Footer}}\n\n==Pokémon==\n===1F===\n<!--------------------------------------!>\n<!-- CLASSIC & EXPERT MODE POKÉMON 1F --!>\n<!--------------------------------------->\n<div class=\"classic-mode expert-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Cave}}\n{{EncounterTable/Data|024|Arbok|Poison||52|90|5%}}\n{{EncounterTable/Data|026|Raichu|Electric||53|75|4%}}\n{{EncounterTable/Data|028|Sandslash|Ground||52|90|5%}}\n{{EncounterTable/Data|042|Golbat|Poison|Flying|56|90|20%}}\n{{EncounterTable/Data|044|Gloom|Grass|Poison|55|120|5%}}\n{{EncounterTable/Data|047|Parasect|Bug|Grass|52|75|5%}}\n{{EncounterTable/Data|049|Venomoth|Bug|Poison|59|75|10%}}\n{{EncounterTable/Data|064|Kadabra|Psychic||59|100|4%}}\n{{EncounterTable/Data|065|Alakazam|Psychic||50|50|1%}}\n{{EncounterTable/Data|070|Weepinbell|Grass|Poison|55|120|5%}}\n{{EncounterTable/Data|075|Graveler|Rock|Ground|55|120|5%}}\n{{EncounterTable/Data|078|Rapidash|Fire||59|60|5%}}\n{{EncounterTable/Data|082|Magneton|Steel|Electric|56|60|10%}}\n{{EncounterTable/Data|085|Dodrio|Normal|Flying|59|45|5%}}\n{{EncounterTable/Data|097|Hypno|Psychic||56|75|10%}}\n{{EncounterTable/Data|132|Ditto|Normal||53-55|35|1%}}\n{{EncounterTable/Footer}}\n</div>\n<!---------------------------!>\n<!-- REMIX MODE POKÉMON 1F --!>\n<!---------------------------->\n<div class=\"remix-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Cave}}\n{{EncounterTable/Data|026|Raichu|Electric||53|75|4%}}\n{{EncounterTable/Data|042|Golbat|Poison|Flying|56|90|20%}}\n{{EncounterTable/Data|065|Alakazam|Psychic||50|50|1%}}\n{{EncounterTable/Data|076|Golem|Rock|Ground|55|45|5%}}\n{{EncounterTable/Data|097|Hypno|Psychic||56|75|10%}}\n{{EncounterTable/Data|132|Ditto|Normal||53-55|35|1%}}\n{{EncounterTable/Data|242|Blissey|Normal||59|30|5%}}\n{{EncounterTable/Data|296|Lucario|Fighting|Steel|59|45|4%}}\n{{EncounterTable/Data|333|Aggron|Steel|Rock|55|45|5%}}\n{{EncounterTable/Data|338|Zoroark|Dark||52|45|5%}}\n{{EncounterTable/Data|363|Galvantula|Bug|Electric|59|75|10%}}\n{{EncounterTable/Data|364|Ferrothorn|Steel|Grass|59|90|5%}}\n{{EncounterTable/Data|367|Chandelure|Ghost|Fire|55|45|5%}}\n{{EncounterTable/Data|369|Golurk|Ground|Ghost|52|90|5%}}\n{{EncounterTable/Data|374|Volcarona|Bug|Fire|52|15|5%}}\n{{EncounterTable/Data|453|Dhelmise|Ghost|Grass|56|25|10%}}\n{{EncounterTable/Section|Surf}}\n{{EncounterTable/Data|437|Sharpedo|Water|Dark|54-58|60|40%}}\n{{EncounterTable/Data|455|Toxapex|Poison|Water|54-57|75|50%}}\n{{EncounterTable/Data|469|Bruxish|Water|Psychic|52-55|80|10%}}\n{{EncounterTable/Section|Old Rod}}\n{{EncounterTable/Data|090|Shellder|Water||5|190|20%}}\n{{EncounterTable/Data|394|Feebas|Water||5|255|39%}}\n{{EncounterTable/Data|434|Trubbish|Poison||5|190|1%}}\n{{EncounterTable/Data|436|Carvanha|Water|Dark|5|225|40%}}\n{{EncounterTable/Section|Good Rod}}\n{{EncounterTable/Data|090|Shellder|Water||5-15|190|20%}}\n{{EncounterTable/Data|453|Dhelmise|Ghost|Grass|5-15|25|40%}}\n{{EncounterTable/Data|454|Mareanie|Poison|Water|5-15|190|40%}}\n{{EncounterTable/Section|Super Rod}}\n{{EncounterTable/Data|090|Shellder|Water||15-35|190|40%}}\n{{EncounterTable/Data|147|Dratini|Dragon||25-35|45|2%}}\n{{EncounterTable/Data|149|Dragonite|Dragon|Flying|55-65|45|1%}}\n{{EncounterTable/Data|224|Octillery|Water||25-35|75|2%}}\n{{EncounterTable/Data|437|Sharpedo|Water|Dark|15-25|60|15%}}\n{{EncounterTable/Data|453|Dhelmise|Ghost|Grass|15-35|25|40%}}\n{{EncounterTable/Footer}}\n</div>\n\n===2F===\n<!--------------------------------------!>\n<!-- CLASSIC & EXPERT MODE POKÉMON 2F --!>\n<!--------------------------------------->\n<div class=\"classic-mode expert-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Cave}}\n{{EncounterTable/Data|040|Wigglytuff|Normal|Fairy|54|50|5%}}\n{{EncounterTable/Data|042|Golbat|Poison|Flying|58-59|90|5%}}\n{{EncounterTable/Data|047|Parasect|Bug|Grass|51-52|75|4%}}\n{{EncounterTable/Data|049|Venomoth|Bug|Poison|51|75|5%}}\n{{EncounterTable/Data|053|Persian|Normal||58-59|90|5%}}\n{{EncounterTable/Data|064|Kadabra|Psychic||51|100|10%}}\n{{EncounterTable/Data|065|Alakazam|Psychic||55|50|1%}}\n{{EncounterTable/Data|067|Machoke|Fighting||59|90|10%}}\n{{EncounterTable/Data|085|Dodrio|Normal|Flying|51|45|15%}}\n{{EncounterTable/Data|101|Electrode|Electric||52|60|10%}}\n{{EncounterTable/Data|105|Marowak|Ground||52|75|10%}}\n{{EncounterTable/Data|112|Rhydon|Ground|Rock|52|60|10%}}\n{{EncounterTable/Data|113|Chansey|Normal||56|30|5%}}\n{{EncounterTable/Data|132|Ditto|Normal||55-60|35|5%}}\n{{EncounterTable/Footer}}\n</div>\n<!---------------------------!>\n<!-- REMIX MODE POKÉMON 2F --!>\n<!---------------------------->\n<div class=\"remix-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Cave}}\n{{EncounterTable/Data|026|Raichu|Electric||53|75|4%}}\n{{EncounterTable/Data|042|Golbat|Poison|Flying|56|90|20%}}\n{{EncounterTable/Data|065|Alakazam|Psychic||50|50|1%}}\n{{EncounterTable/Data|076|Golem|Rock|Ground|55|45|5%}}\n{{EncounterTable/Data|097|Hypno|Psychic||56|75|10%}}\n{{EncounterTable/Data|132|Ditto|Normal||53-55|35|1%}}\n{{EncounterTable/Data|242|Blissey|Normal||59|30|5%}}\n{{EncounterTable/Data|296|Lucario|Fighting|Steel|59|45|4%}}\n{{EncounterTable/Data|333|Aggron|Steel|Rock|55|45|5%}}\n{{EncounterTable/Data|338|Zoroark|Dark||52|45|5%}}\n{{EncounterTable/Data|363|Galvantula|Bug|Electric|59|75|10%}}\n{{EncounterTable/Data|364|Ferrothorn|Steel|Grass|59|90|5%}}\n{{EncounterTable/Data|367|Chandelure|Ghost|Fire|55|45|5%}}\n{{EncounterTable/Data|369|Golurk|Ground|Ghost|52|90|5%}}\n{{EncounterTable/Data|374|Volcarona|Bug|Fire|52|15|5%}}\n{{EncounterTable/Data|453|Dhelmise|Ghost|Grass|56|25|10%}}\n{{EncounterTable/Footer}}\n</div>\n\n===3F===\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Static}}\n{{EncounterTable/Data|150|Mewtwo|Psychic||60|3|One}}\n{{EncounterTable/Footer}}\n\n===3F (Rare)===\nOn climbing the ladder up to 3F there is a 0.1% chance of entering a [[Secrets and Easter eggs|secret]] alternative 3F with wild encounters and a fused Mewtwo. The room can be distinguished by its dark haze effect. The Mewtwo fusion in this room is considered the same encounter as the normal Mewtwo fight, so catching either will prevent the other from appearing.\n<!-------------------------------------------!>\n<!-- CLASSIC & EXPERT MODE POKÉMON 3F RARE --!>\n<!-------------------------------------------->\n<div class=\"classic-mode expert-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Cave}}\n{{EncounterTable/Data|026|Raichu|Electric||84|75|5%}}\n{{EncounterTable/Data|036|Clefable|Fairy||84|25|5%}}\n{{EncounterTable/Data|042|Golbat|Poison|Flying|74-79|90|20%}}\n{{EncounterTable/Data|075|Graveler|Rock|Ground|75|120|10%}}\n{{EncounterTable/Data|101|Electrode|Electric||75|60|10%}}\n{{EncounterTable/Data|105|Marowak|Ground||75|75|10%}}\n{{EncounterTable/Data|108|Lickitung|Normal||70-75|45|5%}}\n{{EncounterTable/Data|111|Rhyhorn|Ground|Rock|72|120|5%}}\n{{EncounterTable/Data|112|Rhydon|Ground|Rock|82|60|10%}}\n{{EncounterTable/Data|113|Chansey|Normal||76|30|5%}}\n{{EncounterTable/Data|132|Ditto|Normal||80-85|35|15%}}\n{{EncounterTable/Section|Static}}\n{{EncounterTable/Data|150.404|Mewtwo/Shroomish|Psychic|Grass|100|3|One}}\n{{EncounterTable/Footer}}\n</div>\n<!--------------------------------!>\n<!-- REMIX MODE POKÉMON 3F RARE --!>\n<!--------------------------------->\n<div class=\"remix-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Cave}}\n{{EncounterTable/Data|026|Raichu|Electric||53|75|4%}}\n{{EncounterTable/Data|042|Golbat|Poison|Flying|56|90|20%}}\n{{EncounterTable/Data|065|Alakazam|Psychic||50|50|1%}}\n{{EncounterTable/Data|076|Golem|Rock|Ground|55|45|5%}}\n{{EncounterTable/Data|097|Hypno|Psychic||56|75|10%}}\n{{EncounterTable/Data|132|Ditto|Normal||53-55|35|1%}}\n{{EncounterTable/Data|242|Blissey|Normal||59|30|5%}}\n{{EncounterTable/Data|296|Lucario|Fighting|Steel|59|45|4%}}\n{{EncounterTable/Data|333|Aggron|Steel|Rock|55|45|5%}}\n{{EncounterTable/Data|338|Zoroark|Dark||52|45|5%}}\n{{EncounterTable/Data|363|Galvantula|Bug|Electric|59|75|10%}}\n{{EncounterTable/Data|367|Chandelure|Ghost|Fire|55|45|5%}}\n{{EncounterTable/Data|369|Golurk|Ground|Ghost|52|90|5%}}\n{{EncounterTable/Data|374|Volcarona|Bug|Fire|52|15|5%}}\n{{EncounterTable/Data|453|Dhelmise|Ghost|Grass|56|25|10%}}\n{{EncounterTable/Data|455|Toxapex|Poison|Water|59|75|5%}}\n{{EncounterTable/Section|Static}}\n{{EncounterTable/Data|150.404|Mewtwo/Shroomish|Psychic|Grass|100|3|One}}\n{{EncounterTable/Footer}}\n</div>\n\n==Layout==\n<gallery widths=\"360\" captionalign=\"center\" captionsize=\"large\">\nCeruleanCave.png|1F\nCeruleanCave_2F.png|2F\nCeruleanCave_3F.png|3F\nCeruleanCave_3F_WTF.png|3F (Rare)\n</gallery>\n\n===Path===\nThe map below indicates the order, whether it is a ladder or a hole, the player must take to navigate to Mewtwo.<br />\n*'''1F''' is divided into four sections, and three of those are only accessible from ladders or holes:\n**'''Main part''', accessible from the Cave's entrance, and with both Northern ladders.\n**'''South-Western corner''', accessible from Hole #2 and East-Center ladder.\n**'''Upper Ground''', accessible from the Center ladder of the Center path and South-Western ladder from South-Western path.\n**'''Exit Shortcut''', accessible from Mewtwo's room North-Western ladder.\n*'''2F''' is divided into four sections that can only be accessed from ladders:\n**'''Eastern path''', accessed from the North-Eastern ladder.\n**'''North-Western path''', accessed from the North-Western ladder.\n**'''Center path''', accessed from the East-Center ladder.\n**'''South-Western path''', accessed from the South-Western ladder on the higher ground.\n{| class=\"roundy\" style=\"margin:auto; background: #000; border: 3px solid #{{Locationcolor/dark|mountain}}\"\n|-\n! style=\"background:#{{Locationcolor/light|mountain}}; {{roundytr|5px}}\" |Layout provided by the Discord Community\n|-\n|[[File:Path_CeruleanCave.png|534x800px]]\n|-\n| colspan=\"3\" style=\"background:#{{Locationcolor/light|mountain}}; {{roundybottom|5px}}\" |&nbsp;\n|}\n\n[[Category:Locations]]\n[[Category:Kanto]]"
+}

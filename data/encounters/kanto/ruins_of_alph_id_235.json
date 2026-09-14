@@ -1,0 +1,18 @@
+{
+  "location": "Ruins of Alph (ID 235)",
+  "sections": {
+    "Cave": [
+      {
+        "dex_id": "201",
+        "name": "Unown",
+        "type1": "Psychic",
+        "type2": "",
+        "levels": "25-30",
+        "catch_rate": "225",
+        "rates": [
+          "100%"
+        ]
+      }
+    ]
+  }
+}

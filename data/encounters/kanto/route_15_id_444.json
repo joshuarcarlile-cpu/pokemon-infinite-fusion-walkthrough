@@ -1,0 +1,265 @@
+{
+  "location": "Route 15 (ID 444)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "016",
+        "name": "Pidgey",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "25-27",
+        "catch_rate": "255",
+        "rates": [
+          "8%",
+          "8%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "017",
+        "name": "Pidgeotto",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "29",
+        "catch_rate": "120",
+        "rates": [
+          "5%",
+          "5%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "041",
+        "name": "Zubat",
+        "type1": "Poison",
+        "type2": "Flying",
+        "levels": "25-27",
+        "catch_rate": "255",
+        "rates": [
+          "-",
+          "-",
+          "8%"
+        ]
+      },
+      {
+        "dex_id": "042",
+        "name": "Golbat",
+        "type1": "Poison",
+        "type2": "Flying",
+        "levels": "29",
+        "catch_rate": "90",
+        "rates": [
+          "-",
+          "-",
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "043",
+        "name": "Oddish",
+        "type1": "Grass",
+        "type2": "Poison",
+        "levels": "22-26",
+        "catch_rate": "255",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "044",
+        "name": "Gloom",
+        "type1": "Grass",
+        "type2": "Poison",
+        "levels": "28-30",
+        "catch_rate": "120",
+        "rates": [
+          "10%",
+          "1%",
+          "9%"
+        ]
+      },
+      {
+        "dex_id": "048",
+        "name": "Venonat",
+        "type1": "Bug",
+        "type2": "Poison",
+        "levels": "24-26",
+        "catch_rate": "190",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "054",
+        "name": "Psyduck",
+        "type1": "Water",
+        "type2": "",
+        "levels": "22-26",
+        "catch_rate": "190",
+        "rates": [
+          "8%",
+          "8%",
+          "4%"
+        ]
+      },
+      {
+        "dex_id": "060",
+        "name": "Poliwag",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "255",
+        "rates": [
+          "4%",
+          "4%",
+          "8%"
+        ]
+      },
+      {
+        "dex_id": "061",
+        "name": "Poliwhirl",
+        "type1": "Water",
+        "type2": "",
+        "levels": "25",
+        "catch_rate": "120",
+        "rates": [
+          "-",
+          "-",
+          "4%"
+        ]
+      },
+      {
+        "dex_id": "070",
+        "name": "Weepinbell",
+        "type1": "Grass",
+        "type2": "Poison",
+        "levels": "28-30",
+        "catch_rate": "120",
+        "rates": [
+          "5%",
+          "14%",
+          "1%"
+        ]
+      },
+      {
+        "dex_id": "079",
+        "name": "Slowpoke",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "22-26",
+        "catch_rate": "190",
+        "rates": [
+          "8%",
+          "8%",
+          "4%"
+        ]
+      },
+      {
+        "dex_id": "088",
+        "name": "Grimer",
+        "type1": "Poison",
+        "type2": "",
+        "levels": "20-25",
+        "catch_rate": "190",
+        "rates": [
+          "20%",
+          "20%",
+          "25%"
+        ]
+      },
+      {
+        "dex_id": "089",
+        "name": "Muk",
+        "type1": "Poison",
+        "type2": "",
+        "levels": "30",
+        "catch_rate": "75",
+        "rates": [
+          "2%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "dex_id": "060",
+        "name": "Poliwag",
+        "type1": "Water",
+        "type2": "",
+        "levels": "25-32",
+        "catch_rate": "255",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "061",
+        "name": "Poliwhirl",
+        "type1": "Water",
+        "type2": "",
+        "levels": "30",
+        "catch_rate": "120",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "088",
+        "name": "Grimer",
+        "type1": "Poison",
+        "type2": "",
+        "levels": "25-32",
+        "catch_rate": "190",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "dex_id": "089",
+        "name": "Muk",
+        "type1": "Poison",
+        "type2": "",
+        "levels": "32",
+        "catch_rate": "75",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20-30",
+        "catch_rate": "255",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "420",
+        "name": "Stunfisk",
+        "type1": "Ground",
+        "type2": "Electric",
+        "levels": "25-30",
+        "catch_rate": "75",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Pok\u00e9 Radar": [
+      {
+        "dex_id": "406",
+        "name": "Solosis",
+        "type1": "Psychic",
+        "type2": "",
+        "levels": "22-25",
+        "catch_rate": "200",
+        "rates": [
+          "50% <small>([[Pok\u00e9 Radar#How_it_works",
+          "long rustle]])</small>"
+        ]
+      }
+    ]
+  }
+}

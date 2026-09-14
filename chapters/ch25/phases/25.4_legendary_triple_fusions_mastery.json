@@ -1,0 +1,54 @@
+{
+  "name": "Legendary Triple Fusions Mastery",
+  "summary": "With all 16 Gym Leaders defeated in rematches and the Tier 5 League cleared, unlock the true pinnacle of Pokémon Infinite Fusion: Legendary Triple Fusions. Purchase Super DNA Splicers ($10,000 each) from Celadon and Goldenrod Department Stores. Combine the three Legendary Birds into Zapmolcuno (Electric/Ice/Fire with Pressure and immense mixed stats), the three Legendary Beasts into Raienteicune (Electric/Fire/Water), or the Creation Trio into Dialkiatina (Dragon/Steel/Ghost). These supreme entities boast base stat totals exceeding 680 with custom triple typings and unmatched coverage, crowning your complete journey through Kanto, Johto, and the Sevii Islands.",
+  "items": [
+    {
+      "name": "Super DNA Splicer",
+      "method": "Purchasable at Celadon and Goldenrod Department Stores post-game ($10,000)",
+      "type": "Key Item / Tool"
+    },
+    {
+      "name": "DNA Reverser",
+      "method": "Available for purchase at all Pokémon Marts to reverse or dissolve fusions ($300)",
+      "type": "Tool"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Fusion Researcher Colress",
+      "title": "Scientist",
+      "reward": "P15,000",
+      "pokemon": [
+        {
+          "species": "Klinklang/Metagross",
+          "level": 100,
+          "types": ["Steel", "Psychic"]
+        },
+        {
+          "species": "Porygon-Z/Magnezone",
+          "level": 100,
+          "types": ["Normal", "Electric"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Special": [
+      {
+        "species": "Zapmolcuno",
+        "levels": "100",
+        "rate": "Triple Fusion Synthesis (Articuno + Zapdos + Moltres)"
+      },
+      {
+        "species": "Raienteicune",
+        "levels": "100",
+        "rate": "Triple Fusion Synthesis (Raikou + Entei + Suicune)"
+      },
+      {
+        "species": "Dialkiatina",
+        "levels": "100",
+        "rate": "Triple Fusion Synthesis (Dialga + Palkia + Giratina)"
+      }
+    ]
+  }
+}

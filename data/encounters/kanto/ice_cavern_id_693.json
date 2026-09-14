@@ -1,0 +1,51 @@
+{
+  "location": "Ice Cavern (ID 693)",
+  "sections": {
+    "Cave": [
+      {
+        "dex_id": "220",
+        "name": "Swinub",
+        "type1": "Ice",
+        "type2": "Ground",
+        "levels": "35-45",
+        "catch_rate": "225",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "221",
+        "name": "Piloswine",
+        "type1": "Ice",
+        "type2": "Ground",
+        "levels": "44-46",
+        "catch_rate": "75",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "427",
+        "name": "Snorunt",
+        "type1": "Ice",
+        "type2": "",
+        "levels": "35-45",
+        "catch_rate": "190",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "dex_id": "428",
+        "name": "Glalie",
+        "type1": "Ice",
+        "type2": "",
+        "levels": "55",
+        "catch_rate": "75",
+        "rates": [
+          "10%"
+        ]
+      }
+    ]
+  }
+}

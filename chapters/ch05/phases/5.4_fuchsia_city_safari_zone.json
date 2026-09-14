@@ -1,0 +1,61 @@
+{
+  "name": "Fuchsia City & Safari Zone",
+  "summary": "Arrival in Fuchsia City. Explore the Safari Zone ($500 entry) across Areas 1 through 4. Locate the Secret House in Area 4 to claim the Surfboard tool (HM replacement eliminating HM03 Surf) and retrieve the Warden's Gold Teeth to obtain the Strength tool.",
+  "items": [
+    {
+      "name": "Surfboard",
+      "method": "Gift inside the Secret House in Safari Zone Area 4 (HM replacement for Surf)",
+      "type": "Key Item"
+    },
+    {
+      "name": "Gold Teeth",
+      "method": "Ground pickup in Safari Zone Area 4 near the Secret House",
+      "type": "Key Item"
+    },
+    {
+      "name": "Strength Tool (Boulder Mover)",
+      "method": "Reward from the Safari Warden in eastern Fuchsia City upon returning his Gold Teeth",
+      "type": "Key Item"
+    },
+    {
+      "name": "Yellow Flute",
+      "method": "Gift from the Flute Hiker in Fuchsia City after earning the Soul Badge",
+      "type": "Key Item"
+    }
+  ],
+  "trainers": [],
+  "encounters": {
+    "Safari Zone Grass (Areas 1-4)": [
+      {"dex_id": "111", "name": "Rhyhorn", "types": ["Ground", "Rock"], "levels": "25", "rates": "25% All Areas"},
+      {"dex_id": "102", "name": "Exeggcute", "types": ["Grass", "Psychic"], "levels": "24-25", "rates": "20% All Areas"},
+      {"dex_id": "033", "name": "Nidorino", "types": ["Poison"], "levels": "25-31", "rates": "15% Morning / Day"},
+      {"dex_id": "030", "name": "Nidorina", "types": ["Poison"], "levels": "25-31", "rates": "15% Morning / Day"},
+      {"dex_id": "128", "name": "Tauros", "types": ["Normal"], "levels": "25-28", "rates": "10% All Areas"},
+      {"dex_id": "123", "name": "Scyther", "types": ["Bug", "Flying"], "levels": "23", "rates": "8% Morning / Day"},
+      {"dex_id": "127", "name": "Pinsir", "types": ["Bug"], "levels": "23", "rates": "8% Morning / Day"},
+      {"dex_id": "113", "name": "Chansey", "types": ["Normal"], "levels": "23", "rates": "1-4% Rare"},
+      {"dex_id": "108", "name": "Lickitung", "types": ["Normal"], "levels": "25-30", "rates": "10% Area 1"}
+    ],
+    "Safari Water (Surf & Fishing)": [
+      {"dex_id": "054", "name": "Psyduck", "types": ["Water"], "levels": "20-40", "rates": "35% Surfing"},
+      {"dex_id": "079", "name": "Slowpoke", "types": ["Water", "Psychic"], "levels": "20-40", "rates": "35% Surfing"},
+      {"dex_id": "436", "name": "Carvanha", "types": ["Water", "Dark"], "levels": "20-40", "rates": "20% Surfing / 10% Fishing"},
+      {"dex_id": "055", "name": "Golduck", "types": ["Water"], "levels": "20-30", "rates": "5% Surfing"},
+      {"dex_id": "080", "name": "Slowbro", "types": ["Water", "Psychic"], "levels": "20-30", "rates": "5% Surfing"},
+      {"dex_id": "147", "name": "Dratini", "types": ["Dragon"], "levels": "10-25", "rates": "10% Good Rod / 20% Super Rod"},
+      {"dex_id": "148", "name": "Dragonair", "types": ["Dragon"], "levels": "25-35", "rates": "4% Super Rod"}
+    ],
+    "Static & Trade": [
+      {"dex_id": "271", "name": "Lombre", "types": ["Water", "Grass"], "levels": "20-30", "rates": "Safari Areas 1-4 (Walk / surf across lilypads)"},
+      {"dex_id": "214", "name": "Heracross", "types": ["Bug", "Fighting"], "levels": "Same as Traded", "rates": "Safari Area 3 (Traded for Pinsir)"}
+    ],
+    "Poké Radar": [
+      {"dex_id": "395", "name": "Bagon", "types": ["Dragon"], "levels": "20", "rates": "50% Safari Area 1 Radar"}
+    ]
+  },
+  "navigation_notes": [
+    "No wild trainer battles inside the Safari Zone; you have 500 steps and 30 Safari Balls per expedition.",
+    "The Surfboard enables full water traversal across Kanto rivers, lakes, and oceanic sea routes with zero field move burdens.",
+    "Deliver the Gold Teeth to the Warden immediately to gain boulder-pushing strength for gym and cave puzzles."
+  ]
+}

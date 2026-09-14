@@ -1,0 +1,63 @@
+{
+  "title": "Route_36",
+  "url": "https://infinitefusion.fandom.com/wiki/Route_36",
+  "lead_summary": "Route 36 is a route that connects Violet City to the National Park, Route 37 and the Ruins of Alph. There is also a small shortcut to reach Route 35 directly without going through the National Park.\nThere is a well, next to the gate to the National Park, which adds 36 spirits to the OddKeyStone required to obtain Spiritomb once a day.\nThere is a Sudowoodo that blocks the path the fork between the North, the South-West and the South-East. A lady in Goldenrod City mentions that she gave a Squirtbottle to her friend, but she is in Ecruteak City.",
+  "missable_warnings": [],
+  "items": [
+    {
+      "internal_id": "machine_NORMAL",
+      "quantity": "",
+      "name": "TM83 Work Up",
+      "location_details": "East of the blocking Sudowoodo."
+    },
+    {
+      "internal_id": "LEMONADE",
+      "quantity": "",
+      "name": "Lemonade",
+      "location_details": "Given by Gentleman Nick after defeating him."
+    },
+    {
+      "internal_id": "CORNNBERRY",
+      "quantity": "1-2",
+      "name": "Cornn Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "GREPABERRY",
+      "quantity": "1-2",
+      "name": "Grepa Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "HONDEWBERRY",
+      "quantity": "1-2",
+      "name": "Hondew Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "KELPSYBERRY",
+      "quantity": "1-2",
+      "name": "Kelpsy Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "QUALOTBERRY",
+      "quantity": "1-2",
+      "name": "Qualot Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "TAMATOBERRY",
+      "quantity": "1-2",
+      "name": "Tamato Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    }
+  ],
+  "sections": [
+    "Items",
+    "Outfits",
+    "Pokémon",
+    "Trainers"
+  ],
+  "raw_wikitext": "{{GlobalToggles}}\n{{InfoboxLocation\n|region=Johto\n|location_image=Route36.png\n|map_image=Route_36_Map.png\n|connection_1_direction=west\n|connection_1_location=National Park\n|connection_2_direction=southwest\n|connection_2_location=Route 35\n|connection_2_restrictions=%cut%\n|connection_3_direction=southeast\n|connection_3_location=Ruins of Alph\n|connection_4_direction=east\n|connection_4_location=Violet City\n|connection_5_direction=northwest\n|connection_5_location=Route 37\n|connection_5_restrictions=%squirtbottle%\n}}\n'''Route 36''' is a route that connects [[Violet City]] to the [[National Park]], [[Route 37]] and the [[Ruins of Alph]]. There is also a small shortcut to reach [[Route 35]] directly without going through the National Park.\n\nThere is a well, next to the gate to the National Park, which adds 36 spirits to the [[List of Items|OddKeyStone]] required to obtain Spiritomb once a day.\n\nThere is a Sudowoodo that blocks the path the fork between the North, the South-West and the South-East. A lady in [[Goldenrod City]] mentions that she gave a Squirtbottle to her friend, but she is in [[Ecruteak City]].\n\n<gallery>\nFile:Sudowoodo_Route36.png|Fork blocked by a Sudowoodo.\n</gallery>\n\n==Items==\n{{ItemTable/Header}}\n{{ItemTable/Data|machine_NORMAL||TM83 Work Up|East of the blocking Sudowoodo.|TM83_Route36.png}}\n{{ItemTable/Data|LEMONADE||Lemonade|Given by Gentleman Nick after defeating him.|}}\n{{ItemTable/Section|Berry Bushes}}\n{{ItemTable/Data|CORNNBERRY|1-2|Cornn Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|GREPABERRY|1-2|Grepa Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|HONDEWBERRY|1-2|Hondew Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|KELPSYBERRY|1-2|Kelpsy Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|QUALOTBERRY|1-2|Qualot Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|TAMATOBERRY|1-2|Tamato Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Footer}}\n\n==Outfits==\n{{ItemTable/Header|Outfit}}\n{{ItemTable/Data/Outfit|hat|sudowoodohorns||Fight the Sudowoodo that is blocking the path.}}\n{{ItemTable/Footer/Outfit}}\n\n==Pokémon==\n<!-----------------------------------!>\n<!-- CLASSIC & EXPERT MODE POKÉMON --!>\n<!------------------------------------>\n<div class=\"classic-mode expert-mode\">\n{{EncounterTable/Header/Time}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|017|Pidgeotto|Normal|Flying|32-35|120|20%|20%|-}}\n{{EncounterTable/Data|030|Nidorina|Poison||32-33|120|27%|27%|25%}}\n{{EncounterTable/Data|033|Nidorino|Poison||32-33|120|27%|27%|25%}}\n{{EncounterTable/Data|037|Vulpix|Fire||33|190|7%}}\n{{EncounterTable/Data|058|Growlithe|Fire||33|190|7%}}\n{{EncounterTable/Data|163|Hoothoot|Normal|Flying|32-35|255|-|-|14%}}\n{{EncounterTable/Data|164|Noctowl|Normal|Flying|32-35|90|-|-|10%}}\n{{EncounterTable/Data|234|Stantler|Normal||33|45|12%}}\n{{EncounterTable/Section|Poké Radar}}\n{{EncounterTable/Data|185|Sudowoodo|Rock||25-30|65|50% <small>([[Poké Radar#How_it_works|long rustle]])</small>}}\n{{EncounterTable/Section|Static}}\n{{EncounterTable/Data|295|Spiritomb|Dark|Ghost|40|100|One}}\n{{EncounterTable/Data|185|Sudowoodo|Rock||60|65|One}}\n{{EncounterTable/Footer/Time}}\n</div>\n<!------------------------!>\n<!-- REMIX MODE POKÉMON --!>\n<!------------------------->\n<div class=\"remix-mode\">\n{{EncounterTable/Header/Time}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|037|Vulpix|Fire||33|190|7%}}\n{{EncounterTable/Data|058|Growlithe|Fire||33|190|7%}}\n{{EncounterTable/Data|125|Electabuzz|Electric||32-33|45|27%|27%|25%}}\n{{EncounterTable/Data|126|Magmar|Fire||32-33|45|27%|27%|25%}}\n{{EncounterTable/Data|203|Girafarig|Normal|Psychic|33|60|12%|12%|-}}\n{{EncounterTable/Data|234|Stantler|Normal||33|45|-|-|12%}}\n{{EncounterTable/Data|310|Absol|Dark||32-35|30|-|-|14%}}\n{{EncounterTable/Data|452|Bewear|Normal|Fighting|32-35|70|-|-|10%}}\n{{EncounterTable/Data|456|Hawlucha|Fighting|Flying|32-35|100|20%|20%|-}}\n{{EncounterTable/Section|Poké Radar}}\n{{EncounterTable/Data|185|Sudowoodo|Rock||25-30|65|50% <small>([[Poké Radar#How_it_works|long rustle]])</small>}}\n{{EncounterTable/Section|Static}}\n{{EncounterTable/Data|295|Spiritomb|Dark|Ghost|40|100|One}}\n{{EncounterTable/Data|185|Sudowoodo|Rock||60|65|One}}\n{{EncounterTable/Footer/Time}}\n</div>\n\n==Trainers==\n{{Trainer\n| trainerClass=GENTLEMAN\n| name=Nick\n| trainerOverworldSprite=BW037.png\n| postBattleAction=Gives {{ItemIcon|LEMONADE}} {{#invoke:ItemHelper|name|LEMONADE}} x1\n| pokemon1=178\n| pokemon1Level=36\n| pokemon2=270.266\n| pokemon2Level=41\n| remixPokemon1=329.314\n| remixPokemon1Level=45\n| remixPokemon2=308.9\n| remixPokemon2Level=45\n| remixPokemon3=455.426\n| remixPokemon3Level=46\n| remixPokemon4=321.94\n| remixPokemon4Level=45\n| expertPokemon1=143.59\n| expertPokemon1Level=44\n| expertPokemon1Item=SITRUSBERRY\n| expertPokemon1Nature=Adamant\n| expertPokemon1Ability=[[bulbapedia:Intimidate (Ability)|Intimidate]]\n| expertPokemon1Move1=Extreme Speed\n| expertPokemon1Move2=Flame Charge\n| expertPokemon1Move3=Morning Sun\n| expertPokemon1Move4=Belly Drum\n| expertPokemon1IVHP=31\n| expertPokemon1IVAtk=31\n| expertPokemon1IVDef=31\n| expertPokemon1IVSpA=31\n| expertPokemon1IVSpD=31\n| expertPokemon1IVSpe=31\n| expertPokemon1EVHP=12\n| expertPokemon1EVAtk=252\n| expertPokemon1EVDef=0\n| expertPokemon1EVSpA=0\n| expertPokemon1EVSpD=0\n| expertPokemon1EVSpe=246\n| expertPokemon2=178.455\n| expertPokemon2Level=40\n| expertPokemon2Item=LEFTOVERS\n| expertPokemon2Nature=Sassy\n| expertPokemon2Ability=[[bulbapedia:Magic Bounce (Ability)|Magic Bounce]]\n| expertPokemon2Move1=Scald\n| expertPokemon2Move2=U-turn\n| expertPokemon2Move3=Trick Room\n| expertPokemon2Move4=Roost\n| expertPokemon2IVHP=31\n| expertPokemon2IVAtk=31\n| expertPokemon2IVDef=31\n| expertPokemon2IVSpA=31\n| expertPokemon2IVSpD=31\n| expertPokemon2IVSpe=0\n| expertPokemon2EVHP=252\n| expertPokemon2EVAtk=0\n| expertPokemon2EVDef=6\n| expertPokemon2EVSpA=0\n| expertPokemon2EVSpD=252\n| expertPokemon2EVSpe=0\n| expertPokemon3=266.333\n| expertPokemon3Level=44\n| expertPokemon3Item=ROCKYHELMET\n| expertPokemon3Nature=Brave\n| expertPokemon3Ability=[[bulbapedia:Rock Head (Ability)|Rock Head]]\n| expertPokemon3Move1=Power Whip\n| expertPokemon3Move2=Head Smash\n| expertPokemon3Move3=Earthquake\n| expertPokemon3Move4=Synthesis\n| expertPokemon3IVHP=31\n| expertPokemon3IVAtk=31\n| expertPokemon3IVDef=31\n| expertPokemon3IVSpA=31\n| expertPokemon3IVSpD=31\n| expertPokemon3IVSpe=0\n| expertPokemon3EVHP=252\n| expertPokemon3EVAtk=252\n| expertPokemon3EVDef=0\n| expertPokemon3EVSpA=0\n| expertPokemon3EVSpD=6\n| expertPokemon3EVSpe=0\n}}\n\n{{Trainer\n| trainerClass=PSYCHIC_M\n| name=Mark\n| trainerOverworldSprite=BW012.png\n| postBattleAction=Rematch\n| pokemon1=64\n| pokemon1Level=35\n| pokemon2=64\n| pokemon2Level=35\n| pokemon3=185.65\n| pokemon3Level=38\n| remixPokemon1=137.469\n| remixPokemon1Level=45\n| remixPokemon2=233.492\n| remixPokemon2Level=46\n| remixPokemon3=490.275\n| remixPokemon3Level=47\n| expertPokemon1=97.128\n| expertPokemon1Level=40\n| expertPokemon1Item=TERRAINEXTENDER\n| expertPokemon1Nature=Adamant\n| expertPokemon1Ability=[[bulbapedia:Intimidate (Ability)|Intimidate]]\n| expertPokemon1Move1=Zen Headbutt\n| expertPokemon1Move2=Headbutt\n| expertPokemon1Move3=Taunt\n| expertPokemon1Move4=Psychic Terrain\n| expertPokemon1IVHP=31\n| expertPokemon1IVAtk=31\n| expertPokemon1IVDef=31\n| expertPokemon1IVSpA=31\n| expertPokemon1IVSpD=31\n| expertPokemon1IVSpe=31\n| expertPokemon1EVHP=6\n| expertPokemon1EVAtk=252\n| expertPokemon1EVDef=0\n| expertPokemon1EVSpA=0\n| expertPokemon1EVSpD=0\n| expertPokemon1EVSpe=252\n| expertPokemon2=270.94\n| expertPokemon2Level=40\n| expertPokemon2Item=FOCUSSASH\n| expertPokemon2Nature=Modest\n| expertPokemon2Ability=[[bulbapedia:Speed Boost (Ability)|Speed Boost]]\n| expertPokemon2Move1=Bug Buzz\n| expertPokemon2Move2=Sludge Bomb\n| expertPokemon2Move3=Air Slash\n| expertPokemon2Move4=Quiver Dance\n| expertPokemon2IVHP=31\n| expertPokemon2IVAtk=31\n| expertPokemon2IVDef=31\n| expertPokemon2IVSpA=31\n| expertPokemon2IVSpD=31\n| expertPokemon2IVSpe=31\n| expertPokemon2EVHP=6\n| expertPokemon2EVAtk=0\n| expertPokemon2EVDef=0\n| expertPokemon2EVSpA=252\n| expertPokemon2EVSpD=0\n| expertPokemon2EVSpe=252\n| expertPokemon3=65.135\n| expertPokemon3Level=41\n| expertPokemon3Item=LIFEORB\n| expertPokemon3Nature=Modest\n| expertPokemon3Ability=[[bulbapedia:Magic Guard (Ability)|Magic Guard]]\n| expertPokemon3Move1=Psychic\n| expertPokemon3Move2=Discharge\n| expertPokemon3Move3=Calm Mind\n| expertPokemon3Move4=Disable\n| expertPokemon3IVHP=31\n| expertPokemon3IVAtk=31\n| expertPokemon3IVDef=31\n| expertPokemon3IVSpA=31\n| expertPokemon3IVSpD=31\n| expertPokemon3IVSpe=31\n| expertPokemon3EVHP=6\n| expertPokemon3EVAtk=0\n| expertPokemon3EVDef=0\n| expertPokemon3EVSpA=252\n| expertPokemon3EVSpD=0\n| expertPokemon3EVSpe=252\n}}\n\n[[Category:Locations]]\n[[Category:Johto]]"
+}

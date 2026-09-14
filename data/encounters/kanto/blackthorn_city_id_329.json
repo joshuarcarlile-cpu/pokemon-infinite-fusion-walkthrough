@@ -1,0 +1,158 @@
+{
+  "location": "Blackthorn City (ID 329)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "075",
+        "name": "Graveler",
+        "type1": "Rock",
+        "type2": "Ground",
+        "levels": "44-46",
+        "catch_rate": "120",
+        "rates": [
+          "50%"
+        ]
+      },
+      {
+        "dex_id": "207",
+        "name": "Gligar",
+        "type1": "Ground",
+        "type2": "Flying",
+        "levels": "46",
+        "catch_rate": "60",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "dex_id": "217",
+        "name": "Ursaring",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "43",
+        "catch_rate": "60",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "227",
+        "name": "Skarmory",
+        "type1": "Steel",
+        "type2": "Flying",
+        "levels": "46",
+        "catch_rate": "25",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "232",
+        "name": "Donphan",
+        "type1": "Ground",
+        "type2": "",
+        "levels": "44",
+        "catch_rate": "60",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-45",
+        "catch_rate": "255",
+        "rates": [
+          "80%"
+        ]
+      },
+      {
+        "dex_id": "147",
+        "name": "Dratini",
+        "type1": "Dragon",
+        "type2": "",
+        "levels": "10",
+        "catch_rate": "45",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-45",
+        "catch_rate": "255",
+        "rates": [
+          "100%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-60",
+        "catch_rate": "255",
+        "rates": [
+          "100%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20-80",
+        "catch_rate": "255",
+        "rates": [
+          "50%"
+        ]
+      },
+      {
+        "dex_id": "147",
+        "name": "Dratini",
+        "type1": "Dragon",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "45",
+        "rates": [
+          "44%"
+        ]
+      },
+      {
+        "dex_id": "148",
+        "name": "Dragonair",
+        "type1": "Dragon",
+        "type2": "",
+        "levels": "45",
+        "catch_rate": "45",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "149",
+        "name": "Dragonite",
+        "type1": "Dragon",
+        "type2": "Flying",
+        "levels": "50",
+        "catch_rate": "45",
+        "rates": [
+          "1%"
+        ]
+      }
+    ]
+  }
+}

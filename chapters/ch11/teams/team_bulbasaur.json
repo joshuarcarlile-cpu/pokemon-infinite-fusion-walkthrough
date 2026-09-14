@@ -1,0 +1,128 @@
+{
+  "starter": "Bulbasaur",
+  "name": "Team Bulbasaur: Hive Breaker & Solar Incineration",
+  "archetype": "Fire coverage, 4x fighting wallbreaking, and sleep status control.",
+  "gym_duel_core": [1, 2, 3, 4, 5],
+  "gym_duel_rationale": "Kurt's 5v5 Gym battle requires targeted typing counters: Kingler/Primeape functions as the ultimate ace slayer, obliterating Kurt's 582 BST Blissey/Shuckle with 4x super-effective STAB Close Combat before it can stack Minimize evasion; Venusaur/Charizard melts Forretress/Cloyster with 4x Flamethrower and disables Lotad/Kingdra with accurate Sleep Powder; Alakazam/Weezing easily picks off Beedrill/Ariados with STAB Psychic; Gyarados/Arbok cuts physical Attack on entry with Intimidate; and Snorlax absorbs stray special attacks effortlessly with Rest.",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Venusaur/Charizard",
+      "types": ["Grass", "Fire"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 62,
+      "ability": "Overgrow",
+      "held_item": "Charcoal",
+      "role": "Fire Wallbreaker & Status Controller",
+      "current_reached_moveset": [
+        "Flamethrower",
+        "Petal Dance",
+        "Sleep Powder",
+        "Synthesis"
+      ],
+      "progression_notes": "530 BST starter hybrid. STAB Flamethrower cleanly incinerates Forretress/Cloyster through its 4x Fire weakness and melts Beedrill/Ariados."
+    },
+    {
+      "slot": 2,
+      "species": "Gyarados/Arbok",
+      "types": ["Water", "Poison"],
+      "status": "Active in Party (Retained from Ch 10)",
+      "current_level": 61,
+      "ability": "Intimidate",
+      "held_item": "Mystic Water",
+      "role": "Intimidate Physical Neutralizer",
+      "current_reached_moveset": [
+        "Aqua Tail",
+        "Crunch",
+        "Dragon Dance",
+        "Glare"
+      ],
+      "progression_notes": "513 BST Intimidate pivot. Drops physical Attack on entry. Glare applies reliable paralysis to cripple fast Bug/Dragon sweepers."
+    },
+    {
+      "slot": 3,
+      "species": "Alakazam/Weezing",
+      "types": ["Psychic", "Poison"],
+      "status": "Active in Party (Retained from Ch 10)",
+      "current_level": 61,
+      "ability": "Levitate",
+      "held_item": "Twisted Spoon",
+      "role": "Levitate Special Wallbreaker",
+      "current_reached_moveset": [
+        "Psychic",
+        "Sludge Bomb",
+        "Recover",
+        "Calm Mind"
+      ],
+      "progression_notes": "495 BST special sweeper with 118 SpA. STAB Psychic effortlessly OHKOs Beedrill/Ariados and bypasses physical bulk."
+    },
+    {
+      "slot": 4,
+      "species": "Kingler/Primeape",
+      "types": ["Water", "Fighting"],
+      "status": "Active in Party (Retained from Ch 10)",
+      "current_level": 61,
+      "ability": "Hyper Cutter",
+      "held_item": "Black Belt",
+      "role": "4x Fighting Ace Destroyer",
+      "current_reached_moveset": [
+        "Close Combat",
+        "Crabhammer",
+        "Cross Chop",
+        "Protect"
+      ],
+      "progression_notes": "500 BST physical titan. Close Combat exploits Blissey/Shuckle's catastrophic 4x Fighting weakness to shatter Kurt's ace instantly."
+    },
+    {
+      "slot": 5,
+      "species": "Snorlax",
+      "types": ["Normal"],
+      "status": "Active in Party (Retained from Ch 10)",
+      "current_level": 61,
+      "ability": "Thick Fat",
+      "held_item": "Leftovers",
+      "role": "Thick Fat Normal Tank",
+      "current_reached_moveset": [
+        "Body Slam",
+        "Rest",
+        "Sleep Talk",
+        "Crunch"
+      ],
+      "progression_notes": "Colossal 160 HP tank. Absorbs Dragon Pulse and special attacks with ease, recovering to full vitality with Rest and Sleep Talk."
+    },
+    {
+      "slot": 6,
+      "species": "Pidgeot",
+      "types": ["Normal", "Flying"],
+      "status": "Active in Party (Retained from Ch 10)",
+      "current_level": 60,
+      "ability": "Keen Eye",
+      "held_item": "Sharp Beak",
+      "role": "Fast Aerial Scout",
+      "current_reached_moveset": [
+        "Air Slash",
+        "Roost",
+        "Tailwind",
+        "Quick Attack"
+      ],
+      "progression_notes": "High-Speed Flying scout. STAB Air Slash provides super-effective Flying coverage against wild bug species across Ilex Forest."
+    }
+  ],
+  "flex_bench": [
+    {
+      "species": "Butterfree",
+      "role": "Compound Eyes Sleep Pivot",
+      "rationale": "97.5% accurate Sleep Powder and Quiver Dance setup against bulky route encounters."
+    },
+    {
+      "species": "Electabuzz",
+      "role": "Electric Speed Sweeper",
+      "rationale": "Discharge electrocutes Slowbro/Scizor and handles water encounters in Slowpoke Well."
+    },
+    {
+      "species": "Hitmonlee",
+      "role": "Reckless Fighting Breaker",
+      "rationale": "High Jump Kick physical breaker capable of substituting into the active party for Fighting STAB."
+    }
+  ]
+}

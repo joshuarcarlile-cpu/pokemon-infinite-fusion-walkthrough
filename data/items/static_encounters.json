@@ -1,0 +1,290 @@
+[
+  {
+    "pokemon": "Fomantis",
+    "location": "Route 2 (Before the Forest)",
+    "level": "10",
+    "notes": "Interact with the pink flower during the Oricorio quest started in Pewter City. (only one)"
+  },
+  {
+    "pokemon": "Spinarak",
+    "location": "Viridian Forest",
+    "level": "4",
+    "notes": "Interact with Spider Webs, Respawns daily"
+  },
+  {
+    "pokemon": "Paras",
+    "location": "Viridian Forest",
+    "level": "4",
+    "notes": "Interact with Mushrooms, Respawns daily"
+  },
+  {
+    "pokemon": "Beedrill",
+    "location": "Viridian Forest",
+    "level": "20",
+    "notes": "Quest Encounter"
+  },
+  {
+    "pokemon": "Gloom/Ekans",
+    "location": "Celadon City",
+    "level": "20",
+    "notes": "Random trashcan pokemon, only one is possible"
+  },
+  {
+    "pokemon": "Chikorita",
+    "location": "Viridian River",
+    "level": "5-15",
+    "notes": "Respawns indefinitely"
+  },
+  {
+    "pokemon": "Wimpod",
+    "location": "Cerulean City|Cerulean Team Rocket HQ",
+    "level": "16",
+    "notes": "Quest encounter"
+  },
+  {
+    "pokemon": "Lotad",
+    "location": "Route 6",
+    "level": "14-22",
+    "notes": "Surf/walk over the lilypads"
+  },
+  {
+    "pokemon": "Lombre",
+    "location": "Safari Zone (Area 1)",
+    "level": "20-30",
+    "notes": ""
+  },
+  {
+    "pokemon": "Snorlax",
+    "location": "Route 12",
+    "level": "30",
+    "notes": "Game Progression: Requires Pokéflute from Pokémon Tower"
+  },
+  {
+    "pokemon": "Grimer",
+    "location": "Route 17",
+    "level": "30",
+    "notes": "Quest Encounter"
+  },
+  {
+    "pokemon": "Pumpkaboo",
+    "location": "Route 18",
+    "level": "17-27",
+    "notes": "Interact with Pumpkins at night, Respawns daily"
+  },
+  {
+    "pokemon": "Mimikyu",
+    "location": "Creepy House",
+    "level": "35",
+    "notes": ""
+  },
+  {
+    "pokemon": "Scolipede",
+    "location": "Safari Zone (Area 3)",
+    "level": "65",
+    "notes": "Never respawns"
+  },
+  {
+    "pokemon": "Diglett",
+    "location": "Safari Zone (Area 5)",
+    "level": "22",
+    "notes": "Respawns in 1 hour"
+  },
+  {
+    "pokemon": "Cofagrigus",
+    "location": "Safari Zone Temple",
+    "level": "35",
+    "notes": "Respawns in 4 hours"
+  },
+  {
+    "pokemon": "Volcarona",
+    "location": "45",
+    "level": "Respawns daily",
+    "notes": ""
+  },
+  {
+    "pokemon": "Kecleon",
+    "location": "Saffron City",
+    "level": "40",
+    "notes": "Quest Encounter"
+  },
+  {
+    "pokemon": "Stufful",
+    "location": "Saffron City",
+    "level": "35",
+    "notes": ""
+  },
+  {
+    "pokemon": "Minior",
+    "location": "Mt. Moon Summit",
+    "level": "17-27",
+    "notes": "Look through the telescope at the Observatory and wait until a sound effect plays when a shooting star goes past. Talk to the female scientist and then interact with the crashed meteor outside."
+  },
+  {
+    "pokemon": "Absol",
+    "location": "Cinnabar Island",
+    "level": "35",
+    "notes": ""
+  },
+  {
+    "pokemon": "Magmar",
+    "location": "Pokémon Mansion",
+    "level": "40",
+    "notes": ""
+  },
+  {
+    "pokemon": "Jynx",
+    "location": "Seafoam Islands",
+    "level": "40",
+    "notes": ""
+  },
+  {
+    "pokemon": "Mawile",
+    "location": "Crimson City",
+    "level": "45",
+    "notes": ""
+  },
+  {
+    "pokemon": "Voltorb",
+    "location": "Power Plant",
+    "level": "15-35",
+    "notes": "Disguised as Pokéballs"
+  },
+  {
+    "pokemon": "Electabuzz",
+    "location": "40",
+    "level": "",
+    "notes": ""
+  },
+  {
+    "pokemon": "Cool Dino",
+    "location": "Goldenrod City",
+    "level": "50",
+    "notes": "Can't be caught, special easter egg"
+  },
+  {
+    "pokemon": "Rotom",
+    "location": "Saffron City (House beside Silph Co. Building, after beating Team Rocket, only at night)",
+    "level": "45",
+    "notes": "Respawned by defeating the Pokemon Champion a 2nd time (only if Rotom was not caught)."
+  },
+  {
+    "pokemon": "Spiritomb",
+    "location": "List of Items|Odd Keystone",
+    "level": "27",
+    "notes": "Fill the Odd Keystone up at Route 36"
+  },
+  {
+    "pokemon": "Shedinja",
+    "location": "Ilex Forest",
+    "level": "45",
+    "notes": ""
+  },
+  {
+    "pokemon": "Lapras",
+    "location": "Union Cave",
+    "level": "45",
+    "notes": ""
+  },
+  {
+    "pokemon": "Pineco",
+    "location": "Route 30",
+    "level": "40",
+    "notes": "Quest Encounter"
+  },
+  {
+    "pokemon": "Slaking",
+    "location": "Route 46",
+    "level": "45",
+    "notes": ""
+  },
+  {
+    "pokemon": "Froslass",
+    "location": "Ice Mountains|Ice Cavern",
+    "level": "55",
+    "notes": ""
+  },
+  {
+    "pokemon": "Mawile",
+    "location": "Mt. Mortar",
+    "level": "30-55",
+    "notes": "Random chance of the 20 possible encounters, Respawns every 7 days"
+  },
+  {
+    "pokemon": "Sudowoodo",
+    "location": "Route 36",
+    "level": "60",
+    "notes": "Game Progression: Requires Squirtbottle from Ecruteak City"
+  },
+  {
+    "pokemon": "Magikarp/Gyarados",
+    "location": "Lake of Rage",
+    "level": "40",
+    "notes": ""
+  },
+  {
+    "pokemon": "Feebas",
+    "location": "Kin Island|Sevii Islands",
+    "level": "15",
+    "notes": "Fishing in the Rain"
+  },
+  {
+    "pokemon": "Pyukumuku",
+    "location": "Treasure Beach",
+    "level": "25-35",
+    "notes": "Only when it rains at Treasure Beach"
+  },
+  {
+    "pokemon": "Magcargo",
+    "location": "Ruby Chamber",
+    "level": "55",
+    "notes": "Respawns in 1 hour"
+  },
+  {
+    "pokemon": "Mantine",
+    "location": "Deep Sea",
+    "level": "50",
+    "notes": "Respawns in 1 hour"
+  },
+  {
+    "pokemon": "Pidgeot/Pidgeot",
+    "location": "Navel Rock",
+    "level": "50",
+    "notes": ""
+  },
+  {
+    "pokemon": "Dhelmise",
+    "location": "Old Shipwreck",
+    "level": "50",
+    "notes": ""
+  },
+  {
+    "pokemon": "Zoroark",
+    "location": "Berry Forest",
+    "level": "55",
+    "notes": "Game Progression"
+  },
+  {
+    "pokemon": "Klinklang",
+    "location": "Rocket Warehouse",
+    "level": "55",
+    "notes": ""
+  },
+  {
+    "pokemon": "Geodude",
+    "location": "Rock Smash",
+    "level": "5-15",
+    "notes": "Default Rock Smash encounter"
+  },
+  {
+    "pokemon": "Trubbish",
+    "location": "Trashcans",
+    "level": "10",
+    "notes": ""
+  },
+  {
+    "pokemon": "Sandygast",
+    "location": "Destroying Sandcastles",
+    "level": "20",
+    "notes": "16.66% encounter chance per sandcastle, Respawns daily"
+  }
+]

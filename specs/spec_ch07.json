@@ -1,0 +1,69 @@
+{
+  "chapter_id": "ch07",
+  "title": "Act 1 - Segment 7: Cinnabar Island & Seafoam Islands (Volcano Badge)",
+  "act": 1,
+  "hard_mode_level_cap": 51,
+  "gym_duel_limit": 4,
+  "routes_covered": [
+    "Route 19",
+    "Route 20",
+    "Seafoam Islands",
+    "Cinnabar Island",
+    "Pokémon Mansion",
+    "Route 21"
+  ],
+  "expected_classic_spawns": [
+    "Tentacool",
+    "Tentacruel",
+    "Horsea",
+    "Seadra",
+    "Gyarados",
+    "Seel",
+    "Dewgong",
+    "Shellder",
+    "Cloyster",
+    "Swinub",
+    "Sneasel",
+    "Jynx",
+    "Staryu",
+    "Starmie",
+    "Articuno",
+    "Growlithe",
+    "Vulpix",
+    "Koffing",
+    "Weezing",
+    "Grimer",
+    "Muk",
+    "Magmar",
+    "Absol",
+    "Ditto",
+    "Tangela",
+    "Dunsparce"
+  ],
+  "prohibited_spawns": [
+    "Beldum",
+    "Gible",
+    "Torchic",
+    "Mudkip",
+    "Treecko",
+    "Chimchar",
+    "Piplup",
+    "Turtwig"
+  ],
+  "prohibited_tools": [
+    "Scuba Gear",
+    "Jetpack",
+    "Climbing Gear"
+  ],
+  "required_items": [
+    "Volcano Badge",
+    "Secret Key",
+    "Super Rod",
+    "TM38"
+  ],
+  "starter_teams_required": [
+    "bulbasaur",
+    "charmander",
+    "squirtle"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "name": "Route 8 & Route 7 (Underground Path)",
+  "summary": "Traveling west from Lavender Town toward Celadon City. Saffron City's eastern gate is locked, requiring passage through the East-West Underground Path. Emerge on Route 7 and step into the bustling metropolis of Celadon City.",
+  "items": [
+    {
+      "name": "Rare Candy",
+      "method": "Hidden in the central fenced lane of Route 8",
+      "type": "Consumable"
+    },
+    {
+      "name": "TM49 Echoed Voice",
+      "method": "In the corner grass patch of Route 7",
+      "type": "TM"
+    },
+    {
+      "name": "Sitrus Berry",
+      "method": "Near the entrance of the Underground Path on Route 8",
+      "type": "Berry"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Gambler Stan",
+      "team": [
+        {
+          "species": "Growlithe",
+          "level": 24,
+          "types": ["Fire"]
+        },
+        {
+          "species": "Vulpix",
+          "level": 24,
+          "types": ["Fire"]
+        }
+      ]
+    },
+    {
+      "name": "Super Nerd Glenn",
+      "team": [
+        {
+          "species": "Grimer",
+          "level": 22,
+          "types": ["Poison"]
+        },
+        {
+          "species": "Muk",
+          "level": 22,
+          "types": ["Poison"]
+        },
+        {
+          "species": "Koffing",
+          "level": 22,
+          "types": ["Poison"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Grass (Route 8 & 7)": [
+      {"dex_id": "052", "name": "Meowth", "types": ["Normal"], "levels": "18-22", "rates": "20% All"},
+      {"dex_id": "058", "name": "Growlithe", "types": ["Fire"], "levels": "18-21", "rates": "15% All"},
+      {"dex_id": "037", "name": "Vulpix", "types": ["Fire"], "levels": "18-21", "rates": "15% All"},
+      {"dex_id": "228", "name": "Houndour", "types": ["Dark", "Fire"], "levels": "18-21", "rates": "10% Night"},
+      {"dex_id": "198", "name": "Murkrow", "types": ["Dark", "Flying"], "levels": "18-21", "rates": "10% Night"},
+      {"dex_id": "016", "name": "Pidgey", "types": ["Normal", "Flying"], "levels": "18-22", "rates": "15% Day / Morning"},
+      {"dex_id": "043", "name": "Oddish", "types": ["Grass", "Poison"], "levels": "18-21", "rates": "15% Day / Morning"}
+    ],
+    "Poké Radar": [
+      {"dex_id": "425", "name": "Drifloon", "types": ["Ghost", "Flying"], "levels": "18-22", "rates": "50% Route 7 Radar"},
+      {"dex_id": "403", "name": "Shinx", "types": ["Electric"], "levels": "18-22", "rates": "50% Route 8 Radar"}
+    ]
+  }
+}

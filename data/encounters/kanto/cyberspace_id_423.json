@@ -1,0 +1,18 @@
+{
+  "location": "Cyberspace (ID 423)",
+  "sections": {
+    "Cave": [
+      {
+        "dex_id": "137",
+        "name": "Porygon",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "45",
+        "rates": [
+          "100%"
+        ]
+      }
+    ]
+  }
+}

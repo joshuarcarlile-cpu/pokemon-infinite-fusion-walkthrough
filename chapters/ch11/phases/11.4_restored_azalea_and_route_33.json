@@ -1,0 +1,56 @@
+{
+  "name": "Restored Azalea Town & Route 33 Orchard",
+  "summary": "Emerge to find Azalea Town completely dry and bustling once more. Kurt rewards your heroic efforts with 5 Candy Balls, and a King's Rock can be retrieved beside the wellhead. Tour the reopened Pokémon Mart for Bug Gems and regional Bug Hakama attire, then travel east onto Route 33 to harvest from ten daily berry bushes and battle along the foothills towards Union Cave.",
+  "items": [
+    {
+      "name": "Candy Ball",
+      "method": "Set of 5 custom balls gifted by Kurt after restoring Azalea Town's drainage",
+      "type": "Pokéball"
+    },
+    {
+      "name": "King's Rock",
+      "method": "Found resting near the well rim once the water recedes completely",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Sitrus Berry",
+      "method": "Daily random harvest from the Route 33 berry grove",
+      "type": "Berry"
+    },
+    {
+      "name": "Lum Berry",
+      "method": "Daily random harvest from the Route 33 berry grove",
+      "type": "Berry"
+    },
+    {
+      "name": "Leppa Berry",
+      "method": "Daily random harvest from the Route 33 berry grove",
+      "type": "Berry"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Hiker Anthony",
+      "team": [
+        {"species": "Geodude/Machop", "level": 50, "types": ["Rock", "Fighting"]},
+        {"species": "Graveler", "level": 52, "types": ["Rock", "Ground"]}
+      ]
+    },
+    {
+      "name": "Camper Spencer",
+      "team": [
+        {"species": "Sandshrew/Sandslash", "level": 49, "types": ["Ground"]},
+        {"species": "Fearow", "level": 51, "types": ["Normal", "Flying"]}
+      ]
+    }
+  ],
+  "encounters": {
+    "Route 33 Grass": [
+      {"dex_id": "020", "name": "Raticate", "types": ["Normal"], "levels": "43", "rates": "30%"},
+      {"dex_id": "022", "name": "Fearow", "types": ["Normal", "Flying"], "levels": "40-43", "rates": "20%"},
+      {"dex_id": "024", "name": "Arbok", "types": ["Poison"], "levels": "40-44", "rates": "15%"},
+      {"dex_id": "019", "name": "Rattata", "types": ["Normal"], "levels": "45", "rates": "20% (Night)"},
+      {"dex_id": "042", "name": "Golbat", "types": ["Poison", "Flying"], "levels": "43", "rates": "15% (Night)"}
+    ]
+  }
+}

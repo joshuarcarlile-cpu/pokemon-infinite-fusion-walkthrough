@@ -1,0 +1,45 @@
+{
+  "name": "Mt. Mortar Cavern Labyrinth",
+  "summary": "Venture into the subterranean multi-floor cavern of Mt. Mortar from Route 42. Traversing its shadowy halls requires the Lantern (Flash) and Surfboard (Surf) across underground lakes and waterfalls. Scour the rocky ledges to claim high-value evolution treasures: the Metal Coat on the upper waterfall plateau, the Protector north of the west entrance, and the Strange Prism below the lower falls. Deep in the interior grotto, duel Black Belt Kiyo to earn a gifted Tyrogue (Lv. 10), and watch for wild Absol, Machamp, Golem, and a weekly static Mawile.",
+  "items": [
+    {
+      "name": "Metal Coat",
+      "method": "Located in the western upper cavern on top of the waterfall plateau",
+      "type": "Evolution Item"
+    },
+    {
+      "name": "Protector",
+      "method": "Found on the ground directly north of the western entrance passage",
+      "type": "Evolution Item"
+    },
+    {
+      "name": "Strange Prism",
+      "method": "Located in the eastern grotto below the lower waterfall cascade",
+      "type": "Hold Item"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Black Belt Kiyo",
+      "team": [
+        {"species": "Machoke/Marowak", "level": 48, "types": ["Fighting", "Ground"]}
+      ]
+    }
+  ],
+  "encounters": {
+    "Mt. Mortar Cave Interior": [
+      {"dex_id": "067", "name": "Machoke", "types": ["Fighting"], "levels": "45", "rates": "20%"},
+      {"dex_id": "068", "name": "Machamp", "types": ["Fighting"], "levels": "55", "rates": "5%"},
+      {"dex_id": "075", "name": "Graveler", "types": ["Rock", "Ground"], "levels": "45", "rates": "20%"},
+      {"dex_id": "076", "name": "Golem", "types": ["Rock", "Ground"], "levels": "55", "rates": "5%"},
+      {"dex_id": "042", "name": "Golbat", "types": ["Poison", "Flying"], "levels": "45", "rates": "25%"},
+      {"dex_id": "310", "name": "Absol", "types": ["Dark"], "levels": "43", "rates": "10%"},
+      {"dex_id": "020", "name": "Raticate", "types": ["Normal"], "levels": "45", "rates": "15%"}
+    ],
+    "Mt. Mortar Subterranean Water": [
+      {"dex_id": "118", "name": "Goldeen", "types": ["Water"], "levels": "25-40", "rates": "50%"},
+      {"dex_id": "119", "name": "Seaking", "types": ["Water"], "levels": "30-45", "rates": "30%"},
+      {"dex_id": "184", "name": "Azumarill", "types": ["Water", "Fairy"], "levels": "45", "rates": "20%"}
+    ]
+  }
+}

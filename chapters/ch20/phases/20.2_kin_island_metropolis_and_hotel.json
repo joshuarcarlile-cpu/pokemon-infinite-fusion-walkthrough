@@ -1,0 +1,55 @@
+{
+  "name": "Kin Island Metropolis & Hotel",
+  "summary": "Step into Kin Island (Three Island), the bustling trade hub of the Sevii Islands. Check in at the Kin Island Hotel — the sole luxury lodge in the archipelago. Visit the EV Berry Vendor to stock up on effort-value reduction berries for exact stat tuning. Thoroughly search the city perimeter to discover four Nuggets, two Heart Scales, a Star Piece, PP Max, a Prism Scale, and TM114 Leech Life down the western alleyway. Use the Poké Radar in the lush coastal grass to catch rare wild Whimsicott.",
+  "items": [
+    {
+      "name": "TM114 Leech Life",
+      "method": "Found at the end of the narrow alley behind the market",
+      "type": "Technical Machine"
+    },
+    {
+      "name": "Prism Scale",
+      "method": "Given by the seaside researcher near the harbour docks",
+      "type": "Evolution Item"
+    },
+    {
+      "name": "Golden Banana",
+      "method": "Gifted by the eccentric fruit collector behind the hotel",
+      "type": "Key Item"
+    },
+    {
+      "name": "Star Piece",
+      "method": "Hidden on the elevated rooftop garden patio",
+      "type": "Valuable"
+    },
+    {
+      "name": "PP Max",
+      "method": "Behind a cuttable bush near the town gate",
+      "type": "Medicine"
+    },
+    {
+      "name": "Nugget",
+      "method": "Hidden in a wooden shipping crate by the harbour",
+      "type": "Valuable"
+    },
+    {
+      "name": "Heart Scale",
+      "method": "Hidden in the sand near the ferry pontoon",
+      "type": "Hold Item"
+    }
+  ],
+  "trainers": [],
+  "encounters": {
+    "Poké Radar": [
+      { "species": "Whimsicott", "levels": "32-45", "rate": "50% (Long Rustle)" }
+    ],
+    "Surf": [
+      { "species": "Tentacool", "levels": "20-40", "rate": "15%" },
+      { "species": "Horsea", "levels": "25-30", "rate": "30%" },
+      { "species": "Corsola", "levels": "40-45", "rate": "20%" },
+      { "species": "Mantine", "levels": "50", "rate": "5%" },
+      { "species": "Bruxish", "levels": "35-45", "rate": "10%" },
+      { "species": "Luvdisc", "levels": "25-30", "rate": "20%" }
+    ]
+  }
+}

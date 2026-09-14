@@ -1,0 +1,243 @@
+{
+  "location": "Route 31 (ID 261)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "011",
+        "name": "Metapod",
+        "type1": "Bug",
+        "type2": "",
+        "levels": "50-52",
+        "catch_rate": "120",
+        "rates": [
+          "30%",
+          "30%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "012",
+        "name": "Butterfree",
+        "type1": "Bug",
+        "type2": "Flying",
+        "levels": "55",
+        "catch_rate": "45",
+        "rates": [
+          "15%",
+          "15%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "014",
+        "name": "Kakuna",
+        "type1": "Bug",
+        "type2": "Poison",
+        "levels": "50-52",
+        "catch_rate": "120",
+        "rates": [
+          "-",
+          "-",
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "017",
+        "name": "Pidgeotto",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "53",
+        "catch_rate": "120",
+        "rates": [
+          "25%",
+          "25%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "042",
+        "name": "Golbat",
+        "type1": "Poison",
+        "type2": "Flying",
+        "levels": "52",
+        "catch_rate": "90",
+        "rates": [
+          "-",
+          "-",
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "070",
+        "name": "Weepinbell",
+        "type1": "Grass",
+        "type2": "Poison",
+        "levels": "50",
+        "catch_rate": "120",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "164",
+        "name": "Noctowl",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "55",
+        "catch_rate": "90",
+        "rates": [
+          "-",
+          "-",
+          "25%"
+        ]
+      },
+      {
+        "dex_id": "166",
+        "name": "Ledian",
+        "type1": "Bug",
+        "type2": "Flying",
+        "levels": "54-55",
+        "catch_rate": "90",
+        "rates": [
+          "10%",
+          "10%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "168",
+        "name": "Ariados",
+        "type1": "Bug",
+        "type2": "Poison",
+        "levels": "55",
+        "catch_rate": "90",
+        "rates": [
+          "-",
+          "-",
+          "15%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "dex_id": "060",
+        "name": "Poliwag",
+        "type1": "Water",
+        "type2": "",
+        "levels": "15-30",
+        "catch_rate": "255",
+        "rates": [
+          "90%"
+        ]
+      },
+      {
+        "dex_id": "061",
+        "name": "Poliwhirl",
+        "type1": "Water",
+        "type2": "",
+        "levels": "35",
+        "catch_rate": "120",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "dex_id": "060",
+        "name": "Poliwag",
+        "type1": "Water",
+        "type2": "",
+        "levels": "10",
+        "catch_rate": "255",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "10",
+        "catch_rate": "255",
+        "rates": [
+          "85%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "dex_id": "061",
+        "name": "Poliwhirl",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "120",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "255",
+        "rates": [
+          "85%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "dex_id": "062",
+        "name": "Poliwrath",
+        "type1": "Water",
+        "type2": "Fighting",
+        "levels": "40",
+        "catch_rate": "45",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "255",
+        "rates": [
+          "85%"
+        ]
+      },
+      {
+        "dex_id": "186",
+        "name": "Politoed",
+        "type1": "Water",
+        "type2": "",
+        "levels": "40",
+        "catch_rate": "45",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Pok\u00e9 Radar": [
+      {
+        "dex_id": "182",
+        "name": "Bellossom",
+        "type1": "Grass",
+        "type2": "",
+        "levels": "45-50",
+        "catch_rate": "45",
+        "rates": [
+          "50% <small>([[Pok\u00e9 Radar#How_it_works",
+          "long rustle]])</small>"
+        ]
+      }
+    ]
+  }
+}

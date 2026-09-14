@@ -1,0 +1,55 @@
+{
+  "name": "Blackthorn Gym and Dragon's Den",
+  "summary": "Enter Blackthorn Gym, where basalt platforms float over rivers of subterranean magma. Receive a Fresh Water from the greeter at the door. Shift the floating basalt bridges by pressing directional trigger tiles, defeating Cooltrainers Paul, Cody, and Mike along the way. Challenge Gym Leader Clair in a fierce 5 vs 5 duel against her dragon hybrids. Following her initial test, enter the Dragon's Den cavern behind the gym, surfing across the subterranean lake to the sacred Dragon Shrine. Speak with the Dragon Clan Elder woman to receive a gifted Gible, whereupon Clair officially awards the Rising Badge, TM101 (Dragon Pulse), the Red String Hair Bow vanity hat, and 4 Premium Wonder Trade tickets.",
+  "items": [
+    {
+      "name": "Fresh Water",
+      "method": "Gifted by the gym greeter near the entrance inside Blackthorn Gym",
+      "type": "Medicine"
+    },
+    {
+      "name": "Rising Badge",
+      "method": "Awarded by Gym Leader Clair inside the Dragon's Den shrine upon completing her trial",
+      "type": "Badge"
+    },
+    {
+      "name": "TM101 (Dragon Pulse)",
+      "method": "Gifted by Gym Leader Clair alongside the Rising Badge inside the shrine",
+      "type": "TM"
+    },
+    {
+      "name": "Red String Hair Bow",
+      "method": "Rewarded by Gym Leader Clair as a commemorative vanity ribbon upon victory",
+      "type": "Vanity"
+    },
+    {
+      "name": "Gible",
+      "method": "Gifted directly by the Dragon Clan Elder woman inside the Dragon Shrine (Lv. 20)",
+      "type": "Gift"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Cooltrainer Paul",
+      "team": [
+        {"species": "Dratini/Bayleef", "level": 54, "types": ["Dragon", "Grass"]},
+        {"species": "Dratini/Quilava", "level": 54, "types": ["Dragon", "Fire"]},
+        {"species": "Dratini/Croconaw", "level": 54, "types": ["Dragon", "Water"]}
+      ]
+    },
+    {
+      "name": "Cooltrainer Cody",
+      "team": [
+        {"species": "Seadra/Charmeleon", "level": 57, "types": ["Water", "Fire"]},
+        {"species": "Seadra/Quilava", "level": 57, "types": ["Water", "Fire"]}
+      ]
+    },
+    {
+      "name": "Cooltrainer Mike",
+      "team": [
+        {"species": "Dragonite/Metapod", "level": 62, "types": ["Dragon", "Bug"]}
+      ]
+    }
+  ],
+  "encounters": {}
+}

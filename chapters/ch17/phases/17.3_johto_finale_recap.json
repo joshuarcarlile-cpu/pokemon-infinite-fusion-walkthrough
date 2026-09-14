@@ -1,0 +1,17 @@
+{
+  "name": "Johto Finale — Act 2 Completion",
+  "summary": "With all seven Johto Badges secured and the Waterfall tool obtained, the Johto mainland campaign draws to a definitive close. Review your accomplishments across the entire Act 2 arc — from the Magnet Train arrival in Goldenrod City through Whitney's intimidating Miltank, Kurt's Azalea woodland forge, Falkner's aerial Violet City arena, the ancient Ruins of Alph puzzles, Morty's ghostly Ecruteak tower, Pryce's frozen Mahogany rink, and Clair's fearsome Blackthorn dragon den. Your party has grown from a scrappy Kanto Champion squad into a battle-hardened force of powerhouse fusions and evolved specialists. The Sevii Islands and the true endgame await in Act 3.",
+  "act_2_badge_roster": [
+    {"badge": "Plain Badge", "leader": "Whitney", "city": "Goldenrod City", "chapter": "ch10"},
+    {"badge": "Hive Badge", "leader": "Kurt", "city": "Azalea Town", "chapter": "ch11"},
+    {"badge": "Zephyr Badge", "leader": "Falkner", "city": "Violet City", "chapter": "ch12"},
+    {"badge": "Fog Badge", "leader": "Morty", "city": "Ecruteak City", "chapter": "ch14"},
+    {"badge": "Glacier Badge", "leader": "Pryce", "city": "Mahogany Town", "chapter": "ch15"},
+    {"badge": "Rising Badge", "leader": "Clair", "city": "Blackthorn City", "chapter": "ch16"}
+  ],
+  "tools_acquired_act_2": [
+    {"tool": "Teleporter", "location": "Goldenrod Radio Tower", "chapter": "ch10"},
+    {"tool": "Waterfall", "location": "New Bark Town — Prof. Elm", "chapter": "ch17"}
+  ],
+  "act_3_tease": "Board the ferry from Vermilion City to the Sevii Islands archipelago. Chuck's Storm Badge, Jasmine's Mineral Badge, Chrono Island mysteries, Mt. Silver's treacherous ascent, and the ultimate showdowns against Gold and Red lie ahead. Prepare your strongest fusions — the final challenges of Pokémon Infinite Fusion await."
+}

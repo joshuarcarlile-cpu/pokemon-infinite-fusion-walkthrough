@@ -1,0 +1,128 @@
+{
+  "starter": "Bulbasaur",
+  "name": "Team Bulbasaur: Plain Badge Precision",
+  "archetype": "Sleep control, Intimidate attack reduction, and Fighting wallbreaking.",
+  "gym_duel_core": [1, 2, 3, 4, 5],
+  "gym_duel_rationale": "Whitney's 5v5 challenge prompts the player to pick 5 Pokémon: Kingler/Primeape serves as the primary offensive wallbreaker, obliterating Normal types with super-effective Close Combat; Gyarados/Arbok enters to trigger Intimidate and paralyze fast threats like Tauros with Glare; Snorlax matches Whitney's heavyweights in endurance with Rest and Body Slam; Venusaur/Charizard shuts down Chansey/Miltank's Rollout momentum with accurate Sleep Powder; and Alakazam/Weezing targets low special defenses with STAB Psychic.",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Venusaur/Charizard",
+      "types": ["Grass", "Fire"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 62,
+      "ability": "Overgrow",
+      "held_item": "Miracle Seed",
+      "role": "Status Controller & Solar Sweeper",
+      "current_reached_moveset": [
+        "Petal Dance",
+        "Flamethrower",
+        "Sleep Powder",
+        "Synthesis"
+      ],
+      "progression_notes": "530 BST starter anchor. Sleep Powder immediately stops Chansey/Miltank from stacking Rollout turns or healing with Milk Drink."
+    },
+    {
+      "slot": 2,
+      "species": "Gyarados/Arbok",
+      "types": ["Water", "Poison"],
+      "status": "Active in Party (Retained from Ch 9)",
+      "current_level": 61,
+      "ability": "Intimidate",
+      "held_item": "Mystic Water",
+      "role": "Intimidate Physical Neutralizer",
+      "current_reached_moveset": [
+        "Aqua Tail",
+        "Crunch",
+        "Dragon Dance",
+        "Glare"
+      ],
+      "progression_notes": "513 BST Intimidate pivot. Cuts Aipom/Tauros Attack stat upon entry. Glare inflicts 100% accurate paralysis on speedy Normal sweepers."
+    },
+    {
+      "slot": 3,
+      "species": "Alakazam/Weezing",
+      "types": ["Psychic", "Poison"],
+      "status": "Active in Party (Retained from Ch 9)",
+      "current_level": 61,
+      "ability": "Levitate",
+      "held_item": "Twisted Spoon",
+      "role": "Levitate Special Wallbreaker",
+      "current_reached_moveset": [
+        "Psychic",
+        "Sludge Bomb",
+        "Recover",
+        "Calm Mind"
+      ],
+      "progression_notes": "495 BST special sweeper with 118 SpA. Bypasses high physical Defense walls like Chansey/Miltank using special STAB Psychic."
+    },
+    {
+      "slot": 4,
+      "species": "Kingler/Primeape",
+      "types": ["Water", "Fighting"],
+      "status": "Active in Party (Retained from Ch 9)",
+      "current_level": 61,
+      "ability": "Hyper Cutter",
+      "held_item": "Black Belt",
+      "role": "Normal-Crushing Wallbreaker",
+      "current_reached_moveset": [
+        "Crabhammer",
+        "Close Combat",
+        "Cross Chop",
+        "Protect"
+      ],
+      "progression_notes": "500 BST physical destroyer. STAB Close Combat delivers catastrophic super-effective damage to Whitney's entire Normal-type roster."
+    },
+    {
+      "slot": 5,
+      "species": "Snorlax",
+      "types": ["Normal"],
+      "status": "Active in Party (Retained from Ch 9)",
+      "current_level": 61,
+      "ability": "Thick Fat",
+      "held_item": "Leftovers",
+      "role": "Thick Fat Normal Tank",
+      "current_reached_moveset": [
+        "Body Slam",
+        "Rest",
+        "Sleep Talk",
+        "Crunch"
+      ],
+      "progression_notes": "Colossal 160 HP tank. Absorbs stray Metronome and Hyper Beam hits effortlessly, recovering to full health with Rest and Sleep Talk."
+    },
+    {
+      "slot": 6,
+      "species": "Pidgeot",
+      "types": ["Normal", "Flying"],
+      "status": "Active in Party (Retained from Ch 9)",
+      "current_level": 60,
+      "ability": "Keen Eye",
+      "held_item": "Sharp Beak",
+      "role": "Fast Aerial Scout",
+      "current_reached_moveset": [
+        "Air Slash",
+        "Roost",
+        "Tailwind",
+        "Quick Attack"
+      ],
+      "progression_notes": "High-Speed Flying scout. Immune to Ground moves and provides team-wide Tailwind speed doubles if needed during route exploration."
+    }
+  ],
+  "flex_bench": [
+    {
+      "species": "Butterfree",
+      "role": "Compound Eyes Sleep Pivot",
+      "rationale": "97.5% accurate Sleep Powder and Quiver Dance setup against bulky route trainers."
+    },
+    {
+      "species": "Electabuzz",
+      "role": "Electric Speed Sweeper",
+      "rationale": "High-speed Electric coverage packing Discharge and Light Screen against Water hybrids."
+    },
+    {
+      "species": "Hitmonlee",
+      "role": "Reckless Fighting Breaker",
+      "rationale": "High Jump Kick physical breaker capable of substituting into the active party for Fighting STAB."
+    }
+  ]
+}

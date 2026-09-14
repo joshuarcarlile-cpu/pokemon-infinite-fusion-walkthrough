@@ -1,0 +1,72 @@
+{
+  "name": "Mt. Moon (1F)",
+  "summary": "Cavernous natural passage carving through the mountain divide between Pewter City and Cerulean City. Abundant in Rock, Ground, and Poison spawns, plus the crucial Moon Stone evolutionary item.",
+  "items": [
+    {
+      "name": "Moon Stone",
+      "method": "Northwest corner of 1F near the rock formation",
+      "type": "Consumable"
+    },
+    {
+      "name": "TM09 Venoshock",
+      "method": "Southwestern alcove on 1F (behind breakable rocks, backtrack after obtaining Rock Smash)",
+      "type": "TM"
+    },
+    {
+      "name": "Potion",
+      "method": "Near the eastern ladder entrance",
+      "type": "Consumable"
+    },
+    {
+      "name": "Escape Rope",
+      "method": "Northeast corner near the descending ladder",
+      "type": "Consumable"
+    },
+    {
+      "name": "Rare Candy",
+      "method": "Hidden in the rock by the central pathway",
+      "type": "Consumable"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Bug Catcher Kent",
+      "team": [
+        {"species": "Weedle", "level": 11},
+        {"species": "Kakuna", "level": 11}
+      ],
+      "reward": "132 Pokedollars"
+    },
+    {
+      "name": "Lass Iris",
+      "team": [
+        {"species": "Clefairy", "level": 14}
+      ],
+      "reward": "224 Pokedollars"
+    },
+    {
+      "name": "Super Nerd Jovan",
+      "team": [
+        {"species": "Magnemite", "level": 11},
+        {"species": "Voltorb", "level": 11}
+      ],
+      "reward": "264 Pokedollars"
+    }
+  ],
+  "encounters": {
+    "Cave": [
+      {"dex_id": "027", "name": "Sandshrew", "types": ["Ground"], "levels": "12", "rates": "8% All Times"},
+      {"dex_id": "041", "name": "Zubat", "types": ["Poison", "Flying"], "levels": "8-11", "rates": "41% All Times"},
+      {"dex_id": "046", "name": "Paras", "types": ["Bug", "Grass"], "levels": "10-12", "rates": "15% All Times"},
+      {"dex_id": "074", "name": "Geodude", "types": ["Rock", "Ground"], "levels": "9-10", "rates": "21% All Times"},
+      {"dex_id": "095", "name": "Onix", "types": ["Rock", "Ground"], "levels": "10", "rates": "1% All Times"},
+      {"dex_id": "035", "name": "Clefairy", "types": ["Fairy"], "levels": "10-12", "rates": "14% All Times"}
+    ],
+    "Rock Smash": [
+      {"dex_id": "074", "name": "Geodude", "types": ["Rock", "Ground"], "levels": "5-30", "rates": "85% (Requires TM94 or Pickaxe)"},
+      {"dex_id": "325", "name": "Nosepass", "types": ["Rock"], "levels": "15", "rates": "10% (Requires TM94 or Pickaxe)"},
+      {"dex_id": "464", "name": "Carbink", "types": ["Rock", "Fairy"], "levels": "15-20", "rates": "5% (Requires TM94 or Pickaxe)"}
+    ]
+  },
+  "navigation_notes": "Use the Moon Stone on Nidorino (evolved from Nidoran♂ at Lv. 16) to immediately evolve into Nidoking, gaining massive base stats and Ground dual-typing before reaching Cerulean."
+}

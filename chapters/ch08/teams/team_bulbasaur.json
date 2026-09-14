@@ -1,0 +1,128 @@
+{
+  "starter": "Bulbasaur",
+  "name": "Team Bulbasaur: Earth Shatter & Levitate Control",
+  "archetype": "Levitate Ground immunity, 4x Grass STAB, and Intimidate Water pivots.",
+  "gym_duel_core": [1, 2, 3, 4, 5],
+  "gym_duel_rationale": "Giovanni commands heavy Ground, Rock, and Fighting juggernauts. When challenged, select your 5 designated Pokémon: Venusaur/Charizard (4x Grass STAB crushes Rhyperior/Lapras while resisting Ground and Fighting), Gyarados/Arbok (Intimidate blunts Golem/Machamp and Primeape/Nidoking while Aqua Tail sweeps), Alakazam/Weezing (Levitate grants complete immunity to Giovanni's Earthquakes while STAB Psychic demolishes his Fighting types), Kingler/Primeape (monstrous Crabhammer and Close Combat to shatter Rhydon/Snorlax), and Snorlax (colossal HP sponge that tanks hits and stalls out Sandstorm turns).",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Venusaur/Charizard",
+      "types": ["Grass", "Fire"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 54,
+      "ability": "Overgrow",
+      "held_item": "Miracle Seed",
+      "role": "Solar Sweeper & Mixed Anchor",
+      "current_reached_moveset": [
+        "Petal Dance",
+        "Flamethrower",
+        "Sleep Powder",
+        "Synthesis"
+      ],
+      "progression_notes": "530 BST Grass/Fire powerhouse. Resists Fighting and Grass attacks while firing devastating Grass and Fire STABs. Completely counters Rhyperior/Lapras with 4x super-effective Petal Dance."
+    },
+    {
+      "slot": 2,
+      "species": "Gyarados/Arbok",
+      "types": ["Water", "Poison"],
+      "status": "Active in Party (Retained from Ch 7)",
+      "current_level": 53,
+      "ability": "Intimidate",
+      "held_item": "Mystic Water",
+      "role": "Intimidate Water Bruiser",
+      "current_reached_moveset": [
+        "Aqua Tail",
+        "Crunch",
+        "Dragon Dance",
+        "Glare"
+      ],
+      "progression_notes": "513 BST Intimidate bruiser. Intimidate neutralizes Giovanni's heavy physical attackers upon switch-in. STAB Aqua Tail washes away Golem/Machamp and Electabuzz/Dugtrio."
+    },
+    {
+      "slot": 3,
+      "species": "Alakazam/Weezing",
+      "types": ["Psychic", "Poison"],
+      "status": "Active in Party (Retained from Ch 7)",
+      "current_level": 53,
+      "ability": "Levitate",
+      "held_item": "Twisted Spoon",
+      "role": "Levitate Special Wallbreaker",
+      "current_reached_moveset": [
+        "Psychic",
+        "Sludge Bomb",
+        "Recover",
+        "Calm Mind"
+      ],
+      "progression_notes": "495 BST Levitate pivot with 118 SpA. Levitate makes it 100% immune to Giovanni's Earthquakes, allowing free Calm Mind setups and STAB Psychic sweeps against Primeape/Nidoking."
+    },
+    {
+      "slot": 4,
+      "species": "Kingler/Primeape",
+      "types": ["Water", "Fighting"],
+      "status": "Active in Party (Retained from Ch 7)",
+      "current_level": 53,
+      "ability": "Hyper Cutter",
+      "held_item": "Black Belt",
+      "role": "Physical Wallbreaker",
+      "current_reached_moveset": [
+        "Crabhammer",
+        "Close Combat",
+        "Cross Chop",
+        "Protect"
+      ],
+      "progression_notes": "500 BST high-Attack physical breaker. Crabhammer shreds Ground and Rock types, while STAB Close Combat delivers massive super-effective damage to Giovanni's Rhydon/Snorlax ace."
+    },
+    {
+      "slot": 5,
+      "species": "Snorlax",
+      "types": ["Normal"],
+      "status": "Active in Party (Retained from Ch 7)",
+      "current_level": 53,
+      "ability": "Thick Fat",
+      "held_item": "Leftovers",
+      "role": "Thick Fat Normal Tank",
+      "current_reached_moveset": [
+        "Body Slam",
+        "Rest",
+        "Sleep Talk",
+        "Heavy Slam"
+      ],
+      "progression_notes": "Colossal 160 HP normal wall. Absorbs special and physical punishment with ease. Body Slam provides consistent STAB damage and paralysis chance while Rest + Sleep Talk keeps it healthy."
+    },
+    {
+      "slot": 6,
+      "species": "Pidgeot",
+      "types": ["Normal", "Flying"],
+      "status": "Active in Party (Retained from Ch 7)",
+      "current_level": 52,
+      "ability": "Keen Eye",
+      "held_item": "Sharp Beak",
+      "role": "Fast Aerial Scout",
+      "current_reached_moveset": [
+        "Air Slash",
+        "Roost",
+        "Tailwind",
+        "Quick Attack"
+      ],
+      "progression_notes": "High-Speed Flying scout. Immune to Ground-type Earthquake. Provides Tailwind speed control for the team and roosts off damage reliably."
+    }
+  ],
+  "flex_bench": [
+    {
+      "species": "Butterfree",
+      "role": "Compound Eyes Quiver Dance Sleep Pivot",
+      "rationale": "97.5% accurate Sleep Powder and Quiver Dance setup against slow encounter tables."
+    },
+    {
+      "species": "Electabuzz",
+      "role": "Electric Speed Sweeper",
+      "rationale": "High-speed Electric coverage packing Discharge and Light Screen."
+    },
+    {
+      "species": "Hitmonlee",
+      "role": "Reckless Fighting Breaker",
+      "rationale": "High-Attack High Jump Kick wallbreaker with Unburden speed doubling."
+    }
+  ]
+}

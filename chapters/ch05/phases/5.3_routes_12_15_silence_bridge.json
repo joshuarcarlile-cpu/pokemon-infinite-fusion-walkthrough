@@ -1,0 +1,87 @@
+{
+  "name": "Routes 12 to 15 (Silence Bridge)",
+  "summary": "South of Lavender Town. Awaken the sleeping Snorlax with the Poké Flute to claim HM04 Strength. Navigate the winding boardwalks of Silence Bridge past Fishermen and Bird Keepers, collecting the Good Rod and claiming the Exp. All at Fuchsia City's eastern gate.",
+  "items": [
+    {
+      "name": "Good Rod",
+      "method": "Gift from the Fishing Guru in his fishing shack on Route 12",
+      "type": "Key Item"
+    },
+    {
+      "name": "HM04 Strength",
+      "method": "Awarded upon capturing or defeating the sleeping Snorlax blocking Route 12",
+      "type": "HM"
+    },
+    {
+      "name": "Exp. All",
+      "method": "Gift from Prof. Oak's Aide in the Route 15 East Gate upstairs (requires 20 Pokémon fusions)",
+      "type": "Key Item"
+    },
+    {
+      "name": "TM18 Rain Dance",
+      "method": "On a grassy islet on Route 15 accessible past the maze of ledges",
+      "type": "TM"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Fisherman Hank",
+      "team": [
+        {
+          "species": "Goldeen",
+          "level": 27,
+          "types": ["Water"]
+        },
+        {
+          "species": "Poliwag",
+          "level": 27,
+          "types": ["Water"]
+        }
+      ]
+    },
+    {
+      "name": "Bird Keeper Perry",
+      "team": [
+        {
+          "species": "Pidgeotto",
+          "level": 29,
+          "types": ["Normal", "Flying"]
+        },
+        {
+          "species": "Fearow",
+          "level": 29,
+          "types": ["Normal", "Flying"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Routes 12-15 Tall Grass": [
+      {"dex_id": "048", "name": "Venonat", "types": ["Bug", "Poison"], "levels": "24-28", "rates": "30% All Times"},
+      {"dex_id": "043", "name": "Oddish", "types": ["Grass", "Poison"], "levels": "22-26", "rates": "25% All Times"},
+      {"dex_id": "044", "name": "Gloom", "types": ["Grass", "Poison"], "levels": "28-30", "rates": "10% All Times"},
+      {"dex_id": "069", "name": "Bellsprout", "types": ["Grass", "Poison"], "levels": "22-26", "rates": "20% Morning / Day"},
+      {"dex_id": "070", "name": "Weepinbell", "types": ["Grass", "Poison"], "levels": "28-30", "rates": "5% Morning / Day"},
+      {"dex_id": "017", "name": "Pidgeotto", "types": ["Normal", "Flying"], "levels": "26-30", "rates": "15% Morning / Day"}
+    ],
+    "Silence Bridge Water (Surf & Fishing)": [
+      {"dex_id": "072", "name": "Tentacool", "types": ["Water", "Poison"], "levels": "5-40", "rates": "60% Surfing"},
+      {"dex_id": "118", "name": "Goldeen", "types": ["Water"], "levels": "5-35", "rates": "30% Surfing / 35% Fishing"},
+      {"dex_id": "098", "name": "Krabby", "types": ["Water"], "levels": "5-35", "rates": "35% Good Rod / 35% Super Rod"},
+      {"dex_id": "116", "name": "Horsea", "types": ["Water"], "levels": "5-35", "rates": "35% Good Rod / 35% Super Rod"},
+      {"dex_id": "211", "name": "Qwilfish", "types": ["Water", "Poison"], "levels": "5-35", "rates": "10% Good Rod / 10% Super Rod"},
+      {"dex_id": "130", "name": "Gyarados", "types": ["Water", "Flying"], "levels": "15-25", "rates": "16% Super Rod"}
+    ],
+    "Static & Interactive": [
+      {"dex_id": "143", "name": "Snorlax", "types": ["Normal"], "levels": "30", "rates": "Route 12 Boardwalk (Awakened by Poké Flute)"},
+      {"dex_id": "270", "name": "Lotad", "types": ["Water", "Grass"], "levels": "14-22", "rates": "Route 14 (Walk / surf across lilypads)"}
+    ],
+    "Poké Radar": [
+      {"dex_id": "408", "name": "Cottonee", "types": ["Grass", "Fairy"], "levels": "22-25", "rates": "50% Route 12 Radar"}
+    ]
+  },
+  "navigation_notes": [
+    "Route 12 features the second sleeping Snorlax (Lv. 30). Defeat or catch it to open the southern boardwalk.",
+    "The Super Rod allows immediate high-tier water encounters including Gyarados, Seaking, and Dratini."
+  ]
+}

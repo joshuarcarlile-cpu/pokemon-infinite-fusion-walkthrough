@@ -1,0 +1,43 @@
+{
+  "name": "Kimono Dance Theater & The Ancient Stones",
+  "summary": "Visit the traditional Kimono Dance Theater in central Ecruteak City. Step onto the polished theatrical stage to face the four graceful Kimono Girls in ceremonial succession: Naoko, Zuki, Miki, and Sayo, each commanding elegant Eeveelution hybrid fusions. Following your consecutive victories, former Champion Alder approaches the stage to applaud your battle mastery, rewarding you with the ancient Light Stone and Dark Stone—relics indispensable for gaining future entry into the Bell Tower.",
+  "items": [
+    {
+      "name": "Light Stone",
+      "method": "Gifted by Champion Alder on stage after defeating all four Kimono Girls",
+      "type": "Key Item"
+    },
+    {
+      "name": "Dark Stone",
+      "method": "Gifted by Champion Alder on stage after defeating all four Kimono Girls",
+      "type": "Key Item"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Kimono Girl Naoko",
+      "team": [
+        {"species": "Vaporeon/Ludicolo", "level": 60, "types": ["Water", "Grass"]}
+      ]
+    },
+    {
+      "name": "Kimono Girl Zuki",
+      "team": [
+        {"species": "Jolteon/Oricorio", "level": 60, "types": ["Electric", "Flying"]}
+      ]
+    },
+    {
+      "name": "Kimono Girl Miki",
+      "team": [
+        {"species": "Espeon/Umbreon", "level": 60, "types": ["Psychic", "Dark"]}
+      ]
+    },
+    {
+      "name": "Kimono Girl Sayo",
+      "team": [
+        {"species": "Flareon/Ludicolo", "level": 60, "types": ["Fire", "Grass"]}
+      ]
+    }
+  ],
+  "encounters": {}
+}

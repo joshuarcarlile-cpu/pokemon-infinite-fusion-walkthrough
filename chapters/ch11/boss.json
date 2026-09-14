@@ -1,0 +1,64 @@
+{
+  "leader": "Kurt",
+  "title": "The Artisan of the Hive",
+  "gym": "Azalea Town Gym",
+  "badge": "Hive Badge",
+  "level_cap": 62,
+  "hard_mode_level_cap": 62,
+  "recommended_party_level": 60,
+  "gym_duel_limit": 5,
+  "party_selection_rule": "5 vs 5 Party Selection (select your 5 designated Pokémon from your active party when prompted at battle start)",
+  "overview": "Kurt showcases intricate Bug-type synergies blending impenetrable physical armor, hazard-like stat setups, and devious stall tactics. Beedrill/Ariados leads with Quiver Dance and priority Shadow Sneak. Forretress/Cloyster packs astronomical 166 Defense with Iron Defense, but suffers an overwhelming 4x Fire weakness and can detonate with a catastrophic Explosion. Slowbro/Scizor pairs Water/Steel typing with Iron Defense and Recover, stealing stat boosts with Psych Up. Lotad/Kingdra pivots with U-turn while confusing and evading with Double Team. His ace, Blissey/Shuckle, is an astonishing defensive juggernaut with 176 HP, 156 Def, and 166 SpD. It uses Minimize for evasion, Soft-Boiled for 50% recovery, and Power Trick to invert its base Attack and Defense into an offensive behemoth—yet it carries a catastrophic 4x Fighting weakness that must be exploited immediately.",
+  "roster": [
+    {
+      "species": "Beedrill/Ariados",
+      "level": 56,
+      "types": ["Bug", "Poison"],
+      "ability": "Swarm",
+      "item": "Silver Powder",
+      "moves": ["Spider Web", "Twineedle", "Shadow Sneak", "Quiver Dance"],
+      "tactics": "Quiver Dance lead. Traps with Spider Web while boosting Special Attack, Special Defense, and Speed. Pick it off immediately with Flying, Fire, Psychic, or Rock moves before boosts stack."
+    },
+    {
+      "species": "Forretress/Cloyster",
+      "level": 56,
+      "types": ["Bug", "Ice"],
+      "ability": "Sturdy",
+      "item": "Silver Powder",
+      "moves": ["Iron Defense", "Spike Cannon", "Explosion", "Bug Bite"],
+      "tactics": "Colossal 166 physical Defense tank. Sturdy guarantees it survives one hit. Incinerate it with 4x super-effective Fire attacks like Flamethrower. Beware of sudden low-health Explosion."
+    },
+    {
+      "species": "Slowbro/Scizor",
+      "level": 58,
+      "types": ["Water", "Steel"],
+      "ability": "Technician",
+      "item": "Silver Powder",
+      "moves": ["Recover", "Psych Up", "X-Scissor", "Iron Defense"],
+      "tactics": "Bulky Water/Steel anchor. Boosts physical Defense and sustains with Recover. Psych Up copies positive stat boosts from your active Pokémon. Pressure its special side with Electric or Ground."
+    },
+    {
+      "species": "Lotad/Kingdra",
+      "level": 58,
+      "types": ["Water", "Dragon"],
+      "ability": "Swift Swim",
+      "item": "Silver Powder",
+      "moves": ["Dragon Pulse", "Supersonic", "U-turn", "Double Team"],
+      "tactics": "Evasive hit-and-run pivot. Spams Supersonic confusion and Double Team evasion while firing Dragon Pulse STAB, pivoting out with U-turn. Shut it down with fast Fairy, Dragon, or Sleep status."
+    },
+    {
+      "species": "Blissey/Shuckle",
+      "level": 62,
+      "types": ["Normal", "Rock"],
+      "ability": "Natural Cure",
+      "item": "Leftovers",
+      "moves": ["Power Trick", "Minimize", "Bug Bite", "Soft-Boiled"],
+      "tactics": "Kurt's colossal 582 BST Ace. Combines Blissey's 176 HP with Shuckle's 156 Def and 166 SpD. Leftovers and Soft-Boiled provide immense sustain. Power Trick swaps its 10 Attack with 156 Defense to hit terrifyingly hard with Bug Bite. However, its Normal/Rock typing has a fatal 4x weakness to Fighting: a single STAB Close Combat crushes it into dust."
+    }
+  ],
+  "starter_strategies": {
+    "bulbasaur": "Venusaur/Charizard obliterates Forretress/Cloyster with 4x Flamethrower and disables Lotad/Kingdra with Sleep Powder. Kingler/Primeape is the ultimate boss-slayer, obliterating Blissey/Shuckle with 4x STAB Close Combat. Alakazam/Weezing shreds Beedrill/Ariados with STAB Psychic.",
+    "charmander": "Charizard/Venusaur incinerates Beedrill/Ariados and Forretress/Cloyster with Flamethrower, while Sleep Powder prevents Blissey/Shuckle from stacking Minimize. Primeape/Sandslash dismantles Blissey/Shuckle with 4x Close Combat and crumbles Slowbro/Scizor with Earthquake.",
+    "squirtle": "Blastoise/Fearow hits Bug types with Flying STAB Drill Peck and washes away rock hybrids. Arbok/Primeape applies Intimidate to blunt Bug Bite and shatters Blissey/Shuckle with 4x Close Combat. Jolteon/Sandslash paralyzes Lotad/Kingdra with Discharge."
+  }
+}

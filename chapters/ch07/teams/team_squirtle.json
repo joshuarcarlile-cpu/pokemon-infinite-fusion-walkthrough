@@ -1,0 +1,131 @@
+{
+  "starter": "Squirtle",
+  "name": "Team Squirtle: Aerial Tides & Volt Quakes",
+  "archetype": "Water/Flying aerial anchors, Levitate special sweepers, and Electric/Ground sweepers.",
+  "gym_duel_core": [1, 2, 3, 5],
+  "gym_duel_rationale": "Blaine's team wields aggressive Fire sweepers backed by Ground and Flying coverage. Enter his 4v4 arena with Blastoise/Fearow (Water/Flying aerial anchor that resists Fire while enjoying complete immunity to Ground moves, dousing Fire leads with STAB Hydro Pump), Jolteon/Sandslash (blazing Electric/Ground sweeper that outspeeds Charizard/Aerodactyl and deletes it with STAB Thunderbolt, while flattening grounded Fire types with STAB Earthquake), Alakazam/Weezing (Levitate makes it completely immune to Magmar/Rhydon's Drill Run while dismantling foes with 118 SpA Psychic), and Snorlax (Thick Fat halving all Fire attacks, providing an unbreakable defensive bastion).",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Blastoise/Fearow",
+      "types": ["Water", "Flying"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 51,
+      "ability": "Torrent",
+      "held_item": "Mystic Water",
+      "role": "Aerial Water Anchor & Gym Duelist",
+      "current_reached_moveset": [
+        "Hydro Pump",
+        "Drill Peck",
+        "Aqua Tail",
+        "Roost"
+      ],
+      "progression_notes": "515 BST Water/Flying titan. Resists Fire, Water, Fighting, and Bug, with total immunity to Ground Earthquake and Drill Run. Washes away Blaine's Fire sweepers with high-powered Hydro Pumps."
+    },
+    {
+      "slot": 2,
+      "species": "Alakazam/Weezing",
+      "types": ["Psychic", "Poison"],
+      "status": "Active in Party (Evolved at Lv. 40)",
+      "current_level": 50,
+      "ability": "Levitate",
+      "held_item": "Twisted Spoon",
+      "role": "Levitate Special Wallbreaker & Gym Duelist",
+      "current_reached_moveset": [
+        "Psychic",
+        "Sludge Bomb",
+        "Recover",
+        "Calm Mind"
+      ],
+      "progression_notes": "495 BST Levitate pivot with 118 SpA. Levitate completely negates Ground attacks, allowing it to safely bypass Magmar/Rhydon's Drill Run while boosting with Calm Mind."
+    },
+    {
+      "slot": 3,
+      "species": "Jolteon/Sandslash",
+      "types": ["Electric", "Ground"],
+      "status": "Active in Party (Retained from Ch 6)",
+      "current_level": 50,
+      "ability": "Volt Absorb",
+      "held_item": "Magnet",
+      "role": "Speed Sweeper & Gym Duelist",
+      "current_reached_moveset": [
+        "Discharge",
+        "Earthquake",
+        "Pin Missile",
+        "Swords Dance"
+      ],
+      "progression_notes": "490 BST Electric/Ground terror with 105 Speed and 100 Attack. STAB Discharge electrifies flying and water targets with 30% paralysis chance, while STAB Earthquake crushes Ninetales/Arcanine and Magmar/Rhydon."
+    },
+    {
+      "slot": 4,
+      "species": "Arbok/Primeape",
+      "types": ["Poison", "Fighting"],
+      "status": "Active in Party (Retained from Ch 6)",
+      "current_level": 49,
+      "ability": "Intimidate",
+      "held_item": "Black Belt",
+      "role": "Intimidate Breaker",
+      "current_reached_moveset": [
+        "Close Combat",
+        "Gunk Shot",
+        "Crunch",
+        "Glare"
+      ],
+      "progression_notes": "475 BST Intimidate breaker. Lowers enemy Attack upon entry. Glare paralyzes fast Fire threats, while Close Combat shatters Rock splices."
+    },
+    {
+      "slot": 5,
+      "species": "Snorlax",
+      "types": ["Normal"],
+      "status": "Active in Party (Retained from Ch 6)",
+      "current_level": 49,
+      "ability": "Thick Fat",
+      "held_item": "Leftovers",
+      "role": "Thick Fat Tank & Gym Duelist",
+      "current_reached_moveset": [
+        "Body Slam",
+        "Heavy Slam",
+        "Crunch",
+        "Rest"
+      ],
+      "progression_notes": "540 BST colossal tank. Thick Fat halves incoming Fire moves, turning Blaine's Charcoal-boosted Fire Blasts into trivial damage."
+    },
+    {
+      "slot": 6,
+      "species": "Lapras",
+      "types": ["Water", "Ice"],
+      "status": "Active in Party (Retained from Ch 6)",
+      "current_level": 48,
+      "ability": "Water Absorb",
+      "held_item": "Never-Melt Ice",
+      "role": "Water Sponge",
+      "current_reached_moveset": [
+        "Hydro Pump",
+        "Ice Beam",
+        "Body Slam",
+        "Confuse Ray"
+      ],
+      "progression_notes": "535 BST bulky water artillery with 130 HP. Fires off high-power Hydro Pumps to overwhelm Fire switch-ins outside of sunlight."
+    }
+  ],
+  "flex_bench": [
+    {
+      "species": "Venusaur",
+      "types": ["Grass", "Poison"],
+      "role": "Special Tank & Sleep Support",
+      "rationale": "Chlorophyll Sleep Powder support and special tank (Bulbasaur family)."
+    },
+    {
+      "species": "Gyarados",
+      "types": ["Water", "Flying"],
+      "role": "Intimidate Water Pivot",
+      "rationale": "Intimidate Dragon Dance sweeper with Aqua Tail (Magikarp family)."
+    },
+    {
+      "species": "Hitmontop",
+      "types": ["Fighting"],
+      "role": "Technician Rapid Spinner",
+      "rationale": "Technician Rapid Spin utility from Fighting Dojo (Tyrogue family)."
+    }
+  ]
+}

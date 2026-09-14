@@ -1,0 +1,39 @@
+{
+  "name": "Old Shipwreck & Static Dhelmise",
+  "summary": "Board the barnacle-encrusted hull of the Old Shipwreck dividing Brine Road West from Brine Road East. Explore the tilted wooden decks and flooded lower cabins to find a valuable Nugget stashed between rusted cargo barrels. Take note of the wide deck rupture separating the ship's halves — leaping across to Brine Road East requires the Golbat Boots from Johto. Descend into the waterlogged cargo hold to battle and capture a Level 50 static anchor Pokémon, Dhelmise.",
+  "items": [
+    {
+      "name": "Nugget",
+      "method": "Found on the lower floor wedged between decayed wooden barrels",
+      "type": "Valuable"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Sailor Damien",
+      "title": "Sailor",
+      "reward": "P1,760",
+      "pokemon": [
+        {
+          "species": "Poliwrath",
+          "level": 56,
+          "types": ["Water", "Fighting"]
+        },
+        {
+          "species": "Machamp",
+          "level": 56,
+          "types": ["Fighting"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Static": [
+      {
+        "species": "Dhelmise",
+        "level": "50",
+        "notes": "Static encounter anchored in the flooded lower cargo hold. Steelworker ability gives 1.5x power to Steel moves."
+      }
+    ]
+  }
+}

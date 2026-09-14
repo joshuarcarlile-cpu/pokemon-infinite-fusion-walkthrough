@@ -1,0 +1,176 @@
+{
+  "location": "Hidden Forest (ID 655)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "011",
+        "name": "Metapod",
+        "type1": "Bug",
+        "type2": "",
+        "levels": "15-18",
+        "catch_rate": "120",
+        "rates": [
+          "10%",
+          "10%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "012",
+        "name": "Butterfree",
+        "type1": "Bug",
+        "type2": "Flying",
+        "levels": "31",
+        "catch_rate": "45",
+        "rates": [
+          "5%",
+          "5%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "014",
+        "name": "Kakuna",
+        "type1": "Bug",
+        "type2": "Poison",
+        "levels": "15-19",
+        "catch_rate": "120",
+        "rates": [
+          "10%",
+          "10%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "015",
+        "name": "Beedrill",
+        "type1": "Bug",
+        "type2": "Poison",
+        "levels": "31",
+        "catch_rate": "45",
+        "rates": [
+          "5%",
+          "5%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "017",
+        "name": "Pidgeotto",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "26-34",
+        "catch_rate": "120",
+        "rates": [
+          "15%",
+          "15%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "025",
+        "name": "Pikachu",
+        "type1": "Electric",
+        "type2": "",
+        "levels": "24-29",
+        "catch_rate": "190",
+        "rates": [
+          "15%",
+          "15%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "043",
+        "name": "Oddish",
+        "type1": "Grass",
+        "type2": "Poison",
+        "levels": "20-22",
+        "catch_rate": "255",
+        "rates": [
+          "20%",
+          "20%",
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "049",
+        "name": "Venomoth",
+        "type1": "Bug",
+        "type2": "Poison",
+        "levels": "31",
+        "catch_rate": "75",
+        "rates": [
+          "-",
+          "-",
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "164",
+        "name": "Noctowl",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "26-34",
+        "catch_rate": "90",
+        "rates": [
+          "-",
+          "-",
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "166",
+        "name": "Ledian",
+        "type1": "Bug",
+        "type2": "Flying",
+        "levels": "31",
+        "catch_rate": "90",
+        "rates": [
+          "15%",
+          "15%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "198",
+        "name": "Murkrow",
+        "type1": "Dark",
+        "type2": "Flying",
+        "levels": "26-34",
+        "catch_rate": "30",
+        "rates": [
+          "-",
+          "-",
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "311",
+        "name": "Duskull",
+        "type1": "Ghost",
+        "type2": "",
+        "levels": "24-29",
+        "catch_rate": "190",
+        "rates": [
+          "-",
+          "-",
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "399",
+        "name": "Zorua",
+        "type1": "Dark",
+        "type2": "",
+        "levels": "25",
+        "catch_rate": "75",
+        "rates": [
+          "5%",
+          "5%",
+          "10%"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "title": "Treasure_Beach",
+  "url": "https://infinitefusion.fandom.com/wiki/Treasure_Beach",
+  "lead_summary": "Treasure Beach is an island which contains several items. Players can reach it by surfing South-Southwest from Knot Island.",
+  "missable_warnings": [],
+  "items": [
+    {
+      "internal_id": "NETWORKCHIP",
+      "quantity": "",
+      "name": "Network Adapter",
+      "location_details": "On the beach."
+    },
+    {
+      "internal_id": "HEARTSCALE",
+      "quantity": "",
+      "name": "Heart Scale",
+      "location_details": "On the beach."
+    },
+    {
+      "internal_id": "HEARTSCALE",
+      "quantity": "",
+      "name": "Heart Scale",
+      "location_details": "On the beach."
+    },
+    {
+      "internal_id": "HEARTSCALE",
+      "quantity": "",
+      "name": "Heart Scale",
+      "location_details": "On the beach."
+    },
+    {
+      "internal_id": "ULTRABALL",
+      "quantity": "",
+      "name": "Ultra Ball",
+      "location_details": "On the beach."
+    },
+    {
+      "internal_id": "ULTRABALL",
+      "quantity": "",
+      "name": "Ultra Ball",
+      "location_details": "On the beach."
+    },
+    {
+      "internal_id": "STARDUST",
+      "quantity": "",
+      "name": "Stardust",
+      "location_details": "Hidden on the beach."
+    },
+    {
+      "internal_id": "STARDUST",
+      "quantity": "",
+      "name": "Stardust",
+      "location_details": "Hidden on the beach."
+    },
+    {
+      "internal_id": "STARPIECE",
+      "quantity": "",
+      "name": "Star Piece",
+      "location_details": "On the beach."
+    },
+    {
+      "internal_id": "PEARL",
+      "quantity": "",
+      "name": "Pearl",
+      "location_details": "By the seashell on the beach."
+    },
+    {
+      "internal_id": "PEARL",
+      "quantity": "",
+      "name": "Pearl",
+      "location_details": "By the seashell on the beach."
+    },
+    {
+      "internal_id": "BIGPEARL",
+      "quantity": "",
+      "name": "Big Pearl",
+      "location_details": "Hidden on the beach."
+    }
+  ],
+  "sections": [
+    "Items",
+    "Pokémon",
+    "Trivia"
+  ],
+  "raw_wikitext": "{{GlobalToggles}}\n{{InfoboxLocation\n|region=Sevii Islands\n|location_image=TreasureBeach.png\n|map_image=Treasure_Beach_Map.png\n|connection_1_direction=north\n|connection_1_location=Knot Island\n|connection_1_restrictions=%surf%\n|connection_2_direction=south\n|connection_2_location=Oricorio Clearing\n|connection_2_restrictions=%rocksmash%\n}}\n'''Treasure Beach''' is an island which contains several items. Players can reach it by surfing South-Southwest from [[Knot Island]].\n\n==Items==\n{{ItemTable/Header}}\n{{ItemTable/Data|NETWORKCHIP||Network Adapter|On the beach.|NetworkAdapter_TreasureBeach.png}}\n{{ItemTable/Data|HEARTSCALE||Heart Scale|On the beach.|HeartScale1_TreasureBeach.png}}\n{{ItemTable/Data|HEARTSCALE||Heart Scale|On the beach.|HeartScale2_TreasureBeach.png}}\n{{ItemTable/Data|HEARTSCALE||Heart Scale|On the beach.|HeartScale3_TreasureBeach.png}}\n{{ItemTable/Data|ULTRABALL||Ultra Ball|On the beach.|UltraBall1_TreasureBeach.png}}\n{{ItemTable/Data|ULTRABALL||Ultra Ball|On the beach.|UltraBall2_TreasureBeach.png}}\n{{ItemTable/Data|STARDUST||Stardust|Hidden on the beach.|Stardust_TreasureBeach.png}}\n{{ItemTable/Data|STARDUST||Stardust|Hidden on the beach.|Stardust2_TreasureBeach.png}}\n{{ItemTable/Data|STARPIECE||Star Piece|On the beach.|StarPiece_TreasureBeach.png}}\n{{ItemTable/Data|PEARL||Pearl|By the seashell on the beach.|Pearl1_TreasureBeach.png}}\n{{ItemTable/Data|PEARL||Pearl|By the seashell on the beach.|Pearl2_TreasureBeach.png}}\n{{ItemTable/Data|BIGPEARL||Big Pearl|Hidden on the beach.|BigPearl_TreasureBeach.png}}\n{{ItemTable/RockSmash/Dive}}\n{{ItemTable/Footer}}\n\n==Pokémon==\n<!-----------------------------------!>\n<!-- CLASSIC & EXPERT MODE POKÉMON --!>\n<!------------------------------------>\n<div class=\"classic-mode expert-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|054|Psyduck|Water||20-30|190|20%}}\n{{EncounterTable/Data|079|Slowpoke|Water|Psychic|20-30|190|20%}}\n{{EncounterTable/Data|080|Slowbro|Water|Psychic|30|75|5%}}\n{{EncounterTable/Data|098|Krabby|Water||20-30|225|20%}}\n{{EncounterTable/Data|099|Kingler|Water||30|60|5%}}\n{{EncounterTable/Data|114|Tangela|Grass||24|45|20%}}\n{{EncounterTable/Data|432|Oricorio|Psychic|Flying|25-27|45|10%}}\n{{EncounterTable/Section|Surf}}\n{{EncounterTable/Data|072|Tentacool|Water|Poison|5-40|190|20%}}\n{{EncounterTable/Data|073|Tentacruel|Water|Poison|20-25|60|10%}}\n{{EncounterTable/Data|086|Seel|Water||25-30|190|10%}}\n{{EncounterTable/Data|116|Horsea|Water||15-30|225|5%}}\n{{EncounterTable/Data|117|Seadra|Water||15-25|75|5%}}\n{{EncounterTable/Data|130|Gyarados|Water|Flying|15-25|45|15%}}\n{{EncounterTable/Data|131|Lapras|Water|Ice|15-25|45|5%}}\n{{EncounterTable/Data|501|Luvdisc|Water||20-25|225|30%}}\n{{EncounterTable/Section|Old Rod}}\n{{EncounterTable/Data|060|Poliwag|Water||5|255|20%}}\n{{EncounterTable/Data|129|Magikarp|Water||5|255|80%}}\n{{EncounterTable/Section|Good Rod}}\n{{EncounterTable/Data|098|Krabby|Water||5-15|225|40%}}\n{{EncounterTable/Data|116|Horsea|Water||5-15|225|40%}}\n{{EncounterTable/Data|129|Magikarp|Water||5-15|255|20%}}\n{{EncounterTable/Section|Super Rod}}\n{{EncounterTable/Data|054|Psyduck|Water||25-35|190|2%}}\n{{EncounterTable/Data|079|Slowpoke|Water|Psychic|25-35|190|2%}}\n{{EncounterTable/Data|098|Krabby|Water||15-35|225|40%}}\n{{EncounterTable/Data|116|Horsea|Water||15-35|225|40%}}\n{{EncounterTable/Data|130|Gyarados|Water|Flying|15-25|45|16%}}\n{{EncounterTable/Section|Poké Radar}}\n{{EncounterTable/Data|370|Pyukumuku|Water||20|60|50%}}\n{{EncounterTable/Section|Overworld (Raining)}}\n{{EncounterTable/Data|370|Pyukumuku|Water||25-35|60|Four}}\n{{EncounterTable/Footer}}\n</div>\n<!------------------------!>\n<!-- REMIX MODE POKÉMON --!>\n<!------------------------->\n<div class=\"remix-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|025|Pikachu|Electric||25-31|190|2%}}\n{{EncounterTable/Data|054|Psyduck|Water||30|190|5%}}\n{{EncounterTable/Data|079|Slowpoke|Water|Psychic|30|190|5%}}\n{{EncounterTable/Data|098|Krabby|Water||20-30|225|20%}}\n{{EncounterTable/Data|370|Pyukumuku|Water||20-30|60|10%}}\n{{EncounterTable/Data|425|Tyrunt|Rock|Dragon|20-30|45|10%}}\n{{EncounterTable/Data|454|Mareanie|Poison|Water|24|190|20%}}\n{{EncounterTable/Data|459|Sandygast|Ground|Ghost|25-27|140|28%}}\n{{EncounterTable/Section|Surf}}\n{{EncounterTable/Data|116|Horsea|Water||15-30|225|5%}}\n{{EncounterTable/Data|117|Seadra|Water||15-25|75|5%}}\n{{EncounterTable/Data|130|Gyarados|Water|Flying|15-25|45|15%}}\n{{EncounterTable/Data|131|Lapras|Water|Ice|15-25|45|5%}}\n{{EncounterTable/Data|454|Mareanie|Poison|Water|20-25|190|10%}}\n{{EncounterTable/Data|469|Bruxish|Water|Psychic|25-30|80|10%}}\n{{EncounterTable/Data|501|Luvdisc|Water||5-40|225|50%}}\n{{EncounterTable/Section|Old Rod}}\n{{EncounterTable/Data|129|Magikarp|Water||5|255|40%}}\n{{EncounterTable/Data|434|Trubbish|Poison||5|190|1%}}\n{{EncounterTable/Data|469|Bruxish|Water|Psychic|5|80|39%}}\n{{EncounterTable/Data|501|Luvdisc|Water||5|225|20%}}\n{{EncounterTable/Section|Good Rod}}\n{{EncounterTable/Data|116|Horsea|Water||5-15|225|40%}}\n{{EncounterTable/Data|453|Dhelmise|Ghost|Grass|5-15|25|40%}}\n{{EncounterTable/Data|469|Bruxish|Water|Psychic|5-15|80|20%}}\n{{EncounterTable/Section|Super Rod}}\n{{EncounterTable/Data|116|Horsea|Water||15-35|225|40%}}\n{{EncounterTable/Data|130|Gyarados|Water|Flying|15-25|45|18%}}\n{{EncounterTable/Data|134|Vaporeon|Water||35-39|45|2%}}\n{{EncounterTable/Data|453|Dhelmise|Ghost|Grass|15-35|25|40%}}\n{{EncounterTable/Section|Poké Radar}}\n{{EncounterTable/Data|370|Pyukumuku|Water||20|60|50%}}\n{{EncounterTable/Section|Overworld (Raining)}}\n{{EncounterTable/Data|370|Pyukumuku|Water||25-35|60|Four}}\n{{EncounterTable/Footer}}\n</div>\n\n==Trivia==\nWhen it rains, Pyukumuku can be seen crawling on the beach and act as static encounters.\n\n[[Category:Locations]]\n[[Category:Sevii Islands]]"
+}

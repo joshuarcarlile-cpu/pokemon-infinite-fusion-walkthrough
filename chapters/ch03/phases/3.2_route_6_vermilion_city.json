@@ -1,0 +1,86 @@
+{
+  "name": "Route 6 & Vermilion City",
+  "summary": "Exiting the Underground Path into Route 6, battling along the scenic road south to the bustling port of Vermilion City. Stock supplies, claim the Bike Voucher, and pick up the Old Rod.",
+  "items": [
+    {
+      "name": "Bike Voucher",
+      "method": "Listen to the Pokémon Fan Club Chairman talk about his Rapidash in Vermilion City",
+      "type": "Key Item"
+    },
+    {
+      "name": "Old Rod",
+      "method": "Given by the Fishing Guru inside his cottage in Vermilion City",
+      "type": "Key Item"
+    },
+    {
+      "name": "TM54 False Swipe",
+      "method": "On Route 6 behind a trainer path",
+      "type": "Key Item"
+    },
+    {
+      "name": "Rocky Helmet",
+      "method": "Reward for completing the Building Materials quest at the construction site",
+      "type": "Hold Item"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Bug Catcher Elijah",
+      "team": [
+        {
+          "species": "Weedle",
+          "level": 16,
+          "types": ["Bug", "Poison"]
+        },
+        {
+          "species": "Caterpie",
+          "level": 16,
+          "types": ["Bug"]
+        }
+      ]
+    },
+    {
+      "name": "Camper Ricky",
+      "team": [
+        {
+          "species": "Squirtle",
+          "level": 20,
+          "types": ["Water"]
+        }
+      ]
+    },
+    {
+      "name": "Picnicker Nancy",
+      "team": [
+        {
+          "species": "Rattata",
+          "level": 16,
+          "types": ["Normal"]
+        },
+        {
+          "species": "Pikachu",
+          "level": 16,
+          "types": ["Electric"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Grass": [
+      {"dex_id": "052", "name": "Meowth", "types": ["Normal"], "levels": "14-17", "rates": "25% All Times"},
+      {"dex_id": "043", "name": "Oddish", "types": ["Grass", "Poison"], "levels": "14-17", "rates": "20% Night / Day"},
+      {"dex_id": "069", "name": "Bellsprout", "types": ["Grass", "Poison"], "levels": "14-17", "rates": "20% Morning / Day"},
+      {"dex_id": "054", "name": "Psyduck", "types": ["Water"], "levels": "15-18", "rates": "15% All Times"},
+      {"dex_id": "025", "name": "Pikachu", "types": ["Electric"], "levels": "14-16", "rates": "5% Morning / Day"}
+    ],
+    "Fishing (Old Rod)": [
+      {"dex_id": "129", "name": "Magikarp", "types": ["Water"], "levels": "5-15", "rates": "80% Route 6 / 85% Vermilion Harbor"},
+      {"dex_id": "060", "name": "Poliwag", "types": ["Water"], "levels": "5", "rates": "20% Route 6 Pond"},
+      {"dex_id": "072", "name": "Tentacool", "types": ["Water", "Poison"], "levels": "5", "rates": "15% Vermilion Harbor"}
+    ],
+    "In-Game Trade": [
+      {"dex_id": "083", "name": "Farfetch'd", "types": ["Normal", "Flying"], "levels": "Same as Traded", "rates": "Vermilion House (Traded for Spearow, holds Stick)"}
+    ]
+  },
+  "navigation_notes": "Visit the Pokémon Fan Club on the west side of town to claim the Bike Voucher (redeemable at Cerulean's Bike Shop for the Bicycle). Speak to the construction foreman in central Vermilion to start the Building Materials quest (deliver wood from Viridian and bricks from Pewter before beating the Elite Four to receive the Rocky Helmet). Visit the Fishing Guru to obtain the Old Rod for Magikarp and early water encounters."
+}

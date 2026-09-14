@@ -1,0 +1,28 @@
+{
+  "name": "Radio Tower & Goldenrod Department Store",
+  "summary": "Scale the landmark Goldenrod Radio Tower and enter the 'Guess That Fusion Quiz Show'. Score 5,000+ points in the silhouette trivia minigame to claim the Teleporter tool (HM Fly replacement). Visit the Department Store to purchase Johto-exclusive evolution stones, and retrieve the Dubious Disc from Bill's residence.",
+  "items": [
+    {
+      "name": "Teleporter",
+      "method": "Score 5,000+ points in a single session of 'Guess That Fusion' on Radio Tower 2F (replaces HM Fly for fast-travel)",
+      "type": "Key Item"
+    },
+    {
+      "name": "Dubious Disc",
+      "method": "Gift inside Bill's house adjacent to the Goldenrod Museum",
+      "type": "Evolution Item"
+    },
+    {
+      "name": "TM27 Return",
+      "method": "Surf across the small canal northwest behind the Radio Tower building",
+      "type": "TM"
+    },
+    {
+      "name": "Johto Evolution Stones",
+      "method": "Available for purchase on Dept. Store 4F (Sun Stone, Shiny Stone, Dusk Stone, Dawn Stone for $2,100 each)",
+      "type": "Evolution Items"
+    }
+  ],
+  "trainers": [],
+  "encounters": {}
+}

@@ -1,0 +1,128 @@
+{
+  "starter": "Squirtle",
+  "name": "Team Squirtle: Hydro Cascade & Electric Vanguard",
+  "archetype": "Heavy water artillery, 4x Fighting close combat, and Electric speed execution.",
+  "gym_duel_core": [1, 2, 3, 4, 5],
+  "gym_duel_rationale": "Pryce's 5v5 ice hockey duel prompts the player to select 5 active Pokémon from the party: Blastoise/Fearow commands the aerial water assault, dousing Infernape/Weavile and Probopass/Cloyster with heavy STAB Hydro Pump artillery; Arbok/Primeape enters the duel core to apply Intimidate against physical threats, while unleashing lethal 4x STAB Close Combat against both Mamoswine/Bastiodon and Probopass/Cloyster; Jolteon/Sandslash brings rapid speed control, electrocuting Dewgong/Slowking and ace Jynx/Wailord with Discharge while crushing Infernape/Weavile with Earthquake; Alakazam/Weezing shreds Infernape/Weavile with STAB Psychic while floating above Earthquakes with Levitate; and Snorlax utilizes Thick Fat to cut incoming Ice damage by 50%, completely walling Blizzard attacks with Rest and Leftovers sustain.",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Blastoise/Fearow",
+      "types": ["Water", "Flying"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 67,
+      "ability": "Torrent",
+      "held_item": "Mystic Water",
+      "role": "Aerial Water Sweeper & Duel Anchor",
+      "current_reached_moveset": [
+        "Hydro Pump",
+        "Drill Peck",
+        "Roost",
+        "Protect"
+      ],
+      "progression_notes": "486 BST starter hybrid elevated to Cap 67. STAB Hydro Pump douses Infernape/Weavile and Probopass/Cloyster with massive water firepower."
+    },
+    {
+      "slot": 2,
+      "species": "Arbok/Primeape",
+      "types": ["Poison", "Fighting"],
+      "status": "Active in Party (Rotated into Duel Core)",
+      "current_level": 66,
+      "ability": "Intimidate",
+      "held_item": "Black Belt",
+      "role": "Intimidate 4x Fighting Wallbreaker",
+      "current_reached_moveset": [
+        "Close Combat",
+        "Gunk Shot",
+        "Cross Chop",
+        "Glare"
+      ],
+      "progression_notes": "479 BST Intimidate bruiser elevated to Lv. 66. STAB Close Combat delivers crushing 4x super-effective blows to Mamoswine/Bastiodon and Probopass/Cloyster."
+    },
+    {
+      "slot": 3,
+      "species": "Jolteon/Sandslash",
+      "types": ["Electric", "Ground"],
+      "status": "Active in Party (Retained from Ch 14)",
+      "current_level": 66,
+      "ability": "Volt Absorb",
+      "held_item": "Magnet",
+      "role": "High-Speed Electric & Ground Sweeper",
+      "current_reached_moveset": [
+        "Discharge",
+        "Earthquake",
+        "Pin Missile",
+        "Swords Dance"
+      ],
+      "progression_notes": "486 BST speed sweeper. Discharge electrocutes Dewgong/Slowking and Jynx/Wailord; STAB Earthquake demolishes Infernape/Weavile."
+    },
+    {
+      "slot": 4,
+      "species": "Alakazam/Weezing",
+      "types": ["Psychic", "Poison"],
+      "status": "Active in Party (Retained from Ch 14)",
+      "current_level": 66,
+      "ability": "Levitate",
+      "held_item": "Twisted Spoon",
+      "role": "Levitate Ground-Immune Sweeper",
+      "current_reached_moveset": [
+        "Psychic",
+        "Sludge Bomb",
+        "Recover",
+        "Calm Mind"
+      ],
+      "progression_notes": "495 BST Levitate pivot with 118 SpA. Immune to Earthquake via Levitate. STAB Psychic cleanly executes Infernape/Weavile."
+    },
+    {
+      "slot": 5,
+      "species": "Snorlax",
+      "types": ["Normal"],
+      "status": "Active in Party (Retained from Ch 14)",
+      "current_level": 66,
+      "ability": "Thick Fat",
+      "held_item": "Leftovers",
+      "role": "Thick Fat Ice Wall & Sustained Tank",
+      "current_reached_moveset": [
+        "Body Slam",
+        "Rest",
+        "Sleep Talk",
+        "Crunch"
+      ],
+      "progression_notes": "Colossal 160 HP tank. Thick Fat halves incoming Ice damage, completely walling Pryce's Blizzard artillery while out-sustaining with Rest and Leftovers."
+    },
+    {
+      "slot": 6,
+      "species": "Lapras",
+      "types": ["Water", "Ice"],
+      "status": "Active in Party (Benched for Gym Duel)",
+      "current_level": 65,
+      "ability": "Water Absorb",
+      "held_item": "Never-Melt Ice",
+      "role": "Bulky Route Surfer & Water Pivot",
+      "current_reached_moveset": [
+        "Ice Beam",
+        "Hydro Pump",
+        "Confuse Ray",
+        "Body Slam"
+      ],
+      "progression_notes": "535 BST Water/Ice wall. Benched during Pryce's duel to favor offensive super-effective duelists, but serves as route surfing anchor."
+    }
+  ],
+  "flex_bench": [
+    {
+      "species": "Venusaur",
+      "role": "Chlorophyll Sleep Tank",
+      "rationale": "High-durability Grass/Poison tank packing Leech Seed and Sleep Powder for status control."
+    },
+    {
+      "species": "Gyarados",
+      "role": "Dragon Dance Water Pivot",
+      "rationale": "Intimidate physical pivot and Dragon Dance sweeper with Aqua Tail."
+    },
+    {
+      "species": "Hitmontop",
+      "role": "Technician Rapid Spinner",
+      "rationale": "Technician-boosted Triple Kick and Rapid Spin hazard removal for tactical versatility."
+    }
+  ]
+}

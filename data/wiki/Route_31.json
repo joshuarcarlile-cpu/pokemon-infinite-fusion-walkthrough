@@ -1,0 +1,73 @@
+{
+  "title": "Route_31",
+  "url": "https://infinitefusion.fandom.com/wiki/Route_31",
+  "lead_summary": "Route 31 is a route that connects Violet City to both Route 30 and the Dark Cave.",
+  "missable_warnings": [],
+  "items": [
+    {
+      "internal_id": "ASPEARBERRY",
+      "quantity": "",
+      "name": "Aspear Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "CHERIBERRY",
+      "quantity": "",
+      "name": "Cheri Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "CHESTOBERRY",
+      "quantity": "",
+      "name": "Chesto Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "LEPPABERRY",
+      "quantity": "",
+      "name": "Leppa Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "LUMBERRY",
+      "quantity": "",
+      "name": "Lum Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "ORANBERRY",
+      "quantity": "",
+      "name": "Oran Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "PECHABERRY",
+      "quantity": "",
+      "name": "Pecha Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "PERSIMBERRY",
+      "quantity": "",
+      "name": "Persim Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "RAWSTBERRY",
+      "quantity": "",
+      "name": "Rawst Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "SITRUSBERRY",
+      "quantity": "",
+      "name": "Sitrus Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    }
+  ],
+  "sections": [
+    "Items",
+    "Pokémon"
+  ],
+  "raw_wikitext": "{{GlobalToggles}}\n{{InfoboxLocation\n|region=Johto\n|location_image=Route31.png\n|map_image=Route_31_Map.png\n|connection_1_direction=west\n|connection_1_location=Violet City\n|connection_2_direction=southeast\n|connection_2_location=Route 30\n|connection_3_direction=northeast\n|connection_3_location=Dark Cave\n}}\n'''Route 31''' is a route that connects [[Violet City]] to both [[Route 30]] and the [[Dark Cave]].\n\n==Items==\n{{ItemTable/Header}}\n{{ItemTable/Section|Berry Bushes}}\n{{ItemTable/Data|ASPEARBERRY||Aspear Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|CHERIBERRY||Cheri Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|CHESTOBERRY||Chesto Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|LEPPABERRY||Leppa Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|LUMBERRY||Lum Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|ORANBERRY||Oran Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|PECHABERRY||Pecha Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|PERSIMBERRY||Persim Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|RAWSTBERRY||Rawst Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|SITRUSBERRY||Sitrus Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Footer}}\n\n==Pokémon==\n<!-----------------------------------!>\n<!-- CLASSIC & EXPERT MODE POKÉMON --!>\n<!------------------------------------>\n<div class=\"classic-mode expert-mode\">\n{{EncounterTable/Header/Time}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|011|Metapod|Bug||50-52|120|30%|30%|-}}\n{{EncounterTable/Data|012|Butterfree|Bug|Flying|55|45|15%|15%|-}}\n{{EncounterTable/Data|014|Kakuna|Bug|Poison|50-52|120|-|-|30%}}\n{{EncounterTable/Data|017|Pidgeotto|Normal|Flying|53|120|25%|25%|-}}\n{{EncounterTable/Data|042|Golbat|Poison|Flying|52|90|-|-|10%}}\n{{EncounterTable/Data|070|Weepinbell|Grass|Poison|50|120|20%}}\n{{EncounterTable/Data|164|Noctowl|Normal|Flying|55|90|-|-|25%}}\n{{EncounterTable/Data|166|Ledian|Bug|Flying|54-55|90|10%|10%|-}}\n{{EncounterTable/Data|168|Ariados|Bug|Poison|55|90|-|-|15%}}\n{{EncounterTable/Section|Surf}}\n{{EncounterTable/Data|060|Poliwag|Water||15-30|255|90%}}\n{{EncounterTable/Data|061|Poliwhirl|Water||35|120|10%}}\n{{EncounterTable/Section|Old Rod}}\n{{EncounterTable/Data|060|Poliwag|Water||10|255|15%}}\n{{EncounterTable/Data|129|Magikarp|Water||10|255|85%}}\n{{EncounterTable/Section|Good Rod}}\n{{EncounterTable/Data|061|Poliwhirl|Water||20|120|15%}}\n{{EncounterTable/Data|129|Magikarp|Water||20|255|85%}}\n{{EncounterTable/Section|Super Rod}}\n{{EncounterTable/Data|062|Poliwrath|Water|Fighting|40|45|5%}}\n{{EncounterTable/Data|129|Magikarp|Water||20|255|85%}}\n{{EncounterTable/Data|186|Politoed|Water||40|45|10%}}\n{{EncounterTable/Section|Poké Radar}}\n{{EncounterTable/Data|182|Bellossom|Grass||45-50|45|50% <small>([[Poké Radar#How_it_works|long rustle]])</small>}}\n{{EncounterTable/Section|Quest}}\n{{EncounterTable/Data|204|Pineco|Bug||40|190|Four}}\n{{EncounterTable/Footer/Time}}\n</div>\n<!------------------------!>\n<!-- REMIX MODE POKÉMON --!>\n<!------------------------->\n<div class=\"remix-mode\">\n{{EncounterTable/Header/Time}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|029|Nidoran♀|Poison||22-52|235|15%|15%|10%}}\n{{EncounterTable/Data|032|Nidoran♂|Poison||22-52|235|15%|15%|10%}}\n{{EncounterTable/Data|071|Victreebel|Grass|Poison|50|45|20%|20%|-}}\n{{EncounterTable/Data|164|Noctowl|Normal|Flying|55|90|-|-|25%}}\n{{EncounterTable/Data|166|Ledian|Bug|Flying|54-55|90|10%|10%|-}}\n{{EncounterTable/Data|168|Ariados|Bug|Poison|55|90|-|-|15%}}\n{{EncounterTable/Data|203|Girafarig|Normal|Psychic|55|60|15%|15%|-}}\n{{EncounterTable/Data|452|Bewear|Normal|Fighting|50|70|-|-|5%}}\n{{EncounterTable/Data|464|Lycanroc Midday|Rock||53|90|25%|25%|-}}\n{{EncounterTable/Data|465|Lycanroc Midnight|Rock||53|90|-|-|25%}}\n{{EncounterTable/Data|477|Lurantis|Grass||52|75|-|-|10%}}\n{{EncounterTable/Section|Surf}}\n{{EncounterTable/Data|120|Staryu|Water||35|225|10%}}\n{{EncounterTable/Data|469|Bruxish|Water|Psychic|15-30|80|90%}}\n{{EncounterTable/Section|Old Rod}}\n{{EncounterTable/Data|060|Poliwag|Water||10|255|15%}}\n{{EncounterTable/Data|394|Feebas|Water||5|255|64%}}\n{{EncounterTable/Data|434|Trubbish|Poison||5|190|1%}}\n{{EncounterTable/Data|454|Mareanie|Poison|Water|5|190|20%}}\n{{EncounterTable/Section|Good Rod}}\n{{EncounterTable/Data|061|Poliwhirl|Water||20|120|15%}}\n{{EncounterTable/Data|453|Dhelmise|Ghost|Grass|20|25|45%}}\n{{EncounterTable/Data|469|Bruxish|Water|Psychic|20-24|80|40%}}\n{{EncounterTable/Section|Super Rod}}\n{{EncounterTable/Data|062|Poliwrath|Water|Fighting|40|45|5%}}\n{{EncounterTable/Data|117|Seadra|Water||40|75|85%}}\n{{EncounterTable/Data|186|Politoed|Water||40|45|10%}}\n{{EncounterTable/Section|Poké Radar}}\n{{EncounterTable/Data|182|Bellossom|Grass||45-50|45|50% <small>([[Poké Radar#How_it_works|long rustle]])</small>}}\n{{EncounterTable/Section|Quest}}\n{{EncounterTable/Data|204|Pineco|Bug||40|190|Four}}\n{{EncounterTable/Footer/Time}}\n</div>\n\n[[Category:Locations]]\n[[Category:Johto]]"
+}

@@ -1,0 +1,64 @@
+{
+  "leader": "Clair",
+  "title": "The Blessed User of Dragon Pokémon",
+  "gym": "Blackthorn City Gym",
+  "badge": "Rising Badge",
+  "level_cap": 68,
+  "hard_mode_level_cap": 68,
+  "recommended_party_level": 67,
+  "gym_duel_limit": 5,
+  "party_selection_rule": "5 vs 5 Party Selection (select your 5 designated Pokémon from your active party when prompted at battle start)",
+  "overview": "Gym Leader Clair commands the subterranean magma halls of Blackthorn Gym with hybrid Dragon fusions built for colossal power, speed, and dragon mastery. Feraligatr/Gyarados leads with Intimidate and Dragon Fang-boosted Aqua Tails, but suffers a fatal 4x Electric weakness. Donphan/Dragonair sets Thunder Wave behind Sturdy, yet carries an immediate 4x Ice weakness. Glaceon/Kingdra brings 118 Special Attack with Ice Beam and Mirror Coat, punished by Fighting, Rock, and Steel strikes. Ariados/Charizard unleashes Flare Blitz and Outrage, but collapses before a catastrophic 4x Rock weakness alongside Electric and Ice vulnerabilities. Her ace Garchomp/Aerodactyl is a 560 BST physical sweeper pairing 113 Attack and 120 Speed with Dragon Dance, yet is completely destroyed by a fatal 4x Ice weakness. Defeating Clair and visiting the Dragon Shrine awards the Rising Badge, TM101 (Dragon Pulse), the Red String Hair Bow vanity hat, and 4 Premium Wonder Trade tickets.",
+  "roster": [
+    {
+      "species": "Feraligatr/Gyarados",
+      "level": 62,
+      "types": ["Water", "Flying"],
+      "ability": "Intimidate",
+      "item": "Dragon Fang",
+      "moves": ["Crunch", "Fire Fang", "Screech", "Aqua Tail"],
+      "tactics": "Physical wallbreaker with 118 Attack and Intimidate. Weak to Rock and crippled by a fatal 4x Electric weakness. Strike with high-speed Electric attacks like Thunderbolt or Discharge for an instant OHKO."
+    },
+    {
+      "species": "Donphan/Dragonair",
+      "level": 62,
+      "types": ["Ground", "Dragon"],
+      "ability": "Sturdy",
+      "item": "Dragon Fang",
+      "moves": ["Thunder Wave", "Dragon Pulse", "Magnitude", "Aqua Ring"],
+      "tactics": "Bulky Ground/Dragon hybrid that spreads paralysis with Thunder Wave. Sturdy guarantees it survives any single fatal blow. Crushed by a devastating 4x Ice weakness; eliminate with multi-hit or successive Ice moves."
+    },
+    {
+      "species": "Glaceon/Kingdra",
+      "level": 63,
+      "types": ["Ice", "Dragon"],
+      "ability": "Snow Cloak",
+      "item": "Dragon Fang",
+      "moves": ["Ice Beam", "Mirror Coat", "Smokescreen", "Twister"],
+      "tactics": "Dangerous special sweeper with 118 Special Attack and 100 Defense. Beware Mirror Coat against special attacks. Exploit its physical weaknesses to Fighting, Rock, and Steel with moves like Close Combat."
+    },
+    {
+      "species": "Ariados/Charizard",
+      "level": 63,
+      "types": ["Bug", "Flying"],
+      "ability": "Blaze",
+      "item": "Dragon Fang",
+      "moves": ["Spider Web", "Flare Blitz", "Pin Missile", "Outrage"],
+      "tactics": "Dual offensive striker wielding Flare Blitz and Outrage. Traps foes with Spider Web. Punish its catastrophic 4x Rock weakness or exploit its Electric and Ice vulnerabilities for swift elimination."
+    },
+    {
+      "species": "Garchomp/Aerodactyl",
+      "level": 66,
+      "types": ["Dragon", "Flying"],
+      "ability": "Sand Veil",
+      "item": "Dragon Fang",
+      "moves": ["Dual Chop", "Dragon Dance", "Iron Head", "Crunch"],
+      "tactics": "Terrifying 560 BST ace with 113 Attack and 120 Speed. Boosts with Dragon Dance to sweep. Suffer a fatal 4x Ice weakness; a bulky Ice-type like Lapras easily absorbs a hit and retaliates with an instant 4x Ice Beam OHKO."
+    }
+  ],
+  "starter_strategies": {
+    "bulbasaur": "Lapras (Lv. 67) acts as the ultimate dragon slayer; STAB Ice Beam lands devastating 4x super-effective damage to vaporize Donphan/Dragonair and ace Garchomp/Aerodactyl instantly. Venusaur/Charizard (Lv. 68) anchors with Sleep Powder to shut down Dragon Dance setup, and burns Ariados/Charizard with STAB Flamethrower. Kingler/Primeape (Lv. 67) crushes Glaceon/Kingdra with STAB Close Combat. Gyarados/Arbok blunts physical strikes with Intimidate, while Alakazam/Weezing executes Ariados/Charizard with STAB Psychic.",
+    "charmander": "Alakazam/Raichu (Lv. 67) provides an effortless 4x super-effective OHKO against lead Feraligatr/Gyarados with STAB Thunderbolt! Lapras (Lv. 67) rotates into the duel core to fire devastating 4x STAB Ice Beams, destroying Donphan/Dragonair and ace Garchomp/Aerodactyl. Charizard/Venusaur (Lv. 68) incinerates Ariados/Charizard with Flamethrower. Primeape/Sandslash (Lv. 67) shatters Glaceon/Kingdra with Close Combat and hits Ariados/Charizard with 4x Rock Slide. Gyarados/Nidoking applies Intimidate support.",
+    "squirtle": "Jolteon/Sandslash (Lv. 67) leads with high-speed Discharge for an instant 4x super-effective OHKO on Feraligatr/Gyarados! Lapras (Lv. 67) rotates into the duel core to wall dragon strikes and delete Donphan/Dragonair and ace Garchomp/Aerodactyl with lethal 4x STAB Ice Beams. Blastoise/Fearow (Lv. 68) washes away fire threats with STAB Hydro Pump. Arbok/Primeape (Lv. 67) cuts physical attacks with Intimidate and breaks Glaceon/Kingdra with STAB Close Combat. Alakazam/Weezing eliminates Ariados/Charizard with STAB Psychic."
+  }
+}

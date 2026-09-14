@@ -1,0 +1,49 @@
+{
+  "name": "Saffron City & Fighting Dojo",
+  "summary": "Enter the central metropolis of Saffron City. Collect key TMs and items across town, then challenge the Fighting Dojo beside the locked Saffron Gym. Defeat Karate Master Koichi to earn your choice of a free Level 40 Fighting-type powerhouse: Hitmonlee, Hitmonchan, or Hitmontop.",
+  "items": [
+    {
+      "name": "TM29 Psychic",
+      "method": "Given by Mr. Psychic in his cottage southeast of the Pokémon Center",
+      "type": "TM"
+    },
+    {
+      "name": "Shiny Stone",
+      "method": "Gift from the lady in the house southwest of the Pokémon Center",
+      "type": "Consumable"
+    },
+    {
+      "name": "Jaw Fossil / Sail Fossil",
+      "method": "Choice from Super Nerd Miguel after defeating him in Saffron Restaurant",
+      "type": "Key Item"
+    },
+    {
+      "name": "Life Orb",
+      "method": "Reward from the Police Officer in Saffron Police Station after liberating Silph Co.",
+      "type": "Hold Item"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Black Belt Hitoshi",
+      "team": [
+        {"species": "Machop", "level": 37, "types": ["Fighting"]},
+        {"species": "Mankey", "level": 37, "types": ["Fighting"]}
+      ]
+    },
+    {
+      "name": "Karate Master Koichi",
+      "team": [
+        {"species": "Hitmonlee", "level": 37, "types": ["Fighting"]},
+        {"species": "Hitmonchan", "level": 37, "types": ["Fighting"]}
+      ]
+    }
+  ],
+  "encounters": {
+    "Gift Pokémon (Fighting Dojo)": [
+      {"dex_id": "106", "name": "Hitmonlee", "types": ["Fighting"], "levels": "40", "rates": "Choice from Master Koichi"},
+      {"dex_id": "107", "name": "Hitmonchan", "types": ["Fighting"], "levels": "40", "rates": "Choice from Master Koichi"},
+      {"dex_id": "237", "name": "Hitmontop", "types": ["Fighting"], "levels": "40", "rates": "Choice from Master Koichi"}
+    ]
+  }
+}

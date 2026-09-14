@@ -1,0 +1,84 @@
+{
+  "location": "Seafoam Islands B2 (ID 53)",
+  "sections": {
+    "Cave": [
+      {
+        "dex_id": "042",
+        "name": "Golbat",
+        "type1": "Poison",
+        "type2": "Flying",
+        "levels": "33",
+        "catch_rate": "90",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "054",
+        "name": "Psyduck",
+        "type1": "Water",
+        "type2": "",
+        "levels": "33-35",
+        "catch_rate": "190",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "079",
+        "name": "Slowpoke",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "33-35",
+        "catch_rate": "190",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "086",
+        "name": "Seel",
+        "type1": "Water",
+        "type2": "",
+        "levels": "33-37",
+        "catch_rate": "190",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "090",
+        "name": "Shellder",
+        "type1": "Water",
+        "type2": "",
+        "levels": "33-34",
+        "catch_rate": "190",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "098",
+        "name": "Krabby",
+        "type1": "Water",
+        "type2": "",
+        "levels": "30-34",
+        "catch_rate": "225",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "220",
+        "name": "Swinub",
+        "type1": "Ice",
+        "type2": "Ground",
+        "levels": "30",
+        "catch_rate": "225",
+        "rates": [
+          "10%"
+        ]
+      }
+    ]
+  }
+}

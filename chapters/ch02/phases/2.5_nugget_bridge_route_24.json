@@ -1,0 +1,79 @@
+{
+  "name": "Route 24 & Nugget Bridge",
+  "summary": "North of Cerulean City across the famous five-trainer gauntlet of Nugget Bridge. Defeat the trainers, fend off Rival Blue's ambush, expose the disguised Team Rocket Recruiter, and earn a valuable Nugget.",
+  "items": [
+    {
+      "name": "Nugget",
+      "method": "Awarded by the undercover Team Rocket Grunt at the north end of Nugget Bridge",
+      "type": "Consumable"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Rival Blue (Bridge Ambush)",
+      "team": [
+        {"species": "Nidorino/Pidgeotto", "level": 18},
+        {"species": "Abra", "level": 15},
+        {"species": "Mankey/Rattata", "level": 16},
+        {"species": "Starter (Evolved)", "level": 19}
+      ],
+      "reward": "608 Pokedollars"
+    },
+    {
+      "name": "Bug Catcher Cale",
+      "team": [
+        {"species": "Weedle", "level": 10},
+        {"species": "Kakuna", "level": 10},
+        {"species": "Zubat/Metapod", "level": 10},
+        {"species": "Paras/Geodude", "level": 10}
+      ],
+      "reward": "120 Pokedollars"
+    },
+    {
+      "name": "Lass Ali",
+      "team": [
+        {"species": "Abra", "level": 12},
+        {"species": "Spearow/Pidgey", "level": 12},
+        {"species": "Oddish/Mankey", "level": 12}
+      ],
+      "reward": "192 Pokedollars"
+    },
+    {
+      "name": "Youngster Timmy",
+      "team": [
+        {"species": "Ekans", "level": 14},
+        {"species": "Sandshrew/Meowth", "level": 14}
+      ],
+      "reward": "224 Pokedollars"
+    },
+    {
+      "name": "Lass Reli",
+      "team": [
+        {"species": "Rattata", "level": 14},
+        {"species": "Voltorb/Koffing", "level": 14}
+      ],
+      "reward": "224 Pokedollars"
+    },
+    {
+      "name": "Team Rocket Grunt",
+      "team": [
+        {"species": "Ekans", "level": 15},
+        {"species": "Zubat", "level": 15}
+      ],
+      "reward": "480 Pokedollars"
+    }
+  ],
+  "encounters": {
+    "Grass": [
+      {"dex_id": "010", "name": "Caterpie", "types": ["Bug"], "levels": "7", "rates": "15% All Times"},
+      {"dex_id": "011", "name": "Metapod", "types": ["Bug"], "levels": "8", "rates": "5% All Times"},
+      {"dex_id": "013", "name": "Weedle", "types": ["Bug", "Poison"], "levels": "7", "rates": "15% All Times"},
+      {"dex_id": "014", "name": "Kakuna", "types": ["Bug", "Poison"], "levels": "8", "rates": "5% All Times"},
+      {"dex_id": "016", "name": "Pidgey", "types": ["Normal", "Flying"], "levels": "11-13", "rates": "15% All Times"},
+      {"dex_id": "043", "name": "Oddish", "types": ["Grass", "Poison"], "levels": "12-14", "rates": "13% All Times"},
+      {"dex_id": "063", "name": "Abra", "types": ["Psychic"], "levels": "8-12", "rates": "20% All Times"},
+      {"dex_id": "069", "name": "Bellsprout", "types": ["Grass", "Poison"], "levels": "12-14", "rates": "12% All Times"}
+    ]
+  },
+  "navigation_notes": "Sell the Nugget at Cerulean Poké Mart for an instant $5,000 infusion! Use this windfall to stock Super Potions, Awakenings, and multiple DNA Splicers ($300 each)."
+}

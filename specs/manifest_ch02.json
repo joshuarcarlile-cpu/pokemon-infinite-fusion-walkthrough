@@ -1,0 +1,2050 @@
+{
+  "chapter_id": "ch02",
+  "title": "Act 1 - Segment 2: Mt. Moon to Cerulean City (Cascade Badge)",
+  "act": 1,
+  "hard_mode_level_cap": 25,
+  "gym_duel_limit": 2,
+  "routes_covered": [
+    "Route 3",
+    "Mt. Moon",
+    "Route 4",
+    "Cerulean City",
+    "Route 24",
+    "Route 25",
+    "Cerulean Gym"
+  ],
+  "vanilla_divergence_alerts": [
+    "HM Slaves: 100% eliminated by 9 reusable Key Item tools. Do NOT instruct players to teach field moves to party members.",
+    "Friendship: Eliminated. All friendship evolutions use static level thresholds (e.g. Baby Pokémon evolve at Lv. 15).",
+    "Trade Evolutions: Evolve naturally at Level 40 OR via Linking Cord (not Level 37)."
+  ],
+  "critical_missables": [
+    {
+      "quest_id": "q_rocket_join_nugget_bridge",
+      "title": "Nugget Bridge Rocket Recruitment",
+      "deadline": "Before defeating Gym 8 (Giovanni)",
+      "consequence": "RECOMMENDED DOUBLE-AGENT PATH: Agree to join (-5 Karma, but unlocks Rocket missions). By reporting the upcoming Rocket crimes to the Cerulean police officer, you will net +20 Karma total, earning far more Karma than refusing (+5) while securing Diancie!"
+    },
+    {
+      "quest_id": "q_rocket_cerulean_01",
+      "title": "Creepy Crawlies",
+      "deadline": "Before defeating Gym 8 (Giovanni)",
+      "consequence": "Speak to the Team Rocket Captain and clear the bug infestation in the basement."
+    },
+    {
+      "quest_id": "q_rocket_cerulean_02",
+      "title": "No Fishing Zone",
+      "deadline": "Before defeating Misty (Gym 2) for police report; Gym 8 for Rocket turn-in",
+      "consequence": "Report Team Rocket's harassment to the police BEFORE defeating Misty to earn +10 Karma and unlock the Police Pinkan Island heist!"
+    },
+    {
+      "quest_id": "q_rocket_cerulean_03",
+      "title": "Disobedient Pokémon",
+      "deadline": "Before defeating Gym 8 (Giovanni)",
+      "consequence": "Earn +10 Karma and advance the Police Informant storyline towards Diancie."
+    },
+    {
+      "quest_id": "q_rocket_cerulean_04",
+      "title": "Gran Theft Pokémon!",
+      "deadline": "Before defeating Gym 8 (Giovanni)",
+      "consequence": "Advance the Team Rocket infiltrator storyline to Celadon City."
+    }
+  ],
+  "hotel_milestone_target": {
+    "target_count": 5,
+    "target_unlock": "Amulet Coin",
+    "recommended_quests": [
+      "Playing Cupid",
+      "Johto Pokémon"
+    ]
+  },
+  "active_and_ongoing_quests": [
+    {
+      "id": "q_field_nectar_garden",
+      "title": "Nectar Garden",
+      "type": "Field",
+      "region": "Kanto",
+      "location": "Pewter City Flower Garden",
+      "chapter_introduced": "ch01",
+      "chapter_resolvable": "ch02",
+      "is_missable": false,
+      "missable_deadline": null,
+      "karma_delta": 1,
+      "police_reportable": false,
+      "rewards": [
+        "Oran Berry",
+        "Sitrus Berry",
+        "Lum Berry",
+        "Berry Juice",
+        "Oricorio Sensu Style (Ghost/Flying Lv. 15)"
+      ],
+      "objectives": [
+        "Talk to the old man in the Pewter City flower garden.",
+        "Deliver pink flowers from Route 2 (Before Forest) for Oran Berry.",
+        "Deliver red flowers from Route 3 for Sitrus Berry.",
+        "Deliver blue flowers from Route 4 for Lum Berry.",
+        "Catch the visiting Oricorio Sensu Style to receive Berry Juice."
+      ]
+    },
+    {
+      "id": "q_hotel_cerulean_cupid",
+      "title": "Playing Cupid",
+      "type": "Hotel",
+      "region": "Kanto",
+      "location": "Cerulean City Hotel (2nd Floor)",
+      "chapter_introduced": "ch02",
+      "chapter_resolvable": "ch02",
+      "is_missable": false,
+      "missable_deadline": null,
+      "karma_delta": 1,
+      "police_reportable": false,
+      "rewards": [
+        "Love Ball (x5)"
+      ],
+      "objectives": [
+        "Accept the love letter from the boy in the Cerulean City Hotel.",
+        "Defeat Pokémon Breeder Maude on the route south of Cerulean City (Route 5).",
+        "Deliver the love letter to Maude to receive 5 Love Balls."
+      ]
+    },
+    {
+      "id": "q_hotel_cerulean_johto",
+      "title": "Johto Pokémon",
+      "type": "Hotel",
+      "region": "Kanto",
+      "location": "Cerulean City Poké Mart",
+      "chapter_introduced": "ch02",
+      "chapter_resolvable": "ch02",
+      "is_missable": false,
+      "missable_deadline": null,
+      "karma_delta": 1,
+      "police_reportable": false,
+      "rewards": [
+        "Johto Outfit Set"
+      ],
+      "objectives": [
+        "Speak to the traveler inside the Cerulean Poké Mart.",
+        "Show him any Pokémon native to the Johto region (e.g. Sentret, Hoothoot, Pineco, Ledyba)."
+      ]
+    },
+    {
+      "id": "q_field_oak_research_1",
+      "title": "Field Research (Part 1)",
+      "type": "Field",
+      "region": "Kanto",
+      "location": "Cerulean City Pokémon Center -> Route 24",
+      "chapter_introduced": "ch02",
+      "chapter_resolvable": "ch02",
+      "is_missable": false,
+      "missable_deadline": null,
+      "karma_delta": 1,
+      "police_reportable": false,
+      "rewards": [
+        "Poké Radar (Key Item)"
+      ],
+      "objectives": [
+        "Speak to Professor Oak's aide inside Cerulean City Pokémon Center.",
+        "Fuse at least five Pokémon using DNA Splicers.",
+        "Meet the aide on Route 24 and catch an Abra to receive the Poké Radar."
+      ]
+    },
+    {
+      "id": "q_rocket_join_nugget_bridge",
+      "title": "Nugget Bridge Rocket Recruitment",
+      "type": "Team Rocket",
+      "region": "Kanto",
+      "location": "Route 24 (End of Nugget Bridge)",
+      "chapter_introduced": "ch02",
+      "chapter_resolvable": "ch02",
+      "is_missable": true,
+      "missable_deadline": "Before defeating Gym 8 (Giovanni)",
+      "karma_delta": -5,
+      "police_reportable": false,
+      "rewards": [
+        "Rocket Uniform (Disguise)",
+        "Rocket Passwords",
+        "Access to Team Rocket Cerulean HQ"
+      ],
+      "objectives": [
+        "Defeat the 5 trainers on Nugget Bridge.",
+        "The Team Rocket Grunt at the end offers you to join Team Rocket.",
+        "RECOMMENDED DOUBLE-AGENT PATH: Agree to join (-5 Karma, but unlocks Rocket missions). By reporting the upcoming Rocket crimes to the Cerulean police officer, you will net +20 Karma total, earning far more Karma than refusing (+5) while securing Diancie!"
+      ]
+    },
+    {
+      "id": "q_rocket_cerulean_01",
+      "title": "Creepy Crawlies",
+      "type": "Team Rocket",
+      "region": "Kanto",
+      "location": "Cerulean City (Temporary Rocket HQ)",
+      "chapter_introduced": "ch02",
+      "chapter_resolvable": "ch02",
+      "is_missable": true,
+      "missable_deadline": "Before defeating Gym 8 (Giovanni)",
+      "karma_delta": -5,
+      "police_reportable": false,
+      "rewards": [
+        "₽4,000"
+      ],
+      "objectives": [
+        "Enter the temporary Rocket HQ in Cerulean City disguised in your Rocket uniform.",
+        "Speak to the Team Rocket Captain and clear the bug infestation in the basement."
+      ]
+    },
+    {
+      "id": "q_rocket_cerulean_02",
+      "title": "No Fishing Zone",
+      "type": "Team Rocket",
+      "region": "Kanto",
+      "location": "Cerulean City / Route 24",
+      "chapter_introduced": "ch02",
+      "chapter_resolvable": "ch02",
+      "is_missable": true,
+      "missable_deadline": "Before defeating Misty (Gym 2) for police report; Gym 8 for Rocket turn-in",
+      "karma_delta": -5,
+      "police_reportable": true,
+      "police_officer_location": "Cerulean City (blocking Route 5 gatehouse)",
+      "police_reward_karma": 10,
+      "unlocks_quest": "q_pinkan_island_police",
+      "rewards": [
+        "₽8,000 (Rocket turn-in) OR +10 Karma & Diancie Police Path (Officer Jenny report)"
+      ],
+      "objectives": [
+        "Accept mission from Rocket Captain to intimidate fishermen on Nugget Bridge.",
+        "UNDERCOVER INFORMANT PATH: DO NOT intimidate the fishermen. Instead, immediately speak to the Police Officer in Cerulean City blocking the Route 5 entrance.",
+        "Report Team Rocket's harassment to the police BEFORE defeating Misty to earn +10 Karma and unlock the Police Pinkan Island heist!"
+      ]
+    },
+    {
+      "id": "q_rocket_cerulean_03",
+      "title": "Disobedient Pokémon",
+      "type": "Team Rocket",
+      "region": "Kanto",
+      "location": "Cerulean City (Temporary Rocket HQ)",
+      "chapter_introduced": "ch02",
+      "chapter_resolvable": "ch02",
+      "is_missable": true,
+      "missable_deadline": "Before defeating Gym 8 (Giovanni)",
+      "karma_delta": -5,
+      "police_reportable": true,
+      "police_officer_location": "Cerulean City (Police Officer)",
+      "police_reward_karma": 10,
+      "unlocks_quest": "q_pinkan_island_police",
+      "rewards": [
+        "₽4,000 + Azurill/Zubat (Rocket) OR +10 Karma & Diancie Police Path (Officer Jenny report)"
+      ],
+      "objectives": [
+        "Accept mission to discipline a disobedient stolen Pokémon.",
+        "UNDERCOVER INFORMANT PATH: Take the Pokémon directly to the Cerulean police officer to report Pokémon theft.",
+        "Earn +10 Karma and advance the Police Informant storyline towards Diancie."
+      ]
+    },
+    {
+      "id": "q_rocket_cerulean_04",
+      "title": "Gran Theft Pokémon!",
+      "type": "Team Rocket",
+      "region": "Kanto",
+      "location": "Cerulean City",
+      "chapter_introduced": "ch02",
+      "chapter_resolvable": "ch02",
+      "is_missable": true,
+      "missable_deadline": "Before defeating Gym 8 (Giovanni)",
+      "karma_delta": -5,
+      "police_reportable": false,
+      "rewards": [
+        "Promotion in Team Rocket Ranks",
+        "₽6,000"
+      ],
+      "objectives": [
+        "Follow Team Rocket Executive Petrel to steal a rare Pokémon from a young trainer.",
+        "Advance the Team Rocket infiltrator storyline to Celadon City."
+      ]
+    },
+    {
+      "id": "q_legendary_mew",
+      "title": "Mythical Mew Encounter",
+      "type": "Legendary",
+      "region": "Kanto",
+      "location": "Mt. Moon Summit",
+      "chapter_introduced": "ch02",
+      "chapter_resolvable": "ch02",
+      "is_missable": false,
+      "missable_deadline": null,
+      "karma_delta": 0,
+      "police_reportable": false,
+      "rewards": [
+        "Wild Mew Encounter (Catchable)"
+      ],
+      "objectives": [
+        "Climb to Mt. Moon Summit.",
+        "Requires a Karma score of +20 or higher to trigger Mew's presence!",
+        "Achieved easily by following the Undercover Informant path (reporting 2 Rocket crimes = +20 Karma) and avoiding egg theft."
+      ]
+    }
+  ],
+  "boss_ground_truth": {
+    "classic": {
+      "leader": "Misty",
+      "team": [
+        {
+          "species": "B118H39",
+          "level": 19,
+          "moves": [
+            "WATERPULSE",
+            "DISARMINGVOICE",
+            "SING",
+            "HORNATTACK"
+          ],
+          "ability_index": 1,
+          "item": "MYSTICWATER"
+        },
+        {
+          "species": "B120H43",
+          "level": 22,
+          "moves": [
+            "WATERPULSE",
+            "RECOVER",
+            "MEGADRAIN",
+            "STUNSPORE"
+          ],
+          "ability_index": 3,
+          "item": "MYSTICWATER"
+        }
+      ],
+      "party_size": 2
+    },
+    "expert": {
+      "leader": "Misty",
+      "team": [
+        {
+          "species": "B25H113",
+          "level": 19,
+          "moves": [
+            "NASTYPLOT",
+            "DISCHARGE",
+            "SOFTBOILED",
+            "MOONBLAST"
+          ],
+          "ability": "SERENEGRACE",
+          "item": "LIGHTBALL",
+          "happiness": 0,
+          "nature": "TIMID",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 6,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B104H184",
+          "level": 22,
+          "moves": [
+            "AQUATAIL",
+            "BONEMERANG",
+            "DEFENSECURL",
+            "ROLLOUT"
+          ],
+          "ability": "SAPSIPPER",
+          "item": "THICKCLUB",
+          "nature": "ADAMANT",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        }
+      ],
+      "party_size": 2
+    }
+  },
+  "encounters_by_location": {
+    "Route 3 (ID 490)": {
+      "Grass": [
+        {
+          "name": "Pidgey",
+          "dex_id": "016",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "6-7"
+        },
+        {
+          "name": "Spearow",
+          "dex_id": "021",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "6-8"
+        },
+        {
+          "name": "Nidoran♀",
+          "dex_id": "029",
+          "types": [
+            "Poison"
+          ],
+          "levels": "6-7"
+        },
+        {
+          "name": "Nidoran♂",
+          "dex_id": "032",
+          "types": [
+            "Poison"
+          ],
+          "levels": "6-7"
+        },
+        {
+          "name": "Meowth",
+          "dex_id": "052",
+          "types": [
+            "Normal"
+          ],
+          "levels": "7"
+        },
+        {
+          "name": "Mankey",
+          "dex_id": "056",
+          "types": [
+            "Fighting"
+          ],
+          "levels": "7"
+        },
+        {
+          "name": "Hoothoot",
+          "dex_id": "163",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "6-7"
+        },
+        {
+          "name": "Cleffa",
+          "dex_id": "173",
+          "types": [
+            "Fairy"
+          ],
+          "levels": "3-7"
+        },
+        {
+          "name": "Igglybuff",
+          "dex_id": "174",
+          "types": [
+            "Normal",
+            "Fairy"
+          ],
+          "levels": "3-7"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Budew",
+          "dex_id": "400",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "4-9"
+        }
+      ]
+    },
+    "Mt. Moon (ID 102)": {
+      "Cave": [
+        {
+          "name": "Sandshrew",
+          "dex_id": "027",
+          "types": [
+            "Ground"
+          ],
+          "levels": "12"
+        },
+        {
+          "name": "Zubat",
+          "dex_id": "041",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "8-11"
+        },
+        {
+          "name": "Paras",
+          "dex_id": "046",
+          "types": [
+            "Bug",
+            "Grass"
+          ],
+          "levels": "10-12"
+        },
+        {
+          "name": "Geodude",
+          "dex_id": "074",
+          "types": [
+            "Rock",
+            "Ground"
+          ],
+          "levels": "9-10"
+        },
+        {
+          "name": "Onix",
+          "dex_id": "095",
+          "types": [
+            "Rock",
+            "Ground"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Cleffa",
+          "dex_id": "173",
+          "types": [
+            "Fairy"
+          ],
+          "levels": "6-9"
+        }
+      ],
+      "Rock Smash": [
+        {
+          "name": "Geodude",
+          "dex_id": "074",
+          "types": [
+            "Rock",
+            "Ground"
+          ],
+          "levels": "9-10"
+        },
+        {
+          "name": "Nosepass",
+          "dex_id": "325",
+          "types": [
+            "Rock"
+          ],
+          "levels": "7"
+        },
+        {
+          "name": "Carbink",
+          "dex_id": "478",
+          "types": [
+            "Rock",
+            "Fairy"
+          ],
+          "levels": "7"
+        }
+      ]
+    },
+    "Mt. Moon (ID 104)": {
+      "Cave": [
+        {
+          "name": "Sandshrew",
+          "dex_id": "027",
+          "types": [
+            "Ground"
+          ],
+          "levels": "12"
+        },
+        {
+          "name": "Zubat",
+          "dex_id": "041",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "8-11"
+        },
+        {
+          "name": "Paras",
+          "dex_id": "046",
+          "types": [
+            "Bug",
+            "Grass"
+          ],
+          "levels": "10-12"
+        },
+        {
+          "name": "Geodude",
+          "dex_id": "074",
+          "types": [
+            "Rock",
+            "Ground"
+          ],
+          "levels": "9-10"
+        },
+        {
+          "name": "Onix",
+          "dex_id": "095",
+          "types": [
+            "Rock",
+            "Ground"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Cleffa",
+          "dex_id": "173",
+          "types": [
+            "Fairy"
+          ],
+          "levels": "6-9"
+        }
+      ]
+    },
+    "Mt. Moon (ID 767)": {
+      "Cave": [
+        {
+          "name": "Clefairy",
+          "dex_id": "035",
+          "types": [
+            "Fairy"
+          ],
+          "levels": "12"
+        },
+        {
+          "name": "Zubat",
+          "dex_id": "041",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "8-11"
+        },
+        {
+          "name": "Geodude",
+          "dex_id": "074",
+          "types": [
+            "Rock",
+            "Ground"
+          ],
+          "levels": "9-10"
+        },
+        {
+          "name": "Onix",
+          "dex_id": "095",
+          "types": [
+            "Rock",
+            "Ground"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Cleffa",
+          "dex_id": "173",
+          "types": [
+            "Fairy"
+          ],
+          "levels": "6-9"
+        },
+        {
+          "name": "Sableye",
+          "dex_id": "421",
+          "types": [
+            "Dark",
+            "Ghost"
+          ],
+          "levels": "8"
+        }
+      ]
+    },
+    "Route 4 (ID 106)": {
+      "Grass": [
+        {
+          "name": "Rattata",
+          "dex_id": "019",
+          "types": [
+            "Normal"
+          ],
+          "levels": "8-12"
+        },
+        {
+          "name": "Spearow",
+          "dex_id": "021",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "8-12"
+        },
+        {
+          "name": "Ekans",
+          "dex_id": "023",
+          "types": [
+            "Poison"
+          ],
+          "levels": "6-12"
+        },
+        {
+          "name": "Sandshrew",
+          "dex_id": "027",
+          "types": [
+            "Ground"
+          ],
+          "levels": "6-12"
+        },
+        {
+          "name": "Zubat",
+          "dex_id": "041",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "8-12"
+        },
+        {
+          "name": "Mankey",
+          "dex_id": "056",
+          "types": [
+            "Fighting"
+          ],
+          "levels": "10-12"
+        },
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "10-12"
+        },
+        {
+          "name": "Hoothoot",
+          "dex_id": "163",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "8-12"
+        },
+        {
+          "name": "Cleffa",
+          "dex_id": "173",
+          "types": [
+            "Fairy"
+          ],
+          "levels": "10-12"
+        },
+        {
+          "name": "Hoppip",
+          "dex_id": "187",
+          "types": [
+            "Grass",
+            "Flying"
+          ],
+          "levels": "8-12"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Tentacool",
+          "dex_id": "072",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "5-40"
+        },
+        {
+          "name": "Tentacruel",
+          "dex_id": "073",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "35-40"
+        },
+        {
+          "name": "Goldeen",
+          "dex_id": "118",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-35"
+        },
+        {
+          "name": "Seaking",
+          "dex_id": "119",
+          "types": [
+            "Water"
+          ],
+          "levels": "35-40"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Krabby",
+          "dex_id": "098",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Psyduck",
+          "dex_id": "054",
+          "types": [
+            "Water"
+          ],
+          "levels": "25-35"
+        },
+        {
+          "name": "Slowpoke",
+          "dex_id": "079",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "25-35"
+        },
+        {
+          "name": "Krabby",
+          "dex_id": "098",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Gyarados",
+          "dex_id": "130",
+          "types": [
+            "Water",
+            "Flying"
+          ],
+          "levels": "15-25"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Nincada",
+          "dex_id": "382",
+          "types": [
+            "Bug",
+            "Ground"
+          ],
+          "levels": "8-10"
+        }
+      ]
+    },
+    "Route 4 (ID 236)": {
+      "Grass": [
+        {
+          "name": "Pidgey",
+          "dex_id": "016",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "8-11"
+        },
+        {
+          "name": "Rattata",
+          "dex_id": "019",
+          "types": [
+            "Normal"
+          ],
+          "levels": "8-13"
+        },
+        {
+          "name": "Spearow",
+          "dex_id": "021",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "8-12"
+        },
+        {
+          "name": "Hoothoot",
+          "dex_id": "163",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "8-11"
+        },
+        {
+          "name": "Spinarak",
+          "dex_id": "167",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "8-12"
+        },
+        {
+          "name": "Hoppip",
+          "dex_id": "187",
+          "types": [
+            "Grass",
+            "Flying"
+          ],
+          "levels": "8-12"
+        },
+        {
+          "name": "Yanma",
+          "dex_id": "193",
+          "types": [
+            "Bug",
+            "Flying"
+          ],
+          "levels": "8-12"
+        },
+        {
+          "name": "Pineco",
+          "dex_id": "204",
+          "types": [
+            "Bug"
+          ],
+          "levels": "8-12"
+        },
+        {
+          "name": "Heracross",
+          "dex_id": "214",
+          "types": [
+            "Bug",
+            "Fighting"
+          ],
+          "levels": "8-10"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Tentacool",
+          "dex_id": "072",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "5-40"
+        },
+        {
+          "name": "Tentacruel",
+          "dex_id": "073",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "35-40"
+        },
+        {
+          "name": "Goldeen",
+          "dex_id": "118",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-35"
+        },
+        {
+          "name": "Seaking",
+          "dex_id": "119",
+          "types": [
+            "Water"
+          ],
+          "levels": "35-40"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Krabby",
+          "dex_id": "098",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Psyduck",
+          "dex_id": "054",
+          "types": [
+            "Water"
+          ],
+          "levels": "25-35"
+        },
+        {
+          "name": "Slowpoke",
+          "dex_id": "079",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "25-35"
+        },
+        {
+          "name": "Krabby",
+          "dex_id": "098",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Gyarados",
+          "dex_id": "130",
+          "types": [
+            "Water",
+            "Flying"
+          ],
+          "levels": "15-25"
+        }
+      ]
+    },
+    "Cerulean City (ID 1)": {
+      "Surf": [
+        {
+          "name": "Tentacool",
+          "dex_id": "072",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "5-40"
+        },
+        {
+          "name": "Tentacruel",
+          "dex_id": "073",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "35-40"
+        },
+        {
+          "name": "Goldeen",
+          "dex_id": "118",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-35"
+        },
+        {
+          "name": "Seaking",
+          "dex_id": "119",
+          "types": [
+            "Water"
+          ],
+          "levels": "35-40"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Krabby",
+          "dex_id": "098",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Psyduck",
+          "dex_id": "054",
+          "types": [
+            "Water"
+          ],
+          "levels": "25-35"
+        },
+        {
+          "name": "Slowpoke",
+          "dex_id": "079",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "25-35"
+        },
+        {
+          "name": "Krabby",
+          "dex_id": "098",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Gyarados",
+          "dex_id": "130",
+          "types": [
+            "Water",
+            "Flying"
+          ],
+          "levels": "15-25"
+        }
+      ]
+    },
+    "Route 24 (ID 8)": {
+      "Grass": [
+        {
+          "name": "Caterpie",
+          "dex_id": "010",
+          "types": [
+            "Bug"
+          ],
+          "levels": "7"
+        },
+        {
+          "name": "Metapod",
+          "dex_id": "011",
+          "types": [
+            "Bug"
+          ],
+          "levels": "8"
+        },
+        {
+          "name": "Weedle",
+          "dex_id": "013",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "7"
+        },
+        {
+          "name": "Kakuna",
+          "dex_id": "014",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "8"
+        },
+        {
+          "name": "Pidgey",
+          "dex_id": "016",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "11-13"
+        },
+        {
+          "name": "Oddish",
+          "dex_id": "043",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "12-14"
+        },
+        {
+          "name": "Abra",
+          "dex_id": "063",
+          "types": [
+            "Psychic"
+          ],
+          "levels": "8-12"
+        },
+        {
+          "name": "Bellsprout",
+          "dex_id": "069",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "12-14"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Psyduck",
+          "dex_id": "054",
+          "types": [
+            "Water"
+          ],
+          "levels": "20-40"
+        },
+        {
+          "name": "Slowpoke",
+          "dex_id": "079",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "20-40"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Goldeen",
+          "dex_id": "118",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Psyduck",
+          "dex_id": "054",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-25"
+        },
+        {
+          "name": "Poliwhirl",
+          "dex_id": "061",
+          "types": [
+            "Water"
+          ],
+          "levels": "20-30"
+        },
+        {
+          "name": "Slowpoke",
+          "dex_id": "079",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Gyarados",
+          "dex_id": "130",
+          "types": [
+            "Water",
+            "Flying"
+          ],
+          "levels": "15-25"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Buneary",
+          "dex_id": "403",
+          "types": [
+            "Normal"
+          ],
+          "levels": "12-13"
+        }
+      ]
+    }
+  },
+  "wiki_ground_truth": {
+    "Route 3": {
+      "canonical_slug": "Route_3",
+      "lead_summary": "Route 3 is located between Pewter City and Mt. Moon, it is a route with a lot of trainers. The first time the player accesses this route, a scientist explains the hidden ability swarms.\nWhen the player arrives, the Pokémon center is missing a nurse so you can't heal your Pokémon at first. The player has to talk to this nurse healing a Geodude, then, Brock will come help and replace the nurse. She will then be able to heal your Pokémon at the Pokémon center.\nYou will have to go through Mt. Moon to defeat team Rocket grunts.",
+      "items": [
+        {
+          "internal_id": "PECHABERRY",
+          "quantity": "",
+          "name": "Pecha Berry",
+          "location_details": "Left of Bug Catcher James."
+        },
+        {
+          "internal_id": "PARLYZHEAL",
+          "quantity": "",
+          "name": "Paralyze Heal",
+          "location_details": "On the patch of grass near Bug Catcher Greg."
+        },
+        {
+          "internal_id": "machine_hm_FIGHTING",
+          "quantity": "",
+          "name": "TM94 Rock Smash",
+          "location_details": "Given by Brock after reporting him Team Rocket presence in Mt. Moon."
+        },
+        {
+          "internal_id": "REPEL",
+          "quantity": "",
+          "name": "Repel",
+          "location_details": "Given by boy in Pokémon Center after the nurse returns."
+        },
+        {
+          "internal_id": "ASPEARBERRY",
+          "quantity": "",
+          "name": "Aspear Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "CHERIBERRY",
+          "quantity": "",
+          "name": "Cheri Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "CHESTOBERRY",
+          "quantity": "",
+          "name": "Chesto Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "LEPPABERRY",
+          "quantity": "",
+          "name": "Leppa Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "LUMBERRY",
+          "quantity": "",
+          "name": "Lum Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "ORANBERRY",
+          "quantity": "",
+          "name": "Oran Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "PECHABERRY",
+          "quantity": "",
+          "name": "Pecha Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "PERSIMBERRY",
+          "quantity": "",
+          "name": "Persim Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "RAWSTBERRY",
+          "quantity": "",
+          "name": "Rawst Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "SITRUSBERRY",
+          "quantity": "",
+          "name": "Sitrus Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Mt. Moon": {
+      "canonical_slug": "Mt._Moon",
+      "lead_summary": "Mt. Moon is located between Route 3 and Route 4.\nThe first time the player goes through Mt. Moon, it is filled by Team Rocket Grunts. Once they leave, the player can choose to keep between the Helix Fossil or the Dome Fossil.\nOn B2F, there is an exit to Mt. Moon Square. A second entrance from Route 4 leads to Mt. Moon Summit.",
+      "items": [
+        {
+          "internal_id": "POTION",
+          "quantity": "",
+          "name": "Potion",
+          "location_details": "Bottom Left corner on the Ground Floor."
+        },
+        {
+          "internal_id": "ANTIDOTE",
+          "quantity": "",
+          "name": "Antidote",
+          "location_details": "Hidden by a boulder."
+        },
+        {
+          "internal_id": "ESCAPEROPE",
+          "quantity": "",
+          "name": "Escape Rope",
+          "location_details": "Right of the breakable rock."
+        },
+        {
+          "internal_id": "RARECANDY",
+          "quantity": "",
+          "name": "Rare Candy",
+          "location_details": "Near the breakable rock."
+        },
+        {
+          "internal_id": "machine_POISON",
+          "quantity": "",
+          "name": "TM09 Venoshock",
+          "location_details": "Blocked by breakable rocks."
+        },
+        {
+          "internal_id": "STARDUST",
+          "quantity": "",
+          "name": "Stardust",
+          "location_details": "Top Left corner near the ladder."
+        },
+        {
+          "internal_id": "TINYMUSHROOM",
+          "quantity": "",
+          "name": "Tiny Mushroom",
+          "location_details": "Hidden by a stalagmite near the exit."
+        },
+        {
+          "internal_id": "NUGGET",
+          "quantity": "",
+          "name": "Nugget",
+          "location_details": "On the ground in the passage to Mt. Moon Square."
+        },
+        {
+          "internal_id": "SUPERREPEL",
+          "quantity": "",
+          "name": "Super Repel",
+          "location_details": "Hidden by a boulder in the passage to Mt. Moon Square."
+        },
+        {
+          "internal_id": "machine_GROUND",
+          "quantity": "",
+          "name": "TM37 Sandstorm",
+          "location_details": "On the higher ground in the passage to Mt. Moon Square."
+        },
+        {
+          "internal_id": "GREATBALL",
+          "quantity": "",
+          "name": "Great Ball",
+          "location_details": "Hidden by a stalagmite near Team Rocket Jerry."
+        },
+        {
+          "internal_id": "STARPIECE",
+          "quantity": "",
+          "name": "Star Piece",
+          "location_details": "Pass Team Rocket Jerry."
+        },
+        {
+          "internal_id": "machine_DARK",
+          "quantity": "",
+          "name": "TM46 Thief",
+          "location_details": "Pass Team Rocket Francis on the higher ground."
+        },
+        {
+          "internal_id": "SUPERPOTION",
+          "quantity": "",
+          "name": "Super Potion",
+          "location_details": "Pass Team Rocket Francis on the ground."
+        },
+        {
+          "internal_id": "ETHER",
+          "quantity": "",
+          "name": "Ether",
+          "location_details": "Hidden in a rock south of Team Rocket Francis."
+        },
+        {
+          "internal_id": "EVERSTONE",
+          "quantity": "",
+          "name": "Everstone",
+          "location_details": "Blocked by breakable rocks."
+        },
+        {
+          "internal_id": "FULLHEAL",
+          "quantity": "",
+          "name": "Full Heal",
+          "location_details": "Hidden by a stalagmite near Giovanni."
+        },
+        {
+          "internal_id": "STARDUST",
+          "quantity": "",
+          "name": "Stardust",
+          "location_details": "Hidden by the boulder south of the ladder."
+        },
+        {
+          "internal_id": "HELIXFOSSIL",
+          "quantity": "",
+          "name": "Helix Fossil",
+          "location_details": "Given as a choice by Super Nerd Miguel after defeating him."
+        },
+        {
+          "internal_id": "DOMEFOSSIL",
+          "quantity": "",
+          "name": "Dome Fossil",
+          "location_details": "Given as a choice by Super Nerd Miguel after defeating him."
+        },
+        {
+          "internal_id": "HPUP",
+          "quantity": "",
+          "name": "HP Up",
+          "location_details": "By the entrance."
+        },
+        {
+          "internal_id": "MOONSTONE",
+          "quantity": "",
+          "name": "Moon Stone",
+          "location_details": "Hidden by the boulder in the corner."
+        },
+        {
+          "internal_id": "machine_FAIRY",
+          "quantity": "",
+          "name": "TM106 Draining Kiss",
+          "location_details": "On the higher ground."
+        },
+        {
+          "internal_id": "STRANGEPRISM",
+          "quantity": "",
+          "name": "Strange Prism",
+          "location_details": "At the top of the room."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Route 4": {
+      "canonical_slug": "Route_4",
+      "lead_summary": "Route 4 is a route that connects Mt. Moon to Cerulean City.\nThe player can reach Cerulean Cave after obtaining Waterfall or its HM Replacement Item.",
+      "items": [
+        {
+          "internal_id": "ASPEARBERRY",
+          "quantity": "",
+          "name": "Aspear Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "CHERIBERRY",
+          "quantity": "",
+          "name": "Cheri Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "CHESTOBERRY",
+          "quantity": "",
+          "name": "Chesto Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "LEPPABERRY",
+          "quantity": "",
+          "name": "Leppa Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "LUMBERRY",
+          "quantity": "",
+          "name": "Lum Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "ORANBERRY",
+          "quantity": "",
+          "name": "Oran Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "PECHABERRY",
+          "quantity": "",
+          "name": "Pecha Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "PERSIMBERRY",
+          "quantity": "",
+          "name": "Persim Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "RAWSTBERRY",
+          "quantity": "",
+          "name": "Rawst Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "SITRUSBERRY",
+          "quantity": "",
+          "name": "Sitrus Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Cerulean City": {
+      "canonical_slug": "Cerulean_City",
+      "lead_summary": "Cerulean City has four entries: Route 4 from the West, Route 24 from the North, Route 9 from the East, and Route 5 to the South.\nThis city contains Cerulean City's Gym, with Misty as its leader.\nThe path south will be blocked by a police officer until the player claims the Cascade Badge.",
+      "items": [
+        {
+          "internal_id": "machine_FIRE",
+          "quantity": "",
+          "name": "TM11 Sunny Day",
+          "location_details": "(Day only)Given by an elderly woman by the bench next to the PokéCenter."
+        },
+        {
+          "internal_id": "FRESHWATER",
+          "quantity": "",
+          "name": "Fresh Water",
+          "location_details": "Given by the man inside the gym."
+        },
+        {
+          "internal_id": "WHITEFLUTE",
+          "quantity": "",
+          "name": "White Flute",
+          "location_details": "Given by the traveler in the South East, after defeating Misty."
+        },
+        {
+          "internal_id": "WATERSTONE",
+          "quantity": "",
+          "name": "Water Stone",
+          "location_details": "Behind Small Trees in the South East."
+        },
+        {
+          "internal_id": "FULLRESTORE",
+          "quantity": "",
+          "name": "Full Restore",
+          "location_details": "Given by the woman in the hotel after showing her a Pokémon native to Johto."
+        },
+        {
+          "internal_id": "LOVEBALL",
+          "quantity": "5",
+          "name": "Love Ball",
+          "location_details": "Given by the boy in the hotel after delivering hit Love Letter."
+        },
+        {
+          "internal_id": "BICYCLE",
+          "quantity": "",
+          "name": "Bicycle",
+          "location_details": "Given by the Bike Shop owner in exchange for a Bike Voucher or ₽100,000."
+        },
+        {
+          "internal_id": "machine_FLYING",
+          "quantity": "",
+          "name": "TM40 Aerial Ace",
+          "location_details": "Given by the cyclist after beating them in a race."
+        },
+        {
+          "internal_id": "SPLASHPLATE",
+          "quantity": "",
+          "name": "Splash Plate",
+          "location_details": "Next to the northwest house, after catching [[Legendary_Pokémon#Arceus"
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Route 24": {
+      "canonical_slug": "Route_24",
+      "lead_summary": "Route 24 is a short route connecting Cerulean City to Route 25. Nugget Bridge is located on this route.",
+      "items": [
+        {
+          "internal_id": "NUGGET",
+          "quantity": "",
+          "name": "Nugget",
+          "location_details": "Given by Team Rocket Elvis after defeating the 5 trainers on Nugget Bridge."
+        },
+        {
+          "internal_id": "machine_PSYCHIC",
+          "quantity": "",
+          "name": "TM19 Telekinesis",
+          "location_details": "On the high ground behind a giant boulder."
+        },
+        {
+          "internal_id": "machine_NORMAL",
+          "quantity": "",
+          "name": "TM10 Hidden Power",
+          "location_details": "East of the Nugget Bridge."
+        },
+        {
+          "internal_id": "HEALTHWING",
+          "quantity": "",
+          "name": "Health Wing",
+          "location_details": "Hidden on the ground next to the northeastern tall grass patch."
+        },
+        {
+          "internal_id": "POKERADAR",
+          "quantity": "",
+          "name": "Poké Radar",
+          "location_details": "Given by Prof. Oak's assistant after meeting her in the Cerulean Pokémon Center and then showing her an Abra."
+        }
+      ],
+      "missable_warnings": [
+        "NOTE: Contains actions that alter player Karma."
+      ]
+    },
+    "Route 25": {
+      "canonical_slug": "Route_25",
+      "lead_summary": "Route 25 connects Route 24 to Cerulean Cape. It contains a gauntlet of trainers, but no wild Pokémon.",
+      "items": [
+        {
+          "internal_id": "PROTEIN",
+          "quantity": "",
+          "name": "Protein",
+          "location_details": "Near the junction with Route 24"
+        },
+        {
+          "internal_id": "ORANBERRY",
+          "quantity": "",
+          "name": "Oran Berry",
+          "location_details": "Hidden in a tree near the junction with Route 24"
+        },
+        {
+          "internal_id": "REVIVE",
+          "quantity": "",
+          "name": "Revive",
+          "location_details": "Past Hiker Nob"
+        },
+        {
+          "internal_id": "ETHER",
+          "quantity": "",
+          "name": "Ether",
+          "location_details": "Hidden in a tree past Youngster Dan."
+        },
+        {
+          "internal_id": "ELIXIR",
+          "quantity": "",
+          "name": "Elixir",
+          "location_details": "Hidden in a tree below Camper Flint."
+        },
+        {
+          "internal_id": "machine_WATER",
+          "quantity": "",
+          "name": "TM18 Rain Dance",
+          "location_details": "Behind small trees near Hiker Wayne"
+        },
+        {
+          "internal_id": "ASPEARBERRY",
+          "quantity": "",
+          "name": "Aspear Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "CHERIBERRY",
+          "quantity": "",
+          "name": "Cheri Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "CHESTOBERRY",
+          "quantity": "",
+          "name": "Chesto Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "LEPPABERRY",
+          "quantity": "",
+          "name": "Leppa Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "LUMBERRY",
+          "quantity": "",
+          "name": "Lum Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "ORANBERRY",
+          "quantity": "",
+          "name": "Oran Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "PECHABERRY",
+          "quantity": "",
+          "name": "Pecha Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "PERSIMBERRY",
+          "quantity": "",
+          "name": "Persim Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "RAWSTBERRY",
+          "quantity": "",
+          "name": "Rawst Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "SITRUSBERRY",
+          "quantity": "",
+          "name": "Sitrus Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Cerulean Gym": {
+      "canonical_slug": "Cerulean_City",
+      "lead_summary": "Cerulean City has four entries: Route 4 from the West, Route 24 from the North, Route 9 from the East, and Route 5 to the South.\nThis city contains Cerulean City's Gym, with Misty as its leader.\nThe path south will be blocked by a police officer until the player claims the Cascade Badge.",
+      "items": [
+        {
+          "internal_id": "machine_FIRE",
+          "quantity": "",
+          "name": "TM11 Sunny Day",
+          "location_details": "(Day only)Given by an elderly woman by the bench next to the PokéCenter."
+        },
+        {
+          "internal_id": "FRESHWATER",
+          "quantity": "",
+          "name": "Fresh Water",
+          "location_details": "Given by the man inside the gym."
+        },
+        {
+          "internal_id": "WHITEFLUTE",
+          "quantity": "",
+          "name": "White Flute",
+          "location_details": "Given by the traveler in the South East, after defeating Misty."
+        },
+        {
+          "internal_id": "WATERSTONE",
+          "quantity": "",
+          "name": "Water Stone",
+          "location_details": "Behind Small Trees in the South East."
+        },
+        {
+          "internal_id": "FULLRESTORE",
+          "quantity": "",
+          "name": "Full Restore",
+          "location_details": "Given by the woman in the hotel after showing her a Pokémon native to Johto."
+        },
+        {
+          "internal_id": "LOVEBALL",
+          "quantity": "5",
+          "name": "Love Ball",
+          "location_details": "Given by the boy in the hotel after delivering hit Love Letter."
+        },
+        {
+          "internal_id": "BICYCLE",
+          "quantity": "",
+          "name": "Bicycle",
+          "location_details": "Given by the Bike Shop owner in exchange for a Bike Voucher or ₽100,000."
+        },
+        {
+          "internal_id": "machine_FLYING",
+          "quantity": "",
+          "name": "TM40 Aerial Ace",
+          "location_details": "Given by the cyclist after beating them in a race."
+        },
+        {
+          "internal_id": "SPLASHPLATE",
+          "quantity": "",
+          "name": "Splash Plate",
+          "location_details": "Next to the northwest house, after catching [[Legendary_Pokémon#Arceus"
+        }
+      ],
+      "missable_warnings": []
+    }
+  },
+  "location_items_and_statics": [
+    {
+      "type": "Static Encounter",
+      "pokemon": "Pineco",
+      "level": "40",
+      "location": "Route 30",
+      "notes": "Quest Encounter"
+    },
+    {
+      "type": "Static Encounter",
+      "pokemon": "Sudowoodo",
+      "level": "60",
+      "location": "Route 36",
+      "notes": "Game Progression: Requires Squirtbottle from Ecruteak City"
+    },
+    {
+      "type": "Static Encounter",
+      "pokemon": "Minior",
+      "level": "17-27",
+      "location": "Mt. Moon Summit",
+      "notes": "Look through the telescope at the Observatory and wait until a sound effect plays when a shooting star goes past. Talk to the female scientist and then interact with the crashed meteor outside."
+    },
+    {
+      "type": "Static Encounter",
+      "pokemon": "Slaking",
+      "level": "45",
+      "location": "Route 46",
+      "notes": ""
+    },
+    {
+      "type": "Key Item",
+      "name": "Bicycle",
+      "location": "Cerulean City Bike Shop",
+      "desc": "Enables high-speed travel on land and Cycling Road."
+    },
+    {
+      "type": "Static Encounter",
+      "pokemon": "Wimpod",
+      "level": "16",
+      "location": "Cerulean City|Cerulean Team Rocket HQ",
+      "notes": "Quest encounter"
+    },
+    {
+      "type": "Key Item",
+      "name": "Poké Radar",
+      "location": "Route 24",
+      "desc": "Reveals rare exclusive species in shaking grass after route completion."
+    }
+  ],
+  "authoring_guidance": {
+    "splicing_safety": "Explicitly state: HEAD species, BODY species, and WHICH ability to select at the DNA Splicer prompt.",
+    "unfuse_safety": "Unfusing at Pokémon Mart costs $300. Check move retention before unfusing.",
+    "gym_duel_rule": "Strict 2v2 party limit! Instruct player to deposit extra party members in the PC before entering gym arena.",
+    "time_of_day": "Provide Day/Night alternative suggestions so players are never blocked by real-time spawn windows.",
+    "stone_evolutions": "Advisory: Do NOT use evolution stones prematurely on stone-evolvers (e.g. Nidorino) before key level-up moves are learned.",
+    "undercover_informant_rocket": "Guide player to join Team Rocket for disguises/missions, BUT report crimes to police officer for +10 Karma and Diancie unlock!"
+  }
+}

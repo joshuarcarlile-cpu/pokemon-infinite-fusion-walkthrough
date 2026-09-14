@@ -1,0 +1,74 @@
+{
+  "title": "Route_4",
+  "url": "https://infinitefusion.fandom.com/wiki/Route_4",
+  "lead_summary": "Route 4 is a route that connects Mt. Moon to Cerulean City.\nThe player can reach Cerulean Cave after obtaining Waterfall or its HM Replacement Item.",
+  "missable_warnings": [],
+  "items": [
+    {
+      "internal_id": "ASPEARBERRY",
+      "quantity": "",
+      "name": "Aspear Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "CHERIBERRY",
+      "quantity": "",
+      "name": "Cheri Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "CHESTOBERRY",
+      "quantity": "",
+      "name": "Chesto Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "LEPPABERRY",
+      "quantity": "",
+      "name": "Leppa Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "LUMBERRY",
+      "quantity": "",
+      "name": "Lum Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "ORANBERRY",
+      "quantity": "",
+      "name": "Oran Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "PECHABERRY",
+      "quantity": "",
+      "name": "Pecha Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "PERSIMBERRY",
+      "quantity": "",
+      "name": "Persim Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "RAWSTBERRY",
+      "quantity": "",
+      "name": "Rawst Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    },
+    {
+      "internal_id": "SITRUSBERRY",
+      "quantity": "",
+      "name": "Sitrus Berry",
+      "location_details": "On the berry bushes, random chance daily."
+    }
+  ],
+  "sections": [
+    "Items",
+    "Pokémon",
+    "Trainers"
+  ],
+  "raw_wikitext": "{{GlobalToggles}}\n{{InfoboxLocation\n|region=Kanto\n|location_image=Route04.png\n|map_image=Route 4 Map.png\n|connection_1_direction=east\n|connection_1_location=Cerulean City\n|connection_2_direction=west\n|connection_2_location=Mt. Moon \n|connection_3_direction=southwest\n|connection_3_location=Mt. Moon\n|connection_3_label=Mt. Moon (to Summit)\n|connection_4_direction=northeast\n|connection_4_location=Cerulean Cave\n|connection_4_restrictions=%waterfall%\n}}'''Route 4''' is a route that connects [[Mt. Moon]] to [[Cerulean City]].\n\nThe player can reach [[Cerulean Cave]] after obtaining '''Waterfall''' or its HM Replacement Item.\n\n==Items==\n{{ItemTable/Header}}\n{{ItemTable/Section|Berry Bushes}}\n{{ItemTable/Data|ASPEARBERRY||Aspear Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|CHERIBERRY||Cheri Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|CHESTOBERRY||Chesto Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|LEPPABERRY||Leppa Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|LUMBERRY||Lum Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|ORANBERRY||Oran Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|PECHABERRY||Pecha Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|PERSIMBERRY||Persim Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|RAWSTBERRY||Rawst Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Data|SITRUSBERRY||Sitrus Berry|On the berry bushes, random chance daily.|}}\n{{ItemTable/Footer}}\n\n==Pokémon==\n<!-----------------------------------!>\n<!-- CLASSIC & EXPERT MODE POKÉMON --!>\n<!------------------------------------>\n<div class=\"classic-mode expert-mode\">\n{{EncounterTable/Header/Time}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|019|Rattata|Normal||8-12|255|25%}}\n{{EncounterTable/Data|021|Spearow|Normal|Flying|8-12|255|30%|35%|-}}\n{{EncounterTable/Data|023|Ekans|Poison||6-12|255|10%|15%|30%}}\n{{EncounterTable/Data|027|Sandshrew|Ground||6-12|255|10%|10%|-}}\n{{EncounterTable/Data|041|Zubat|Poison|Flying|8-12|255|-|-|10%}}\n{{EncounterTable/Data|056|Mankey|Fighting||10-12|190|-|5%|-}}\n{{EncounterTable/Data|060|Poliwag|Water||10-12|255|-|-|10%}}\n{{EncounterTable/Data|163|Hoothoot|Normal|Flying|8-12|255|-|-|20%}}\n{{EncounterTable/Data|173|Cleffa|Fairy||10-12|150|-|-|5%}}\n{{EncounterTable/Data|187|Hoppip|Grass|Flying|8-12|255|25%|10%|-}}\n{{EncounterTable/Section|Surf}}\n{{EncounterTable/Data|072|Tentacool|Water|Poison|5-40|190|60%}}\n{{EncounterTable/Data|073|Tentacruel|Water|Poison|35-40|60|5%}}\n{{EncounterTable/Data|118|Goldeen|Water||5-35|225|30%}}\n{{EncounterTable/Data|119|Seaking|Water||35-40|60|5%}}\n{{EncounterTable/Section|Old Rod}}\n{{EncounterTable/Data|060|Poliwag|Water||5|255|20%}}\n{{EncounterTable/Data|129|Magikarp|Water||5|255|80%}}\n{{EncounterTable/Section|Good Rod}}\n{{EncounterTable/Data|098|Krabby|Water||5-15|225|40%}}\n{{EncounterTable/Data|116|Horsea|Water||5-15|225|40%}}\n{{EncounterTable/Data|129|Magikarp|Water||5-15|255|20%}}\n{{EncounterTable/Section|Super Rod}}\n{{EncounterTable/Data|054|Psyduck|Water||25-35|190|2%}}\n{{EncounterTable/Data|079|Slowpoke|Water|Psychic|25-35|190|2%}}\n{{EncounterTable/Data|098|Krabby|Water||15-35|225|40%}}\n{{EncounterTable/Data|116|Horsea|Water||15-35|225|40%}}\n{{EncounterTable/Data|130|Gyarados|Water|Flying|15-25|45|16%}}\n{{EncounterTable/Section|Poké Radar}}\n{{EncounterTable/Data|382|Nincada|Bug|Ground|8-10|255|50% <small>([[Poké Radar#How_it_works|long rustle]])</small>}}\n{{EncounterTable/Section|Strange Vortex (Static)}}\n{{EncounterTable/Data|345|Giratina|Ghost|Dragon|75|3|One}}\n{{EncounterTable/Footer/Time}}\n</div>\n<!------------------------!>\n<!-- REMIX MODE POKÉMON --!>\n<!------------------------->\n<div class=\"remix-mode\">\n{{EncounterTable/Header/Time}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|007|Squirtle|Water||8-12|45|1%}}\n{{EncounterTable/Data|023|Ekans|Poison||6-12|255|-|-|30%}}\n{{EncounterTable/Data|163|Hoothoot|Normal|Flying|8-12|255|-|-|20%}}\n{{EncounterTable/Data|191|Sunkern|Grass||8-12|235|20%|20%|-}}\n{{EncounterTable/Data|193|Yanma|Bug|Flying|8-12|75|20%}}\n{{EncounterTable/Data|198|Murkrow|Dark|Flying|10-12|30|-|-|10%}}\n{{EncounterTable/Data|214|Heracross|Bug|Fighting|8-10|45|5%|5%|-}}\n{{EncounterTable/Data|236|Tyrogue|Fighting||6-12|75|10%|10%|-}}\n{{EncounterTable/Data|408|Cottonee|Grass|Fairy|6-12|190|15%|15%|-}}\n{{EncounterTable/Data|413|Ferroseed|Steel|Grass|<abbr title{{=}}\"Morning: 8-12&#10;Day: 8-12&#10;Night: 10-12\">8-12</abbr>|255|9%|9%|5%}}\n{{EncounterTable/Data|474|Wimpod|Bug|Water|<abbr title{{=}}\"Morning: 10-12&#10;Day: 10-12&#10;Night: 8-12\">8-12</abbr>|90|20%|20%|14%}}\n{{EncounterTable/Section|Surf}}\n{{EncounterTable/Data|170|Chinchou|Water|Electric|5-35|190|30%}}\n{{EncounterTable/Data|171|Lanturn|Water|Electric|35-40|75|5%}}\n{{EncounterTable/Data|314|Wailord|Water||35-40|60|5%}}\n{{EncounterTable/Data|387|Wailmer|Water||5-40|125|30%}}\n{{EncounterTable/Data|437|Sharpedo|Water|Dark|30-40|60|30%}}\n{{EncounterTable/Section|Old Rod}}\n{{EncounterTable/Data|223|Remoraid|Water||5|190|20%}}\n{{EncounterTable/Data|394|Feebas|Water||5|255|29%}}\n{{EncounterTable/Data|434|Trubbish|Poison||5|190|1%}}\n{{EncounterTable/Data|436|Carvanha|Water|Dark|5|225|30%}}\n{{EncounterTable/Data|454|Mareanie|Poison|Water|5|190|20%}}\n{{EncounterTable/Section|Good Rod}}\n{{EncounterTable/Data|223|Remoraid|Water||5-15|190|40%}}\n{{EncounterTable/Data|453|Dhelmise|Ghost|Grass|5-15|25|40%}}\n{{EncounterTable/Data|454|Mareanie|Poison|Water|5-15|190|20%}}\n{{EncounterTable/Section|Super Rod}}\n{{EncounterTable/Data|079|Slowpoke|Water|Psychic|25-35|190|2%}}\n{{EncounterTable/Data|116|Horsea|Water||25-35|225|2%}}\n{{EncounterTable/Data|437|Sharpedo|Water|Dark|15-25|60|16%}}\n{{EncounterTable/Data|453|Dhelmise|Ghost|Grass|15-35|25|40%}}\n{{EncounterTable/Data|454|Mareanie|Poison|Water|15-35|190|40%}}\n{{EncounterTable/Section|Poké Radar}}\n{{EncounterTable/Data|382|Nincada|Bug|Ground|8-10|255|50% <small>([[Poké Radar#How_it_works|long rustle]])</small>}}\n{{EncounterTable/Section|Strange Vortex (Static)}}\n{{EncounterTable/Data|345|Giratina|Ghost|Dragon|75|3|One}}\n{{EncounterTable/Footer/Time}}\n</div>\n\n==Trainers==\n{{Trainer\n| trainerClass=LASS\n| name=Crissy\n| trainerOverworldSprite=BW008.png\n| pokemon1=27\n| pokemon1Level=31\n| pokemon2=46.208\n| pokemon2Level=31\n| pokemon3=212.28\n| pokemon3Level=31\n| remixPokemon1=277.17\n| remixPokemon1Level=40\n| remixPokemon2=96.159\n| remixPokemon2Level=40\n| remixPokemon3=38.354\n| remixPokemon3Level=43\n| remixPokemon4=353.53\n| remixPokemon4Level=44\n| remixPokemon4Item=AIRBALLOON\n| remixPokemon5=298.405\n| remixPokemon5Level=44\n| expertPokemon1=28\n| expertPokemon1Level=31\n| expertPokemon1Item=SITRUSBERRY\n| expertPokemon1Nature=Adamant\n| expertPokemon1Ability=[[bulbapedia:Sand Veil (Ability)|Sand Veil]]\n| expertPokemon1Move1=Sandstorm\n| expertPokemon1Move2=Bulldoze\n| expertPokemon1Move3=Crush Claw\n| expertPokemon1Move4=Poison Jab\n| expertPokemon1IVHP=31\n| expertPokemon1IVAtk=31\n| expertPokemon1IVDef=31\n| expertPokemon1IVSpA=31\n| expertPokemon1IVSpD=31\n| expertPokemon1IVSpe=31\n| expertPokemon1EVHP=4\n| expertPokemon1EVAtk=252\n| expertPokemon1EVDef=0\n| expertPokemon1EVSpA=0\n| expertPokemon1EVSpD=0\n| expertPokemon1EVSpe=252\n| expertPokemon2=189.212\n| expertPokemon2Level=31\n| expertPokemon2Item=SITRUSBERRY\n| expertPokemon2Nature=Adamant\n| expertPokemon2Ability=[[bulbapedia:Technician (Ability)|Technician]]\n| expertPokemon2Move1=Bullet Punch\n| expertPokemon2Move2=Bullet Seed\n| expertPokemon2Move3=Swords Dance\n| expertPokemon2Move4=Aerial Ace\n| expertPokemon2IVHP=31\n| expertPokemon2IVAtk=31\n| expertPokemon2IVDef=31\n| expertPokemon2IVSpA=31\n| expertPokemon2IVSpD=31\n| expertPokemon2IVSpe=31\n| expertPokemon2EVHP=4\n| expertPokemon2EVAtk=252\n| expertPokemon2EVDef=0\n| expertPokemon2EVSpA=0\n| expertPokemon2EVSpD=0\n| expertPokemon2EVSpe=252\n| expertPokemon3=65.164\n| expertPokemon3Level=31\n| expertPokemon3Item=SITRUSBERRY\n| expertPokemon3Nature=Modest\n| expertPokemon3Ability=[[bulbapedia:Tinted Lens (Ability)|Tinted Lens]]\n| expertPokemon3Move1=Psychic\n| expertPokemon3Move2=Air Slash\n| expertPokemon3Move3=Moonblast\n| expertPokemon3Move4=Energy Ball\n| expertPokemon3IVHP=31\n| expertPokemon3IVAtk=31\n| expertPokemon3IVDef=31\n| expertPokemon3IVSpA=31\n| expertPokemon3IVSpD=31\n| expertPokemon3IVSpe=31\n| expertPokemon3EVHP=4\n| expertPokemon3EVAtk=0\n| expertPokemon3EVDef=0\n| expertPokemon3EVSpA=252\n| expertPokemon3EVSpD=0\n| expertPokemon3EVSpe=252\n}}\n\n[[Category:Locations]]\n[[Category:Kanto]]"
+}

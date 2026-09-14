@@ -1,0 +1,183 @@
+{
+  "location": "Cerulean Cave (ID 322)",
+  "sections": {
+    "Cave": [
+      {
+        "dex_id": "024",
+        "name": "Arbok",
+        "type1": "Poison",
+        "type2": "",
+        "levels": "52",
+        "catch_rate": "90",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "026",
+        "name": "Raichu",
+        "type1": "Electric",
+        "type2": "",
+        "levels": "53",
+        "catch_rate": "75",
+        "rates": [
+          "4%"
+        ]
+      },
+      {
+        "dex_id": "028",
+        "name": "Sandslash",
+        "type1": "Ground",
+        "type2": "",
+        "levels": "52",
+        "catch_rate": "90",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "042",
+        "name": "Golbat",
+        "type1": "Poison",
+        "type2": "Flying",
+        "levels": "56",
+        "catch_rate": "90",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "044",
+        "name": "Gloom",
+        "type1": "Grass",
+        "type2": "Poison",
+        "levels": "55",
+        "catch_rate": "120",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "047",
+        "name": "Parasect",
+        "type1": "Bug",
+        "type2": "Grass",
+        "levels": "52",
+        "catch_rate": "75",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "049",
+        "name": "Venomoth",
+        "type1": "Bug",
+        "type2": "Poison",
+        "levels": "59",
+        "catch_rate": "75",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "064",
+        "name": "Kadabra",
+        "type1": "Psychic",
+        "type2": "",
+        "levels": "59",
+        "catch_rate": "100",
+        "rates": [
+          "4%"
+        ]
+      },
+      {
+        "dex_id": "065",
+        "name": "Alakazam",
+        "type1": "Psychic",
+        "type2": "",
+        "levels": "50",
+        "catch_rate": "50",
+        "rates": [
+          "1%"
+        ]
+      },
+      {
+        "dex_id": "070",
+        "name": "Weepinbell",
+        "type1": "Grass",
+        "type2": "Poison",
+        "levels": "55",
+        "catch_rate": "120",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "075",
+        "name": "Graveler",
+        "type1": "Rock",
+        "type2": "Ground",
+        "levels": "55",
+        "catch_rate": "120",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "078",
+        "name": "Rapidash",
+        "type1": "Fire",
+        "type2": "",
+        "levels": "59",
+        "catch_rate": "60",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "082",
+        "name": "Magneton",
+        "type1": "Steel",
+        "type2": "Electric",
+        "levels": "56",
+        "catch_rate": "60",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "085",
+        "name": "Dodrio",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "59",
+        "catch_rate": "45",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "097",
+        "name": "Hypno",
+        "type1": "Psychic",
+        "type2": "",
+        "levels": "56",
+        "catch_rate": "75",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "132",
+        "name": "Ditto",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "53-55",
+        "catch_rate": "35",
+        "rates": [
+          "1%"
+        ]
+      }
+    ]
+  }
+}

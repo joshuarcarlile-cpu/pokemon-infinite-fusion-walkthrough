@@ -1,0 +1,58 @@
+{
+  "name": "Ruins of Alph Chambers & Sliding Tile Puzzles",
+  "summary": "Travel into the enigmatic Ruins of Alph. Access Chambers A, B, and C directly from Routes 36 and 32, then descend into Union Cave B1F to locate hidden staircases emerging into secluded Chambers D and E. Complete the sliding tile picture puzzles in each chamber to unlock the subterranean inner sanctum where swarms of ancient Unown awaken. Search the chamber alcoves and smash cracked boulders to recover a Life Orb, Rare Bone, and Star Pieces.",
+  "items": [
+    {
+      "name": "Life Orb",
+      "method": "Hidden behind an ancient ceremonial statue inside the chamber",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Star Piece",
+      "method": "Hidden beside a carved stone pillar in the chamber ruins",
+      "type": "Valuable"
+    },
+    {
+      "name": "Rare Bone",
+      "method": "Found behind smashable boulders in the southern excavation pit",
+      "type": "Valuable"
+    },
+    {
+      "name": "Nugget",
+      "method": "Located behind smashable rocks near the eastern exit gate",
+      "type": "Valuable"
+    },
+    {
+      "name": "Escape Rope",
+      "method": "Found in the southeastern chamber corridor behind a boulder",
+      "type": "Field Item"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Psychic Nathan",
+      "team": [
+        {"species": "Natu/Kadabra", "level": 50, "types": ["Psychic"]},
+        {"species": "Xatu", "level": 52, "types": ["Psychic", "Flying"]}
+      ]
+    },
+    {
+      "name": "Ruin Maniac Karl",
+      "team": [
+        {"species": "Geodude/Graveler", "level": 51, "types": ["Rock", "Ground"]},
+        {"species": "Bronzor", "level": 51, "types": ["Steel", "Psychic"]}
+      ]
+    }
+  ],
+  "encounters": {
+    "Ruins of Alph Central Cavern": [
+      {"dex_id": "201", "name": "Unown", "types": ["Psychic"], "levels": "25-30", "rates": "100%"}
+    ],
+    "Ruins of Alph Exterior Grass & Ponds": [
+      {"dex_id": "177", "name": "Natu", "types": ["Psychic", "Flying"], "levels": "28-44", "rates": "35%"},
+      {"dex_id": "235", "name": "Smeargle", "types": ["Normal"], "levels": "40-42", "rates": "25%"},
+      {"dex_id": "195", "name": "Quagsire", "types": ["Water", "Ground"], "levels": "25-40", "rates": "25% (Surf)"},
+      {"dex_id": "194", "name": "Wooper", "types": ["Water", "Ground"], "levels": "20-30", "rates": "15% (Surf)"}
+    ]
+  }
+}

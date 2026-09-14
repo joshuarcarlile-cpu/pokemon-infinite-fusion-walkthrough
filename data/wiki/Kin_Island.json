@@ -1,0 +1,90 @@
+{
+  "title": "Kin_Island",
+  "url": "https://infinitefusion.fandom.com/wiki/Kin_Island",
+  "lead_summary": "Kin Island, also known as Three Island, is the biggest town in Sevii Islands, and can be accessed from the South by Brine Road (East of the Old Shipwreck) and from the North by the Bond Bridge.\nBebe is in the Pokémon Center and will give the one of the Sinnoh starters.\nJasmine is on vacation with some family at Kin Island, but went North with her nephew and some friends.\nIf the player saw of caught both Kyogre and Groudon, the elderly man in the North-Eastern house will arrange with his son to escort the player to the Sky Pillar in the Harbour.\nThere is a fisherman on the shore who will tell you where it is raining around the Sevii Islands if you are looking for Feebas.",
+  "missable_warnings": [],
+  "items": [
+    {
+      "internal_id": "machine_BUG",
+      "quantity": "",
+      "name": "TM114 Leech Life",
+      "location_details": "Behind the cuttable tree."
+    },
+    {
+      "internal_id": "NUGGET",
+      "quantity": "",
+      "name": "Nugget",
+      "location_details": "Given by the Hiker in the Pokémon Appreciation Club."
+    },
+    {
+      "internal_id": "NUGGET",
+      "quantity": "",
+      "name": "Nugget",
+      "location_details": "Hidden in the southwest wall of the cave."
+    },
+    {
+      "internal_id": "NUGGET",
+      "quantity": "",
+      "name": "Nugget",
+      "location_details": "Hidden in the northwest ground of the cave."
+    },
+    {
+      "internal_id": "NUGGET",
+      "quantity": "",
+      "name": "Nugget",
+      "location_details": "Hidden in the northeast wall of the cave."
+    },
+    {
+      "internal_id": "HEARTSCALE",
+      "quantity": "",
+      "name": "Heart Scale",
+      "location_details": "Hidden in the ground in the middle of the cave."
+    },
+    {
+      "internal_id": "HEARTSCALE",
+      "quantity": "",
+      "name": "Heart Scale",
+      "location_details": "Hidden in the northeast of the cave."
+    },
+    {
+      "internal_id": "PRISMSCALE",
+      "quantity": "",
+      "name": "Prism Scale",
+      "location_details": "Given by the Fisherman after showing him a Feebas."
+    },
+    {
+      "internal_id": "GOLDENBANANA",
+      "quantity": "",
+      "name": "Golden Banana",
+      "location_details": "Given by the cook in the hotel after giving her 30 Bananas."
+    },
+    {
+      "internal_id": "STARPIECE",
+      "quantity": "",
+      "name": "Star Piece",
+      "location_details": "Given by the girl in the hotel after investigating the crater at [[Bond Bridge]]."
+    },
+    {
+      "internal_id": "PPMAX",
+      "quantity": "",
+      "name": "PP Max",
+      "location_details": "Given by the Ranger in the hotel after showing her a Pokémon native to Unova."
+    },
+    {
+      "internal_id": "SPRAYDUCK",
+      "quantity": "",
+      "name": "Mareanie Doll",
+      "location_details": "In the bottom-left house, after clearing [[Berry Forest]]."
+    }
+  ],
+  "sections": [
+    "Items",
+    "Outfits",
+    "Shops",
+    "Shops",
+    "Pokémon",
+    "Points of Interest",
+    "Pokémon Appreciation Club"
+  ],
+  "raw_wikitext": "{{GlobalToggles}}\n{{InfoboxLocation\n|region=Sevii Islands\n|location_image=KinIsland.png\n|map_image=Kin_Island_Map.png\n|has_pokemon_center=1\n|has_pokemart=1\n|connection_1_direction=northwest\n|connection_1_location=Bond Bridge\n|connection_2_direction=southwest\n|connection_2_location=Brine Road (East of the Old Shipwreck)\n|connection_2_label=Brine Road (East)\n|connection_2_restrictions=%surf%\n|connection_3_direction=south\n|connection_3_location=Sky Pillar\n|connection_3_restrictions=Encounter Groudon in [[Ruby Chamber]] and Kyogre in [[Sapphire Cave]], talk to Fisherman in north house\n}}\n'''Kin Island''', also known as '''Three Island''', is the biggest town in Sevii Islands, and can be accessed from the South by [[Brine Road (East of the Old Shipwreck)]] and from the North by the [[Bond Bridge]].\n\nBebe is in the Pokémon Center and will give the one of the Sinnoh starters.\n\nJasmine is on vacation with some family at Kin Island, but went North with her nephew and some friends.\n\nIf the player saw of caught both Kyogre and Groudon, the elderly man in the North-Eastern house will arrange with his son to escort the player to the [[Sky Pillar]] in the Harbour.\n\nThere is a fisherman on the shore who will tell you where it is raining around the Sevii Islands if you are looking for Feebas. \n\n==Items==\n{{ItemTable/Header}}\n{{ItemTable/Data|machine_BUG||TM114 Leech Life|Behind the cuttable tree.|TM114_KinIsland.png}}\n{{ItemTable/Data|NUGGET||Nugget|Given by the Hiker in the Pokémon Appreciation Club.|Nugget_KinIsland.png}}\n{{ItemTable/Data|NUGGET||Nugget|Hidden in the southwest wall of the cave.|Nugget2_KinIsland.png}}\n{{ItemTable/Data|NUGGET||Nugget|Hidden in the northwest ground of the cave.|Nugget3_KinIsland.png}}\n{{ItemTable/Data|NUGGET||Nugget|Hidden in the northeast wall of the cave.|Nugget4_KinIsland.png}}\n{{ItemTable/Data|HEARTSCALE||Heart Scale|Hidden in the ground in the middle of the cave.|HeartScale_KinIsland.png}}\n{{ItemTable/Data|HEARTSCALE||Heart Scale|Hidden in the northeast of the cave.|HeartScale2_KinIsland.png}}\n{{ItemTable/Data|PRISMSCALE||Prism Scale|Given by the Fisherman after showing him a Feebas.|PrismScale_KinIsland.png}}\n{{ItemTable/Data|GOLDENBANANA||Golden Banana|Given by the cook in the hotel after giving her 30 Bananas.|GoldenBanana_KinIsland.png}}\n{{ItemTable/Data|STARPIECE||Star Piece|Given by the girl in the hotel after investigating the crater at [[Bond Bridge]].|StarPiece_KinIsland.png}}\n{{ItemTable/Data|PPMAX||PP Max|Given by the Ranger in the hotel after showing her a Pokémon native to Unova.|PPMax_KinIsland.png}}\n{{ItemTable/Data|SPRAYDUCK||Mareanie Doll|In the bottom-left house, after clearing [[Berry Forest]].|MareanieDoll KinIsland.png}}\n{{ItemTable/Footer}}\n\n==Outfits==\n\n===Shops===\n{{MartTable/Header|Outfit}}\n{{MartTable/Section|Hotel Hair Salon (Town Exclusive Hair Styles)}}\n{{MartTable/Data/Outfit|hair|glitzerset}}\n{{MartTable/Salon|Hotel Hair Salon (Regular Hair Styles)}}\n{{MartTable/Footer}}\n\n===Shops===\n{{MartTable/Header/Basic}}\n{{MartTable/Section|House above Pokémon Center}}\n{{MartTable/Data/Basic|POMEGBERRY|Pomeg Berry|750}}\n{{MartTable/Data/Basic|KELPSYBERRY|Kelpsy Berry|750}}\n{{MartTable/Data/Basic|QUALOTBERRY|Qualot Berry|750}}\n{{MartTable/Data/Basic|HONDEWBERRY|Hondew Berry|750}}\n{{MartTable/Data/Basic|GREPABERRY|Grepa Berry|750}}\n{{MartTable/Data/Basic|TAMATOBERRY|Tamato Berry|750}}\n{{MartTable/General|Poké Mart (inside Pokémon Center)||false}}\n{{MartTable/Footer}}\n\n==Pokémon==\n<!-----------------------------------!>\n<!-- CLASSIC & EXPERT MODE POKÉMON --!>\n<!------------------------------------>\n<div class=\"classic-mode expert-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Surf}}\n{{EncounterTable/Data|072|Tentacool|Water|Poison|20-40|190|15%}}\n{{EncounterTable/Data|116|Horsea|Water||25-30|225|30%}}\n{{EncounterTable/Data|222|Corsola|Water|Rock|40-45|60|20%}}\n{{EncounterTable/Data|226|Mantine|Water|Flying|50|25|5%}}\n{{EncounterTable/Data|469|Bruxish|Water|Psychic|35-45|80|10%}}\n{{EncounterTable/Data|501|Luvdisc|Water||25-30|225|20%}}\n{{EncounterTable/Section|Old Rod}}\n{{EncounterTable/Data|116|Horsea|Water||10|225|15%}}\n{{EncounterTable/Data|129|Magikarp|Water||10|255|70%}}\n{{EncounterTable/Data|501|Luvdisc|Water||10|225|15%}}\n{{EncounterTable/Section|Good Rod}}\n{{EncounterTable/Data|090|Shellder|Water||20|190|3%}}\n{{EncounterTable/Data|129|Magikarp|Water||20|255|60%}}\n{{EncounterTable/Data|170|Chinchou|Water|Electric|20|190|7%}}\n{{EncounterTable/Data|501|Luvdisc|Water||20|225|30%}}\n{{EncounterTable/Section|Super Rod}}\n{{EncounterTable/Data|090|Shellder|Water||40|190|30%}}\n{{EncounterTable/Data|170|Chinchou|Water|Electric|40|190|60%}}\n{{EncounterTable/Data|171|Lanturn|Water|Electric|40|75|3%}}\n{{EncounterTable/Data|501|Luvdisc|Water||40|225|7%}}\n{{EncounterTable/Section|Gift (Bebe)}}\n{{EncounterTable/Data|316|Turtwig|Grass||20|Gift|Choice}}\n{{EncounterTable/Data|319|Chimchar|Fire||20|Gift|Choice}}\n{{EncounterTable/Data|322|Piplup|Water||20|Gift|Choice}}\n{{EncounterTable/Footer}}\n</div>\n<!------------------------!>\n<!-- REMIX MODE POKÉMON --!>\n<!------------------------->\n<div class=\"remix-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Surf}}\n{{EncounterTable/Data|072|Tentacool|Water|Poison|5-40|190|45%}}\n{{EncounterTable/Data|073|Tentacruel|Water|Poison|35-40|60|5%}}\n{{EncounterTable/Data|222|Corsola|Water|Rock|5-40|60|20%}}\n{{EncounterTable/Data|501|Luvdisc|Water||5-40|225|30%}}\n{{EncounterTable/Section|Old Rod}}\n{{EncounterTable/Data|116|Horsea|Water||10|225|15%}}\n{{EncounterTable/Data|394|Feebas|Water||10|255|45%}}\n{{EncounterTable/Data|501|Luvdisc|Water||10|225|40%}}\n{{EncounterTable/Section|Good Rod}}\n{{EncounterTable/Data|090|Shellder|Water||20|190|3%}}\n{{EncounterTable/Data|170|Chinchou|Water|Electric|20|190|7%}}\n{{EncounterTable/Data|453|Dhelmise|Ghost|Grass|20|25|60%}}\n{{EncounterTable/Data|501|Luvdisc|Water||20|225|30%}}\n{{EncounterTable/Section|Super Rod}}\n{{EncounterTable/Data|073|Tentacruel|Water|Poison|40|60|7%}}\n{{EncounterTable/Data|090|Shellder|Water||40|190|30%}}\n{{EncounterTable/Data|170|Chinchou|Water|Electric|40|190|60%}}\n{{EncounterTable/Data|455|Toxapex|Poison|Water|40|75|3%}}\n{{EncounterTable/Section|Gift (Bebe)}}\n{{EncounterTable/Data|316|Turtwig|Grass||20|Gift|Choice}}\n{{EncounterTable/Data|319|Chimchar|Fire||20|Gift|Choice}}\n{{EncounterTable/Data|322|Piplup|Water||20|Gift|Choice}}\n{{EncounterTable/Footer}}\n</div>\n\n==Points of Interest==\n===Pokémon Appreciation Club===\nEvery day, a random unfused Pokémon is selected. Before completing [[Mt. Silver]], the chosen Pokémon cannot be a [[Legendary Pokémon|legendary]].\n\nA Hiker will give the player a Nugget if they can show him a different Pokémon with the same type.\n\nThere are 3 Cool Trainers who will battle using a fusion of the chosen Pokémon. One of these will then trade their Pokémon for any fusion.\n\n[[Category:Locations]]\n[[Category:Towns]]\n[[Category:Sevii Islands]]"
+}

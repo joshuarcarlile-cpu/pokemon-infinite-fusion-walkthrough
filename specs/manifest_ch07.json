@@ -1,0 +1,1353 @@
+{
+  "chapter_id": "ch07",
+  "title": "Act 1 - Segment 7: Cinnabar Island & Seafoam Islands (Volcano Badge)",
+  "act": 1,
+  "hard_mode_level_cap": 51,
+  "gym_duel_limit": 4,
+  "routes_covered": [
+    "Route 19",
+    "Route 20",
+    "Seafoam Islands",
+    "Cinnabar Island",
+    "Pokémon Mansion",
+    "Route 21"
+  ],
+  "vanilla_divergence_alerts": [
+    "HM Slaves: 100% eliminated by 9 reusable Key Item tools. Do NOT instruct players to teach field moves to party members.",
+    "Friendship: Eliminated. All friendship evolutions use static level thresholds (e.g. Baby Pokémon evolve at Lv. 15).",
+    "Trade Evolutions: Evolve naturally at Level 40 OR via Linking Cord (not Level 37)."
+  ],
+  "critical_missables": [],
+  "hotel_milestone_target": {},
+  "active_and_ongoing_quests": [],
+  "boss_ground_truth": {
+    "classic": {
+      "leader": "Blaine",
+      "team": [
+        {
+          "species": "B78H44",
+          "level": 47,
+          "moves": [
+            "SUNNYDAY",
+            "SOLARBEAM",
+            "FLAMETHROWER",
+            "TOXIC"
+          ],
+          "ability_index": 1,
+          "item": "CHARCOAL"
+        },
+        {
+          "species": "B59H38",
+          "level": 47,
+          "moves": [
+            "ROAR",
+            "FIREFANG",
+            "CONFUSERAY",
+            "THUNDERFANG"
+          ],
+          "ability_index": 0,
+          "item": "CHARCOAL"
+        },
+        {
+          "species": "B112H126",
+          "level": 49,
+          "moves": [
+            "FIREPUNCH",
+            "DRILLRUN",
+            "CONFUSERAY",
+            "HAMMERARM"
+          ],
+          "ability_index": 0,
+          "item": "PASSHOBERRY"
+        },
+        {
+          "species": "B142H6",
+          "level": 51,
+          "moves": [
+            "CRUNCH",
+            "SKYDROP",
+            "FIREBLAST",
+            "HYPERBEAM"
+          ],
+          "ability_index": 0,
+          "item": "CHARCOAL"
+        }
+      ],
+      "party_size": 4
+    },
+    "expert": {
+      "leader": "Blaine",
+      "team": [
+        {
+          "species": "B318H131",
+          "level": 48,
+          "moves": [
+            "SURF",
+            "EARTHQUAKE",
+            "ICESHARD",
+            "GIGADRAIN"
+          ],
+          "ability": "WATERABSORB",
+          "item": "RINDOBERRY",
+          "nature": "SERIOUS",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B38H269",
+          "level": 48,
+          "moves": [
+            "FLAMETHROWER",
+            "MOONBLAST",
+            "AURASPHERE",
+            "SOLARBEAM"
+          ],
+          "ability": "DROUGHT",
+          "item": "CHARCOAL",
+          "nature": "MODEST",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B268H3",
+          "level": 51,
+          "moves": [
+            "FIREBLAST",
+            "SOLARBEAM",
+            "THUNDERBOLT",
+            "SYNTHESIS"
+          ],
+          "ability": "CHLOROPHYLL",
+          "item": "CHARCOAL",
+          "nature": "MODEST",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B329H372",
+          "level": 51,
+          "moves": [
+            "SHADOWCLAW",
+            "FLAMECHARGE",
+            "SWORDSDANCE",
+            "KINGSSHIELD"
+          ],
+          "ability": "STANCECHANGE",
+          "item": "LEFTOVERS",
+          "nature": "ADAMANT",
+          "happiness": 0,
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        }
+      ],
+      "party_size": 4
+    }
+  },
+  "encounters_by_location": {
+    "Route 19 (ID 57)": {
+      "Surf": [
+        {
+          "name": "Tentacool",
+          "dex_id": "072",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "5-40"
+        },
+        {
+          "name": "Tentacruel",
+          "dex_id": "073",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "20-25"
+        },
+        {
+          "name": "Seel",
+          "dex_id": "086",
+          "types": [
+            "Water"
+          ],
+          "levels": "25-30"
+        },
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-30"
+        },
+        {
+          "name": "Seadra",
+          "dex_id": "117",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-25"
+        },
+        {
+          "name": "Gyarados",
+          "dex_id": "130",
+          "types": [
+            "Water",
+            "Flying"
+          ],
+          "levels": "15-25"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Krabby",
+          "dex_id": "098",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Psyduck",
+          "dex_id": "054",
+          "types": [
+            "Water"
+          ],
+          "levels": "25-35"
+        },
+        {
+          "name": "Slowpoke",
+          "dex_id": "079",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "25-35"
+        },
+        {
+          "name": "Krabby",
+          "dex_id": "098",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Gyarados",
+          "dex_id": "130",
+          "types": [
+            "Water",
+            "Flying"
+          ],
+          "levels": "15-25"
+        }
+      ]
+    },
+    "Route 20 (ID 58)": {
+      "Surf": [
+        {
+          "name": "Tentacool",
+          "dex_id": "072",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "5-40"
+        },
+        {
+          "name": "Tentacruel",
+          "dex_id": "073",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "20-25"
+        },
+        {
+          "name": "Seel",
+          "dex_id": "086",
+          "types": [
+            "Water"
+          ],
+          "levels": "25-30"
+        },
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-30"
+        },
+        {
+          "name": "Seadra",
+          "dex_id": "117",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-25"
+        },
+        {
+          "name": "Gyarados",
+          "dex_id": "130",
+          "types": [
+            "Water",
+            "Flying"
+          ],
+          "levels": "15-25"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Krabby",
+          "dex_id": "098",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Remoraid",
+          "dex_id": "223",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-13"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Krabby",
+          "dex_id": "098",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Gyarados",
+          "dex_id": "130",
+          "types": [
+            "Water",
+            "Flying"
+          ],
+          "levels": "15-25"
+        },
+        {
+          "name": "Chinchou",
+          "dex_id": "170",
+          "types": [
+            "Water",
+            "Electric"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Remoraid",
+          "dex_id": "223",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Mantine",
+          "dex_id": "226",
+          "types": [
+            "Water",
+            "Flying"
+          ],
+          "levels": "15-35"
+        }
+      ]
+    },
+    "Cinnabar Island (ID 98)": {
+      "Surf": [
+        {
+          "name": "Tentacool",
+          "dex_id": "072",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "5-40"
+        },
+        {
+          "name": "Tentacruel",
+          "dex_id": "073",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "20-25"
+        },
+        {
+          "name": "Seel",
+          "dex_id": "086",
+          "types": [
+            "Water"
+          ],
+          "levels": "25-30"
+        },
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-30"
+        },
+        {
+          "name": "Seadra",
+          "dex_id": "117",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-25"
+        },
+        {
+          "name": "Gyarados",
+          "dex_id": "130",
+          "types": [
+            "Water",
+            "Flying"
+          ],
+          "levels": "15-25"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Krabby",
+          "dex_id": "098",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Psyduck",
+          "dex_id": "054",
+          "types": [
+            "Water"
+          ],
+          "levels": "25-35"
+        },
+        {
+          "name": "Slowpoke",
+          "dex_id": "079",
+          "types": [
+            "Water",
+            "Psychic"
+          ],
+          "levels": "25-35"
+        },
+        {
+          "name": "Krabby",
+          "dex_id": "098",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Gyarados",
+          "dex_id": "130",
+          "types": [
+            "Water",
+            "Flying"
+          ],
+          "levels": "15-25"
+        }
+      ]
+    },
+    "Pokémon Mansion (ID 173)": {
+      "Cave": [
+        {
+          "name": "Rattata",
+          "dex_id": "019",
+          "types": [
+            "Normal"
+          ],
+          "levels": "26-28"
+        },
+        {
+          "name": "Raticate",
+          "dex_id": "020",
+          "types": [
+            "Normal"
+          ],
+          "levels": "32-36"
+        },
+        {
+          "name": "Vulpix",
+          "dex_id": "037",
+          "types": [
+            "Fire"
+          ],
+          "levels": "30-32"
+        },
+        {
+          "name": "Growlithe",
+          "dex_id": "058",
+          "types": [
+            "Fire"
+          ],
+          "levels": "30-32"
+        },
+        {
+          "name": "Grimer",
+          "dex_id": "088",
+          "types": [
+            "Poison"
+          ],
+          "levels": "28"
+        },
+        {
+          "name": "Muk",
+          "dex_id": "089",
+          "types": [
+            "Poison"
+          ],
+          "levels": "32"
+        },
+        {
+          "name": "Koffing",
+          "dex_id": "109",
+          "types": [
+            "Poison"
+          ],
+          "levels": "28-30"
+        },
+        {
+          "name": "Weezing",
+          "dex_id": "110",
+          "types": [
+            "Poison"
+          ],
+          "levels": "32"
+        }
+      ]
+    },
+    "Pokémon Mansion (ID 174)": {
+      "Cave": [
+        {
+          "name": "Rattata",
+          "dex_id": "019",
+          "types": [
+            "Normal"
+          ],
+          "levels": "26-28"
+        },
+        {
+          "name": "Raticate",
+          "dex_id": "020",
+          "types": [
+            "Normal"
+          ],
+          "levels": "32-36"
+        },
+        {
+          "name": "Vulpix",
+          "dex_id": "037",
+          "types": [
+            "Fire"
+          ],
+          "levels": "30-32"
+        },
+        {
+          "name": "Growlithe",
+          "dex_id": "058",
+          "types": [
+            "Fire"
+          ],
+          "levels": "30-32"
+        },
+        {
+          "name": "Grimer",
+          "dex_id": "088",
+          "types": [
+            "Poison"
+          ],
+          "levels": "28"
+        },
+        {
+          "name": "Muk",
+          "dex_id": "089",
+          "types": [
+            "Poison"
+          ],
+          "levels": "32"
+        },
+        {
+          "name": "Koffing",
+          "dex_id": "109",
+          "types": [
+            "Poison"
+          ],
+          "levels": "28-30"
+        },
+        {
+          "name": "Weezing",
+          "dex_id": "110",
+          "types": [
+            "Poison"
+          ],
+          "levels": "32"
+        }
+      ]
+    },
+    "Pokémon Mansion (ID 181)": {
+      "Cave": [
+        {
+          "name": "Rattata",
+          "dex_id": "019",
+          "types": [
+            "Normal"
+          ],
+          "levels": "26-28"
+        },
+        {
+          "name": "Raticate",
+          "dex_id": "020",
+          "types": [
+            "Normal"
+          ],
+          "levels": "32-36"
+        },
+        {
+          "name": "Vulpix",
+          "dex_id": "037",
+          "types": [
+            "Fire"
+          ],
+          "levels": "30-32"
+        },
+        {
+          "name": "Growlithe",
+          "dex_id": "058",
+          "types": [
+            "Fire"
+          ],
+          "levels": "30-32"
+        },
+        {
+          "name": "Grimer",
+          "dex_id": "088",
+          "types": [
+            "Poison"
+          ],
+          "levels": "28"
+        },
+        {
+          "name": "Muk",
+          "dex_id": "089",
+          "types": [
+            "Poison"
+          ],
+          "levels": "32"
+        },
+        {
+          "name": "Koffing",
+          "dex_id": "109",
+          "types": [
+            "Poison"
+          ],
+          "levels": "28-30"
+        },
+        {
+          "name": "Weezing",
+          "dex_id": "110",
+          "types": [
+            "Poison"
+          ],
+          "levels": "32"
+        }
+      ]
+    },
+    "Pokémon Mansion (ID 187)": {
+      "Cave": [
+        {
+          "name": "Rattata",
+          "dex_id": "019",
+          "types": [
+            "Normal"
+          ],
+          "levels": "26-28"
+        },
+        {
+          "name": "Raticate",
+          "dex_id": "020",
+          "types": [
+            "Normal"
+          ],
+          "levels": "32-36"
+        },
+        {
+          "name": "Grimer",
+          "dex_id": "088",
+          "types": [
+            "Poison"
+          ],
+          "levels": "28"
+        },
+        {
+          "name": "Koffing",
+          "dex_id": "109",
+          "types": [
+            "Poison"
+          ],
+          "levels": "28-30"
+        },
+        {
+          "name": "Ditto",
+          "dex_id": "132",
+          "types": [
+            "Normal"
+          ],
+          "levels": "30"
+        }
+      ]
+    },
+    "Route 21 (ID 59)": {
+      "Grass": [
+        {
+          "name": "Pidgeotto",
+          "dex_id": "017",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "15-32"
+        },
+        {
+          "name": "Rattata",
+          "dex_id": "019",
+          "types": [
+            "Normal"
+          ],
+          "levels": "18-25"
+        },
+        {
+          "name": "Raticate",
+          "dex_id": "020",
+          "types": [
+            "Normal"
+          ],
+          "levels": "20-30"
+        },
+        {
+          "name": "Zubat",
+          "dex_id": "041",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "15-32"
+        },
+        {
+          "name": "Golbat",
+          "dex_id": "042",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "15-32"
+        },
+        {
+          "name": "Tangela",
+          "dex_id": "114",
+          "types": [
+            "Grass"
+          ],
+          "levels": "20-30"
+        },
+        {
+          "name": "Mr. Mime",
+          "dex_id": "122",
+          "types": [
+            "Psychic",
+            "Fairy"
+          ],
+          "levels": "28"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Tentacool",
+          "dex_id": "072",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "30-35"
+        },
+        {
+          "name": "Tentacruel",
+          "dex_id": "073",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "35"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Krabby",
+          "dex_id": "098",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "5-15"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Krabby",
+          "dex_id": "098",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Horsea",
+          "dex_id": "116",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Remoraid",
+          "dex_id": "223",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        },
+        {
+          "name": "Octillery",
+          "dex_id": "224",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-35"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Dunsparce",
+          "dex_id": "206",
+          "types": [
+            "Normal"
+          ],
+          "levels": "25-30"
+        }
+      ]
+    }
+  },
+  "wiki_ground_truth": {
+    "Route 19": {
+      "canonical_slug": "Route_19",
+      "lead_summary": "Route 19 is a water-route and can only be used with Surf or its HM Replacement Item. It connects Fuchsia City to Route 20.\nOn the beach, there is a trainer which challenges the player to a surfing race. If the player wins, the trainer is rewarded with the HM Replacement Item, the Surfboard.",
+      "items": [
+        {
+          "internal_id": "SURFBOARD",
+          "quantity": "",
+          "name": "Surfboard",
+          "location_details": "Given after winning the Surf race."
+        },
+        {
+          "internal_id": "PEARL",
+          "quantity": "",
+          "name": "Pearl",
+          "location_details": "On the South-Eastern Island."
+        },
+        {
+          "internal_id": "ANTIDOTE",
+          "quantity": "",
+          "name": "Antidote",
+          "location_details": "Given by Swimmer Alice after defeating her."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Route 20": {
+      "canonical_slug": "Route_20",
+      "lead_summary": "Route 20 is a water-route and can only be used with Surf or its HM Replacement Item. It connects Cinnabar Island to Route 19.\nThe route is split with Seafoam Islands.",
+      "items": [
+        {
+          "internal_id": "PEARL",
+          "quantity": "",
+          "name": "Pearl",
+          "location_details": "Given by Swimmer Axel after defeating him."
+        },
+        {
+          "internal_id": "STARDUST",
+          "quantity": "",
+          "name": "Stardust",
+          "location_details": "On the island on the southern path from [[Route 19]]."
+        },
+        {
+          "internal_id": "PEARL",
+          "quantity": "",
+          "name": "Pearl",
+          "location_details": "Each red object on the ocean floor. Random 65% chance."
+        },
+        {
+          "internal_id": "BIGPEARL",
+          "quantity": "",
+          "name": "Big Pearl",
+          "location_details": "Each red object on the ocean floor. Random 15% chance."
+        },
+        {
+          "internal_id": "OLDPENDANT",
+          "quantity": "",
+          "name": "Old Pendant",
+          "location_details": "By the sunken ship while diving East Underwater."
+        },
+        {
+          "internal_id": "GRACIDEA",
+          "quantity": "",
+          "name": "Spaceship Part",
+          "location_details": "South of the sunken ship, after starting the quest First Contact."
+        },
+        {
+          "internal_id": "ICICLEPLATE",
+          "quantity": "",
+          "name": "Icicle Plate",
+          "location_details": "Above the Seafoam Island entrances, after catching [[Legendary_Pokémon#Arceus"
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Seafoam Islands": {
+      "canonical_slug": "Seafoam_Islands",
+      "lead_summary": "Seafoam Islands splits Route 20 into a Western section (which eventually leads to Cinnabar Island) and an eastern section (which leads to Route 19).",
+      "items": [
+        {
+          "internal_id": "PEARL",
+          "quantity": "",
+          "name": "Pearl",
+          "location_details": "Near the eastern entrance."
+        },
+        {
+          "internal_id": "ICEHEAL",
+          "quantity": "",
+          "name": "Ice Heal",
+          "location_details": "At the top of the ice wall."
+        },
+        {
+          "internal_id": "DAWNSTONE",
+          "quantity": "",
+          "name": "Dawn Stone",
+          "location_details": "At the northwestern part of the map, up a narrow corridor."
+        },
+        {
+          "internal_id": "BIGPEARL",
+          "quantity": "",
+          "name": "Big Pearl",
+          "location_details": "First ladder down after climbing the Ice Wall."
+        },
+        {
+          "internal_id": "machine_ICE",
+          "quantity": "",
+          "name": "TM07 Hail",
+          "location_details": "At the end of the Eastern frozen lake."
+        },
+        {
+          "internal_id": "NUGGET",
+          "quantity": "",
+          "name": "Nugget",
+          "location_details": "On the East side from the return path."
+        },
+        {
+          "internal_id": "ESCAPEROPE",
+          "quantity": "",
+          "name": "Escape Rope",
+          "location_details": "On a lone island."
+        }
+      ],
+      "missable_warnings": [
+        "NOTE: Contains actions that alter player Karma."
+      ]
+    },
+    "Cinnabar Island": {
+      "canonical_slug": "Cinnabar_Island",
+      "lead_summary": "This town is accessible from Route 20 or Route 21, or by the Seagallop Ferry.\nPlayers can challenge Blaine for the Volcano Badge, but only if they went through the Pokémon Mansion.\nOnce the player has found the coordinate to Birth Island, the sailor in the harbor can bring them there.",
+      "items": [
+        {
+          "internal_id": "BURNHEAL",
+          "quantity": "",
+          "name": "Burn Heal",
+          "location_details": "Hidden in the trash bin in the house left of the Poké Mart."
+        },
+        {
+          "internal_id": "METALCOAT",
+          "quantity": "",
+          "name": "Metal Coat",
+          "location_details": "Exchange one Metal Powder and ₽5,000 in the house left of the Poké Mart."
+        },
+        {
+          "internal_id": "BURNHEAL",
+          "quantity": "",
+          "name": "Burn Heal",
+          "location_details": "In a rock to the left of the Pokémon Mansion."
+        },
+        {
+          "internal_id": "SUPERROD",
+          "quantity": "",
+          "name": "Super Rod",
+          "location_details": "Given by the Fishing Guru in the ship off the southeast coast."
+        },
+        {
+          "internal_id": "METALPOWDER",
+          "quantity": "",
+          "name": "Metal Powder",
+          "location_details": "Given by the Scientist in the hotel as a reward for giving her a Quick Powder."
+        },
+        {
+          "internal_id": "HELIXFOSSIL",
+          "quantity": "",
+          "name": "Helix Fossil",
+          "location_details": "Given by the Hiker in the hotel as a reward for giving him a Diamond Necklace if the player chose the Dome Fossil at [[Mt. Moon]]."
+        },
+        {
+          "internal_id": "DOMEFOSSIL",
+          "quantity": "",
+          "name": "Dome Fossil",
+          "location_details": "Given by the Hiker in the hotel as a reward for giving him a Diamond Necklace if the player chose the Helix Fossil at [[Mt. Moon]]."
+        },
+        {
+          "internal_id": "machine_NORMAL",
+          "quantity": "",
+          "name": "TM104 Recover",
+          "location_details": "Given by the Rich Boy in the hotel as a reward for giving him a Relic Vase."
+        },
+        {
+          "internal_id": "INFINITESPLICERS",
+          "quantity": "",
+          "name": "Infinite Splicers",
+          "location_details": "In the laboratory, after defeating R.E.D. robot."
+        },
+        {
+          "internal_id": "INFINITEREVERSERS",
+          "quantity": "",
+          "name": "Infinite Reversers",
+          "location_details": "In the laboratory, after defeating all robots."
+        },
+        {
+          "internal_id": "FLAMEPLATE",
+          "quantity": "",
+          "name": "Flame Plate",
+          "location_details": "East of the Pokémon Mansion, after catching [[Legendary_Pokémon#Arceus"
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Route 21": {
+      "canonical_slug": "Route_21",
+      "lead_summary": "Route 21 is a route accessible only by Surf that connects Pallet Town to Cinnabar Island.",
+      "items": [
+        {
+          "internal_id": "STARDUST",
+          "quantity": "",
+          "name": "Stardust",
+          "location_details": "South of the Pallet Town Entrance"
+        },
+        {
+          "internal_id": "PEARL",
+          "quantity": "",
+          "name": "Pearl",
+          "location_details": "West of Swimmer Sammie"
+        },
+        {
+          "internal_id": "NETBALL",
+          "quantity": "",
+          "name": "Net Ball",
+          "location_details": "Fisherman Wade after Winning Battle"
+        },
+        {
+          "internal_id": "PEARL",
+          "quantity": "",
+          "name": "Pearl",
+          "location_details": "Fisherman Ronald after Winning Battle"
+        },
+        {
+          "internal_id": "BURNHEAL",
+          "quantity": "",
+          "name": "Burn Heal",
+          "location_details": "Swimmer Sammie after Winning Battle"
+        }
+      ],
+      "missable_warnings": []
+    }
+  },
+  "location_items_and_statics": [
+    {
+      "type": "HM Replacement",
+      "name": "Surfboard",
+      "replaces": "Surf",
+      "location": "Route 19"
+    },
+    {
+      "type": "Static Encounter",
+      "pokemon": "Jynx",
+      "level": "40",
+      "location": "Seafoam Islands",
+      "notes": ""
+    },
+    {
+      "type": "Key Item",
+      "name": "Infinite Splicers",
+      "location": "Cinnabar Island Laboratory",
+      "desc": "Reusable infinite DNA Splicer that never depletes."
+    },
+    {
+      "type": "Static Encounter",
+      "pokemon": "Absol",
+      "level": "35",
+      "location": "Cinnabar Island",
+      "notes": ""
+    },
+    {
+      "type": "Static Encounter",
+      "pokemon": "Magmar",
+      "level": "40",
+      "location": "Pokémon Mansion",
+      "notes": ""
+    }
+  ],
+  "authoring_guidance": {
+    "splicing_safety": "Explicitly state: HEAD species, BODY species, and WHICH ability to select at the DNA Splicer prompt.",
+    "unfuse_safety": "Unfusing at Pokémon Mart costs $300. Check move retention before unfusing.",
+    "gym_duel_rule": "Strict 4v4 party limit! Instruct player to deposit extra party members in the PC before entering gym arena.",
+    "time_of_day": "Provide Day/Night alternative suggestions so players are never blocked by real-time spawn windows.",
+    "stone_evolutions": "Advisory: Do NOT use evolution stones prematurely on stone-evolvers (e.g. Nidorino) before key level-up moves are learned.",
+    "undercover_informant_rocket": "Guide player to join Team Rocket for disguises/missions, BUT report crimes to police officer for +10 Karma and Diancie unlock!"
+  }
+}

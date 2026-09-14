@@ -1,0 +1,41 @@
+{
+  "name": "Hidden Chamber, Roaming Raicune & Super Nerd Miguel",
+  "summary": "Descend into the secret Hidden Chamber beneath the Ruins of Alph. Consult the Hidden Power Move Tutor and utilize the elemental offering basket: depositing any daily respawning Arceus Plate permanently calibrates your Pokémon's Hidden Power typing. Witness the roaming legendary fusion beast Raicune before scaring it off into Johto's wilderness, prompting the grateful scientist to hand over the Weather Tracker. Finally, face Super Nerd Miguel in a 5v5 fossil showdown to claim the Sada / Sado Archeology Outfit.",
+  "items": [
+    {
+      "name": "Weather Tracker",
+      "method": "Gifted by the field research scientist after triggering the roaming Raicune encounter",
+      "type": "Key Item"
+    },
+    {
+      "name": "Sada / Sado Archeology Outfit",
+      "method": "Awarded by Super Nerd Miguel upon defeating him in the deep excavation pit",
+      "type": "Costume / Key Item"
+    },
+    {
+      "name": "Arceus Elemental Plates",
+      "method": "Random elemental plates (Earth, Splash, Zap, Meadow, Fist, etc.) respawning daily on the chamber floor",
+      "type": "Hold Item / Plate"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Super Nerd Miguel",
+      "team": [
+        {"species": "Kabutops/Omastar", "level": 51, "types": ["Rock", "Water"]},
+        {"species": "Aron/Sableye", "level": 53, "types": ["Steel", "Ghost"]},
+        {"species": "Lairon/Medicham", "level": 53, "types": ["Steel", "Psychic"]},
+        {"species": "Tyrantrum/Dragonite", "level": 53, "types": ["Rock", "Flying"]},
+        {"species": "Aerodactyl", "level": 55, "types": ["Rock", "Flying"]}
+      ]
+    }
+  ],
+  "encounters": {
+    "Roaming Beast Event": [
+      {"dex_id": "243/245", "name": "Raicune (Raikou/Suicune)", "types": ["Electric", "Water"], "levels": "50", "rates": "Roaming Event"}
+    ],
+    "Hidden Chamber Daily Spawns": [
+      {"dex_id": "201", "name": "Unown", "types": ["Psychic"], "levels": "30", "rates": "100%"}
+    ]
+  }
+}

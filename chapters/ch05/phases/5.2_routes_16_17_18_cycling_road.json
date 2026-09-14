@@ -1,0 +1,87 @@
+{
+  "name": "Routes 16, 17 & 18 (Cycling Road)",
+  "summary": "West of Celadon City. Play the Poké Flute to awaken the sleeping Snorlax blocking Route 16. Hop on the Bicycle to descend the steep slopes of Cycling Road (Route 17) past aggressive Bikers, arriving at Route 18 and Fuchsia City's western gate.",
+  "items": [
+    {
+      "name": "Leftovers",
+      "method": "Hidden beneath the spot where Snorlax was sleeping on Route 16",
+      "type": "Hold Item"
+    },
+    {
+      "name": "HM02 Fly / Teleport Tool",
+      "method": "Gift from the recluse woman in the secret house past the Cut tree on Route 16",
+      "type": "Key Item"
+    },
+    {
+      "name": "Rare Candy",
+      "method": "Hidden on the center grass divider on Route 17",
+      "type": "Consumable"
+    },
+    {
+      "name": "Full Heal",
+      "method": "Ground pickup on Route 18 near the gatehouse",
+      "type": "Consumable"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Biker Billy",
+      "team": [
+        {
+          "species": "Koffing",
+          "level": 29,
+          "types": ["Poison"]
+        },
+        {
+          "species": "Grimer",
+          "level": 29,
+          "types": ["Poison"]
+        }
+      ]
+    },
+    {
+      "name": "Cue Ball Corey",
+      "team": [
+        {
+          "species": "Machop",
+          "level": 29,
+          "types": ["Fighting"]
+        },
+        {
+          "species": "Mankey",
+          "level": 29,
+          "types": ["Fighting"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Routes 16 & 18 Tall Grass": [
+      {"dex_id": "084", "name": "Doduo", "types": ["Normal", "Flying"], "levels": "18-28", "rates": "35% Morning / Day"},
+      {"dex_id": "021", "name": "Spearow", "types": ["Normal", "Flying"], "levels": "20-22", "rates": "25% Morning / Day"},
+      {"dex_id": "022", "name": "Fearow", "types": ["Normal", "Flying"], "levels": "25-29", "rates": "15% Route 18"},
+      {"dex_id": "019", "name": "Rattata", "types": ["Normal"], "levels": "18-22", "rates": "20% All Times"},
+      {"dex_id": "049", "name": "Venomoth", "types": ["Bug", "Poison"], "levels": "24-28", "rates": "35% Route 18 Night"},
+      {"dex_id": "241", "name": "Miltank", "types": ["Normal"], "levels": "25", "rates": "10% Route 18 Day"}
+    ],
+    "Route 17 Water (Cycling Road)": [
+      {"dex_id": "072", "name": "Tentacool", "types": ["Water", "Poison"], "levels": "5-40", "rates": "60% Surfing"},
+      {"dex_id": "118", "name": "Goldeen", "types": ["Water"], "levels": "5-35", "rates": "30% Surfing / 40% Good Rod"},
+      {"dex_id": "098", "name": "Krabby", "types": ["Water"], "levels": "5-35", "rates": "40% Good Rod / 20% Super Rod"},
+      {"dex_id": "116", "name": "Horsea", "types": ["Water"], "levels": "5-35", "rates": "40% Good Rod / 20% Super Rod"},
+      {"dex_id": "120", "name": "Staryu", "types": ["Water"], "levels": "15-25", "rates": "20% Super Rod"},
+      {"dex_id": "090", "name": "Shellder", "types": ["Water"], "levels": "15-25", "rates": "20% Super Rod"},
+      {"dex_id": "130", "name": "Gyarados", "types": ["Water", "Flying"], "levels": "15-25", "rates": "16% Super Rod"}
+    ],
+    "Static & Interactive": [
+      {"dex_id": "143", "name": "Snorlax", "types": ["Normal"], "levels": "30", "rates": "Route 16 Gate (Poké Flute)"},
+      {"dex_id": "710", "name": "Pumpkaboo", "types": ["Ghost", "Grass"], "levels": "17-27", "rates": "Route 18 Night (Pumpkins)"}
+    ],
+    "Poké Radar": [
+      {"dex_id": "177", "name": "Natu", "types": ["Psychic", "Flying"], "levels": "22-25", "rates": "50% Radar (Route 16)"},
+      {"dex_id": "371", "name": "Klefki", "types": ["Steel", "Fairy"], "levels": "22-25", "rates": "50% Radar (Route 17)"},
+      {"dex_id": "413", "name": "Ferroseed", "types": ["Steel", "Grass"], "levels": "22-25", "rates": "50% Radar (Route 18)"}
+    ]
+  },
+  "navigation_notes": "Equipping the Bicycle is mandatory to enter Route 17 Cycling Road. Awaken and catch Snorlax (Lv. 30) with the Poké Flute at the Route 16 gate."
+}

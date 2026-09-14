@@ -1,0 +1,128 @@
+{
+  "starter": "Squirtle",
+  "name": "Team Squirtle: Torrential Mountain Expedition",
+  "archetype": "Route travel configuration — Electric/Ground speed sweeping, Ice fortress coverage, Intimidate Fighting wallbreaking, and Levitate Ground immunity. No gym duel this chapter.",
+  "gym_duel_core": [1, 2, 3, 4, 5],
+  "gym_duel_rationale": "No gym battle this chapter. Gym duel core retained from Chapter 16 (Clair's 5v5 Rising Badge duel). All six party members train freely across Route 46 and New Bark Town, elevated to Cap 72 in route-travel configuration.",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Blastoise/Fearow",
+      "types": ["Water", "Flying"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 72,
+      "ability": "Torrent",
+      "held_item": "Mystic Water",
+      "role": "Starter Anchor & Aerial Water Sweeper",
+      "current_reached_moveset": [
+        "Hydro Pump",
+        "Drill Peck",
+        "Roost",
+        "Protect"
+      ],
+      "progression_notes": "486 BST starter hybrid elevated to Cap 72. Hydro Pump devastates Route 46's Graveler and Donphan. Drill Peck provides Flying STAB. Roost sustains across long route traversal."
+    },
+    {
+      "slot": 2,
+      "species": "Jolteon/Sandslash",
+      "types": ["Electric", "Ground"],
+      "status": "Active in Party (Retained from Ch 16)",
+      "current_level": 71,
+      "ability": "Volt Absorb",
+      "held_item": "Magnet",
+      "role": "Electric/Ground Speed Cannon",
+      "current_reached_moveset": [
+        "Discharge",
+        "Earthquake",
+        "Pin Missile",
+        "Swords Dance"
+      ],
+      "progression_notes": "486 BST speed sweeper. Earthquake crushes Route 46's Graveler. Discharge fries aerial Fearow and Gligar. Volt Absorb provides Electric immunity."
+    },
+    {
+      "slot": 3,
+      "species": "Lapras",
+      "types": ["Water", "Ice"],
+      "status": "Active in Party (Retained from Ch 16)",
+      "current_level": 71,
+      "ability": "Water Absorb",
+      "held_item": "Never-Melt Ice",
+      "role": "Ice Coverage & Special Wall",
+      "current_reached_moveset": [
+        "Ice Beam",
+        "Hydro Pump",
+        "Confuse Ray",
+        "Body Slam"
+      ],
+      "progression_notes": "535 BST Water/Ice fortress elevated to Lv. 71. Ice Beam and Hydro Pump provide devastating dual STAB against Route 46's Ground-type dominance."
+    },
+    {
+      "slot": 4,
+      "species": "Arbok/Primeape",
+      "types": ["Poison", "Fighting"],
+      "status": "Active in Party (Retained from Ch 16)",
+      "current_level": 71,
+      "ability": "Intimidate",
+      "held_item": "Black Belt",
+      "role": "Intimidate Fighting Wallbreaker",
+      "current_reached_moveset": [
+        "Close Combat",
+        "Gunk Shot",
+        "Cross Chop",
+        "Glare"
+      ],
+      "progression_notes": "479 BST Intimidate bruiser. Glare paralyzes the static Slaking for safe capture. Close Combat breaks Rock/Ground types. Intimidate weakens physical threats on switch-in."
+    },
+    {
+      "slot": 5,
+      "species": "Alakazam/Weezing",
+      "types": ["Psychic", "Poison"],
+      "status": "Active in Party (Retained from Ch 16)",
+      "current_level": 71,
+      "ability": "Levitate",
+      "held_item": "Twisted Spoon",
+      "role": "Levitate Ground-Immune Sweeper",
+      "current_reached_moveset": [
+        "Psychic",
+        "Sludge Bomb",
+        "Recover",
+        "Calm Mind"
+      ],
+      "progression_notes": "495 BST Levitate pivot with 118 SpA. Completely immune to Earthquake and Magnitude via Levitate — the ultimate answer to Route 46's Ground-dominated encounter table."
+    },
+    {
+      "slot": 6,
+      "species": "Snorlax",
+      "types": ["Normal"],
+      "status": "Active in Party (Full Roster Travel)",
+      "current_level": 71,
+      "ability": "Thick Fat",
+      "held_item": "Leftovers",
+      "role": "Route Travel Tank & Sustained Sponge",
+      "current_reached_moveset": [
+        "Body Slam",
+        "Rest",
+        "Sleep Talk",
+        "Crunch"
+      ],
+      "progression_notes": "Colossal 160 HP tank. No gym duel restriction this chapter — full 6-member route travel. RestTalk loop provides infinite sustain."
+    }
+  ],
+  "flex_bench": [
+    {
+      "species": "Venusaur",
+      "role": "Chlorophyll Sleep Tank",
+      "rationale": "High-durability Grass/Poison tank packing Leech Seed and Sleep Powder for status control against wild encounters."
+    },
+    {
+      "species": "Gyarados",
+      "role": "Dragon Dance Water Pivot",
+      "rationale": "Intimidate physical pivot and Dragon Dance sweeper with Aqua Tail for Water STAB coverage."
+    },
+    {
+      "species": "Hitmontop",
+      "role": "Technician Rapid Spinner",
+      "rationale": "Technician-boosted Triple Kick and Rapid Spin for tactical versatility across route encounters."
+    }
+  ]
+}

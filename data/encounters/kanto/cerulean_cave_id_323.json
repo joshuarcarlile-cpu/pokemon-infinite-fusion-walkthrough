@@ -1,0 +1,161 @@
+{
+  "location": "Cerulean Cave (ID 323)",
+  "sections": {
+    "Cave": [
+      {
+        "dex_id": "040",
+        "name": "Wigglytuff",
+        "type1": "Normal",
+        "type2": "Fairy",
+        "levels": "54",
+        "catch_rate": "50",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "042",
+        "name": "Golbat",
+        "type1": "Poison",
+        "type2": "Flying",
+        "levels": "58-59",
+        "catch_rate": "90",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "047",
+        "name": "Parasect",
+        "type1": "Bug",
+        "type2": "Grass",
+        "levels": "51-52",
+        "catch_rate": "75",
+        "rates": [
+          "4%"
+        ]
+      },
+      {
+        "dex_id": "049",
+        "name": "Venomoth",
+        "type1": "Bug",
+        "type2": "Poison",
+        "levels": "51",
+        "catch_rate": "75",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "053",
+        "name": "Persian",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "58-59",
+        "catch_rate": "90",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "064",
+        "name": "Kadabra",
+        "type1": "Psychic",
+        "type2": "",
+        "levels": "51",
+        "catch_rate": "100",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "065",
+        "name": "Alakazam",
+        "type1": "Psychic",
+        "type2": "",
+        "levels": "55",
+        "catch_rate": "50",
+        "rates": [
+          "1%"
+        ]
+      },
+      {
+        "dex_id": "067",
+        "name": "Machoke",
+        "type1": "Fighting",
+        "type2": "",
+        "levels": "59",
+        "catch_rate": "90",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "085",
+        "name": "Dodrio",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "51",
+        "catch_rate": "45",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "101",
+        "name": "Electrode",
+        "type1": "Electric",
+        "type2": "",
+        "levels": "52",
+        "catch_rate": "60",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "105",
+        "name": "Marowak",
+        "type1": "Ground",
+        "type2": "",
+        "levels": "52",
+        "catch_rate": "75",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "112",
+        "name": "Rhydon",
+        "type1": "Ground",
+        "type2": "Rock",
+        "levels": "52",
+        "catch_rate": "60",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "113",
+        "name": "Chansey",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "56",
+        "catch_rate": "30",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "132",
+        "name": "Ditto",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "55-60",
+        "catch_rate": "35",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

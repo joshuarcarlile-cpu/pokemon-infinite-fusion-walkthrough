@@ -1,0 +1,37 @@
+{
+  "title": "Route_16",
+  "url": "https://infinitefusion.fandom.com/wiki/Route_16",
+  "lead_summary": "Route 16 is a route that connects Celadon City to Route 17, as well as allows the player to access the Hidden Forest.\nThere is also a slumbering Snorlax blocking access to Route 17.",
+  "missable_warnings": [],
+  "items": [
+    {
+      "internal_id": "SUPERREPEL",
+      "quantity": "",
+      "name": "Super Repel",
+      "location_details": "By the large patch of grass."
+    },
+    {
+      "internal_id": "LEPPABERRY",
+      "quantity": "",
+      "name": "Leppa Berry",
+      "location_details": "Hidden in the house's trash can."
+    },
+    {
+      "internal_id": "machine_FLYING",
+      "quantity": "",
+      "name": "HM02 Fly",
+      "location_details": "Given to the player by the old man."
+    },
+    {
+      "internal_id": "CASTELIACONE",
+      "quantity": "5 or x10",
+      "name": "Casteliacone",
+      "location_details": "Given by Bianca in the upper floor of the gate to Route 17. If the player is wearing Bianca's hat she will give 10, otherwise she gives 5."
+    }
+  ],
+  "sections": [
+    "Items",
+    "Pokémon"
+  ],
+  "raw_wikitext": "{{GlobalToggles}}\n{{InfoboxLocation\n|region=Kanto\n|location_image=Route16.png\n|map_image=Route_16_Map.png\n|connection_1_direction=east\n|connection_1_location=Celadon City\n|connection_2_direction=southwest\n|connection_2_location=Route 17\n|connection_2_restrictions=%pokeflute% and %bicycle%\n|connection_3_direction=northwest\n|connection_3_location=Hidden Forest\n|connection_3_restrictions=%cut%\n|number=16\n}}'''Route 16''' is a route that connects [[Celadon City]] to [[Route 17]], as well as allows the player to access the [[Hidden Forest]].\nThere is also a slumbering Snorlax blocking access to Route 17.\n\n==Items==\n{{ItemTable/Header}}\n{{ItemTable/Data|SUPERREPEL||Super Repel|By the large patch of grass.|SuperRepel_Route16.png}}\n{{ItemTable/Data|LEPPABERRY||Leppa Berry|Hidden in the house's trash can.|LeppaBerry_Route16.png}}\n{{ItemTable/Data|machine_FLYING||HM02 Fly|Given to the player by the old man.|HM02_Route16.png}}\n{{ItemTable/Data|CASTELIACONE|5 or x10|Casteliacone|Given by Bianca in the upper floor of the gate to Route 17. If the player is wearing Bianca's hat she will give 10, otherwise she gives 5.|Casteliacone_Route16.png}}\n{{ItemTable/Footer}}\n\n==Pokémon==\n<!-----------------------------------!>\n<!-- CLASSIC & EXPERT MODE POKÉMON --!>\n<!------------------------------------>\n<div class=\"classic-mode expert-mode\">\n{{EncounterTable/Header/Time}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|019|Rattata|Normal||18-22|255|25%|25%|30%}}\n{{EncounterTable/Data|020|Raticate|Normal||23-25|127|5%}}\n{{EncounterTable/Data|021|Spearow|Normal|Flying|20-22|255|30%|30%|-}}\n{{EncounterTable/Data|041|Zubat|Poison|Flying|20-22|255|-|-|30%}}\n{{EncounterTable/Data|052|Meowth|Normal||18-22|255|-|-|20%}}\n{{EncounterTable/Data|053|Persian|Normal||23-25|90|-|-|5%}}\n{{EncounterTable/Data|084|Doduo|Normal|Flying|18-22|190|35%|35%|-}}\n{{EncounterTable/Data|198|Murkrow|Dark|Flying|22-24|30|-|-|10%}}\n{{EncounterTable/Data|218|Slugma|Fire||26|190|5%|5%|-}}\n{{EncounterTable/Section|Poké Radar}}\n{{EncounterTable/Data|177|Natu|Psychic|Flying|22-25|190|50% <small>([[Poké Radar#How_it_works|long rustle]])</small>}}\n{{EncounterTable/Section|Static}}\n{{EncounterTable/Data|143|Snorlax|Normal||30|25|One}}\n{{EncounterTable/Footer/Time}}\n</div>\n<!------------------------!>\n<!-- REMIX MODE POKÉMON --!>\n<!------------------------->\n<div class=\"remix-mode\">\n{{EncounterTable/Header/Time}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|058|Growlithe|Fire||18-22|190|25%|25%|-}}\n{{EncounterTable/Data|066|Machop|Fighting||23-25|180|-|-|20%}}\n{{EncounterTable/Data|077|Ponyta|Fire||18-22|190|20%|20%|-}}\n{{EncounterTable/Data|096|Drowzee|Psychic||<abbr title{{=}}\"Morning: 26&#10;Day: 26&#10;Night: 23-25\">23-26</abbr>|190|5%}}\n{{EncounterTable/Data|155|Cyndaquil|Fire||17-21|45|1%}}\n{{EncounterTable/Data|198|Murkrow|Dark|Flying|22-24|30|-|-|10%}}\n{{EncounterTable/Data|327|Honedge|Steel|Ghost|20-22|222|19%|19%|25%}}\n{{EncounterTable/Data|423|Whirlipede|Bug|Poison|20-22|120|20%|20%|-}}\n{{EncounterTable/Data|427|Snorunt|Ice||18-22|190|-|-|30%}}\n{{EncounterTable/Data|428|Glalie|Ice||23-24|75|-|-|9%}}\n{{EncounterTable/Data|451|Stufful|Normal|Fighting|23-25|140|10%|10%|-}}\n{{EncounterTable/Section|Poké Radar}}\n{{EncounterTable/Data|177|Natu|Psychic|Flying|22-25|190|50% <small>([[Poké Radar#How_it_works|long rustle]])</small>}}\n{{EncounterTable/Section|Static}}\n{{EncounterTable/Data|143|Snorlax|Normal||30|25|One}}\n{{EncounterTable/Footer/Time}}\n</div>\n[[Category:Locations]]\n[[Category:Kanto]]"
+}

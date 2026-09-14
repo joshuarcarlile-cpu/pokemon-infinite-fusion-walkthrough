@@ -1,0 +1,680 @@
+[
+  {
+    "pokemon": "Fomantis",
+    "location": "Route 2 (Before the Forest)",
+    "level": "10",
+    "notes": "Interact with the pink flower during the Oricorio quest started in Pewter City. (only one)"
+  },
+  {
+    "pokemon": "Anywhere",
+    "location": "Expand Random chance (based on step count) when interacting with a flower Collapse The game keeps track of the total steps taken. If the player interacts with a flower when the steps are divisible by 25, the player will receive the Fairy Flower hat or encounter a Fomantis with 50% chance of each. If the player already has the Fairy Flower hat then the Fomantis encounter is guaranteed. Afterwards the total steps counter will increase by 1 so the encounter can't be instantly repeated.",
+    "level": "10",
+    "notes": ""
+  },
+  {
+    "pokemon": "Spinarak",
+    "location": "Viridian Forest",
+    "level": "4",
+    "notes": "Interact with Spider Webs, Respawns daily"
+  },
+  {
+    "pokemon": "Ariados",
+    "location": "10",
+    "level": "4",
+    "notes": ""
+  },
+  {
+    "pokemon": "Paras",
+    "location": "Viridian Forest",
+    "level": "4",
+    "notes": "Interact with Mushrooms, Respawns daily"
+  },
+  {
+    "pokemon": "Beedrill",
+    "location": "Viridian Forest",
+    "level": "20",
+    "notes": "Quest Encounter"
+  },
+  {
+    "pokemon": "Gloom/Ekans",
+    "location": "Celadon City",
+    "level": "20",
+    "notes": "Random trashcan pokemon, only one is possible"
+  },
+  {
+    "pokemon": "Diglett/Ditto",
+    "location": "Celadon City",
+    "level": "20",
+    "notes": "Random trashcan pokemon, only one is possible"
+  },
+  {
+    "pokemon": "Chikorita",
+    "location": "Viridian River",
+    "level": "5-15",
+    "notes": "Respawns indefinitely"
+  },
+  {
+    "pokemon": "Bulbasaur",
+    "location": "Viridian River",
+    "level": "5-15",
+    "notes": "Respawns indefinitely"
+  },
+  {
+    "pokemon": "Treecko",
+    "location": "Viridian River",
+    "level": "5-15",
+    "notes": "Respawns indefinitely"
+  },
+  {
+    "pokemon": "Turtwig",
+    "location": "Viridian River",
+    "level": "5-15",
+    "notes": "Respawns indefinitely"
+  },
+  {
+    "pokemon": "Cyndaquil",
+    "location": "Viridian River",
+    "level": "5-15",
+    "notes": "Respawns indefinitely"
+  },
+  {
+    "pokemon": "Charmander",
+    "location": "Viridian River",
+    "level": "5-15",
+    "notes": "Respawns indefinitely"
+  },
+  {
+    "pokemon": "Torchic",
+    "location": "Viridian River",
+    "level": "5-15",
+    "notes": "Respawns indefinitely"
+  },
+  {
+    "pokemon": "Chimchar",
+    "location": "Viridian River",
+    "level": "5-15",
+    "notes": "Respawns indefinitely"
+  },
+  {
+    "pokemon": "Totodile",
+    "location": "Viridian River",
+    "level": "5-15",
+    "notes": "Respawns indefinitely"
+  },
+  {
+    "pokemon": "Squirtle",
+    "location": "Viridian River",
+    "level": "5-15",
+    "notes": "Respawns indefinitely"
+  },
+  {
+    "pokemon": "Mudkip",
+    "location": "Viridian River",
+    "level": "5-15",
+    "notes": "Respawns indefinitely"
+  },
+  {
+    "pokemon": "Piplup",
+    "location": "Viridian River",
+    "level": "5-15",
+    "notes": "Respawns indefinitely"
+  },
+  {
+    "pokemon": "Chespin",
+    "location": "Viridian River",
+    "level": "5-15",
+    "notes": "Respawns indefinitely"
+  },
+  {
+    "pokemon": "Fennekin",
+    "location": "Viridian River",
+    "level": "5-15",
+    "notes": "Respawns indefinitely"
+  },
+  {
+    "pokemon": "Froakie",
+    "location": "Viridian River",
+    "level": "5-15",
+    "notes": "Respawns indefinitely"
+  },
+  {
+    "pokemon": "Wimpod",
+    "location": "Cerulean Team Rocket HQ",
+    "level": "16",
+    "notes": "Quest encounter"
+  },
+  {
+    "pokemon": "15",
+    "location": "Interact with second pipe in the basement, after defeating or completing second Team Rocket mission, Respawns daily",
+    "level": "16",
+    "notes": ""
+  },
+  {
+    "pokemon": "Lotad",
+    "location": "Route 6",
+    "level": "14-22",
+    "notes": "Surf/walk over the lilypads"
+  },
+  {
+    "pokemon": "Route 14",
+    "location": "Route 6",
+    "level": "14-22",
+    "notes": "Surf/walk over the lilypads"
+  },
+  {
+    "pokemon": "Route 25",
+    "location": "11-14",
+    "level": "14-22",
+    "notes": ""
+  },
+  {
+    "pokemon": "Lombre",
+    "location": "Safari Zone (Area 1)",
+    "level": "14-22",
+    "notes": "20-30"
+  },
+  {
+    "pokemon": "Safari Zone (Area 2)",
+    "location": "Safari Zone (Area 1)",
+    "level": "14-22",
+    "notes": "Surf/walk over the lilypads"
+  },
+  {
+    "pokemon": "Safari Zone (Area 3)",
+    "location": "Safari Zone (Area 1)",
+    "level": "14-22",
+    "notes": "Surf/walk over the lilypads"
+  },
+  {
+    "pokemon": "Safari Zone (Area 4)",
+    "location": "Safari Zone (Area 1)",
+    "level": "14-22",
+    "notes": "Surf/walk over the lilypads"
+  },
+  {
+    "pokemon": "Snorlax",
+    "location": "Route 12",
+    "level": "30",
+    "notes": "Game Progression: Requires Pokéflute from Pokémon Tower"
+  },
+  {
+    "pokemon": "Route 16",
+    "location": "Route 12",
+    "level": "30",
+    "notes": "Game Progression: Requires Pokéflute from Pokémon Tower"
+  },
+  {
+    "pokemon": "Grimer",
+    "location": "Route 17",
+    "level": "30",
+    "notes": "Quest Encounter"
+  },
+  {
+    "pokemon": "Muk",
+    "location": "40",
+    "level": "30",
+    "notes": ""
+  },
+  {
+    "pokemon": "Pumpkaboo",
+    "location": "Route 18",
+    "level": "17-27",
+    "notes": "Interact with Pumpkins at night, Respawns daily"
+  },
+  {
+    "pokemon": "Mimikyu",
+    "location": "Creepy House",
+    "level": "35",
+    "notes": ""
+  },
+  {
+    "pokemon": "Banette",
+    "location": "Creepy House",
+    "level": "35",
+    "notes": ""
+  },
+  {
+    "pokemon": "Scolipede",
+    "location": "Safari Zone (Area 3)",
+    "level": "65",
+    "notes": "Never respawns"
+  },
+  {
+    "pokemon": "Diglett",
+    "location": "Safari Zone (Area 5)",
+    "level": "22",
+    "notes": "Respawns in 1 hour"
+  },
+  {
+    "pokemon": "Sandile",
+    "location": "23",
+    "level": "22",
+    "notes": ""
+  },
+  {
+    "pokemon": "Trapinch",
+    "location": "24",
+    "level": "22",
+    "notes": ""
+  },
+  {
+    "pokemon": "Cofagrigus",
+    "location": "Safari Zone Temple",
+    "level": "35",
+    "notes": "Respawns in 4 hours"
+  },
+  {
+    "pokemon": "Golett",
+    "location": "32",
+    "level": "35",
+    "notes": ""
+  },
+  {
+    "pokemon": "Volcarona",
+    "location": "45",
+    "level": "35",
+    "notes": "Respawns daily"
+  },
+  {
+    "pokemon": "Kecleon",
+    "location": "Saffron City",
+    "level": "40",
+    "notes": "Quest Encounter"
+  },
+  {
+    "pokemon": "Stufful",
+    "location": "Saffron City",
+    "level": "35",
+    "notes": ""
+  },
+  {
+    "pokemon": "Minior",
+    "location": "Mt. Moon Summit",
+    "level": "17-27",
+    "notes": "Look through the telescope at the Observatory and wait until a sound effect plays when a shooting star goes past. Talk to the female scientist and then interact with the crashed meteor outside."
+  },
+  {
+    "pokemon": "Absol",
+    "location": "Cinnabar Island",
+    "level": "35",
+    "notes": ""
+  },
+  {
+    "pokemon": "Magmar",
+    "location": "Pokémon Mansion",
+    "level": "40",
+    "notes": ""
+  },
+  {
+    "pokemon": "Jynx",
+    "location": "Seafoam Islands",
+    "level": "40",
+    "notes": ""
+  },
+  {
+    "pokemon": "Mawile",
+    "location": "Crimson City",
+    "level": "45",
+    "notes": ""
+  },
+  {
+    "pokemon": "Sableye",
+    "location": "Crimson City",
+    "level": "45",
+    "notes": ""
+  },
+  {
+    "pokemon": "Voltorb",
+    "location": "Power Plant",
+    "level": "15-35",
+    "notes": "Disguised as Pokéballs"
+  },
+  {
+    "pokemon": "Electrode",
+    "location": "35",
+    "level": "15-35",
+    "notes": ""
+  },
+  {
+    "pokemon": "Electrode/Voltorb",
+    "location": "35",
+    "level": "15-35",
+    "notes": "Disguised as Pokéballs"
+  },
+  {
+    "pokemon": "Raichu/Electrode",
+    "location": "40",
+    "level": "15-35",
+    "notes": ""
+  },
+  {
+    "pokemon": "Electabuzz",
+    "location": "40",
+    "level": "15-35",
+    "notes": ""
+  },
+  {
+    "pokemon": "Cool Dino",
+    "location": "Goldenrod City",
+    "level": "50",
+    "notes": "Can't be caught, special easter egg"
+  },
+  {
+    "pokemon": "Rotom",
+    "location": "Saffron City (House beside Silph Co. Building, after beating Team Rocket, only at night)",
+    "level": "45",
+    "notes": "Respawned by defeating the Pokemon Champion a 2nd time (only if Rotom was not caught)."
+  },
+  {
+    "pokemon": "Goldenrod City (House to right of the hotel, after beating the Elite Four, only at night)",
+    "location": "Respawned by defeating the Pokemon Champion a 2nd time (only if Rotom was not caught), or by defeating Gold on Mt. Silver.",
+    "level": "45",
+    "notes": ""
+  },
+  {
+    "pokemon": "Celadon City (First house when entering from Route 7. Door on the south side that only appears at night, after beating the Elite Four",
+    "location": "Respawned by defeating the Pokemon Champion a 2nd time (only if Rotom was not caught).",
+    "level": "45",
+    "notes": ""
+  },
+  {
+    "pokemon": "Spiritomb",
+    "location": "Odd Keystone",
+    "level": "27",
+    "notes": "Fill the Odd Keystone up at Route 36"
+  },
+  {
+    "pokemon": "Shedinja",
+    "location": "Ilex Forest",
+    "level": "45",
+    "notes": ""
+  },
+  {
+    "pokemon": "Lapras",
+    "location": "Union Cave",
+    "level": "45",
+    "notes": ""
+  },
+  {
+    "pokemon": "Pineco",
+    "location": "Route 30",
+    "level": "40",
+    "notes": "Quest Encounter"
+  },
+  {
+    "pokemon": "Route 31",
+    "location": "Route 30",
+    "level": "40",
+    "notes": "Quest Encounter"
+  },
+  {
+    "pokemon": "Slaking",
+    "location": "Route 46",
+    "level": "45",
+    "notes": ""
+  },
+  {
+    "pokemon": "Froslass",
+    "location": "Ice Cavern",
+    "level": "55",
+    "notes": ""
+  },
+  {
+    "pokemon": "Mawile",
+    "location": "Mt. Mortar",
+    "level": "30-55",
+    "notes": "Random chance of the 20 possible encounters, Respawns every 7 days"
+  },
+  {
+    "pokemon": "Absol",
+    "location": "Mt. Mortar",
+    "level": "30-55",
+    "notes": "Random chance of the 20 possible encounters, Respawns every 7 days"
+  },
+  {
+    "pokemon": "Luxray",
+    "location": "Mt. Mortar",
+    "level": "30-55",
+    "notes": "Random chance of the 20 possible encounters, Respawns every 7 days"
+  },
+  {
+    "pokemon": "Azumarill",
+    "location": "Mt. Mortar",
+    "level": "30-55",
+    "notes": "Random chance of the 20 possible encounters, Respawns every 7 days"
+  },
+  {
+    "pokemon": "Machoke",
+    "location": "Mt. Mortar",
+    "level": "30-55",
+    "notes": "Random chance of the 20 possible encounters, Respawns every 7 days"
+  },
+  {
+    "pokemon": "Graveler",
+    "location": "Mt. Mortar",
+    "level": "30-55",
+    "notes": "Random chance of the 20 possible encounters, Respawns every 7 days"
+  },
+  {
+    "pokemon": "Raticate",
+    "location": "Mt. Mortar",
+    "level": "30-55",
+    "notes": "Random chance of the 20 possible encounters, Respawns every 7 days"
+  },
+  {
+    "pokemon": "Tyrogue",
+    "location": "Mt. Mortar",
+    "level": "30-55",
+    "notes": "Random chance of the 20 possible encounters, Respawns every 7 days"
+  },
+  {
+    "pokemon": "Golbat",
+    "location": "Mt. Mortar",
+    "level": "30-55",
+    "notes": "Random chance of the 20 possible encounters, Respawns every 7 days"
+  },
+  {
+    "pokemon": "Crobat",
+    "location": "Mt. Mortar",
+    "level": "30-55",
+    "notes": "Random chance of the 20 possible encounters, Respawns every 7 days"
+  },
+  {
+    "pokemon": "Onix",
+    "location": "Mt. Mortar",
+    "level": "30-55",
+    "notes": "Random chance of the 20 possible encounters, Respawns every 7 days"
+  },
+  {
+    "pokemon": "Nosepass",
+    "location": "Mt. Mortar",
+    "level": "30-55",
+    "notes": "Random chance of the 20 possible encounters, Respawns every 7 days"
+  },
+  {
+    "pokemon": "Marowak",
+    "location": "Mt. Mortar",
+    "level": "30-55",
+    "notes": "Random chance of the 20 possible encounters, Respawns every 7 days"
+  },
+  {
+    "pokemon": "Ursaring",
+    "location": "Mt. Mortar",
+    "level": "30-55",
+    "notes": "Random chance of the 20 possible encounters, Respawns every 7 days"
+  },
+  {
+    "pokemon": "Aggron",
+    "location": "Mt. Mortar",
+    "level": "30-55",
+    "notes": "Random chance of the 20 possible encounters, Respawns every 7 days"
+  },
+  {
+    "pokemon": "Slowbro",
+    "location": "Mt. Mortar",
+    "level": "30-55",
+    "notes": "Random chance of the 20 possible encounters, Respawns every 7 days"
+  },
+  {
+    "pokemon": "Metang",
+    "location": "Mt. Mortar",
+    "level": "30-55",
+    "notes": "Random chance of the 20 possible encounters, Respawns every 7 days"
+  },
+  {
+    "pokemon": "Lucario",
+    "location": "Mt. Mortar",
+    "level": "30-55",
+    "notes": "Random chance of the 20 possible encounters, Respawns every 7 days"
+  },
+  {
+    "pokemon": "Quagsire",
+    "location": "Mt. Mortar",
+    "level": "30-55",
+    "notes": "Random chance of the 20 possible encounters, Respawns every 7 days"
+  },
+  {
+    "pokemon": "Wobbuffet",
+    "location": "Mt. Mortar",
+    "level": "30-55",
+    "notes": "Random chance of the 20 possible encounters, Respawns every 7 days"
+  },
+  {
+    "pokemon": "Sudowoodo",
+    "location": "Route 36",
+    "level": "60",
+    "notes": "Game Progression: Requires Squirtbottle from Ecruteak City"
+  },
+  {
+    "pokemon": "Magikarp/Gyarados",
+    "location": "Lake of Rage",
+    "level": "40",
+    "notes": ""
+  },
+  {
+    "pokemon": "Feebas",
+    "location": "Sevii Islands",
+    "level": "15",
+    "notes": "Fishing in the Rain"
+  },
+  {
+    "pokemon": "Pyukumuku",
+    "location": "Treasure Beach",
+    "level": "25-35",
+    "notes": "Only when it rains at Treasure Beach"
+  },
+  {
+    "pokemon": "Magcargo",
+    "location": "Ruby Chamber",
+    "level": "55",
+    "notes": "Respawns in 1 hour"
+  },
+  {
+    "pokemon": "Slugma",
+    "location": "35",
+    "level": "55",
+    "notes": ""
+  },
+  {
+    "pokemon": "Mantine",
+    "location": "Deep Sea",
+    "level": "50",
+    "notes": "Respawns in 1 hour"
+  },
+  {
+    "pokemon": "Seaking",
+    "location": "45",
+    "level": "50",
+    "notes": ""
+  },
+  {
+    "pokemon": "Cloyster",
+    "location": "55",
+    "level": "50",
+    "notes": ""
+  },
+  {
+    "pokemon": "Seadra",
+    "location": "45",
+    "level": "50",
+    "notes": ""
+  },
+  {
+    "pokemon": "Lanturn",
+    "location": "45",
+    "level": "50",
+    "notes": ""
+  },
+  {
+    "pokemon": "Gyarados",
+    "location": "55-65",
+    "level": "50",
+    "notes": ""
+  },
+  {
+    "pokemon": "Chinchou",
+    "location": "25",
+    "level": "50",
+    "notes": ""
+  },
+  {
+    "pokemon": "Pidgeot/Pidgeot",
+    "location": "Navel Rock",
+    "level": "50",
+    "notes": ""
+  },
+  {
+    "pokemon": "Pidgeotto",
+    "location": "35",
+    "level": "50",
+    "notes": ""
+  },
+  {
+    "pokemon": "Fearow",
+    "location": "40",
+    "level": "50",
+    "notes": ""
+  },
+  {
+    "pokemon": "Spearow",
+    "location": "35",
+    "level": "50",
+    "notes": ""
+  },
+  {
+    "pokemon": "Dhelmise",
+    "location": "Old Shipwreck",
+    "level": "50",
+    "notes": ""
+  },
+  {
+    "pokemon": "Zoroark",
+    "location": "Berry Forest",
+    "level": "55",
+    "notes": "Game Progression"
+  },
+  {
+    "pokemon": "Klinklang",
+    "location": "Rocket Warehouse",
+    "level": "55",
+    "notes": ""
+  },
+  {
+    "pokemon": "Geodude",
+    "location": "Rock Smash",
+    "level": "5-15",
+    "notes": "Default Rock Smash encounter"
+  },
+  {
+    "pokemon": "Trubbish",
+    "location": "Trashcans",
+    "level": "10",
+    "notes": "Expand Random chance (based on step count) when interacting with a trashcan Collapse The game keeps track of the total steps taken. If the player interacts with a trashcan when the steps are divisible by 25, the player will receive the Cardboard Box hat or encounter a Trubbish with 50% chance of each. If the player already has the Cardboard Box hat then the Trubbish encounter is guaranteed. Afterwards the total steps counter will increase by 1 so the encounter can't be instantly repeated."
+  },
+  {
+    "pokemon": "Sandygast",
+    "location": "Destroying Sandcastles",
+    "level": "20",
+    "notes": "16.66% encounter chance per sandcastle, Respawns daily |} * Most static Pokémon never respawn unless specified otherwise. Category:Game Content"
+  }
+]

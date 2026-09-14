@@ -1,0 +1,63 @@
+{
+  "name": "Mt. Moon (B2F)",
+  "summary": "The subterranean depths of Mt. Moon where Team Rocket operatives are pillaging ancient fossils. Defeat the grunts, battle Super Nerd Miguel, and claim your prehistoric fossil of choice.",
+  "items": [
+    {
+      "name": "Moon Stone",
+      "method": "Hidden in the rock wall by the fossil pedestal",
+      "type": "Consumable"
+    },
+    {
+      "name": "Dome Fossil / Helix Fossil",
+      "method": "Choose one from the pedestal after defeating Super Nerd Miguel",
+      "type": "Key Item"
+    },
+    {
+      "name": "Revive",
+      "method": "Near the northern Team Rocket patrol corridor",
+      "type": "Consumable"
+    },
+    {
+      "name": "Antidote",
+      "method": "In the small eastern nook before the exit ladder",
+      "type": "Consumable"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Team Rocket Grunt (North)",
+      "team": [
+        {"species": "Sandshrew", "level": 11},
+        {"species": "Rattata", "level": 11}
+      ],
+      "reward": "352 Pokedollars"
+    },
+    {
+      "name": "Team Rocket Grunt (South)",
+      "team": [
+        {"species": "Zubat", "level": 11},
+        {"species": "Ekans", "level": 11}
+      ],
+      "reward": "352 Pokedollars"
+    },
+    {
+      "name": "Super Nerd Miguel",
+      "team": [
+        {"species": "Grimer", "level": 12},
+        {"species": "Voltorb", "level": 12},
+        {"species": "Koffing", "level": 12}
+      ],
+      "reward": "288 Pokedollars"
+    }
+  ],
+  "encounters": {
+    "Cave": [
+      {"dex_id": "027", "name": "Sandshrew", "types": ["Ground"], "levels": "11-12", "rates": "10% All Times"},
+      {"dex_id": "041", "name": "Zubat", "types": ["Poison", "Flying"], "levels": "9-13", "rates": "50% All Times"},
+      {"dex_id": "046", "name": "Paras", "types": ["Bug", "Grass"], "levels": "11-13", "rates": "15% All Times"},
+      {"dex_id": "074", "name": "Geodude", "types": ["Rock", "Ground"], "levels": "10-12", "rates": "20% All Times"},
+      {"dex_id": "035", "name": "Clefairy", "types": ["Fairy"], "levels": "11-13", "rates": "5% All Times"}
+    ]
+  },
+  "navigation_notes": "Fossil Selection: Dome Fossil revives into Kabuto (physical Rock/Water), while Helix Fossil revives into Omanyte (special Rock/Water tank). Both can be resurrected on Cinnabar Island."
+}

@@ -1,0 +1,98 @@
+{
+  "name": "Oak's Anomaly Briefing & Route 26 Gateway",
+  "summary": "With all 16 Badges collected across Kanto, Johto, and the Sevii Islands, return to Pallet Town to present your accomplishments to Professor Oak. Cynthia and Blue meet you in the research lab to share dire news: satellite telemetry indicates a massive Spacetime Anomaly warping the summit of Mt. Silver. Oak authorizes your mission and unlocks the gatehouse on Route 26, west of Victory Road. Stock up on supplies at the Indigo Plateau or Saffron Mart and travel west through the stone gate to reach Mt. Silver Base. Explore the lush foothills where herds of wild Rapidash, Dodrio, Ursaring, Donphan, and rare Larvitar roam.",
+  "items": [
+    {
+      "name": "Max Repel",
+      "method": "Hidden behind a rocky stalagmite just before exiting into the western grass field",
+      "type": "Consumable"
+    },
+    {
+      "name": "Rare Candy",
+      "method": "Found inside the small optional cave alcove off the grass field",
+      "type": "Consumable"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Ace Trainer Brennan",
+      "title": "Cooltrainer",
+      "reward": "P3,648",
+      "pokemon": [
+        {
+          "species": "Rapidash/Tauros",
+          "level": 62,
+          "types": ["Fire", "Normal"]
+        },
+        {
+          "species": "Steelix/Donphan",
+          "level": 63,
+          "types": ["Steel", "Ground"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Grass": [
+      {
+        "species": "Rapidash",
+        "levels": "54",
+        "rate": "20%"
+      },
+      {
+        "species": "Dodrio",
+        "levels": "53",
+        "rate": "20%"
+      },
+      {
+        "species": "Steelix",
+        "levels": "53",
+        "rate": "10%"
+      },
+      {
+        "species": "Ursaring",
+        "levels": "55",
+        "rate": "20%"
+      },
+      {
+        "species": "Donphan",
+        "levels": "55",
+        "rate": "20%"
+      },
+      {
+        "species": "Larvitar",
+        "levels": "20",
+        "rate": "10%"
+      }
+    ],
+    "Surf": [
+      {
+        "species": "Poliwhirl",
+        "levels": "50-55",
+        "rate": "90%"
+      },
+      {
+        "species": "Poliwrath",
+        "levels": "55",
+        "rate": "10%"
+      }
+    ],
+    "Super Rod": [
+      {
+        "species": "Poliwrath",
+        "levels": "50",
+        "rate": "40%"
+      },
+      {
+        "species": "Politoed",
+        "levels": "50",
+        "rate": "40%"
+      },
+      {
+        "species": "Magikarp",
+        "levels": "40",
+        "rate": "20%"
+      }
+    ]
+  }
+}

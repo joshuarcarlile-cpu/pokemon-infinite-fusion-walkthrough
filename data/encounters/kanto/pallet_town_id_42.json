@@ -1,0 +1,235 @@
+{
+  "location": "Pallet Town (ID 42)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "001",
+        "name": "Bulbasaur",
+        "type1": "Grass",
+        "type2": "Poison",
+        "levels": "5",
+        "catch_rate": "45",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "002",
+        "name": "Ivysaur",
+        "type1": "Grass",
+        "type2": "Poison",
+        "levels": "10",
+        "catch_rate": "45",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "003",
+        "name": "Venusaur",
+        "type1": "Grass",
+        "type2": "Poison",
+        "levels": "15",
+        "catch_rate": "45",
+        "rates": [
+          "3%"
+        ]
+      },
+      {
+        "dex_id": "004",
+        "name": "Charmander",
+        "type1": "Fire",
+        "type2": "",
+        "levels": "5",
+        "catch_rate": "45",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "005",
+        "name": "Charmeleon",
+        "type1": "Fire",
+        "type2": "",
+        "levels": "10",
+        "catch_rate": "45",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "006",
+        "name": "Charizard",
+        "type1": "Fire",
+        "type2": "Flying",
+        "levels": "15",
+        "catch_rate": "45",
+        "rates": [
+          "3%"
+        ]
+      },
+      {
+        "dex_id": "007",
+        "name": "Squirtle",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5",
+        "catch_rate": "45",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "008",
+        "name": "Wartortle",
+        "type1": "Water",
+        "type2": "",
+        "levels": "10",
+        "catch_rate": "45",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "009",
+        "name": "Blastoise",
+        "type1": "Water",
+        "type2": "",
+        "levels": "15",
+        "catch_rate": "45",
+        "rates": [
+          "3%"
+        ]
+      },
+      {
+        "dex_id": "151",
+        "name": "Mew",
+        "type1": "Psychic",
+        "type2": "",
+        "levels": "1",
+        "catch_rate": "45",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "dex_id": "060",
+        "name": "Poliwag",
+        "type1": "Water",
+        "type2": "",
+        "levels": "2-3",
+        "catch_rate": "255",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "2-5",
+        "catch_rate": "255",
+        "rates": [
+          "65%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "dex_id": "060",
+        "name": "Poliwag",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5",
+        "catch_rate": "255",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5",
+        "catch_rate": "255",
+        "rates": [
+          "80%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "dex_id": "060",
+        "name": "Poliwag",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-15",
+        "catch_rate": "255",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "dex_id": "118",
+        "name": "Goldeen",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-15",
+        "catch_rate": "225",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "5-15",
+        "catch_rate": "255",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "dex_id": "054",
+        "name": "Psyduck",
+        "type1": "Water",
+        "type2": "",
+        "levels": "15-35",
+        "catch_rate": "190",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "061",
+        "name": "Poliwhirl",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20-30",
+        "catch_rate": "120",
+        "rates": [
+          "70%"
+        ]
+      },
+      {
+        "dex_id": "079",
+        "name": "Slowpoke",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "15-35",
+        "catch_rate": "190",
+        "rates": [
+          "15%"
+        ]
+      }
+    ]
+  }
+}

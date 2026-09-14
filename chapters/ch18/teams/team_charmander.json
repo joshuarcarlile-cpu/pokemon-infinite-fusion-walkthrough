@@ -1,0 +1,128 @@
+{
+  "starter": "Charmander",
+  "name": "Team Charmander: Sevii Pyre Vanguard",
+  "archetype": "Sevii archipelago traversal — Electric/Psychic speed sweeping, Ice fortress coverage, Fighting/Ground wallbreaking, Intimidate pivoting, and Thick Fat sponge.",
+  "gym_duel_core": [1, 2, 3, 4, 5, 6],
+  "gym_duel_rationale": "No gym battle in Chapter 18. All six party members train and travel together in full 6-member route configuration, exploring Knot Island, Treasure Beach, Kindle Road, and Mt. Ember under the Level 72 cap.",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Charizard/Venusaur",
+      "types": ["Fire", "Grass"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 72,
+      "ability": "Blaze",
+      "held_item": "Charcoal",
+      "role": "Starter Anchor & Status Control",
+      "current_reached_moveset": [
+        "Flamethrower",
+        "Petal Dance",
+        "Air Slash",
+        "Sleep Powder"
+      ],
+      "progression_notes": "530 BST hybrid anchor elevated to Cap 72. Sleep Powder neutralizes dangerous wild threats instantly. STAB Flamethrower incinerates Bug and Grass encounters, while Petal Dance melts Water types."
+    },
+    {
+      "slot": 2,
+      "species": "Alakazam/Raichu",
+      "types": ["Psychic", "Electric"],
+      "status": "Active in Party (Retained from Ch 17)",
+      "current_level": 71,
+      "ability": "Synchronize",
+      "held_item": "Magnet",
+      "role": "Electric/Psychic Speed Cannon",
+      "current_reached_moveset": [
+        "Thunderbolt",
+        "Psychic",
+        "Calm Mind",
+        "Recover"
+      ],
+      "progression_notes": "500 BST speed demon with 120 SpA. Thunderbolt vaporizes Kindle Road and Treasure Beach water spawns (Tentacruel, Gyarados). Psychic cleanly executes Fighting martial artists."
+    },
+    {
+      "slot": 3,
+      "species": "Lapras",
+      "types": ["Water", "Ice"],
+      "status": "Active in Party (Retained from Ch 17)",
+      "current_level": 71,
+      "ability": "Water Absorb",
+      "held_item": "Never-Melt Ice",
+      "role": "Ice Coverage & Special Wall",
+      "current_reached_moveset": [
+        "Ice Beam",
+        "Hydro Pump",
+        "Confuse Ray",
+        "Body Slam"
+      ],
+      "progression_notes": "535 BST Water/Ice fortress elevated to Lv. 71. Hydro Pump douses Mt. Ember's volcanic Rock and Fire spawns with massive super-effective force."
+    },
+    {
+      "slot": 4,
+      "species": "Primeape/Sandslash",
+      "types": ["Fighting", "Ground"],
+      "status": "Active in Party (Retained from Ch 17)",
+      "current_level": 71,
+      "ability": "Vital Spirit",
+      "held_item": "Black Belt",
+      "role": "Fighting Wallbreaker & Rock Striker",
+      "current_reached_moveset": [
+        "Close Combat",
+        "Earthquake",
+        "Cross Chop",
+        "Swords Dance"
+      ],
+      "progression_notes": "477 BST physical wallbreaker. STAB Earthquake crushes Mt. Ember's Magmar and Team Rocket's Poison hybrids. Close Combat shatters Rock types effortlessly."
+    },
+    {
+      "slot": 5,
+      "species": "Gyarados/Nidoking",
+      "types": ["Water", "Poison"],
+      "status": "Active in Party (Retained from Ch 17)",
+      "current_level": 71,
+      "ability": "Intimidate",
+      "held_item": "Mystic Water",
+      "role": "Intimidate Physical Pivot",
+      "current_reached_moveset": [
+        "Aqua Tail",
+        "Dragon Dance",
+        "Megahorn",
+        "Earth Power"
+      ],
+      "progression_notes": "522 BST Intimidate pivot. Cuts physical Attack on entry. STAB Aqua Tail washes away fire and ground foes. Megahorn counters Grass and Psychic switch-ins."
+    },
+    {
+      "slot": 6,
+      "species": "Snorlax",
+      "types": ["Normal"],
+      "status": "Active in Party (Full Roster Travel)",
+      "current_level": 71,
+      "ability": "Thick Fat",
+      "held_item": "Leftovers",
+      "role": "Route Travel Tank & Sustained Sponge",
+      "current_reached_moveset": [
+        "Body Slam",
+        "Rest",
+        "Sleep Talk",
+        "Crunch"
+      ],
+      "progression_notes": "Colossal 160 HP tank. Thick Fat halves incoming Fire attacks on Mt. Ember. RestTalk loop provides infinite sustain across long island route traversal."
+    }
+  ],
+  "flex_bench": [
+    {
+      "species": "Pidgeot",
+      "role": "Tailwind Aerial Scout",
+      "rationale": "High-speed Flying pivot providing Tailwind team acceleration and Roost sustain."
+    },
+    {
+      "species": "Weezing",
+      "role": "Levitate Physical Sponge",
+      "rationale": "Ground-immune physical wall packing Sludge Bomb and Will-O-Wisp for burn suppression."
+    },
+    {
+      "species": "Hitmonchan",
+      "role": "Iron Fist Coverage Striker",
+      "rationale": "Iron Fist-boosted elemental punches provide custom super-effective physical coverage."
+    }
+  ]
+}

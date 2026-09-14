@@ -1,0 +1,65 @@
+{
+  "name": "Vermilion Gym & Electric Duel",
+  "summary": "Use your new Shears to cut down the shrub guarding the Vermilion Gym. Solve the electric trash-can switch puzzle, defeat Surge's three junior trainers, and prepare your 3v3 duelist party for Lt. Surge.",
+  "items": [
+    {
+      "name": "Thunder Badge",
+      "method": "Defeat Gym Leader Lt. Surge",
+      "type": "Key Item"
+    },
+    {
+      "name": "TM73 Spark",
+      "method": "Given by Lt. Surge upon defeat",
+      "type": "Key Item"
+    },
+    {
+      "name": "Surge Sunglasses",
+      "method": "Trainer cosmetic awarded alongside the Thunder Badge",
+      "type": "Outfit"
+    },
+    {
+      "name": "Premium Wonder Trade Ticket (x2)",
+      "method": "Given by Lt. Surge after earning the Thunder Badge",
+      "type": "Consumable"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Gentleman Tucker",
+      "team": [
+        {
+          "species": "Magnemite/Machop",
+          "level": 26,
+          "types": ["Electric", "Fighting"]
+        }
+      ]
+    },
+    {
+      "name": "Sailor Dwayne",
+      "team": [
+        {
+          "species": "Pikachu/Seel",
+          "level": 22,
+          "types": ["Electric", "Water"]
+        }
+      ]
+    },
+    {
+      "name": "Engineer Baily",
+      "team": [
+        {
+          "species": "Voltorb/Oddish",
+          "level": 24,
+          "types": ["Electric", "Grass"]
+        },
+        {
+          "species": "Voltorb/Bellsprout",
+          "level": 24,
+          "types": ["Electric", "Grass"]
+        }
+      ]
+    }
+  ],
+  "encounters": {},
+  "navigation_notes": "Use your Shears to cut down the tree blocking the gym entrance. To bypass the electric barrier, search the 15 trash cans. Once you find the first switch, the second switch is GUARANTEED to be in an immediately adjacent trash can (North, South, East, or West). Save in front of the second can to avoid a full lock reset. Remember: Gym battle rules enforce a 3v3 party limit; when challenging Lt. Surge, select your 3 designated Pokémon from your active party when prompted."
+}

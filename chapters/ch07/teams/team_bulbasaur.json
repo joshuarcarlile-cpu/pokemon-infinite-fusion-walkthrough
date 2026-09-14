@@ -1,0 +1,131 @@
+{
+  "starter": "Bulbasaur",
+  "name": "Team Bulbasaur: Sun Breakers & Ground Momentum",
+  "archetype": "Intimidate Water pivots, Thick Fat tanks, and Levitate Ground counters.",
+  "gym_duel_core": [2, 3, 4, 5],
+  "gym_duel_rationale": "Blaine commands blinding Fire sweepers supported by Sun and Ground coverage. Enter his 4v4 arena with Gyarados/Arbok (Intimidate softens physical hits while STAB Aqua Tail extinguishes Fire leads), Sandslash/Primeape (deadly physical cleaner packing STAB Earthquake to flatten Ninetales/Arcanine and 4x Rock Slide to swat down Charizard/Aerodactyl), Alakazam/Weezing (118 SpA Levitate pivot that completely ignores Ground Drill Run from Magmar/Rhydon), and Snorlax (Thick Fat halves all Fire moves while colossal HP shrugs off Charizard's Fire Blast).",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Venusaur/Charizard",
+      "types": ["Grass", "Fire"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 51,
+      "ability": "Overgrow",
+      "held_item": "Miracle Seed",
+      "role": "Solar Sweeper & Mixed Anchor",
+      "current_reached_moveset": [
+        "Solar Beam",
+        "Flamethrower",
+        "Sleep Powder",
+        "Synthesis"
+      ],
+      "progression_notes": "530 BST Grass/Fire powerhouse. Resists Electric and Steel while taking quarter damage from Grass. Takes advantage of Blaine's own Sunny Day to fire instant Solar Beams and boosted Flamethrowers."
+    },
+    {
+      "slot": 2,
+      "species": "Gyarados/Arbok",
+      "types": ["Water", "Poison"],
+      "status": "Active in Party (Retained from Ch 6)",
+      "current_level": 50,
+      "ability": "Intimidate",
+      "held_item": "Mystic Water",
+      "role": "Intimidate Pivot & Gym Duelist",
+      "current_reached_moveset": [
+        "Aqua Tail",
+        "Crunch",
+        "Dragon Dance",
+        "Glare"
+      ],
+      "progression_notes": "513 BST Intimidate bruiser. Intimidate neutralizes Arcanine and Aerodactyl immediately upon entry. STAB Aqua Tail washes out Blaine's Fire sweepers."
+    },
+    {
+      "slot": 3,
+      "species": "Alakazam/Weezing",
+      "types": ["Psychic", "Poison"],
+      "status": "Active in Party (Evolved at Lv. 40)",
+      "current_level": 50,
+      "ability": "Levitate",
+      "held_item": "Twisted Spoon",
+      "role": "Levitate Special Wallbreaker & Gym Duelist",
+      "current_reached_moveset": [
+        "Psychic",
+        "Sludge Bomb",
+        "Recover",
+        "Calm Mind"
+      ],
+      "progression_notes": "495 BST Levitate pivot with 118 SpA. Levitate makes it completely immune to Ground moves, safely walling Magmar/Rhydon's Drill Run while boosting with Calm Mind."
+    },
+    {
+      "slot": 4,
+      "species": "Sandslash/Primeape",
+      "types": ["Ground", "Fighting"],
+      "status": "Active in Party (Retained from Ch 6)",
+      "current_level": 50,
+      "ability": "Sand Rush",
+      "held_item": "Soft Sand",
+      "role": "Physical Wallbreaker & Gym Duelist",
+      "current_reached_moveset": [
+        "Earthquake",
+        "Close Combat",
+        "Crush Claw",
+        "Swords Dance"
+      ],
+      "progression_notes": "480 BST physical wrecking ball. STAB Earthquake crushes Magmar/Rhydon and Ninetales/Arcanine, while Close Combat and boosted Crush Claws shatter defensive walls."
+    },
+    {
+      "slot": 5,
+      "species": "Snorlax",
+      "types": ["Normal"],
+      "status": "Active in Party (Retained from Ch 6)",
+      "current_level": 49,
+      "ability": "Thick Fat",
+      "held_item": "Leftovers",
+      "role": "Thick Fat Tank & Gym Duelist",
+      "current_reached_moveset": [
+        "Body Slam",
+        "Heavy Slam",
+        "Crunch",
+        "Rest"
+      ],
+      "progression_notes": "540 BST defensive anchor. Thick Fat halves all incoming Fire moves, turning Blaine's strongest Fire Blasts into harmless scratches."
+    },
+    {
+      "slot": 6,
+      "species": "Lapras",
+      "types": ["Water", "Ice"],
+      "status": "Active in Party (Silph Co Gift / Seafoam Catch)",
+      "current_level": 48,
+      "ability": "Water Absorb",
+      "held_item": "Never-Melt Ice",
+      "role": "Bulky Water Artillery",
+      "current_reached_moveset": [
+        "Hydro Pump",
+        "Ice Beam",
+        "Body Slam",
+        "Confuse Ray"
+      ],
+      "progression_notes": "535 BST bulky water sponge with 130 HP. Fires off high-power Hydro Pumps to overwhelm Fire switch-ins outside of sunlight."
+    }
+  ],
+  "flex_bench": [
+    {
+      "species": "Butterfree",
+      "types": ["Bug", "Flying"],
+      "role": "Compound Eyes Sleep Utility",
+      "rationale": "Compound Eyes Quiver Dance Sleep utility for safe captures and route shutdown (Caterpie family)."
+    },
+    {
+      "species": "Electabuzz",
+      "types": ["Electric"],
+      "role": "Electric Speed Sweeper",
+      "rationale": "High-velocity Electric pivot counter against Flying water routes (Elekid family)."
+    },
+    {
+      "species": "Hitmonlee",
+      "types": ["Fighting"],
+      "role": "Reckless Fighting Breaker",
+      "rationale": "High Jump Kick physical breaker from Fighting Dojo (Tyrogue family)."
+    }
+  ]
+}

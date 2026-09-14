@@ -1,0 +1,138 @@
+{
+  "location": "Route 8 (ID 409)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "016",
+        "name": "Pidgey",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "18-20",
+        "catch_rate": "255",
+        "rates": [
+          "30%",
+          "30%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "023",
+        "name": "Ekans",
+        "type1": "Poison",
+        "type2": "",
+        "levels": "17-19",
+        "catch_rate": "255",
+        "rates": [
+          "10%",
+          "-",
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "027",
+        "name": "Sandshrew",
+        "type1": "Ground",
+        "type2": "",
+        "levels": "17-19",
+        "catch_rate": "255",
+        "rates": [
+          "10%",
+          "10%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "037",
+        "name": "Vulpix",
+        "type1": "Fire",
+        "type2": "",
+        "levels": "15-18",
+        "catch_rate": "190",
+        "rates": [
+          "10%",
+          "10%",
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "041",
+        "name": "Zubat",
+        "type1": "Poison",
+        "type2": "Flying",
+        "levels": "18-20",
+        "catch_rate": "255",
+        "rates": [
+          "-",
+          "-",
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "052",
+        "name": "Meowth",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "18-20",
+        "catch_rate": "255",
+        "rates": [
+          "20%",
+          "30%",
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "058",
+        "name": "Growlithe",
+        "type1": "Fire",
+        "type2": "",
+        "levels": "15-18",
+        "catch_rate": "190",
+        "rates": [
+          "10%",
+          "10%",
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "061",
+        "name": "Poliwhirl",
+        "type1": "Water",
+        "type2": "",
+        "levels": "16-17",
+        "catch_rate": "120",
+        "rates": [
+          "-",
+          "-",
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "163",
+        "name": "Hoothoot",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "18-20",
+        "catch_rate": "255",
+        "rates": [
+          "-",
+          "-",
+          "20%"
+        ]
+      }
+    ],
+    "Pok\u00e9 Radar": [
+      {
+        "dex_id": "388",
+        "name": "Shinx",
+        "type1": "Electric",
+        "type2": "",
+        "levels": "17-18",
+        "catch_rate": "235",
+        "rates": [
+          "50% <small>([[Pok\u00e9 Radar#How_it_works",
+          "long rustle]])</small>"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "leader": "Executive Ariana",
+  "title": "Team Rocket Sevii Commander",
+  "gym": "Rocket Warehouse",
+  "badge": null,
+  "hard_mode_level_cap": 80,
+  "gym_duel_limit": 6,
+  "recommended_party_level": 78,
+  "party_selection_rule": "6 vs 6 Syndicate Infiltration (bring your full 6-member team into the warehouse raid)",
+  "overview": "Team Rocket's final Sevii bastion operates within the hidden warehouse in Chrono Island's meadow. Executive Ariana commands the operation alongside her elite grunts, coordinating with mysterious Team Plasma visitors. Her lead Tangrowth/Vileplume wields heavy Grass/Poison special power and Sleep Powder, but suffers 2x weaknesses to Fire, Ice, Flying, and Psychic. Skarmory/Combusken pairs Steel and Fighting typing with high physical strikes, but is vulnerable to Fire, Fighting, and Ground. Her ace Arbok/Houndoom pairs 90 Speed and high offensive stats with Poison and Fire STAB, yet carries a fatal 4x Ground weakness alongside Water and Psychic vulnerabilities. Storming the warehouse and defeating Ariana scatters the remaining Rocket presence, liberates the warehouse, and recovers the stolen Sapphire required to complete Celio's Network Machine.",
+  "roster": [
+    {
+      "species": "Tangrowth/Vileplume",
+      "level": 65,
+      "types": ["Grass", "Poison"],
+      "ability": "Chlorophyll",
+      "item": "None",
+      "moves": ["Giga Drain", "Sludge Bomb", "Sleep Powder", "Ancient Power"],
+      "tactics": "Bulky Grass/Poison wallbreaker with 110 SpA. Uses Sleep Powder to incapacitate threats. Exploit its low 50 Speed and 63 Sp. Def with Fire, Ice, Flying, or Psychic special attacks."
+    },
+    {
+      "species": "Skarmory/Combusken",
+      "level": 65,
+      "types": ["Steel", "Fighting"],
+      "ability": "Keen Eye",
+      "item": "None",
+      "moves": ["Steel Wing", "Sky Uppercut", "Flame Burst", "Night Slash"],
+      "tactics": "Offensive Steel/Fighting striker with 83 Attack. Punish its modest defensive stats with powerful Fire, Fighting, or Ground moves for an easy knockout."
+    },
+    {
+      "species": "Arbok/Houndoom",
+      "level": 65,
+      "types": ["Poison", "Fire"],
+      "ability": "Flash Fire",
+      "item": "None",
+      "moves": ["Flamethrower", "Crunch", "Gunk Shot", "Glare"],
+      "tactics": "Speedy 90 Speed mixed sweeper. Uses Glare to paralyze faster foes. Beware Flash Fire if using Fire attacks. Completely dismantled by an immediate 4x fatal Earthquake."
+    }
+  ],
+  "starter_strategies": {
+    "bulbasaur": "Venusaur/Charizard (Lv. 80) vaporizes Tangrowth/Vileplume and Skarmory/Combusken with STAB Flamethrower. Kingler/Primeape (Lv. 79) and Gyarados/Arbok (Lv. 79) shatter Skarmory/Combusken and intimidate opposing physical strikes. Alakazam/Weezing (Lv. 79) obliterates Tangrowth/Vileplume and Arbok/Houndoom with 118 SpA STAB Psychic, while Lapras (Lv. 79) washes away Arbok/Houndoom with STAB Hydro Pump.",
+    "charmander": "Charizard/Venusaur (Lv. 80) torches Tangrowth/Vileplume and Skarmory/Combusken with Charcoal-boosted Flamethrower. Primeape/Sandslash (Lv. 79) lands an instant 4x Earthquake OHKO against Arbok/Houndoom and smashes Skarmory/Combusken with Close Combat. Alakazam/Raichu (Lv. 79) sweeps with STAB Psychic, while Lapras (Lv. 79) provides sturdy water and ice artillery.",
+    "squirtle": "Jolteon/Sandslash (Lv. 79) is Ariana's direct nemesis: STAB Earthquake vaporizes Arbok/Houndoom with fatal 4x super-effective power and hits Skarmory/Combusken for 2x damage. Blastoise/Fearow (Lv. 80) ignores ground moves via Flying typing and strikes Tangrowth/Vileplume with STAB Drill Peck. Alakazam/Weezing (Lv. 79) melts the Poison-type core with STAB Psychic."
+  },
+  "rewards": [
+    "Sapphire (Key Item; deliver to Celio on Knot Island to complete the Network Machine)",
+    "Master Ball (Gifted by Lady Selphy at Resort Gorgeous for showing a requested fusion)",
+    "Static Klinklang (Level 55 Steel type in the warehouse back room)",
+    "Heart Scales Vendor (Unlimited purchases at $5,000 each below Chrono Island Center)"
+  ]
+}

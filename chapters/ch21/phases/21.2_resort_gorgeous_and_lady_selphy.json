@@ -1,0 +1,35 @@
+{
+  "name": "Resort Gorgeous & Lady Selphy",
+  "summary": "Surf northeast from the Water Labyrinth onto the manicured private beaches of Resort Gorgeous. Enter the lavish beachfront mansion to meet Lady Selphy, an aristocratic connoisseur fascinated by Pokémon fusions. Show Selphy any fused Pokémon matching her daily showcase request to claim the coveted Master Ball resting upon her table. Returning to showcase fusions grants valuable Rare Candies, with additional Master Balls awarded at landmark showcase milestones. Explore the resort's private surrounding waters for coastal encounters.",
+  "items": [
+    {
+      "name": "Master Ball",
+      "method": "Awarded by Lady Selphy in the resort mansion the first time you show her a requested fusion",
+      "type": "Poké Ball"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Painter Ray",
+      "title": "Painter",
+      "reward": "P1,856",
+      "pokemon": [
+        {
+          "species": "Smeargle",
+          "level": 58,
+          "types": ["Normal"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Surf": [
+      { "species": "Horsea", "levels": "25-30", "rate": "10%" },
+      { "species": "Hoppip", "levels": "20-40", "rate": "15%" },
+      { "species": "Corsola", "levels": "40-45", "rate": "40%" },
+      { "species": "Mantine", "levels": "50", "rate": "5%" },
+      { "species": "Bruxish", "levels": "35-45", "rate": "10%" },
+      { "species": "Luvdisc", "levels": "25-30", "rate": "20%" }
+    ]
+  }
+}

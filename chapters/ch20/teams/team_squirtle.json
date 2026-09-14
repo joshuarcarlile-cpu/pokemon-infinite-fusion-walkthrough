@@ -1,0 +1,128 @@
+{
+  "starter": "Squirtle",
+  "name": "Team Squirtle: Sevii Tides Vanguard",
+  "archetype": "Sevii archipelago & Jasmine duel core — Electric speed sweeping, 4x Ice execution, 4x Fighting breaking, Flying Ground immunity, and Intimidate Attack reduction.",
+  "gym_duel_core": [1, 2, 3, 4, 5],
+  "gym_duel_rationale": "For Jasmine's 5 vs 5 duel on Bond Bridge, Slots 1 through 5 take the field: Jolteon/Sandslash (Slot 2) acts as Jasmine's primary counter, zapping Skarmory/Dodrio and Magnezone/Blastoise with STAB Discharge and crushing Mawile/Rhydon with Earthquake; Lapras (Slot 3) absorbs water attacks with Water Absorb and vaporizes Altaria/Steelix with 4x STAB Ice Beam; Blastoise/Fearow (Slot 1) resists Ground via Flying typing and strikes Scizor/Cacturne with STAB Drill Peck; Arbok/Primeape (Slot 4) provides Intimidate to defang physical attackers and punches through Mawile/Rhydon with 4x Close Combat; and Alakazam/Weezing (Slot 5) floats above Earthquakes with Levitate and supports with Calm Mind. Snorlax rests in reserve as the route endurance tank.",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Blastoise/Fearow",
+      "types": ["Water", "Flying"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 76,
+      "ability": "Torrent",
+      "held_item": "Sharp Beak",
+      "role": "Starter Anchor & Ground-Immune Striker",
+      "current_reached_moveset": [
+        "Hydro Pump",
+        "Drill Peck",
+        "Roost",
+        "Protect"
+      ],
+      "progression_notes": "486 BST starter hybrid elevated to Cap 76. Flying typing grants complete immunity to Jasmine's Earthquakes. STAB Drill Peck cleanly dispatches Scizor/Cacturne, while Roost provides sustained recovery."
+    },
+    {
+      "slot": 2,
+      "species": "Jolteon/Sandslash",
+      "types": ["Electric", "Ground"],
+      "status": "Active in Party (Gym Duelist & MVP)",
+      "current_level": 75,
+      "ability": "Volt Absorb",
+      "held_item": "Magnet",
+      "role": "Electric/Ground Speed Cannon",
+      "current_reached_moveset": [
+        "Discharge",
+        "Earthquake",
+        "Pin Missile",
+        "Swords Dance"
+      ],
+      "progression_notes": "486 BST speed sweeper. STAB Discharge electrocutes Skarmory/Dodrio and Magnezone/Blastoise for massive damage. STAB Earthquake crushes Mawile/Rhydon before it can use Magnet Rise."
+    },
+    {
+      "slot": 3,
+      "species": "Lapras",
+      "types": ["Water", "Ice"],
+      "status": "Active in Party (Gym Duelist & MVP)",
+      "current_level": 75,
+      "ability": "Water Absorb",
+      "held_item": "Never-Melt Ice",
+      "role": "Ice Coverage & Special Wall",
+      "current_reached_moveset": [
+        "Ice Beam",
+        "Hydro Pump",
+        "Confuse Ray",
+        "Body Slam"
+      ],
+      "progression_notes": "535 BST Water/Ice fortress elevated to Lv. 75. Water Absorb completely negates opposing water attacks. STAB Ice Beam lands catastrophic 4x super-effective damage to delete Altaria/Steelix."
+    },
+    {
+      "slot": 4,
+      "species": "Arbok/Primeape",
+      "types": ["Poison", "Fighting"],
+      "status": "Active in Party (Gym Duelist)",
+      "current_level": 75,
+      "ability": "Intimidate",
+      "held_item": "Black Belt",
+      "role": "Intimidate Fighting Wallbreaker",
+      "current_reached_moveset": [
+        "Close Combat",
+        "Gunk Shot",
+        "Cross Chop",
+        "Glare"
+      ],
+      "progression_notes": "479 BST Intimidate bruiser. Blunts Jasmine's physical Attack on entry. STAB Close Combat lands 4x super-effective devastation on Mawile/Rhydon. Glare inflicts 100% paralysis."
+    },
+    {
+      "slot": 5,
+      "species": "Alakazam/Weezing",
+      "types": ["Psychic", "Poison"],
+      "status": "Active in Party (Gym Duelist)",
+      "current_level": 75,
+      "ability": "Levitate",
+      "held_item": "Twisted Spoon",
+      "role": "Levitate Ground-Immune Sweeper",
+      "current_reached_moveset": [
+        "Psychic",
+        "Sludge Bomb",
+        "Recover",
+        "Calm Mind"
+      ],
+      "progression_notes": "495 BST Levitate pivot with 118 SpA. Immune to Earthquake via Levitate. Sets Calm Mind and fires powerful special attacks while completely ignoring opposing ground assaults."
+    },
+    {
+      "slot": 6,
+      "species": "Snorlax",
+      "types": ["Normal"],
+      "status": "Active in Party (Route Traversal Tank)",
+      "current_level": 75,
+      "ability": "Thick Fat",
+      "held_item": "Leftovers",
+      "role": "Route Travel Tank & Sustained Sponge",
+      "current_reached_moveset": [
+        "Body Slam",
+        "Rest",
+        "Sleep Talk",
+        "Crunch"
+      ],
+      "progression_notes": "Colossal 160 HP route sponge holding Leftovers. RestTalk loop absorbs wild status and damage across Kin Island and Berry Forest while resting in reserve during the 5v5 Gym duel."
+    }
+  ],
+  "flex_bench": [
+    {
+      "species": "Venusaur",
+      "role": "Chlorophyll Sleep Tank",
+      "rationale": "High-durability Grass/Poison tank packing Leech Seed and Sleep Powder for status control against wild encounters."
+    },
+    {
+      "species": "Gyarados",
+      "role": "Dragon Dance Water Pivot",
+      "rationale": "Intimidate physical pivot and Dragon Dance sweeper with Aqua Tail for Water STAB coverage."
+    },
+    {
+      "species": "Hitmontop",
+      "role": "Technician Rapid Spinner",
+      "rationale": "Technician-boosted Triple Kick and Rapid Spin for tactical versatility across route encounters."
+    }
+  ]
+}

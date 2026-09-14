@@ -1,0 +1,99 @@
+{
+  "location": "Route 2 (ID 86)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "010",
+        "name": "Caterpie",
+        "type1": "Bug",
+        "type2": "",
+        "levels": "4-5",
+        "catch_rate": "255",
+        "rates": [
+          "5%",
+          "10%",
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "013",
+        "name": "Weedle",
+        "type1": "Bug",
+        "type2": "Poison",
+        "levels": "4-5",
+        "catch_rate": "255",
+        "rates": [
+          "5%",
+          "5%",
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "016",
+        "name": "Pidgey",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "2-3",
+        "catch_rate": "255",
+        "rates": [
+          "45%",
+          "40%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "019",
+        "name": "Rattata",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "2-5",
+        "catch_rate": "255",
+        "rates": [
+          "45%",
+          "35%",
+          "45%"
+        ]
+      },
+      {
+        "dex_id": "161",
+        "name": "Sentret",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "2-5",
+        "catch_rate": "255",
+        "rates": [
+          "-",
+          "10%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "163",
+        "name": "Hoothoot",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "2-3",
+        "catch_rate": "255",
+        "rates": [
+          "-",
+          "-",
+          "40%"
+        ]
+      }
+    ],
+    "Pok\u00e9 Radar": [
+      {
+        "dex_id": "417",
+        "name": "Fletchling",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "2-5",
+        "catch_rate": "255",
+        "rates": [
+          "50% <small>([[Pok\u00e9 Radar#How_it_works",
+          "long rustle]])</small>"
+        ]
+      }
+    ]
+  }
+}

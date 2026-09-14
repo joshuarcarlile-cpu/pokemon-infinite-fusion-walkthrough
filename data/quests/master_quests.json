@@ -1,0 +1,483 @@
+{
+  "quests": [
+    {
+      "id": "q_secret_garden_access",
+      "title": "Secret Garden Discovery",
+      "type": "Hidden Event",
+      "region": "Kanto",
+      "location": "Route 22 -> Route 1 Eastern Trees",
+      "chapter_introduced": "ch01",
+      "chapter_resolvable": "ch01",
+      "is_missable": true,
+      "missable_deadline": "Before defeating Brock (Gym 1)",
+      "karma_delta": 0,
+      "police_reportable": false,
+      "rewards": [
+        "Access to Secret Garden",
+        "Potion (x6)",
+        "Max Revive",
+        "Revive (x4)",
+        "Super Potion",
+        "Wild Eevee & Ditto Spawns"
+      ],
+      "objectives": [
+        "Defeat Rival Blue on Route 22 immediately after returning Oak's Parcel.",
+        "Walk through the tree gap on the eastern edge of Route 1 directly below the Viridian City ledge.",
+        "CRITICAL: If Brock is defeated before battling Blue on Route 22, Blue vacates Route 22 and the Secret Garden is permanently lost for the entire save!"
+      ]
+    },
+    {
+      "id": "q_secret_garden_egg",
+      "title": "Secret Garden Rockruff Nest",
+      "type": "Hidden Event",
+      "region": "Kanto",
+      "location": "Secret Garden (Center Nest)",
+      "chapter_introduced": "ch01",
+      "chapter_resolvable": "ch01",
+      "is_missable": false,
+      "missable_deadline": null,
+      "karma_delta": -5,
+      "police_reportable": false,
+      "rewards": [
+        "Rockruff Egg"
+      ],
+      "objectives": [
+        "Inspect the center Pokémon nest in Secret Garden.",
+        "WARNING: Taking the egg reduces your Karma by 5, which hinders the +20 Karma threshold required for Mew on Mt. Moon Summit."
+      ]
+    },
+    {
+      "id": "q_hotel_pewter_mushrooms",
+      "title": "Mushroom Gathering",
+      "type": "Hotel",
+      "region": "Kanto",
+      "location": "Pewter City Hotel (2nd Floor)",
+      "chapter_introduced": "ch01",
+      "chapter_resolvable": "ch01",
+      "is_missable": false,
+      "missable_deadline": null,
+      "karma_delta": 1,
+      "police_reportable": false,
+      "rewards": [
+        "Balm Mushroom (Sells for 6,250 Pokedollars)"
+      ],
+      "objectives": [
+        "Speak to the chef on the 2nd floor of Pewter Hotel.",
+        "Collect 3 Tiny Mushrooms from Viridian Forest.",
+        "Deliver the mushrooms to the chef for the Balm Mushroom reward."
+      ]
+    },
+    {
+      "id": "q_hotel_pewter_revive",
+      "title": "Lost Medicine",
+      "type": "Hotel",
+      "region": "Kanto",
+      "location": "Pewter City Hotel (2nd Floor)",
+      "chapter_introduced": "ch01",
+      "chapter_resolvable": "ch01",
+      "is_missable": false,
+      "missable_deadline": null,
+      "karma_delta": 1,
+      "police_reportable": false,
+      "rewards": [
+        "TM21 (Frustration)"
+      ],
+      "objectives": [
+        "Speak to the Youngster on the 2nd floor of Pewter Hotel.",
+        "Search under the benches across Pewter City to find his dropped Revive.",
+        "Return the Revive to the Youngster. (Do NOT sell or toss it, or you will lose 5 Karma!)."
+      ]
+    },
+    {
+      "id": "q_hotel_pewter_bug_evo",
+      "title": "Bug Evolution",
+      "type": "Hotel",
+      "region": "Kanto",
+      "location": "Pewter City Hotel (2nd Floor)",
+      "chapter_introduced": "ch01",
+      "chapter_resolvable": "ch01",
+      "is_missable": false,
+      "missable_deadline": null,
+      "karma_delta": 1,
+      "police_reportable": false,
+      "rewards": [
+        "Lv. 10 Pineco"
+      ],
+      "objectives": [
+        "Speak to the Bug Catcher on the 2nd floor of Pewter Hotel.",
+        "Show him a fully-evolved Bug Pokémon (Butterfree or Beedrill, evolved at Lv. 10).",
+        "Receive the gift Pineco."
+      ]
+    },
+    {
+      "id": "q_field_partner_cap",
+      "title": "I Choose You!",
+      "type": "Field",
+      "region": "Kanto",
+      "location": "Pewter City Poké Mart",
+      "chapter_introduced": "ch01",
+      "chapter_resolvable": "ch01",
+      "is_missable": false,
+      "missable_deadline": null,
+      "karma_delta": 1,
+      "police_reportable": false,
+      "rewards": [
+        "Partner Cap (Accessory)"
+      ],
+      "objectives": [
+        "Talk to the Pikachu inside the Pewter City Poké Mart.",
+        "Find the official League Hat in the city and return it."
+      ]
+    },
+    {
+      "id": "q_field_nectar_garden",
+      "title": "Nectar Garden",
+      "type": "Field",
+      "region": "Kanto",
+      "location": "Pewter City Flower Garden",
+      "chapter_introduced": "ch01",
+      "chapter_resolvable": "ch02",
+      "is_missable": false,
+      "missable_deadline": null,
+      "karma_delta": 1,
+      "police_reportable": false,
+      "rewards": [
+        "Oran Berry",
+        "Sitrus Berry",
+        "Lum Berry",
+        "Berry Juice",
+        "Oricorio Sensu Style (Ghost/Flying Lv. 15)"
+      ],
+      "objectives": [
+        "Talk to the old man in the Pewter City flower garden.",
+        "Deliver pink flowers from Route 2 (Before Forest) for Oran Berry.",
+        "Deliver red flowers from Route 3 for Sitrus Berry.",
+        "Deliver blue flowers from Route 4 for Lum Berry.",
+        "Catch the visiting Oricorio Sensu Style to receive Berry Juice."
+      ]
+    },
+    {
+      "id": "q_hotel_cerulean_cupid",
+      "title": "Playing Cupid",
+      "type": "Hotel",
+      "region": "Kanto",
+      "location": "Cerulean City Hotel (2nd Floor)",
+      "chapter_introduced": "ch02",
+      "chapter_resolvable": "ch02",
+      "is_missable": false,
+      "missable_deadline": null,
+      "karma_delta": 1,
+      "police_reportable": false,
+      "rewards": [
+        "Love Ball (x5)"
+      ],
+      "objectives": [
+        "Accept the love letter from the boy in the Cerulean City Hotel.",
+        "Defeat Pokémon Breeder Maude on the route south of Cerulean City (Route 5).",
+        "Deliver the love letter to Maude to receive 5 Love Balls."
+      ]
+    },
+    {
+      "id": "q_hotel_cerulean_johto",
+      "title": "Johto Pokémon",
+      "type": "Hotel",
+      "region": "Kanto",
+      "location": "Cerulean City Poké Mart",
+      "chapter_introduced": "ch02",
+      "chapter_resolvable": "ch02",
+      "is_missable": false,
+      "missable_deadline": null,
+      "karma_delta": 1,
+      "police_reportable": false,
+      "rewards": [
+        "Johto Outfit Set"
+      ],
+      "objectives": [
+        "Speak to the traveler inside the Cerulean Poké Mart.",
+        "Show him any Pokémon native to the Johto region (e.g. Sentret, Hoothoot, Pineco, Ledyba)."
+      ]
+    },
+    {
+      "id": "q_field_oak_research_1",
+      "title": "Field Research (Part 1)",
+      "type": "Field",
+      "region": "Kanto",
+      "location": "Cerulean City Pokémon Center -> Route 24",
+      "chapter_introduced": "ch02",
+      "chapter_resolvable": "ch02",
+      "is_missable": false,
+      "missable_deadline": null,
+      "karma_delta": 1,
+      "police_reportable": false,
+      "rewards": [
+        "Poké Radar (Key Item)"
+      ],
+      "objectives": [
+        "Speak to Professor Oak's aide inside Cerulean City Pokémon Center.",
+        "Fuse at least five Pokémon using DNA Splicers.",
+        "Meet the aide on Route 24 and catch an Abra to receive the Poké Radar."
+      ]
+    },
+    {
+      "id": "q_rocket_join_nugget_bridge",
+      "title": "Nugget Bridge Rocket Recruitment",
+      "type": "Team Rocket",
+      "region": "Kanto",
+      "location": "Route 24 (End of Nugget Bridge)",
+      "chapter_introduced": "ch02",
+      "chapter_resolvable": "ch02",
+      "is_missable": true,
+      "missable_deadline": "Before defeating Gym 8 (Giovanni)",
+      "karma_delta": -5,
+      "police_reportable": false,
+      "rewards": [
+        "Rocket Uniform (Disguise)",
+        "Rocket Passwords",
+        "Access to Team Rocket Cerulean HQ"
+      ],
+      "objectives": [
+        "Defeat the 5 trainers on Nugget Bridge.",
+        "The Team Rocket Grunt at the end offers you to join Team Rocket.",
+        "RECOMMENDED DOUBLE-AGENT PATH: Agree to join (-5 Karma, but unlocks Rocket missions). By reporting the upcoming Rocket crimes to the Cerulean police officer, you will net +20 Karma total, earning far more Karma than refusing (+5) while securing Diancie!"
+      ]
+    },
+    {
+      "id": "q_rocket_cerulean_01",
+      "title": "Creepy Crawlies",
+      "type": "Team Rocket",
+      "region": "Kanto",
+      "location": "Cerulean City (Temporary Rocket HQ)",
+      "chapter_introduced": "ch02",
+      "chapter_resolvable": "ch02",
+      "is_missable": true,
+      "missable_deadline": "Before defeating Gym 8 (Giovanni)",
+      "karma_delta": -5,
+      "police_reportable": false,
+      "rewards": [
+        "₽4,000"
+      ],
+      "objectives": [
+        "Enter the temporary Rocket HQ in Cerulean City disguised in your Rocket uniform.",
+        "Speak to the Team Rocket Captain and clear the bug infestation in the basement."
+      ]
+    },
+    {
+      "id": "q_rocket_cerulean_02",
+      "title": "No Fishing Zone",
+      "type": "Team Rocket",
+      "region": "Kanto",
+      "location": "Cerulean City / Route 24",
+      "chapter_introduced": "ch02",
+      "chapter_resolvable": "ch02",
+      "is_missable": true,
+      "missable_deadline": "Before defeating Misty (Gym 2) for police report; Gym 8 for Rocket turn-in",
+      "karma_delta": -5,
+      "police_reportable": true,
+      "police_officer_location": "Cerulean City (blocking Route 5 gatehouse)",
+      "police_reward_karma": 10,
+      "unlocks_quest": "q_pinkan_island_police",
+      "rewards": [
+        "₽8,000 (Rocket turn-in) OR +10 Karma & Diancie Police Path (Officer Jenny report)"
+      ],
+      "objectives": [
+        "Accept mission from Rocket Captain to intimidate fishermen on Nugget Bridge.",
+        "UNDERCOVER INFORMANT PATH: DO NOT intimidate the fishermen. Instead, immediately speak to the Police Officer in Cerulean City blocking the Route 5 entrance.",
+        "Report Team Rocket's harassment to the police BEFORE defeating Misty to earn +10 Karma and unlock the Police Pinkan Island heist!"
+      ]
+    },
+    {
+      "id": "q_rocket_cerulean_03",
+      "title": "Disobedient Pokémon",
+      "type": "Team Rocket",
+      "region": "Kanto",
+      "location": "Cerulean City (Temporary Rocket HQ)",
+      "chapter_introduced": "ch02",
+      "chapter_resolvable": "ch02",
+      "is_missable": true,
+      "missable_deadline": "Before defeating Gym 8 (Giovanni)",
+      "karma_delta": -5,
+      "police_reportable": true,
+      "police_officer_location": "Cerulean City (Police Officer)",
+      "police_reward_karma": 10,
+      "unlocks_quest": "q_pinkan_island_police",
+      "rewards": [
+        "₽4,000 + Azurill/Zubat (Rocket) OR +10 Karma & Diancie Police Path (Officer Jenny report)"
+      ],
+      "objectives": [
+        "Accept mission to discipline a disobedient stolen Pokémon.",
+        "UNDERCOVER INFORMANT PATH: Take the Pokémon directly to the Cerulean police officer to report Pokémon theft.",
+        "Earn +10 Karma and advance the Police Informant storyline towards Diancie."
+      ]
+    },
+    {
+      "id": "q_rocket_cerulean_04",
+      "title": "Gran Theft Pokémon!",
+      "type": "Team Rocket",
+      "region": "Kanto",
+      "location": "Cerulean City",
+      "chapter_introduced": "ch02",
+      "chapter_resolvable": "ch02",
+      "is_missable": true,
+      "missable_deadline": "Before defeating Gym 8 (Giovanni)",
+      "karma_delta": -5,
+      "police_reportable": false,
+      "rewards": [
+        "Promotion in Team Rocket Ranks",
+        "₽6,000"
+      ],
+      "objectives": [
+        "Follow Team Rocket Executive Petrel to steal a rare Pokémon from a young trainer.",
+        "Advance the Team Rocket infiltrator storyline to Celadon City."
+      ]
+    },
+    {
+      "id": "q_legendary_mew",
+      "title": "Mythical Mew Encounter",
+      "type": "Legendary",
+      "region": "Kanto",
+      "location": "Mt. Moon Summit",
+      "chapter_introduced": "ch02",
+      "chapter_resolvable": "ch02",
+      "is_missable": false,
+      "missable_deadline": null,
+      "karma_delta": 0,
+      "police_reportable": false,
+      "rewards": [
+        "Wild Mew Encounter (Catchable)"
+      ],
+      "objectives": [
+        "Climb to Mt. Moon Summit.",
+        "Requires a Karma score of +20 or higher to trigger Mew's presence!",
+        "Achieved easily by following the Undercover Informant path (reporting 2 Rocket crimes = +20 Karma) and avoiding egg theft."
+      ]
+    },
+    {
+      "id": "q_field_lumberjack",
+      "title": "The Lumberjack! (Shears Acquisition)",
+      "type": "Field",
+      "region": "Kanto",
+      "location": "Route 2 (Before Forest via Diglett's Cave)",
+      "chapter_introduced": "ch03",
+      "chapter_resolvable": "ch03",
+      "is_missable": false,
+      "missable_deadline": null,
+      "karma_delta": 1,
+      "police_reportable": false,
+      "rewards": [
+        "Shears (Key Item HM01 Cut replacement)",
+        "Lemonade"
+      ],
+      "objectives": [
+        "Enter Diglett's Cave from Route 11 / Vermilion City in Chapter 3.",
+        "Exit onto the isolated eastern portion of Route 2.",
+        "Enter the house surrounded by cuttable trees and accept the quest from the elderly man.",
+        "Go into the backyard and interact with every small tree to cut them all down.",
+        "Speak to the man to claim your Lemonade, +1 Karma, and the Shears!"
+      ]
+    },
+    {
+      "id": "q_field_building_materials",
+      "title": "Building Materials",
+      "type": "Field",
+      "region": "Kanto",
+      "location": "Vermilion City Construction Site",
+      "chapter_introduced": "ch03",
+      "chapter_resolvable": "ch03",
+      "is_missable": true,
+      "missable_deadline": "Before defeating the Elite Four",
+      "karma_delta": 1,
+      "police_reportable": false,
+      "rewards": [
+        "Rocky Helmet (Hold Item)"
+      ],
+      "objectives": [
+        "Speak to the construction foreman in Vermilion City.",
+        "Retrieve wooden planks from Viridian City and bricks from Pewter City.",
+        "Deliver the materials before beating the Elite Four to receive the Rocky Helmet."
+      ]
+    },
+    {
+      "id": "q_rocket_celadon_01",
+      "title": "Supplying the New Grunts",
+      "type": "Team Rocket",
+      "region": "Kanto",
+      "location": "Celadon City",
+      "chapter_introduced": "ch04",
+      "chapter_resolvable": "ch04",
+      "is_missable": true,
+      "missable_deadline": "Before Gym 8 / Mt. Ember Archer",
+      "karma_delta": -5,
+      "police_reportable": false,
+      "rewards": [
+        "₽15,000"
+      ],
+      "objectives": [
+        "Catch 4 Pokémon using Rocket Balls in the outskirts of Celadon City."
+      ]
+    },
+    {
+      "id": "q_rocket_celadon_02",
+      "title": "Interception!",
+      "type": "Team Rocket",
+      "region": "Kanto",
+      "location": "Celadon Department Store",
+      "chapter_introduced": "ch04",
+      "chapter_resolvable": "ch04",
+      "is_missable": true,
+      "missable_deadline": "Before Gym 8 / Mt. Ember Archer",
+      "karma_delta": -5,
+      "police_reportable": false,
+      "rewards": [
+        "₽10,000",
+        "Choice of: TM13 Ice Beam, TM24 Thunderbolt, or TM35 Flamethrower"
+      ],
+      "objectives": [
+        "Intercept the genuine TM shipment to Celadon Department Store and deliver fake TMs."
+      ]
+    },
+    {
+      "id": "q_rocket_celadon_03",
+      "title": "Pokémon Collector",
+      "type": "Team Rocket",
+      "region": "Kanto",
+      "location": "Route 22 (Near Viridian)",
+      "chapter_introduced": "ch04",
+      "chapter_resolvable": "ch04",
+      "is_missable": true,
+      "missable_deadline": "Before Gym 8 / Mt. Ember Archer",
+      "karma_delta": -5,
+      "police_reportable": true,
+      "police_officer_location": "Celadon City Police Station",
+      "police_reward_karma": 10,
+      "unlocks_quest": "q_pinkan_island_police",
+      "rewards": [
+        "Scraggy (Rocket) OR +10 Karma & Diancie Police Path (Officer Jenny report)"
+      ],
+      "objectives": [
+        "Meet the Pokémon collector on Route 22.",
+        "UNDERCOVER INFORMANT PATH: Report the illegal trafficker to the Celadon police officer to gain +10 Karma."
+      ]
+    },
+    {
+      "id": "q_pinkan_island_police",
+      "title": "Pinkan Island Police Raid",
+      "type": "Field",
+      "region": "Johto",
+      "location": "Goldenrod City Police Department",
+      "chapter_introduced": "ch09",
+      "chapter_resolvable": "ch09",
+      "is_missable": false,
+      "missable_deadline": null,
+      "karma_delta": 1,
+      "police_reportable": false,
+      "rewards": [
+        "Mythical Diancie Encounter (Catchable)"
+      ],
+      "objectives": [
+        "Available if you reported Rocket crimes to the police during Cerulean or Celadon missions.",
+        "Join forces with Officer Jenny to raid Team Rocket's operation on Pinkan Island.",
+        "Rescue the island and encounter Mythical Diancie."
+      ]
+    }
+  ]
+}

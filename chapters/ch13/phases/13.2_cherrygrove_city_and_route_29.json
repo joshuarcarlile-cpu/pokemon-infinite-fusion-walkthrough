@@ -1,0 +1,40 @@
+{
+  "name": "Cherrygrove City & Route 29",
+  "summary": "Arrive in scenic Cherrygrove City along the southern coast. Surf across the southwestern inlet to an isolated sandy islet to claim the Mystic Water boost item. Restock your supplies at the Cherrygrove Mart with Level Balls and medicine. Then travel east along peaceful Route 29, encountering wild Jumpluff, Ledian, and Ambipom as you approach the boundary of New Bark Town.",
+  "items": [
+    {
+      "name": "Mystic Water",
+      "method": "Surf across the southwest coastal inlet in Cherrygrove City onto the isolated sand islet",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Level Ball",
+      "method": "Purchased at the Cherrygrove City Mart",
+      "type": "Poké Ball"
+    },
+    {
+      "name": "Super Potion",
+      "method": "Found tucked behind the Cherrygrove Pokémon Center shrubs",
+      "type": "Medicine"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Bird Keeper Toby",
+      "team": [
+        {"species": "Spearow/Fearow", "level": 50, "types": ["Normal", "Flying"]},
+        {"species": "Doduo", "level": 51, "types": ["Normal", "Flying"]}
+      ]
+    }
+  ],
+  "encounters": {
+    "Route 29 Tall Grass": [
+      {"dex_id": "189", "name": "Jumpluff", "types": ["Grass", "Flying"], "levels": "44-46", "rates": "25%"},
+      {"dex_id": "254", "name": "Ambipom", "types": ["Normal"], "levels": "45", "rates": "20%"},
+      {"dex_id": "166", "name": "Ledian", "types": ["Bug", "Flying"], "levels": "44-48", "rates": "20%"},
+      {"dex_id": "022", "name": "Fearow", "types": ["Normal", "Flying"], "levels": "42-44", "rates": "15%"},
+      {"dex_id": "017", "name": "Pidgeotto", "types": ["Normal", "Flying"], "levels": "36-44", "rates": "10%"},
+      {"dex_id": "164", "name": "Noctowl", "types": ["Normal", "Flying"], "levels": "42-44", "rates": "10% (Night)"}
+    ]
+  }
+}

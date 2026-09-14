@@ -1,0 +1,43 @@
+{
+  "name": "Silph Co. Lower Floors (1F–5F)",
+  "summary": "Infiltrate the 11-story headquarters of the Silph Company, currently occupied by Team Rocket forces. Navigate through the lower floors, battling corrupt Scientists and Rocket Grunts. Reach 5F to defeat Rocket Ricky and secure the all-important Card Key, unlocking every security gate across the complex.",
+  "items": [
+    {
+      "name": "Card Key",
+      "method": "Ground pickup in the southern hallway of 5F past Rocket Ricky",
+      "type": "Key Item"
+    },
+    {
+      "name": "TM107 Play Rough",
+      "method": "On the floor in the 4F staff recreation room",
+      "type": "TM"
+    },
+    {
+      "name": "DNA Splicers",
+      "method": "Hidden inside a decorative flower pot on 2F near the stairwell",
+      "type": "Consumable"
+    },
+    {
+      "name": "Protein",
+      "method": "In the western 5F storage locker unlocked using the Card Key",
+      "type": "Consumable"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Scientist Connor",
+      "team": [
+        {"species": "Magnemite", "level": 37, "types": ["Electric", "Steel"]},
+        {"species": "Voltorb", "level": 37, "types": ["Electric"]}
+      ]
+    },
+    {
+      "name": "Team Rocket Ricky",
+      "team": [
+        {"species": "Arbok", "level": 38, "types": ["Poison"]},
+        {"species": "Koffing", "level": 38, "types": ["Poison"]}
+      ]
+    }
+  ],
+  "encounters": {}
+}

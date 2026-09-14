@@ -1,0 +1,60 @@
+{
+  "chapter_id": "ch16",
+  "title": "Act 2 - Chapter 7: Route 44, Ice Mountains & Blackthorn City (Clair & Rising Badge)",
+  "act": 2,
+  "hard_mode_level_cap": 68,
+  "gym_duel_limit": 5,
+  "routes_covered": [
+    "Route 44",
+    "Ice Mountains",
+    "Blackthorn City"
+  ],
+  "expected_classic_spawns": [
+    "Bellsprout",
+    "Delibird",
+    "Donphan",
+    "Dragonair",
+    "Dragonite",
+    "Dratini",
+    "Froslass",
+    "Gible",
+    "Glaceon",
+    "Glalie",
+    "Gligar",
+    "Graveler",
+    "Lickilicky",
+    "Lickitung",
+    "Magikarp",
+    "Piloswine",
+    "Poliwag",
+    "Poliwhirl",
+    "Remoraid",
+    "Skarmory",
+    "Sneasel",
+    "Snorunt",
+    "Swinub",
+    "Tangela",
+    "Tangrowth",
+    "Ursaring",
+    "Weavile",
+    "Weepinbell"
+  ],
+  "prohibited_spawns": [
+    "Beldum",
+    "Torchic",
+    "Mudkip",
+    "Treecko",
+    "Chimchar",
+    "Piplup",
+    "Turtwig",
+    "Mewtwo",
+    "Moltres",
+    "Zapdos",
+    "Articuno"
+  ],
+  "required_starters": [
+    "Bulbasaur",
+    "Charmander",
+    "Squirtle"
+  ]
+}

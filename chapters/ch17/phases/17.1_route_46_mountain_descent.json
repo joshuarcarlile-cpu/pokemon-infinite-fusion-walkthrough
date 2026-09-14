@@ -1,0 +1,35 @@
+{
+  "name": "Route 46 Mountain Descent",
+  "summary": "Descend the rocky mountain switchbacks of Route 46 south from the Blackthorn City gate. The trail is dominated by Rock/Ground-type Graveler (50% encounter rate) alongside Ground/Flying Gligar, powerful Donphan, swooping Fearow, and the rare Wigglytuff. A formidable static Slaking Lv. 45 blocks the lower pass — defeat or capture it to continue. Collect a Max Potion near the gate and TM12 Taunt tucked in the north-west corner of the route. Note: Route 46 requires the Waterfall HM Replacement tool to fully explore, which is obtained later in New Bark Town from Prof. Elm.",
+  "items": [
+    {
+      "name": "Max Potion",
+      "method": "Found on the ground near the Route 46 gate entrance",
+      "type": "Medicine"
+    },
+    {
+      "name": "TM12 Taunt",
+      "method": "Found on the ground near the north-west corner of Route 46",
+      "type": "TM"
+    }
+  ],
+  "trainers": [],
+  "encounters": {
+    "Route 46 Tall Grass (Classic)": [
+      {"dex_id": "075", "name": "Graveler", "types": ["Rock", "Ground"], "levels": "50", "rates": "50%"},
+      {"dex_id": "022", "name": "Fearow", "types": ["Normal", "Flying"], "levels": "44-49", "rates": "15%"},
+      {"dex_id": "207", "name": "Gligar", "types": ["Ground", "Flying"], "levels": "45-50", "rates": "15%"},
+      {"dex_id": "232", "name": "Donphan", "types": ["Ground"], "levels": "50", "rates": "15%"},
+      {"dex_id": "040", "name": "Wigglytuff", "types": ["Normal", "Fairy"], "levels": "50", "rates": "5%"}
+    ]
+  },
+  "static_encounters": [
+    {
+      "species": "Slaking",
+      "level": 45,
+      "types": ["Normal"],
+      "location": "Blocking the lower pass on Route 46",
+      "notes": "Powerful 670 BST Normal-type with Truant ability (attacks every other turn). Save before engaging — excellent fusion body candidate. Can be captured in a Quick Ball on Turn 1 while Truant wastes its first action."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Route 5 & Underground Path",
+  "summary": "Traveling south from Cerulean City through Route 5. Saffron City's northern gate is blocked by thirsty guards, requiring passage through the Underground Path directly to Route 6.",
+  "items": [
+    {
+      "name": "Destiny Knot",
+      "method": "On the table in the back room of the Pokémon Day Care",
+      "type": "Key Item"
+    },
+    {
+      "name": "Revive",
+      "method": "By the tall grass north of the Underground Path entrance",
+      "type": "Consumable"
+    },
+    {
+      "name": "Lava Cookie",
+      "method": "Given by Socialite Mathilda after defeat",
+      "type": "Consumable"
+    },
+    {
+      "name": "Full Incense",
+      "method": "Upstairs table in the Pokémon Day Care (random incense roll)",
+      "type": "Hold Item"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Breeder Maude",
+      "team": [
+        {
+          "species": "Pidgey",
+          "level": 17,
+          "types": ["Normal", "Flying"]
+        },
+        {
+          "species": "Cleffa",
+          "level": 17,
+          "types": ["Fairy"]
+        },
+        {
+          "species": "Igglybuff",
+          "level": 17,
+          "types": ["Normal", "Fairy"]
+        }
+      ]
+    },
+    {
+      "name": "Socialite Mathilda",
+      "team": [
+        {
+          "species": "Meowth",
+          "level": 19,
+          "types": ["Normal"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Grass": [
+      {"dex_id": "016", "name": "Pidgey", "types": ["Normal", "Flying"], "levels": "13-16", "rates": "25% Day / Morning"},
+      {"dex_id": "019", "name": "Rattata", "types": ["Normal"], "levels": "13-16", "rates": "20% All Times"},
+      {"dex_id": "052", "name": "Meowth", "types": ["Normal"], "levels": "13-16", "rates": "20% All Times"},
+      {"dex_id": "043", "name": "Oddish", "types": ["Grass", "Poison"], "levels": "13-16", "rates": "15% Night / Day"},
+      {"dex_id": "069", "name": "Bellsprout", "types": ["Grass", "Poison"], "levels": "13-16", "rates": "15% Morning / Day"}
+    ]
+  },
+  "navigation_notes": "The Saffron City gatekeeper demands a drink and will not permit entry. Enter the Underground Path building to bypass Saffron and proceed directly to Route 6. Pick up the Destiny Knot inside the Day Care for future breeding."
+}

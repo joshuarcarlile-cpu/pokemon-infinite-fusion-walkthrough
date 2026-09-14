@@ -1,0 +1,105 @@
+{
+  "leader": "Lt. Surge",
+  "title": "Vermilion City Gym Leader",
+  "badge": "Thunder Badge",
+  "hard_mode_level_cap": 29,
+  "gym_duel_limit": 3,
+  "recommended_party_level": 28,
+  "gym_trainers": [
+    {
+      "name": "Gentleman Tucker",
+      "team": [
+        {
+          "species": "Magnemite/Machop",
+          "level": 26,
+          "types": ["Electric", "Fighting"],
+          "moves": ["Spark", "Karate Chop", "Sonic Boom", "Thunder Wave"]
+        }
+      ]
+    },
+    {
+      "name": "Sailor Dwayne",
+      "team": [
+        {
+          "species": "Pikachu/Seel",
+          "level": 22,
+          "types": ["Electric", "Water"],
+          "moves": ["Spark", "Water Gun", "Icy Wind", "Headbutt"]
+        }
+      ]
+    },
+    {
+      "name": "Engineer Baily",
+      "team": [
+        {
+          "species": "Voltorb/Oddish",
+          "level": 24,
+          "types": ["Electric", "Grass"],
+          "moves": ["Spark", "Mega Drain", "Acid", "Light Screen"]
+        },
+        {
+          "species": "Voltorb/Bellsprout",
+          "level": 24,
+          "types": ["Electric", "Grass"],
+          "moves": ["Spark", "Vine Whip", "Wrap", "Screech"]
+        }
+      ]
+    }
+  ],
+  "leader_team": [
+    {
+      "species": "Voltorb/Krabby",
+      "level": 27,
+      "types": ["Electric", "Water"],
+      "ability": "Static",
+      "held_item": "Magnet",
+      "moves": [
+        "Spark",
+        "Bubble",
+        "Metal Claw",
+        "Light Screen"
+      ]
+    },
+    {
+      "species": "Pikachu/Diglett",
+      "level": 27,
+      "types": ["Electric", "Ground"],
+      "ability": "Static",
+      "held_item": "Magnet",
+      "moves": [
+        "Thunder Shock",
+        "Mud-Slap",
+        "Quick Attack",
+        "Sand Attack"
+      ]
+    },
+    {
+      "species": "Raichu/Electabuzz",
+      "level": 29,
+      "types": ["Electric"],
+      "ability": "Static",
+      "is_ace": true,
+      "held_item": "Sitrus Berry",
+      "moves": [
+        "Thunder Punch",
+        "Thunder Wave",
+        "Quick Attack",
+        "Double Team"
+      ]
+    }
+  ],
+  "threat_analysis": "Lt. Surge's Classic Hard Mode team is a high-voltage blitz designed around paralysis attrition and physical speed. His lead, Voltorb/Krabby (Lv. 27), combines Krabby's high base Attack (80) with Electric STAB Spark and Water coverage to threaten Ground switch-ins. Pikachu/Diglett (Lv. 27) possesses blazing 93 base Speed, Ground STAB Mud-Slap to lower accuracy, and total immunity to Electric attacks. His Ace, Raichu/Electabuzz (Lv. 29), is an apex sweeper (480 BST, 106 Speed, 91 SpA, 85 Atk) holding a Sitrus Berry: it opens with Thunder Wave to quarter your Speed, stacks Double Team evasion, and executes lethal Magnet-boosted Thunder Punches.",
+  "tactical_counter_plan": [
+    "Ground Immunity is Paramount: Catch a Diglett or Dugtrio in Diglett's Cave (levels 15-22). Ground typing grants 100% immunity to Surge's primary Electric STAB (Spark, Thunder Shock, Thunder Wave, Thunder Punch), completely neutering Raichu/Electabuzz and shutting down Static triggers.",
+    "Bulbasaur Team Strategy: Ivysaur resists both Electric and Water, taking minimal damage from Voltorb/Krabby. Use Sleep Powder to shut down Raichu/Electabuzz before it stacks Double Team evasion, then plant Leech Seed. Fuse Dugtrio or Geodude with Ivysaur or support with a Ground/Grass wall.",
+    "Charmander Team Strategy: Charmeleon is vulnerable to Voltorb/Krabby's Water coverage. Splicing Charmeleon or a Mankey/Primeape with Diglett creates a high-speed Ground/Fighting or Ground/Fire offensive breaker that outspeeds Surge and hits back with super-effective Magnitude or Dig.",
+    "Squirtle Team Strategy: DO NOT send pure Wartortle into Electric STAB. Fuse Wartortle with a Ground type (Geodude or Diglett) to gain Electric immunity while preserving massive Shell Armor / Torrent bulk. Wartortle's Water STAB easily washes away Pikachu/Diglett.",
+    "Status Management: Equip your lead duelists with Cheri Berries (or Lum Berries) to absorb the initial Thunder Wave or Static paralysis proc without losing tempo."
+  ],
+  "rewards": [
+    "Thunder Badge (Enables move Teleport to act as Fly fast-travel outside battle, boosts Pokémon Speed by 10%)",
+    "TM73 (Spark)",
+    "Surge Sunglasses (Trainer Outfit)",
+    "2x Premium Wonder Trade Tickets"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Goldenrod Gym (Plain Badge Duel)",
+  "summary": "Enter the floral corridors of the Goldenrod Gym. Collect your complimentary Poké Doll from the greeter, solve the Pokémon counting puzzle, and challenge Gym Leader Whitney to an intense 5v5 showdown for the Plain Badge under the Level 62 cap.",
+  "items": [
+    {
+      "name": "Poké Doll",
+      "method": "Gifted by the gym usher upon crossing the entrance threshold",
+      "type": "Battle Item"
+    },
+    {
+      "name": "Plain Badge",
+      "method": "Awarded by Gym Leader Whitney upon defeat (unlocks the use of Strength outside battle)",
+      "type": "Key Item"
+    },
+    {
+      "name": "TM45 Attract",
+      "method": "Gift from Whitney following the battle once she stops crying",
+      "type": "TM"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Lass Cathy",
+      "team": [
+        {"species": "Snubbull/Jigglypuff", "level": 51, "types": ["Fairy", "Normal"]},
+        {"species": "Granbull/Wigglytuff", "level": 53, "types": ["Fairy", "Normal"]}
+      ]
+    },
+    {
+      "name": "Beauty Victoria",
+      "team": [
+        {"species": "Sentret/Clefairy", "level": 52, "types": ["Normal", "Fairy"]},
+        {"species": "Furret/Clefable", "level": 54, "types": ["Normal", "Fairy"]}
+      ]
+    }
+  ],
+  "encounters": {}
+}

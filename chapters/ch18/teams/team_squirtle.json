@@ -1,0 +1,128 @@
+{
+  "starter": "Squirtle",
+  "name": "Team Squirtle: Sevii Tides Vanguard",
+  "archetype": "Sevii archipelago traversal — Water/Flying aerial anchor, Electric/Ground speed sweeping, Ice fortress coverage, Intimidate Fighting wallbreaking, and Levitate Ground immunity.",
+  "gym_duel_core": [1, 2, 3, 4, 5, 6],
+  "gym_duel_rationale": "No gym battle in Chapter 18. All six party members train and travel together in full 6-member route configuration, exploring Knot Island, Treasure Beach, Kindle Road, and Mt. Ember under the Level 72 cap.",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Blastoise/Fearow",
+      "types": ["Water", "Flying"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 72,
+      "ability": "Torrent",
+      "held_item": "Mystic Water",
+      "role": "Starter Anchor & Aerial Water Sweeper",
+      "current_reached_moveset": [
+        "Hydro Pump",
+        "Drill Peck",
+        "Roost",
+        "Protect"
+      ],
+      "progression_notes": "486 BST starter hybrid elevated to Cap 72. STAB Hydro Pump douses Mt. Ember's volcanic Fire and Rock spawns. Drill Peck cleanly dispatches Fighting and Bug threats. Roost provides infinite overworld recovery."
+    },
+    {
+      "slot": 2,
+      "species": "Jolteon/Sandslash",
+      "types": ["Electric", "Ground"],
+      "status": "Active in Party (Retained from Ch 17)",
+      "current_level": 71,
+      "ability": "Volt Absorb",
+      "held_item": "Magnet",
+      "role": "Electric/Ground Speed Cannon",
+      "current_reached_moveset": [
+        "Discharge",
+        "Earthquake",
+        "Pin Missile",
+        "Swords Dance"
+      ],
+      "progression_notes": "486 BST speed sweeper. STAB Discharge dominates ocean water encounters (Tentacruel, Gyarados). STAB Earthquake annihilates Mt. Ember's Fire and Poison foes."
+    },
+    {
+      "slot": 3,
+      "species": "Lapras",
+      "types": ["Water", "Ice"],
+      "status": "Active in Party (Retained from Ch 17)",
+      "current_level": 71,
+      "ability": "Water Absorb",
+      "held_item": "Never-Melt Ice",
+      "role": "Ice Coverage & Special Wall",
+      "current_reached_moveset": [
+        "Ice Beam",
+        "Hydro Pump",
+        "Confuse Ray",
+        "Body Slam"
+      ],
+      "progression_notes": "535 BST Water/Ice fortress elevated to Lv. 71. Dual STAB Ice Beam and Hydro Pump provide devastating coverage. Water Absorb completely negates opposing water attacks while surfing."
+    },
+    {
+      "slot": 4,
+      "species": "Arbok/Primeape",
+      "types": ["Poison", "Fighting"],
+      "status": "Active in Party (Retained from Ch 17)",
+      "current_level": 71,
+      "ability": "Intimidate",
+      "held_item": "Black Belt",
+      "role": "Intimidate Fighting Wallbreaker",
+      "current_reached_moveset": [
+        "Close Combat",
+        "Gunk Shot",
+        "Cross Chop",
+        "Glare"
+      ],
+      "progression_notes": "479 BST Intimidate bruiser. Blunts enemy physical Attack on entry. Glare paralyzes fast threats with 100% accuracy. STAB Close Combat destroys Normal and Rock opponents."
+    },
+    {
+      "slot": 5,
+      "species": "Alakazam/Weezing",
+      "types": ["Psychic", "Poison"],
+      "status": "Active in Party (Retained from Ch 17)",
+      "current_level": 71,
+      "ability": "Levitate",
+      "held_item": "Twisted Spoon",
+      "role": "Levitate Ground-Immune Sweeper",
+      "current_reached_moveset": [
+        "Psychic",
+        "Sludge Bomb",
+        "Recover",
+        "Calm Mind"
+      ],
+      "progression_notes": "495 BST Levitate pivot with 118 SpA. Immune to Earthquake and Magnitude via Levitate. STAB Psychic eliminates Kindle Road's Fighting trainers effortlessly."
+    },
+    {
+      "slot": 6,
+      "species": "Snorlax",
+      "types": ["Normal"],
+      "status": "Active in Party (Full Roster Travel)",
+      "current_level": 71,
+      "ability": "Thick Fat",
+      "held_item": "Leftovers",
+      "role": "Route Travel Tank & Sustained Sponge",
+      "current_reached_moveset": [
+        "Body Slam",
+        "Rest",
+        "Sleep Talk",
+        "Crunch"
+      ],
+      "progression_notes": "Colossal 160 HP tank. Thick Fat halves incoming Fire attacks on Mt. Ember. RestTalk loop provides infinite sustain across long island route traversal."
+    }
+  ],
+  "flex_bench": [
+    {
+      "species": "Venusaur",
+      "role": "Chlorophyll Sleep Tank",
+      "rationale": "High-durability Grass/Poison tank packing Leech Seed and Sleep Powder for status control against wild encounters."
+    },
+    {
+      "species": "Gyarados",
+      "role": "Dragon Dance Water Pivot",
+      "rationale": "Intimidate physical pivot and Dragon Dance sweeper with Aqua Tail for Water STAB coverage."
+    },
+    {
+      "species": "Hitmontop",
+      "role": "Technician Rapid Spinner",
+      "rationale": "Technician-boosted Triple Kick and Rapid Spin for tactical versatility across route encounters."
+    }
+  ]
+}

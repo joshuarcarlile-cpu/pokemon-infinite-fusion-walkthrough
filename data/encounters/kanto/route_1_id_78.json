@@ -1,0 +1,84 @@
+{
+  "location": "Route 1 (ID 78)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "016",
+        "name": "Pidgey",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "2-5",
+        "catch_rate": "255",
+        "rates": [
+          "50%",
+          "50%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "019",
+        "name": "Rattata",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "2-5",
+        "catch_rate": "255",
+        "rates": [
+          "45%"
+        ]
+      },
+      {
+        "dex_id": "114",
+        "name": "Tangela",
+        "type1": "Grass",
+        "type2": "",
+        "levels": "2-3",
+        "catch_rate": "45",
+        "rates": [
+          "5%",
+          "5%",
+          "-"
+        ]
+      },
+      {
+        "dex_id": "163",
+        "name": "Hoothoot",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "2-5",
+        "catch_rate": "255",
+        "rates": [
+          "-",
+          "-",
+          "50%"
+        ]
+      },
+      {
+        "dex_id": "258",
+        "name": "Mime Jr.",
+        "type1": "Psychic",
+        "type2": "Fairy",
+        "levels": "2-3",
+        "catch_rate": "145",
+        "rates": [
+          "-",
+          "-",
+          "5%"
+        ]
+      }
+    ],
+    "Pok\u00e9 Radar": [
+      {
+        "dex_id": "417",
+        "name": "Fletchling",
+        "type1": "Normal",
+        "type2": "Flying",
+        "levels": "2-5",
+        "catch_rate": "255",
+        "rates": [
+          "50% <small>([[Pok\u00e9 Radar#How_it_works",
+          "long rustle]])</small>"
+        ]
+      }
+    ]
+  }
+}

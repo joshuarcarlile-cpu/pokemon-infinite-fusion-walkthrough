@@ -1,0 +1,96 @@
+{
+  "title": "Route_5",
+  "url": "https://infinitefusion.fandom.com/wiki/Route_5",
+  "lead_summary": "100,000\n|connection_2_direction=southeast\n|connection_2_location=Underground Paths\n|connection_2_label=Underground Paths (to Route 6)\n|number=5}}This route connects Cerulean City to Saffron City.\nIt also has an underground passage leading to Route 6.",
+  "missable_warnings": [],
+  "items": [
+    {
+      "internal_id": "REVIVE",
+      "quantity": "",
+      "name": "Revive",
+      "location_details": "By the Tall Grass North of the Tunnel Entrance."
+    },
+    {
+      "internal_id": "LAVACOOKIE",
+      "quantity": "",
+      "name": "Lava Cookie",
+      "location_details": "Given by Socialite Mathilda after defeating her."
+    },
+    {
+      "internal_id": "DESTINYKNOT",
+      "quantity": "",
+      "name": "Destiny Knot",
+      "location_details": "On the table in the back room of the Pokémon Day Care."
+    },
+    {
+      "internal_id": "FULLINCENSE",
+      "quantity": "",
+      "name": "Full Incense",
+      "location_details": "On the table upstairs in the Pokémon Day Care. Random 1/9 chance."
+    },
+    {
+      "internal_id": "LAXINCENSE",
+      "quantity": "",
+      "name": "Lax Incense",
+      "location_details": "On the table upstairs in the Pokémon Day Care. Random 1/9 chance."
+    },
+    {
+      "internal_id": "LUCKINCENSE",
+      "quantity": "",
+      "name": "Luck Incense",
+      "location_details": "On the table upstairs in the Pokémon Day Care. Random 1/9 chance."
+    },
+    {
+      "internal_id": "ODDINCENSE",
+      "quantity": "",
+      "name": "Odd Incense",
+      "location_details": "On the table upstairs in the Pokémon Day Care. Random 1/9 chance."
+    },
+    {
+      "internal_id": "PUREINCENSE",
+      "quantity": "",
+      "name": "Pure Incense",
+      "location_details": "On the table upstairs in the Pokémon Day Care. Random 1/9 chance."
+    },
+    {
+      "internal_id": "ROCKINCENSE",
+      "quantity": "",
+      "name": "Rock Incense",
+      "location_details": "On the table upstairs in the Pokémon Day Care. Random 1/9 chance."
+    },
+    {
+      "internal_id": "ROSEINCENSE",
+      "quantity": "",
+      "name": "Rose Incense",
+      "location_details": "On the table upstairs in the Pokémon Day Care. Random 1/9 chance."
+    },
+    {
+      "internal_id": "SEAINCENSE",
+      "quantity": "",
+      "name": "Sea Incense",
+      "location_details": "On the table upstairs in the Pokémon Day Care. Random 1/9 chance."
+    },
+    {
+      "internal_id": "WAVEINCENSE",
+      "quantity": "",
+      "name": "Wave Incense",
+      "location_details": "On the table upstairs in the Pokémon Day Care. Random 1/9 chance."
+    },
+    {
+      "internal_id": "LUNARFEATHER",
+      "quantity": "",
+      "name": "Lunar Feather",
+      "location_details": "On a bed upstairs in the Pokémon Day Care, after collecting one other Lunar Feather."
+    }
+  ],
+  "sections": [
+    "Items",
+    "Outfits",
+    "Pokémon",
+    "Trainers",
+    "Points of Interest",
+    "Pokémon Day Care",
+    "Tunnel"
+  ],
+  "raw_wikitext": "{{GlobalToggles}}\n{{InfoboxLocation\n|region=Kanto\n|location_image=Route05.png\n|map_image=Route_5_Map.png\n|connection_1_direction=north\n|connection_1_location=Cerulean City\n|connection_3_direction=south\n|connection_3_location=Saffron City\n|connection_3_restrictions=Defeat TR in [[Team Rocket Hideout|Celadon]] or pay {{P$}}100,000\n|connection_2_direction=southeast\n|connection_2_location=Underground Paths\n|connection_2_label=Underground Paths (to Route 6)\n|number=5}}This route connects [[Cerulean City]] to [[Saffron City]].\nIt also has an underground passage leading to [[Route 6]].\n\n==Items==\n{{ItemTable/Header}}\n{{ItemTable/Data|REVIVE||Revive|By the Tall Grass North of the Tunnel Entrance.|Revive_Route5.png}}\n{{ItemTable/Data|LAVACOOKIE||Lava Cookie|Given by Socialite Mathilda after defeating her.|LavaCookie_Route5.png}}\n{{ItemTable/Data|DESTINYKNOT||Destiny Knot|On the table in the back room of the Pokémon Day Care.|DestinyKnot_DayCareCenter.png}}\n{{ItemTable/Data|FULLINCENSE||Full Incense|On the table upstairs in the Pokémon Day Care. Random 1/9 chance.|FullIncense_DayCareCenter.png}}\n{{ItemTable/Data|LAXINCENSE||Lax Incense|On the table upstairs in the Pokémon Day Care. Random 1/9 chance.|LaxIncense_DayCareCenter.png}}\n{{ItemTable/Data|LUCKINCENSE||Luck Incense|On the table upstairs in the Pokémon Day Care. Random 1/9 chance.|LuckIncense_DayCareCenter.png}}\n{{ItemTable/Data|ODDINCENSE||Odd Incense|On the table upstairs in the Pokémon Day Care. Random 1/9 chance.|OddIncense_DayCareCenter.png}}\n{{ItemTable/Data|PUREINCENSE||Pure Incense|On the table upstairs in the Pokémon Day Care. Random 1/9 chance.|PureIncense_DayCareCenter.png}}\n{{ItemTable/Data|ROCKINCENSE||Rock Incense|On the table upstairs in the Pokémon Day Care. Random 1/9 chance.|RockIncense_DayCareCenter.png}}\n{{ItemTable/Data|ROSEINCENSE||Rose Incense|On the table upstairs in the Pokémon Day Care. Random 1/9 chance.|RoseIncense_DayCareCenter.png}}\n{{ItemTable/Data|SEAINCENSE||Sea Incense|On the table upstairs in the Pokémon Day Care. Random 1/9 chance.|SeaIncense_DayCareCenter.png}}\n{{ItemTable/Data|WAVEINCENSE||Wave Incense|On the table upstairs in the Pokémon Day Care. Random 1/9 chance.|WaveIncense_DayCareCenter.png}}\n{{ItemTable/Data|LUNARFEATHER||Lunar Feather|On a bed upstairs in the Pokémon Day Care, after collecting one other Lunar Feather.|}}\n{{ItemTable/Footer}}\n\n==Outfits==\n{{ItemTable/Header|Outfit}}\n{{ItemTable/Data/Outfit|hat|breedervisor||Given by the Pokémon Breeder in the Pokémon Day Care, after hatching eggs 5 times or more.}}\n{{ItemTable/Data/Outfit|hat|breederbandana||Given by the Pokémon Breeder in the Pokémon Day Care, after hatching eggs 15 times or more.}}\n{{ItemTable/Data/Outfit|hat|PKMBreeder||Given by the Pokémon Breeder in the Pokémon Day Care, after hatching eggs 15 times or more.}}\n{{ItemTable/Data/Outfit|clothes|PKMBreeder||Given by the Pokémon Breeder in the Pokémon Day Care, after hatching eggs 30 times or more.}}\n{{ItemTable/Data/Outfit|hat|egg||Given by the Pokémon Breeder in the Pokémon Day Care, after hatching eggs 50 times or more.}}\n{{ItemTable/Footer/Outfit}}\n\n==Pokémon==\n<!-----------------------------------!>\n<!-- CLASSIC & EXPERT MODE POKÉMON --!>\n<!------------------------------------>\n<div class=\"classic-mode expert-mode\">\n{{EncounterTable/Header/Time}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|016|Pidgey|Normal|Flying|13-16|255|35%|35%|-}}\n{{EncounterTable/Data|019|Rattata|Normal||13-16|255|-|-|15%}}\n{{EncounterTable/Data|039|Jigglypuff|Normal|Fairy|12|170|-|10%|-}}\n{{EncounterTable/Data|041|Zubat|Poison|Flying|13-16|255|-|-|30%}}\n{{EncounterTable/Data|043|Oddish|Grass|Poison|13-16|255|15%|15%|30%}}\n{{EncounterTable/Data|052|Meowth|Normal||10-16|255|35%|20%|25%}}\n{{EncounterTable/Data|069|Bellsprout|Grass|Poison|13-16|255|15%|15%|-}}\n{{EncounterTable/Data|216|Teddiursa|Normal||7|120|-|5%|-}}\n{{EncounterTable/Section|Poké Radar}}\n{{EncounterTable/Data|175|Togepi|Fairy||10|190|50% <small>([[Poké Radar#How_it_works|long rustle]])</small>}}\n{{EncounterTable/Section|Gift (Pokémon Breeder Maude)}}\n{{EncounterTable/Data|261.72|Mantyke/Tentacool|Water|Poison|Egg|Gift|25%}}\n{{EncounterTable/Data|174.177|Igglybuff/Natu|Normal|Flying|Egg|Gift|25%}}\n{{EncounterTable/Data|173.216|Cleffa/Teddiursa|Fairy|Normal|Egg|Gift|25%}}\n{{EncounterTable/Data|209.206|Snubbull/Dunsparce|Fairy|Normal|Egg|Gift|25%}}\n{{EncounterTable/Section|Gift (Nursery, 1st Egg)}}\n{{EncounterTable/Data|175|Togepi|Fairy||Egg|Gift|One}}\n{{EncounterTable/Section|Gift (Nursery, 2nd Egg)}}\n{{EncounterTable/Data|252|Azurill|Normal|Fairy|Egg|Choice (Blue)|One}}\n{{EncounterTable/Data|172|Pichu|Electric||Egg|Choice (Yellow)|One}}\n{{EncounterTable/Data|173|Cleffa|Fairy||Egg|Choice (Pink)|50%}}\n{{EncounterTable/Data|174|Igglybuff|Normal|Fairy|Egg|Choice (Pink)|50%}}\n{{EncounterTable/Section|Gift (Nursery, 3rd Egg)}}\n{{EncounterTable/Data|257|Bonsly|Rock||Egg|Choice (Brown)|One}}\n{{EncounterTable/Data|261|Mantyke|Water|Flying|Egg|Choice (Blue)|One}}\n{{EncounterTable/Data|259|Happiny|Normal||Egg|Choice (Pink)|One}}\n{{EncounterTable/Section|Gift (Nursery, 4th Egg)}}\n{{EncounterTable/Data|239|Elekid|Electric||Egg|Choice (Yellow)|One}}\n{{EncounterTable/Data|240|Magby|Fire||Egg|Choice (Red)|One}}\n{{EncounterTable/Data|238|Smoochum|Ice|Psychic|Egg|Choice (Pink)|One}}\n{{EncounterTable/Section|Trade}}\n{{EncounterTable/Data|060|Poliwag|Water||Same as Traded|Rattata|One}}\n{{EncounterTable/Footer/Time}}\n</div>\n<!------------------------!>\n<!-- REMIX MODE POKÉMON --!>\n<!------------------------->\n<div class=\"remix-mode\">\n{{EncounterTable/Header/Time}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|001|Bulbasaur|Grass|Poison|8-12|45|1%}}\n{{EncounterTable/Data|052|Meowth|Normal||12-15|255|10%|10%|-}}\n{{EncounterTable/Data|174|Igglybuff|Normal|Fairy|12|170|-|10%|-}}\n{{EncounterTable/Data|177|Natu|Psychic|Flying|13-16|190|20%|20%|-}}\n{{EncounterTable/Data|198|Murkrow|Dark|Flying|13-16|30|-|-|30%}}\n{{EncounterTable/Data|204|Pineco|Bug||13-16|190|29%|19%|-}}\n{{EncounterTable/Data|327|Honedge|Steel|Ghost|13-16|222|-|-|14%}}\n{{EncounterTable/Data|402|Drifloon|Ghost|Flying|10-16|125|-|-|25%}}\n{{EncounterTable/Data|404|Shroomish|Grass||13-14|255|20%|20%|-}}\n{{EncounterTable/Data|432|Oricorio|Psychic|Flying|10-16|45|20%|20%|-}}\n{{EncounterTable/Data|434|Trubbish|Poison||13-16|190|-|-|20%}}\n{{EncounterTable/Data|476|Fomantis|Grass||13-15|190|-|-|10%}}\n{{EncounterTable/Section|Poké Radar}}\n{{EncounterTable/Data|175|Togepi|Fairy||10|190|50% <small>([[Poké Radar#How_it_works|long rustle]])</small>}}\n{{EncounterTable/Section|Gift (Pokémon Breeder Maude)}}\n{{EncounterTable/Data|261.72|Mantyke/Tentacool|Water|Poison|Egg|Gift|25%}}\n{{EncounterTable/Data|174.177|Igglybuff/Natu|Normal|Flying|Egg|Gift|25%}}\n{{EncounterTable/Data|173.216|Cleffa/Teddiursa|Fairy|Normal|Egg|Gift|25%}}\n{{EncounterTable/Data|209.206|Snubbull/Dunsparce|Fairy|Normal|Egg|Gift|25%}}\n{{EncounterTable/Section|Gift (Nursery, 1st Egg)}}\n{{EncounterTable/Data|175|Togepi|Fairy||Egg|Gift|One}}\n{{EncounterTable/Section|Gift (Nursery, 2nd Egg)}}\n{{EncounterTable/Data|252|Azurill|Normal|Fairy|Egg|Choice (Blue)|One}}\n{{EncounterTable/Data|172|Pichu|Electric||Egg|Choice (Yellow)|One}}\n{{EncounterTable/Data|173|Cleffa|Fairy||Egg|Choice (Pink)|50%}}\n{{EncounterTable/Data|174|Igglybuff|Normal|Fairy|Egg|Choice (Pink)|50%}}\n{{EncounterTable/Section|Gift (Nursery, 3rd Egg)}}\n{{EncounterTable/Data|257|Bonsly|Rock||Egg|Choice (Brown)|One}}\n{{EncounterTable/Data|261|Mantyke|Water|Flying|Egg|Choice (Blue)|One}}\n{{EncounterTable/Data|259|Happiny|Normal||Egg|Choice (Pink)|One}}\n{{EncounterTable/Section|Gift (Nursery, 4th Egg)}}\n{{EncounterTable/Data|239|Elekid|Electric||Egg|Choice (Yellow)|One}}\n{{EncounterTable/Data|240|Magby|Fire||Egg|Choice (Red)|One}}\n{{EncounterTable/Data|238|Smoochum|Ice|Psychic|Egg|Choice (Pink)|One}}\n{{EncounterTable/Section|Trade}}\n{{EncounterTable/Data|060|Poliwag|Water||Same as Traded|Rattata|One}}\n{{EncounterTable/Footer/Time}}\n</div>\n\n==Trainers==\n{{Trainer\n| trainerClass=POKEMONBREEDER\n| name=Maude\n| trainerOverworldSprite=BW028.png\n| postBattleAction=Gives a random Pokémon Egg of <span style=\"display: inline-block;\">{{PokeIcon|261|72}}{{#invoke:PokeHelper|name|261|72}},</span> <span style=\"display: inline-block;\">{{PokeIcon|174|177}}{{#invoke:PokeHelper|name|174|177}},</span> <span style=\"display: inline-block;\">{{PokeIcon|173|216}}{{#invoke:PokeHelper|name|173|216}}</span> or <span style=\"display: inline-block;\">{{PokeIcon|209|206}}{{#invoke:PokeHelper|name|209|206}}</span>\n| pokemon1=175\n| pokemon1Level=12\n| pokemon2=175\n| pokemon2Level=12\n| pokemon3=240.239\n| pokemon3Level=15\n| remixPokemon1=4.102\n| remixPokemon1Level=12\n| remixPokemon2=461.158\n| remixPokemon2Level=12\n| remixPokemon3=276.52\n| remixPokemon3Level=12\n| remixPokemon4=60.95\n| remixPokemon4Level=15\n| expertPokemon1=40\n| expertPokemon1Level=12\n| expertPokemon1Item=EJECTBUTTON\n| expertPokemon1Nature=Adamant\n| expertPokemon1Ability=[[bulbapedia:Cute Charm (Ability)|Cute Charm]]\n| expertPokemon1Move1=Play Rough\n| expertPokemon1Move2=Double-Edge\n| expertPokemon1Move3=Sing\n| expertPokemon1Move4=Water Pulse\n| expertPokemon1IVHP=31\n| expertPokemon1IVAtk=31\n| expertPokemon1IVDef=31\n| expertPokemon1IVSpA=31\n| expertPokemon1IVSpD=31\n| expertPokemon1IVSpe=31\n| expertPokemon1EVHP=252\n| expertPokemon1EVAtk=252\n| expertPokemon1EVDef=6\n| expertPokemon1EVSpA=0\n| expertPokemon1EVSpD=0\n| expertPokemon1EVSpe=0\n| expertPokemon2=56.19\n| expertPokemon2Level=15\n| expertPokemon2Item=FLAMEORB\n| expertPokemon2Nature=Adamant\n| expertPokemon2Ability=[[bulbapedia:Guts (Ability)|Guts]]\n| expertPokemon2Move1=Quick Attack\n| expertPokemon2Move2=Pursuit\n| expertPokemon2Move3=Karate Chop\n| expertPokemon2Move4=Frustration\n| expertPokemon2IVHP=31\n| expertPokemon2IVAtk=31\n| expertPokemon2IVDef=31\n| expertPokemon2IVSpA=31\n| expertPokemon2IVSpD=31\n| expertPokemon2IVSpe=31\n| expertPokemon2EVHP=6\n| expertPokemon2EVAtk=252\n| expertPokemon2EVDef=0\n| expertPokemon2EVSpA=0\n| expertPokemon2EVSpD=0\n| expertPokemon2EVSpe=252\n| expertPokemon3=35.35\n| expertPokemon3Level=12\n| expertPokemon3Item=QUICKCLAW\n| expertPokemon3Nature=Timid\n| expertPokemon3Ability=[[bulbapedia:Magic Guard (Ability)|Magic Guard]]\n| expertPokemon3Move1=Disarming Voice\n| expertPokemon3Move2=Magical Leaf\n| expertPokemon3Move3=Charm\n| expertPokemon3Move4=Sweet Kiss\n| expertPokemon3IVHP=31\n| expertPokemon3IVAtk=31\n| expertPokemon3IVDef=31\n| expertPokemon3IVSpA=31\n| expertPokemon3IVSpD=31\n| expertPokemon3IVSpe=31\n| expertPokemon3EVHP=6\n| expertPokemon3EVAtk=0\n| expertPokemon3EVDef=0\n| expertPokemon3EVSpA=252\n| expertPokemon3EVSpD=0\n| expertPokemon3EVSpe=252\n}}\n\n{{Trainer\n| trainerClass=SOCIALITE\n| name=Mathilda\n| trainerOverworldSprite=BW (56).png\n| postBattleAction=Gives {{ItemIcon|LAVACOOKIE}} {{#invoke:ItemHelper|name|LAVACOOKIE}} x1\n| pokemon1=54.37\n| pokemon1Level=16\n| remixPokemon1=394.133\n| remixPokemon1Level=14\n| remixPokemon2=438.165\n| remixPokemon2Level=15\n| expertPokemon1=401.354\n| expertPokemon1Level=16\n| expertPokemon1Item=ORANBERRY\n| expertPokemon1Nature=Adamant\n| expertPokemon1Ability=[[bulbapedia:Cute Charm (Ability)|Cute Charm]]\n| expertPokemon1Move1=Return\n| expertPokemon1Move2=Leech Seed\n| expertPokemon1Move3=Mega Drain\n| expertPokemon1Move4=Quick Attack\n| expertPokemon1IVHP=31\n| expertPokemon1IVAtk=31\n| expertPokemon1IVDef=31\n| expertPokemon1IVSpA=31\n| expertPokemon1IVSpD=31\n| expertPokemon1IVSpe=31\n| expertPokemon1EVHP=6\n| expertPokemon1EVAtk=252\n| expertPokemon1EVDef=0\n| expertPokemon1EVSpA=0\n| expertPokemon1EVSpD=0\n| expertPokemon1EVSpe=252\n}}\n\n==Points of Interest==\n\n=== Pokémon Day Care===\nThe Pokémon Day Care can be accessed once the player has obtained HM01 and the Cascade Badge.\n\nIn the back room is the Nursery where one of the staff will give the player a Togepi egg. Afterwards, she will offer a choice of 3 other eggs in exchange for certain items, 3 times. First for 5 Pretty Wings, she will give a choice of a blue egg containing an Azurill, a yellow egg with a Pichu, or a pink egg that has either a Cleffa or an Igglybuff. Second for 1 Heart Scale she will give a brown egg containing a Bonsly, a blue egg with a Mantyke or a pink egg that has a Happiny. Finally for 1 Honey she will give a yellow egg containing an Elekid, a red egg containing a Magby, or a pink egg that has a Smoochum.\n\n===Tunnel===\nA [[Underground Paths|tunnel]] that goes under [[Saffron City]] links Route 5 and [[Route 6]].\n\n[[Category:Locations]]\n[[Category:Kanto]]"
+}

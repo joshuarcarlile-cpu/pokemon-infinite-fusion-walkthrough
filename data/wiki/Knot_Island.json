@@ -1,0 +1,57 @@
+{
+  "title": "Knot_Island",
+  "url": "https://infinitefusion.fandom.com/wiki/Knot_Island",
+  "lead_summary": "Knot Island, also known as One Island,  is a town that be accessed from the East by Kindle Road and from the South by Treasure Beach.\nIn the PokéCenter, Bebe and a scientist are looking for a Network Adapter they lost, which can be found in Kindle Road. After helping them, Bebe will give the player the Box Link.",
+  "missable_warnings": [],
+  "items": [
+    {
+      "internal_id": "HEARTSCALE",
+      "quantity": "",
+      "name": "Heart Scale",
+      "location_details": "On shallow water between the beach and the ferry dock."
+    },
+    {
+      "internal_id": "HEARTSCALE",
+      "quantity": "",
+      "name": "Heart Scale",
+      "location_details": "Hidden in a box south of the Triple Battle Lounge."
+    },
+    {
+      "internal_id": "BOXLINK",
+      "quantity": "",
+      "name": "Box Link",
+      "location_details": "Given by Bebe in the Pokémon Center after giving her the Network Adapter."
+    },
+    {
+      "internal_id": "NUGGET",
+      "quantity": "",
+      "name": "Nugget",
+      "location_details": "Exchange 1 Heart Scale in the Pokémon Center."
+    },
+    {
+      "internal_id": "GOLDRING",
+      "quantity": "",
+      "name": "Gold Ring",
+      "location_details": "Exchange 1 Nugget and ₽2,000."
+    },
+    {
+      "internal_id": "PEARLSTRING",
+      "quantity": "",
+      "name": "Pearl String",
+      "location_details": "Exchange 5 Pearls, 1 Escape Rope and ₽10,000."
+    },
+    {
+      "internal_id": "DIAMONDNECKLACE",
+      "quantity": "",
+      "name": "Diamond Necklace",
+      "location_details": "Exchange 1 Diamond, 3 Pearls, 1 Escape Rope and ₽25,000."
+    }
+  ],
+  "sections": [
+    "Items",
+    "Shops",
+    "Pokémon",
+    "Points of Interest"
+  ],
+  "raw_wikitext": "{{GlobalToggles}}\n{{InfoboxLocation\n|region=Sevii Islands\n|location_image=KnotIsland.png\n|map_image=Knot_Island_Map.png\n|has_pokemon_center=1\n|has_pokemart=1\n|connection_1_direction=east\n|connection_1_location=Kindle Road\n|connection_1_restrictions=%surf%\n|connection_2_direction=south\n|connection_2_location=Treasure Beach\n|connection_2_restrictions=%surf%\n}}\n'''Knot Island''', also known as '''One Island''',  is a town that be accessed from the East by [[Kindle Road]] and from the South by [[Treasure Beach]].\n\nIn the PokéCenter, Bebe and a scientist are looking for a Network Adapter they lost, which can be found in Kindle Road. After helping them, Bebe will give the player the Box Link.\n\n==Items==\n{{ItemTable/Header}}\n{{ItemTable/Data|HEARTSCALE||Heart Scale|On shallow water between the beach and the ferry dock.|HeartScale_KnotIsland.png}}\n{{ItemTable/Data|HEARTSCALE||Heart Scale|Hidden in a box south of the Triple Battle Lounge.|HeartScale2_KnotIsland.png}}\n{{ItemTable/Data|BOXLINK||Box Link|Given by Bebe in the Pokémon Center after giving her the Network Adapter.|}}\n{{ItemTable/Data|NUGGET||Nugget|Exchange 1 Heart Scale in the Pokémon Center.|Nugget_KnotIsland.png}}\n{{ItemTable/Section|Jewel Artisan's House}}\n{{ItemTable/Data|GOLDRING||Gold Ring|Exchange 1 Nugget and ₽2,000.|}}\n{{ItemTable/Data|PEARLSTRING||Pearl String|Exchange 5 Pearls, 1 Escape Rope and ₽10,000.|}}\n{{ItemTable/Data|DIAMONDNECKLACE||Diamond Necklace|Exchange 1 Diamond, 3 Pearls, 1 Escape Rope and ₽25,000.|}}\n{{ItemTable/Footer}}\n\n===Shops===\n{{MartTable/Header}}\n{{MartTable/General|Poké Mart (inside Pokémon Center)}}\n{{MartTable/Footer}}\n\n==Pokémon==\n<!-----------------------------------!>\n<!-- CLASSIC & EXPERT MODE POKÉMON --!>\n<!------------------------------------>\n<div class=\"classic-mode expert-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Surf}}\n{{EncounterTable/Data|072|Tentacool|Water|Poison|5-40|190|25%}}\n{{EncounterTable/Data|073|Tentacruel|Water|Poison|35-40|60|5%}}\n{{EncounterTable/Data|222|Corsola|Water|Rock|5-40|60|20%}}\n{{EncounterTable/Data|387|Wailmer|Water||20-35|125|30%}}\n{{EncounterTable/Data|501|Luvdisc|Water||5-30|225|20%}}\n{{EncounterTable/Section|Old Rod}}\n{{EncounterTable/Data|129|Magikarp|Water||10|255|85%}}\n{{EncounterTable/Data|501|Luvdisc|Water||10|225|15%}}\n{{EncounterTable/Section|Good Rod}}\n{{EncounterTable/Data|090|Shellder|Water||20|190|3%}}\n{{EncounterTable/Data|129|Magikarp|Water||20|255|60%}}\n{{EncounterTable/Data|170|Chinchou|Water|Electric|20|190|7%}}\n{{EncounterTable/Data|501|Luvdisc|Water||20|225|30%}}\n{{EncounterTable/Section|Super Rod}}\n{{EncounterTable/Data|090|Shellder|Water||40|190|30%}}\n{{EncounterTable/Data|170|Chinchou|Water|Electric|40|190|60%}}\n{{EncounterTable/Data|171|Lanturn|Water|Electric|40|75|3%}}\n{{EncounterTable/Data|501|Luvdisc|Water||40|225|7%}}\n{{EncounterTable/Section|Gift}}\n{{EncounterTable/Data|330|Pawniard|Dark|Steel|Egg|Heart Scale x 5|One}}\n{{EncounterTable/Data|395|Bagon|Dragon||Egg|Heart Scale x 5|One}}\n{{EncounterTable/Footer}}\n</div>\n<!------------------------!>\n<!-- REMIX MODE POKÉMON --!>\n<!------------------------->\n<div class=\"remix-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Surf}}\n{{EncounterTable/Data|222|Corsola|Water|Rock|5-40|60|20%}}\n{{EncounterTable/Data|387|Wailmer|Water||20-35|125|30%}}\n{{EncounterTable/Data|469|Bruxish|Water|Psychic|5-40|80|45%}}\n{{EncounterTable/Data|485|Froakie|Water||15-17|45|5%}}\n{{EncounterTable/Section|Old Rod}}\n{{EncounterTable/Data|183|Marill|Water|Fairy|10|190|20%}}\n{{EncounterTable/Data|370|Pyukumuku|Water||10|60|15%}}\n{{EncounterTable/Data|474|Wimpod|Bug|Water|10|90|20%}}\n{{EncounterTable/Data|501|Luvdisc|Water||10|225|45%}}\n{{EncounterTable/Section|Good Rod}}\n{{EncounterTable/Data|090|Shellder|Water||20|190|3%}}\n{{EncounterTable/Data|170|Chinchou|Water|Electric|20|190|7%}}\n{{EncounterTable/Data|370|Pyukumuku|Water||20|60|30%}}\n{{EncounterTable/Data|454|Mareanie|Poison|Water|20|190|60%}}\n{{EncounterTable/Section|Super Rod}}\n{{EncounterTable/Data|073|Tentacruel|Water|Poison|40|60|6%}}\n{{EncounterTable/Data|090|Shellder|Water||40|190|30%}}\n{{EncounterTable/Data|171|Lanturn|Water|Electric|40|75|3%}}\n{{EncounterTable/Data|453|Dhelmise|Ghost|Grass|40|25|60%}}\n{{EncounterTable/Data|485|Froakie|Water||1-50|45|1%}}\n{{EncounterTable/Section|Gift}}\n{{EncounterTable/Data|330|Pawniard|Dark|Steel|Egg|Heart Scale x 5|One}}\n{{EncounterTable/Data|395|Bagon|Dragon||Egg|Heart Scale x 5|One}}\n{{EncounterTable/Footer}}\n</div>\n\n==Points of Interest==\n*The house by the beach belongs to the Move Expert, who can teach rare moves to your Pokémons for 2 Heart Scales.\n*There is a Jewel Artisan who can craft '''Gold Ring''', '''Pearlstring''' and '''Diamond necklace''' for a small fee and materials.\n*The [[Triple Battle Lounge]] with daily theme where players can enter for ₽1,000 and have the chance to obtain a random prize.\n*In the PokéCenter are three men who wishes to trade a nugget or pokémon eggs for Heart Scales (one time each).\n**1 Nugget for 1 Heart Scale.\n**1 Pokémon Egg for 5 Heart Scales.\n**1 Pokémon Egg for 5 Heart Scales.\n\n[[Category:Locations]]\n[[Category:Towns]]\n[[Category:Sevii Islands]]"
+}

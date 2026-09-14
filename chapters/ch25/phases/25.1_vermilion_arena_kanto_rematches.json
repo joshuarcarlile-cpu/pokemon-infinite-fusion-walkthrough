@@ -1,0 +1,69 @@
+{
+  "name": "Vermilion City Arena & Kanto Leader Rematches",
+  "summary": "Following your triumph atop Mt. Silver, the Vermilion City Arena opens its doors to the world's most formidable trainers. The 8 Kanto Gym Leaders venture out into the overworld on designated weekly schedules (Brock at Pewter Museum, Misty at Cerulean Cape, Lt. Surge at Vermilion Harbor, Erika in Celadon Greenhouse, Koga in Fuchsia City, Sabrina in Saffron Dojo, Blaine in Cinnabar Lab, and Giovanni at Viridian Gym). Interacting with them registers a formal rematch duel at the Vermilion Arena. Face their upgraded, competitive 6 vs 6 rosters (Levels 80 to 85) featuring competitive hold items and strategic synergy.",
+  "items": [
+    {
+      "name": "Choice Band",
+      "method": "Purchased with battle points from the prize vendor in the Vermilion Arena lounge",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Choice Specs",
+      "method": "Purchased with battle points from the prize vendor in the Vermilion Arena lounge",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Arena Ribbon",
+      "method": "Awarded by the Arena Master upon defeating all 8 Kanto Leaders in rematches",
+      "type": "Ribbon"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Leader Brock (Rematch)",
+      "title": "Gym Leader",
+      "reward": "P10,200",
+      "pokemon": [
+        {
+          "species": "Steelix/Tyranitar",
+          "level": 82,
+          "types": ["Steel", "Rock"]
+        },
+        {
+          "species": "Golem/Aerodactyl",
+          "level": 82,
+          "types": ["Rock", "Flying"]
+        },
+        {
+          "species": "Kabutops/Relicanth",
+          "level": 82,
+          "types": ["Rock", "Water"]
+        },
+        {
+          "species": "Omastar/Carracosta",
+          "level": 82,
+          "types": ["Rock", "Water"]
+        },
+        {
+          "species": "Rampardos/Rhyperior",
+          "level": 83,
+          "types": ["Rock", "Ground"]
+        },
+        {
+          "species": "Onix/Tyranitar",
+          "level": 85,
+          "types": ["Rock", "Dark"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Arena": [
+      {
+        "species": "Kanto Leader Rematches",
+        "levels": "80-85",
+        "rate": "Competitive Overworld Rematches"
+      }
+    ]
+  }
+}

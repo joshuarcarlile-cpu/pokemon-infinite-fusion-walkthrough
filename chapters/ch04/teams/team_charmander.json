@@ -1,0 +1,135 @@
+{
+  "starter": "Charmander",
+  "name": "Team Charmander: Hyper-Offense & Pyrotechnic Dominance",
+  "archetype": "Special Fire/Psychic starter sweeper, sleep-immune Fighting/Ground breaker, and Intimidate aerial pivot.",
+  "gym_duel_core": [1, 2, 3],
+  "gym_duel_rationale": "Erika enforces a strict 3v3 duel. Lead with Charizard/Kadabra (457 BST Fire/Psychic with 112 SpA, 103 Spe, and STAB Flamethrower/Psychic hitting Erika's Grass/Poison rosters). Back with Primeape/Sandslash (457 BST breaker whose Vital Spirit ignores Sleep Powder/Hypnosis) and Gyarados/Fearow (495 BST intimidator with 4x Ice Fang against Grass/Flying threats).",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Charizard/Kadabra",
+      "types": ["Fire", "Psychic"],
+      "status": "Active in Party (Starter Splice)",
+      "current_level": 38,
+      "ability": "Blaze",
+      "held_item": "Charcoal",
+      "role": "Apex Special Sweeper & Gym Duelist",
+      "current_reached_moveset": [
+        "Flamethrower",
+        "Psychic",
+        "Air Slash",
+        "Recover"
+      ],
+      "progression_notes": "Charizard splices with Kadabra. 457 BST with 112 SpA and 103 Speed. Obliterates Erika's grass and poison roster with STAB Flamethrower/Psychic plus Recover sustain."
+    },
+    {
+      "slot": 2,
+      "species": "Primeape/Sandslash",
+      "types": ["Fighting", "Ground"],
+      "status": "Active in Party (Retained from Ch 3)",
+      "current_level": 37,
+      "ability": "Vital Spirit",
+      "held_item": "Soft Sand",
+      "role": "Sleep-Immune Physical Breaker & Gym Duelist",
+      "current_reached_moveset": [
+        "Cross Chop",
+        "Magnitude",
+        "Slash",
+        "Swords Dance"
+      ],
+      "progression_notes": "457 BST physical fortress with 101 Attack and 93 Defense. Vital Spirit completely immunizes against sleep powders while STAB Cross Chop and Magnitude break heavy targets."
+    },
+    {
+      "slot": 3,
+      "species": "Gyarados/Fearow",
+      "types": ["Water", "Flying"],
+      "status": "Active in Party (Fishing & Route 9 Splice)",
+      "current_level": 37,
+      "ability": "Intimidate",
+      "held_item": "Never-Melt Ice",
+      "role": "Intimidate Pivot & Gym Duelist",
+      "current_reached_moveset": [
+        "Ice Fang",
+        "Drill Peck",
+        "Aqua Tail",
+        "Bite"
+      ],
+      "progression_notes": "495 BST with 101 Attack and 93 Speed. Intimidate cripples enemy physical attackers upon entry, while Ice Fang and Drill Peck deal massive super-effective damage."
+    },
+    {
+      "slot": 4,
+      "species": "Dugtrio/Arbok",
+      "types": ["Ground", "Poison"],
+      "status": "Active in Party (Diglett & Route 4 Splice)",
+      "current_level": 37,
+      "ability": "Arena Trap",
+      "held_item": "Black Sludge",
+      "role": "High-Velocity Trapper & Coverage Bruiser",
+      "current_reached_moveset": [
+        "Earthquake",
+        "Crunch",
+        "Ice Fang",
+        "Sucker Punch"
+      ],
+      "progression_notes": "422 BST with 96 Attack and 93 Speed. Arena Trap prevents escapes, while natural 100 BP Earthquake (Lv. 35) and Ice Fang provide wide coverage."
+    },
+    {
+      "slot": 5,
+      "species": "Jolteon/Houndour",
+      "types": ["Electric", "Fire"],
+      "status": "Active in Party (Celadon Gift & Route 7 Splice)",
+      "current_level": 37,
+      "ability": "Volt Absorb",
+      "held_item": "Magnet",
+      "role": "Fast Dual-Elemental Special Cannon",
+      "current_reached_moveset": [
+        "Discharge",
+        "Fire Fang",
+        "Thunder Wave",
+        "Quick Attack"
+      ],
+      "progression_notes": "Gift Eevee evolved with Thunder Stone (Dept Store 4F) and spliced with Route 7 Houndour. 425 BST with 100 SpA and Volt Absorb electric immunity."
+    }
+  ],
+  "flex_bench": [
+    {
+      "slot": "B1",
+      "species": "Bellsprout/Butterfree",
+      "types": ["Grass", "Flying"],
+      "current_level": 36,
+      "ability": "Compound Eyes",
+      "held_item": "Silver Powder",
+      "role": "97.5% Accuracy Sleep Catcher",
+      "why_use": "Retained for wild catches with Compound Eyes 97.5% accurate Sleep Powder."
+    },
+    {
+      "slot": "B2",
+      "species": "Clefairy/Zubat",
+      "types": ["Fairy", "Flying"],
+      "current_level": 36,
+      "ability": "Magic Guard",
+      "held_item": "Silk Scarf",
+      "role": "Magic Guard Hazard Pivot",
+      "why_use": "Magic Guard completely prevents indirect damage, entry hazard chips, and poison ticks."
+    }
+  ],
+  "fusion_lifecycle": {
+    "active_fusions": [
+      "Charizard/Kadabra (457 BST Fire/Psychic with 112 SpA, 103 Spe, and Recover)",
+      "Primeape/Sandslash (457 BST Vital Spirit sleep-immune physical breaker)",
+      "Gyarados/Fearow (495 BST Water/Flying intimidator with Ice Fang and Drill Peck)",
+      "Dugtrio/Arbok (422 BST Ground/Poison trapper with Earthquake and Sucker Punch)",
+      "Jolteon/Houndour (425 BST Electric/Fire dual cannon with Volt Absorb)"
+    ],
+    "unfuse_recommendations": [
+      "1. Celadon Poké Mart: Pay $300 to unfuse Charmeleon/Dugtrio from Chapter 3.",
+      "2. Level Charmeleon to Lv. 36 to evolve into Charizard.",
+      "3. Splice Charizard with Kadabra using Super Splicer for 112 SpA Fire/Psychic STAB and Recover.",
+      "4. Splice Dugtrio with Arbok, and evolve gift Eevee into Jolteon before splicing with Houndour."
+    ],
+    "upcoming_fusions": [
+      "Charizard/Alakazam (Endgame Fire/Psychic titan with Linking Cord)",
+      "Gyarados/Tyranitar (Physical juggernaut)"
+    ]
+  }
+}

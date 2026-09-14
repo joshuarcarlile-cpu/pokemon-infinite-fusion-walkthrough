@@ -1,0 +1,1239 @@
+{
+  "chapter_id": "ch12",
+  "title": "Act 2 - Chapter 3: Union Cave, Route 32 & Violet City (Zephyr Badge)",
+  "act": 2,
+  "hard_mode_level_cap": 63,
+  "gym_duel_limit": 5,
+  "routes_covered": [
+    "Union Cave",
+    "Route 32",
+    "Violet City",
+    "Sprout Tower",
+    "Route 36",
+    "National Park"
+  ],
+  "vanilla_divergence_alerts": [
+    "HM Slaves: 100% eliminated by 9 reusable Key Item tools. Do NOT instruct players to teach field moves to party members.",
+    "Friendship: Eliminated. All friendship evolutions use static level thresholds (e.g. Baby Pokémon evolve at Lv. 15).",
+    "Trade Evolutions: Evolve naturally at Level 40 OR via Linking Cord (not Level 37)."
+  ],
+  "critical_missables": [],
+  "hotel_milestone_target": {},
+  "active_and_ongoing_quests": [],
+  "boss_ground_truth": {
+    "classic": {
+      "leader": "Falkner",
+      "team": [
+        {
+          "species": "B164H178",
+          "level": 58,
+          "moves": [
+            "LUCKYCHANT",
+            "PSYCHIC",
+            "REFLECT",
+            "AIRSLASH"
+          ],
+          "ability_index": 0,
+          "item": "SHARPBEAK"
+        },
+        {
+          "species": "B256H210",
+          "level": 58,
+          "moves": [
+            "ROAR",
+            "FAIRYWIND",
+            "NIGHTSLASH",
+            "FEATHERDANCE"
+          ],
+          "ability_index": 3,
+          "item": "SHARPBEAK"
+        },
+        {
+          "species": "B229H227",
+          "level": 60,
+          "moves": [
+            "FLAMETHROWER",
+            "FAINTATTACK",
+            "STEELWING",
+            "DEFOG"
+          ],
+          "ability_index": 1,
+          "item": "AIRBALLOON"
+        },
+        {
+          "species": "B269H105",
+          "level": 61,
+          "moves": [
+            "BONERUSH",
+            "FOCUSENERGY",
+            "AIRSLASH",
+            "PROTECT"
+          ],
+          "ability_index": 3,
+          "item": "SHARPBEAK"
+        },
+        {
+          "species": "B18H217",
+          "level": 63,
+          "moves": [
+            "WINGATTACK",
+            "FURYSWIPES",
+            "REST",
+            "SCARYFACE"
+          ],
+          "ability_index": 1,
+          "item": "SHARPBEAK"
+        }
+      ],
+      "party_size": 5
+    },
+    "expert": {
+      "leader": "Falkner",
+      "team": [
+        {
+          "species": "B186H374",
+          "level": 63,
+          "moves": [
+            "QUIVERDANCE",
+            "BUGBUZZ",
+            "SURF",
+            "HURRICANE"
+          ],
+          "ability": "DRIZZLE",
+          "item": "SILVERPOWDER",
+          "happiness": 0,
+          "nature": "MODEST",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B149H275",
+          "level": 63,
+          "moves": [
+            "HURRICANE",
+            "EXTREMESPEED",
+            "SURF",
+            "EARTHQUAKE"
+          ],
+          "ability": "ADAPTABILITY",
+          "item": "LIFEORB",
+          "happiness": 0,
+          "nature": "SERIOUS",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 0
+          }
+        },
+        {
+          "species": "B38H353",
+          "level": 65,
+          "moves": [
+            "WEATHERBALL",
+            "SHADOWBALL",
+            "SOLARBEAM",
+            "THUNDERBOLT"
+          ],
+          "ability": "DROUGHT",
+          "item": "CHARCOAL",
+          "happiness": 0,
+          "nature": "MODEST",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 4
+          }
+        },
+        {
+          "species": "B441H6",
+          "level": 65,
+          "moves": [
+            "MOONLIGHT",
+            "FLAMETHROWER",
+            "DRAGONPULSE",
+            "SOLARBEAM"
+          ],
+          "ability": "SOLARPOWER",
+          "item": "LIFEORB",
+          "happiness": 0,
+          "nature": "MODEST",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 0,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 252,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B91H248",
+          "level": 65,
+          "moves": [
+            "STONEEDGE",
+            "ICESHARD",
+            "SHELLSMASH",
+            "EARTHQUAKE"
+          ],
+          "ability": "SANDSTREAM",
+          "item": "WHITEHERB",
+          "happiness": 0,
+          "nature": "ADAMANT",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 4,
+            "ATTACK": 252,
+            "DEFENSE": 0,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 0,
+            "SPEED": 252
+          }
+        },
+        {
+          "species": "B460H113",
+          "level": 67,
+          "moves": [
+            "SHOREUP",
+            "MOONBLAST",
+            "SHADOWBALL",
+            "HYPERVOICE"
+          ],
+          "ability": "SANDVEIL",
+          "item": "EVIOLITE",
+          "happiness": 0,
+          "nature": "MODEST",
+          "iv": {
+            "HP": 31,
+            "ATTACK": 31,
+            "DEFENSE": 31,
+            "SPECIAL_ATTACK": 31,
+            "SPECIAL_DEFENSE": 31,
+            "SPEED": 31
+          },
+          "ev": {
+            "HP": 252,
+            "ATTACK": 0,
+            "DEFENSE": 4,
+            "SPECIAL_ATTACK": 0,
+            "SPECIAL_DEFENSE": 252,
+            "SPEED": 0
+          }
+        }
+      ],
+      "party_size": 6
+    }
+  },
+  "encounters_by_location": {
+    "Union Cave (ID 285)": {
+      "Cave": [
+        {
+          "name": "Raticate",
+          "dex_id": "020",
+          "types": [
+            "Normal"
+          ],
+          "levels": "44"
+        },
+        {
+          "name": "Sandslash",
+          "dex_id": "028",
+          "types": [
+            "Ground"
+          ],
+          "levels": "43"
+        },
+        {
+          "name": "Golbat",
+          "dex_id": "042",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "45-47"
+        },
+        {
+          "name": "Graveler",
+          "dex_id": "075",
+          "types": [
+            "Rock",
+            "Ground"
+          ],
+          "levels": "44"
+        },
+        {
+          "name": "Onix",
+          "dex_id": "095",
+          "types": [
+            "Rock",
+            "Ground"
+          ],
+          "levels": "46"
+        },
+        {
+          "name": "Shuckle",
+          "dex_id": "213",
+          "types": [
+            "Bug",
+            "Rock"
+          ],
+          "levels": "40"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Wooper",
+          "dex_id": "194",
+          "types": [
+            "Water",
+            "Ground"
+          ],
+          "levels": "25-40"
+        },
+        {
+          "name": "Quagsire",
+          "dex_id": "195",
+          "types": [
+            "Water",
+            "Ground"
+          ],
+          "levels": "30-45"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Goldeen",
+          "dex_id": "118",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Goldeen",
+          "dex_id": "118",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Goldeen",
+          "dex_id": "118",
+          "types": [
+            "Water"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Seaking",
+          "dex_id": "119",
+          "types": [
+            "Water"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "40"
+        }
+      ]
+    },
+    "Route 32 (ID 288)": {
+      "Grass": [
+        {
+          "name": "Arbok",
+          "dex_id": "024",
+          "types": [
+            "Poison"
+          ],
+          "levels": "46"
+        },
+        {
+          "name": "Golbat",
+          "dex_id": "042",
+          "types": [
+            "Poison",
+            "Flying"
+          ],
+          "levels": "44"
+        },
+        {
+          "name": "Weepinbell",
+          "dex_id": "070",
+          "types": [
+            "Grass",
+            "Poison"
+          ],
+          "levels": "46"
+        },
+        {
+          "name": "Mareep",
+          "dex_id": "179",
+          "types": [
+            "Electric"
+          ],
+          "levels": "43"
+        },
+        {
+          "name": "Flaaffy",
+          "dex_id": "180",
+          "types": [
+            "Electric"
+          ],
+          "levels": "46"
+        },
+        {
+          "name": "Skiploom",
+          "dex_id": "188",
+          "types": [
+            "Grass",
+            "Flying"
+          ],
+          "levels": "44"
+        },
+        {
+          "name": "Jumpluff",
+          "dex_id": "189",
+          "types": [
+            "Grass",
+            "Flying"
+          ],
+          "levels": "47"
+        },
+        {
+          "name": "Quagsire",
+          "dex_id": "195",
+          "types": [
+            "Water",
+            "Ground"
+          ],
+          "levels": "44"
+        }
+      ],
+      "Surf": [
+        {
+          "name": "Tentacool",
+          "dex_id": "072",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "15-40"
+        },
+        {
+          "name": "Tentacruel",
+          "dex_id": "073",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "35-45"
+        },
+        {
+          "name": "Quagsire",
+          "dex_id": "195",
+          "types": [
+            "Water",
+            "Ground"
+          ],
+          "levels": "25-45"
+        },
+        {
+          "name": "Qwilfish",
+          "dex_id": "211",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "35-45"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Tentacool",
+          "dex_id": "072",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Kingdra",
+          "dex_id": "230",
+          "types": [
+            "Water",
+            "Dragon"
+          ],
+          "levels": "5"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Tentacool",
+          "dex_id": "072",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Qwilfish",
+          "dex_id": "211",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "20"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Tentacool",
+          "dex_id": "072",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Qwilfish",
+          "dex_id": "211",
+          "types": [
+            "Water",
+            "Poison"
+          ],
+          "levels": "20"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Vigoroth",
+          "dex_id": "386",
+          "types": [
+            "Normal"
+          ],
+          "levels": "40-45"
+        }
+      ]
+    },
+    "Violet City (ID 230)": {
+      "Surf": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "15-30"
+        },
+        {
+          "name": "Poliwhirl",
+          "dex_id": "061",
+          "types": [
+            "Water"
+          ],
+          "levels": "35"
+        }
+      ],
+      "Old Rod": [
+        {
+          "name": "Poliwag",
+          "dex_id": "060",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "10"
+        }
+      ],
+      "Good Rod": [
+        {
+          "name": "Poliwhirl",
+          "dex_id": "061",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        }
+      ],
+      "Super Rod": [
+        {
+          "name": "Poliwrath",
+          "dex_id": "062",
+          "types": [
+            "Water",
+            "Fighting"
+          ],
+          "levels": "40"
+        },
+        {
+          "name": "Magikarp",
+          "dex_id": "129",
+          "types": [
+            "Water"
+          ],
+          "levels": "20"
+        },
+        {
+          "name": "Politoed",
+          "dex_id": "186",
+          "types": [
+            "Water"
+          ],
+          "levels": "40"
+        }
+      ]
+    },
+    "Route 36 (ID 267)": {
+      "Grass": [
+        {
+          "name": "Pidgeotto",
+          "dex_id": "017",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "32-35"
+        },
+        {
+          "name": "Nidorina",
+          "dex_id": "030",
+          "types": [
+            "Poison"
+          ],
+          "levels": "32-33"
+        },
+        {
+          "name": "Nidorino",
+          "dex_id": "033",
+          "types": [
+            "Poison"
+          ],
+          "levels": "32-33"
+        },
+        {
+          "name": "Vulpix",
+          "dex_id": "037",
+          "types": [
+            "Fire"
+          ],
+          "levels": "33"
+        },
+        {
+          "name": "Growlithe",
+          "dex_id": "058",
+          "types": [
+            "Fire"
+          ],
+          "levels": "33"
+        },
+        {
+          "name": "Hoothoot",
+          "dex_id": "163",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "32-35"
+        },
+        {
+          "name": "Noctowl",
+          "dex_id": "164",
+          "types": [
+            "Normal",
+            "Flying"
+          ],
+          "levels": "32-35"
+        },
+        {
+          "name": "Stantler",
+          "dex_id": "234",
+          "types": [
+            "Normal"
+          ],
+          "levels": "33"
+        }
+      ],
+      "Poké Radar": [
+        {
+          "name": "Sudowoodo",
+          "dex_id": "185",
+          "types": [
+            "Rock"
+          ],
+          "levels": "25-30"
+        }
+      ]
+    },
+    "National Park (ID 300)": {
+      "Grass": [
+        {
+          "name": "Caterpie",
+          "dex_id": "010",
+          "types": [
+            "Bug"
+          ],
+          "levels": "7-17"
+        },
+        {
+          "name": "Metapod",
+          "dex_id": "011",
+          "types": [
+            "Bug"
+          ],
+          "levels": "9-25"
+        },
+        {
+          "name": "Butterfree",
+          "dex_id": "012",
+          "types": [
+            "Bug",
+            "Flying"
+          ],
+          "levels": "12-15"
+        },
+        {
+          "name": "Weedle",
+          "dex_id": "013",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "7-17"
+        },
+        {
+          "name": "Kakuna",
+          "dex_id": "014",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "9-25"
+        },
+        {
+          "name": "Beedrill",
+          "dex_id": "015",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "12-15"
+        },
+        {
+          "name": "Paras",
+          "dex_id": "046",
+          "types": [
+            "Bug",
+            "Grass"
+          ],
+          "levels": "15-17"
+        },
+        {
+          "name": "Venonat",
+          "dex_id": "048",
+          "types": [
+            "Bug",
+            "Poison"
+          ],
+          "levels": "10-16"
+        },
+        {
+          "name": "Scyther",
+          "dex_id": "123",
+          "types": [
+            "Bug",
+            "Flying"
+          ],
+          "levels": "23-34"
+        },
+        {
+          "name": "Pinsir",
+          "dex_id": "127",
+          "types": [
+            "Bug"
+          ],
+          "levels": "23-34"
+        },
+        {
+          "name": "Oricorio",
+          "dex_id": "430",
+          "types": [
+            "Fire",
+            "Flying"
+          ],
+          "levels": "15"
+        },
+        {
+          "name": "Oricorio",
+          "dex_id": "431",
+          "types": [
+            "Electric",
+            "Flying"
+          ],
+          "levels": "15"
+        },
+        {
+          "name": "Oricorio",
+          "dex_id": "432",
+          "types": [
+            "Psychic",
+            "Flying"
+          ],
+          "levels": "15"
+        },
+        {
+          "name": "Oricorio",
+          "dex_id": "433",
+          "types": [
+            "Ghost",
+            "Flying"
+          ],
+          "levels": "15"
+        }
+      ]
+    }
+  },
+  "wiki_ground_truth": {
+    "Union Cave": {
+      "canonical_slug": "Union_Cave",
+      "lead_summary": "Union Cave can be accessed by the South from Route 33 and the North from Route 32.\nOn B1F, there are two exits on the North West which leads to Chamber D and Chamber E of the Ruins of Alph.",
+      "items": [
+        {
+          "internal_id": "FULLHEAL",
+          "quantity": "",
+          "name": "Full Heal",
+          "location_details": "Hidden by the rock by the South-West corner."
+        },
+        {
+          "internal_id": "HYPERPOTION",
+          "quantity": "",
+          "name": "Hyper Potion",
+          "location_details": "On the ground by the Western side."
+        },
+        {
+          "internal_id": "GREATBALL",
+          "quantity": "",
+          "name": "Great Ball",
+          "location_details": "Hidden by a rock next to Pyromaniac Ray."
+        },
+        {
+          "internal_id": "ZINC",
+          "quantity": "",
+          "name": "Zinc",
+          "location_details": "On the ground by the Eastern side."
+        },
+        {
+          "internal_id": "machine_NORMAL",
+          "quantity": "",
+          "name": "TM67 Retaliate",
+          "location_details": "On a small island near the North-West corner."
+        },
+        {
+          "internal_id": "DUSKSTONE",
+          "quantity": "",
+          "name": "Dusk Stone",
+          "location_details": "On the ground by the North-West corner."
+        },
+        {
+          "internal_id": "TINYMUSHROOM",
+          "quantity": "",
+          "name": "Tiny Mushroom",
+          "location_details": "Hidden by a rock near the exit to Chamber E."
+        },
+        {
+          "internal_id": "ETHER",
+          "quantity": "",
+          "name": "Ether",
+          "location_details": "In the South-East corner."
+        },
+        {
+          "internal_id": "REVIVE",
+          "quantity": "",
+          "name": "Revive",
+          "location_details": "Revive by a rock near the South-West corner."
+        },
+        {
+          "internal_id": "TRADEBALL",
+          "quantity": "10",
+          "name": "Boost Ball",
+          "location_details": "Given by Pokémaniac Larry after defeating him and having captured at least 100 Pokémons."
+        },
+        {
+          "internal_id": "SUPERREPEL",
+          "quantity": "",
+          "name": "Super Repel",
+          "location_details": "Given by Hiker Russel after defeating him."
+        },
+        {
+          "internal_id": "ESCAPEROPE",
+          "quantity": "",
+          "name": "Escape Rope",
+          "location_details": "On the ground by the Eastern Side."
+        },
+        {
+          "internal_id": "machine_ROCK",
+          "quantity": "",
+          "name": "TM23 Smack Down",
+          "location_details": "On the higher ground by the Eastern side."
+        },
+        {
+          "internal_id": "PROTEIN",
+          "quantity": "",
+          "name": "Protein",
+          "location_details": "On the higher ground by the Western side."
+        },
+        {
+          "internal_id": "PARLYZHEAL",
+          "quantity": "",
+          "name": "Paralyze Heal",
+          "location_details": "Hidden by the rock by the Western side."
+        },
+        {
+          "internal_id": "ROCKGEM",
+          "quantity": "",
+          "name": "Rock Gem",
+          "location_details": "Given by Hiker Leonard after defeating him."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Route 32": {
+      "canonical_slug": "Route_32",
+      "lead_summary": "Route 32 is a route that connects Union Cave to Violet City. There is also an access to the Ruins of Alph in the North-West and a PokéCenter to the South-East, but it has no Flight/Teleport Destination.",
+      "items": [
+        {
+          "internal_id": "HYPERPOTION",
+          "quantity": "",
+          "name": "Hyper Potion",
+          "location_details": "Hidden by a rock near the PokéCenter."
+        },
+        {
+          "internal_id": "FLUFFYTAIL",
+          "quantity": "",
+          "name": "Fluffy Tail",
+          "location_details": "By some grass near the PokéCenter."
+        },
+        {
+          "internal_id": "CARBOS",
+          "quantity": "",
+          "name": "Carbos",
+          "location_details": "By some grass on the Western path."
+        },
+        {
+          "internal_id": "machine_NORMAL",
+          "quantity": "",
+          "name": "TM05 Roar",
+          "location_details": "On the higher ground near the crossroad."
+        },
+        {
+          "internal_id": "XACCURACY",
+          "quantity": "",
+          "name": "X Accuracy",
+          "location_details": "On the ground near Ruins of Alph."
+        },
+        {
+          "internal_id": "GRACIDEA",
+          "quantity": "",
+          "name": "Spaceship Part",
+          "location_details": "On the higher ground near the crossroad, after starting the quest First Contact."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Violet City": {
+      "canonical_slug": "Violet_City",
+      "lead_summary": "Violet City can be accessed from the West via Route 36, the South via Route 32, and the East via Route 31.\nThis city contains Violet City's Gym, with Falkner as its leader. To the North of the town is the Sprout Tower, and to the East is the Pokémon School.",
+      "items": [
+        {
+          "internal_id": "FRESHWATER",
+          "quantity": "",
+          "name": "Fresh Water",
+          "location_details": "Given by the man inside the gym."
+        },
+        {
+          "internal_id": "ENERGYROOT",
+          "quantity": "",
+          "name": "Energy Root",
+          "location_details": "On a island East of the Sprout Tower."
+        },
+        {
+          "internal_id": "SUNSTONE",
+          "quantity": "",
+          "name": "Sun Stone",
+          "location_details": "At the top of the waterfall."
+        },
+        {
+          "internal_id": "INCUBATOR",
+          "quantity": "",
+          "name": "Super Incubator",
+          "location_details": "Given by the woman in the hotel after getting rid of the Pineco along the path to [[Cherrygrove City]]."
+        },
+        {
+          "internal_id": "SLOWPOKETAIL",
+          "quantity": "",
+          "name": "Slowpoke Tail",
+          "location_details": "Found in a random patch of flowers after starting the quest for the Youngster in the hotel.<br/>''(Due to a bug, two of the possible locations are not on flower tiles. These two locations are on the island between the two bridges leading to Sprout Tower.)''"
+        },
+        {
+          "internal_id": "XDEFENSE3",
+          "quantity": "",
+          "name": "XXX Defense 3",
+          "location_details": "Given by the Youngster in the hotel after giving him a Slowpoke Tail."
+        },
+        {
+          "internal_id": "SKYPLATE",
+          "quantity": "",
+          "name": "Sky Plate",
+          "location_details": "North of the school, after catching [[Legendary_Pokémon#Arceus"
+        }
+      ],
+      "missable_warnings": []
+    },
+    "Sprout Tower": {
+      "canonical_slug": "Sprout_Tower",
+      "lead_summary": "Sprout Tower is the tower on the northern end of Violet City. It is a religious site where visitors are allowed on the first floor, but only the monks are permitted on the upper floors. On the top floor is the Golbat Boot key item which is required to progress through the Ice Mountains. There are also four Bellsprout Statues on the top floor, which if taken will lower the player's Karma by 5 each.",
+      "items": [
+        {
+          "internal_id": "BELLSPROUTSTATUE",
+          "quantity": "",
+          "name": "Bellsprout Statues",
+          "location_details": "At the sides of the room."
+        },
+        {
+          "internal_id": "WAILMERPAIL",
+          "quantity": "",
+          "name": "Golbat Boot",
+          "location_details": "On the table at the back of the room."
+        }
+      ],
+      "missable_warnings": [
+        "NOTE: Contains actions that alter player Karma."
+      ]
+    },
+    "Route 36": {
+      "canonical_slug": "Route_36",
+      "lead_summary": "Route 36 is a route that connects Violet City to the National Park, Route 37 and the Ruins of Alph. There is also a small shortcut to reach Route 35 directly without going through the National Park.\nThere is a well, next to the gate to the National Park, which adds 36 spirits to the OddKeyStone required to obtain Spiritomb once a day.\nThere is a Sudowoodo that blocks the path the fork between the North, the South-West and the South-East. A lady in Goldenrod City mentions that she gave a Squirtbottle to her friend, but she is in Ecruteak City.",
+      "items": [
+        {
+          "internal_id": "machine_NORMAL",
+          "quantity": "",
+          "name": "TM83 Work Up",
+          "location_details": "East of the blocking Sudowoodo."
+        },
+        {
+          "internal_id": "LEMONADE",
+          "quantity": "",
+          "name": "Lemonade",
+          "location_details": "Given by Gentleman Nick after defeating him."
+        },
+        {
+          "internal_id": "CORNNBERRY",
+          "quantity": "1-2",
+          "name": "Cornn Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "GREPABERRY",
+          "quantity": "1-2",
+          "name": "Grepa Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "HONDEWBERRY",
+          "quantity": "1-2",
+          "name": "Hondew Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "KELPSYBERRY",
+          "quantity": "1-2",
+          "name": "Kelpsy Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "QUALOTBERRY",
+          "quantity": "1-2",
+          "name": "Qualot Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        },
+        {
+          "internal_id": "TAMATOBERRY",
+          "quantity": "1-2",
+          "name": "Tamato Berry",
+          "location_details": "On the berry bushes, random chance daily."
+        }
+      ],
+      "missable_warnings": []
+    },
+    "National Park": {
+      "canonical_slug": "National_Park",
+      "lead_summary": "The National Park is an area with lots of flower and Bug-Pokémon. It has connects both Route 35 and Route 36.",
+      "items": [
+        {
+          "internal_id": "machine_BUG",
+          "quantity": "",
+          "name": "TM76 Struggle Bug",
+          "location_details": "South-East of the PokéBall Garden."
+        },
+        {
+          "internal_id": "XATTACK2",
+          "quantity": "",
+          "name": "XX Attack 2",
+          "location_details": "Given by Younster Jack after defeating him."
+        },
+        {
+          "internal_id": "SWEETHEART",
+          "quantity": "",
+          "name": "Sweet Heart",
+          "location_details": "Given by Beauty Berverly after defeating her."
+        },
+        {
+          "internal_id": "FULLRESTORE",
+          "quantity": "",
+          "name": "Full Restore",
+          "location_details": "Hidden in a plant south of the PokéBall Garden."
+        }
+      ],
+      "missable_warnings": []
+    }
+  },
+  "location_items_and_statics": [
+    {
+      "type": "Static Encounter",
+      "pokemon": "Lapras",
+      "level": "45",
+      "location": "Union Cave",
+      "notes": ""
+    },
+    {
+      "type": "Static Encounter",
+      "pokemon": "Sudowoodo",
+      "level": "60",
+      "location": "Route 36",
+      "notes": "Game Progression: Requires Squirtbottle from Ecruteak City"
+    }
+  ],
+  "authoring_guidance": {
+    "splicing_safety": "Explicitly state: HEAD species, BODY species, and WHICH ability to select at the DNA Splicer prompt.",
+    "gym_party_selection_rule": "Built-in 5v5 party limit! When challenged, the game prompts the player to choose which 5 Pokémon from their active party to bring into battle. No PC box deposits required.",
+    "stone_evolutions": "Advisory: Do NOT use evolution stones prematurely on stone-evolvers (e.g. Nidorino) before key level-up moves are learned.",
+    "undercover_informant_rocket": "Guide player to join Team Rocket for disguises/missions, BUT report crimes to police officer for +10 Karma and Diancie unlock!"
+  }
+}

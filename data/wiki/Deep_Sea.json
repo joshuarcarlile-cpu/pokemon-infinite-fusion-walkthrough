@@ -1,0 +1,57 @@
+{
+  "title": "Deep_Sea",
+  "url": "https://infinitefusion.fandom.com/wiki/Deep_Sea",
+  "lead_summary": "Deep Sea is an underwater route that is accessible from Brine Road (West of the Old Shipwreck).\nThe underwater maze leads to Togepi Island and the Sapphire Cave.",
+  "missable_warnings": [],
+  "items": [
+    {
+      "internal_id": "DEEPSEASCALE",
+      "quantity": "",
+      "name": "Deep Sea Scale",
+      "location_details": "Hidden by a boulder in the northeast corner."
+    },
+    {
+      "internal_id": "DEEPSEASCALE",
+      "quantity": "",
+      "name": "Deep Sea Scale",
+      "location_details": "Several pink scales found underwater. Daily respawn."
+    },
+    {
+      "internal_id": "HEARTSCALE",
+      "quantity": "",
+      "name": "Heart Scale",
+      "location_details": "Hidden by a boulder surrounded by seaweed."
+    },
+    {
+      "internal_id": "HEARTSCALE",
+      "quantity": "",
+      "name": "Heart Scale",
+      "location_details": "Hidden by a boulder on the western side."
+    },
+    {
+      "internal_id": "HEARTSCALE",
+      "quantity": "",
+      "name": "Heart Scale",
+      "location_details": "Hidden by a boulder near the Togepi Island surfacing point."
+    },
+    {
+      "internal_id": "SHINYSTONE",
+      "quantity": "",
+      "name": "Shiny Stone",
+      "location_details": "On the East side of the Togepi Island."
+    },
+    {
+      "internal_id": "SAPPHIRE",
+      "quantity": "",
+      "name": "Sapphire",
+      "location_details": "In an isolated corner deep within the maze."
+    }
+  ],
+  "sections": [
+    "Items",
+    "Pokémon",
+    "Togepi Island",
+    "Underwater"
+  ],
+  "raw_wikitext": "{{GlobalToggles}}\n{{InfoboxLocation\n|region=Sevii Islands\n|location_image=DeepSea.png\n|map_image=Deep_Sea_Map.png\n|connection_1_direction=north\n|connection_1_location=Brine Road (West of the Old Shipwreck)\n|connection_2_direction=south\n|connection_2_location=Sapphire Cave\n|connection_2_restrictions=%sapphire%\n}}\n'''Deep Sea''' is an underwater route that is accessible from [[Brine Road (West of the Old Shipwreck)]].\n\nThe underwater maze leads to Togepi Island and the [[Sapphire Cave]].\n\n==Items==\n{{ItemTable/Header}}\n{{ItemTable/Data|DEEPSEASCALE||Deep Sea Scale|Hidden by a boulder in the northeast corner.|DeepSeaScale2_DeepSea.png}}\n{{ItemTable/Data|DEEPSEASCALE||Deep Sea Scale|Several pink scales found underwater. Daily respawn.|DeepSeaScale_DeepSea.png}}\n{{ItemTable/Data|HEARTSCALE||Heart Scale|Hidden by a boulder surrounded by seaweed.|HeartScale2_DeepSea.png}}\n{{ItemTable/Data|HEARTSCALE||Heart Scale|Hidden by a boulder on the western side.|HeartScale_DeepSea.png}}\n{{ItemTable/Data|HEARTSCALE||Heart Scale|Hidden by a boulder near the Togepi Island surfacing point.|HeartScale3_DeepSea.png}}\n{{ItemTable/Data|SHINYSTONE||Shiny Stone|On the East side of the Togepi Island.|ShinyStone_DeepSea.png}}\n{{ItemTable/Data|SAPPHIRE||Sapphire|In an isolated corner deep within the maze.|Sapphire_DeepSea.png}}\n{{ItemTable/Footer}}\n\n==Pokémon==\n===Togepi Island===\n<!-------------------------------------------------!>\n<!-- CLASSIC & EXPERT MODE POKÉMON TOGEPI ISLAND --!>\n<!-------------------------------------------------->\n<div class=\"classic-mode expert-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|098|Krabby|Water||33-36|225|15%}}\n{{EncounterTable/Data|175|Togepi|Fairy||22-33|190|40%}}\n{{EncounterTable/Data|176|Togetic|Fairy|Flying|35-45|75|10%}}\n{{EncounterTable/Data|254|Ambipom|Normal||44-55|45|35%}}\n{{EncounterTable/Footer}}\n</div>\n<!--------------------------------------!>\n<!-- REMIX MODE POKÉMON TOGEPI ISLAND --!>\n<!--------------------------------------->\n<div class=\"remix-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|098|Krabby|Water||33-46|225|10%}}\n{{EncounterTable/Data|175|Togepi|Fairy||22-33|190|40%}}\n{{EncounterTable/Data|176|Togetic|Fairy|Flying|35-45|75|9%}}\n{{EncounterTable/Data|254|Ambipom|Normal||44-55|45|15%}}\n{{EncounterTable/Data|269|Togekiss|Fairy|Flying|45-46|30|1%}}\n{{EncounterTable/Data|454|Mareanie|Poison|Water|33-46|190|10%}}\n{{EncounterTable/Data|459|Sandygast|Ground|Ghost|44-50|140|15%}}\n{{EncounterTable/Footer}}\n</div>\n\n===Underwater===\n<!----------------------------------------------!>\n<!-- CLASSIC & EXPERT MODE POKÉMON UNDERWATER --!>\n<!----------------------------------------------->\n<div class=\"classic-mode expert-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|117|Seadra|Water||45-51|75|15%}}\n{{EncounterTable/Data|119|Seaking|Water||40-46|60|20%}}\n{{EncounterTable/Data|170|Chinchou|Water|Electric|35-39|190|40%}}\n{{EncounterTable/Data|171|Lanturn|Water|Electric|46-54|75|15%}}\n{{EncounterTable/Data|224|Octillery|Water||54|75|10%}}\n{{EncounterTable/Section|Static}}\n{{EncounterTable/Data|91|Cloyster|Water|Ice|55|60|-}}\n{{EncounterTable/Data|117|Seadra|Water||45|75|-}}\n{{EncounterTable/Data|119|Seaking|Water||45|60|-}}\n{{EncounterTable/Data|130|Gyarados|Water|Flying|55-65|45|-}}\n{{EncounterTable/Data|170|Chinchou|Water|Electric|25|190|-}}\n{{EncounterTable/Data|171|Lanturn|Water|Electric|45|75|-}}\n{{EncounterTable/Data|226|Mantine|Water|Flying|50|25|-}}\n{{EncounterTable/Footer}}\n</div>\n<!-----------------------------------!>\n<!-- REMIX MODE POKÉMON UNDERWATER --!>\n<!------------------------------------>\n<div class=\"remix-mode\">\n{{EncounterTable/Header}}\n{{EncounterTable/Section|Grass}}\n{{EncounterTable/Data|117|Seadra|Water||45-51|75|15%}}\n{{EncounterTable/Data|171|Lanturn|Water|Electric|46-54|75|15%}}\n{{EncounterTable/Data|224|Octillery|Water||54|75|10%}}\n{{EncounterTable/Data|437|Sharpedo|Water|Dark|40-46|60|10%}}\n{{EncounterTable/Data|455|Toxapex|Poison|Water|38-45|75|20%}}\n{{EncounterTable/Data|475|Golisopod|Bug|Water|35-39|45|20%}}\n{{EncounterTable/Data|501|Luvdisc|Water||40-44|225|10%}}\n{{EncounterTable/Section|Static}}\n{{EncounterTable/Data|91|Cloyster|Water|Ice|55|60|-}}\n{{EncounterTable/Data|117|Seadra|Water||45|75|-}}\n{{EncounterTable/Data|119|Seaking|Water||45|60|-}}\n{{EncounterTable/Data|130|Gyarados|Water|Flying|55-65|45|-}}\n{{EncounterTable/Data|170|Chinchou|Water|Electric|25|190|-}}\n{{EncounterTable/Data|171|Lanturn|Water|Electric|45|75|-}}\n{{EncounterTable/Data|226|Mantine|Water|Flying|50|25|-}}\n{{EncounterTable/Footer}}\n</div>\n\n[[Category:Locations]]\n[[Category:Sevii Islands]]"
+}

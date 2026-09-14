@@ -1,0 +1,31 @@
+{
+  "name": "New Bark Town & Prof. Elm's Lab",
+  "summary": "Arrive in the quiet frontier hamlet of New Bark Town via Route 29 from the west. Visit Prof. Elm's Lab to claim a second Johto starter — choose one of Chikorita, Cyndaquil, or Totodile at Lv. 15 (requires 10+ Gym Badges, which the player has by this point with 15 total). Elm also hands over HM05 Waterfall (or its HM Replacement Item equivalent), unlocking the Waterfall traversal tool for accessing previously blocked waterfalls across Kanto and Johto. In the bottom-left house, challenge Gambler Dirk at the Blackjack Dealer table — ₽1,000 per hand, with 5 consecutive wins unlocking high-stakes betting where the payout multiplier scales with the card value difference. Heal at the Pokémon Center and use Teleport to fast-travel as needed.",
+  "items": [
+    {
+      "name": "Johto Starter (Chikorita / Cyndaquil / Totodile)",
+      "method": "Gift from Prof. Elm at his Lab — choose one of three at Lv. 15 (requires 10+ Gym Badges)",
+      "type": "Gift Pokémon"
+    },
+    {
+      "name": "HM05 Waterfall (Waterfall Tool)",
+      "method": "Given by Prof. Elm after obtaining at least 2 Johto Badges",
+      "type": "Key Item / HM Tool"
+    }
+  ],
+  "trainers": [],
+  "encounters": {},
+  "points_of_interest": [
+    {
+      "name": "Blackjack Dealer — Gambler Dirk",
+      "location": "Bottom-left house in New Bark Town",
+      "description": "Play blackjack at ₽1,000 per hand. Win 5 times consecutively to unlock high-stakes mode, where the player chooses the bet amount and payouts are multiplied by the card value difference at round's end."
+    },
+    {
+      "name": "Route 27 East Exit (Surf Required)",
+      "location": "East side of New Bark Town",
+      "description": "Leads to Route 27 and eventually to Tohjo Falls and the Kanto-Johto border. Requires Surf to access. This path connects back to the Indigo Plateau region."
+    }
+  ],
+  "gift_pokemon_note": "The Johto starter obtained here is a Lv. 15 baby — it will need significant leveling to join the active party. Consider it a fusion candidate or a long-term PC project for Act 3. A second set of Johto starters was also available earlier from Elm's assistant in Goldenrod City."
+}

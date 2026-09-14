@@ -1,0 +1,83 @@
+{
+  "name": "Celadon City Exploration & Department Store",
+  "summary": "Exploring the commercial capital of Kanto. Stock up on Evolution Stones and TMs at the 5-story Celadon Department Store. Claim the free rooftop gift Eevee in Celadon Mansion, obtain the Coin Case in the Café, and accept or monitor active Team Rocket side contracts.",
+  "items": [
+    {
+      "name": "Eevee Gift",
+      "method": "Enter Celadon Mansion through the rear back alley and climb to the rooftop penthouse room",
+      "type": "Gift Pokémon"
+    },
+    {
+      "name": "Coin Case",
+      "method": "Given by the patron in the Celadon Café during the day",
+      "type": "Key Item"
+    },
+    {
+      "name": "Skull Fossil or Armor Fossil",
+      "method": "Reward from Super Nerd Miguel in Celadon Café after defeat",
+      "type": "Fossil"
+    },
+    {
+      "name": "TM81 X-Scissor",
+      "method": "At the southern end of the small forested park in Celadon City",
+      "type": "TM"
+    },
+    {
+      "name": "Super Splicers",
+      "method": "Gift from the female trainer in the house adjacent to the Café",
+      "type": "Consumable"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Super Nerd Miguel",
+      "team": [
+        {
+          "species": "Koffing",
+          "level": 25,
+          "types": ["Poison"]
+        },
+        {
+          "species": "Magnemite",
+          "level": 25,
+          "types": ["Electric", "Steel"]
+        }
+      ]
+    }
+  ],
+  "encounters": {
+    "Pond & Outskirts": [
+      {"dex_id": "088", "name": "Grimer", "types": ["Poison"], "levels": "15-20", "rates": "85% Surf / 90% Old Rod / 20% Outskirts"},
+      {"dex_id": "089", "name": "Muk", "types": ["Poison"], "levels": "15-20", "rates": "10% Surf / 10% Good Rod"},
+      {"dex_id": "109", "name": "Koffing", "types": ["Poison"], "levels": "15-20", "rates": "20% Outskirts / 5% Surf"},
+      {"dex_id": "129", "name": "Magikarp", "types": ["Water"], "levels": "5-10", "rates": "10% Old Rod"}
+    ],
+    "Gift Pokémon": [
+      {"dex_id": "133", "name": "Eevee", "types": ["Normal"], "levels": "20", "rates": "Celadon Mansion Penthouse (Free gift)"}
+    ],
+    "Game Corner (Coins)": [
+      {"dex_id": "063", "name": "Abra", "types": ["Psychic"], "levels": "9", "rates": "200 Coins"},
+      {"dex_id": "035", "name": "Clefairy", "types": ["Fairy"], "levels": "14", "rates": "750 Coins"},
+      {"dex_id": "127", "name": "Pinsir", "types": ["Bug"], "levels": "18", "rates": "4,000 Coins"},
+      {"dex_id": "123", "name": "Scyther", "types": ["Bug", "Flying"], "levels": "18", "rates": "4,000 Coins"},
+      {"dex_id": "147", "name": "Dratini", "types": ["Dragon"], "levels": "21", "rates": "6,000 Coins"},
+      {"dex_id": "137", "name": "Porygon", "types": ["Normal"], "levels": "24", "rates": "9,999 Coins"}
+    ],
+    "In-Game Trade": [
+      {"dex_id": "077", "name": "Ponyta", "types": ["Fire"], "levels": "Same as Traded", "rates": "Celadon House (Traded for Raichu)"},
+      {"dex_id": "239", "name": "Elekid", "types": ["Electric"], "levels": "Same as Traded", "rates": "Celadon House (Traded for Eevee)"}
+    ]
+  },
+  "missables": [
+    {
+      "id": "q_rocket_celadon_01",
+      "name": "Supplying the New Grunts",
+      "warning": "Team Rocket recruitment mission. Must catch 4 Pokémon in Celadon outskirts using Rocket Balls before defeating Gym 8 / Mt. Ember."
+    },
+    {
+      "id": "q_rocket_celadon_02",
+      "name": "Interception!",
+      "warning": "Celadon Department Store TM shipment heist. Deliver counterfeit TMs to earn a choice of Ice Beam, Thunderbolt, or Flamethrower before Gym 8 / Mt. Ember."
+    }
+  ]
+}

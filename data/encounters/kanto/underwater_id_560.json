@@ -1,0 +1,62 @@
+{
+  "location": "Underwater (ID 560)",
+  "sections": {
+    "Grass": [
+      {
+        "dex_id": "117",
+        "name": "Seadra",
+        "type1": "Water",
+        "type2": "",
+        "levels": "45-51",
+        "catch_rate": "75",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "119",
+        "name": "Seaking",
+        "type1": "Water",
+        "type2": "",
+        "levels": "40-46",
+        "catch_rate": "60",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "170",
+        "name": "Chinchou",
+        "type1": "Water",
+        "type2": "Electric",
+        "levels": "35-39",
+        "catch_rate": "190",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "dex_id": "171",
+        "name": "Lanturn",
+        "type1": "Water",
+        "type2": "Electric",
+        "levels": "46-54",
+        "catch_rate": "75",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "224",
+        "name": "Octillery",
+        "type1": "Water",
+        "type2": "",
+        "levels": "54",
+        "catch_rate": "75",
+        "rates": [
+          "10%"
+        ]
+      }
+    ]
+  }
+}

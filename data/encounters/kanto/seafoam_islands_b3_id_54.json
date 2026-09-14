@@ -1,0 +1,117 @@
+{
+  "location": "Seafoam Islands B3 (ID 54)",
+  "sections": {
+    "Cave": [
+      {
+        "dex_id": "042",
+        "name": "Golbat",
+        "type1": "Poison",
+        "type2": "Flying",
+        "levels": "33",
+        "catch_rate": "90",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "054",
+        "name": "Psyduck",
+        "type1": "Water",
+        "type2": "",
+        "levels": "33-35",
+        "catch_rate": "190",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "055",
+        "name": "Golduck",
+        "type1": "Water",
+        "type2": "",
+        "levels": "36",
+        "catch_rate": "75",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "079",
+        "name": "Slowpoke",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "33-35",
+        "catch_rate": "190",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "086",
+        "name": "Seel",
+        "type1": "Water",
+        "type2": "",
+        "levels": "33-37",
+        "catch_rate": "190",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "090",
+        "name": "Shellder",
+        "type1": "Water",
+        "type2": "",
+        "levels": "33-34",
+        "catch_rate": "190",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "dex_id": "098",
+        "name": "Krabby",
+        "type1": "Water",
+        "type2": "",
+        "levels": "30-34",
+        "catch_rate": "225",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "124",
+        "name": "Jynx",
+        "type1": "Ice",
+        "type2": "Psychic",
+        "levels": "33-37",
+        "catch_rate": "45",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "215",
+        "name": "Sneasel",
+        "type1": "Dark",
+        "type2": "Ice",
+        "levels": "36",
+        "catch_rate": "60",
+        "rates": [
+          "1%"
+        ]
+      },
+      {
+        "dex_id": "220",
+        "name": "Swinub",
+        "type1": "Ice",
+        "type2": "Ground",
+        "levels": "30",
+        "catch_rate": "225",
+        "rates": [
+          "14%"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "location": "Resort Gorgeous (ID 566)",
+  "sections": {
+    "Surf": [
+      {
+        "dex_id": "116",
+        "name": "Horsea",
+        "type1": "Water",
+        "type2": "",
+        "levels": "25-30",
+        "catch_rate": "225",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "187",
+        "name": "Hoppip",
+        "type1": "Grass",
+        "type2": "Flying",
+        "levels": "20-40",
+        "catch_rate": "255",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "222",
+        "name": "Corsola",
+        "type1": "Water",
+        "type2": "Rock",
+        "levels": "40-45",
+        "catch_rate": "60",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "dex_id": "226",
+        "name": "Mantine",
+        "type1": "Water",
+        "type2": "Flying",
+        "levels": "50",
+        "catch_rate": "25",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "469",
+        "name": "Bruxish",
+        "type1": "Water",
+        "type2": "Psychic",
+        "levels": "35-45",
+        "catch_rate": "80",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "501",
+        "name": "Luvdisc",
+        "type1": "Water",
+        "type2": "",
+        "levels": "25-30",
+        "catch_rate": "225",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "dex_id": "116",
+        "name": "Horsea",
+        "type1": "Water",
+        "type2": "",
+        "levels": "10",
+        "catch_rate": "225",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "10",
+        "catch_rate": "255",
+        "rates": [
+          "70%"
+        ]
+      },
+      {
+        "dex_id": "501",
+        "name": "Luvdisc",
+        "type1": "Water",
+        "type2": "",
+        "levels": "10",
+        "catch_rate": "225",
+        "rates": [
+          "15%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "dex_id": "090",
+        "name": "Shellder",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "190",
+        "rates": [
+          "3%"
+        ]
+      },
+      {
+        "dex_id": "129",
+        "name": "Magikarp",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "255",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "dex_id": "170",
+        "name": "Chinchou",
+        "type1": "Water",
+        "type2": "Electric",
+        "levels": "20",
+        "catch_rate": "190",
+        "rates": [
+          "7%"
+        ]
+      },
+      {
+        "dex_id": "501",
+        "name": "Luvdisc",
+        "type1": "Water",
+        "type2": "",
+        "levels": "20",
+        "catch_rate": "225",
+        "rates": [
+          "30%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "dex_id": "090",
+        "name": "Shellder",
+        "type1": "Water",
+        "type2": "",
+        "levels": "40",
+        "catch_rate": "190",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "170",
+        "name": "Chinchou",
+        "type1": "Water",
+        "type2": "Electric",
+        "levels": "40",
+        "catch_rate": "190",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "dex_id": "171",
+        "name": "Lanturn",
+        "type1": "Water",
+        "type2": "Electric",
+        "levels": "40",
+        "catch_rate": "75",
+        "rates": [
+          "3%"
+        ]
+      },
+      {
+        "dex_id": "501",
+        "name": "Luvdisc",
+        "type1": "Water",
+        "type2": "",
+        "levels": "40",
+        "catch_rate": "225",
+        "rates": [
+          "7%"
+        ]
+      }
+    ]
+  }
+}

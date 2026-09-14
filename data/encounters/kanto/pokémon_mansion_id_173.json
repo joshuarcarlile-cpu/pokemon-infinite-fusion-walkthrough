@@ -1,0 +1,95 @@
+{
+  "location": "Pok\u00e9mon Mansion (ID 173)",
+  "sections": {
+    "Cave": [
+      {
+        "dex_id": "019",
+        "name": "Rattata",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "26-28",
+        "catch_rate": "255",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "020",
+        "name": "Raticate",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "32-36",
+        "catch_rate": "127",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "dex_id": "037",
+        "name": "Vulpix",
+        "type1": "Fire",
+        "type2": "",
+        "levels": "30-32",
+        "catch_rate": "190",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "058",
+        "name": "Growlithe",
+        "type1": "Fire",
+        "type2": "",
+        "levels": "30-32",
+        "catch_rate": "190",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "088",
+        "name": "Grimer",
+        "type1": "Poison",
+        "type2": "",
+        "levels": "28",
+        "catch_rate": "190",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "089",
+        "name": "Muk",
+        "type1": "Poison",
+        "type2": "",
+        "levels": "32",
+        "catch_rate": "75",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "109",
+        "name": "Koffing",
+        "type1": "Poison",
+        "type2": "",
+        "levels": "28-30",
+        "catch_rate": "190",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "dex_id": "110",
+        "name": "Weezing",
+        "type1": "Poison",
+        "type2": "",
+        "levels": "32",
+        "catch_rate": "60",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

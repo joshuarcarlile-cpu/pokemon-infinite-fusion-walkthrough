@@ -1,0 +1,76 @@
+[
+  {
+    "id": "shears",
+    "name": "Shears",
+    "replaces_hm": "Cut",
+    "location": "Route 2 Before Forest (Lumberjack Quest house, accessed via Diglett's Cave from Vermilion City in Chapter 3)",
+    "badge_required": 1,
+    "notes": "Allows cutting small trees in the overworld without knowing the move Cut."
+  },
+  {
+    "id": "lantern",
+    "name": "Lantern",
+    "replaces_hm": "Flash",
+    "location": "Any Hotel",
+    "requirement": "Complete 10 Hotel Quests",
+    "badge_required": 2,
+    "notes": "Permanently illuminates dark caves like Rock Tunnel without knowing Flash."
+  },
+  {
+    "id": "pickaxe",
+    "name": "Pickaxe",
+    "replaces_hm": "Rock Smash",
+    "location": "Vermilion City",
+    "badge_required": 3,
+    "notes": "Smashes cracked boulders in overworld without knowing Rock Smash."
+  },
+  {
+    "id": "dolly",
+    "name": "Dolly",
+    "replaces_hm": "Strength",
+    "location": "Route 13",
+    "badge_required": 4,
+    "notes": "Pushes round heavy boulders in caves without knowing Strength."
+  },
+  {
+    "id": "surfboard",
+    "name": "Surfboard",
+    "replaces_hm": "Surf",
+    "location": "Route 19",
+    "requirement": "After Gym 6 (Sabrina/Koga)",
+    "badge_required": 6,
+    "notes": "Allows traversing water bodies without knowing Surf."
+  },
+  {
+    "id": "teleporter",
+    "name": "Teleporter",
+    "replaces_hm": "Fly",
+    "location": "Goldenrod City",
+    "badge_required": 8,
+    "notes": "Fast-travel teleport to any previously visited Pokémon Center. (Note: The move Teleport also allows fast-travel to any visited Center as soon as you have the Thunder Badge!)."
+  },
+  {
+    "id": "scuba_gear",
+    "name": "Scuba Gear",
+    "replaces_hm": "Dive",
+    "location": "Brine Road (West of Old Shipwreck)",
+    "badge_required": 8,
+    "notes": "Allows diving into deep sea trenches and underwater ruins."
+  },
+  {
+    "id": "jetpack",
+    "name": "Jetpack",
+    "replaces_hm": "Waterfall",
+    "location": "Route 9",
+    "badge_required": 7,
+    "notes": "Allows climbing waterfalls."
+  },
+  {
+    "id": "climbing_gear",
+    "name": "Climbing Gear",
+    "replaces_hm": "Rock Climb",
+    "location": "Ice Mountains",
+    "badge_required": 8,
+    "notes": "Allows scaling rocky cliffs with footprints."
+  }
+]

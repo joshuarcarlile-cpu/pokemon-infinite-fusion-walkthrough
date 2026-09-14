@@ -1,0 +1,73 @@
+{
+  "location": "Pokemon Tower F5 (ID 467)",
+  "sections": {
+    "Cave": [
+      {
+        "dex_id": "020",
+        "name": "Raticate",
+        "type1": "Normal",
+        "type2": "",
+        "levels": "25-35",
+        "catch_rate": "127",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "092",
+        "name": "Gastly",
+        "type1": "Ghost",
+        "type2": "Poison",
+        "levels": "25-30",
+        "catch_rate": "190",
+        "rates": [
+          "65%"
+        ]
+      },
+      {
+        "dex_id": "093",
+        "name": "Haunter",
+        "type1": "Ghost",
+        "type2": "Poison",
+        "levels": "30-35",
+        "catch_rate": "90",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "096",
+        "name": "Drowzee",
+        "type1": "Psychic",
+        "type2": "",
+        "levels": "30-35",
+        "catch_rate": "190",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "dex_id": "104",
+        "name": "Cubone",
+        "type1": "Ground",
+        "type2": "",
+        "levels": "20-25",
+        "catch_rate": "190",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "dex_id": "200",
+        "name": "Misdreavus",
+        "type1": "Ghost",
+        "type2": "",
+        "levels": "25-35",
+        "catch_rate": "45",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}
