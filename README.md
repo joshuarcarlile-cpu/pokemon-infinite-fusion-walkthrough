@@ -128,7 +128,16 @@ The walkthrough content and dashboard are maintained through an automated, test-
 
 ---
 
+## 💡 About This Project
+
+This is a **vibe coded** project — **human-led and human-reviewed, LLM-made**. 
+
+Every route walkthrough, team roster, and strategy is curated and directed by a human player for authentic gameplay feel and fun, while the underlying code, data parsers, test suites, and offline dashboard were implemented in collaboration with AI.
+
+---
+
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE) — see the [LICENSE](LICENSE) file for details.  
 *Pokémon and Pokémon character names are trademarks of Nintendo, Creatures Inc., and Game Freak. Pokémon Infinite Fusion is a non-profit fan-made game created by Schrroms.*
+
