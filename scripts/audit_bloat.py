@@ -49,6 +49,7 @@ ALLOWED_ROOT_FILES = {
     ".gitignore",
     "AGENTS.md",
     "README.md",
+    "LICENSE",
     "PokemonInfiniteFusion-Launcher_1.1 (1).exe",
 }
 
