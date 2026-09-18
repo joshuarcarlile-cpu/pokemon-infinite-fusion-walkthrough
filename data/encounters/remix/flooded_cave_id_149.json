@@ -1,0 +1,93 @@
+{
+  "location": "Flooded Cave (ID 149)",
+  "map_id": 149,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Gligar",
+        "levels": "25",
+        "rates": [
+          "45%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "25-30",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Slowpoke",
+        "levels": "20-26",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Wooper",
+        "levels": "25-30",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Feebas",
+        "levels": "20",
+        "rates": [
+          "99%"
+        ]
+      },
+      {
+        "name": "Dragonair",
+        "levels": "30",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Feebas",
+        "levels": "5",
+        "rates": [
+          "100%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Mareanie",
+        "levels": "20",
+        "rates": [
+          "98%"
+        ]
+      },
+      {
+        "name": "Dratini",
+        "levels": "15",
+        "rates": [
+          "2%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Luvdisc",
+        "levels": "20-55",
+        "rates": [
+          "99%"
+        ]
+      },
+      {
+        "name": "Dragonair",
+        "levels": "50",
+        "rates": [
+          "1%"
+        ]
+      }
+    ]
+  }
+}

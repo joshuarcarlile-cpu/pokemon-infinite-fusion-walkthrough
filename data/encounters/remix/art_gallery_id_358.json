@@ -1,0 +1,191 @@
+{
+  "location": "Art Gallery (ID 358)",
+  "map_id": 358,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Roselia",
+        "levels": "35-45",
+        "rates": [
+          "15%",
+          "15% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Tangrowth",
+        "levels": "35-45",
+        "rates": [
+          "15%",
+          "15% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Scolipede",
+        "levels": "30-40",
+        "rates": [
+          "10%",
+          "10% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Tangela",
+        "levels": "40-45",
+        "rates": [
+          "10%",
+          "10% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Beedrill",
+        "levels": "30-40",
+        "rates": [
+          "5%",
+          "5% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Butterfree",
+        "levels": "30-40",
+        "rates": [
+          "5%",
+          "5% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Exeggutor",
+        "levels": "40-45",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Haunter",
+        "levels": "30-40",
+        "rates": [
+          "5%",
+          "5% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Parasect",
+        "levels": "45-50",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Pinsir",
+        "levels": "40-45",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Primeape",
+        "levels": "35",
+        "rates": [
+          "5%",
+          "5% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Scyther",
+        "levels": "40-45",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Venomoth",
+        "levels": "45-50",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Vileplume",
+        "levels": "40-45",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Tangrowth",
+        "levels": "40-45",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Golduck",
+        "levels": "30-40",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Haunter",
+        "levels": "40-45",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Gengar",
+        "levels": "30-40",
+        "rates": [
+          "3%"
+        ]
+      },
+      {
+        "name": "Bewear",
+        "levels": "45-55",
+        "rates": [
+          "2%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Bruxish",
+        "levels": "40-42",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Poliwhirl",
+        "levels": "30-40",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Poliwrath",
+        "levels": "40",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Seaking",
+        "levels": "40",
+        "rates": [
+          "20%"
+        ]
+      }
+    ]
+  }
+}

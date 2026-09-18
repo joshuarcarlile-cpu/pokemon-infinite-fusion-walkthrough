@@ -1,0 +1,212 @@
+{
+  "location": "Route 24 (ID 8)",
+  "map_id": 8,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Abra",
+        "levels": "8",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Mareep",
+        "levels": "7",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Psyduck",
+        "levels": "11-13",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Stunfisk",
+        "levels": "7",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Swablu",
+        "levels": "12-14",
+        "rates": [
+          "13%"
+        ]
+      },
+      {
+        "name": "Hoppip",
+        "levels": "12-14",
+        "rates": [
+          "12%"
+        ]
+      },
+      {
+        "name": "Solosis",
+        "levels": "8-12",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Carvanha",
+        "levels": "5-35",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "5-35",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Wailmer",
+        "levels": "5-40",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Wailord",
+        "levels": "35-40",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Luvdisc",
+        "levels": "5",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Feebas",
+        "levels": "5",
+        "rates": [
+          "29%"
+        ]
+      },
+      {
+        "name": "Carvanha",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Remoraid",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Horsea",
+        "levels": "5-15",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Bruxish",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Feebas",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Carvanha",
+        "levels": "5-15",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Dhelmise",
+        "levels": "5-15",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Bruxish",
+        "levels": "15-35",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "15-35",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Remoraid",
+        "levels": "15-35",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Sharpedo",
+        "levels": "35-37",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Milotic",
+        "levels": "15-25",
+        "rates": [
+          "16%"
+        ]
+      },
+      {
+        "name": "Goldeen",
+        "levels": "25-35",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Psyduck",
+        "levels": "25-35",
+        "rates": [
+          "2%"
+        ]
+      }
+    ]
+  }
+}

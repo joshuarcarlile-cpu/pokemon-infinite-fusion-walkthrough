@@ -1,0 +1,43 @@
+{
+  "location": "Pok\u00e9mon Mansion (ID 187)",
+  "map_id": 187,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Ditto",
+        "levels": "30",
+        "rates": [
+          "50%"
+        ]
+      },
+      {
+        "name": "Larvesta",
+        "levels": "28",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Torkoal",
+        "levels": "32-35",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Houndoom",
+        "levels": "33-34",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Klefki",
+        "levels": "32-36",
+        "rates": [
+          "10%"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "location": "Map 172 (ID 172)",
+  "map_id": 172,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Garbodor",
+        "levels": "32-34",
+        "rates": [
+          "25%",
+          "25% (LandMorning)",
+          "15% (LandNight)"
+        ]
+      },
+      {
+        "name": "Oricorio",
+        "levels": "40-44",
+        "rates": [
+          "25%",
+          "25% (LandMorning)",
+          "15% (LandNight)"
+        ]
+      },
+      {
+        "name": "Forretress",
+        "levels": "32-34",
+        "rates": [
+          "15%",
+          "15% (LandMorning)",
+          "15% (LandNight)"
+        ]
+      },
+      {
+        "name": "Dusclops",
+        "levels": "32-34",
+        "rates": [
+          "10%",
+          "10% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Lycanroc",
+        "levels": "32-34",
+        "rates": [
+          "10%",
+          "10% (LandMorning)",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Donphan",
+        "levels": "44",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Luxray",
+        "levels": "42",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Ursaring",
+        "levels": "44",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Gourgeist",
+        "levels": "32-34",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Trevenant",
+        "levels": "32-34",
+        "rates": [
+          "15%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Golduck",
+        "levels": "37-40",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Gyarados",
+        "levels": "37-41",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Sharpedo",
+        "levels": "37-40",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Wailord",
+        "levels": "37-40",
+        "rates": [
+          "25%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Feebas",
+        "levels": "1-55",
+        "rates": [
+          "39%"
+        ]
+      },
+      {
+        "name": "Carvanha",
+        "levels": "1-55",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Wooper",
+        "levels": "1-55",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "1-55",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "1-55",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "5-15",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Wooper",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Chinchou",
+        "levels": "15-25",
+        "rates": [
+          "45%"
+        ]
+      },
+      {
+        "name": "Lanturn",
+        "levels": "20-30",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Dhelmise",
+        "levels": "15-25",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Sharpedo",
+        "levels": "15-35",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Wailord",
+        "levels": "15-35",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

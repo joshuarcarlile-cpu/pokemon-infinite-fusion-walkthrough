@@ -1,0 +1,57 @@
+{
+  "location": "b'Seafoam Islands B1' (ID 808)",
+  "map_id": 808,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Froslass",
+        "levels": "29-34",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Glalie",
+        "levels": "29-34",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Shellder",
+        "levels": "25-30",
+        "rates": [
+          "19%"
+        ]
+      },
+      {
+        "name": "Delibird",
+        "levels": "25-30",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Seel",
+        "levels": "32",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Amaura",
+        "levels": "24-29",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Piplup",
+        "levels": "30-34",
+        "rates": [
+          "1%"
+        ]
+      }
+    ]
+  }
+}

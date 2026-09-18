@@ -1,0 +1,142 @@
+{
+  "location": "Mt. Silver (ID 529)",
+  "map_id": 529,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Glalie",
+        "levels": "53",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Aegislash",
+        "levels": "52",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Altaria",
+        "levels": "58",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Chandelure",
+        "levels": "54",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Krookodile",
+        "levels": "52",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Noivern",
+        "levels": "58",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Rhyperior",
+        "levels": "54",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Dewgong",
+        "levels": "50-55",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Sharpedo",
+        "levels": "50-55",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Toxapex",
+        "levels": "50-55",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Kingdra",
+        "levels": "55",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Magikarp",
+        "levels": "1-79",
+        "rates": [
+          "100%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "20",
+        "rates": [
+          "70%"
+        ]
+      },
+      {
+        "name": "Magikarp",
+        "levels": "1-89",
+        "rates": [
+          "30%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "50-55",
+        "rates": [
+          "84%"
+        ]
+      },
+      {
+        "name": "Wailord",
+        "levels": "52-55",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Toxapex",
+        "levels": "52-55",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Magikarp",
+        "levels": "1-99",
+        "rates": [
+          "1%"
+        ]
+      }
+    ]
+  }
+}

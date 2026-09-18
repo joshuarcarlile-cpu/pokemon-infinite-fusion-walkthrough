@@ -1,0 +1,114 @@
+{
+  "location": "Route 2 (ID 90)",
+  "map_id": 90,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Lotad",
+        "levels": "2-5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Stufful",
+        "levels": "2-5",
+        "rates": [
+          "20%",
+          "20% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Bidoof",
+        "levels": "2-5",
+        "rates": [
+          "15%",
+          "25% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Ledyba",
+        "levels": "4-5",
+        "rates": [
+          "15%",
+          "5% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Spinarak",
+        "levels": "2-5",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Ralts",
+        "levels": "4-5",
+        "rates": [
+          "10%",
+          "10% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Tangela",
+        "levels": "3-4",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Fletchling",
+        "levels": "2-3",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Spinarak",
+        "levels": "4-5",
+        "rates": [
+          "5%",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Hoothoot",
+        "levels": "2-3",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Sentret",
+        "levels": "2-5",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Machop",
+        "levels": "2-5",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Phantump",
+        "levels": "2-5",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Pumpkaboo",
+        "levels": "2-5",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

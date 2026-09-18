@@ -1,0 +1,132 @@
+{
+  "location": "Route 9 (ID 351)",
+  "map_id": 351,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Gligar",
+        "levels": "11-17",
+        "rates": [
+          "24%",
+          "24% (LandMorning)",
+          "24% (LandNight)"
+        ]
+      },
+      {
+        "name": "Hawlucha",
+        "levels": "12-17",
+        "rates": [
+          "15%",
+          "15% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Miltank",
+        "levels": "14-17",
+        "rates": [
+          "15%",
+          "15% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Natu",
+        "levels": "13-17",
+        "rates": [
+          "15%",
+          "15% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Kecleon",
+        "levels": "11-17",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Onix",
+        "levels": "12-15",
+        "rates": [
+          "10%",
+          "10% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Magnemite",
+        "levels": "13",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Nincada",
+        "levels": "18",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Charmander",
+        "levels": "11-15",
+        "rates": [
+          "1%",
+          "1% (LandMorning)",
+          "1% (LandNight)"
+        ]
+      },
+      {
+        "name": "Jigglypuff",
+        "levels": "11-17",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Pawniard",
+        "levels": "15-16",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Aipom",
+        "levels": "14-17",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Hawlucha",
+        "levels": "14-17",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Klefki",
+        "levels": "11-17",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Luxio",
+        "levels": "15-16",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Murkrow",
+        "levels": "13-17",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

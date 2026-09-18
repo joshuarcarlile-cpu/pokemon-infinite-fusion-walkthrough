@@ -1,0 +1,243 @@
+{
+  "location": "Route 13 (ID 437)",
+  "map_id": 437,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Aipom",
+        "levels": "22-26",
+        "rates": [
+          "20%",
+          "20% (LandMorning)",
+          "35% (LandNight)"
+        ]
+      },
+      {
+        "name": "Sandygast",
+        "levels": "22-26",
+        "rates": [
+          "20%",
+          "20% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Swablu",
+        "levels": "24-26",
+        "rates": [
+          "15%",
+          "15% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Farfetch'd",
+        "levels": "26",
+        "rates": [
+          "10%",
+          "10% (LandMorning)",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Natu",
+        "levels": "25-27",
+        "rates": [
+          "10%",
+          "10% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Paras",
+        "levels": "28-30",
+        "rates": [
+          "10%",
+          "10% (LandMorning)",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Wimpod",
+        "levels": "28-30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Pidgey",
+        "levels": "29",
+        "rates": [
+          "5%",
+          "5% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Kadabra",
+        "levels": "28-30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Noibat",
+        "levels": "28-30",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Sandygast",
+        "levels": "24-26",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Drifloon",
+        "levels": "25-27",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Golett",
+        "levels": "29",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Bruxish",
+        "levels": "25-30",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Tentacool",
+        "levels": "25-26",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "25-26",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Wailmer",
+        "levels": "5",
+        "rates": [
+          "39%"
+        ]
+      },
+      {
+        "name": "Tentacool",
+        "levels": "5",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "5-15",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Krabby",
+        "levels": "5-15",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Mantyke",
+        "levels": "5-15",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "15-35",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Krabby",
+        "levels": "15-35",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Milotic",
+        "levels": "15-25",
+        "rates": [
+          "16%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "15-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Psyduck",
+        "levels": "25-35",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Slowpoke",
+        "levels": "25-35",
+        "rates": [
+          "2%"
+        ]
+      }
+    ]
+  }
+}

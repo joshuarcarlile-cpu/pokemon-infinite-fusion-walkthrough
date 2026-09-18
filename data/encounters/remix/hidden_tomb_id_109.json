@@ -1,0 +1,43 @@
+{
+  "location": "Hidden Tomb (ID 109)",
+  "map_id": 109,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Duskull",
+        "levels": "12-22",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Litwick",
+        "levels": "12-22",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Spiritomb",
+        "levels": "20-25",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Oricorio",
+        "levels": "20-25",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Rotom",
+        "levels": "21-24",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

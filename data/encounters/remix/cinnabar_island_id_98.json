@@ -1,0 +1,168 @@
+{
+  "location": "Cinnabar Island (ID 98)",
+  "map_id": 98,
+  "sections": {
+    "Surf": [
+      {
+        "name": "Bruxish",
+        "levels": "30-35",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Chinchou",
+        "levels": "5-40",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "15-25",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Horsea",
+        "levels": "15-30",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Staryu",
+        "levels": "25-30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Lanturn",
+        "levels": "20-25",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Feebas",
+        "levels": "5",
+        "rates": [
+          "38%"
+        ]
+      },
+      {
+        "name": "Carvanha",
+        "levels": "5",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Klefki",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "5-15",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Remoraid",
+        "levels": "5-15",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "5-15",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Krabby",
+        "levels": "15-35",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Dhelmise",
+        "levels": "15-35",
+        "rates": [
+          "33%"
+        ]
+      },
+      {
+        "name": "Sharpedo",
+        "levels": "15-25",
+        "rates": [
+          "16%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "15-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Corsola",
+        "levels": "25-35",
+        "rates": [
+          "4%"
+        ]
+      },
+      {
+        "name": "Torkoal",
+        "levels": "36-44",
+        "rates": [
+          "2%"
+        ]
+      }
+    ]
+  }
+}

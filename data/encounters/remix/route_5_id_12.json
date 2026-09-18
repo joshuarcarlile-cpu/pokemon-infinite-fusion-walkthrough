@@ -1,0 +1,99 @@
+{
+  "location": "Route 5 (ID 12)",
+  "map_id": 12,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Natu",
+        "levels": "13-16",
+        "rates": [
+          "20%",
+          "20% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Oricorio",
+        "levels": "10-16",
+        "rates": [
+          "20%",
+          "20% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Shroomish",
+        "levels": "13-14",
+        "rates": [
+          "20%",
+          "20% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Pineco",
+        "levels": "13-16",
+        "rates": [
+          "19%",
+          "29% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Igglybuff",
+        "levels": "12",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Meowth",
+        "levels": "12-15",
+        "rates": [
+          "10%",
+          "10% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Bulbasaur",
+        "levels": "8-12",
+        "rates": [
+          "1%",
+          "1% (LandMorning)",
+          "1% (LandNight)"
+        ]
+      },
+      {
+        "name": "Murkrow",
+        "levels": "13-16",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Drifloon",
+        "levels": "10-16",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "13-16",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Honedge",
+        "levels": "13-16",
+        "rates": [
+          "14%"
+        ]
+      },
+      {
+        "name": "Fomantis",
+        "levels": "13-15",
+        "rates": [
+          "10%"
+        ]
+      }
+    ]
+  }
+}

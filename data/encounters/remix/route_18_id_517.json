@@ -1,0 +1,229 @@
+{
+  "location": "b'Route 18' (ID 517)",
+  "map_id": 517,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Miltank",
+        "levels": "24-28",
+        "rates": [
+          "24%",
+          "34% (LandMorning)",
+          "24% (LandNight)"
+        ]
+      },
+      {
+        "name": "Girafarig",
+        "levels": "20-22",
+        "rates": [
+          "20%",
+          "20% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Doduo",
+        "levels": "25-29",
+        "rates": [
+          "15%",
+          "15% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Furret",
+        "levels": "25-29",
+        "rates": [
+          "15%",
+          "15% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Stantler",
+        "levels": "22",
+        "rates": [
+          "15%",
+          "5% (LandMorning)",
+          "15% (LandNight)"
+        ]
+      },
+      {
+        "name": "Fearow",
+        "levels": "25",
+        "rates": [
+          "10%",
+          "10% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Torchic",
+        "levels": "25-26",
+        "rates": [
+          "1%",
+          "1% (LandMorning)",
+          "1% (LandNight)"
+        ]
+      },
+      {
+        "name": "Fearow",
+        "levels": "25-29",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Bewear",
+        "levels": "26-29",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Misdreavus",
+        "levels": "25-29",
+        "rates": [
+          "15%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Mareanie",
+        "levels": "5-30",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Staryu",
+        "levels": "20-25",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Bruxish",
+        "levels": "5-40",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Carvanha",
+        "levels": "20-25",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Octillery",
+        "levels": "30",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Feebas",
+        "levels": "5",
+        "rates": [
+          "39%"
+        ]
+      },
+      {
+        "name": "Carvanha",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Bruxish",
+        "levels": "5-15",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Remoraid",
+        "levels": "5-15",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Dhelmise",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "5-15",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "15-35",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Krabby",
+        "levels": "15-35",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Sharpedo",
+        "levels": "15-25",
+        "rates": [
+          "18%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "15-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Toxapex",
+        "levels": "35-45",
+        "rates": [
+          "2%"
+        ]
+      }
+    ]
+  }
+}

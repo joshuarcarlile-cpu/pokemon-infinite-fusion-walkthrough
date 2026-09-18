@@ -1,0 +1,161 @@
+{
+  "location": "b'Route 20' (ID 58)",
+  "map_id": 58,
+  "sections": {
+    "Surf": [
+      {
+        "name": "Chinchou",
+        "levels": "5-40",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Qwilfish",
+        "levels": "15-25",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Horsea",
+        "levels": "15-30",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "25-35",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Bruxish",
+        "levels": "5-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Seel",
+        "levels": "25-30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Lanturn",
+        "levels": "20-25",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Feebas",
+        "levels": "5",
+        "rates": [
+          "39%"
+        ]
+      },
+      {
+        "name": "Carvanha",
+        "levels": "5",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Shellder",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "5-15",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Krabby",
+        "levels": "5-15",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "5-15",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "15-35",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Remoraid",
+        "levels": "15-35",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Sharpedo",
+        "levels": "15-25",
+        "rates": [
+          "16%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "15-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Mantine",
+        "levels": "25-35",
+        "rates": [
+          "4%"
+        ]
+      }
+    ]
+  }
+}

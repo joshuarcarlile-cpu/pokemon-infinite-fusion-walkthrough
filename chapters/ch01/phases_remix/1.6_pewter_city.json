@@ -1,0 +1,64 @@
+{
+  "name": "Pewter City & Boulder Badge Gym",
+  "summary": "Historic stone-quarried city nestled in the foothills of Mt. Moon. Home of the Pewter Museum of Science, multiple valuable early-game sidequests, and Gym Leader Brock's Gym.",
+  "items": [
+    {
+      "name": "Fusion Incense",
+      "method": "Found tucked between the flower patch and the trees",
+      "type": "Hold Item"
+    },
+    {
+      "name": "Fresh Water",
+      "method": "Given by the Gym Guide just inside the entrance of Pewter Gym",
+      "type": "Consumable"
+    },
+    {
+      "name": "Black Flute",
+      "method": "Gifted by the traveler sitting on the city bench immediately after defeating Brock",
+      "type": "Item"
+    },
+    {
+      "name": "Revive",
+      "method": "Found under a bench in Pewter City after accepting the Youngster's quest in the hotel",
+      "type": "Consumable"
+    },
+    {
+      "name": "TM21 (Frustration)",
+      "method": "Reward from the Youngster in the Pewter Hotel after returning his lost Revive",
+      "type": "TM"
+    },
+    {
+      "name": "Balm Mushroom",
+      "method": "Reward from the chef in Pewter Hotel after giving her 3 Tiny Mushrooms from Viridian Forest",
+      "type": "Valuable"
+    },
+    {
+      "name": "Partner Cap",
+      "method": "Reward from the Pikachu in the Poké Mart after finding its official League Hat",
+      "type": "Accessory"
+    }
+  ],
+  "trainers": [],
+  "encounters": {
+    "Quest Reward": [
+      {"name": "Pineco", "levels": "10", "rates": "Hotel Bug Evolution Quest"}
+    ],
+    "In-Game Trade": [
+      {"name": "Tyrogue", "levels": "Same as Traded", "rates": "Pewter House (Traded for Mankey)"}
+    ]
+  },
+  "move_tutors": [
+    {
+      "name": "Metronome Move Tutor",
+      "location": "Inside the Pewter Museum of Science (eastern lab)",
+      "cost": "Free",
+      "notes": "Teaches Metronome, executing a completely random move from the entire game."
+    },
+    {
+      "name": "Mud-Slap Move Tutor",
+      "location": "Pewter Museum 2nd floor scientist",
+      "cost": "Free (Quiz completion)",
+      "notes": "Teaches Ground-type special move Mud-Slap (100% accuracy drop)."
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "location": "Offshore Road (ID 762)",
+  "map_id": 762,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Swablu",
+        "levels": "27-31",
+        "rates": [
+          "30%",
+          "30% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Golett",
+        "levels": "25-30",
+        "rates": [
+          "20%",
+          "20% (LandMorning)",
+          "20% (LandNight)"
+        ]
+      },
+      {
+        "name": "Axew",
+        "levels": "25",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Bagon",
+        "levels": "25",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Beldum",
+        "levels": "25",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Deino",
+        "levels": "25",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Dratini",
+        "levels": "25",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Gible",
+        "levels": "25",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Goomy",
+        "levels": "25",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Jangmo-o",
+        "levels": "25",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Larvitar",
+        "levels": "25",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Trapinch",
+        "levels": "25",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Noibat",
+        "levels": "27-31",
+        "rates": [
+          "30%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Sharpedo",
+        "levels": "30-40",
+        "rates": [
+          "48%"
+        ]
+      },
+      {
+        "name": "Golduck",
+        "levels": "30-37",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Carvanha",
+        "levels": "25-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "25-40",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Skarmory",
+        "levels": "30-32",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Altaria",
+        "levels": "37-42",
+        "rates": [
+          "1%"
+        ]
+      },
+      {
+        "name": "Noivern",
+        "levels": "37-42",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Carvanha",
+        "levels": "5",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Psyduck",
+        "levels": "5",
+        "rates": [
+          "39%"
+        ]
+      },
+      {
+        "name": "Remoraid",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Horsea",
+        "levels": "5-15",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Dhelmise",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Psyduck",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Horsea",
+        "levels": "25-35",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Slowpoke",
+        "levels": "25-35",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Sharpedo",
+        "levels": "15-25",
+        "rates": [
+          "16%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "25-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Toxapex",
+        "levels": "30-39",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Dhelmise",
+        "levels": "15-35",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Remoraid",
+        "levels": "15-35",
+        "rates": [
+          "2%"
+        ]
+      }
+    ]
+  }
+}

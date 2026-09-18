@@ -1,0 +1,15 @@
+{
+  "location": "Debug Island (ID 356)",
+  "map_id": 356,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Ditto",
+        "levels": "20",
+        "rates": [
+          "100%"
+        ]
+      }
+    ]
+  }
+}

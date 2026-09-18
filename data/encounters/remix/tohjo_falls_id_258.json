@@ -1,0 +1,156 @@
+{
+  "location": "Tohjo Falls (ID 258)",
+  "map_id": 258,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Golisopod",
+        "levels": "32-38",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Quagsire",
+        "levels": "32",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Probopass",
+        "levels": "32",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Bastiodon",
+        "levels": "38",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Rampardos",
+        "levels": "38",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Tyrantrum",
+        "levels": "38",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Aerodactyl",
+        "levels": "40",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Sharpedo",
+        "levels": "32-39",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Golisopod",
+        "levels": "32-38",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Armaldo",
+        "levels": "38",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Cradily",
+        "levels": "38",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Quagsire",
+        "levels": "32",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Aerodactyl",
+        "levels": "40",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Carvanha",
+        "levels": "5",
+        "rates": [
+          "54%"
+        ]
+      },
+      {
+        "name": "Wimpod",
+        "levels": "5",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Goldeen",
+        "levels": "10",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Kabutops",
+        "levels": "38",
+        "rates": [
+          "50%"
+        ]
+      },
+      {
+        "name": "Omastar",
+        "levels": "38",
+        "rates": [
+          "50%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Lapras",
+        "levels": "40",
+        "rates": [
+          "100%"
+        ]
+      }
+    ]
+  }
+}

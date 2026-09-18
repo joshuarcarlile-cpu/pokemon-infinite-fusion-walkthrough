@@ -1,0 +1,56 @@
+{
+  "location": "Resort Gorgeous (ID 566)",
+  "map_id": 566,
+  "sections": {
+    "Surf": [
+      {
+        "name": "Bruxish",
+        "levels": "40-50",
+        "rates": [
+          "95%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "40-50",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Bruxish",
+        "levels": "10",
+        "rates": [
+          "100%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Bruxish",
+        "levels": "20",
+        "rates": [
+          "100%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Bruxish",
+        "levels": "40",
+        "rates": [
+          "99%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "40-70",
+        "rates": [
+          "1%"
+        ]
+      }
+    ]
+  }
+}

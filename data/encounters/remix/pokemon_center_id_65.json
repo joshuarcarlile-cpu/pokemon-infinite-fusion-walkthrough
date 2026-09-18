@@ -1,0 +1,194 @@
+{
+  "location": "Pokemon Center (ID 65)",
+  "map_id": 65,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Dunsparce",
+        "levels": "30-32",
+        "rates": [
+          "25%",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Girafarig",
+        "levels": "30-32",
+        "rates": [
+          "25%",
+          "25% (LandNight)"
+        ]
+      },
+      {
+        "name": "Natu",
+        "levels": "25-30",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Pawniard",
+        "levels": "30-33",
+        "rates": [
+          "15%",
+          "15% (LandNight)"
+        ]
+      },
+      {
+        "name": "Pidgeotto",
+        "levels": "30-34",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Noctowl",
+        "levels": "30-34",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Raticate",
+        "levels": "30-32",
+        "rates": [
+          "15%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Carvanha",
+        "levels": "5-40",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "name": "Chinchou",
+        "levels": "5-35",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Seaking",
+        "levels": "35-40",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Tentacruel",
+        "levels": "35-40",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Carvanha",
+        "levels": "5",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Feebas",
+        "levels": "5",
+        "rates": [
+          "39%"
+        ]
+      },
+      {
+        "name": "Chinchou",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Horsea",
+        "levels": "5-15",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Krabby",
+        "levels": "5-15",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Staryu",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Horsea",
+        "levels": "15-35",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Krabby",
+        "levels": "15-35",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Shellder",
+        "levels": "15-25",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Staryu",
+        "levels": "15-25",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Sharpedo",
+        "levels": "15-25",
+        "rates": [
+          "16%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "25-35",
+        "rates": [
+          "4%"
+        ]
+      }
+    ]
+  }
+}

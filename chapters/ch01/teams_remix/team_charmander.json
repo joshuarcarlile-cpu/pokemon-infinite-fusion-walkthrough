@@ -1,0 +1,90 @@
+{
+  "starter": "Charmander",
+  "name": "Team Charmander: Hyper-Offense & Fighting Wallbreaker (Remix)",
+  "archetype": "Fast Fire STAB pressure, Water/Grass resistance pivot, and Counter physical punishment.",
+  "gym_duel_core": [1, 3],
+  "gym_duel_rationale": "Brock's Steel-hybrid team is naturally vulnerable to Fire and Fighting. Enter the arena with Charmander (Ember deals 2x super-effective damage to Steelix/Mime Jr.) and Riolu (Counter punishes physical contact while Fighting typing threatens Aron/Psyduck).",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Charmander",
+      "types": ["Fire"],
+      "status": "Active in Party (Starter Anchor)",
+      "current_level": 13,
+      "ability": "Blaze",
+      "held_item": "Oran Berry",
+      "role": "Fire Wallbreaker & Brock Finisher",
+      "current_reached_moveset": [
+        "Ember",
+        "Scratch",
+        "Smokescreen",
+        "Growl"
+      ],
+      "progression_notes": "All 4 moves learned naturally by Lv. 13. Ember deals 2x super-effective damage into Steelix/Mime Jr. while Smokescreen disrupts Brock's accuracy."
+    },
+    {
+      "slot": 2,
+      "species": "Lotad",
+      "types": ["Water", "Grass"],
+      "status": "Active in Party (Route 2 Catch)",
+      "current_level": 13,
+      "ability": "Rain Dish",
+      "held_item": "Oran Berry",
+      "role": "Water/Grass Pivot & Lead Buffer",
+      "current_reached_moveset": [
+        "Absorb",
+        "Bubble",
+        "Astonish",
+        "Growl"
+      ],
+      "progression_notes": "Caught on Route 2. Water/Grass typing resists Aron/Psyduck's Water moves while providing Grass sustain via Absorb."
+    },
+    {
+      "slot": 3,
+      "species": "Riolu",
+      "types": ["Fighting"],
+      "status": "Active in Party (Secret Garden Catch)",
+      "current_level": 13,
+      "ability": "Steadfast",
+      "held_item": "Oran Berry",
+      "role": "Physical Fighting Duelist & Counter Punisher",
+      "current_reached_moveset": [
+        "Counter",
+        "Quick Attack",
+        "Endure",
+        "Feint"
+      ],
+      "progression_notes": "Caught in Secret Garden at Lv. 2. Counter inflicts double the physical damage taken back onto opponents, easily OHKOing Steelix."
+    }
+  ],
+  "flex_bench": [
+    {
+      "slot": "B1",
+      "species": "Sentret",
+      "types": ["Normal"],
+      "current_level": 12,
+      "ability": "Run Away",
+      "held_item": "Oran Berry",
+      "role": "Early Speed Scout & Normal Attacker",
+      "why_use": "Caught on Route 1 at night. Quick Attack priority helps finish weakened leads."
+    },
+    {
+      "slot": "B2",
+      "species": "Fletchling",
+      "types": ["Normal", "Flying"],
+      "current_level": 12,
+      "ability": "Big Pecks",
+      "held_item": "Sharp Beak",
+      "role": "Aerial Scout & Forest Sweeper",
+      "why_use": "Caught on Route 1. High Speed and Peck sweep Viridian Forest bugs with ease."
+    }
+  ],
+  "fusion_lifecycle": {
+    "active_fusions": [],
+    "unfuse_recommendations": [],
+    "upcoming_fusions": [
+      "Charmeleon/Lucario (Mid-game Fire/Fighting aura striker)",
+      "Ludicolo/Arcanine (Bulky Water/Fire pivot)"
+    ]
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "location": "Route 19 (ID 57)",
+  "map_id": 57,
+  "sections": {
+    "Surf": [
+      {
+        "name": "Luvdisc",
+        "levels": "20-40",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Chinchou",
+        "levels": "5-40",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Sharpedo",
+        "levels": "35-40",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Horsea",
+        "levels": "15-30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Lanturn",
+        "levels": "20-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Seel",
+        "levels": "25-34",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Shellder",
+        "levels": "25-34",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Pyukumuku",
+        "levels": "15-35",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Luvdisc",
+        "levels": "5",
+        "rates": [
+          "39%"
+        ]
+      },
+      {
+        "name": "Goldeen",
+        "levels": "5",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Staryu",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "5-15",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Krabby",
+        "levels": "5-15",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Staryu",
+        "levels": "5-15",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "15-35",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Krabby",
+        "levels": "15-35",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Sharpedo",
+        "levels": "15-25",
+        "rates": [
+          "18%"
+        ]
+      },
+      {
+        "name": "Staryu",
+        "levels": "15-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Milotic",
+        "levels": "25-35",
+        "rates": [
+          "2%"
+        ]
+      }
+    ]
+  }
+}

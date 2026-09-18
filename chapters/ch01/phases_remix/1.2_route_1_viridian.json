@@ -1,0 +1,40 @@
+{
+  "name": "Route 1 & Viridian City",
+  "summary": "The northern corridor connecting Pallet Town to Viridian City. Pick up the free Potion from the clerk in the grass, claim Oak's Parcel from the Viridian Poké Mart, and deliver it to Oak to unlock the Pokédex, Poké Balls, and DNA Splicers.",
+  "items": [
+    {
+      "name": "Potion",
+      "method": "Talk to the friendly Poké Mart clerk standing in the grass near southern Route 1",
+      "type": "Consumable"
+    },
+    {
+      "name": "Oak's Parcel",
+      "method": "Given by the Viridian Poké Mart clerk upon your first entry",
+      "type": "Key Item"
+    },
+    {
+      "name": "Pokédex",
+      "method": "Awarded by Professor Oak in Pallet Town upon delivering Oak's Parcel",
+      "type": "Key Item"
+    },
+    {
+      "name": "Poké Balls (x5)",
+      "method": "Gifted by Professor Oak alongside the Pokédex",
+      "type": "Consumable"
+    }
+  ],
+  "trainers": [],
+  "encounters": {
+    "Grass": [
+      {"name": "Bidoof", "levels": "2-5", "rates": "35% Morning / Day"},
+      {"name": "Fletchling", "levels": "2-5", "rates": "34% Morning / Day"},
+      {"name": "Shinx", "levels": "2-5", "rates": "15% Morning / Day / 20% Night"},
+      {"name": "Azurill", "levels": "2-4", "rates": "10% All Times"},
+      {"name": "Smeargle", "levels": "2-3", "rates": "5% Morning / Day"},
+      {"name": "Ditto", "levels": "2-4", "rates": "1% All Times"},
+      {"name": "Hoothoot", "levels": "2-5", "rates": "39% Night"},
+      {"name": "Sentret", "levels": "2-5", "rates": "30% Night"}
+    ]
+  },
+  "navigation_notes": "Viridian Poké Mart stocks basic DNA Splicers ($300) immediately after Oak's Parcel is delivered! Purchase 3-4 Antidotes ($100 each) here before proceeding to Viridian Forest."
+}

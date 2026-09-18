@@ -1,0 +1,220 @@
+{
+  "location": "Route 34 (ID 265)",
+  "map_id": 265,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Hawlucha",
+        "levels": "30-32",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Granbull",
+        "levels": "34-35",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Slurpuff",
+        "levels": "30-32",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Espeon",
+        "levels": "30-32",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Kadabra",
+        "levels": "33-34",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Ditto",
+        "levels": "30",
+        "rates": [
+          "5%",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Wigglytuff",
+        "levels": "30",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Kadabra",
+        "levels": "30-32",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Hypno",
+        "levels": "34-35",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Noctowl",
+        "levels": "30-32",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Duosion",
+        "levels": "33-34",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Umbreon",
+        "levels": "30-32",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Bewear",
+        "levels": "30",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Tentacool",
+        "levels": "15-30",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Carvanha",
+        "levels": "15-30",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "15-30",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Tentacruel",
+        "levels": "35",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Magikarp",
+        "levels": "10",
+        "rates": [
+          "45%"
+        ]
+      },
+      {
+        "name": "Chinchou",
+        "levels": "5",
+        "rates": [
+          "39%"
+        ]
+      },
+      {
+        "name": "Krabby",
+        "levels": "10",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Mareanie",
+        "levels": "20",
+        "rates": [
+          "45%"
+        ]
+      },
+      {
+        "name": "Magikarp",
+        "levels": "20",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Dhelmise",
+        "levels": "20",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Krabby",
+        "levels": "20",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Krabby",
+        "levels": "40",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "name": "Dhelmise",
+        "levels": "40",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Toxapex",
+        "levels": "40",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Kingler",
+        "levels": "40",
+        "rates": [
+          "10%"
+        ]
+      }
+    ]
+  }
+}

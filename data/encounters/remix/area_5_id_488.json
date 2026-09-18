@@ -1,0 +1,57 @@
+{
+  "location": "Area 5 (ID 488)",
+  "map_id": 488,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Yamask",
+        "levels": "20-24",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Larvesta",
+        "levels": "20-25",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Trapinch",
+        "levels": "19-23",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Cacnea",
+        "levels": "20-25",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Golett",
+        "levels": "30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Sandslash",
+        "levels": "25-31",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Vibrava",
+        "levels": "26-31",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

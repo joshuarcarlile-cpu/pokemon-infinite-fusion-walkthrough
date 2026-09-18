@@ -34,8 +34,8 @@ BUDGETS = {
     "boss_max": 5632,        # 5.5 KB
     "meta_target": 1024,     # 1.0 KB
     "meta_max": 2048,        # 2.0 KB
-    "dist_bundle_max": 350000, # 350 KB
-    "manifest_warn": 65000,  # 65 KB
+    "dist_bundle_max": 550000, # 550 KB (Dual-Mode Bundle)
+    "manifest_warn": 80000,  # 80 KB
 }
 
 DEAD_FIELDS = {
@@ -126,34 +126,37 @@ def main():
                 elif size > BUDGETS["meta_target"]:
                     warnings.append(f"{meta_file.relative_to(ROOT_DIR)} exceeds target: {size} B > {BUDGETS['meta_target']} B")
 
-            # Boss
-            boss_file = ch / "boss.json"
-            if boss_file.exists():
-                size = boss_file.stat().st_size
-                if size > BUDGETS["boss_max"]:
-                    errors.append(f"{boss_file.relative_to(ROOT_DIR)} exceeds max limit: {size} B > {BUDGETS['boss_max']} B")
-                elif size > BUDGETS["boss_target"]:
-                    warnings.append(f"{boss_file.relative_to(ROOT_DIR)} exceeds target: {size} B > {BUDGETS['boss_target']} B")
+            # Boss (Classic & Remix)
+            for b_name in ["boss.json", "boss_remix.json"]:
+                b_file = ch / b_name
+                if b_file.exists():
+                    size = b_file.stat().st_size
+                    if size > BUDGETS["boss_max"]:
+                        errors.append(f"{b_file.relative_to(ROOT_DIR)} exceeds max limit: {size} B > {BUDGETS['boss_max']} B")
+                    elif size > BUDGETS["boss_target"]:
+                        warnings.append(f"{b_file.relative_to(ROOT_DIR)} exceeds target: {size} B > {BUDGETS['boss_target']} B")
 
-            # Phases
-            phases_dir = ch / "phases"
-            if phases_dir.exists():
-                for p_file in sorted(phases_dir.glob("*.json")):
-                    size = p_file.stat().st_size
-                    if size > BUDGETS["phase_max"]:
-                        errors.append(f"{p_file.relative_to(ROOT_DIR)} exceeds max limit: {size} B > {BUDGETS['phase_max']} B")
-                    elif size > BUDGETS["phase_target"]:
-                        warnings.append(f"{p_file.relative_to(ROOT_DIR)} exceeds target: {size} B > {BUDGETS['phase_target']} B")
+            # Phases (Classic & Remix)
+            for p_dir_name in ["phases", "phases_remix"]:
+                p_dir = ch / p_dir_name
+                if p_dir.exists():
+                    for p_file in sorted(p_dir.glob("*.json")):
+                        size = p_file.stat().st_size
+                        if size > BUDGETS["phase_max"]:
+                            errors.append(f"{p_file.relative_to(ROOT_DIR)} exceeds max limit: {size} B > {BUDGETS['phase_max']} B")
+                        elif size > BUDGETS["phase_target"]:
+                            warnings.append(f"{p_file.relative_to(ROOT_DIR)} exceeds target: {size} B > {BUDGETS['phase_target']} B")
 
-            # Teams
-            teams_dir = ch / "teams"
-            if teams_dir.exists():
-                for t_file in sorted(teams_dir.glob("*.json")):
-                    size = t_file.stat().st_size
-                    if size > BUDGETS["team_max"]:
-                        errors.append(f"{t_file.relative_to(ROOT_DIR)} exceeds max limit: {size} B > {BUDGETS['team_max']} B")
-                    elif size > BUDGETS["team_target"]:
-                        warnings.append(f"{t_file.relative_to(ROOT_DIR)} exceeds target: {size} B > {BUDGETS['team_target']} B")
+            # Teams (Classic & Remix)
+            for t_dir_name in ["teams", "teams_remix"]:
+                t_dir = ch / t_dir_name
+                if t_dir.exists():
+                    for t_file in sorted(t_dir.glob("*.json")):
+                        size = t_file.stat().st_size
+                        if size > BUDGETS["team_max"]:
+                            errors.append(f"{t_file.relative_to(ROOT_DIR)} exceeds max limit: {size} B > {BUDGETS['team_max']} B")
+                        elif size > BUDGETS["team_target"]:
+                            warnings.append(f"{t_file.relative_to(ROOT_DIR)} exceeds target: {size} B > {BUDGETS['team_target']} B")
 
         print(f"  ✓ Audited {len(chapter_folders)} chapters across all micro-sliced components.")
 

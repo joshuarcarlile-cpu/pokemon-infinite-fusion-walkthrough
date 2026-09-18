@@ -1,0 +1,67 @@
+{
+  "name": "Route 2 (South) & Viridian Forest",
+  "summary": "Canopy maze between Viridian City and Pewter City. Prime catching spot for Bug, Grass, and Electric lines in Remix.",
+  "items": [
+    {"name": "Antidote", "method": "North fence of Route 2 (South)", "type": "Consumable"},
+    {"name": "Antidote", "method": "Near forest entrance", "type": "Consumable"},
+    {"name": "Potion", "method": "Central forest clearing", "type": "Consumable"},
+    {"name": "Poké Ball", "method": "Northwest corner before exit gate", "type": "Consumable"}
+  ],
+  "trainers": [
+    {
+      "name": "Bug Catcher Rick",
+      "team": [
+        {"species": "Minior/Wimpod", "level": 7, "moves": ["Tackle", "Harden", "Struggle Bug"]},
+        {"species": "Minior/Wimpod", "level": 8, "moves": ["Tackle", "Harden", "Struggle Bug"]}
+      ],
+      "reward": "96 Pokedollars"
+    },
+    {
+      "name": "Bug Catcher Lana",
+      "team": [
+        {"species": "Shroomish/Ditto", "level": 6, "moves": ["Absorb", "Tackle"]},
+        {"species": "Budew/Nincada", "level": 7, "moves": ["Absorb", "Scratch", "Harden"]},
+        {"species": "Chespin/Fletchling", "level": 9, "moves": ["Vine Whip", "Peck", "Quick Attack"]}
+      ],
+      "reward": "108 Pokedollars"
+    },
+    {
+      "name": "Bug Catcher Jim",
+      "team": [
+        {"species": "Venipede/Remoraid", "level": 7, "moves": ["Water Gun", "Poison Sting"]},
+        {"species": "Paras/Munchlax", "level": 8, "moves": ["Scratch", "Lick", "Stun Spore"]},
+        {"species": "Chikorita/Ralts", "level": 8, "moves": ["Razor Leaf", "Confusion", "Growl"]}
+      ],
+      "reward": "96 Pokedollars"
+    }
+  ],
+  "encounters": {
+    "Grass": [
+      {"name": "Budew", "levels": "3-5", "rates": "25% Day / 30% Morning"},
+      {"name": "Venipede", "levels": "3-5", "rates": "20% Day / Morning"},
+      {"name": "Shroomish", "levels": "3-5", "rates": "15% Day / Morning"},
+      {"name": "Joltik", "levels": "4-6", "rates": "10% Day / Night"},
+      {"name": "Paras", "levels": "3-5", "rates": "10% Day / 5% Morning"},
+      {"name": "Fomantis", "levels": "3-5", "rates": "15% Night"},
+      {"name": "Zubat", "levels": "3-5", "rates": "15% Night"},
+      {"name": "Phantump", "levels": "3-5", "rates": "10% Night"},
+      {"name": "Pumpkaboo", "levels": "3-5", "rates": "10% Night"},
+      {"name": "Larvesta", "levels": "3-4", "rates": "5% Morning / Day"},
+      {"name": "Dhelmise", "levels": "3-4", "rates": "1% Night"}
+    ]
+  },
+  "move_tutors": [
+    {
+      "name": "Fury Cutter Move Tutor",
+      "location": "Inside the entrance gate leading from Route 2 into Viridian Forest",
+      "cost": "200 Pokedollars",
+      "notes": "Teaches Bug-type physical move Fury Cutter."
+    },
+    {
+      "name": "Bug Bite Move Tutor",
+      "location": "Inside the exit gate leading from Viridian Forest to Route 2 (After Forest)",
+      "cost": "2,000 Pokedollars",
+      "notes": "Teaches Bug Bite, stealing and consuming the target's held Berry."
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "location": "Brine Road (ID 564)",
+  "map_id": 564,
+  "sections": {
+    "Surf": [
+      {
+        "name": "Bruxish",
+        "levels": "25-30",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Corsola",
+        "levels": "40-45",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Wailmer",
+        "levels": "20-35",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "40-45",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Qwilfish",
+        "levels": "35-45",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Tentacool",
+        "levels": "20-40",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Mantine",
+        "levels": "50",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Feebas",
+        "levels": "10",
+        "rates": [
+          "45%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "10",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Staryu",
+        "levels": "10",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Horsea",
+        "levels": "10",
+        "rates": [
+          "15%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Luvdisc",
+        "levels": "20",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "name": "Tentacool",
+        "levels": "20",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Chinchou",
+        "levels": "20",
+        "rates": [
+          "7%"
+        ]
+      },
+      {
+        "name": "Shellder",
+        "levels": "20",
+        "rates": [
+          "3%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Chinchou",
+        "levels": "40",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "40",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Tentacruel",
+        "levels": "40",
+        "rates": [
+          "7%"
+        ]
+      },
+      {
+        "name": "Lanturn",
+        "levels": "40",
+        "rates": [
+          "3%"
+        ]
+      }
+    ],
+    "Grass": [
+      {
+        "name": "Sandygast",
+        "levels": "44-45",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Skiploom",
+        "levels": "40-45",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Ninjask",
+        "levels": "45-55",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Jumpluff",
+        "levels": "50-55",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Krabby",
+        "levels": "40-45",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Smeargle",
+        "levels": "50",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Golduck",
+        "levels": "55",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

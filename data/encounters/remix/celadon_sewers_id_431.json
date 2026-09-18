@@ -1,0 +1,136 @@
+{
+  "location": "Celadon Sewers (ID 431)",
+  "map_id": 431,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Magnemite",
+        "levels": "20-25",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Sandile",
+        "levels": "25",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "20-27",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Grimer",
+        "levels": "20-25",
+        "rates": [
+          "19%"
+        ]
+      },
+      {
+        "name": "Bibarel",
+        "levels": "28",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Meowth",
+        "levels": "20-28",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Rattata",
+        "levels": "20-25",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Koffing",
+        "levels": "28",
+        "rates": [
+          "4%"
+        ]
+      },
+      {
+        "name": "Porygon",
+        "levels": "20-30",
+        "rates": [
+          "1%"
+        ]
+      },
+      {
+        "name": "Totodile",
+        "levels": "20-27",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Mareanie",
+        "levels": "25-30",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Wooper",
+        "levels": "25-30",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Bruxish",
+        "levels": "15-25",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Magikarp",
+        "levels": "20-30",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Grimer",
+        "levels": "32",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "15-25",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Klefki",
+        "levels": "15-25",
+        "rates": [
+          "9%"
+        ]
+      },
+      {
+        "name": "Totodile",
+        "levels": "20-27",
+        "rates": [
+          "1%"
+        ]
+      }
+    ]
+  }
+}

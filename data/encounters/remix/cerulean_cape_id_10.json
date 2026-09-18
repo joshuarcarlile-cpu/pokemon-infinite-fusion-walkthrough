@@ -1,0 +1,177 @@
+{
+  "location": "Cerulean Cape (ID 10)",
+  "map_id": 10,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Buneary",
+        "levels": "10",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Mareep",
+        "levels": "10",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Hoppip",
+        "levels": "12-14",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Solosis",
+        "levels": "8-12",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Nincada",
+        "levels": "12-14",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Pidgey",
+        "levels": "11-13",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Caterpie",
+        "levels": "8-10",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Weedle",
+        "levels": "8-10",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Slowpoke",
+        "levels": "20-40",
+        "rates": [
+          "50%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "20-40",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Psyduck",
+        "levels": "20-40",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Carvanha",
+        "levels": "5",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Feebas",
+        "levels": "5",
+        "rates": [
+          "29%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "5-15",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "name": "Goldeen",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "15-25",
+        "rates": [
+          "45%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "15-35",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Gyarados",
+        "levels": "15-25",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Poliwhirl",
+        "levels": "20-30",
+        "rates": [
+          "10%"
+        ]
+      }
+    ]
+  }
+}

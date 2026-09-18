@@ -1,0 +1,64 @@
+{
+  "location": "Map 99 (ID 99)",
+  "map_id": 99,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Magcargo",
+        "levels": "33-35",
+        "rates": [
+          "24%"
+        ]
+      },
+      {
+        "name": "Ponyta",
+        "levels": "33-35",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Tyrunt",
+        "levels": "33-37",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Magmar",
+        "levels": "33-37",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Talonflame",
+        "levels": "36-39",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Torkoal",
+        "levels": "34-39",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Flareon",
+        "levels": "33-35",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Fennekin",
+        "levels": "15-17",
+        "rates": [
+          "1%"
+        ]
+      }
+    ]
+  }
+}

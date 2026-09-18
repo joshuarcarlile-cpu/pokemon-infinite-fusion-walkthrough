@@ -5,7 +5,10 @@ These rules are mandatory and automatically loaded for all Antigravity agents, s
 ---
 
 ## 1. Non-Negotiable Game Standards & Information Truth
-* **Classic Mode Only**: Encounters, trainer rosters, and item locations must strictly match **Classic Mode**. Modern Mode and Remix spawns are strictly prohibited.
+* **Dual-Mode Standards (Classic & Remix)**:
+  - **Classic Mode**: Encounters, trainer rosters, and item locations must strictly match **Classic Mode** ground truth (`data/encounters/kanto/`, `data/trainers_classic.json`).
+  - **Remix Mode**: When authoring or viewing Remix content, encounters and trainer rosters must strictly match **Remix Mode** ground truth (`data/encounters/remix/`, `data/trainers_remix.json`).
+  - Remix content lives strictly in dedicated sibling paths (`phases_remix/`, `boss_remix.json`, `teams_remix/`).
 * **Hard Mode Level Caps**: The gym leader level cap for each segment is an absolute upper bound:
   - No recommended party level may exceed the cap.
   - No Pokémon may evolve if its evolution level exceeds the cap (e.g. Starter Lv. 16 evolution is prohibited before Brock's Lv. 14 cap).
@@ -72,6 +75,13 @@ These rules are mandatory and automatically loaded for all Antigravity agents, s
 * **Active Threshold Party + Flex Bench**:
   - Each starter track defines an **Active Threshold Party** ($\ge \text{Gym Duel Limit}$ up to 6) specifically tuned for that segment.
   - Each starter track defines a **Flex Bench (2–3 Mons)** of contextual tech counters caught along the way (with zero duplicate families of active members).
+* **The Organic Team Evolution Rule (Mandatory Delta Per Chapter)**:
+  - Across consecutive chapters ($N \to N+1$), every starter track MUST exhibit organic progression:
+    - At least one species delta (new catch added, member rotated, or fusion Head/Body changed), **OR**
+    - An updated moveset reflecting new level-up/TM legality at the higher cap, **OR**
+    - An explicit `"no_change_rationale"` explaining why the team was held unchanged for that segment.
+  - Only the starter line is a permanent anchor. Frozen/static rosters across chapters without rationale are strictly prohibited.
+  - Enforced via `scripts/test_team_evolution.py` (Hard Gate on Remix, phased warning on Classic).
 
 ---
 
@@ -93,13 +103,13 @@ These rules are mandatory and automatically loaded for all Antigravity agents, s
 
 ## 5. The Ultra-Sliced File Architecture (Anti-Bloat Protocol)
 * **Never create monolithic chapter files**. All chapter content must be authored in `chapters/chXX/` sliced into atomic files with strict byte budgets:
-  - `phases/` micro-locations: Target $\le 2.5$ KB (Hard ceiling: $4.0$ KB without sub-slicing).
-  - `teams/` starter files: Target $\le 4.5$ KB (Hard ceiling: $6.0$ KB for full mid/late-game rosters + bench).
-  - `boss.json` strategy cards: Target $\le 4.0$ KB (Hard ceiling: $5.5$ KB for multi-starter duels).
+  - `phases/` & `phases_remix/` micro-locations: Target $\le 2.5$ KB (Hard ceiling: $4.0$ KB without sub-slicing).
+  - `teams/` & `teams_remix/` starter files: Target $\le 4.5$ KB (Hard ceiling: $6.0$ KB for full mid/late-game rosters + bench).
+  - `boss.json` & `boss_remix.json` strategy cards: Target $\le 4.0$ KB (Hard ceiling: $5.5$ KB for multi-starter duels).
   - `meta.json` segment metadata: Target $\le 1.0$ KB (Hard ceiling: $2.0$ KB).
 * **Bundle & Context Ceilings**:
-  - Standalone Offline Dashboard (`dist/index.html`): Strict budget $\le 350$ KB (enforced via native client-side Gzip decompression using `DecompressionStream('gzip')` and Base64 embedding, keeping full multi-act campaigns under ~200–250 KB).
-  - Preflight Context Manifests (`specs/manifest_chXX.json`): Target $\le 60$ KB (Hard ceiling: $65$ KB).
+  - Standalone Offline Dashboard (`dist/index.html`): Strict budget $\le 550$ KB (enforced via native client-side Gzip decompression using `DecompressionStream('gzip')` and Base64 embedding).
+  - Preflight Context Manifests (`specs/manifest_chXX.json`): Target $\le 75$ KB (Hard ceiling: $80$ KB for dual-mode manifests).
 * **Subagent Token Protection & Loop Prohibition**:
   - Subagents must be ephemeral, read only the target 1–4 KB file, and return receipts under 30 tokens.
   - Hard step ceiling of $\le 5$ tool calls per subagent.

@@ -1,0 +1,37 @@
+{
+  "name": "Pallet Town",
+  "summary": "Your home town. Select your starter Pokémon from Professor Oak's Laboratory, withdraw the bedroom PC Potion, and claim the Town Map from Daisy after delivering Oak's Parcel.",
+  "items": [
+    {
+      "name": "Potion",
+      "method": "Withdrawn from player's PC bedroom item storage",
+      "type": "Consumable"
+    },
+    {
+      "name": "Town Map",
+      "method": "Gifted by Daisy in the rival's house after delivering Oak's Parcel",
+      "type": "Key Item"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Rival Blue (Lab Battle)",
+      "team": [
+        {
+          "species": "Dratini/Dratini",
+          "level": 6,
+          "moves": ["Wrap", "Leer"]
+        }
+      ],
+      "reward": "210 Pokedollars",
+      "strategy": "In Remix, Blue leads with a fused Dratini/Dratini! Lower its Defense with Leer or Tail Whip and burst it down with your primary STAB/Tackle before Wrap chip accumulates."
+    }
+  ],
+  "encounters": {
+    "Gift Pokémon": [
+      {"dex_id": "001", "name": "Bulbasaur", "types": ["Grass", "Poison"], "levels": "5", "rates": "Starter Choice"},
+      {"dex_id": "004", "name": "Charmander", "types": ["Fire"], "levels": "5", "rates": "Starter Choice"},
+      {"dex_id": "007", "name": "Squirtle", "types": ["Water"], "levels": "5", "rates": "Starter Choice"}
+    ]
+  }
+}

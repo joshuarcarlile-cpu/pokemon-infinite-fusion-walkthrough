@@ -1,0 +1,67 @@
+{
+  "location": "Route 37 (ID 586)",
+  "map_id": 586,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Cottonee",
+        "levels": "41-49",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Stantler",
+        "levels": "47-51",
+        "rates": [
+          "30%",
+          "30% (LandNight)"
+        ]
+      },
+      {
+        "name": "Girafarig",
+        "levels": "35",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Growlithe",
+        "levels": "40-48",
+        "rates": [
+          "10%",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Vulpix",
+        "levels": "40-48",
+        "rates": [
+          "10%",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Ariados",
+        "levels": "41-49",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Bewear",
+        "levels": "41-48",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Lairon",
+        "levels": "35",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

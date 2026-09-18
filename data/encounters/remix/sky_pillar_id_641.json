@@ -1,0 +1,57 @@
+{
+  "location": "Sky Pillar (ID 641)",
+  "map_id": 641,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Gliscor",
+        "levels": "54-56",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Dusclops",
+        "levels": "54-56",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Mawile",
+        "levels": "54-56",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Sableye",
+        "levels": "54-56",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Skarmory",
+        "levels": "54-56",
+        "rates": [
+          "13%"
+        ]
+      },
+      {
+        "name": "Yanmega",
+        "levels": "45",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Sylveon",
+        "levels": "48-50",
+        "rates": [
+          "2%"
+        ]
+      }
+    ]
+  }
+}

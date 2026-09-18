@@ -1,0 +1,43 @@
+{
+  "location": "Sky Pillar (ID 597)",
+  "map_id": 597,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Mawile",
+        "levels": "48-50",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Minior",
+        "levels": "48-50",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Sableye",
+        "levels": "48-50",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Skarmory",
+        "levels": "47-50",
+        "rates": [
+          "23%"
+        ]
+      },
+      {
+        "name": "Sylveon",
+        "levels": "48-50",
+        "rates": [
+          "2%"
+        ]
+      }
+    ]
+  }
+}

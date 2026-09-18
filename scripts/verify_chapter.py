@@ -113,6 +113,15 @@ def verify_chapter(spec_file, chapter_target):
         boss_duel_limit = boss.get("gym_duel_limit")
         if boss_duel_limit is not None and boss_duel_limit != gym_duel_limit:
             errors.append(f"GATE 1 FAIL: Boss gym_duel_limit {boss_duel_limit} does not match spec {gym_duel_limit}")
+
+    boss_remix = chapter.get("boss_strategy_remix")
+    if boss_remix:
+        rem_rec = boss_remix.get("recommended_party_level", 0)
+        if rem_rec > cap:
+            errors.append(f"GATE 1 FAIL (Remix): Recommended level {rem_rec} exceeds Hard Mode cap of {cap}")
+        rem_duel = boss_remix.get("gym_duel_limit")
+        if gym_duel_limit is not None and rem_duel is not None and rem_duel != gym_duel_limit:
+            errors.append(f"GATE 1 FAIL (Remix): Boss gym_duel_limit {rem_duel} does not match spec {gym_duel_limit}")
         
     # Gate 2: Route Encounter Legality & Canonical Location Verification
     prohibited_spawns = set(spec.get("prohibited_spawns", []))
@@ -136,117 +145,124 @@ def verify_chapter(spec_file, chapter_target):
         if f"use {tool.lower()}" in chapter_text or f"requires {tool.lower()}" in chapter_text:
             errors.append(f"GATE 3 FAIL: Prohibited tool '{tool}' instructed for use before obtainable")
             
-    # Gate 4: Three Starter Teams Integrity & Move Legality Check
+    # Gate 4: Three Starter Teams Integrity & Move Legality Check (Classic & Remix)
     teams = chapter.get("teams", {})
     required_starters = spec.get("starter_teams_required", ["bulbasaur", "charmander", "squirtle"])
-    for st in required_starters:
-        if st not in teams:
-            errors.append(f"GATE 4 FAIL: Missing starter team '{st}' in chapter teams")
-            continue
-            
-        t_data = teams[st]
-        roster = t_data.get("roster", [])
-        min_party = gym_duel_limit if gym_duel_limit is not None else 2
-        if len(roster) < min_party or len(roster) > 6:
-            errors.append(f"GATE 4 FAIL: Team '{st}' roster must contain between {min_party} and 6 members for this threshold (found {len(roster)})")
-            
-        # Verify Starter is Permanent Anchor on its Track
-        starter_families = {
-            "bulbasaur": "Bulbasaur",
-            "charmander": "Charmander",
-            "squirtle": "Squirtle"
-        }
-        req_fam = starter_families.get(st.lower())
-        if req_fam:
-            has_starter = False
+    def validate_starter_teams(teams_dict, mode_label="Classic"):
+        t_errors = []
+        for st in required_starters:
+            if st not in teams_dict:
+                t_errors.append(f"GATE 4 FAIL ({mode_label}): Missing starter team '{st}' in chapter teams")
+                continue
+                
+            t_data = teams_dict[st]
+            roster = t_data.get("roster", [])
+            min_party = gym_duel_limit if gym_duel_limit is not None else 2
+            if len(roster) < min_party or len(roster) > 6:
+                t_errors.append(f"GATE 4 FAIL ({mode_label}): Team '{st}' roster must contain between {min_party} and 6 members for this threshold (found {len(roster)})")
+                
+            # Verify Starter is Permanent Anchor on its Track
+            starter_families = {
+                "bulbasaur": "Bulbasaur",
+                "charmander": "Charmander",
+                "squirtle": "Squirtle"
+            }
+            req_fam = starter_families.get(st.lower())
+            if req_fam:
+                has_starter = False
+                for slot in roster:
+                    mon_spec = slot.get("species", "")
+                    parts = [p.strip() for p in mon_spec.split("/") if p.strip()]
+                    if any(get_species_family(p) == req_fam for p in parts):
+                        has_starter = True
+                        break
+                if not has_starter:
+                    t_errors.append(f"GATE 4 FAIL ({mode_label}): Team '{st}' must contain its designated starter family '{req_fam}' as permanent anchor!")
+                
+            # Validate Gym Duel Core (Party Size Limit)
+            if gym_duel_limit is not None:
+                duel_core = t_data.get("gym_duel_core", [])
+                if len(duel_core) != gym_duel_limit:
+                    t_errors.append(f"GATE 4 FAIL ({mode_label}): Team '{st}' gym_duel_core must specify exactly {gym_duel_limit} slots (found {len(duel_core)})")
+                for slot_num in duel_core:
+                    matching = [s for s in roster if s.get("slot") == slot_num]
+                    if not matching:
+                        t_errors.append(f"GATE 4 FAIL ({mode_label}): Team '{st}' gym_duel_core references non-existent slot {slot_num}")
+                    elif "active" not in matching[0].get("status", "active").lower():
+                        t_errors.append(f"GATE 4 FAIL ({mode_label}): Team '{st}' gym_duel_core slot {slot_num} ({matching[0].get('species')}) must be Active in Party")
+                
             for slot in roster:
-                mon_spec = slot.get("species", "")
-                parts = [p.strip() for p in mon_spec.split("/") if p.strip()]
-                if any(get_species_family(p) == req_fam for p in parts):
-                    has_starter = True
-                    break
-            if not has_starter:
-                errors.append(f"GATE 4 FAIL: Team '{st}' must contain its designated starter family '{req_fam}' as permanent anchor!")
-            
-        # Validate Gym Duel Core (Party Size Limit)
-        if gym_duel_limit is not None:
-            duel_core = t_data.get("gym_duel_core", [])
-            if len(duel_core) != gym_duel_limit:
-                errors.append(f"GATE 4 FAIL: Team '{st}' gym_duel_core must specify exactly {gym_duel_limit} slots (found {len(duel_core)})")
-            for slot_num in duel_core:
-                matching = [s for s in roster if s.get("slot") == slot_num]
-                if not matching:
-                    errors.append(f"GATE 4 FAIL: Team '{st}' gym_duel_core references non-existent slot {slot_num}")
-                elif "active" not in matching[0].get("status", "active").lower():
-                    errors.append(f"GATE 4 FAIL: Team '{st}' gym_duel_core slot {slot_num} ({matching[0].get('species')}) must be Active in Party")
-            
-        for slot in roster:
-            s_num = slot.get("slot")
-            species = slot.get("species", "")
-            
-            lvl = slot.get("current_level", 0)
-            if lvl > cap:
-                errors.append(f"GATE 4 FAIL: Team '{st}' slot {s_num} ({species}) level {lvl} exceeds cap {cap}")
-            reached = slot.get("current_reached_moveset", [])
-            if len(reached) != 4:
-                errors.append(f"GATE 4 FAIL: Team '{st}' slot {s_num} ({species}) reached moveset must have 4 moves (found {len(reached)})")
-            if not slot.get("ability"):
-                errors.append(f"GATE 4 FAIL: Team '{st}' slot {s_num} ({species}) missing ability")
-            if not slot.get("held_item"):
-                errors.append(f"GATE 4 FAIL: Team '{st}' slot {s_num} ({species}) missing held item")
+                s_num = slot.get("slot")
+                species = slot.get("species", "")
                 
-            # Mechanical Move Legality Verification (Dual-Species for Fusions)
-            if is_move_reachable is not None and species:
-                base_mon = species.split("/")[0].strip() if "/" in species else species
-                sec_mon = species.split("/")[1].strip() if "/" in species else None
-                
-                head_moves = set(get_reachable_moves(base_mon, cap))
-                body_moves = set(get_reachable_moves(sec_mon, cap)) if sec_mon else set()
-                combined_legal = head_moves.union(body_moves)
-                
-                if combined_legal:
-                    for mv in reached:
-                        if mv not in combined_legal:
-                            errors.append(f"GATE 4 FAIL: Move '{mv}' is not legally reachable by '{species}' at or before Level {cap}")
+                lvl = slot.get("current_level", 0)
+                if lvl > cap:
+                    t_errors.append(f"GATE 4 FAIL ({mode_label}): Team '{st}' slot {s_num} ({species}) level {lvl} exceeds cap {cap}")
+                reached = slot.get("current_reached_moveset", [])
+                if len(reached) != 4:
+                    t_errors.append(f"GATE 4 FAIL ({mode_label}): Team '{st}' slot {s_num} ({species}) reached moveset must have 4 moves (found {len(reached)})")
+                if not slot.get("ability"):
+                    t_errors.append(f"GATE 4 FAIL ({mode_label}): Team '{st}' slot {s_num} ({species}) missing ability")
+                if not slot.get("held_item"):
+                    t_errors.append(f"GATE 4 FAIL ({mode_label}): Team '{st}' slot {s_num} ({species}) missing held item")
+                    
+                # Mechanical Move Legality Verification (Dual-Species for Fusions)
+                if is_move_reachable is not None and species:
+                    base_mon = species.split("/")[0].strip() if "/" in species else species
+                    sec_mon = species.split("/")[1].strip() if "/" in species else None
+                    
+                    head_moves = set(get_reachable_moves(base_mon, cap))
+                    body_moves = set(get_reachable_moves(sec_mon, cap)) if sec_mon else set()
+                    combined_legal = head_moves.union(body_moves)
+                    
+                    if combined_legal:
+                        for mv in reached:
+                            if mv not in combined_legal:
+                                t_errors.append(f"GATE 4 FAIL ({mode_label}): Move '{mv}' is not legally reachable by '{species}' at or before Level {cap}")
 
-        # Species Clause: Zero Duplicates across Active Threshold Roster
-        seen_families = {}
-        for slot in roster:
-            s_num = slot.get("slot")
-            species = slot.get("species", "").strip()
-            if not species:
-                continue
-            components = set(c.strip() for c in species.split("/") if c.strip())
-            for comp in components:
-                fam = get_species_family(comp)
-                if fam in seen_families:
-                    prev_slot, prev_mon = seen_families[fam]
-                    if prev_slot != s_num:
-                        errors.append(
-                            f"GATE 4 FAIL: Team '{st}' violates Species Clause! "
-                            f"Evolutionary family '{fam}' is used in multiple slots: "
-                            f"Slot {prev_slot} ({prev_mon}) and Slot {s_num} ({species})"
+            # Species Clause: Zero Duplicates across Active Threshold Roster
+            seen_families = {}
+            for slot in roster:
+                s_num = slot.get("slot")
+                species = slot.get("species", "").strip()
+                if not species:
+                    continue
+                components = set(c.strip() for c in species.split("/") if c.strip())
+                for comp in components:
+                    fam = get_species_family(comp)
+                    if fam in seen_families:
+                        prev_slot, prev_mon = seen_families[fam]
+                        if prev_slot != s_num:
+                            t_errors.append(
+                                f"GATE 4 FAIL ({mode_label}): Team '{st}' violates Species Clause! "
+                                f"Evolutionary family '{fam}' is used in multiple slots: "
+                                f"Slot {prev_slot} ({prev_mon}) and Slot {s_num} ({species})"
+                            )
+                    else:
+                        seen_families[fam] = (s_num, species)
+
+            # Species Clause: Zero Duplicates on Flex Bench (against Active Roster AND other Bench members)
+            bench = t_data.get("flex_bench", [])
+            for b_idx, b_mon in enumerate(bench):
+                b_spec = b_mon.get("species", "").strip()
+                if not b_spec:
+                    continue
+                b_components = set(c.strip() for c in b_spec.split("/") if c.strip())
+                for b_comp in b_components:
+                    b_fam = get_species_family(b_comp)
+                    if b_fam in seen_families:
+                        prev_loc, prev_mon = seen_families[b_fam]
+                        t_errors.append(
+                            f"GATE 4 FAIL ({mode_label}): Team '{st}' flex bench violates Species Clause! "
+                            f"Evolutionary family '{b_fam}' in bench ({b_spec}) is already used in {prev_loc} ({prev_mon})"
                         )
-                else:
-                    seen_families[fam] = (s_num, species)
+                    else:
+                        seen_families[b_fam] = (f"Bench Slot #{b_idx + 1}", b_spec)
+        return t_errors
 
-        # Species Clause: Zero Duplicates on Flex Bench (against Active Roster AND other Bench members)
-        bench = t_data.get("flex_bench", [])
-        for b_idx, b_mon in enumerate(bench):
-            b_spec = b_mon.get("species", "").strip()
-            if not b_spec:
-                continue
-            b_components = set(c.strip() for c in b_spec.split("/") if c.strip())
-            for b_comp in b_components:
-                b_fam = get_species_family(b_comp)
-                if b_fam in seen_families:
-                    prev_loc, prev_mon = seen_families[b_fam]
-                    errors.append(
-                        f"GATE 4 FAIL: Team '{st}' flex bench violates Species Clause! "
-                        f"Evolutionary family '{b_fam}' in bench ({b_spec}) is already used in {prev_loc} ({prev_mon})"
-                    )
-                else:
-                    seen_families[b_fam] = (f"Bench Slot #{b_idx + 1}", b_spec)
+    errors.extend(validate_starter_teams(chapter.get("teams", {}), "Classic"))
+    if chapter.get("teams_remix"):
+        errors.extend(validate_starter_teams(chapter.get("teams_remix", {}), "Remix"))
 
     # Gate 5: Missable & Wiki Knowledge Integrity Gate
     quests_path = os.path.join(BASE_DIR, "data", "quests", "master_quests.json")

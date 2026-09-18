@@ -1,0 +1,62 @@
+{
+  "leader": "Brock",
+  "title": "Pewter City Gym Leader (Remix Hard Mode)",
+  "badge": "Boulder Badge",
+  "hard_mode_level_cap": 14,
+  "gym_duel_limit": 2,
+  "recommended_party_level": 13,
+  "gym_trainers": [
+    {
+      "name": "Camper Liam",
+      "team": [
+        {
+          "species": "Spearow/Ferroseed",
+          "level": 8,
+          "types": ["Normal", "Steel"],
+          "moves": ["Peck", "Pursuit", "Rollout", "Tackle"]
+        },
+        {
+          "species": "Bellsprout/Klink",
+          "level": 9,
+          "types": ["Grass", "Steel"],
+          "moves": ["Vine Whip", "Growth", "Vice Grip", "Charge"]
+        }
+      ]
+    }
+  ],
+  "leader_team": [
+    {
+      "species": "Aron/Psyduck",
+      "level": 10,
+      "types": ["Steel", "Water"],
+      "ability": "Rock Head",
+      "moves": [
+        "Headbutt",
+        "Yawn",
+        "Future Sight",
+        "Metal Claw"
+      ]
+    },
+    {
+      "species": "Steelix/Mime Jr.",
+      "level": 14,
+      "types": ["Steel", "Fairy"],
+      "ability": "Filter",
+      "held_item": "Oran Berry",
+      "is_ace": true,
+      "moves": [
+        "Confusion",
+        "Gyro Ball",
+        "Barrier",
+        "Rock Throw"
+      ]
+    }
+  ],
+  "threat_analysis": "In Remix Hard Mode, Brock shifts away from pure Rock/Ground attrition into a fortified Steel-type defensive bulwark. Lead Aron/Psyduck (Lv. 10) combines Steel and Water typing, resisting 10 types while threatening delayed damage via Future Sight and forcing switches with Yawn. His Ace, Steelix/Mime Jr. (Lv. 14), is a Steel/Fairy fortress with Filter, softening super-effective hits. Carrying Gyro Ball and Confusion backed by Barrier and an Oran Berry, it walls unprepared physical attackers.",
+  "tactical_counter_plan": [
+    "Bulbasaur Team Strategy: Bulbasaur's Leech Seed bypasses Filter and drains Steelix/Mime Jr. through Barrier. Pair Bulbasaur with Route 22 Phanpy (Ground) — Rollout and Ground pressure exploit both opponents' shared Ground weakness.",
+    "Charmander Team Strategy: Charmander's Ember hits Steelix/Mime Jr. for super-effective Fire damage. Pair with Secret Garden Riolu (Fighting), whose Counter and Quick Attack deal super-effective damage to Aron/Psyduck.",
+    "Squirtle Team Strategy: Squirtle's Water Gun hits Aron/Psyduck neutrally and tanks hits with Withdraw. Pair with Route 22 Slugma (Fire/Rock), whose Ember incinerates Steelix/Mime Jr., while Rock Throw provides solid neutral power.",
+    "Countering Yawn and Barrier: When Aron/Psyduck uses Yawn, capitalize on the turn to set status before switching, or burst it down. Against Steelix, prioritize special attacks or Leech Seed to circumvent Barrier."
+  ]
+}

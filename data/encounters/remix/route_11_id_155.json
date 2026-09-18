@@ -1,0 +1,227 @@
+{
+  "location": "Route 11 (ID 155)",
+  "map_id": 155,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Scraggy",
+        "levels": "13-17",
+        "rates": [
+          "20%",
+          "20% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Drowzee",
+        "levels": "11-15",
+        "rates": [
+          "15%",
+          "15% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Oddish",
+        "levels": "12-15",
+        "rates": [
+          "15%",
+          "15% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Swirlix",
+        "levels": "11-16",
+        "rates": [
+          "15%",
+          "15% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Voltorb",
+        "levels": "12-15",
+        "rates": [
+          "15%",
+          "15% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Klink",
+        "levels": "12-14",
+        "rates": [
+          "10%",
+          "10% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Stunfisk",
+        "levels": "12-15",
+        "rates": [
+          "10%",
+          "10% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Venonat",
+        "levels": "12-15",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Drifloon",
+        "levels": "13-17",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Joltik",
+        "levels": "12-15",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Sandygast",
+        "levels": "11-16",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Scraggy",
+        "levels": "12-15",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Luvdisc",
+        "levels": "5-40",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "name": "Wailmer",
+        "levels": "5-35",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Azumarill",
+        "levels": "35-40",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Wailord",
+        "levels": "35-40",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Carvanha",
+        "levels": "5",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Wooper",
+        "levels": "5",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "5",
+        "rates": [
+          "29%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "5-15",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Horsea",
+        "levels": "5-15",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "15-35",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Horsea",
+        "levels": "15-35",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Bruxish",
+        "levels": "15-25",
+        "rates": [
+          "16%"
+        ]
+      },
+      {
+        "name": "Quagsire",
+        "levels": "25-35",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Staryu",
+        "levels": "25-35",
+        "rates": [
+          "2%"
+        ]
+      }
+    ]
+  }
+}

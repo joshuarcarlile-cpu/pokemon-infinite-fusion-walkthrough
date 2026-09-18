@@ -1,0 +1,64 @@
+{
+  "location": "Mt. Silver (ID 780)",
+  "map_id": 780,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Rhydon",
+        "levels": "58-61",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Steelix",
+        "levels": "58-62",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Crobat",
+        "levels": "58-60",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Alakazam",
+        "levels": "60-62",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Gengar",
+        "levels": "60-62",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Lapras",
+        "levels": "57-59",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Noivern",
+        "levels": "58-62",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Tyranitar",
+        "levels": "63-66",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

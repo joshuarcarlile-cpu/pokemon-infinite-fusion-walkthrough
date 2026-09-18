@@ -1,0 +1,51 @@
+{
+  "location": "Bill's garden (ID 178)",
+  "map_id": 178,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Unown",
+        "levels": "1-2",
+        "rates": [
+          "100%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Unown",
+        "levels": "1-2",
+        "rates": [
+          "100%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Unown",
+        "levels": "1-2",
+        "rates": [
+          "100%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Unown",
+        "levels": "1-2",
+        "rates": [
+          "100%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Unown",
+        "levels": "1-2",
+        "rates": [
+          "100%"
+        ]
+      }
+    ]
+  }
+}

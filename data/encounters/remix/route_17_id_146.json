@@ -1,0 +1,262 @@
+{
+  "location": "b'Route 17' (ID 146)",
+  "map_id": 146,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Klink",
+        "levels": "24-28",
+        "rates": [
+          "30%",
+          "30% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Whirlipede",
+        "levels": "20-26",
+        "rates": [
+          "20%",
+          "20% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Bibarel",
+        "levels": "25-29",
+        "rates": [
+          "15%",
+          "25% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Roselia",
+        "levels": "20-22",
+        "rates": [
+          "10%",
+          "10% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Skarmory",
+        "levels": "26",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Cottonee",
+        "levels": "25-27",
+        "rates": [
+          "5%",
+          "5% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Gligar",
+        "levels": "22",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Ponyta",
+        "levels": "24-28",
+        "rates": [
+          "5%",
+          "5% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Zubat",
+        "levels": "20-22",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Lickitung",
+        "levels": "25-29",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Grimer",
+        "levels": "24-28",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Glalie",
+        "levels": "25-29",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Klink",
+        "levels": "25-27",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Muk",
+        "levels": "30",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Bruxish",
+        "levels": "5-40",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Skarmory",
+        "levels": "5-40",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Goldeen",
+        "levels": "5-35",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5-30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Quagsire",
+        "levels": "35-40",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Sharpedo",
+        "levels": "35-40",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Feebas",
+        "levels": "5",
+        "rates": [
+          "39%"
+        ]
+      },
+      {
+        "name": "Carvanha",
+        "levels": "5",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Bruxish",
+        "levels": "5-15",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Krabby",
+        "levels": "5-15",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "5-15",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "15-35",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Krabby",
+        "levels": "15-35",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Sharpedo",
+        "levels": "25-35",
+        "rates": [
+          "18%"
+        ]
+      },
+      {
+        "name": "Bruxish",
+        "levels": "15-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Toxapex",
+        "levels": "35-45",
+        "rates": [
+          "2%"
+        ]
+      }
+    ]
+  }
+}

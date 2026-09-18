@@ -1,0 +1,243 @@
+{
+  "location": "Route 4 (ID 106)",
+  "map_id": 106,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Sunkern",
+        "levels": "8-12",
+        "rates": [
+          "20%",
+          "20% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Wimpod",
+        "levels": "10-12",
+        "rates": [
+          "20%",
+          "20% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Yanma",
+        "levels": "8-12",
+        "rates": [
+          "20%",
+          "20% (LandMorning)",
+          "20% (LandNight)"
+        ]
+      },
+      {
+        "name": "Cottonee",
+        "levels": "6-12",
+        "rates": [
+          "15%",
+          "15% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Tyrogue",
+        "levels": "6-12",
+        "rates": [
+          "10%",
+          "10% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Ferroseed",
+        "levels": "8-12",
+        "rates": [
+          "9%",
+          "9% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Heracross",
+        "levels": "8-10",
+        "rates": [
+          "5%",
+          "5% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Squirtle",
+        "levels": "8-12",
+        "rates": [
+          "1%",
+          "1% (LandMorning)",
+          "1% (LandNight)"
+        ]
+      },
+      {
+        "name": "Ekans",
+        "levels": "6-12",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Hoothoot",
+        "levels": "8-12",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Wimpod",
+        "levels": "8-12",
+        "rates": [
+          "14%"
+        ]
+      },
+      {
+        "name": "Murkrow",
+        "levels": "10-12",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Ferroseed",
+        "levels": "10-12",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Chinchou",
+        "levels": "5-35",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Sharpedo",
+        "levels": "30-40",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Wailmer",
+        "levels": "5-40",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Lanturn",
+        "levels": "35-40",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Wailord",
+        "levels": "35-40",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Carvanha",
+        "levels": "5",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Feebas",
+        "levels": "5",
+        "rates": [
+          "29%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Remoraid",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "5-15",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Remoraid",
+        "levels": "5-15",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "15-35",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "15-35",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Sharpedo",
+        "levels": "15-25",
+        "rates": [
+          "16%"
+        ]
+      },
+      {
+        "name": "Horsea",
+        "levels": "25-35",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Slowpoke",
+        "levels": "25-35",
+        "rates": [
+          "2%"
+        ]
+      }
+    ]
+  }
+}

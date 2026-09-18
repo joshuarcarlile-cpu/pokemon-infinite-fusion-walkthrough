@@ -1,0 +1,208 @@
+{
+  "location": "Cherrygrove City (ID 367)",
+  "map_id": 367,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Gloom",
+        "levels": "35-45",
+        "rates": [
+          "15%",
+          "15% (LandNight)"
+        ]
+      },
+      {
+        "name": "Weepinbell",
+        "levels": "35-45",
+        "rates": [
+          "15%",
+          "15% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Raichu",
+        "levels": "40-45",
+        "rates": [
+          "10%",
+          "10% (LandMorning)",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Arbok",
+        "levels": "30-40",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "15% (LandNight)"
+        ]
+      },
+      {
+        "name": "Butterfree",
+        "levels": "30-40",
+        "rates": [
+          "5%",
+          "5% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Ditto",
+        "levels": "40-45",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "9% (LandNight)"
+        ]
+      },
+      {
+        "name": "Exeggcute",
+        "levels": "30-40",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Golbat",
+        "levels": "40-45",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Mankey",
+        "levels": "30-40",
+        "rates": [
+          "5%",
+          "5% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Persian",
+        "levels": "40-45",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Scolipede",
+        "levels": "35",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Venomoth",
+        "levels": "45-50",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "13% (LandNight)"
+        ]
+      },
+      {
+        "name": "Victreebel",
+        "levels": "40-45",
+        "rates": [
+          "5%",
+          "5% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Vileplume",
+        "levels": "40-45",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Snorlax",
+        "levels": "45-50",
+        "rates": [
+          "3%",
+          "3% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Leafeon",
+        "levels": "30",
+        "rates": [
+          "2%",
+          "2% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Scolipede",
+        "levels": "35-45",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Primeape",
+        "levels": "35",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Scolipede",
+        "levels": "40-45",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Leafeon",
+        "levels": "45-50",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Bewear",
+        "levels": "45-55",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Bruxish",
+        "levels": "40-42",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Poliwhirl",
+        "levels": "30-40",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Poliwrath",
+        "levels": "40",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Seaking",
+        "levels": "40",
+        "rates": [
+          "20%"
+        ]
+      }
+    ]
+  }
+}

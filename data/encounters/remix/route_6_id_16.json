@@ -1,0 +1,254 @@
+{
+  "location": "Route 6 (ID 16)",
+  "map_id": 16,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Ledyba",
+        "levels": "10-16",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Lotad",
+        "levels": "10-15",
+        "rates": [
+          "15%",
+          "15% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Pidgey",
+        "levels": "13-16",
+        "rates": [
+          "15%",
+          "15% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Psyduck",
+        "levels": "10-15",
+        "rates": [
+          "15%",
+          "15% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Mankey",
+        "levels": "15",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Munchlax",
+        "levels": "13-16",
+        "rates": [
+          "10%",
+          "10% (LandMorning)",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Bellsprout",
+        "levels": "10-16",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Smeargle",
+        "levels": "13-16",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Pikachu",
+        "levels": "10-16",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Machop",
+        "levels": "15",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Spearow",
+        "levels": "10-16",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Spinarak",
+        "levels": "10-16",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Venonat",
+        "levels": "15",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Murkrow",
+        "levels": "13-16",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Mankey",
+        "levels": "10-16",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Luvdisc",
+        "levels": "20-40",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Lombre",
+        "levels": "30-40",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "20-40",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Psyduck",
+        "levels": "20-40",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Luvdisc",
+        "levels": "5",
+        "rates": [
+          "59%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Wimpod",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "5-15",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Horsea",
+        "levels": "5-15",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Lombre",
+        "levels": "15-25",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "20-30",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Horsea",
+        "levels": "15-25",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Ludicolo",
+        "levels": "25-35",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Sharpedo",
+        "levels": "15-25",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Slowpoke",
+        "levels": "15-35",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Staryu",
+        "levels": "15-35",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

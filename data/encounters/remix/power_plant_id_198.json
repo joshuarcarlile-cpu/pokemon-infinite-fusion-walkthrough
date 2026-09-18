@@ -1,0 +1,50 @@
+{
+  "location": "Power Plant (ID 198)",
+  "map_id": 198,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Elekid",
+        "levels": "32-35",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Klink",
+        "levels": "32-35",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Luxio",
+        "levels": "32-35",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Magnemite",
+        "levels": "32-35",
+        "rates": [
+          "12%"
+        ]
+      },
+      {
+        "name": "Voltorb",
+        "levels": "33-35",
+        "rates": [
+          "12%"
+        ]
+      },
+      {
+        "name": "Metang",
+        "levels": "33-37",
+        "rates": [
+          "1%"
+        ]
+      }
+    ]
+  }
+}

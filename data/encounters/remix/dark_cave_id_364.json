@@ -1,0 +1,149 @@
+{
+  "location": "Dark Cave (ID 364)",
+  "map_id": 364,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Ariados",
+        "levels": "42",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Bewear",
+        "levels": "42-50",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Mawile",
+        "levels": "42",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Ursaring",
+        "levels": "45",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Scrafty",
+        "levels": "42-45",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Wobbuffet",
+        "levels": "42",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Dunsparce",
+        "levels": "40-45",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Poliwrath",
+        "levels": "30",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "name": "Slowpoke",
+        "levels": "30",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Seaking",
+        "levels": "35",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Poliwrath",
+        "levels": "10",
+        "rates": [
+          "94%"
+        ]
+      },
+      {
+        "name": "Goldeen",
+        "levels": "10",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "20",
+        "rates": [
+          "50%"
+        ]
+      },
+      {
+        "name": "Goldeen",
+        "levels": "20",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "20",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Bruxish",
+        "levels": "40",
+        "rates": [
+          "90%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "20",
+        "rates": [
+          "7%"
+        ]
+      },
+      {
+        "name": "Seaking",
+        "levels": "40",
+        "rates": [
+          "3%"
+        ]
+      }
+    ]
+  }
+}

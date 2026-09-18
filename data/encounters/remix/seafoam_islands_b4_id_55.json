@@ -1,0 +1,247 @@
+{
+  "location": "b'Seafoam Islands B4' (ID 55)",
+  "map_id": 55,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Shellder",
+        "levels": "33-34",
+        "rates": [
+          "17%"
+        ]
+      },
+      {
+        "name": "Amaura",
+        "levels": "33-37",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Dewgong",
+        "levels": "33-37",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Froslass",
+        "levels": "33",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Glalie",
+        "levels": "33-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Jynx",
+        "levels": "33-37",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Piloswine",
+        "levels": "30-34",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Snorunt",
+        "levels": "30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Golduck",
+        "levels": "36",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Sneasel",
+        "levels": "36",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Glaceon",
+        "levels": "33-35",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Piplup",
+        "levels": "30-34",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Togetic",
+        "levels": "35",
+        "rates": [
+          "24%"
+        ]
+      },
+      {
+        "name": "Seel",
+        "levels": "33-37",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Krabby",
+        "levels": "33-34",
+        "rates": [
+          "18%"
+        ]
+      },
+      {
+        "name": "Sharpedo",
+        "levels": "33-34",
+        "rates": [
+          "18%"
+        ]
+      },
+      {
+        "name": "Horsea",
+        "levels": "30-34",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Lapras",
+        "levels": "38",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Cloyster",
+        "levels": "38",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Kingler",
+        "levels": "38",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Piplup",
+        "levels": "35",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Feebas",
+        "levels": "5",
+        "rates": [
+          "79%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Krabby",
+        "levels": "5-15",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Remoraid",
+        "levels": "5-15",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Feebas",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "5-15",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Krabby",
+        "levels": "15-35",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Remoraid",
+        "levels": "15-35",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Milotic",
+        "levels": "15-25",
+        "rates": [
+          "16%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "15-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Corsola",
+        "levels": "25-35",
+        "rates": [
+          "4%"
+        ]
+      }
+    ]
+  }
+}

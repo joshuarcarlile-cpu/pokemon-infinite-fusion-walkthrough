@@ -1,0 +1,227 @@
+{
+  "location": "b'Ilex Forest' (ID 266)",
+  "map_id": 266,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Aipom",
+        "levels": "33",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Farfetch'd",
+        "levels": "35",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Phantump",
+        "levels": "34",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Nincada",
+        "levels": "25-26",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Pineco",
+        "levels": "30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Pumpkaboo",
+        "levels": "34",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Scolipede",
+        "levels": "31-36",
+        "rates": [
+          "10%",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Furret",
+        "levels": "31-33",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Jumpluff",
+        "levels": "31-33",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Shuckle",
+        "levels": "33",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Bewear",
+        "levels": "31-33",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Crobat",
+        "levels": "32",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Farfetch'd",
+        "levels": "30",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Phantump",
+        "levels": "33",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Venomoth",
+        "levels": "35",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Pumpkaboo",
+        "levels": "33",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Heracross",
+        "levels": "34",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Psyduck",
+        "levels": "15-30",
+        "rates": [
+          "50%"
+        ]
+      },
+      {
+        "name": "Farfetch'd",
+        "levels": "15-30",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Golduck",
+        "levels": "30-40",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Poliwhirl",
+        "levels": "35",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Slowpoke",
+        "levels": "5",
+        "rates": [
+          "84%"
+        ]
+      },
+      {
+        "name": "Horsea",
+        "levels": "10",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "20",
+        "rates": [
+          "45%"
+        ]
+      },
+      {
+        "name": "Slowpoke",
+        "levels": "20",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Seadra",
+        "levels": "20",
+        "rates": [
+          "15%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Qwilfish",
+        "levels": "20",
+        "rates": [
+          "85%"
+        ]
+      },
+      {
+        "name": "Kingdra",
+        "levels": "40",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Seadra",
+        "levels": "40",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "location": "b'Route 1' (ID 78)",
+  "map_id": 78,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Bidoof",
+        "levels": "2-5",
+        "rates": [
+          "35%",
+          "35% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Fletchling",
+        "levels": "2-5",
+        "rates": [
+          "34%",
+          "34% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Shinx",
+        "levels": "2-5",
+        "rates": [
+          "15%",
+          "15% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Azurill",
+        "levels": "2-4",
+        "rates": [
+          "10%",
+          "10% (LandMorning)",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Smeargle",
+        "levels": "2-3",
+        "rates": [
+          "5%",
+          "5% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Ditto",
+        "levels": "2-4",
+        "rates": [
+          "1%",
+          "1% (LandMorning)",
+          "1% (LandNight)"
+        ]
+      },
+      {
+        "name": "Hoothoot",
+        "levels": "2-5",
+        "rates": [
+          "39%"
+        ]
+      },
+      {
+        "name": "Sentret",
+        "levels": "2-5",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Shinx",
+        "levels": "2-3",
+        "rates": [
+          "20%"
+        ]
+      }
+    ]
+  }
+}

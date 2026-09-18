@@ -1,0 +1,149 @@
+{
+  "location": "Route 44 (ID 692)",
+  "map_id": 692,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Tangela",
+        "levels": "44-46",
+        "rates": [
+          "28%"
+        ]
+      },
+      {
+        "name": "Hawlucha",
+        "levels": "43",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Weepinbell",
+        "levels": "33-38",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Scrafty",
+        "levels": "40-46",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Lickitung",
+        "levels": "44-46",
+        "rates": [
+          "13%"
+        ]
+      },
+      {
+        "name": "Slaking",
+        "levels": "55",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Sunflora",
+        "levels": "55",
+        "rates": [
+          "2%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Wailmer",
+        "levels": "15-30",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "35-40",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Wailord",
+        "levels": "35",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Luvdisc",
+        "levels": "10",
+        "rates": [
+          "80%"
+        ]
+      },
+      {
+        "name": "Wailmer",
+        "levels": "10",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Remoraid",
+        "levels": "5",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "20",
+        "rates": [
+          "75%"
+        ]
+      },
+      {
+        "name": "Wailord",
+        "levels": "20",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "20",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "20",
+        "rates": [
+          "70%"
+        ]
+      },
+      {
+        "name": "Toxapex",
+        "levels": "40-44",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Wailord",
+        "levels": "40",
+        "rates": [
+          "10%"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "location": "Deep Sea (ID 570)",
+  "map_id": 570,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Togepi",
+        "levels": "22-33",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Ambipom",
+        "levels": "44-55",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Sandygast",
+        "levels": "44-50",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Krabby",
+        "levels": "33-46",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "33-46",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Togetic",
+        "levels": "35-45",
+        "rates": [
+          "9%"
+        ]
+      },
+      {
+        "name": "Togekiss",
+        "levels": "45-46",
+        "rates": [
+          "1%"
+        ]
+      }
+    ]
+  }
+}

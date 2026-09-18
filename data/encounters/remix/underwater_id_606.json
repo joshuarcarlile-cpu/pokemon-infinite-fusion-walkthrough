@@ -1,0 +1,64 @@
+{
+  "location": "b'Underwater' (ID 606)",
+  "map_id": 606,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Corsola",
+        "levels": "25-35",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Horsea",
+        "levels": "25-35",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Golisopod",
+        "levels": "30-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "35-39",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "25-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Qwilfish",
+        "levels": "25-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Wailmer",
+        "levels": "25-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Octillery",
+        "levels": "35",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

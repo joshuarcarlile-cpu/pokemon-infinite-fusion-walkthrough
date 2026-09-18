@@ -1,0 +1,64 @@
+{
+  "location": "Pokemon Tower F5 (ID 467)",
+  "map_id": 467,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Shuppet",
+        "levels": "30-35",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Litwick",
+        "levels": "25-33",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Misdreavus",
+        "levels": "25-30",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Yamask",
+        "levels": "25-34",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Cubone",
+        "levels": "25-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Gastly",
+        "levels": "20-25",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Drowzee",
+        "levels": "25-35",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Spiritomb",
+        "levels": "30-35",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

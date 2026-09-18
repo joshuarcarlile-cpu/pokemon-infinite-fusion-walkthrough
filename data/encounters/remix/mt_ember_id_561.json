@@ -1,0 +1,57 @@
+{
+  "location": "Mt. Ember (ID 561)",
+  "map_id": 561,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Ponyta",
+        "levels": "39-42",
+        "rates": [
+          "34%"
+        ]
+      },
+      {
+        "name": "Magcargo",
+        "levels": "35-40",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Torkoal",
+        "levels": "32-35",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Nosepass",
+        "levels": "30-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Tyrantrum",
+        "levels": "33-37",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Magmar",
+        "levels": "45",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Fennekin",
+        "levels": "15-17",
+        "rates": [
+          "1%"
+        ]
+      }
+    ]
+  }
+}

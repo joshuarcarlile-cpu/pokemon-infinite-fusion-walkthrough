@@ -1,0 +1,64 @@
+{
+  "location": "Burned Tower (ID 696)",
+  "map_id": 696,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Lampent",
+        "levels": "36-41",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Weezing",
+        "levels": "36",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Spiritomb",
+        "levels": "33-39",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Mismagius",
+        "levels": "33-39",
+        "rates": [
+          "13%"
+        ]
+      },
+      {
+        "name": "Gastly",
+        "levels": "22-32",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Magcargo",
+        "levels": "44",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Torkoal",
+        "levels": "33-40",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Flareon",
+        "levels": "33-39",
+        "rates": [
+          "2%"
+        ]
+      }
+    ]
+  }
+}

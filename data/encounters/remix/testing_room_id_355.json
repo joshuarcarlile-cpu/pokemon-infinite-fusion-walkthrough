@@ -1,0 +1,15 @@
+{
+  "location": "Testing Room (ID 355)",
+  "map_id": 355,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Koffing",
+        "levels": "5",
+        "rates": [
+          "100%"
+        ]
+      }
+    ]
+  }
+}

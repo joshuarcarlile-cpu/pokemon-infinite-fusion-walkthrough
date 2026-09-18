@@ -1,0 +1,78 @@
+{
+  "location": "Map 369 (ID 369)",
+  "map_id": 369,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Chinchou",
+        "levels": "20-30",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Golisopod",
+        "levels": "30-34",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "28-32",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Mantine",
+        "levels": "25-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Seel",
+        "levels": "25-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Sharpedo",
+        "levels": "29-30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Shellder",
+        "levels": "20-30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Cloyster",
+        "levels": "28-32",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Gyarados",
+        "levels": "25-30",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Seadra",
+        "levels": "28-32",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

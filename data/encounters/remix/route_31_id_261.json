@@ -1,0 +1,167 @@
+{
+  "location": "Route 31 (ID 261)",
+  "map_id": 261,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Lycanroc",
+        "levels": "53",
+        "rates": [
+          "25%",
+          "25% (LandNight)"
+        ]
+      },
+      {
+        "name": "Victreebel",
+        "levels": "50",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Girafarig",
+        "levels": "55",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Nidoran",
+        "levels": "22-52",
+        "rates": [
+          "15%",
+          "15% (LandDay)",
+          "10% (LandNight)",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Ledian",
+        "levels": "54-55",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Noctowl",
+        "levels": "55",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Ariados",
+        "levels": "55",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Lurantis",
+        "levels": "52",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Bewear",
+        "levels": "50",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Bruxish",
+        "levels": "15-30",
+        "rates": [
+          "90%"
+        ]
+      },
+      {
+        "name": "Staryu",
+        "levels": "35",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Feebas",
+        "levels": "5",
+        "rates": [
+          "64%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "10",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "20",
+        "rates": [
+          "45%"
+        ]
+      },
+      {
+        "name": "Bruxish",
+        "levels": "20-24",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Poliwhirl",
+        "levels": "20",
+        "rates": [
+          "15%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Seadra",
+        "levels": "40",
+        "rates": [
+          "85%"
+        ]
+      },
+      {
+        "name": "Politoed",
+        "levels": "40",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Poliwrath",
+        "levels": "40",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

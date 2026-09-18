@@ -1,0 +1,90 @@
+{
+  "starter": "Bulbasaur",
+  "name": "Team Bulbasaur: Grass Control & Ground Pressure (Remix)",
+  "archetype": "Leech Seed attrition, Electric coverage, and Ground-type weight-scaling wallbreaking.",
+  "gym_duel_core": [1, 3],
+  "gym_duel_rationale": "Brock's Remix arena features Aron/Psyduck and Steelix/Mime Jr. Deploy Bulbasaur for Leech Seed attrition and Sleep Powder control, backed by Phanpy whose Ground typing directly exploits both opponents' shared Ground weakness.",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Bulbasaur",
+      "types": ["Grass", "Poison"],
+      "status": "Active in Party (Starter Anchor)",
+      "current_level": 13,
+      "ability": "Overgrow",
+      "held_item": "Oran Berry",
+      "role": "Status Controller & Brock Anchor",
+      "current_reached_moveset": [
+        "Vine Whip",
+        "Leech Seed",
+        "Poison Powder",
+        "Sleep Powder"
+      ],
+      "progression_notes": "All 4 moves learned naturally by Lv. 13. Leech Seed bypasses Steelix's Filter ability and chips through Barrier."
+    },
+    {
+      "slot": 2,
+      "species": "Shinx",
+      "types": ["Electric"],
+      "status": "Active in Party (Route 1 Catch)",
+      "current_level": 13,
+      "ability": "Intimidate",
+      "held_item": "Oran Berry",
+      "role": "Physical Pivot & Electric Striker",
+      "current_reached_moveset": [
+        "Spark",
+        "Charge",
+        "Tackle",
+        "Leer"
+      ],
+      "progression_notes": "Caught on Route 1. Intimidate softens physical hits from Brock and Liam, while Spark hits Water hybrids hard."
+    },
+    {
+      "slot": 3,
+      "species": "Phanpy",
+      "types": ["Ground"],
+      "status": "Active in Party (Route 22 Catch)",
+      "current_level": 13,
+      "ability": "Pickup",
+      "held_item": "Oran Berry",
+      "role": "Ground Wallbreaker & Gym Duelist",
+      "current_reached_moveset": [
+        "Rollout",
+        "Defense Curl",
+        "Tackle",
+        "Growl"
+      ],
+      "progression_notes": "Caught on Route 22. Defense Curl doubles Rollout damage while boosting Defense to withstand physical Gyro Balls."
+    }
+  ],
+  "flex_bench": [
+    {
+      "slot": "B1",
+      "species": "Bidoof",
+      "types": ["Normal"],
+      "current_level": 12,
+      "ability": "Simple",
+      "held_item": "Oran Berry",
+      "role": "Simple Stat Booster & Normal Pivot",
+      "why_use": "Caught on Route 1. Simple doubles stat changes from Defense Curl, creating a sturdy early tank."
+    },
+    {
+      "slot": "B2",
+      "species": "Hoothoot",
+      "types": ["Normal", "Flying"],
+      "current_level": 12,
+      "ability": "Insomnia",
+      "held_item": "Pecha Berry",
+      "role": "Hypnosis Disruptor & Special Attacker",
+      "why_use": "Caught on Route 1 at night. Insomnia provides complete immunity to Aron/Psyduck's Yawn, while Confusion targets low special defenses."
+    }
+  ],
+  "fusion_lifecycle": {
+    "active_fusions": [],
+    "unfuse_recommendations": [],
+    "upcoming_fusions": [
+      "Ivysaur/Luxio (Chapter 2 Grass/Electric momentum tank)",
+      "Donphan/Gyarados (Mid-game Ground/Water Intimidate juggernaut)"
+    ]
+  }
+}

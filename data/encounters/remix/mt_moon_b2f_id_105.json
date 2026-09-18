@@ -1,0 +1,108 @@
+{
+  "location": "Mt. Moon B2F (ID 105)",
+  "map_id": 105,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Cleffa",
+        "levels": "8-11",
+        "rates": [
+          "27%"
+        ]
+      },
+      {
+        "name": "Carbink",
+        "levels": "6-11",
+        "rates": [
+          "21%"
+        ]
+      },
+      {
+        "name": "Tyrogue",
+        "levels": "10-12",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Gastly",
+        "levels": "10",
+        "rates": [
+          "11%"
+        ]
+      },
+      {
+        "name": "Wynaut",
+        "levels": "8-10",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Dunsparce",
+        "levels": "12",
+        "rates": [
+          "8%"
+        ]
+      },
+      {
+        "name": "Swinub",
+        "levels": "10-12",
+        "rates": [
+          "6%"
+        ]
+      },
+      {
+        "name": "Clefairy",
+        "levels": "9-13",
+        "rates": [
+          "2%"
+        ]
+      }
+    ],
+    "Rock Smash": [
+      {
+        "name": "Nosepass",
+        "levels": "9-10",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Geodude",
+        "levels": "7",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Minior",
+        "levels": "7-8",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Ferroseed",
+        "levels": "7-8",
+        "rates": [
+          "19%"
+        ]
+      },
+      {
+        "name": "Onix",
+        "levels": "7-8",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "7-8",
+        "rates": [
+          "1%"
+        ]
+      }
+    ]
+  }
+}

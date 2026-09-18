@@ -1,0 +1,127 @@
+{
+  "location": "Victory Road (ID 306)",
+  "map_id": 306,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Chansey",
+        "levels": "44-46",
+        "rates": [
+          "8%"
+        ]
+      },
+      {
+        "name": "Golurk",
+        "levels": "44-50",
+        "rates": [
+          "8%"
+        ]
+      },
+      {
+        "name": "Lairon",
+        "levels": "40-46",
+        "rates": [
+          "8%"
+        ]
+      },
+      {
+        "name": "Scrafty",
+        "levels": "42-45",
+        "rates": [
+          "8%"
+        ]
+      },
+      {
+        "name": "Steelix",
+        "levels": "44-46",
+        "rates": [
+          "8%"
+        ]
+      },
+      {
+        "name": "Bisharp",
+        "levels": "43-47",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Dragonair",
+        "levels": "32",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Fraxure",
+        "levels": "44",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Gabite",
+        "levels": "44",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Golbat",
+        "levels": "44-46",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Hakamo-o",
+        "levels": "44",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Metang",
+        "levels": "42",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Pupitar",
+        "levels": "44",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Shelgon",
+        "levels": "32",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Sliggoo",
+        "levels": "44",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Weavile",
+        "levels": "43-47",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Zweilous",
+        "levels": "44",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

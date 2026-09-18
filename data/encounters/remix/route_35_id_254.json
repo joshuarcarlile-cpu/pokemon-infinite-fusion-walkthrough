@@ -1,0 +1,188 @@
+{
+  "location": "Route 35 (ID 254)",
+  "map_id": 254,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Luxio",
+        "levels": "30-32",
+        "rates": [
+          "30%",
+          "30% (LandNight)"
+        ]
+      },
+      {
+        "name": "Lycanroc",
+        "levels": "30-32",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Drowzee",
+        "levels": "30-31",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Duosion",
+        "levels": "33-34",
+        "rates": [
+          "10%",
+          "4% (LandNight)"
+        ]
+      },
+      {
+        "name": "Exeggcute",
+        "levels": "30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Slurpuff",
+        "levels": "30-32",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Yanma",
+        "levels": "30",
+        "rates": [
+          "4%",
+          "20% (LandNight)"
+        ]
+      },
+      {
+        "name": "Ditto",
+        "levels": "30",
+        "rates": [
+          "1%",
+          "1% (LandNight)"
+        ]
+      },
+      {
+        "name": "Bewear",
+        "levels": "30-32",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Hypno",
+        "levels": "30-31",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Noctowl",
+        "levels": "30-32",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Psyduck",
+        "levels": "15-30",
+        "rates": [
+          "90%"
+        ]
+      },
+      {
+        "name": "Golduck",
+        "levels": "35",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Feebas",
+        "levels": "5",
+        "rates": [
+          "64%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "10",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "20",
+        "rates": [
+          "55%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "20",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Poliwhirl",
+        "levels": "20",
+        "rates": [
+          "15%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "40",
+        "rates": [
+          "45%"
+        ]
+      },
+      {
+        "name": "Toxapex",
+        "levels": "40-44",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Politoed",
+        "levels": "40",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Poliwrath",
+        "levels": "40",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

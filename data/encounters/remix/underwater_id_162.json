@@ -1,0 +1,73 @@
+{
+  "location": "Underwater (ID 162)",
+  "map_id": 162,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Golisopod",
+        "levels": "30-34",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Bruxish",
+        "levels": "25-35",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Dhelmise",
+        "levels": "20-30",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Feebas",
+        "levels": "25-30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Goldeen",
+        "levels": "25-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Remoraid",
+        "levels": "25-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Tentacool",
+        "levels": "25-35",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Rock Smash": [
+      {
+        "name": "Kabuto",
+        "levels": "5-30",
+        "rates": [
+          "50%"
+        ]
+      },
+      {
+        "name": "Omanyte",
+        "levels": "25-40",
+        "rates": [
+          "50%"
+        ]
+      }
+    ]
+  }
+}

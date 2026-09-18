@@ -1,0 +1,135 @@
+{
+  "location": "Slowpoke Well (ID 283)",
+  "map_id": 283,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Slowpoke",
+        "levels": "40",
+        "rates": [
+          "45%"
+        ]
+      },
+      {
+        "name": "Gliscor",
+        "levels": "45-48",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Slowbro",
+        "levels": "48",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Slowking",
+        "levels": "48",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "40-50",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Slowpoke",
+        "levels": "40",
+        "rates": [
+          "75%"
+        ]
+      },
+      {
+        "name": "Feebas",
+        "levels": "30",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Goldeen",
+        "levels": "45",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Luvdisc",
+        "levels": "5",
+        "rates": [
+          "54%"
+        ]
+      },
+      {
+        "name": "Slowpoke",
+        "levels": "10",
+        "rates": [
+          "45%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Slowpoke",
+        "levels": "20",
+        "rates": [
+          "90%"
+        ]
+      },
+      {
+        "name": "Slowbro",
+        "levels": "20",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Slowking",
+        "levels": "20",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Slowpoke",
+        "levels": "40",
+        "rates": [
+          "70%"
+        ]
+      },
+      {
+        "name": "Slowbro",
+        "levels": "40",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Slowking",
+        "levels": "40",
+        "rates": [
+          "10%"
+        ]
+      }
+    ]
+  }
+}

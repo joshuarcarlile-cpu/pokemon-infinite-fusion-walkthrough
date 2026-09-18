@@ -1,0 +1,114 @@
+{
+  "location": "Lake of Rage (ID 646)",
+  "map_id": 646,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Kangaskhan",
+        "levels": "40",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Lombre",
+        "levels": "40-50",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Gourgeist",
+        "levels": "42-54",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Pineco",
+        "levels": "35-55",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Trevenant",
+        "levels": "42-54",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Wobbuffet",
+        "levels": "45-50",
+        "rates": [
+          "15%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Mantyke",
+        "levels": "5-45",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "name": "Bruxish",
+        "levels": "5-55",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Lombre",
+        "levels": "12-50",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Mantyke",
+        "levels": "5-45",
+        "rates": [
+          "100%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Mantyke",
+        "levels": "5-60",
+        "rates": [
+          "100%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Mantyke",
+        "levels": "20-80",
+        "rates": [
+          "65%"
+        ]
+      },
+      {
+        "name": "Mantine",
+        "levels": "45-75",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Ludicolo",
+        "levels": "45-79",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

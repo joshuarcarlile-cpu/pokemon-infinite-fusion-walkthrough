@@ -1,0 +1,108 @@
+{
+  "location": "b'Rock Tunnel' (ID 800)",
+  "map_id": 800,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Cubone",
+        "levels": "15",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Aron",
+        "levels": "15-17",
+        "rates": [
+          "11%"
+        ]
+      },
+      {
+        "name": "Carbink",
+        "levels": "16-17",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Mawile",
+        "levels": "16-17",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Noibat",
+        "levels": "15-17",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Onix",
+        "levels": "13-17",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Sableye",
+        "levels": "16-17",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Machop",
+        "levels": "17",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Cranidos",
+        "levels": "12",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Shieldon",
+        "levels": "13-15",
+        "rates": [
+          "2%"
+        ]
+      }
+    ],
+    "Rock Smash": [
+      {
+        "name": "Minior",
+        "levels": "15-20",
+        "rates": [
+          "45%"
+        ]
+      },
+      {
+        "name": "Shuckle",
+        "levels": "10-20",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Geodude",
+        "levels": "5-20",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Corsola",
+        "levels": "15-20",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

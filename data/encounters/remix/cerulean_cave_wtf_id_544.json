@@ -1,0 +1,120 @@
+{
+  "location": "Cerulean Cave WTF (ID 544)",
+  "map_id": 544,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Golbat",
+        "levels": "56",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Dhelmise",
+        "levels": "56",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Galvantula",
+        "levels": "59",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Hypno",
+        "levels": "56",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Aggron",
+        "levels": "55",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Blissey",
+        "levels": "59",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Chandelure",
+        "levels": "55",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Golem",
+        "levels": "55",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Golurk",
+        "levels": "52",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Toxapex",
+        "levels": "59",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Volcarona",
+        "levels": "52",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Zoroark",
+        "levels": "52",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Lucario",
+        "levels": "59",
+        "rates": [
+          "4%"
+        ]
+      },
+      {
+        "name": "Raichu",
+        "levels": "53",
+        "rates": [
+          "4%"
+        ]
+      },
+      {
+        "name": "Alakazam",
+        "levels": "50",
+        "rates": [
+          "1%"
+        ]
+      },
+      {
+        "name": "Ditto",
+        "levels": "53-55",
+        "rates": [
+          "1%"
+        ]
+      }
+    ]
+  }
+}

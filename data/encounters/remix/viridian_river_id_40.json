@@ -1,0 +1,258 @@
+{
+  "location": "Viridian River (ID 40)",
+  "map_id": 40,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Farfetch'd",
+        "levels": "30",
+        "rates": [
+          "15%",
+          "15% (LandMorning)",
+          "20% (LandNight)"
+        ]
+      },
+      {
+        "name": "Lombre",
+        "levels": "28-31",
+        "rates": [
+          "15%",
+          "15% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Pidgeotto",
+        "levels": "25-35",
+        "rates": [
+          "15%",
+          "15% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Yanma",
+        "levels": "28",
+        "rates": [
+          "15%",
+          "20% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Elekid",
+        "levels": "30-32",
+        "rates": [
+          "10%",
+          "5% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Larvesta",
+        "levels": "25-35",
+        "rates": [
+          "10%",
+          "10% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Magby",
+        "levels": "30-32",
+        "rates": [
+          "10%",
+          "5% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Pineco",
+        "levels": "28",
+        "rates": [
+          "10%",
+          "15% (LandMorning)",
+          "15% (LandNight)"
+        ]
+      },
+      {
+        "name": "Noctowl",
+        "levels": "25-35",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Larvesta",
+        "levels": "20",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Phantump",
+        "levels": "25-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Pumpkaboo",
+        "levels": "25-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Zubat",
+        "levels": "20",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Wooper",
+        "levels": "25-30",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Lombre",
+        "levels": "25-35",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Marill",
+        "levels": "25-30",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "15-25",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Psyduck",
+        "levels": "25-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Slowpoke",
+        "levels": "25-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Quagsire",
+        "levels": "35",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Luvdisc",
+        "levels": "5",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Feebas",
+        "levels": "5",
+        "rates": [
+          "39%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Bruxish",
+        "levels": "5-15",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Wooper",
+        "levels": "5-15",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Bruxish",
+        "levels": "35-40",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "35-40",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Marill",
+        "levels": "35-40",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Azumarill",
+        "levels": "35-40",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Quagsire",
+        "levels": "35-40",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Seaking",
+        "levels": "35-40",
+        "rates": [
+          "10%"
+        ]
+      }
+    ]
+  }
+}

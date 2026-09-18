@@ -1,0 +1,71 @@
+{
+  "location": "b'Seafoam Islands B2' (ID 53)",
+  "map_id": 53,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Snorunt",
+        "levels": "33-35",
+        "rates": [
+          "24%"
+        ]
+      },
+      {
+        "name": "Delibird",
+        "levels": "33-34",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Sneasel",
+        "levels": "33-35",
+        "rates": [
+          "13%"
+        ]
+      },
+      {
+        "name": "Amaura",
+        "levels": "33-37",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Froslass",
+        "levels": "33",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Glalie",
+        "levels": "30-34",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Jynx",
+        "levels": "30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Glaceon",
+        "levels": "33-35",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Piplup",
+        "levels": "30-34",
+        "rates": [
+          "1%"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,354 @@
+{
+  "location": "Area 3 (ID 485)",
+  "map_id": 485,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Rhyhorn",
+        "levels": "26",
+        "rates": [
+          "16%"
+        ]
+      },
+      {
+        "name": "Bewear",
+        "levels": "27-32",
+        "rates": [
+          "15%",
+          "15% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Absol",
+        "levels": "30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Butterfree",
+        "levels": "30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Heracross",
+        "levels": "25-27",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Shuckle",
+        "levels": "30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Weepinbell",
+        "levels": "30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Breloom",
+        "levels": "32",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Kirlia",
+        "levels": "32",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Tauros",
+        "levels": "28",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Chansey",
+        "levels": "26",
+        "rates": [
+          "4%"
+        ]
+      },
+      {
+        "name": "Heracross",
+        "levels": "24-25",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Forretress",
+        "levels": "23",
+        "rates": [
+          "14%"
+        ]
+      },
+      {
+        "name": "Vigoroth",
+        "levels": "23",
+        "rates": [
+          "14%",
+          "8% (LandNight)"
+        ]
+      },
+      {
+        "name": "Kirlia",
+        "levels": "25-30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Rhyhorn",
+        "levels": "25",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Breloom",
+        "levels": "30",
+        "rates": [
+          "6%"
+        ]
+      },
+      {
+        "name": "Butterfree",
+        "levels": "31",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Weepinbell",
+        "levels": "31",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Chansey",
+        "levels": "23",
+        "rates": [
+          "1%"
+        ]
+      },
+      {
+        "name": "Breloom",
+        "levels": "22",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Heracross",
+        "levels": "28",
+        "rates": [
+          "18%"
+        ]
+      },
+      {
+        "name": "Beedrill",
+        "levels": "25",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Gloom",
+        "levels": "22-28",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Psyduck",
+        "levels": "20-30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Venomoth",
+        "levels": "30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Forretress",
+        "levels": "25",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Scyther",
+        "levels": "23",
+        "rates": [
+          "4%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Bruxish",
+        "levels": "20-25",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Carvanha",
+        "levels": "35-40",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "35-40",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Mantine",
+        "levels": "30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Marill",
+        "levels": "20-25",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Magikarp",
+        "levels": "5",
+        "rates": [
+          "39%"
+        ]
+      },
+      {
+        "name": "Carvanha",
+        "levels": "5",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Carvanha",
+        "levels": "5-15",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Krabby",
+        "levels": "5-15",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "5-15",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Dratini",
+        "levels": "15-35",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "15-35",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Sharpedo",
+        "levels": "15-25",
+        "rates": [
+          "16%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "15-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Dragonair",
+        "levels": "25-35",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Toxapex",
+        "levels": "35-45",
+        "rates": [
+          "2%"
+        ]
+      }
+    ]
+  }
+}

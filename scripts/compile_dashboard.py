@@ -141,15 +141,26 @@ def compile_dashboard():
             d.get("hidden_abilities", [])
         ]
         
-    # Strip redundant encounter fields that are deterministically resolved from base_stats
+    # Strip redundant encounter and boss fields that are deterministically resolved from base_stats
     for ch in chapters:
-        for r in ch.get('routes', []):
-            for sec, monList in r.get('encounters', {}).items():
-                for m in monList:
-                    sp = m.get('name')
-                    if sp in raw_base_stats:
-                        if 'types' in m: del m['types']
-                        if 'dex_id' in m: del m['dex_id']
+        for r_key in ['routes', 'routes_remix']:
+            for r in ch.get(r_key, []):
+                for sec, monList in r.get('encounters', {}).items():
+                    for m in monList:
+                        sp = m.get('name')
+                        if sp in raw_base_stats:
+                            if 'types' in m: del m['types']
+                            if 'dex_id' in m: del m['dex_id']
+
+        for b_key in ['boss_strategy', 'boss_strategy_remix']:
+            b = ch.get(b_key, {})
+            for mon in b.get('leader_team', []):
+                if 'types' in mon and mon.get('species') in raw_base_stats:
+                    del mon['types']
+            for gt in b.get('gym_trainers', []):
+                for mon in gt.get('team', []):
+                    if 'types' in mon and mon.get('species') in raw_base_stats:
+                        del mon['types']
         
     payload = {
         "chapters": chapters,
@@ -186,7 +197,7 @@ def compile_dashboard():
         
     bundle_size = len(html_output.encode('utf-8'))
     reduction_pct = (1 - (len(b64_blob) / len(json_bytes))) * 100
-    CEILING = 350000
+    CEILING = 550000
     
     print(f"SUCCESS: Dashboard compiled to {OUTPUT_HTML}")
     print(f"  - Chapters:          {len(chapters)}")

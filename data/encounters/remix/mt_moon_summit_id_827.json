@@ -1,0 +1,76 @@
+{
+  "location": "b'Mt. Moon Summit' (ID 827)",
+  "map_id": 827,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Clefairy",
+        "levels": "18-22",
+        "rates": [
+          "20%",
+          "20% (LandNight)"
+        ]
+      },
+      {
+        "name": "Unown",
+        "levels": "19-24",
+        "rates": [
+          "20%",
+          "20% (LandNight)"
+        ]
+      },
+      {
+        "name": "Flaaffy",
+        "levels": "21-26",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Pidgeotto",
+        "levels": "22-26",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Clefable",
+        "levels": "25-26",
+        "rates": [
+          "10%",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Kangaskhan",
+        "levels": "24-28",
+        "rates": [
+          "10%",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Minior",
+        "levels": "25-26",
+        "rates": [
+          "10%",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Fearow",
+        "levels": "22-26",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Jigglypuff",
+        "levels": "21-26",
+        "rates": [
+          "15%"
+        ]
+      }
+    ]
+  }
+}

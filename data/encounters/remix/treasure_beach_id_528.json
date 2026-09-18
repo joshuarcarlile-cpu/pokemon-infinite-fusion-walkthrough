@@ -1,0 +1,198 @@
+{
+  "location": "b'Treasure Beach' (ID 528)",
+  "map_id": 528,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Sandygast",
+        "levels": "25-27",
+        "rates": [
+          "28%"
+        ]
+      },
+      {
+        "name": "Krabby",
+        "levels": "20-30",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "24",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Pyukumuku",
+        "levels": "20-30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Tyrunt",
+        "levels": "20-30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Psyduck",
+        "levels": "30",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Slowpoke",
+        "levels": "30",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Pikachu",
+        "levels": "25-31",
+        "rates": [
+          "2%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Luvdisc",
+        "levels": "5-40",
+        "rates": [
+          "50%"
+        ]
+      },
+      {
+        "name": "Gyarados",
+        "levels": "15-25",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Bruxish",
+        "levels": "25-30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "20-25",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Horsea",
+        "levels": "15-30",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Lapras",
+        "levels": "15-25",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Seadra",
+        "levels": "15-25",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Magikarp",
+        "levels": "5",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Bruxish",
+        "levels": "5",
+        "rates": [
+          "39%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "5-15",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Horsea",
+        "levels": "5-15",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Bruxish",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "15-35",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Horsea",
+        "levels": "15-35",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Gyarados",
+        "levels": "15-25",
+        "rates": [
+          "18%"
+        ]
+      },
+      {
+        "name": "Vaporeon",
+        "levels": "35-39",
+        "rates": [
+          "2%"
+        ]
+      }
+    ]
+  }
+}

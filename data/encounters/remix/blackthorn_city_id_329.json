@@ -1,0 +1,135 @@
+{
+  "location": "Blackthorn City (ID 329)",
+  "map_id": 329,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Gligar",
+        "levels": "46",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Hawlucha",
+        "levels": "44-47",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Fraxure",
+        "levels": "44-46",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Sliggoo",
+        "levels": "44-46",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Donphan",
+        "levels": "44",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Zweilous",
+        "levels": "43",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Skarmory",
+        "levels": "46",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Seadra",
+        "levels": "15-30",
+        "rates": [
+          "90%"
+        ]
+      },
+      {
+        "name": "Poliwhirl",
+        "levels": "35",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Seadra",
+        "levels": "20-40",
+        "rates": [
+          "64%"
+        ]
+      },
+      {
+        "name": "Magikarp",
+        "levels": "5-70",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Bruxish",
+        "levels": "10",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Seadra",
+        "levels": "20",
+        "rates": [
+          "85%"
+        ]
+      },
+      {
+        "name": "Dhelmise",
+        "levels": "20",
+        "rates": [
+          "15%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Seadra",
+        "levels": "20-40",
+        "rates": [
+          "95%"
+        ]
+      },
+      {
+        "name": "Dratini",
+        "levels": "20",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

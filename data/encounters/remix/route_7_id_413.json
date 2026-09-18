@@ -1,0 +1,114 @@
+{
+  "location": "Route 7 (ID 413)",
+  "map_id": 413,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Snubbull",
+        "levels": "17-20",
+        "rates": [
+          "25%",
+          "25% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Houndour",
+        "levels": "19-22",
+        "rates": [
+          "15%",
+          "15% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Oricorio",
+        "levels": "19-22",
+        "rates": [
+          "15%",
+          "15% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Growlithe",
+        "levels": "18-20",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Nidoran",
+        "levels": "17-20",
+        "rates": [
+          "10%",
+          "10% (LandDay)",
+          "10% (LandMorning)",
+          "10% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Pikachu",
+        "levels": "18-20",
+        "rates": [
+          "10%",
+          "10% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Marill",
+        "levels": "19-22",
+        "rates": [
+          "5%",
+          "5% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Vulpix",
+        "levels": "18-20",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Venonat",
+        "levels": "19-22",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Honedge",
+        "levels": "18-20",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Murkrow",
+        "levels": "17-19",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Fomantis",
+        "levels": "17-20",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Houndour",
+        "levels": "15",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Mimikyu",
+        "levels": "19-22",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "location": "Violet City (ID 230)",
+  "map_id": 230,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Heracross",
+        "levels": "33-36",
+        "rates": [
+          "25%",
+          "25% (LandNight)"
+        ]
+      },
+      {
+        "name": "Kirlia",
+        "levels": "33-36",
+        "rates": [
+          "25%",
+          "25% (LandNight)"
+        ]
+      },
+      {
+        "name": "Marill",
+        "levels": "33-36",
+        "rates": [
+          "25%",
+          "25% (LandNight)"
+        ]
+      },
+      {
+        "name": "Unown",
+        "levels": "33-36",
+        "rates": [
+          "25%",
+          "25% (LandNight)"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Qwilfish",
+        "levels": "15-30",
+        "rates": [
+          "90%"
+        ]
+      },
+      {
+        "name": "Wailord",
+        "levels": "35",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Feebas",
+        "levels": "5",
+        "rates": [
+          "83%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "10",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Klefki",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "20",
+        "rates": [
+          "45%"
+        ]
+      },
+      {
+        "name": "Gyarados",
+        "levels": "20",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Poliwhirl",
+        "levels": "20",
+        "rates": [
+          "15%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Bruxish",
+        "levels": "56-76",
+        "rates": [
+          "85%"
+        ]
+      },
+      {
+        "name": "Politoed",
+        "levels": "40",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Poliwrath",
+        "levels": "40",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

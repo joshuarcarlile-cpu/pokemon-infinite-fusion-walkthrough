@@ -1,0 +1,154 @@
+{
+  "location": "Route 3 (ID 490)",
+  "map_id": 490,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Cacnea",
+        "levels": "6-8",
+        "rates": [
+          "20%",
+          "20% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Snorunt",
+        "levels": "4-9",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Togepi",
+        "levels": "6-7",
+        "rates": [
+          "15%",
+          "15% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Elekid",
+        "levels": "6-7",
+        "rates": [
+          "10%",
+          "10% (LandMorning)",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Magby",
+        "levels": "6-7",
+        "rates": [
+          "10%",
+          "10% (LandMorning)",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Smoochum",
+        "levels": "3-7",
+        "rates": [
+          "10%",
+          "10% (LandMorning)",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Swinub",
+        "levels": "7",
+        "rates": [
+          "10%",
+          "10% (LandMorning)",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Lickitung",
+        "levels": "5-6",
+        "rates": [
+          "5%",
+          "5% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Snorunt",
+        "levels": "5-8",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Sandile",
+        "levels": "6-7",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Snorunt",
+        "levels": "6-8",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Pawniard",
+        "levels": "5-6",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Cleffa",
+        "levels": "4-7",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Unown",
+        "levels": "7",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Rock Smash": [
+      {
+        "name": "Nosepass",
+        "levels": "9-10",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Geodude",
+        "levels": "7",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Minior",
+        "levels": "7-8",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Pineco",
+        "levels": "7-8",
+        "rates": [
+          "19%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "7-8",
+        "rates": [
+          "1%"
+        ]
+      }
+    ]
+  }
+}

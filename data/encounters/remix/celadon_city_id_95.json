@@ -1,0 +1,183 @@
+{
+  "location": "Celadon City (ID 95)",
+  "map_id": 95,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Meowth",
+        "levels": "18-20",
+        "rates": [
+          "25%",
+          "25% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Grimer",
+        "levels": "15-20",
+        "rates": [
+          "20%",
+          "20% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Houndour",
+        "levels": "14-20",
+        "rates": [
+          "20%",
+          "20% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "15-20",
+        "rates": [
+          "20%",
+          "20% (LandMorning)",
+          "20% (LandNight)"
+        ]
+      },
+      {
+        "name": "Eevee",
+        "levels": "15",
+        "rates": [
+          "15%",
+          "15% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Koffing",
+        "levels": "15-20",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Litwick",
+        "levels": "14-20",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Hawlucha",
+        "levels": "15",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Zubat",
+        "levels": "15-20",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Murkrow",
+        "levels": "18-20",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Grimer",
+        "levels": "15-20",
+        "rates": [
+          "65%"
+        ]
+      },
+      {
+        "name": "Wooper",
+        "levels": "30-40",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Muk",
+        "levels": "25-45",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Grimer",
+        "levels": "5-10",
+        "rates": [
+          "88%"
+        ]
+      },
+      {
+        "name": "Feebas",
+        "levels": "5",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Klefki",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Grimer",
+        "levels": "10-20",
+        "rates": [
+          "80%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5-10",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Muk",
+        "levels": "10-20",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Bruxish",
+        "levels": "30-40",
+        "rates": [
+          "50%"
+        ]
+      },
+      {
+        "name": "Muk",
+        "levels": "25-35",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Klefki",
+        "levels": "30-34",
+        "rates": [
+          "20%"
+        ]
+      }
+    ]
+  }
+}

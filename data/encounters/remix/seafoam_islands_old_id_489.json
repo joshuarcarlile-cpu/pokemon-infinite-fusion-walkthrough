@@ -1,0 +1,101 @@
+{
+  "location": "Seafoam Islands.old (ID 489)",
+  "map_id": 489,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Anorith",
+        "levels": "20-30",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Cranidos",
+        "levels": "20-30",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Lileep",
+        "levels": "20-30",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Shieldon",
+        "levels": "20-30",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Aerodactyl",
+        "levels": "30-40",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Amaura",
+        "levels": "30-40",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Minior",
+        "levels": "30-40",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Tyrunt",
+        "levels": "30-40",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Anorith",
+        "levels": "20-30",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Dratini",
+        "levels": "30",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Kabuto",
+        "levels": "20-30",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Lileep",
+        "levels": "20-30",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Omanyte",
+        "levels": "20-30",
+        "rates": [
+          "20%"
+        ]
+      }
+    ]
+  }
+}

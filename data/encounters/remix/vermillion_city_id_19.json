@@ -1,0 +1,212 @@
+{
+  "location": "Vermillion City (ID 19)",
+  "map_id": 19,
+  "sections": {
+    "Surf": [
+      {
+        "name": "Mareanie",
+        "levels": "32-41",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Staryu",
+        "levels": "35-40",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Tentacool",
+        "levels": "5-40",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Goldeen",
+        "levels": "5-35",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "30-40",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Tentacruel",
+        "levels": "35-40",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Wimpod",
+        "levels": "5",
+        "rates": [
+          "38%"
+        ]
+      },
+      {
+        "name": "Qwilfish",
+        "levels": "5",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Magikarp",
+        "levels": "5",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Krabby",
+        "levels": "5",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "5",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Klefki",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "5-15",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Staryu",
+        "levels": "5-15",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Horsea",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "15-25",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Horsea",
+        "levels": "15-35",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Krabby",
+        "levels": "15-35",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "15-25",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Gyarados",
+        "levels": "15-25",
+        "rates": [
+          "16%"
+        ]
+      },
+      {
+        "name": "Psyduck",
+        "levels": "25-35",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Slowpoke",
+        "levels": "25-35",
+        "rates": [
+          "2%"
+        ]
+      }
+    ],
+    "Rock Smash": [
+      {
+        "name": "Mareanie",
+        "levels": "15-16",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Corsola",
+        "levels": "14-16",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Shellder",
+        "levels": "14-15",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Nincada",
+        "levels": "14-15",
+        "rates": [
+          "15%"
+        ]
+      }
+    ]
+  }
+}

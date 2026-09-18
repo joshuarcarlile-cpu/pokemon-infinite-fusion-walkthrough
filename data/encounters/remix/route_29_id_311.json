@@ -1,0 +1,85 @@
+{
+  "location": "Route 29 (ID 311)",
+  "map_id": 311,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Fearow",
+        "levels": "42-44",
+        "rates": [
+          "45%"
+        ]
+      },
+      {
+        "name": "Furret",
+        "levels": "40-54",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Fletchinder",
+        "levels": "36-44",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Ledian",
+        "levels": "44-48",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Bibarel",
+        "levels": "40-56",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Roselia",
+        "levels": "44-46",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Bewear",
+        "levels": "42-44",
+        "rates": [
+          "45%"
+        ]
+      },
+      {
+        "name": "Bibarel",
+        "levels": "41-43",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Ariados",
+        "levels": "42-45",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Ambipom",
+        "levels": "45",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Furret",
+        "levels": "42",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

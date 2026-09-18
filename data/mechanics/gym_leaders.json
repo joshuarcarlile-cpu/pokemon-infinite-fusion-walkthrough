@@ -4823,5 +4823,1710 @@
         }
       ]
     }
+  },
+  "remix": {
+    "ELITEFOUR_Lance": {
+      "id_number": 330,
+      "trainer_type": "ELITEFOUR_Lance",
+      "real_name": "Lance",
+      "items": [],
+      "pokemon": [
+        {
+          "species": "Togekiss/Talonflame",
+          "raw_species": ":B372H269",
+          "level": 56,
+          "base_level": 50,
+          "moves": [],
+          "item": null,
+          "ability_index": null
+        },
+        {
+          "species": "Metagross/Salamence",
+          "raw_species": ":B336H293",
+          "level": 56,
+          "base_level": 50,
+          "moves": [],
+          "item": null,
+          "ability_index": null
+        },
+        {
+          "species": "Darkrai/Dragonite",
+          "raw_species": ":B149H347",
+          "level": 56,
+          "base_level": 50,
+          "moves": [],
+          "item": null,
+          "ability_index": null
+        }
+      ]
+    },
+    "LEADER_Brock": {
+      "id_number": 343,
+      "trainer_type": "LEADER_Brock",
+      "real_name": "Brock",
+      "items": [
+        "FULLHEAL"
+      ],
+      "pokemon": [
+        {
+          "species": "Aron/Psyduck",
+          "raw_species": ":B54H390",
+          "level": 10,
+          "base_level": 9,
+          "moves": [
+            "Headbutt",
+            "Yawn",
+            "Future Sight",
+            "Metal Claw"
+          ],
+          "item": null,
+          "ability_index": 1
+        },
+        {
+          "species": "Steelix/Mime Jr.",
+          "raw_species": ":B258H208",
+          "level": 14,
+          "base_level": 12,
+          "moves": [
+            "Confusion",
+            "Gyro Ball",
+            "Barrier",
+            "Rock Throw"
+          ],
+          "item": "ORANBERRY",
+          "ability_index": 3
+        }
+      ]
+    },
+    "LEADER_Misty": {
+      "id_number": 345,
+      "trainer_type": "LEADER_Misty",
+      "real_name": "Misty",
+      "items": [
+        "SUPERPOTION"
+      ],
+      "pokemon": [
+        {
+          "species": "Fomantis/Amaura",
+          "raw_species": ":B461H476",
+          "level": 21,
+          "base_level": 19,
+          "moves": [
+            "Icy Wind",
+            "Razor Leaf",
+            "Rock Throw",
+            "Thunder Wave"
+          ],
+          "item": null,
+          "ability_index": 4
+        },
+        {
+          "species": "Froslass/Lapras",
+          "raw_species": ":B131H429",
+          "level": 25,
+          "base_level": 22,
+          "moves": [
+            "Bubble Beam",
+            "Icy Wind",
+            "Draining Kiss",
+            "Will-O-Wisp"
+          ],
+          "item": "ORANBERRY",
+          "ability_index": 2
+        }
+      ]
+    },
+    "LEADER_Surge": {
+      "id_number": 347,
+      "trainer_type": "LEADER_Surge",
+      "real_name": "Lt. Surge",
+      "items": [
+        "SUPERPOTION",
+        "SUPERPOTION"
+      ],
+      "pokemon": [
+        {
+          "species": "Koffing/Breloom",
+          "raw_species": ":B355H109",
+          "level": 27,
+          "base_level": 24,
+          "moves": [
+            "Mach Punch",
+            "Bullet Seed",
+            "Clear Smog",
+            "Double Team"
+          ],
+          "item": "EXPERTBELT",
+          "ability_index": 2
+        },
+        {
+          "species": "Flaaffy/Scrafty",
+          "raw_species": ":B494H180",
+          "level": 27,
+          "base_level": 24,
+          "moves": [
+            "Brick Break",
+            "Thunder Punch",
+            "Fake Out",
+            "Ice Punch"
+          ],
+          "item": null,
+          "ability_index": 4
+        },
+        {
+          "species": "Houndoom/Gallade",
+          "raw_species": ":B288H229",
+          "level": 29,
+          "base_level": 26,
+          "moves": [
+            "Bulk Up",
+            "Flame Charge",
+            "Rock Smash",
+            "Bite"
+          ],
+          "item": "SITRUSBERRY",
+          "ability_index": 3
+        }
+      ]
+    },
+    "LEADER_Erika": {
+      "id_number": 349,
+      "trainer_type": "LEADER_Erika",
+      "real_name": "Erika",
+      "items": [
+        "HYPERPOTION"
+      ],
+      "pokemon": [
+        {
+          "species": "Scizor/Bellossom",
+          "raw_species": ":B182H212",
+          "level": 37,
+          "base_level": 33,
+          "moves": [
+            "Razor Leaf",
+            "Drain Punch",
+            "U-turn",
+            "Aerial Ace"
+          ],
+          "item": "OCCABERRY",
+          "ability_index": 1
+        },
+        {
+          "species": "Scolipede/Vaporeon",
+          "raw_species": ":B134H424",
+          "level": 37,
+          "base_level": 33,
+          "moves": [
+            "Acid Armor",
+            "Toxic",
+            "Muddy Water",
+            "Steamroller"
+          ],
+          "item": "WIDELENS",
+          "ability_index": 5
+        },
+        {
+          "species": "Volcarona/Golem",
+          "raw_species": ":B76H374",
+          "level": 39,
+          "base_level": 35,
+          "moves": [
+            "Quiver Dance",
+            "Earth Power",
+            "Giga Drain",
+            "Fiery Dance"
+          ],
+          "item": "LUMBERRY",
+          "ability_index": 3
+        }
+      ]
+    },
+    "LEADER_Koga": {
+      "id_number": 352,
+      "trainer_type": "LEADER_Koga",
+      "real_name": "Koga",
+      "items": [
+        "HYPERPOTION",
+        "HYPERPOTION",
+        "REVIVE"
+      ],
+      "pokemon": [
+        {
+          "species": "Golisopod/Greninja",
+          "raw_species": ":B487H475",
+          "level": 40,
+          "base_level": 36,
+          "moves": [
+            "First Impression",
+            "Razor Shell",
+            "Shadow Sneak",
+            "Acrobatics"
+          ],
+          "item": "SITRUSBERRY",
+          "ability_index": 2
+        },
+        {
+          "species": "Mimikyu/Zoroark",
+          "raw_species": ":B338H373",
+          "level": 39,
+          "base_level": 35,
+          "moves": [
+            "U-turn",
+            "Sucker Punch",
+            "Play Rough",
+            "Destiny Bond"
+          ],
+          "item": "FOCUSSASH",
+          "ability_index": 3
+        },
+        {
+          "species": "Weezing/Umbreon",
+          "raw_species": ":B197H110",
+          "level": 40,
+          "base_level": 36,
+          "moves": [
+            "Flamethrower",
+            "Dark Pulse",
+            "Toxic",
+            "Clear Smog"
+          ],
+          "item": "BLACKSLUDGE",
+          "ability_index": 2
+        },
+        {
+          "species": "Honchkrow/Electivire",
+          "raw_species": ":B267H256",
+          "level": 42,
+          "base_level": 38,
+          "moves": [
+            "Thunder",
+            "Drill Peck",
+            "Sucker Punch",
+            "Thunder Wave"
+          ],
+          "item": "WIDELENS",
+          "ability_index": 5
+        }
+      ]
+    },
+    "LEADER_Sabrina": {
+      "id_number": 354,
+      "trainer_type": "LEADER_Sabrina",
+      "real_name": "Sabrina",
+      "items": [
+        "MAXPOTION",
+        "MAXPOTION"
+      ],
+      "pokemon": [
+        {
+          "species": "Torkoal/Mawile",
+          "raw_species": ":B300H488",
+          "level": 46,
+          "base_level": 41,
+          "moves": [
+            "Rain Dance",
+            "Will-O-Wisp",
+            "Weather Ball",
+            "Sucker Punch"
+          ],
+          "item": "DAMPROCK",
+          "ability_index": 1
+        },
+        {
+          "species": "Marowak/Mimikyu",
+          "raw_species": ":B373H105",
+          "level": 47,
+          "base_level": 42,
+          "moves": [
+            "Bonemerang",
+            "Play Rough",
+            "Earthquake",
+            "Shadow Sneak"
+          ],
+          "item": "THICKCLUB",
+          "ability_index": 0
+        },
+        {
+          "species": "Clefable/Klinklang",
+          "raw_species": ":B337H36",
+          "level": 48,
+          "base_level": 43,
+          "moves": [
+            "Cosmic Power",
+            "Meteor Mash",
+            "Play Rough",
+            "Rain Dance"
+          ],
+          "item": "LEFTOVERS",
+          "ability_index": 5
+        },
+        {
+          "species": "Roserade/Gardevoir",
+          "raw_species": ":B287H352",
+          "level": 50,
+          "base_level": 45,
+          "moves": [
+            "Moonblast",
+            "Psychic",
+            "Weather Ball",
+            "Giga Drain"
+          ],
+          "item": "OCCABERRY",
+          "ability_index": 3
+        }
+      ]
+    },
+    "LEADER_Blaine": {
+      "id_number": 356,
+      "trainer_type": "LEADER_Blaine",
+      "real_name": "Blaine",
+      "items": [],
+      "pokemon": [
+        {
+          "species": "Mr. Mime/Klinklang",
+          "raw_species": ":B337H122",
+          "level": 52,
+          "base_level": 47,
+          "moves": [
+            "Gear Grind",
+            "Shift Gear",
+            "Encore",
+            "Zen Headbutt"
+          ],
+          "item": "AIRBALLOON",
+          "ability_index": 1
+        },
+        {
+          "species": "Wobbuffet/Wailord",
+          "raw_species": ":B314H202",
+          "level": 52,
+          "base_level": 47,
+          "moves": [
+            "Counter",
+            "Mirror Coat",
+            "Body Slam",
+            "Clear Smog"
+          ],
+          "item": "FOCUSSASH",
+          "ability_index": 2
+        },
+        {
+          "species": "Magmortar/Bruxish",
+          "raw_species": ":B469H268",
+          "level": 54,
+          "base_level": 49,
+          "moves": [
+            "Belly Drum",
+            "Psychic Fangs",
+            "Aqua Jet",
+            "Mach Punch"
+          ],
+          "item": "SITRUSBERRY",
+          "ability_index": 0
+        },
+        {
+          "species": "Machamp/Metagross",
+          "raw_species": ":B293H68",
+          "level": 57,
+          "base_level": 51,
+          "moves": [
+            "Meteor Mash",
+            "Protect",
+            "Cross Chop",
+            "Zen Headbutt"
+          ],
+          "item": "FLAMEORB",
+          "ability_index": 1
+        }
+      ]
+    },
+    "LEADER_Giovanni": {
+      "id_number": 358,
+      "trainer_type": "LEADER_Giovanni",
+      "real_name": "Giovanni",
+      "items": [],
+      "pokemon": [
+        {
+          "species": "Ditto/Persian",
+          "raw_species": ":B53H132",
+          "level": 56,
+          "base_level": 50,
+          "moves": [
+            "Fake Out",
+            "Transform"
+          ],
+          "item": "CHOICESCARF",
+          "ability_index": 5
+        },
+        {
+          "species": "Stantler/Delphox",
+          "raw_species": ":B484H234",
+          "level": 56,
+          "base_level": 50,
+          "moves": [
+            "Psyshock",
+            "Mystical Fire",
+            "Dazzling Gleam",
+            "Hypnosis"
+          ],
+          "item": "WIDELENS",
+          "ability_index": 2
+        },
+        {
+          "species": "Snorlax/Nidoking",
+          "raw_species": ":B34H143",
+          "level": 59,
+          "base_level": 53,
+          "moves": [
+            "Crunch",
+            "Earth Power",
+            "Body Slam",
+            "Thunderbolt"
+          ],
+          "item": "SITRUSBERRY",
+          "ability_index": 4
+        },
+        {
+          "species": "Machamp/Ambipom",
+          "raw_species": ":B254H68",
+          "level": 59,
+          "base_level": 53,
+          "moves": [
+            "Dual Chop",
+            "Double Hit",
+            "Karate Chop",
+            "Bulk Up"
+          ],
+          "item": "LIFEORB",
+          "ability_index": 0
+        },
+        {
+          "species": "Tyrantrum/Slaking",
+          "raw_species": ":B309H426",
+          "level": 60,
+          "base_level": 54,
+          "moves": [
+            "Fire Fang",
+            "Retaliate",
+            "Play Rough",
+            "Rock Slide"
+          ],
+          "item": "CHOPLEBERRY",
+          "ability_index": 2
+        }
+      ]
+    },
+    "ELITEFOUR_Lorelei": {
+      "id_number": 360,
+      "trainer_type": "ELITEFOUR_Lorelei",
+      "real_name": "Lorelei",
+      "items": [
+        "FULLRESTORE",
+        "FULLRESTORE"
+      ],
+      "pokemon": [
+        {
+          "species": "Rotom/Politoed",
+          "raw_species": ":B186H358",
+          "level": 59,
+          "base_level": 53,
+          "moves": [
+            "Weather Ball",
+            "Perish Song",
+            "Thunder",
+            "Volt Switch"
+          ],
+          "item": "DAMPROCK",
+          "ability_index": 4
+        },
+        {
+          "species": "Ludicolo/Jynx",
+          "raw_species": ":B124H497",
+          "level": 60,
+          "base_level": 54,
+          "moves": [
+            "Psychic",
+            "Scald",
+            "Calm Mind",
+            "Giga Drain"
+          ],
+          "item": "SITRUSBERRY",
+          "ability_index": 4
+        },
+        {
+          "species": "Starmie/Blaziken",
+          "raw_species": ":B281H121",
+          "level": 62,
+          "base_level": 56,
+          "moves": [
+            "Focus Blast",
+            "Hydro Pump",
+            "Blizzard",
+            "Dazzling Gleam"
+          ],
+          "item": "WIDELENS",
+          "ability_index": 4
+        },
+        {
+          "species": "Kingdra/Omastar",
+          "raw_species": ":B139H230",
+          "level": 61,
+          "base_level": 55,
+          "moves": [
+            "Waterfall",
+            "Shell Smash",
+            "Rock Slide",
+            "Dragon Pulse"
+          ],
+          "item": "WHITEHERB",
+          "ability_index": 2
+        },
+        {
+          "species": "Skarmory/Kabutops",
+          "raw_species": ":B141H227",
+          "level": 61,
+          "base_level": 55,
+          "moves": [
+            "First Impression",
+            "Waterfall",
+            "Brave Bird",
+            "Iron Head"
+          ],
+          "item": "EXPERTBELT",
+          "ability_index": 0
+        },
+        {
+          "species": "Tangrowth/Milotic",
+          "raw_species": ":B335H266",
+          "level": 63,
+          "base_level": 57,
+          "moves": [
+            "Giga Drain",
+            "Leech Seed",
+            "Scald",
+            "Blizzard"
+          ],
+          "item": "LEFTOVERS",
+          "ability_index": 0
+        }
+      ]
+    },
+    "ELITEFOUR_Bruno": {
+      "id_number": 363,
+      "trainer_type": "ELITEFOUR_Bruno",
+      "real_name": "Bruno",
+      "items": [],
+      "pokemon": [
+        {
+          "species": "Tyranitar/Palossand",
+          "raw_species": ":B460H248",
+          "level": 59,
+          "base_level": 53,
+          "moves": [
+            "Stealth Rock",
+            "Stone Edge",
+            "Shore Up",
+            "Shadow Ball"
+          ],
+          "item": "SITRUSBERRY",
+          "ability_index": 2
+        },
+        {
+          "species": "Cradily/Jumpluff",
+          "raw_species": ":B189H302",
+          "level": 60,
+          "base_level": 54,
+          "moves": [
+            "U-turn",
+            "Encore",
+            "Giga Drain",
+            "Weather Ball"
+          ],
+          "item": "LEFTOVERS",
+          "ability_index": 5
+        },
+        {
+          "species": "Heracross/Armaldo",
+          "raw_species": ":B304H214",
+          "level": 60,
+          "base_level": 54,
+          "moves": [
+            "Stone Edge",
+            "First Impression",
+            "Protect",
+            "Close Combat"
+          ],
+          "item": "FLAMEORB",
+          "ability_index": 1
+        },
+        {
+          "species": "Marowak/Rhyperior",
+          "raw_species": ":B265H105",
+          "level": 61,
+          "base_level": 55,
+          "moves": [
+            "Bonemerang",
+            "Heat Crash",
+            "Shadow Bone",
+            "Stone Edge"
+          ],
+          "item": "THICKCLUB",
+          "ability_index": 3
+        },
+        {
+          "species": "Kingler/Aggron",
+          "raw_species": ":B333H99",
+          "level": 62,
+          "base_level": 56,
+          "moves": [
+            "Earthquake",
+            "Metal Burst",
+            "Crabhammer",
+            "Stone Edge"
+          ],
+          "item": "CUSTAPBERRY",
+          "ability_index": 0
+        },
+        {
+          "species": "Carbink/Chesnaught",
+          "raw_species": ":B481H478",
+          "level": 63,
+          "base_level": 57,
+          "moves": [
+            "Drain Punch",
+            "Rollout",
+            "Substitute",
+            "Leech Seed"
+          ],
+          "item": "METRONOME",
+          "ability_index": 2
+        }
+      ]
+    },
+    "ELITEFOUR_Agatha": {
+      "id_number": 366,
+      "trainer_type": "ELITEFOUR_Agatha",
+      "real_name": "Agatha",
+      "items": [
+        "FULLRESTORE",
+        "FULLRESTORE"
+      ],
+      "pokemon": [
+        {
+          "species": "Toxapex/Banette",
+          "raw_species": ":B357H455",
+          "level": 60,
+          "base_level": 54,
+          "moves": [
+            "Toxic Spikes",
+            "Baneful Bunker",
+            "Thunder Wave",
+            "Curse"
+          ],
+          "item": "FOCUSSASH",
+          "ability_index": 4
+        },
+        {
+          "species": "Porygon-Z/Venomoth",
+          "raw_species": ":B49H275",
+          "level": 61,
+          "base_level": 55,
+          "moves": [
+            "Quiver Dance",
+            "Venoshock",
+            "Tri Attack",
+            "Ice Beam"
+          ],
+          "item": "BLACKSLUDGE",
+          "ability_index": 1
+        },
+        {
+          "species": "Garbodor/Typhlosion",
+          "raw_species": ":B157H435",
+          "level": 61,
+          "base_level": 55,
+          "moves": [
+            "Gunk Shot",
+            "Burn Up",
+            "Frustration",
+            "Pain Split"
+          ],
+          "item": "BLACKSLUDGE",
+          "ability_index": 5
+        },
+        {
+          "species": "Clefable/Roserade",
+          "raw_species": ":B352H36",
+          "level": 61,
+          "base_level": 55,
+          "moves": [
+            "Minimize",
+            "Sludge Bomb",
+            "Trop Kick",
+            "Moonblast"
+          ],
+          "item": "BLACKSLUDGE",
+          "ability_index": 5
+        },
+        {
+          "species": "Hydreigon/Tentacruel",
+          "raw_species": ":B73H377",
+          "level": 63,
+          "base_level": 57,
+          "moves": [
+            "Venoshock",
+            "Muddy Water",
+            "Earth Power",
+            "Dark Pulse"
+          ],
+          "item": "BLACKSLUDGE",
+          "ability_index": 0
+        },
+        {
+          "species": "Alakazam/Gengar",
+          "raw_species": ":B94H65",
+          "level": 64,
+          "base_level": 58,
+          "moves": [
+            "Psychic",
+            "Shadow Ball",
+            "Thunderbolt",
+            "Dazzling Gleam"
+          ],
+          "item": "BLACKSLUDGE",
+          "ability_index": 5
+        }
+      ]
+    },
+    "CHAMPION": {
+      "id_number": 372,
+      "trainer_type": "CHAMPION",
+      "real_name": "Blue",
+      "items": [],
+      "pokemon": [
+        {
+          "species": "Ninjask/Bisharp",
+          "raw_species": ":B331H356",
+          "level": 65,
+          "base_level": 59,
+          "moves": [
+            "Baton Pass",
+            "Swords Dance",
+            "Protect",
+            "Iron Head"
+          ],
+          "item": "FOCUSSASH",
+          "ability_index": 1
+        },
+        {
+          "species": "Gliscor/Dusknoir",
+          "raw_species": ":B313H273",
+          "level": 65,
+          "base_level": 59,
+          "moves": [
+            "Night Slash",
+            "Earthquake",
+            "Shadow Sneak",
+            "Sky Uppercut"
+          ],
+          "item": "TOXICORB",
+          "ability_index": 5
+        },
+        {
+          "species": "Primeape/Drifblim",
+          "raw_species": ":B353H57",
+          "level": 65,
+          "base_level": 59,
+          "moves": [
+            "Close Combat",
+            "Acrobatics",
+            "Night Slash",
+            "Stone Edge"
+          ],
+          "item": "SITRUSBERRY",
+          "ability_index": 3
+        },
+        {
+          "species": "Reuniclus/Sylveon",
+          "raw_species": ":B339H359",
+          "level": 66,
+          "base_level": 60,
+          "moves": [
+            "Psychic",
+            "Shadow Ball",
+            "Hyper Voice",
+            "Wish"
+          ],
+          "item": "LEFTOVERS",
+          "ability_index": 4
+        },
+        {
+          "species": "Kingdra/Goodra",
+          "raw_species": ":B446H230",
+          "level": 66,
+          "base_level": 60,
+          "moves": [
+            "Hydro Pump",
+            "Dragon Pulse",
+            "Blizzard",
+            "Power Whip"
+          ],
+          "item": "WIDELENS",
+          "ability_index": 4
+        },
+        {
+          "species": "Dragonite/Dragonite",
+          "raw_species": ":B149H149",
+          "level": 71,
+          "base_level": 64,
+          "moves": [
+            "Roost",
+            "Aqua Tail",
+            "Dragon Claw",
+            "Extreme Speed"
+          ],
+          "item": "LIFEORB",
+          "ability_index": 5
+        }
+      ]
+    },
+    "LEADER_Whitney": {
+      "id_number": 381,
+      "trainer_type": "LEADER_Whitney",
+      "real_name": "Whitney",
+      "items": [
+        "MAXPOTION",
+        "MAXPOTION"
+      ],
+      "pokemon": [
+        {
+          "species": "Oricorio/Pikachu",
+          "raw_species": ":B25H432",
+          "level": 61,
+          "base_level": 55,
+          "moves": [
+            "Volt Tackle",
+            "Thunderbolt",
+            "Revelation Dance",
+            "Air Slash"
+          ],
+          "item": "LIGHTBALL",
+          "ability_index": 2
+        },
+        {
+          "species": "Nidoqueen/Banette",
+          "raw_species": ":B357H31",
+          "level": 61,
+          "base_level": 55,
+          "moves": [
+            "Phantom Force",
+            "Substitute",
+            "Destiny Bond",
+            "Trick"
+          ],
+          "item": "CHOICEBAND",
+          "ability_index": 4
+        },
+        {
+          "species": "Lucario/Bewear",
+          "raw_species": ":B452H296",
+          "level": 62,
+          "base_level": 56,
+          "moves": [
+            "Bulk Up",
+            "Return",
+            "Drain Punch",
+            "Extreme Speed"
+          ],
+          "item": "LEFTOVERS",
+          "ability_index": 0
+        },
+        {
+          "species": "Meganium/Miltank",
+          "raw_species": ":B241H154",
+          "level": 62,
+          "base_level": 56,
+          "moves": [
+            "Milk Drink",
+            "Natural Gift",
+            "Retaliate",
+            "Petal Blizzard"
+          ],
+          "item": "WATMELBERRY",
+          "ability_index": 0
+        },
+        {
+          "species": "Lycanroc/Mimikyu",
+          "raw_species": ":B373H465",
+          "level": 63,
+          "base_level": 57,
+          "moves": [
+            "Play Rough",
+            "Drain Punch",
+            "Wood Hammer",
+            "Counter"
+          ],
+          "item": "FOCUSSASH",
+          "ability_index": 0
+        },
+        {
+          "species": "Lycanroc/Mimikyu",
+          "raw_species": ":B373H464",
+          "level": 64,
+          "base_level": 58,
+          "moves": [
+            "Play Rough",
+            "Wood Hammer",
+            "Accelerock",
+            "Drain Punch"
+          ],
+          "item": "FOCUSSASH",
+          "ability_index": 0
+        }
+      ]
+    },
+    "LEADER_Kurt": {
+      "id_number": 383,
+      "trainer_type": "LEADER_Kurt",
+      "real_name": "Kurt",
+      "items": [
+        "MAXPOTION",
+        "MAXPOTION",
+        "MAXREVIVE"
+      ],
+      "pokemon": [
+        {
+          "species": "Bellossom/Ninetales",
+          "raw_species": ":B38H182",
+          "level": 62,
+          "base_level": 56,
+          "moves": [
+            "Solar Beam",
+            "Synthesis",
+            "Fire Blast",
+            "Toxic"
+          ],
+          "item": "HEATROCK",
+          "ability_index": 4
+        },
+        {
+          "species": "Leafeon/Electrode",
+          "raw_species": ":B101H271",
+          "level": 63,
+          "base_level": 57,
+          "moves": [
+            "Solar Beam",
+            "Volt Switch",
+            "Leaf Blade",
+            "Explosion"
+          ],
+          "item": "REDCARD",
+          "ability_index": 5
+        },
+        {
+          "species": "Venusaur/Bisharp",
+          "raw_species": ":B331H3",
+          "level": 64,
+          "base_level": 58,
+          "moves": [
+            "Power Whip",
+            "Night Slash",
+            "Sleep Powder",
+            "Poison Jab"
+          ],
+          "item": "LIFEORB",
+          "ability_index": 5
+        },
+        {
+          "species": "Roserade/Gliscor",
+          "raw_species": ":B273H352",
+          "level": 62,
+          "base_level": 56,
+          "moves": [
+            "Protect",
+            "Giga Drain",
+            "Weather Ball",
+            "Earthquake"
+          ],
+          "item": "TOXICORB",
+          "ability_index": 4
+        },
+        {
+          "species": "Chandelure/Lurantis",
+          "raw_species": ":B477H367",
+          "level": 64,
+          "base_level": 58,
+          "moves": [
+            "Leaf Storm",
+            "Overheat",
+            "Superpower",
+            "Shadow Ball"
+          ],
+          "item": "CHOICESCARF",
+          "ability_index": 4
+        },
+        {
+          "species": "Metagross/Dhelmise",
+          "raw_species": ":B453H293",
+          "level": 69,
+          "base_level": 62,
+          "moves": [
+            "Anchor Shot",
+            "Meteor Mash",
+            "Agility",
+            "Power Whip"
+          ],
+          "item": "FOCUSSASH",
+          "ability_index": 0
+        }
+      ]
+    },
+    "LEADER_Falkner": {
+      "id_number": 385,
+      "trainer_type": "LEADER_Falkner",
+      "real_name": "Falkner",
+      "items": [],
+      "pokemon": [
+        {
+          "species": "Dugtrio/Dugtrio",
+          "raw_species": ":B51H51",
+          "level": 64,
+          "base_level": 58,
+          "moves": [
+            "Stealth Rock",
+            "Earthquake",
+            "Rock Slide",
+            "Aerial Ace"
+          ],
+          "item": "EJECTBUTTON",
+          "ability_index": 3
+        },
+        {
+          "species": "Xatu/Xatu",
+          "raw_species": ":B178H178",
+          "level": 64,
+          "base_level": 58,
+          "moves": [
+            "U-turn",
+            "Tailwind",
+            "Psychic",
+            "Air Slash"
+          ],
+          "item": "SITRUSBERRY",
+          "ability_index": 5
+        },
+        {
+          "species": "Pidgeot/Pidgeot",
+          "raw_species": ":B18H18",
+          "level": 66,
+          "base_level": 60,
+          "moves": [
+            "Hurricane",
+            "Heat Wave",
+            "U-turn",
+            "Pursuit"
+          ],
+          "item": "WIDELENS",
+          "ability_index": 5
+        },
+        {
+          "species": "Machamp/Machamp",
+          "raw_species": ":B68H68",
+          "level": 66,
+          "base_level": 60,
+          "moves": [
+            "Protect",
+            "Cross Chop",
+            "Rock Slide",
+            "Fire Punch"
+          ],
+          "item": "FLAMEORB",
+          "ability_index": 2
+        },
+        {
+          "species": "Aegislash/Aegislash",
+          "raw_species": ":B329H329",
+          "level": 68,
+          "base_level": 61,
+          "moves": [
+            "King's Shield",
+            "Shadow Sneak",
+            "Iron Head",
+            "Sacred Sword"
+          ],
+          "item": "LEFTOVERS",
+          "ability_index": 0
+        },
+        {
+          "species": "Haxorus/Haxorus",
+          "raw_species": ":B368H368",
+          "level": 70,
+          "base_level": 63,
+          "moves": [
+            "Dragon Dance",
+            "Dragon Claw",
+            "Earthquake",
+            "Rock Slide"
+          ],
+          "item": "LIFEORB",
+          "ability_index": 0
+        }
+      ]
+    },
+    "LEADER_Clair": {
+      "id_number": 387,
+      "trainer_type": "LEADER_Clair",
+      "real_name": "Clair",
+      "items": [],
+      "pokemon": [
+        {
+          "species": "Sylveon/Dragonite",
+          "raw_species": ":B149H339",
+          "level": 69,
+          "base_level": 62,
+          "moves": [
+            "Extreme Speed",
+            "Earthquake",
+            "Fire Punch",
+            "Dragon Claw"
+          ],
+          "item": "LUMBERRY",
+          "ability_index": 5
+        },
+        {
+          "species": "Aggron/Goodra",
+          "raw_species": ":B446H333",
+          "level": 69,
+          "base_level": 62,
+          "moves": [
+            "Iron Head",
+            "Aqua Tail",
+            "Power Whip",
+            "Curse"
+          ],
+          "item": "SITRUSBERRY",
+          "ability_index": 4
+        },
+        {
+          "species": "Altaria/Charizard",
+          "raw_species": ":B6H443",
+          "level": 70,
+          "base_level": 63,
+          "moves": [
+            "Moonblast",
+            "Will-O-Wisp",
+            "Air Slash",
+            "Fire Blast"
+          ],
+          "item": "ROCKYHELMET",
+          "ability_index": 5
+        },
+        {
+          "species": "Steelix/Noivern",
+          "raw_species": ":B441H208",
+          "level": 70,
+          "base_level": 63,
+          "moves": [
+            "Heavy Slam",
+            "Psych Up",
+            "Outrage",
+            "Tailwind"
+          ],
+          "item": "LUMBERRY",
+          "ability_index": 1
+        },
+        {
+          "species": "Dusknoir/Hydreigon",
+          "raw_species": ":B377H313",
+          "level": 71,
+          "base_level": 64,
+          "moves": [
+            "Dark Pulse",
+            "Shadow Ball",
+            "Dragon Pulse",
+            "Blizzard"
+          ],
+          "item": "LEFTOVERS",
+          "ability_index": 2
+        },
+        {
+          "species": "Lurantis/Kingdra",
+          "raw_species": ":B230H477",
+          "level": 73,
+          "base_level": 66,
+          "moves": [
+            "Leaf Storm",
+            "Draco Meteor",
+            "Superpower",
+            "Aqua Jet"
+          ],
+          "item": "EXPERTBELT",
+          "ability_index": 5
+        }
+      ]
+    },
+    "LEADER_Morty": {
+      "id_number": 389,
+      "trainer_type": "LEADER_Morty",
+      "real_name": "Morty",
+      "items": [],
+      "pokemon": [
+        {
+          "species": "Gengar/Ninetales",
+          "raw_species": ":B38H94",
+          "level": 71,
+          "base_level": 64,
+          "moves": [
+            "Destiny Bond",
+            "Shadow Ball",
+            "Solar Beam",
+            "Fire Blast"
+          ],
+          "item": "FOCUSSASH",
+          "ability_index": 4
+        },
+        {
+          "species": "Blaziken/Salamence",
+          "raw_species": ":B336H281",
+          "level": 72,
+          "base_level": 65,
+          "moves": [
+            "Flare Blitz",
+            "High Jump Kick",
+            "Protect",
+            "Earthquake"
+          ],
+          "item": "LIFEORB",
+          "ability_index": 5
+        },
+        {
+          "species": "Roserade/Typhlosion",
+          "raw_species": ":B157H352",
+          "level": 70,
+          "base_level": 63,
+          "moves": [
+            "Leech Seed",
+            "Weather Ball",
+            "Solar Beam",
+            "Synthesis"
+          ],
+          "item": "LEFTOVERS",
+          "ability_index": 4
+        },
+        {
+          "species": "Magmortar/Cacturne",
+          "raw_species": ":B458H268",
+          "level": 72,
+          "base_level": 65,
+          "moves": [
+            "Energy Ball",
+            "Flamethrower",
+            "Spiky Shield",
+            "Psychic"
+          ],
+          "item": "AIRBALLOON",
+          "ability_index": 4
+        },
+        {
+          "species": "Talonflame/Luxray",
+          "raw_species": ":B332H372",
+          "level": 72,
+          "base_level": 65,
+          "moves": [
+            "Brave Bird",
+            "Wild Charge",
+            "Flare Blitz",
+            "Roost"
+          ],
+          "item": "LIFEORB",
+          "ability_index": 3
+        },
+        {
+          "species": "Lucario/Arcanine",
+          "raw_species": ":B59H296",
+          "level": 74,
+          "base_level": 67,
+          "moves": [
+            "Extreme Speed",
+            "Flare Blitz",
+            "Aura Sphere",
+            "Bulk Up"
+          ],
+          "item": "AIRBALLOON",
+          "ability_index": 0
+        }
+      ]
+    },
+    "LEADER_Pryce": {
+      "id_number": 391,
+      "trainer_type": "LEADER_Pryce",
+      "real_name": "Pryce",
+      "items": [
+        "FULLRESTORE",
+        "FULLRESTORE"
+      ],
+      "pokemon": [
+        {
+          "species": "Dusknoir/Torterra",
+          "raw_species": ":B318H313",
+          "level": 71,
+          "base_level": 64,
+          "moves": [
+            "Will-O-Wisp",
+            "Earthquake",
+            "Hex",
+            "Future Sight"
+          ],
+          "item": "LEFTOVERS",
+          "ability_index": 4
+        },
+        {
+          "species": "Ninetales/Froslass",
+          "raw_species": ":B429H38",
+          "level": 71,
+          "base_level": 64,
+          "moves": [
+            "Shadow Ball",
+            "Blizzard",
+            "Fire Blast",
+            "Will-O-Wisp"
+          ],
+          "item": "FOCUSSASH",
+          "ability_index": 4
+        },
+        {
+          "species": "Golurk/Mamoswine",
+          "raw_species": ":B274H369",
+          "level": 72,
+          "base_level": 65,
+          "moves": [
+            "Stone Edge",
+            "Dynamic Punch",
+            "Fissure",
+            "Icicle Crash"
+          ],
+          "item": "LIFEORB",
+          "ability_index": 5
+        },
+        {
+          "species": "Mismagius/Feraligatr",
+          "raw_species": ":B160H255",
+          "level": 71,
+          "base_level": 64,
+          "moves": [
+            "Mystical Fire",
+            "Nasty Plot",
+            "Hydro Pump",
+            "Focus Blast"
+          ],
+          "item": "SCOPELENS",
+          "ability_index": 2
+        },
+        {
+          "species": "Chandelure/Scolipede",
+          "raw_species": ":B424H367",
+          "level": 72,
+          "base_level": 65,
+          "moves": [
+            "Shadow Ball",
+            "Fire Blast",
+            "Sludge Bomb",
+            "Signal Beam"
+          ],
+          "item": "CHOICESPECS",
+          "ability_index": 4
+        },
+        {
+          "species": "Cofagrigus/Slaking",
+          "raw_species": ":B309H362",
+          "level": 72,
+          "base_level": 65,
+          "moves": [
+            "Hammer Arm",
+            "Retaliate",
+            "Play Rough",
+            "Shadow Claw"
+          ],
+          "item": "LIFEORB",
+          "ability_index": 1
+        }
+      ]
+    },
+    "LEADER_Jasmine": {
+      "id_number": 393,
+      "trainer_type": "LEADER_Jasmine",
+      "real_name": "Jasmine",
+      "items": [],
+      "pokemon": [
+        {
+          "species": "Lanturn/Zoroark",
+          "raw_species": ":B338H171",
+          "level": 73,
+          "base_level": 66,
+          "moves": [
+            "Volt Switch",
+            "Hydro Pump",
+            "Sucker Punch",
+            "Scald"
+          ],
+          "item": "FOCUSSASH",
+          "ability_index": 3
+        },
+        {
+          "species": "Sylveon/Magnezone",
+          "raw_species": ":B263H339",
+          "level": 73,
+          "base_level": 66,
+          "moves": [
+            "Volt Switch",
+            "Moonblast",
+            "Flash Cannon",
+            "Reflect"
+          ],
+          "item": "AIRBALLOON",
+          "ability_index": 0
+        },
+        {
+          "species": "Rotom/Dragonite",
+          "raw_species": ":B149H358",
+          "level": 74,
+          "base_level": 67,
+          "moves": [
+            "Parabolic Charge",
+            "Volt Switch",
+            "Shadow Ball",
+            "Dragon Pulse"
+          ],
+          "item": "LIFEORB",
+          "ability_index": 4
+        },
+        {
+          "species": "Ampharos/Palossand",
+          "raw_species": ":B460H181",
+          "level": 73,
+          "base_level": 66,
+          "moves": [
+            "Earthquake",
+            "Thunderbolt",
+            "Shadow Ball",
+            "Signal Beam"
+          ],
+          "item": "PASSHOBERRY",
+          "ability_index": 0
+        },
+        {
+          "species": "Electivire/Mantine",
+          "raw_species": ":B226H267",
+          "level": 74,
+          "base_level": 67,
+          "moves": [
+            "Discharge",
+            "Hydro Pump",
+            "Fire Punch",
+            "Air Slash"
+          ],
+          "item": "LEFTOVERS",
+          "ability_index": 3
+        },
+        {
+          "species": "Electrode/Steelix",
+          "raw_species": ":B208H101",
+          "level": 75,
+          "base_level": 68,
+          "moves": [
+            "Explosion"
+          ],
+          "item": "NORMALGEM",
+          "ability_index": 3
+        }
+      ]
+    },
+    "LEADER_Chuck": {
+      "id_number": 395,
+      "trainer_type": "LEADER_Chuck",
+      "real_name": "Chuck",
+      "items": [
+        "MAXPOTION",
+        "MAXPOTION"
+      ],
+      "pokemon": [
+        {
+          "species": "Palossand/Goodra",
+          "raw_species": ":B446H460",
+          "level": 70,
+          "base_level": 63,
+          "moves": [
+            "Shore Up",
+            "Earth Power",
+            "Shadow Ball",
+            "Ice Beam"
+          ],
+          "item": "LEFTOVERS",
+          "ability_index": 4
+        },
+        {
+          "species": "Rhyperior/Mantine",
+          "raw_species": ":B226H265",
+          "level": 70,
+          "base_level": 63,
+          "moves": [
+            "Agility",
+            "Rock Slide",
+            "Waterfall",
+            "Rock Wrecker"
+          ],
+          "item": "YACHEBERRY",
+          "ability_index": 3
+        },
+        {
+          "species": "Magcargo/Nidoqueen",
+          "raw_species": ":B31H219",
+          "level": 71,
+          "base_level": 64,
+          "moves": [
+            "Shell Smash",
+            "Earth Power",
+            "Flamethrower",
+            "Sludge Bomb"
+          ],
+          "item": "FOCUSSASH",
+          "ability_index": 4
+        },
+        {
+          "species": "Exeggutor/Nidoking",
+          "raw_species": ":B34H103",
+          "level": 71,
+          "base_level": 64,
+          "moves": [
+            "Earth Power",
+            "Sludge Bomb",
+            "Psyshock",
+            "Solar Beam"
+          ],
+          "item": "POWERHERB",
+          "ability_index": 4
+        },
+        {
+          "species": "Hydreigon/Dugtrio",
+          "raw_species": ":B51H377",
+          "level": 71,
+          "base_level": 64,
+          "moves": [
+            "Earth Power",
+            "Dragon Pulse",
+            "Fire Blast",
+            "Blizzard"
+          ],
+          "item": "SITRUSBERRY",
+          "ability_index": 3
+        },
+        {
+          "species": "Golurk/Poliwrath",
+          "raw_species": ":B62H369",
+          "level": 71,
+          "base_level": 64,
+          "moves": [
+            "Drain Punch",
+            "Shadow Punch",
+            "Ice Punch",
+            "Mega Punch"
+          ],
+          "item": "RINDOBERRY",
+          "ability_index": 2
+        }
+      ]
+    },
+    "CHAMPION_Sinnoh": {
+      "id_number": 632,
+      "trainer_type": "CHAMPION_Sinnoh",
+      "real_name": "Cynthia",
+      "items": [],
+      "pokemon": [
+        {
+          "species": "Spiritomb/Sableye",
+          "raw_species": ":B421H295",
+          "level": 79,
+          "base_level": 71,
+          "moves": [
+            "Spirit Shackle",
+            "Toxic",
+            "Light Screen",
+            "Reflect"
+          ],
+          "item": "LIGHTCLAY",
+          "ability_index": 4
+        },
+        {
+          "species": "Togekiss/Gardevoir",
+          "raw_species": ":B287H269",
+          "level": 80,
+          "base_level": 72,
+          "moves": [
+            "Thunder Wave",
+            "Fleur Cannon",
+            "Psychic",
+            "Air Slash"
+          ],
+          "item": "WHITEHERB",
+          "ability_index": 2
+        },
+        {
+          "species": "Milotic/Trevenant",
+          "raw_species": ":B439H335",
+          "level": 80,
+          "base_level": 72,
+          "moves": [
+            "Rest",
+            "Scald",
+            "Leech Seed",
+            "Horn Leech"
+          ],
+          "item": "CHESTOBERRY",
+          "ability_index": 4
+        },
+        {
+          "species": "Roserade/Gallade",
+          "raw_species": ":B288H352",
+          "level": 80,
+          "base_level": 72,
+          "moves": [
+            "Leaf Blade",
+            "Swords Dance",
+            "Psycho Cut",
+            "Rock Slide"
+          ],
+          "item": "FOCUSSASH",
+          "ability_index": 4
+        },
+        {
+          "species": "Lucario/Metagross",
+          "raw_species": ":B293H296",
+          "level": 80,
+          "base_level": 72,
+          "moves": [
+            "Hammer Arm",
+            "Meteor Mash",
+            "Zen Headbutt",
+            "Agility"
+          ],
+          "item": "SITRUSBERRY",
+          "ability_index": 3
+        },
+        {
+          "species": "Tyranitar/Garchomp",
+          "raw_species": ":B299H248",
+          "level": 81,
+          "base_level": 73,
+          "moves": [
+            "Stone Edge",
+            "Earthquake",
+            "Crunch",
+            "Fire Punch"
+          ],
+          "item": "LIFEORB",
+          "ability_index": 2
+        }
+      ]
+    }
   }
 }

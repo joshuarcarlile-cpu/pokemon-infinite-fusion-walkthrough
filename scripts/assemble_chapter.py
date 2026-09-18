@@ -67,6 +67,40 @@ def assemble_chapter(chapter_input):
                 with open(t_path, "r", encoding="utf-8") as f:
                     teams[s_key] = json.load(f)
     chapter["teams"] = teams
+
+    # Ingest Remix sibling files (if present, degrading gracefully if absent)
+    boss_remix_path = os.path.join(ch_dir, "boss_remix.json")
+    if os.path.exists(boss_remix_path):
+        with open(boss_remix_path, "r", encoding="utf-8") as f:
+            chapter["boss_strategy_remix"] = json.load(f)
+
+    phases_remix_dir = os.path.join(ch_dir, "phases_remix")
+    if os.path.exists(phases_remix_dir):
+        phase_remix_files = sorted(glob.glob(os.path.join(phases_remix_dir, "*.json")))
+        if phase_remix_files:
+            routes_remix = []
+            for pf in phase_remix_files:
+                with open(pf, "r", encoding="utf-8") as f:
+                    p_data = json.load(f)
+                    if isinstance(p_data, list):
+                        routes_remix.extend(p_data)
+                    elif isinstance(p_data, dict):
+                        if "routes" in p_data:
+                            routes_remix.extend(p_data["routes"])
+                        else:
+                            routes_remix.append(p_data)
+            chapter["routes_remix"] = routes_remix
+
+    teams_remix_dir = os.path.join(ch_dir, "teams_remix")
+    if os.path.exists(teams_remix_dir):
+        teams_remix = {}
+        for s_key in ["bulbasaur", "charmander", "squirtle"]:
+            t_path = os.path.join(teams_remix_dir, f"team_{s_key}.json")
+            if os.path.exists(t_path):
+                with open(t_path, "r", encoding="utf-8") as f:
+                    teams_remix[s_key] = json.load(f)
+        if teams_remix:
+            chapter["teams_remix"] = teams_remix
     
     return chapter
 

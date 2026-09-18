@@ -1,0 +1,75 @@
+{
+  "location": "Route 36 (ID 267)",
+  "map_id": 267,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Electabuzz",
+        "levels": "32-33",
+        "rates": [
+          "27%",
+          "25% (LandNight)"
+        ]
+      },
+      {
+        "name": "Magmar",
+        "levels": "32-33",
+        "rates": [
+          "27%",
+          "25% (LandNight)"
+        ]
+      },
+      {
+        "name": "Hawlucha",
+        "levels": "32-35",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Girafarig",
+        "levels": "33",
+        "rates": [
+          "12%"
+        ]
+      },
+      {
+        "name": "Growlithe",
+        "levels": "33",
+        "rates": [
+          "7%",
+          "7% (LandNight)"
+        ]
+      },
+      {
+        "name": "Vulpix",
+        "levels": "33",
+        "rates": [
+          "7%",
+          "7% (LandNight)"
+        ]
+      },
+      {
+        "name": "Absol",
+        "levels": "32-35",
+        "rates": [
+          "14%"
+        ]
+      },
+      {
+        "name": "Stantler",
+        "levels": "33",
+        "rates": [
+          "12%"
+        ]
+      },
+      {
+        "name": "Bewear",
+        "levels": "32-35",
+        "rates": [
+          "10%"
+        ]
+      }
+    ]
+  }
+}

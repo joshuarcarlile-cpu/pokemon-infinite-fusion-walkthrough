@@ -1,0 +1,64 @@
+{
+  "location": "Underwater (ID 229)",
+  "map_id": 229,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Corsola",
+        "levels": "25-35",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Horsea",
+        "levels": "25-35",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Golisopod",
+        "levels": "31-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "35-39",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Qwilfish",
+        "levels": "25-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Staryu",
+        "levels": "25-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Wailmer",
+        "levels": "25-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Octillery",
+        "levels": "35",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

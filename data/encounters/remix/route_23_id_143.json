@@ -1,0 +1,279 @@
+{
+  "location": "Route 23 (ID 143)",
+  "map_id": 143,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Fletchinder",
+        "levels": "25-40",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Graveler",
+        "levels": "20-35",
+        "rates": [
+          "15%",
+          "20% (LandNight)"
+        ]
+      },
+      {
+        "name": "Mankey",
+        "levels": "20-40",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Seel",
+        "levels": "20-35",
+        "rates": [
+          "15%",
+          "15% (LandNight)"
+        ]
+      },
+      {
+        "name": "Bibarel",
+        "levels": "20-35",
+        "rates": [
+          "10%",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Cacnea",
+        "levels": "25-30",
+        "rates": [
+          "10%",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Munchlax",
+        "levels": "30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Phanpy",
+        "levels": "30",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Pidgeotto",
+        "levels": "36",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Magnemite",
+        "levels": "30",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Zubat",
+        "levels": "25-40",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Hitmonchan",
+        "levels": "30",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Hitmonlee",
+        "levels": "30",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Houndour",
+        "levels": "36",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Lapras",
+        "levels": "20-35",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Feebas",
+        "levels": "15-30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Goldeen",
+        "levels": "20-40",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Shellder",
+        "levels": "20-30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Tentacool",
+        "levels": "20-40",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Lanturn",
+        "levels": "35",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "30-35",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Milotic",
+        "levels": "30-34",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Octillery",
+        "levels": "30-35",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Psyduck",
+        "levels": "20-40",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Slowpoke",
+        "levels": "20-40",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Mareanie",
+        "levels": "5",
+        "rates": [
+          "49%"
+        ]
+      },
+      {
+        "name": "Bruxish",
+        "levels": "5",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Feebas",
+        "levels": "5",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Bruxish",
+        "levels": "5-15",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "name": "Goldeen",
+        "levels": "5-15",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5-15",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Mareanie",
+        "levels": "15-25",
+        "rates": [
+          "45%"
+        ]
+      },
+      {
+        "name": "Dhelmise",
+        "levels": "20-30",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Psyduck",
+        "levels": "15-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Slowpoke",
+        "levels": "15-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Milotic",
+        "levels": "15-25",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

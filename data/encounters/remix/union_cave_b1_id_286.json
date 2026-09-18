@@ -1,0 +1,135 @@
+{
+  "location": "Union Cave B1 (ID 286)",
+  "map_id": 286,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Golem",
+        "levels": "44",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Noivern",
+        "levels": "45-47",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Sandslash",
+        "levels": "43",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Carbink",
+        "levels": "44",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Shuckle",
+        "levels": "40",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Steelix",
+        "levels": "46",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Quagsire",
+        "levels": "30-45",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "25-40",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Wooper",
+        "levels": "25-40",
+        "rates": [
+          "30%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Carvanha",
+        "levels": "5",
+        "rates": [
+          "94%"
+        ]
+      },
+      {
+        "name": "Qwilfish",
+        "levels": "10",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "20",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "name": "Qwilfish",
+        "levels": "20",
+        "rates": [
+          "40%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Qwilfish",
+        "levels": "40",
+        "rates": [
+          "90%"
+        ]
+      },
+      {
+        "name": "Sharpedo",
+        "levels": "40",
+        "rates": [
+          "7%"
+        ]
+      },
+      {
+        "name": "Seaking",
+        "levels": "40",
+        "rates": [
+          "3%"
+        ]
+      }
+    ]
+  }
+}

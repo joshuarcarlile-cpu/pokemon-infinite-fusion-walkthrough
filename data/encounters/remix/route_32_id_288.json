@@ -1,0 +1,213 @@
+{
+  "location": "Route 32 (ID 288)",
+  "map_id": 288,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Klang",
+        "levels": "44-46",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Galvantula",
+        "levels": "46",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Lickilicky",
+        "levels": "46",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Mareep",
+        "levels": "43",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Flaaffy",
+        "levels": "46",
+        "rates": [
+          "10%",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Skiploom",
+        "levels": "44",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Jumpluff",
+        "levels": "47",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Quagsire",
+        "levels": "44",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Bewear",
+        "levels": "46",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Klang",
+        "levels": "44",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Arbok",
+        "levels": "46",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Lickilicky",
+        "levels": "44",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Wailmer",
+        "levels": "15-40",
+        "rates": [
+          "50%"
+        ]
+      },
+      {
+        "name": "Quagsire",
+        "levels": "25-45",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Qwilfish",
+        "levels": "35-45",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Tentacruel",
+        "levels": "35-45",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Luvdisc",
+        "levels": "5",
+        "rates": [
+          "64%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Tentacool",
+        "levels": "10",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Chinchou",
+        "levels": "20",
+        "rates": [
+          "45%"
+        ]
+      },
+      {
+        "name": "Dhelmise",
+        "levels": "20",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "20",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Qwilfish",
+        "levels": "20",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Politoed",
+        "levels": "40",
+        "rates": [
+          "45%"
+        ]
+      },
+      {
+        "name": "Dhelmise",
+        "levels": "40",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Qwilfish",
+        "levels": "40",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Toxapex",
+        "levels": "40-42",
+        "rates": [
+          "10%"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "location": "Underwater (ID 220)",
+  "map_id": 220,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Chinchou",
+        "levels": "20-30",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Qwilfish",
+        "levels": "25-35",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Dhelmise",
+        "levels": "20-30",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Goldeen",
+        "levels": "25-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Golisopod",
+        "levels": "30-36",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Sharpedo",
+        "levels": "35-40",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Tentacool",
+        "levels": "25-35",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Rock Smash": [
+      {
+        "name": "Kabuto",
+        "levels": "5-30",
+        "rates": [
+          "50%"
+        ]
+      },
+      {
+        "name": "Omanyte",
+        "levels": "25-40",
+        "rates": [
+          "50%"
+        ]
+      }
+    ]
+  }
+}

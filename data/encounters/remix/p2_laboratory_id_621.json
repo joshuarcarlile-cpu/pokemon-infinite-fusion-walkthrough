@@ -1,0 +1,121 @@
+{
+  "location": "P2 Laboratory (ID 621)",
+  "map_id": 621,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Klink",
+        "levels": "57-58",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Klang",
+        "levels": "50-52",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Pawniard",
+        "levels": "40",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Magneton",
+        "levels": "57-59",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Magnezone",
+        "levels": "59",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Horsea",
+        "levels": "35-45",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "40-45",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Kingdra",
+        "levels": "45-70",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Feebas",
+        "levels": "10",
+        "rates": [
+          "95%"
+        ]
+      },
+      {
+        "name": "Horsea",
+        "levels": "10",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Qwilfish",
+        "levels": "20",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Feebas",
+        "levels": "20",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Seadra",
+        "levels": "20",
+        "rates": [
+          "30%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Qwilfish",
+        "levels": "40",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "name": "Horsea",
+        "levels": "40",
+        "rates": [
+          "40%"
+        ]
+      }
+    ]
+  }
+}

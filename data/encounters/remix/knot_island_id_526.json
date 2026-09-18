@@ -1,0 +1,133 @@
+{
+  "location": "Knot Island (ID 526)",
+  "map_id": 526,
+  "sections": {
+    "Surf": [
+      {
+        "name": "Bruxish",
+        "levels": "5-40",
+        "rates": [
+          "45%"
+        ]
+      },
+      {
+        "name": "Wailmer",
+        "levels": "20-35",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Corsola",
+        "levels": "5-40",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Froakie",
+        "levels": "15-17",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Luvdisc",
+        "levels": "10",
+        "rates": [
+          "45%"
+        ]
+      },
+      {
+        "name": "Marill",
+        "levels": "10",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Wimpod",
+        "levels": "10",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Pyukumuku",
+        "levels": "10",
+        "rates": [
+          "15%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Mareanie",
+        "levels": "20",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "name": "Pyukumuku",
+        "levels": "20",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Chinchou",
+        "levels": "20",
+        "rates": [
+          "7%"
+        ]
+      },
+      {
+        "name": "Shellder",
+        "levels": "20",
+        "rates": [
+          "3%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "40",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "name": "Shellder",
+        "levels": "40",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Tentacruel",
+        "levels": "40",
+        "rates": [
+          "6%"
+        ]
+      },
+      {
+        "name": "Lanturn",
+        "levels": "40",
+        "rates": [
+          "3%"
+        ]
+      },
+      {
+        "name": "Froakie",
+        "levels": "1-50",
+        "rates": [
+          "1%"
+        ]
+      }
+    ]
+  }
+}

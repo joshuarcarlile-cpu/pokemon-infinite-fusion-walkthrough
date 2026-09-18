@@ -1,0 +1,154 @@
+{
+  "location": "b'Cerulean City' (ID 1)",
+  "map_id": 1,
+  "sections": {
+    "Surf": [
+      {
+        "name": "Bruxish",
+        "levels": "5-40",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Goldeen",
+        "levels": "5-35",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Horsea",
+        "levels": "5-40",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Seadra",
+        "levels": "35-40",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Seaking",
+        "levels": "35-40",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Carvanha",
+        "levels": "5",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Magikarp",
+        "levels": "5",
+        "rates": [
+          "33%"
+        ]
+      },
+      {
+        "name": "Psyduck",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Bruxish",
+        "levels": "5",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Klefki",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "5-15",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Psyduck",
+        "levels": "5-15",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Bruxish",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Mareanie",
+        "levels": "15-35",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Remoraid",
+        "levels": "15-35",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Dhelmise",
+        "levels": "15-35",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Sharpedo",
+        "levels": "15-25",
+        "rates": [
+          "16%"
+        ]
+      },
+      {
+        "name": "Slowpoke",
+        "levels": "25-35",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Toxapex",
+        "levels": "35-42",
+        "rates": [
+          "2%"
+        ]
+      }
+    ]
+  }
+}

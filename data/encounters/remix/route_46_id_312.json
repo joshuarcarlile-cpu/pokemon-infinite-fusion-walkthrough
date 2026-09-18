@@ -1,0 +1,57 @@
+{
+  "location": "Route 46 (ID 312)",
+  "map_id": 312,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Vigoroth",
+        "levels": "50",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Donphan",
+        "levels": "50",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Gligar",
+        "levels": "44-49",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Gliscor",
+        "levels": "45-50",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Furret",
+        "levels": "45-51",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Golbat",
+        "levels": "45-51",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Wigglytuff",
+        "levels": "50",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

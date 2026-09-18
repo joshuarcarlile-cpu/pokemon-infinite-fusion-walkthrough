@@ -1,0 +1,115 @@
+{
+  "location": "Rock Tunnel (ID 350)",
+  "map_id": 350,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Aron",
+        "levels": "15-17",
+        "rates": [
+          "16%"
+        ]
+      },
+      {
+        "name": "Mawile",
+        "levels": "16-17",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Sableye",
+        "levels": "16-17",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Golett",
+        "levels": "16-17",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Onix",
+        "levels": "13-17",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Scraggy",
+        "levels": "15-17",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Zubat",
+        "levels": "14-16",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Cubone",
+        "levels": "15",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Machop",
+        "levels": "17",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Cranidos",
+        "levels": "12",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Shieldon",
+        "levels": "13-15",
+        "rates": [
+          "2%"
+        ]
+      }
+    ],
+    "Rock Smash": [
+      {
+        "name": "Ferroseed",
+        "levels": "10-20",
+        "rates": [
+          "45%"
+        ]
+      },
+      {
+        "name": "Shuckle",
+        "levels": "10-20",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Geodude",
+        "levels": "5-20",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Corsola",
+        "levels": "15-20",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

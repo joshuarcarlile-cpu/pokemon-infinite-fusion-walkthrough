@@ -1,0 +1,52 @@
+{
+  "location": "Route 4 (ID 236)",
+  "map_id": 236,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Unown",
+        "levels": "1-2",
+        "rates": [
+          "100%",
+          "100% (LandNight)"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Unown",
+        "levels": "1-2",
+        "rates": [
+          "100%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Unown",
+        "levels": "1-2",
+        "rates": [
+          "100%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Unown",
+        "levels": "1-2",
+        "rates": [
+          "100%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Unown",
+        "levels": "1-2",
+        "rates": [
+          "100%"
+        ]
+      }
+    ]
+  }
+}

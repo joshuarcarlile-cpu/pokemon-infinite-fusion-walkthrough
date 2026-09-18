@@ -1,0 +1,248 @@
+{
+  "location": "Route 9 (ID 495)",
+  "map_id": 495,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Hawlucha",
+        "levels": "14-17",
+        "rates": [
+          "15%",
+          "15% (LandMorning)",
+          "15% (LandNight)"
+        ]
+      },
+      {
+        "name": "Klefki",
+        "levels": "13",
+        "rates": [
+          "15%",
+          "15% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Seel",
+        "levels": "16-18",
+        "rates": [
+          "14%",
+          "14% (LandMorning)",
+          "14% (LandNight)"
+        ]
+      },
+      {
+        "name": "Natu",
+        "levels": "18",
+        "rates": [
+          "10%",
+          "10% (LandMorning)",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Onix",
+        "levels": "17",
+        "rates": [
+          "10%",
+          "10% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Trapinch",
+        "levels": "16-18",
+        "rates": [
+          "10%",
+          "10% (LandMorning)",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Absol",
+        "levels": "20",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Gligar",
+        "levels": "18",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Kecleon",
+        "levels": "11-17",
+        "rates": [
+          "5%",
+          "5% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Pawniard",
+        "levels": "13-16",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Spearow",
+        "levels": "19",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "15% (LandNight)"
+        ]
+      },
+      {
+        "name": "Charmander",
+        "levels": "11-15",
+        "rates": [
+          "1%",
+          "1% (LandMorning)",
+          "1% (LandNight)"
+        ]
+      },
+      {
+        "name": "Phanpy",
+        "levels": "17",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Doduo",
+        "levels": "11-17",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Luvdisc",
+        "levels": "25-35",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Horsea",
+        "levels": "5-35",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Lapras",
+        "levels": "5-40",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Seadra",
+        "levels": "35-40",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Tentacool",
+        "levels": "5",
+        "rates": [
+          "39%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "5",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Shellder",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "5-15",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Tentacool",
+        "levels": "5-15",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Shellder",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Shellder",
+        "levels": "15-35",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Tentacool",
+        "levels": "15-35",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Sharpedo",
+        "levels": "15-25",
+        "rates": [
+          "18%"
+        ]
+      },
+      {
+        "name": "Octillery",
+        "levels": "25-35",
+        "rates": [
+          "2%"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "location": "Route 2 (ID 86)",
+  "map_id": 86,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Shinx",
+        "levels": "2-4",
+        "rates": [
+          "25%",
+          "25% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Lotad",
+        "levels": "2-3",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Ralts",
+        "levels": "4-5",
+        "rates": [
+          "15%",
+          "15% (LandMorning)",
+          "20% (LandNight)"
+        ]
+      },
+      {
+        "name": "Stufful",
+        "levels": "2-5",
+        "rates": [
+          "15%",
+          "15% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Ledyba",
+        "levels": "4-5",
+        "rates": [
+          "10%",
+          "10% (LandMorning)",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Spinarak",
+        "levels": "2-5",
+        "rates": [
+          "10%",
+          "10% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Swablu",
+        "levels": "2-5",
+        "rates": [
+          "10%",
+          "10% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Fletchling",
+        "levels": "2-3",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Hoothoot",
+        "levels": "2-3",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Phantump",
+        "levels": "2-5",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Pumpkaboo",
+        "levels": "2-5",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Sentret",
+        "levels": "2-5",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Spinarak",
+        "levels": "4-5",
+        "rates": [
+          "10%"
+        ]
+      }
+    ]
+  }
+}

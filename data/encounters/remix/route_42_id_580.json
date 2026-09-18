@@ -1,0 +1,160 @@
+{
+  "location": "Route 42 (ID 580)",
+  "map_id": 580,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Flaaffy",
+        "levels": "45-50",
+        "rates": [
+          "25%",
+          "25% (LandNight)"
+        ]
+      },
+      {
+        "name": "Bibarel",
+        "levels": "40",
+        "rates": [
+          "15%",
+          "15% (LandNight)"
+        ]
+      },
+      {
+        "name": "Drifblim",
+        "levels": "42-54",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Lopunny",
+        "levels": "46-52",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Primeape",
+        "levels": "55",
+        "rates": [
+          "15%",
+          "15% (LandNight)"
+        ]
+      },
+      {
+        "name": "Scrafty",
+        "levels": "42-50",
+        "rates": [
+          "15%",
+          "15% (LandNight)"
+        ]
+      },
+      {
+        "name": "Bewear",
+        "levels": "46-52",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Murkrow",
+        "levels": "42-54",
+        "rates": [
+          "15%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Tentacool",
+        "levels": "25-35",
+        "rates": [
+          "90%"
+        ]
+      },
+      {
+        "name": "Tentacruel",
+        "levels": "35-40",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Feebas",
+        "levels": "10",
+        "rates": [
+          "85%"
+        ]
+      },
+      {
+        "name": "Tentacool",
+        "levels": "10",
+        "rates": [
+          "15%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Bruxish",
+        "levels": "20",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "name": "Tentacool",
+        "levels": "20",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Chinchou",
+        "levels": "20",
+        "rates": [
+          "7%"
+        ]
+      },
+      {
+        "name": "Shellder",
+        "levels": "20",
+        "rates": [
+          "3%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Bruxish",
+        "levels": "40",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "name": "Shellder",
+        "levels": "40",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Tentacruel",
+        "levels": "40",
+        "rates": [
+          "7%"
+        ]
+      },
+      {
+        "name": "Lanturn",
+        "levels": "40",
+        "rates": [
+          "3%"
+        ]
+      }
+    ]
+  }
+}

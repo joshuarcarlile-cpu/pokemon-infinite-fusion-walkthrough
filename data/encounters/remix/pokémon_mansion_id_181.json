@@ -1,0 +1,64 @@
+{
+  "location": "Pok\u00e9mon Mansion (ID 181)",
+  "map_id": 181,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Lampent",
+        "levels": "32-36",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Larvesta",
+        "levels": "30-32",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Houndoom",
+        "levels": "32-33",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Torkoal",
+        "levels": "32-35",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Tyrunt",
+        "levels": "32",
+        "rates": [
+          "14%"
+        ]
+      },
+      {
+        "name": "Klang",
+        "levels": "28-30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Klefki",
+        "levels": "32",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Chimchar",
+        "levels": "30-34",
+        "rates": [
+          "1%"
+        ]
+      }
+    ]
+  }
+}

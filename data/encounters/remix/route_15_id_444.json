@@ -1,0 +1,285 @@
+{
+  "location": "Route 15 (ID 444)",
+  "map_id": 444,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Pyukumuku",
+        "levels": "20-25",
+        "rates": [
+          "20%",
+          "20% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Exeggcute",
+        "levels": "24-26",
+        "rates": [
+          "15%",
+          "15% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Hoppip",
+        "levels": "28-30",
+        "rates": [
+          "10%",
+          "10% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Skiploom",
+        "levels": "25-27",
+        "rates": [
+          "10%",
+          "10% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Wooper",
+        "levels": "22-26",
+        "rates": [
+          "10%",
+          "10% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Corsola",
+        "levels": "22-26",
+        "rates": [
+          "8%",
+          "8% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Delibird",
+        "levels": "22-26",
+        "rates": [
+          "5%",
+          "5% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Grimer",
+        "levels": "29",
+        "rates": [
+          "5%",
+          "5% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Phantump",
+        "levels": "26-28",
+        "rates": [
+          "5%",
+          "5% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Pumpkaboo",
+        "levels": "26-28",
+        "rates": [
+          "5%",
+          "5% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Slowpoke",
+        "levels": "20",
+        "rates": [
+          "4%",
+          "4% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Cacnea",
+        "levels": "30",
+        "rates": [
+          "2%",
+          "2% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Mudkip",
+        "levels": "28-30",
+        "rates": [
+          "1%",
+          "1% (LandMorning)",
+          "1% (LandNight)"
+        ]
+      },
+      {
+        "name": "Nincada",
+        "levels": "20-25",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Ariados",
+        "levels": "22-26",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Pyukumuku",
+        "levels": "24-26",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Murkrow",
+        "levels": "28-30",
+        "rates": [
+          "9%"
+        ]
+      },
+      {
+        "name": "Shuppet",
+        "levels": "25",
+        "rates": [
+          "9%"
+        ]
+      },
+      {
+        "name": "Hoppip",
+        "levels": "25-27",
+        "rates": [
+          "8%"
+        ]
+      },
+      {
+        "name": "Wooper",
+        "levels": "20",
+        "rates": [
+          "8%"
+        ]
+      },
+      {
+        "name": "Skiploom",
+        "levels": "29",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Psyduck",
+        "levels": "22-26",
+        "rates": [
+          "4%"
+        ]
+      },
+      {
+        "name": "Banette",
+        "levels": "30",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Gourgeist",
+        "levels": "28-30",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Trevenant",
+        "levels": "28-30",
+        "rates": [
+          "2%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Pyukumuku",
+        "levels": "25-32",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Carvanha",
+        "levels": "25-32",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Feebas",
+        "levels": "20-30",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Stunfisk",
+        "levels": "25-30",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "25-32",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Krabby",
+        "levels": "30",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Muk",
+        "levels": "32",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Rock Smash": [
+      {
+        "name": "Pinsir",
+        "levels": "29-30",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "27-28",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Graveler",
+        "levels": "28-30",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Forretress",
+        "levels": "27-28",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Shedinja",
+        "levels": "1-35",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

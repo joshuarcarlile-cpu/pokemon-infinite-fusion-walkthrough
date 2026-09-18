@@ -1,0 +1,360 @@
+{
+  "location": "Area 2 (ID 484)",
+  "map_id": 484,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Exeggcute",
+        "levels": "23-25",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Sudowoodo",
+        "levels": "24",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Vigoroth",
+        "levels": "24",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Doduo",
+        "levels": "26",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Nidorina",
+        "levels": "33",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Nidorino",
+        "levels": "33",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Ninjask",
+        "levels": "22",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Ferroseed",
+        "levels": "25",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Kecleon",
+        "levels": "32",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Kangaskhan",
+        "levels": "25",
+        "rates": [
+          "3%"
+        ]
+      },
+      {
+        "name": "Pinsir",
+        "levels": "28",
+        "rates": [
+          "1%"
+        ]
+      },
+      {
+        "name": "Scyther",
+        "levels": "28",
+        "rates": [
+          "1%"
+        ]
+      },
+      {
+        "name": "Sudowoodo",
+        "levels": "24-25",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Venonat",
+        "levels": "22",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Pinsir",
+        "levels": "23",
+        "rates": [
+          "14%",
+          "8% (LandNight)"
+        ]
+      },
+      {
+        "name": "Vigoroth",
+        "levels": "23",
+        "rates": [
+          "14%"
+        ]
+      },
+      {
+        "name": "Kecleon",
+        "levels": "25-30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Rhyhorn",
+        "levels": "25",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Ferroseed",
+        "levels": "30",
+        "rates": [
+          "6%"
+        ]
+      },
+      {
+        "name": "Nidorina",
+        "levels": "31",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Nidorino",
+        "levels": "31",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Chansey",
+        "levels": "23",
+        "rates": [
+          "1%"
+        ]
+      },
+      {
+        "name": "Shedinja",
+        "levels": "22",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Ninjask",
+        "levels": "28",
+        "rates": [
+          "18%"
+        ]
+      },
+      {
+        "name": "Ferroseed",
+        "levels": "22-28",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Persian",
+        "levels": "25",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Pyukumuku",
+        "levels": "20-30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Vigoroth",
+        "levels": "30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Lampent",
+        "levels": "25",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Scyther",
+        "levels": "23",
+        "rates": [
+          "4%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Stunfisk",
+        "levels": "5-40",
+        "rates": [
+          "50%"
+        ]
+      },
+      {
+        "name": "Staryu",
+        "levels": "20-25",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Mantine",
+        "levels": "30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Marill",
+        "levels": "20-25",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Feebas",
+        "levels": "5",
+        "rates": [
+          "39%"
+        ]
+      },
+      {
+        "name": "Carvanha",
+        "levels": "5",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Carvanha",
+        "levels": "5-15",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Krabby",
+        "levels": "5-15",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "5-15",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Dratini",
+        "levels": "15-35",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Krabby",
+        "levels": "15-35",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Sharpedo",
+        "levels": "15-25",
+        "rates": [
+          "16%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "15-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Dragonair",
+        "levels": "25-35",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Toxapex",
+        "levels": "35-45",
+        "rates": [
+          "2%"
+        ]
+      }
+    ]
+  }
+}

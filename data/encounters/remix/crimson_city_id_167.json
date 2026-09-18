@@ -1,0 +1,196 @@
+{
+  "location": "Crimson City (ID 167)",
+  "map_id": 167,
+  "sections": {
+    "Surf": [
+      {
+        "name": "Seel",
+        "levels": "20-35",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Bruxish",
+        "levels": "15-30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Goldeen",
+        "levels": "20-40",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Shellder",
+        "levels": "20-30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Tentacool",
+        "levels": "20-40",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Lanturn",
+        "levels": "35",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Octillery",
+        "levels": "30-35",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Psyduck",
+        "levels": "20-40",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Qwilfish",
+        "levels": "30-35",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Slowpoke",
+        "levels": "20-40",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Toxapex",
+        "levels": "30-34",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Carvanha",
+        "levels": "5",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "5",
+        "rates": [
+          "28%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Feebas",
+        "levels": "5",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Klefki",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "5-15",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Goldeen",
+        "levels": "5-15",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5-15",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Feebas",
+        "levels": "5-15",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "15-25",
+        "rates": [
+          "45%"
+        ]
+      },
+      {
+        "name": "Goldeen",
+        "levels": "20-30",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Psyduck",
+        "levels": "15-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Slowpoke",
+        "levels": "15-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Sharpedo",
+        "levels": "15-25",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

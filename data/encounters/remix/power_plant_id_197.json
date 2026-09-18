@@ -1,0 +1,57 @@
+{
+  "location": "Power Plant (ID 197)",
+  "map_id": 197,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Klink",
+        "levels": "11-13",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Elekid",
+        "levels": "10-12",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Magnemite",
+        "levels": "14",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Pichu",
+        "levels": "11-13",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "14",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Voltorb",
+        "levels": "14",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Luxio",
+        "levels": "13-15",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "location": "Cyberspace (ID 423)",
+  "map_id": 423,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Porygon",
+        "levels": "20",
+        "rates": [
+          "100%"
+        ]
+      }
+    ]
+  }
+}

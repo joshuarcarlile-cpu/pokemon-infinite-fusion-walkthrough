@@ -1,0 +1,50 @@
+{
+  "location": "Power Plant (ID 144)",
+  "map_id": 144,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Klink",
+        "levels": "32-35",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Luxio",
+        "levels": "32-35",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Stunfisk",
+        "levels": "32-36",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Magnemite",
+        "levels": "32-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Voltorb",
+        "levels": "32-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Jolteon",
+        "levels": "37-46",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

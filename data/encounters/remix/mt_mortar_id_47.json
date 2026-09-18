@@ -1,0 +1,128 @@
+{
+  "location": "b'Mt. Mortar' (ID 47)",
+  "map_id": 47,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Scrafty",
+        "levels": "42-45",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Krokorok",
+        "levels": "45",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Bibarel",
+        "levels": "43-45",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Gliscor",
+        "levels": "42-45",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Absol",
+        "levels": "43",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Aegislash",
+        "levels": "55",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Krookodile",
+        "levels": "55",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Azumarill",
+        "levels": "25-40",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "name": "Quagsire",
+        "levels": "30-45",
+        "rates": [
+          "40%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Feebas",
+        "levels": "10",
+        "rates": [
+          "95%"
+        ]
+      },
+      {
+        "name": "Qwilfish",
+        "levels": "10",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Bruxish",
+        "levels": "20",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "name": "Qwilfish",
+        "levels": "20",
+        "rates": [
+          "40%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Qwilfish",
+        "levels": "40",
+        "rates": [
+          "90%"
+        ]
+      },
+      {
+        "name": "Dhelmise",
+        "levels": "40",
+        "rates": [
+          "7%"
+        ]
+      },
+      {
+        "name": "Azumarill",
+        "levels": "40-70",
+        "rates": [
+          "3%"
+        ]
+      }
+    ]
+  }
+}

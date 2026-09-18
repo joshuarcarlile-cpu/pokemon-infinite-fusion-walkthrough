@@ -1,0 +1,43 @@
+{
+  "location": "Ice Cavern (ID 698)",
+  "map_id": 698,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Glalie",
+        "levels": "42",
+        "rates": [
+          "45%"
+        ]
+      },
+      {
+        "name": "Piloswine",
+        "levels": "44-46",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Sneasel",
+        "levels": "45-49",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Glaceon",
+        "levels": "45-49",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Froslass",
+        "levels": "50",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

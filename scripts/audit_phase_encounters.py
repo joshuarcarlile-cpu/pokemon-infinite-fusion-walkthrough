@@ -213,6 +213,66 @@ def get_canonical_species_for_phase(phase_name):
 
     return loc_slugs, allowed
 
+ENCOUNTERS_REMIX_DIR = os.path.join(DATA_DIR, "encounters", "remix")
+ROUTE_REMIX_FILES = glob.glob(os.path.join(ENCOUNTERS_REMIX_DIR, "*.json"))
+
+def get_canonical_species_for_phase_remix(phase_name):
+    loc_slugs = extract_locations_from_phase_name(phase_name)
+    allowed = set()
+
+    # 1. Wild Remix Encounters
+    for slug in loc_slugs:
+        for rf in ROUTE_REMIX_FILES:
+            bname = os.path.basename(rf).lower()
+            if slug in bname or (slug == "safari_zone" and "area_" in bname):
+                edata = load_json(rf)
+                for sec, mlist in edata.get("sections", {}).items():
+                    for m in mlist:
+                        mname = m.get("name")
+                        if mname:
+                            allowed.add(mname.strip())
+
+    # 2. Wiki Route Encounter Tables (remix-mode)
+    for slug in loc_slugs:
+        for wf in WIKI_FILES:
+            bname = os.path.basename(wf).lower()
+            if slug in bname:
+                wdata = load_json(wf)
+                raw = wdata.get("raw_wikitext", "")
+                if "remix-mode" in raw.lower():
+                    # Parse {{EncounterTable/Data|dex|Name|...}}
+                    for m in re.finditer(r'\{\{EncounterTable/Data\|\d+\|([^\|\}]+)', raw):
+                        allowed.add(m.group(1).strip())
+
+    # 3. Gifts & Purchases
+    for g in GIFTS_TRADES.get("gifts", []):
+        gloc = g.get("location", "").lower()
+        if any(slug.replace("_", " ") in gloc or slug in gloc for slug in loc_slugs):
+            pkm = g.get("pokemon", "").strip()
+            if "/" in pkm:
+                for part in pkm.split("/"): allowed.add(part.strip())
+            elif pkm:
+                allowed.add(pkm)
+
+    # 4. In-Game Trades
+    for tr in GIFTS_TRADES.get("trades", []):
+        tloc = tr.get("location", "").lower()
+        if any(slug.replace("_", " ") in tloc or slug in tloc for slug in loc_slugs):
+            for field in ["give", "receive"]:
+                pkm = tr.get(field, "").strip()
+                if "/" in pkm:
+                    for part in pkm.split("/"): allowed.add(part.strip())
+                elif pkm:
+                    allowed.add(pkm)
+
+    # Starters & key locations
+    if any("pallet" in s for s in loc_slugs):
+        allowed.update(["Bulbasaur", "Charmander", "Squirtle"])
+    if any("cerulean" in s for s in loc_slugs):
+        allowed.update(["Bulbasaur", "Charmander", "Squirtle"])
+
+    return loc_slugs, allowed
+
 def audit_phase_encounters(chapter_obj):
     errors = []
     routes = chapter_obj.get("routes", [])
@@ -248,6 +308,41 @@ def audit_phase_encounters(chapter_obj):
                         errors.append(
                             f"Location Violation: '{comp}' in phase '{r_name}' (section '{sec_name}') "
                             f"is NOT canonically obtainable at this location! (Matched slugs: {loc_slugs})"
+                        )
+
+    # If Remix routes are present, audit them against Remix ground truth (skip silently if absent)
+    routes_remix = chapter_obj.get("routes_remix", [])
+    for r in routes_remix:
+        r_name = r.get("name", "Unknown Phase")
+        encounters = r.get("encounters", {})
+        if not encounters:
+            continue
+
+        loc_slugs, allowed_species = get_canonical_species_for_phase_remix(r_name)
+        if not allowed_species:
+            continue
+
+        for sec_name, mon_list in encounters.items():
+            for mon in mon_list:
+                mname = mon.get("name", "").strip()
+                if not mname:
+                    continue
+
+                components = []
+                if " or " in mname:
+                    for option in mname.split(" or "):
+                        components.extend([c.strip() for c in option.split("/")])
+                elif "/" in mname:
+                    components.extend([c.strip() for c in mname.split("/")])
+                else:
+                    components.append(mname)
+
+                for comp in components:
+                    clean_comp = re.sub(r'[♀♂]', '', comp).strip()
+                    if comp not in allowed_species and clean_comp not in allowed_species:
+                        errors.append(
+                            f"Remix Location Violation: '{comp}' in phase '{r_name}' (section '{sec_name}') "
+                            f"is NOT canonically obtainable in Remix at this location! (Matched slugs: {loc_slugs})"
                         )
 
     return (len(errors) == 0), errors

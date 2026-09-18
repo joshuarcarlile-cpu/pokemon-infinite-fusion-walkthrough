@@ -1,0 +1,185 @@
+{
+  "location": "Route 30 (ID 262)",
+  "map_id": 262,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Talonflame",
+        "levels": "53",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Butterfree",
+        "levels": "50-52",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Vileplume",
+        "levels": "50",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Galvantula",
+        "levels": "55",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Ledian",
+        "levels": "54-55",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Sylveon",
+        "levels": "54-55",
+        "rates": [
+          "10%",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Noctowl",
+        "levels": "55",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Beedrill",
+        "levels": "50-52",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Bewear",
+        "levels": "50",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Ariados",
+        "levels": "55",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Shedinja",
+        "levels": "52",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Poliwag",
+        "levels": "15-30",
+        "rates": [
+          "50%"
+        ]
+      },
+      {
+        "name": "Bruxish",
+        "levels": "15-30",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Slowpoke",
+        "levels": "35",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Feebas",
+        "levels": "5",
+        "rates": [
+          "54%"
+        ]
+      },
+      {
+        "name": "Bruxish",
+        "levels": "5",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "10",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "20",
+        "rates": [
+          "45%"
+        ]
+      },
+      {
+        "name": "Bruxish",
+        "levels": "20-24",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Poliwhirl",
+        "levels": "20",
+        "rates": [
+          "15%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Cloyster",
+        "levels": "40",
+        "rates": [
+          "85%"
+        ]
+      },
+      {
+        "name": "Politoed",
+        "levels": "40",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Poliwrath",
+        "levels": "40",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

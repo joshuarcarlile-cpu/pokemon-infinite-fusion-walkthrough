@@ -1,0 +1,170 @@
+{
+  "location": "Ruins of Alph (ID 342)",
+  "map_id": 342,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Natu",
+        "levels": "28-44",
+        "rates": [
+          "90%"
+        ]
+      },
+      {
+        "name": "Smeargle",
+        "levels": "40-42",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Luvdisc",
+        "levels": "25-30",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Goldeen",
+        "levels": "25-35",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Marill",
+        "levels": "25-30",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Feebas",
+        "levels": "15-25",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Psyduck",
+        "levels": "25-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Slowpoke",
+        "levels": "25-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Quagsire",
+        "levels": "35",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Carvanha",
+        "levels": "5",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "5",
+        "rates": [
+          "39%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "5-15",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Marill",
+        "levels": "5-15",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Feebas",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Goldeen",
+        "levels": "35-40",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Dhelmise",
+        "levels": "35-40",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Marill",
+        "levels": "35-40",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Azumarill",
+        "levels": "35-40",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Quagsire",
+        "levels": "35-40",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Seaking",
+        "levels": "35-40",
+        "rates": [
+          "10%"
+        ]
+      }
+    ]
+  }
+}

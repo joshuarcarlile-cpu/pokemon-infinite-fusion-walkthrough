@@ -1,0 +1,240 @@
+{
+  "location": "Cerulean Cave (ID 322)",
+  "map_id": 322,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Golbat",
+        "levels": "56",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Dhelmise",
+        "levels": "56",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Galvantula",
+        "levels": "59",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Hypno",
+        "levels": "56",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Aggron",
+        "levels": "55",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Blissey",
+        "levels": "59",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Chandelure",
+        "levels": "55",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Ferrothorn",
+        "levels": "59",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Golem",
+        "levels": "55",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Golurk",
+        "levels": "52",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Volcarona",
+        "levels": "52",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Zoroark",
+        "levels": "52",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Lucario",
+        "levels": "59",
+        "rates": [
+          "4%"
+        ]
+      },
+      {
+        "name": "Raichu",
+        "levels": "53",
+        "rates": [
+          "4%"
+        ]
+      },
+      {
+        "name": "Alakazam",
+        "levels": "50",
+        "rates": [
+          "1%"
+        ]
+      },
+      {
+        "name": "Ditto",
+        "levels": "53-55",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Toxapex",
+        "levels": "54-57",
+        "rates": [
+          "50%"
+        ]
+      },
+      {
+        "name": "Sharpedo",
+        "levels": "54-58",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Bruxish",
+        "levels": "52-55",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Carvanha",
+        "levels": "5",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Feebas",
+        "levels": "5",
+        "rates": [
+          "39%"
+        ]
+      },
+      {
+        "name": "Shellder",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "5-15",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5-15",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Shellder",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "15-35",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Shellder",
+        "levels": "15-35",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Sharpedo",
+        "levels": "15-25",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Dratini",
+        "levels": "25-35",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Octillery",
+        "levels": "25-35",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Dragonite",
+        "levels": "55-65",
+        "rates": [
+          "1%"
+        ]
+      }
+    ]
+  }
+}

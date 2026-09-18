@@ -1,0 +1,51 @@
+{
+  "name": "Route 22",
+  "summary": "West of Viridian City, leading toward the Pokémon League reception gate. Critical early catching route for Ground, Rock, and Ghost lines, plus an optional early Rival battle.",
+  "items": [
+    {
+      "name": "Potion",
+      "method": "Hidden in the rock wall near the eastern gate",
+      "type": "Consumable"
+    }
+  ],
+  "trainers": [
+    {
+      "name": "Rival Blue (Optional Battle)",
+      "team": [
+        {
+          "species": "Shinx",
+          "level": 6,
+          "moves": ["Tackle", "Leer"]
+        },
+        {
+          "species": "Duskull",
+          "level": 6,
+          "moves": ["Night Shade", "Leer"]
+        },
+        {
+          "species": "Dratini/Dratini",
+          "level": 9,
+          "moves": ["Wrap", "Leer", "Thunder Wave", "Twister"]
+        }
+      ],
+      "reward": "315 Pokedollars",
+      "strategy": "Blue fields a 3-mon roster in Remix! Lead with Phanpy or your starter. Phanpy easily tanks Shinx and trades with Duskull. Against Dratini/Dratini (Lv. 9), avoid prolonged paralysis stalls from Thunder Wave."
+    }
+  ],
+  "encounters": {
+    "Grass": [
+      {"name": "Rockruff", "levels": "2-4", "rates": "15% All Times"},
+      {"name": "Slugma", "levels": "2-5", "rates": "15% Day / 10% Night"},
+      {"name": "Bonsly", "levels": "3-5", "rates": "10% Day"},
+      {"name": "Mime Jr.", "levels": "3-5", "rates": "10% Day"},
+      {"name": "Nidoran", "levels": "3-5", "rates": "10% All Times"},
+      {"name": "Phanpy", "levels": "3-5", "rates": "10% Day / Night"},
+      {"name": "Spearow", "levels": "2-4", "rates": "10% Day"},
+      {"name": "Teddiursa", "levels": "2-5", "rates": "10% Day / Night"},
+      {"name": "Duskull", "levels": "3-5", "rates": "15% Night"},
+      {"name": "Phantump", "levels": "3-5", "rates": "10% Night"},
+      {"name": "Pumpkaboo", "levels": "3-5", "rates": "10% Night"}
+    ]
+  },
+  "navigation_notes": "Catch Phanpy and Slugma before triggering the Rival Blue battle. ⚠️ PERMANENTLY MISSABLE ALERT: Defeating Blue here is the ONLY trigger that unlocks the Secret Garden! You MUST defeat Blue before challenging Brock. If you defeat Brock first, Blue leaves Route 22 permanently and the Secret Garden is locked forever!"
+}

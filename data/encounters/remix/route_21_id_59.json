@@ -1,0 +1,252 @@
+{
+  "location": "Route 21 (ID 59)",
+  "map_id": 59,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Lombre",
+        "levels": "20-31",
+        "rates": [
+          "20%",
+          "20% (LandMorning)",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Oricorio",
+        "levels": "20-30",
+        "rates": [
+          "20%",
+          "20% (LandMorning)",
+          "15% (LandNight)"
+        ]
+      },
+      {
+        "name": "Whimsicott",
+        "levels": "20-30",
+        "rates": [
+          "19%",
+          "19% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Stufful",
+        "levels": "18-25",
+        "rates": [
+          "15%",
+          "15% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Tangela",
+        "levels": "28",
+        "rates": [
+          "10%",
+          "10% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Torkoal",
+        "levels": "25-32",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Mr. Mime",
+        "levels": "28",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Turtwig",
+        "levels": "30-34",
+        "rates": [
+          "1%",
+          "1% (LandMorning)",
+          "1% (LandNight)"
+        ]
+      },
+      {
+        "name": "Torkoal",
+        "levels": "15-32",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Duosion",
+        "levels": "20-30",
+        "rates": [
+          "29%"
+        ]
+      },
+      {
+        "name": "Whirlipede",
+        "levels": "18-25",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Golbat",
+        "levels": "15-32",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Bewear",
+        "levels": "30-40",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Corsola",
+        "levels": "5-40",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Sharpedo",
+        "levels": "35-39",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "5-30",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Goldeen",
+        "levels": "20-25",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Octillery",
+        "levels": "30",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Feebas",
+        "levels": "5",
+        "rates": [
+          "39%"
+        ]
+      },
+      {
+        "name": "Carvanha",
+        "levels": "5",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "5",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "5-15",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Krabby",
+        "levels": "5-15",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Carvanha",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "5-15",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "15-35",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Remoraid",
+        "levels": "15-35",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Milotic",
+        "levels": "15-25",
+        "rates": [
+          "16%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "15-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Corsola",
+        "levels": "25-35",
+        "rates": [
+          "4%"
+        ]
+      }
+    ]
+  }
+}

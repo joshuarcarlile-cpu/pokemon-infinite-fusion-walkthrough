@@ -1,0 +1,122 @@
+{
+  "location": "Mt. Moon B1F (ID 103)",
+  "map_id": 103,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Aron",
+        "levels": "9-10",
+        "rates": [
+          "21%"
+        ]
+      },
+      {
+        "name": "Cleffa",
+        "levels": "8-11",
+        "rates": [
+          "19%"
+        ]
+      },
+      {
+        "name": "Bonsly",
+        "levels": "10-12",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Carbink",
+        "levels": "6-11",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Gastly",
+        "levels": "6-10",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Swinub",
+        "levels": "6-9",
+        "rates": [
+          "9%"
+        ]
+      },
+      {
+        "name": "Dunsparce",
+        "levels": "12",
+        "rates": [
+          "8%"
+        ]
+      },
+      {
+        "name": "Rattata",
+        "levels": "7-10",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Clefairy",
+        "levels": "9-13",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Onix",
+        "levels": "10",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Rock Smash": [
+      {
+        "name": "Nosepass",
+        "levels": "9-10",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Geodude",
+        "levels": "7",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Minior",
+        "levels": "7-8",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Ferroseed",
+        "levels": "7-8",
+        "rates": [
+          "19%"
+        ]
+      },
+      {
+        "name": "Onix",
+        "levels": "7-8",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "7-8",
+        "rates": [
+          "1%"
+        ]
+      }
+    ]
+  }
+}

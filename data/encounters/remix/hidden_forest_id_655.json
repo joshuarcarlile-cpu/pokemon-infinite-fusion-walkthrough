@@ -1,0 +1,120 @@
+{
+  "location": "Hidden Forest (ID 655)",
+  "map_id": 655,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Stantler",
+        "levels": "20-22",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Eevee",
+        "levels": "15-19",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Pidgeotto",
+        "levels": "26-34",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Pikachu",
+        "levels": "24-29",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Pineco",
+        "levels": "31",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Beedrill",
+        "levels": "31",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Butterfree",
+        "levels": "31",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Riolu",
+        "levels": "15-18",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Zorua",
+        "levels": "25",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Oddish",
+        "levels": "20-22",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Murkrow",
+        "levels": "26-34",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Noctowl",
+        "levels": "26-34",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Gourgeist",
+        "levels": "24-29",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Trevenant",
+        "levels": "24-29",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Venomoth",
+        "levels": "31",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Zoroark",
+        "levels": "25",
+        "rates": [
+          "10%"
+        ]
+      }
+    ]
+  }
+}

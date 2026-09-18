@@ -1,0 +1,235 @@
+{
+  "location": "b'Route 22' (ID 171)",
+  "map_id": 171,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Rockruff",
+        "levels": "2-4",
+        "rates": [
+          "15%",
+          "15% (LandDay)",
+          "15% (LandNight)"
+        ]
+      },
+      {
+        "name": "Slugma",
+        "levels": "2-5",
+        "rates": [
+          "15%",
+          "15% (LandDay)",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Bonsly",
+        "levels": "3-5",
+        "rates": [
+          "10%",
+          "10% (LandDay)"
+        ]
+      },
+      {
+        "name": "Mime Jr.",
+        "levels": "3-5",
+        "rates": [
+          "10%",
+          "10% (LandDay)"
+        ]
+      },
+      {
+        "name": "Nidoran",
+        "levels": "3-5",
+        "rates": [
+          "10%",
+          "10% (LandMorning)",
+          "10% (LandDay)",
+          "10% (LandDay)",
+          "10% (LandNight)",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Phanpy",
+        "levels": "3-5",
+        "rates": [
+          "10%",
+          "10% (LandDay)",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Spearow",
+        "levels": "2-4",
+        "rates": [
+          "10%",
+          "10% (LandDay)"
+        ]
+      },
+      {
+        "name": "Teddiursa",
+        "levels": "2-5",
+        "rates": [
+          "10%",
+          "10% (LandDay)",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Duskull",
+        "levels": "3-5",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Phantump",
+        "levels": "3-5",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Pumpkaboo",
+        "levels": "3-5",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Golduck",
+        "levels": "30-40",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Mantyke",
+        "levels": "20-40",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "20-40",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Wailmer",
+        "levels": "20-40",
+        "rates": [
+          "25%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Feebas",
+        "levels": "5",
+        "rates": [
+          "39%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Wooper",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Carvanha",
+        "levels": "5",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Carvanha",
+        "levels": "5-15",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5-15",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Bruxish",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Dhelmise",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Chinchou",
+        "levels": "15-25",
+        "rates": [
+          "45%"
+        ]
+      },
+      {
+        "name": "Dhelmise",
+        "levels": "20-30",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "15-25",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Sharpedo",
+        "levels": "15-35",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Wailmer",
+        "levels": "15-35",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

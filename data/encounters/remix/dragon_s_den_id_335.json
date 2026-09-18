@@ -1,0 +1,140 @@
+{
+  "location": "Dragon's Den (ID 335)",
+  "map_id": 335,
+  "sections": {
+    "Surf": [
+      {
+        "name": "Seadra",
+        "levels": "30-45",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Magikarp",
+        "levels": "20-50",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Dratini",
+        "levels": "10",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "20-40",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Magikarp",
+        "levels": "20-50",
+        "rates": [
+          "50%"
+        ]
+      },
+      {
+        "name": "Seadra",
+        "levels": "30-45",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "10-50",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Magikarp",
+        "levels": "30-70",
+        "rates": [
+          "50%"
+        ]
+      },
+      {
+        "name": "Seadra",
+        "levels": "30-60",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "20-60",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Magikarp",
+        "levels": "45-80",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Dratini",
+        "levels": "20",
+        "rates": [
+          "24%"
+        ]
+      },
+      {
+        "name": "Seadra",
+        "levels": "20-70",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Cloyster",
+        "levels": "40-60",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Dewgong",
+        "levels": "40-60",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "50-60",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Dragonair",
+        "levels": "45",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Kingdra",
+        "levels": "50",
+        "rates": [
+          "1%"
+        ]
+      }
+    ]
+  }
+}

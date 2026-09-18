@@ -1,0 +1,177 @@
+{
+  "location": "Pallet Town (ID 42)",
+  "map_id": 42,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Bulbasaur",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Charmander",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Squirtle",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Charmeleon",
+        "levels": "10",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Ivysaur",
+        "levels": "10",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Wartortle",
+        "levels": "10",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Blastoise",
+        "levels": "15",
+        "rates": [
+          "3%"
+        ]
+      },
+      {
+        "name": "Charizard",
+        "levels": "15",
+        "rates": [
+          "3%"
+        ]
+      },
+      {
+        "name": "Venusaur",
+        "levels": "15",
+        "rates": [
+          "3%"
+        ]
+      },
+      {
+        "name": "Mew",
+        "levels": "1",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Feebas",
+        "levels": "2-5",
+        "rates": [
+          "65%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "2-3",
+        "rates": [
+          "35%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Carvanha",
+        "levels": "5",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Feebas",
+        "levels": "5",
+        "rates": [
+          "38%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Klefki",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Poliwag",
+        "levels": "5-15",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "name": "Feebas",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Goldeen",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Poliwhirl",
+        "levels": "20-30",
+        "rates": [
+          "70%"
+        ]
+      },
+      {
+        "name": "Psyduck",
+        "levels": "15-35",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Slowpoke",
+        "levels": "15-35",
+        "rates": [
+          "15%"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "location": "Route 26 (ID 145)",
+  "map_id": 145,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Mr. Mime",
+        "levels": "40-44",
+        "rates": [
+          "25%",
+          "25% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Sudowoodo",
+        "levels": "32-34",
+        "rates": [
+          "25%",
+          "25% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Forretress",
+        "levels": "32-34",
+        "rates": [
+          "15%",
+          "15% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Banette",
+        "levels": "32-34",
+        "rates": [
+          "10%",
+          "10% (LandMorning)",
+          "20% (LandNight)"
+        ]
+      },
+      {
+        "name": "Dusclops",
+        "levels": "32-34",
+        "rates": [
+          "10%",
+          "10% (LandMorning)",
+          "20% (LandNight)"
+        ]
+      },
+      {
+        "name": "Donphan",
+        "levels": "44",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Luxray",
+        "levels": "42",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Ursaring",
+        "levels": "44",
+        "rates": [
+          "5%",
+          "5% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Bewear",
+        "levels": "32-34",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Carbink",
+        "levels": "32-34",
+        "rates": [
+          "15%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Azumarill",
+        "levels": "40-45",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "20-40",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Octillery",
+        "levels": "20-40",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Wailord",
+        "levels": "20-40",
+        "rates": [
+          "25%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Remoraid",
+        "levels": "5",
+        "rates": [
+          "69%"
+        ]
+      },
+      {
+        "name": "Wooper",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Chinchou",
+        "levels": "5-15",
+        "rates": [
+          "50%"
+        ]
+      },
+      {
+        "name": "Dhelmise",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Wooper",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5-15",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Octillery",
+        "levels": "35-45",
+        "rates": [
+          "45%"
+        ]
+      },
+      {
+        "name": "Lanturn",
+        "levels": "20-30",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Dhelmise",
+        "levels": "15-25",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Milotic",
+        "levels": "15-35",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Wailord",
+        "levels": "15-35",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

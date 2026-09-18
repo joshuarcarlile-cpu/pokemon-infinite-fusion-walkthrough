@@ -1,0 +1,275 @@
+{
+  "location": "Kindle Road (ID 559)",
+  "map_id": 559,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Cacnea",
+        "levels": "31-34",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Nosepass",
+        "levels": "31",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Doduo",
+        "levels": "36",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Gloom",
+        "levels": "31",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Weepinbell",
+        "levels": "31",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Sandygast",
+        "levels": "30-32",
+        "rates": [
+          "9%"
+        ]
+      },
+      {
+        "name": "Cacturne",
+        "levels": "34-40",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Granbull",
+        "levels": "37-40",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Scraggy",
+        "levels": "37-40",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Chespin",
+        "levels": "15-17",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Corsola",
+        "levels": "5-40",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "20-40",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Quagsire",
+        "levels": "30-40",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Wailmer",
+        "levels": "20-35",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Pyukumuku",
+        "levels": "5-40",
+        "rates": [
+          "14%"
+        ]
+      },
+      {
+        "name": "Tentacruel",
+        "levels": "35-40",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Froakie",
+        "levels": "15-17",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Luvdisc",
+        "levels": "10",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Goldeen",
+        "levels": "10",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Wimpod",
+        "levels": "10",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Pyukumuku",
+        "levels": "10",
+        "rates": [
+          "9%"
+        ]
+      },
+      {
+        "name": "Anorith",
+        "levels": "10",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Kabuto",
+        "levels": "10",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Lileep",
+        "levels": "10",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Omanyte",
+        "levels": "10",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Froakie",
+        "levels": "10",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Goldeen",
+        "levels": "20",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Dhelmise",
+        "levels": "20",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "20",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Chinchou",
+        "levels": "20",
+        "rates": [
+          "6%"
+        ]
+      },
+      {
+        "name": "Shellder",
+        "levels": "20",
+        "rates": [
+          "3%"
+        ]
+      },
+      {
+        "name": "Froakie",
+        "levels": "20",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "40",
+        "rates": [
+          "60%"
+        ]
+      },
+      {
+        "name": "Shellder",
+        "levels": "40",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Tentacruel",
+        "levels": "40",
+        "rates": [
+          "6%"
+        ]
+      },
+      {
+        "name": "Lanturn",
+        "levels": "40",
+        "rates": [
+          "3%"
+        ]
+      },
+      {
+        "name": "Froakie",
+        "levels": "1-50",
+        "rates": [
+          "1%"
+        ]
+      }
+    ]
+  }
+}

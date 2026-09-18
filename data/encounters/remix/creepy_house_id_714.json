@@ -1,0 +1,36 @@
+{
+  "location": "Creepy House (ID 714)",
+  "map_id": 714,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Litwick",
+        "levels": "24-26",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Shuppet",
+        "levels": "22-24",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Sableye",
+        "levels": "22-29",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Dusclops",
+        "levels": "25-30",
+        "rates": [
+          "10%"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "location": "Mt. Silver (ID 782)",
+  "map_id": 782,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Lapras",
+        "levels": "58-61",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Lucario",
+        "levels": "58-62",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Crobat",
+        "levels": "58-60",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Alakazam",
+        "levels": "60-62",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Altaria",
+        "levels": "58-62",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Ditto",
+        "levels": "57-59",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Gengar",
+        "levels": "60-62",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Aurorus",
+        "levels": "63-66",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

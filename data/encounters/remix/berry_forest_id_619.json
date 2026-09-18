@@ -1,0 +1,87 @@
+{
+  "location": "Berry Forest (ID 619)",
+  "map_id": 619,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Munchlax",
+        "levels": "44",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Clefable",
+        "levels": "45",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Tangrowth",
+        "levels": "44",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Venonat",
+        "levels": "44",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Exeggcute",
+        "levels": "45",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Scolipede",
+        "levels": "47",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Stantler",
+        "levels": "50",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Snorlax",
+        "levels": "47-55",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Pyukumuku",
+        "levels": "10-40",
+        "rates": [
+          "50%"
+        ]
+      },
+      {
+        "name": "Golduck",
+        "levels": "50-60",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "10-50",
+        "rates": [
+          "25%"
+        ]
+      }
+    ]
+  }
+}

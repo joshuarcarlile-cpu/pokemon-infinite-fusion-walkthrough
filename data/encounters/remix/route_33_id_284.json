@@ -1,0 +1,85 @@
+{
+  "location": "Route 33 (ID 284)",
+  "map_id": 284,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Bibarel",
+        "levels": "43",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Skiploom",
+        "levels": "40-42",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Klefki",
+        "levels": "40-43",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Mimikyu",
+        "levels": "40-44",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Jumpluff",
+        "levels": "45",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Bewear",
+        "levels": "43",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Mimikyu",
+        "levels": "45",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Murkrow",
+        "levels": "40",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Gliscor",
+        "levels": "44",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Honchkrow",
+        "levels": "42-44",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Mismagius",
+        "levels": "42-44",
+        "rates": [
+          "10%"
+        ]
+      }
+    ]
+  }
+}

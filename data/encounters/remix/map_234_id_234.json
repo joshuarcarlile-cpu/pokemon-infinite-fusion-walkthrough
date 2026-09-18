@@ -1,0 +1,50 @@
+{
+  "location": "Map 234 (ID 234)",
+  "map_id": 234,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Zweilous",
+        "levels": "25-32",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Machoke",
+        "levels": "25-27",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Dunsparce",
+        "levels": "20-25",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Scraggy",
+        "levels": "25",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Wobbuffet",
+        "levels": "25-30",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Gligar",
+        "levels": "30",
+        "rates": [
+          "10%"
+        ]
+      }
+    ]
+  }
+}

@@ -155,6 +155,70 @@
     background: var(--bg-card-hover);
   }
 
+  /* Mode Switcher & Local Overrides */
+  .mode-switcher {
+    display: inline-flex;
+    background: rgba(15, 23, 42, 0.85);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 2px;
+    gap: 2px;
+  }
+  .mode-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    padding: 0.35rem 0.65rem;
+    font-size: 0.78rem;
+    font-weight: 700;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.15s;
+    font-family: var(--font-sans);
+  }
+  .mode-btn:hover { color: var(--text-primary); }
+  .mode-btn.active {
+    background: var(--bg-card-hover);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  }
+  .mode-btn.classic.active {
+    color: var(--text-accent);
+    border-bottom: 2px solid var(--text-accent);
+  }
+  .mode-btn.remix.active {
+    color: #f43f5e;
+    border-bottom: 2px solid #f43f5e;
+  }
+  .local-mode-toggle {
+    display: inline-flex;
+    align-items: center;
+    background: rgba(15, 23, 42, 0.75);
+    border: 1px solid var(--border-color);
+    border-radius: 9999px;
+    padding: 2px;
+    gap: 2px;
+  }
+  .local-mode-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    padding: 0.2rem 0.55rem;
+    font-size: 0.72rem;
+    font-weight: 700;
+    border-radius: 9999px;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .local-mode-btn:hover { color: var(--text-primary); }
+  .local-mode-btn.active {
+    background: rgba(56, 189, 248, 0.2);
+    color: var(--text-accent);
+  }
+  .local-mode-btn.remix.active {
+    background: rgba(244, 63, 94, 0.2);
+    color: #fda4af;
+  }
+
   /* App Layout */
   .app-container {
     display: flex;
@@ -1751,6 +1815,10 @@
   </div>
 
   <div class="header-controls">
+    <div class="mode-switcher" id="global-mode-switcher" title="Toggle Campaign Difficulty & Encounter Mode (R)">
+      <button class="mode-btn classic active" id="mode-btn-classic" onclick="setGlobalMode('classic')">🏛️ Classic</button>
+      <button class="mode-btn remix" id="mode-btn-remix" onclick="setGlobalMode('remix')">⚡ Hard Remix</button>
+    </div>
     <input type="text" id="global-search" class="search-input" placeholder="Search Pokémon, TM, Route... (/)" oninput="onSearch(this.value)">
     <button class="action-btn" onclick="toggleCheatSheet()" title="Campaign Speedrun Cheat Sheet (C)" style="background: rgba(168, 85, 247, 0.18); border-color: rgba(168, 85, 247, 0.45); color: #d8b4fe;"><span style="margin-right:3px;">📋</span> Cheat Sheet</button>
     <button class="action-btn" onclick="openDrawer('team')" title="Custom Team Builder & Coverage (T)"><span style="margin-right:3px;">⚔️</span> My Team</button>
@@ -1906,6 +1974,48 @@ let currentDrawerTab = "party";
 let activeStarterTrack = "bulbasaur";
 let isDrawerPinned = localStorage.getItem("pif_drawer_pinned") === "true";
 
+let currentMode = localStorage.getItem("pif_mode") || "classic";
+let localRouteModeOverride = null;
+let localBossModeOverride = null;
+let localTeamModeOverride = null;
+
+function setGlobalMode(mode) {
+  currentMode = mode;
+  localStorage.setItem("pif_mode", mode);
+  localRouteModeOverride = null;
+  localBossModeOverride = null;
+  localTeamModeOverride = null;
+  updateModeSwitcherUI();
+  renderSidebar();
+  renderChapter();
+  updateChapterHud();
+  if (isDrawerPinned || (document.getElementById("drawer-overlay") && document.getElementById("drawer-overlay").classList.contains("open"))) {
+    renderDrawerParty();
+  }
+}
+
+function updateModeSwitcherUI() {
+  const btnClassic = document.getElementById("mode-btn-classic");
+  const btnRemix = document.getElementById("mode-btn-remix");
+  if (btnClassic) btnClassic.classList.toggle("active", currentMode === "classic");
+  if (btnRemix) btnRemix.classList.toggle("active", currentMode === "remix");
+}
+
+function setLocalRouteMode(mode) {
+  localRouteModeOverride = mode;
+  renderChapter();
+}
+
+function setLocalBossMode(mode) {
+  localBossModeOverride = mode;
+  renderChapter();
+}
+
+function setLocalTeamMode(mode) {
+  localTeamModeOverride = mode;
+  renderDrawerParty();
+}
+
 function getChecklistState(key) {
   try {
     const saved = localStorage.getItem("pif_checklist_" + key);
@@ -1983,11 +2093,16 @@ function renderSidebar() {
     item.className = "chapter-nav-item" + (idx === currentChapterIndex ? " active" : "");
     item.onclick = () => selectChapter(idx);
     
-    const routesSummary = ch.routes ? ch.routes.map(r => r.name).join(", ") : "";
+    const hasRemix = Boolean(ch.routes_remix || ch.boss_strategy_remix || ch.teams_remix);
+    const routesList = (currentMode === "remix" && ch.routes_remix && ch.routes_remix.length > 0) ? ch.routes_remix : (ch.routes || []);
+    const routesSummary = routesList.map(r => r.name).join(", ");
     item.innerHTML = `
       <div class="nav-header-row">
         <span class="nav-chapter-title">${ch.title}</span>
-        <span class="nav-cap-pill">Cap Lv. ${ch.hard_mode_level_cap}</span>
+        <div style="display: flex; gap: 0.25rem; align-items: center;">
+          ${(currentMode === "remix" && hasRemix) ? `<span class="badge-tag" style="font-size: 0.65rem; padding: 0.1rem 0.35rem; background: rgba(244, 63, 94, 0.2); border-color: rgba(244, 63, 94, 0.4); color: #fda4af;">⚡ REMIX</span>` : ''}
+          <span class="nav-cap-pill">Cap Lv. ${ch.hard_mode_level_cap}</span>
+        </div>
       </div>
       <div class="nav-routes-sub">${routesSummary}</div>
     `;
@@ -2090,29 +2205,37 @@ function updateChapterHud() {
   const ch = actChapters[currentChapterIndex];
   if (!ch) return;
 
+  const effectiveRouteMode = localRouteModeOverride || currentMode;
+  const hasRemixRoutes = Boolean(ch.routes_remix && ch.routes_remix.length > 0);
+  const activeRoutes = (effectiveRouteMode === "remix" && hasRemixRoutes) ? ch.routes_remix : (ch.routes || []);
+
   // Items
   let totalItems = 0;
   let doneItems = 0;
-  (ch.routes || []).forEach((r, rIdx) => {
+  activeRoutes.forEach((r, rIdx) => {
     (r.items || []).forEach((it, itIdx) => {
       totalItems++;
-      if (getChecklistState(`${ch.chapter_id}_r${rIdx}_it${itIdx}`)) doneItems++;
+      const itemKey = `${ch.chapter_id}_${effectiveRouteMode}_r${rIdx}_it${itIdx}`;
+      const legacyKey = `${ch.chapter_id}_r${rIdx}_it${itIdx}`;
+      if (getChecklistState(itemKey) || getChecklistState(legacyKey)) doneItems++;
     });
   });
 
   // Trainers
   let totalTrainers = 0;
   let doneTrainers = 0;
-  (ch.routes || []).forEach((r, rIdx) => {
+  activeRoutes.forEach((r, rIdx) => {
     (r.trainers || []).forEach((tr, trIdx) => {
       totalTrainers++;
-      if (getChecklistState(`${ch.chapter_id}_r${rIdx}_tr${trIdx}`)) doneTrainers++;
+      const trKey = `${ch.chapter_id}_${effectiveRouteMode}_r${rIdx}_tr${trIdx}`;
+      const legacyTrKey = `${ch.chapter_id}_r${rIdx}_tr${trIdx}`;
+      if (getChecklistState(trKey) || getChecklistState(legacyTrKey)) doneTrainers++;
     });
   });
 
   // Catches (unique species in chapter)
   const chapterSpecies = new Set();
-  (ch.routes || []).forEach(r => {
+  activeRoutes.forEach(r => {
     for (const monList of Object.values(r.encounters || {})) {
       monList.forEach(m => {
         const monKey = m.dex_id ? String(m.dex_id) : m.name.toLowerCase().replace(/\s+/g, '_');
@@ -2166,6 +2289,15 @@ function renderChapter() {
     vp.innerHTML = '<div style="padding: 2rem; color: var(--text-secondary);">Chapter not found.</div>';
     return;
   }
+
+  const effectiveRouteMode = localRouteModeOverride || currentMode;
+  const effectiveBossMode = localBossModeOverride || currentMode;
+  const hasRemixRoutes = Boolean(ch.routes_remix && ch.routes_remix.length > 0);
+  const hasRemixBoss = Boolean(ch.boss_strategy_remix);
+  const hasRemixTeams = Boolean(ch.teams_remix && Object.keys(ch.teams_remix).length > 0);
+
+  const activeRoutes = (effectiveRouteMode === "remix" && hasRemixRoutes) ? ch.routes_remix : (ch.routes || []);
+  const activeBoss = (effectiveBossMode === "remix" && hasRemixBoss) ? ch.boss_strategy_remix : (ch.boss_strategy || null);
   
   let missablesHtml = "";
   const masterQuestsList = (APP_DATA.master_quests && APP_DATA.master_quests.quests) || [];
@@ -2187,16 +2319,16 @@ function renderChapter() {
   }
   
   let routesHtml = "";
-  if (ch.routes) {
-    ch.routes.forEach((r, rIdx) => {
+  if (activeRoutes && activeRoutes.length > 0) {
+    activeRoutes.forEach((r, rIdx) => {
       let itemsHtml = "";
       if (r.items && r.items.length > 0) {
         itemsHtml = `
           <div class="checklist-card">
             <div class="checklist-title">🎒 Route Pickups & Key Items</div>
             ${r.items.map((it, itIdx) => {
-              const itemKey = `${ch.chapter_id}_r${rIdx}_it${itIdx}`;
-              const checked = getChecklistState(itemKey);
+              const itemKey = `${ch.chapter_id}_${effectiveRouteMode}_r${rIdx}_it${itIdx}`;
+              const checked = getChecklistState(itemKey) || getChecklistState(`${ch.chapter_id}_r${rIdx}_it${itIdx}`);
               return `
                 <label class="checklist-item ${checked ? 'done' : ''}" id="lbl_${itemKey}">
                   <input type="checkbox" ${checked ? 'checked' : ''} onchange="toggleChecklistItem('${itemKey}', this)">
@@ -2214,8 +2346,8 @@ function renderChapter() {
           <div class="checklist-card">
             <div class="checklist-title">⚔️ Route Trainers</div>
             ${r.trainers.map((tr, trIdx) => {
-              const trKey = `${ch.chapter_id}_r${rIdx}_tr${trIdx}`;
-              const checked = getChecklistState(trKey);
+              const trKey = `${ch.chapter_id}_${effectiveRouteMode}_r${rIdx}_tr${trIdx}`;
+              const checked = getChecklistState(trKey) || getChecklistState(`${ch.chapter_id}_r${rIdx}_tr${trIdx}`);
               const teamDesc = (tr.team || []).map(m => `${m.species} Lv. ${m.level}`).join(", ");
               return `
                 <label class="checklist-item ${checked ? 'done' : ''}" id="lbl_${trKey}">
@@ -2287,7 +2419,10 @@ function renderChapter() {
               <button class="route-collapse-btn" id="collapse-btn-${rIdx}" onclick="event.stopPropagation(); toggleRouteCollapse(${rIdx})">▼</button>
               <span class="route-title">📍 ${r.name}</span>
             </div>
-            <span class="badge-tag" style="font-size: 0.72rem;">Route ${rIdx + 1}</span>
+            <div style="display: flex; gap: 0.4rem; align-items: center;">
+              ${(effectiveRouteMode === 'remix' && hasRemixRoutes) ? `<span class="badge-tag" style="font-size: 0.7rem; background: rgba(244, 63, 94, 0.15); border-color: rgba(244, 63, 94, 0.35); color: #fda4af;">⚡ Remix Route</span>` : ''}
+              <span class="badge-tag" style="font-size: 0.72rem;">Route ${rIdx + 1}</span>
+            </div>
           </div>
           <div class="route-body" id="route-body-${rIdx}">
             <div class="route-summary">${r.summary || ''}</div>
@@ -2304,8 +2439,8 @@ function renderChapter() {
   }
   
   let bossHtml = "";
-  if (ch.boss_strategy) {
-    const b = ch.boss_strategy;
+  if (activeBoss) {
+    const b = activeBoss;
     const duelLimit = b.gym_duel_limit || ch.gym_duel_limit || 2;
     const cap = b.hard_mode_level_cap || b.level_cap || ch.hard_mode_level_cap || "";
     const isLeague = (b.leader && b.leader.toLowerCase().includes("champion")) || (ch.chapter_id === "ch09");
@@ -2340,6 +2475,24 @@ function renderChapter() {
       `;
     }
 
+    let gymTrainersHtml = "";
+    if (b.gym_trainers && b.gym_trainers.length > 0) {
+      gymTrainersHtml = `
+        <div style="font-weight: 700; font-size: 0.9rem; margin-top: 0.85rem; margin-bottom: 0.4rem; color: var(--accent-yellow);">⚔️ Gym Trainers:</div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 0.5rem; margin-bottom: 0.85rem;">
+          ${b.gym_trainers.map(gt => {
+            const teamStr = (gt.team || []).map(m => `${m.species} Lv.${m.level}`).join(", ");
+            return `
+              <div style="background: rgba(15, 23, 42, 0.6); border: 1px solid var(--border-color); border-radius: 6px; padding: 0.5rem 0.75rem;">
+                <b style="color: var(--text-primary); font-size: 0.86rem;">${gt.name}</b>
+                <div style="font-size: 0.78rem; color: var(--text-secondary); margin-top: 0.2rem;">${teamStr}</div>
+              </div>
+            `;
+          }).join("")}
+        </div>
+      `;
+    }
+
     let rosterHtml = "";
     if (roster.length > 0) {
       rosterHtml = `
@@ -2355,7 +2508,7 @@ function renderChapter() {
                 </div>
                 <div>${(m.types || []).map(t => `<span class="type-badge type-${t}">${t}</span>`).join(" ")}</div>
                 ${m.ability ? `<div style="font-size: 0.75rem; color: var(--text-secondary);">Ability: ${m.ability}</div>` : ''}
-                ${m.item ? `<div style="font-size: 0.75rem; color: var(--accent-yellow);">Item: ${m.item}</div>` : ''}
+                ${m.item || m.held_item ? `<div style="font-size: 0.75rem; color: var(--accent-yellow);">Item: ${m.item || m.held_item}</div>` : ''}
                 <div style="font-size: 0.75rem;">Moves: ${(m.moves || []).join(", ")}</div>
                 ${m.tactics ? `<div style="font-size: 0.74rem; color: var(--text-secondary); margin-top: 0.3rem; font-style: italic;">${m.tactics}</div>` : ''}
                 ${isAce ? `<div style="color: var(--accent-red); font-size: 0.75rem; font-weight: bold; margin-top: 0.25rem;">⭐ ${isLeague ? 'CHAMPION ACE' : 'GYM ACE'}</div>` : ''}
@@ -2413,7 +2566,15 @@ function renderChapter() {
             <div class="boss-name">${leaderTitle}</div>
             <div style="font-size: 0.8rem; color: var(--text-secondary);">${b.title || ""} ${b.badge || ch.badge_rewarded ? `• ${b.badge || ch.badge_rewarded}` : ''}</div>
           </div>
-          <div class="cap-banner">⛔ HARD MODE CAP: Lv. ${cap}</div>
+          <div style="display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
+            ${hasRemixBoss ? `
+              <div class="local-mode-toggle" onclick="event.stopPropagation()">
+                <button class="local-mode-btn ${effectiveBossMode === 'classic' ? 'active' : ''}" onclick="setLocalBossMode('classic')">🏛️ Classic</button>
+                <button class="local-mode-btn remix ${effectiveBossMode === 'remix' ? 'active' : ''}" onclick="setLocalBossMode('remix')">⚡ Remix</button>
+              </div>
+            ` : ''}
+            <div class="cap-banner">⛔ HARD MODE CAP: Lv. ${cap}</div>
+          </div>
         </div>
         <div class="duel-limit-banner">
           ${ruleBanner}
@@ -2421,6 +2582,7 @@ function renderChapter() {
         <div class="boss-body">
           ${overview ? `<div style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.5; margin-bottom: 0.75rem;">${overview}</div>` : ''}
           ${eliteFourHtml}
+          ${gymTrainersHtml}
           ${rosterHtml}
           ${stratHtml}
           ${rewardsHtml}
@@ -2452,10 +2614,10 @@ function renderChapter() {
   let subnavHtml = `
     <div class="chapter-subnav">
       <span class="subnav-label">Quick Jump:</span>
-      ${(ch.routes || []).map((r, rIdx) => `
+      ${activeRoutes.map((r, rIdx) => `
         <button class="subnav-pill" onclick="scrollToRoute(${rIdx})">📍 ${r.name.split('&')[0].trim()}</button>
       `).join("")}
-      ${ch.boss_strategy ? `<button class="subnav-pill boss" onclick="scrollToBoss()">${ch.boss_strategy.leader ? `⚔️ Gym Duel: ${ch.boss_strategy.leader}` : `🎖️ Act Finale`}</button>` : ''}
+      ${activeBoss ? `<button class="subnav-pill boss" onclick="scrollToBoss()">${activeBoss.leader ? `⚔️ Gym Duel: ${activeBoss.leader}` : `🎖️ Act Finale`}</button>` : ''}
     </div>
   `;
 
@@ -2477,9 +2639,27 @@ function renderChapter() {
     <div class="chapter-hero">
       <div class="hero-top-row">
         <div class="hero-title">${ch.title}</div>
-        <div class="cap-banner">⛔ HARD MODE CAP: Lv. ${ch.hard_mode_level_cap}</div>
+        <div style="display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
+          ${currentMode === "remix"
+            ? (hasRemixRoutes
+                ? `<span class="badge-tag" style="background: rgba(244, 63, 94, 0.18); border-color: rgba(244, 63, 94, 0.4); color: #fda4af; font-weight: 700;">⚡ HARD REMIX MODE</span>`
+                : `<span class="badge-tag" style="background: rgba(234, 179, 8, 0.15); border-color: rgba(234, 179, 8, 0.35); color: var(--accent-yellow); font-weight: 700;">⚡ REMIX BASELINE (CLASSIC FALLBACK)</span>`)
+            : `<span class="badge-tag" style="background: rgba(56, 189, 248, 0.15); border-color: rgba(56, 189, 248, 0.4); color: var(--text-accent); font-weight: 700;">🏛️ CLASSIC HARD MODE</span>`}
+          <div class="cap-banner">⛔ HARD MODE CAP: Lv. ${activeBoss && activeBoss.hard_mode_level_cap ? activeBoss.hard_mode_level_cap : ch.hard_mode_level_cap}</div>
+        </div>
       </div>
       ${ch.synopsis ? `<div class="hero-synopsis">${ch.synopsis}</div>` : ''}
+      ${hasRemixRoutes ? `
+        <div style="display: flex; justify-content: space-between; align-items: center; background: rgba(15, 23, 42, 0.65); border: 1px solid var(--border-color); border-radius: 8px; padding: 0.45rem 0.85rem; margin-top: 0.6rem; flex-wrap: wrap; gap: 0.5rem;">
+          <div style="font-size: 0.8rem; color: var(--text-secondary);">
+            <b>Active Encounter Table:</b> Showing ${effectiveRouteMode === 'remix' ? '<span style="color:#fda4af; font-weight:700;">⚡ Hard Remix Spawns & Trainers</span>' : '<span style="color:var(--text-accent); font-weight:700;">🏛️ Classic Spawns & Trainers</span>'}
+          </div>
+          <div class="local-mode-toggle">
+            <button class="local-mode-btn ${effectiveRouteMode === 'classic' ? 'active' : ''}" onclick="setLocalRouteMode('classic')">🏛️ Classic</button>
+            <button class="local-mode-btn remix ${effectiveRouteMode === 'remix' ? 'active' : ''}" onclick="setLocalRouteMode('remix')">⚡ Hard Remix</button>
+          </div>
+        </div>
+      ` : ''}
       ${starterHtml}
       
       <div class="filter-toolbar">
@@ -2568,12 +2748,15 @@ function renderCheatSheetTable() {
   if (!tbody || !APP_DATA || !APP_DATA.chapters) return;
   let rows = "";
   APP_DATA.chapters.forEach(ch => {
-    const boss = ch.boss || {};
-    const ace = (boss.roster && boss.roster.length > 0) ? boss.roster[boss.roster.length - 1] : null;
+    const boss = (currentMode === "remix" && ch.boss_strategy_remix) ? ch.boss_strategy_remix : (ch.boss_strategy || ch.boss || {});
+    const ace = (boss.leader_team && boss.leader_team.length > 0)
+      ? (boss.leader_team.find(m => m.is_ace) || boss.leader_team[boss.leader_team.length - 1])
+      : ((boss.roster && boss.roster.length > 0) ? boss.roster[boss.roster.length - 1] : null);
     const aceStr = ace ? `<span style="color: var(--text-primary); font-weight: 600;">${ace.species}</span> <span style="color: var(--text-secondary); font-size: 0.75rem;">(${(ace.types || []).join('/')} Lv.${ace.level})</span>` : "—";
     
     const tools = [];
-    (ch.routes || []).forEach(r => {
+    const routesList = (currentMode === "remix" && ch.routes_remix && ch.routes_remix.length > 0) ? ch.routes_remix : (ch.routes || []);
+    routesList.forEach(r => {
       (r.items || []).forEach(it => {
         if (it.type && (it.type.includes("HM") || it.type.includes("Tool") || it.type.includes("Key"))) {
           tools.push(it.name);
@@ -2586,8 +2769,8 @@ function renderCheatSheetTable() {
       <tr>
         <td><span class="badge-tag" style="font-size: 0.72rem;">Act ${ch.act}</span> <b style="font-family: var(--font-mono); font-size: 0.78rem;">${(ch.chapter_id || '').toUpperCase()}</b></td>
         <td><b>${ch.title}</b></td>
-        <td><span class="nav-cap-pill" style="font-size: 0.75rem;">Cap ${ch.hard_mode_level_cap}</span></td>
-        <td style="text-align: center; font-family: var(--font-mono); font-weight: 700;">${ch.gym_duel_limit ? ch.gym_duel_limit + 'v' + ch.gym_duel_limit : '6v6'}</td>
+        <td><span class="nav-cap-pill" style="font-size: 0.75rem;">Cap ${boss.hard_mode_level_cap || ch.hard_mode_level_cap}</span></td>
+        <td style="text-align: center; font-family: var(--font-mono); font-weight: 700;">${(boss.gym_duel_limit || ch.gym_duel_limit) ? (boss.gym_duel_limit || ch.gym_duel_limit) + 'v' + (boss.gym_duel_limit || ch.gym_duel_limit) : '6v6'}</td>
         <td><b>${boss.leader || '—'}</b></td>
         <td>${aceStr}</td>
         <td style="color: var(--text-accent); font-size: 0.75rem;">${toolsStr}</td>
@@ -2609,12 +2792,16 @@ function renderDrawerParty() {
   const content = document.getElementById("drawer-content");
   const actChapters = APP_DATA.chapters.filter(ch => ch.act === currentAct);
   const ch = actChapters[currentChapterIndex] || APP_DATA.chapters[0];
-  if (!ch || !ch.teams) {
+  if (!ch) {
     content.innerHTML = '<div style="color: var(--text-secondary);">No team data available.</div>';
     return;
   }
+
+  const effectiveTeamMode = localTeamModeOverride || currentMode;
+  const hasRemixTeams = Boolean(ch.teams_remix && Object.keys(ch.teams_remix).length > 0);
+  const teamSource = (effectiveTeamMode === "remix" && hasRemixTeams) ? ch.teams_remix : (ch.teams || {});
   
-  const team = ch.teams[activeStarterTrack];
+  const team = teamSource[activeStarterTrack];
   if (!team) {
     content.innerHTML = '<div style="color: var(--text-secondary);">Starter track not found.</div>';
     return;
@@ -2793,6 +2980,19 @@ function renderDrawerParty() {
   }
 
   content.innerHTML = `
+    ${hasRemixTeams ? `
+      <div style="display: flex; justify-content: space-between; align-items: center; background: rgba(15, 23, 42, 0.7); border: 1px solid var(--border-color); border-radius: 6px; padding: 0.35rem 0.6rem; margin-bottom: 0.5rem;">
+        <span style="font-size: 0.75rem; font-weight: 700; color: var(--text-secondary);">TEAM ROSTER MODE:</span>
+        <div class="local-mode-toggle">
+          <button class="local-mode-btn ${effectiveTeamMode === 'classic' ? 'active' : ''}" onclick="setLocalTeamMode('classic')">🏛️ Classic</button>
+          <button class="local-mode-btn remix ${effectiveTeamMode === 'remix' ? 'active' : ''}" onclick="setLocalTeamMode('remix')">⚡ Hard Remix</button>
+        </div>
+      </div>
+    ` : (effectiveTeamMode === 'remix' ? `
+      <div style="font-size: 0.75rem; color: var(--accent-yellow); background: rgba(234, 179, 8, 0.1); border: 1px solid rgba(234, 179, 8, 0.25); border-radius: 6px; padding: 0.4rem 0.6rem; margin-bottom: 0.5rem;">
+        ⚡ Remix starter teams for this segment are scheduled for phased rollout — displaying Classic baseline.
+      </div>
+    ` : '')}
     <div class="starter-toggle-bar">
       <button class="starter-btn bulba ${activeStarterTrack === 'bulbasaur' ? 'active' : ''}" data-track="bulbasaur" onclick="setStarterTrack('bulbasaur')">🌱 Bulbasaur</button>
       <button class="starter-btn char ${activeStarterTrack === 'charmander' ? 'active' : ''}" data-track="charmander" onclick="setStarterTrack('charmander')">🔥 Charmander</button>
@@ -4449,6 +4649,8 @@ window.addEventListener("keydown", function(e) {
     openDrawer("fusion");
   } else if (e.key === "c" || e.key === "C") {
     toggleCheatSheet();
+  } else if (e.key === "r" || e.key === "R") {
+    setGlobalMode(currentMode === "classic" ? "remix" : "classic");
   }
 });
 
@@ -4467,6 +4669,7 @@ window.addEventListener("resize", function() {
 
 async function bootApp() {
   initTheme();
+  updateModeSwitcherUI();
   try {
     APP_DATA = await decompressPayload(COMPRESSED_APP_DATA);
     window.APP_DATA = APP_DATA;

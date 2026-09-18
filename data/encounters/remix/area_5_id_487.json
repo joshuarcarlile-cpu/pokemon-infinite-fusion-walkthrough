@@ -1,0 +1,219 @@
+{
+  "location": "Area 5 (ID 487)",
+  "map_id": 487,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Cacnea",
+        "levels": "25",
+        "rates": [
+          "35%",
+          "35% (LandNight)"
+        ]
+      },
+      {
+        "name": "Sandile",
+        "levels": "22",
+        "rates": [
+          "20%",
+          "20% (LandNight)"
+        ]
+      },
+      {
+        "name": "Fearow",
+        "levels": "22-25",
+        "rates": [
+          "15%",
+          "15% (LandNight)"
+        ]
+      },
+      {
+        "name": "Trapinch",
+        "levels": "19-23",
+        "rates": [
+          "15%",
+          "15% (LandNight)"
+        ]
+      },
+      {
+        "name": "Rhyhorn",
+        "levels": "22-28",
+        "rates": [
+          "10%",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Vibrava",
+        "levels": "26",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Golett",
+        "levels": "26",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Carvanha",
+        "levels": "35-40",
+        "rates": [
+          "50%"
+        ]
+      },
+      {
+        "name": "Staryu",
+        "levels": "20-25",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Mantine",
+        "levels": "30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Marill",
+        "levels": "20-25",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Carvanha",
+        "levels": "5",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "5",
+        "rates": [
+          "39%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Krabby",
+        "levels": "5-15",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Remoraid",
+        "levels": "5-15",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "5-15",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Dratini",
+        "levels": "15-35",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Krabby",
+        "levels": "15-35",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Milotic",
+        "levels": "15-25",
+        "rates": [
+          "16%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "15-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Dragonair",
+        "levels": "25-35",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Golisopod",
+        "levels": "35-45",
+        "rates": [
+          "2%"
+        ]
+      }
+    ],
+    "Rock Smash": [
+      {
+        "name": "Vibrava",
+        "levels": "29-30",
+        "rates": [
+          "65%"
+        ]
+      },
+      {
+        "name": "Tyrunt",
+        "levels": "28-30",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Krokorok",
+        "levels": "28-30",
+        "rates": [
+          "15%"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "location": "Ruins of Alph (ID 235)",
+  "map_id": 235,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Unown",
+        "levels": "25-30",
+        "rates": [
+          "100%"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "location": "Route 12 (ID 159)",
+  "map_id": 159,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Buneary",
+        "levels": "24-26",
+        "rates": [
+          "20%",
+          "20% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Cottonee",
+        "levels": "22-26",
+        "rates": [
+          "20%",
+          "20% (LandMorning)",
+          "30% (LandNight)"
+        ]
+      },
+      {
+        "name": "Roselia",
+        "levels": "22-26",
+        "rates": [
+          "20%",
+          "20% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Swablu",
+        "levels": "23-27",
+        "rates": [
+          "20%",
+          "20% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Torkoal",
+        "levels": "24-27",
+        "rates": [
+          "10%",
+          "10% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Bellsprout",
+        "levels": "28-30",
+        "rates": [
+          "5%",
+          "5% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Oddish",
+        "levels": "28-30",
+        "rates": [
+          "5%",
+          "5% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Ariados",
+        "levels": "24-26",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Noibat",
+        "levels": "23-27",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Snorunt",
+        "levels": "24-25",
+        "rates": [
+          "20%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Luvdisc",
+        "levels": "35-40",
+        "rates": [
+          "40%"
+        ]
+      },
+      {
+        "name": "Wailmer",
+        "levels": "25-35",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Bruxish",
+        "levels": "25-35",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Goldeen",
+        "levels": "35-40",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Tentacool",
+        "levels": "35-40",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Tentacool",
+        "levels": "5",
+        "rates": [
+          "39%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "5",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Corsola",
+        "levels": "5-15",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Qwilfish",
+        "levels": "5-15",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Dhelmise",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Horsea",
+        "levels": "5-15",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "15-35",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Qwilfish",
+        "levels": "15-35",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Sharpedo",
+        "levels": "15-25",
+        "rates": [
+          "13%"
+        ]
+      },
+      {
+        "name": "Horsea",
+        "levels": "15-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Krabby",
+        "levels": "25-35",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "25-35",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Psyduck",
+        "levels": "25-35",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Magikarp",
+        "levels": "1-99",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Rock Smash": [
+      {
+        "name": "Geodude",
+        "levels": "20-25",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "20-24",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Graveler",
+        "levels": "22-26",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Pineco",
+        "levels": "22-25",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Corsola",
+        "levels": "1-22",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

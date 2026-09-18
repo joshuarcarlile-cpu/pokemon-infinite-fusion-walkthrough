@@ -1,0 +1,147 @@
+{
+  "location": "Route 8 (ID 409)",
+  "map_id": 409,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Houndour",
+        "levels": "18-20",
+        "rates": [
+          "29%",
+          "29% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Oricorio",
+        "levels": "18-20",
+        "rates": [
+          "20%",
+          "10% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Pichu",
+        "levels": "17-19",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Riolu",
+        "levels": "15-18",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Sandshrew",
+        "levels": "17-19",
+        "rates": [
+          "10%",
+          "10% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Slowpoke",
+        "levels": "15-18",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Swirlix",
+        "levels": "18-21",
+        "rates": [
+          "10%",
+          "10% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Chikorita",
+        "levels": "17-21",
+        "rates": [
+          "1%",
+          "1% (LandMorning)",
+          "1% (LandNight)"
+        ]
+      },
+      {
+        "name": "Mime Jr.",
+        "levels": "15-18",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Pichu",
+        "levels": "18-20",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Tyrogue",
+        "levels": "17-19",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Vulpix",
+        "levels": "15-18",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Slakoth",
+        "levels": "18-20",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Sneasel",
+        "levels": "17-19",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Pawniard",
+        "levels": "18-20",
+        "rates": [
+          "19%"
+        ]
+      },
+      {
+        "name": "Zorua",
+        "levels": "15-18",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Houndour",
+        "levels": "16-17",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Zubat",
+        "levels": "18-20",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Absol",
+        "levels": "15-18",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

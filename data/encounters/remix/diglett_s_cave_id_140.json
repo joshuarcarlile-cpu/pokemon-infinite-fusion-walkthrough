@@ -1,0 +1,92 @@
+{
+  "location": "Diglett's Cave (ID 140)",
+  "map_id": 140,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Diglett",
+        "levels": "15-22",
+        "rates": [
+          "75%"
+        ]
+      },
+      {
+        "name": "Dugtrio",
+        "levels": "19-22",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Axew",
+        "levels": "19-22",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Bagon",
+        "levels": "19-22",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Beldum",
+        "levels": "19-22",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Deino",
+        "levels": "19-22",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Dratini",
+        "levels": "19-22",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Gible",
+        "levels": "19-22",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Goomy",
+        "levels": "19-22",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Jangmo-o",
+        "levels": "19-22",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Larvitar",
+        "levels": "19-22",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Trapinch",
+        "levels": "19-22",
+        "rates": [
+          "2%"
+        ]
+      }
+    ]
+  }
+}

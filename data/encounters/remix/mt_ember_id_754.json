@@ -1,0 +1,64 @@
+{
+  "location": "Mt. Ember (ID 754)",
+  "map_id": 754,
+  "sections": {
+    "Cave": [
+      {
+        "name": "Magmar",
+        "levels": "30-34",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Torkoal",
+        "levels": "32-34",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Golbat",
+        "levels": "29-33",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Magcargo",
+        "levels": "32-35",
+        "rates": [
+          "14%"
+        ]
+      },
+      {
+        "name": "Drifblim",
+        "levels": "30-33",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Oricorio",
+        "levels": "28-32",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Steelix",
+        "levels": "31-34",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Fennekin",
+        "levels": "15-17",
+        "rates": [
+          "1%"
+        ]
+      }
+    ]
+  }
+}

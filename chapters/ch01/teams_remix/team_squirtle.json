@@ -1,0 +1,90 @@
+{
+  "starter": "Squirtle",
+  "name": "Team Squirtle: Bulky Balance & Status Absorption (Remix)",
+  "archetype": "High physical defense, Grass status control, and Fire/Rock coverage.",
+  "gym_duel_core": [1, 3],
+  "gym_duel_rationale": "Squirtle provides high physical bulk with Withdraw and Water STAB. Pairing Squirtle with Route 22 Slugma unleashes super-effective Fire damage (Ember) against Steelix/Mime Jr., while Rock Throw gives neutral pressure against Aron/Psyduck.",
+  "roster": [
+    {
+      "slot": 1,
+      "species": "Squirtle",
+      "types": ["Water"],
+      "status": "Active in Party (Starter Anchor)",
+      "current_level": 13,
+      "ability": "Torrent",
+      "held_item": "Oran Berry",
+      "role": "Bulky Water Pivot & Gym Duelist",
+      "current_reached_moveset": [
+        "Water Gun",
+        "Bubble",
+        "Tackle",
+        "Withdraw"
+      ],
+      "progression_notes": "All 4 moves learned naturally by Lv. 13. Withdraw boosts Defense to shrug off Gyro Ball and Metal Claw hits."
+    },
+    {
+      "slot": 2,
+      "species": "Budew",
+      "types": ["Grass", "Poison"],
+      "status": "Active in Party (Viridian Forest Catch)",
+      "current_level": 13,
+      "ability": "Natural Cure",
+      "held_item": "Oran Berry",
+      "role": "Grass Status Controller & Healer",
+      "current_reached_moveset": [
+        "Mega Drain",
+        "Absorb",
+        "Stun Spore",
+        "Growth"
+      ],
+      "progression_notes": "Caught in Viridian Forest. Stun Spore paralyzes fast threats while Mega Drain provides sustainable HP recovery."
+    },
+    {
+      "slot": 3,
+      "species": "Slugma",
+      "types": ["Fire"],
+      "status": "Active in Party (Route 22 Catch)",
+      "current_level": 13,
+      "ability": "Magma Armor",
+      "held_item": "Oran Berry",
+      "role": "Fire Striker & Steelix Counter",
+      "current_reached_moveset": [
+        "Ember",
+        "Rock Throw",
+        "Smog",
+        "Harden"
+      ],
+      "progression_notes": "Caught on Route 22. Magma Armor prevents freeze, while Ember inflicts 2x super-effective Fire damage on Steelix/Mime Jr."
+    }
+  ],
+  "flex_bench": [
+    {
+      "slot": "B1",
+      "species": "Rockruff",
+      "types": ["Rock"],
+      "current_level": 12,
+      "ability": "Vital Spirit",
+      "held_item": "Hard Stone",
+      "role": "Fast Physical Rock Striker",
+      "why_use": "Caught on Route 22. Vital Spirit prevents sleep from Yawn, while Bite and Tackle deal reliable physical damage."
+    },
+    {
+      "slot": "B2",
+      "species": "Azurill",
+      "types": ["Normal", "Fairy"],
+      "current_level": 12,
+      "ability": "Huge Power",
+      "held_item": "Oran Berry",
+      "role": "Huge Power Physical Attacker",
+      "why_use": "Caught on Route 1. Huge Power doubles its physical Attack stat, delivering surprisingly heavy hits."
+    }
+  ],
+  "fusion_lifecycle": {
+    "active_fusions": [],
+    "unfuse_recommendations": [],
+    "upcoming_fusions": [
+      "Wartortle/Roserade (Chapter 2 Water/Poison special tank)",
+      "Magcargo/Golem (Bulky Fire/Ground physical wall)"
+    ]
+  }
+}

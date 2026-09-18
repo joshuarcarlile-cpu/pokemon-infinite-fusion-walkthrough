@@ -1,0 +1,138 @@
+{
+  "location": "Route 43 (ID 635)",
+  "map_id": 635,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Xatu",
+        "levels": "42-54",
+        "rates": [
+          "30%",
+          "30% (LandNight)"
+        ]
+      },
+      {
+        "name": "Gallade",
+        "levels": "46-52",
+        "rates": [
+          "25%",
+          "25% (LandNight)"
+        ]
+      },
+      {
+        "name": "Gardevoir",
+        "levels": "45-50",
+        "rates": [
+          "25%",
+          "25% (LandNight)"
+        ]
+      },
+      {
+        "name": "Lombre",
+        "levels": "55",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Bibarel",
+        "levels": "40",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Venomoth",
+        "levels": "55",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Trevenant",
+        "levels": "40",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Mantyke",
+        "levels": "15-30",
+        "rates": [
+          "70%"
+        ]
+      },
+      {
+        "name": "Lombre",
+        "levels": "15-35",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Mantine",
+        "levels": "35",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Wooper",
+        "levels": "10",
+        "rates": [
+          "85%"
+        ]
+      },
+      {
+        "name": "Mantyke",
+        "levels": "10",
+        "rates": [
+          "15%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "20",
+        "rates": [
+          "85%"
+        ]
+      },
+      {
+        "name": "Mantine",
+        "levels": "20",
+        "rates": [
+          "15%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Dhelmise",
+        "levels": "20",
+        "rates": [
+          "65%"
+        ]
+      },
+      {
+        "name": "Quagsire",
+        "levels": "40-50",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Mantine",
+        "levels": "40",
+        "rates": [
+          "15%"
+        ]
+      }
+    ]
+  }
+}

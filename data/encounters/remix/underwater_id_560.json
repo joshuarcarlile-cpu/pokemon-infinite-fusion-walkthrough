@@ -1,0 +1,57 @@
+{
+  "location": "Underwater (ID 560)",
+  "map_id": 560,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Golisopod",
+        "levels": "35-39",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Toxapex",
+        "levels": "38-45",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Lanturn",
+        "levels": "46-54",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Seadra",
+        "levels": "45-51",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "40-44",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Octillery",
+        "levels": "54",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Sharpedo",
+        "levels": "40-46",
+        "rates": [
+          "10%"
+        ]
+      }
+    ]
+  }
+}

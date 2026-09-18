@@ -1,0 +1,139 @@
+{
+  "location": "Viridian Forest (ID 491)",
+  "map_id": 491,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Budew",
+        "levels": "3-5",
+        "rates": [
+          "25%",
+          "30% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Venipede",
+        "levels": "3-5",
+        "rates": [
+          "20%",
+          "20% (LandMorning)",
+          "14% (LandNight)"
+        ]
+      },
+      {
+        "name": "Shroomish",
+        "levels": "3-5",
+        "rates": [
+          "15%",
+          "15% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Joltik",
+        "levels": "4-6",
+        "rates": [
+          "10%",
+          "5% (LandMorning)",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Paras",
+        "levels": "3-5",
+        "rates": [
+          "10%",
+          "5% (LandMorning)",
+          "5% (LandNight)"
+        ]
+      },
+      {
+        "name": "Caterpie",
+        "levels": "3-4",
+        "rates": [
+          "5%",
+          "5% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Larvesta",
+        "levels": "3-4",
+        "rates": [
+          "5%",
+          "5% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Pidgey",
+        "levels": "3-5",
+        "rates": [
+          "5%",
+          "5% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Weedle",
+        "levels": "3-4",
+        "rates": [
+          "5%",
+          "5% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Meowth",
+        "levels": "3-5",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Fomantis",
+        "levels": "3-5",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Zubat",
+        "levels": "3-5",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Caterpie",
+        "levels": "3-5",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Phantump",
+        "levels": "3-5",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Pumpkaboo",
+        "levels": "3-5",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Weedle",
+        "levels": "3-5",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Dhelmise",
+        "levels": "3-4",
+        "rates": [
+          "1%"
+        ]
+      }
+    ]
+  }
+}

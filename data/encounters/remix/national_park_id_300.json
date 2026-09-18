@@ -1,0 +1,85 @@
+{
+  "location": "National Park (ID 300)",
+  "map_id": 300,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Venonat",
+        "levels": "7-17",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Venipede",
+        "levels": "9-25",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Gloom",
+        "levels": "20-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Oricorio",
+        "levels": "9-25",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Paras",
+        "levels": "7-17",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Weepinbell",
+        "levels": "20-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Beedrill",
+        "levels": "12-15",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Butterfree",
+        "levels": "12-15",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Pinsir",
+        "levels": "23-34",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Scyther",
+        "levels": "23-34",
+        "rates": [
+          "5%"
+        ]
+      },
+      {
+        "name": "Wimpod",
+        "levels": "20-27",
+        "rates": [
+          "5%"
+        ]
+      }
+    ]
+  }
+}

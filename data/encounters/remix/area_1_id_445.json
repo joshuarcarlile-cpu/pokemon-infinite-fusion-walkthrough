@@ -1,0 +1,302 @@
+{
+  "location": "Area 1 (ID 445)",
+  "map_id": 445,
+  "sections": {
+    "Grass": [
+      {
+        "name": "Venonat",
+        "levels": "22",
+        "rates": [
+          "15%",
+          "15% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Vigoroth",
+        "levels": "24-25",
+        "rates": [
+          "12%",
+          "20% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Galvantula",
+        "levels": "30",
+        "rates": [
+          "10%",
+          "6% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Lickitung",
+        "levels": "25-30",
+        "rates": [
+          "10%",
+          "10% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Nidoran",
+        "levels": "22",
+        "rates": [
+          "10%",
+          "10% (LandDay)"
+        ]
+      },
+      {
+        "name": "Rhyhorn",
+        "levels": "25",
+        "rates": [
+          "10%",
+          "10% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Heracross",
+        "levels": "23",
+        "rates": [
+          "8%",
+          "14% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Riolu",
+        "levels": "31",
+        "rates": [
+          "5%",
+          "5% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Tangela",
+        "levels": "31",
+        "rates": [
+          "5%",
+          "5% (LandMorning)"
+        ]
+      },
+      {
+        "name": "Scyther",
+        "levels": "23",
+        "rates": [
+          "4%",
+          "14% (LandMorning)",
+          "10% (LandNight)"
+        ]
+      },
+      {
+        "name": "Treecko",
+        "levels": "21-25",
+        "rates": [
+          "1%",
+          "1% (LandMorning)",
+          "1% (LandNight)"
+        ]
+      },
+      {
+        "name": "Caterpie",
+        "levels": "28",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Weedle",
+        "levels": "22",
+        "rates": [
+          "15%"
+        ]
+      },
+      {
+        "name": "Riolu",
+        "levels": "20-30",
+        "rates": [
+          "12%"
+        ]
+      },
+      {
+        "name": "Venonat",
+        "levels": "22-28",
+        "rates": [
+          "12%"
+        ]
+      },
+      {
+        "name": "Persian",
+        "levels": "25",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Pinsir",
+        "levels": "23",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Stunfisk",
+        "levels": "30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Banette",
+        "levels": "25",
+        "rates": [
+          "5%"
+        ]
+      }
+    ],
+    "Surf": [
+      {
+        "name": "Luvdisc",
+        "levels": "20-25",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Carvanha",
+        "levels": "35-40",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "35-42",
+        "rates": [
+          "25%"
+        ]
+      },
+      {
+        "name": "Mantine",
+        "levels": "30",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Marill",
+        "levels": "20-25",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Old Rod": [
+      {
+        "name": "Feebas",
+        "levels": "5",
+        "rates": [
+          "39%"
+        ]
+      },
+      {
+        "name": "Carvanha",
+        "levels": "5",
+        "rates": [
+          "30%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "5",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Trubbish",
+        "levels": "5",
+        "rates": [
+          "1%"
+        ]
+      }
+    ],
+    "Good Rod": [
+      {
+        "name": "Carvanha",
+        "levels": "5-15",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Krabby",
+        "levels": "5-15",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Mareanie",
+        "levels": "5-15",
+        "rates": [
+          "20%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "5-15",
+        "rates": [
+          "10%"
+        ]
+      }
+    ],
+    "Super Rod": [
+      {
+        "name": "Dratini",
+        "levels": "15-35",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Luvdisc",
+        "levels": "15-35",
+        "rates": [
+          "35%"
+        ]
+      },
+      {
+        "name": "Sharpedo",
+        "levels": "15-25",
+        "rates": [
+          "16%"
+        ]
+      },
+      {
+        "name": "Poliwag",
+        "levels": "15-35",
+        "rates": [
+          "10%"
+        ]
+      },
+      {
+        "name": "Dragonair",
+        "levels": "25-35",
+        "rates": [
+          "2%"
+        ]
+      },
+      {
+        "name": "Toxapex",
+        "levels": "35-45",
+        "rates": [
+          "2%"
+        ]
+      }
+    ]
+  }
+}
