@@ -9,11 +9,17 @@ These rules are mandatory and automatically loaded for all Antigravity agents, s
   - **Classic Mode**: Encounters, trainer rosters, and item locations must strictly match **Classic Mode** ground truth (`data/encounters/kanto/`, `data/trainers_classic.json`).
   - **Remix Mode**: When authoring or viewing Remix content, encounters and trainer rosters must strictly match **Remix Mode** ground truth (`data/encounters/remix/`, `data/trainers_remix.json`).
   - Remix content lives strictly in dedicated sibling paths (`phases_remix/`, `boss_remix.json`, `teams_remix/`).
-* **Hard Mode Level Caps**: The gym leader level cap for each segment is an absolute upper bound:
+* **Engine Level Caps Ground Truth (`001_Settings.rb`)**:
+  - The gym leader level cap for each segment strictly follows `LEVEL_CAPS_KANTO = [12, 22, 26, 35, 38, 45, 51, 54, 62, 62, 63, 64, 64, 65, 67, 68]` (Hard Mode = `floor(Base * 1.1)`).
+  - Normal Mode cap before Brock is strictly **Level 12** (Hard Mode: 13). Vanilla FRLG caps (14, 25, 29, 39, 42) are obsolete and strictly prohibited.
+  - In-game EXP drops to 0 when `pokemon.level >= current_max_level`.
   - No recommended party level may exceed the cap.
   - No Pokémon may evolve if its evolution level exceeds the cap (e.g. Starter Lv. 16 evolution is prohibited before Brock's Lv. 12 cap).
   - All moves in `current_reached_moveset` must be legally learnable at or below the cap via natural level-up, currently obtainable TMs, or currently available Move Tutors.
-* **Deterministic Move Legality**: Agents must NEVER hallucinate or assume move availability. Run `python scripts/learnset_lookup.py <Species> <Level_Cap>` to verify legal moves before writing team data.
+* **Deterministic Move Legality & STAB Semantics**:
+  - Agents must NEVER hallucinate or assume move availability. Run `python scripts/learnset_lookup.py <Species> <Level_Cap>` to verify legal moves before writing team data.
+  - STAB (Same-Type Attack Bonus) mechanically applies strictly to damaging moves (`cat != 2 && pwr > 0`), never to Status moves (`Leech Seed`, `Sleep Powder`, `Thunder Wave`).
+  - Learnsets must always be queried via direct species dictionary keys (`learnsets[species]`), never positional index arrays. Type enum ordering is strictly `15: Steel, 16: Dark, 17: Fairy`.
 * **Trade Evolution Ground Truth**:
   - In Pokémon Infinite Fusion v5.0+ (Gen 7 rules), trade evolutions (Kadabra, Machoke, Graveler, Haunter, Phantump) evolve naturally at **Level 40 OR via Linking Cord**, NOT Level 37.
   - Metal Coat (Onix, Scyther) evolves at **Level 40 or item**.
