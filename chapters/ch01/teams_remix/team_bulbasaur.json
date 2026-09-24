@@ -10,41 +10,41 @@
       "species": "Bulbasaur",
       "types": ["Grass", "Poison"],
       "status": "Active in Party (Starter Anchor)",
-      "current_level": 13,
+      "current_level": 12,
       "ability": "Overgrow",
       "held_item": "Oran Berry",
       "role": "Status Controller & Brock Anchor",
       "current_reached_moveset": [
         "Vine Whip",
         "Leech Seed",
-        "Poison Powder",
-        "Sleep Powder"
+        "Tackle",
+        "Growl"
       ],
-      "progression_notes": "All 4 moves learned naturally by Lv. 13. Leech Seed bypasses Steelix's Filter ability and chips through Barrier."
+      "progression_notes": "All 4 moves learned naturally by Lv. 9-12. Leech Seed bypasses Steelix's Filter ability and chips through Barrier."
     },
     {
       "slot": 2,
       "species": "Shinx",
       "types": ["Electric"],
       "status": "Active in Party (Route 1 Catch)",
-      "current_level": 13,
+      "current_level": 12,
       "ability": "Intimidate",
       "held_item": "Oran Berry",
       "role": "Physical Pivot & Electric Striker",
       "current_reached_moveset": [
-        "Spark",
-        "Charge",
         "Tackle",
+        "Charge",
+        "Baby-Doll Eyes",
         "Leer"
       ],
-      "progression_notes": "Caught on Route 1. Intimidate softens physical hits from Brock and Liam, while Spark hits Water hybrids hard."
+      "progression_notes": "Caught on Route 1. Intimidate and Baby-Doll Eyes soften physical hits from Brock, while Charge boosts electric power."
     },
     {
       "slot": 3,
       "species": "Phanpy",
       "types": ["Ground"],
       "status": "Active in Party (Route 22 Catch)",
-      "current_level": 13,
+      "current_level": 12,
       "ability": "Pickup",
       "held_item": "Oran Berry",
       "role": "Ground Wallbreaker & Gym Duelist",

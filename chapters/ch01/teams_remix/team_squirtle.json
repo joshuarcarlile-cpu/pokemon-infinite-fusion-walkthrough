@@ -10,41 +10,41 @@
       "species": "Squirtle",
       "types": ["Water"],
       "status": "Active in Party (Starter Anchor)",
-      "current_level": 13,
+      "current_level": 12,
       "ability": "Torrent",
       "held_item": "Oran Berry",
       "role": "Bulky Water Pivot & Gym Duelist",
       "current_reached_moveset": [
         "Water Gun",
-        "Bubble",
-        "Tackle",
-        "Withdraw"
+        "Withdraw",
+        "Tail Whip",
+        "Tackle"
       ],
-      "progression_notes": "All 4 moves learned naturally by Lv. 13. Withdraw boosts Defense to shrug off Gyro Ball and Metal Claw hits."
+      "progression_notes": "All 4 moves learned naturally by Lv. 9-12. Withdraw boosts Defense to shrug off Gyro Ball and Metal Claw hits."
     },
     {
       "slot": 2,
       "species": "Budew",
       "types": ["Grass", "Poison"],
       "status": "Active in Party (Viridian Forest Catch)",
-      "current_level": 13,
+      "current_level": 12,
       "ability": "Natural Cure",
       "held_item": "Oran Berry",
       "role": "Grass Status Controller & Healer",
       "current_reached_moveset": [
-        "Mega Drain",
         "Absorb",
         "Stun Spore",
-        "Growth"
+        "Growth",
+        "Water Sport"
       ],
-      "progression_notes": "Caught in Viridian Forest. Stun Spore paralyzes fast threats while Mega Drain provides sustainable HP recovery."
+      "progression_notes": "Caught in Viridian Forest. Stun Spore paralyzes fast threats while Absorb provides early HP recovery."
     },
     {
       "slot": 3,
       "species": "Slugma",
       "types": ["Fire"],
       "status": "Active in Party (Route 22 Catch)",
-      "current_level": 13,
+      "current_level": 12,
       "ability": "Magma Armor",
       "held_item": "Oran Berry",
       "role": "Fire Striker & Steelix Counter",
@@ -52,9 +52,9 @@
         "Ember",
         "Rock Throw",
         "Smog",
-        "Harden"
+        "Yawn"
       ],
-      "progression_notes": "Caught on Route 22. Magma Armor prevents freeze, while Ember inflicts 2x super-effective Fire damage on Steelix/Mime Jr."
+      "progression_notes": "Caught on Route 22. Magma Armor prevents freeze, Yawn forces switches, while Ember inflicts 2x super-effective Fire damage on Steelix/Mime Jr."
     }
   ],
   "flex_bench": [

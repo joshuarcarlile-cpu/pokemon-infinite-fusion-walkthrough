@@ -10,17 +10,17 @@
       "species": "Bulbasaur",
       "types": ["Grass", "Poison"],
       "status": "Active in Party (Starter Anchor)",
-      "current_level": 13,
+      "current_level": 12,
       "ability": "Overgrow",
       "held_item": "Oran Berry",
       "role": "Early Lead & Brock Sweeper",
       "current_reached_moveset": [
         "Vine Whip",
         "Leech Seed",
-        "Poison Powder",
-        "Sleep Powder"
+        "Tackle",
+        "Growl"
       ],
-      "progression_notes": "All 4 moves learned naturally by Lv. 13. Vine Whip deals 4x super-effective damage to Brock. Evolution to Ivysaur occurs at Lv. 16 in Chapter 2."
+      "progression_notes": "All 4 moves learned naturally by Lv. 9-12. Vine Whip deals 4x super-effective damage to Brock. Evolution to Ivysaur occurs at Lv. 16 in Chapter 2."
     },
     {
       "slot": 2,
@@ -35,7 +35,7 @@
         "Vine Whip",
         "Sleep Powder",
         "Gust",
-        "Quick Attack"
+        "Sand Attack"
       ],
       "progression_notes": "Early fusion combining Tangela's Grass control with Pidgey's Flying speed. Gust cleans up Viridian Forest bugs effortlessly."
     },
@@ -44,7 +44,7 @@
       "species": "Mankey",
       "types": ["Fighting"],
       "status": "Active in Party (Route 22 Catch)",
-      "current_level": 13,
+      "current_level": 12,
       "ability": "Defiant",
       "held_item": "Oran Berry",
       "role": "Physical Fighting Wallbreaker & Gym Duelist",
@@ -64,14 +64,14 @@
       "current_level": 11,
       "ability": "Compound Eyes",
       "held_item": "Pecha Berry",
-      "role": "Fast Status Disruptor & Forest Sweeper",
+      "role": "Fast Special Disruptor & Forest Sweeper",
       "current_reached_moveset": [
         "Confusion",
-        "Sleep Powder",
+        "Gust",
         "Twineedle",
         "Fury Attack"
       ],
-      "progression_notes": "Early double-bug fusion available immediately upon Caterpie and Weedle reaching Lv. 10. Pairs 97.5% accurate Sleep Powder with twin-strike physical poison."
+      "progression_notes": "Early double-bug fusion available immediately upon Caterpie and Weedle reaching Lv. 10. Pairs Confusion targeting low SpD with twin-strike physical poison."
     }
   ],
   "flex_bench": [

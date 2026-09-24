@@ -11,7 +11,7 @@ These rules are mandatory and automatically loaded for all Antigravity agents, s
   - Remix content lives strictly in dedicated sibling paths (`phases_remix/`, `boss_remix.json`, `teams_remix/`).
 * **Hard Mode Level Caps**: The gym leader level cap for each segment is an absolute upper bound:
   - No recommended party level may exceed the cap.
-  - No Pokémon may evolve if its evolution level exceeds the cap (e.g. Starter Lv. 16 evolution is prohibited before Brock's Lv. 14 cap).
+  - No Pokémon may evolve if its evolution level exceeds the cap (e.g. Starter Lv. 16 evolution is prohibited before Brock's Lv. 12 cap).
   - All moves in `current_reached_moveset` must be legally learnable at or below the cap via natural level-up, currently obtainable TMs, or currently available Move Tutors.
 * **Deterministic Move Legality**: Agents must NEVER hallucinate or assume move availability. Run `python scripts/learnset_lookup.py <Species> <Level_Cap>` to verify legal moves before writing team data.
 * **Trade Evolution Ground Truth**:

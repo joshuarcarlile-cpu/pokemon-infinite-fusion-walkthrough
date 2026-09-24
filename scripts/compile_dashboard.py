@@ -132,6 +132,8 @@ def compile_dashboard():
     raw_base_stats = load_json(os.path.join(DATA_DIR, "mechanics", "base_stats.json")) or {}
     compact_base_stats = {}
     for name, d in raw_base_stats.items():
+        if d.get("dex_id", 0) >= 1000000:
+            continue
         t_ids = [TYPE_TO_ID[t] for t in d.get("types", []) if t in TYPE_TO_ID]
         compact_base_stats[name] = [
             d.get("dex_id", 0),

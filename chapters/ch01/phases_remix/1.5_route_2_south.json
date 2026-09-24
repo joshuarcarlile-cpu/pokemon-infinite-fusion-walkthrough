@@ -1,0 +1,34 @@
+{
+  "name": "Route 2 (South)",
+  "summary": "Remix route between Viridian City and Viridian Forest gate, featuring Electric (Shinx), Fairy/Psychic (Ralts), and Fighting (Stufful) lines.",
+  "items": [
+    {"name": "Antidote", "method": "North fence of Route 2 (South)", "type": "Consumable"},
+    {"name": "Ether", "method": "Next to elderly man's house", "type": "Consumable"}
+  ],
+  "trainers": [],
+  "encounters": {
+    "Grass": [
+      {"name": "Shinx", "levels": "2-4", "rates": "25% Day / 25% Morning"},
+      {"name": "Lotad", "levels": "2-3", "rates": "15% Day"},
+      {"name": "Ralts", "levels": "4-5", "rates": "15% Morning / 15% Day / 20% Night"},
+      {"name": "Stufful", "levels": "2-5", "rates": "15% Morning / 15% Day"},
+      {"name": "Ledyba", "levels": "4-5", "rates": "10% All Times"},
+      {"name": "Spinarak", "levels": "2-5", "rates": "10% Morning / Day"},
+      {"name": "Swablu", "levels": "2-5", "rates": "10% Morning / Day"},
+      {"name": "Fletchling", "levels": "2-3", "rates": "15% Morning"},
+      {"name": "Hoothoot", "levels": "2-3", "rates": "30% Night"},
+      {"name": "Phantump", "levels": "2-5", "rates": "10% Night"},
+      {"name": "Pumpkaboo", "levels": "2-5", "rates": "10% Night"},
+      {"name": "Sentret", "levels": "2-5", "rates": "10% Night"}
+    ]
+  },
+  "move_tutors": [
+    {
+      "name": "Fury Cutter Move Tutor",
+      "location": "Inside the entrance gate leading from Route 2 into Viridian Forest",
+      "cost": "200 Pokedollars",
+      "notes": "Teaches Bug-type physical move Fury Cutter."
+    }
+  ],
+  "navigation_notes": "Remix mode unlocks early high-tier tech catches on Route 2: Ralts (Psychic/Fairy), Shinx (Electric), and Stufful (Normal/Fighting) provide immediate offensive breadth."
+}

@@ -2,9 +2,9 @@
   "leader": "Brock",
   "title": "Pewter City Gym Leader",
   "badge": "Boulder Badge",
-  "hard_mode_level_cap": 14,
+  "hard_mode_level_cap": 12,
   "gym_duel_limit": 2,
-  "recommended_party_level": 13,
+  "recommended_party_level": 12,
   "gym_trainers": [
     {
       "name": "Camper Liam",
@@ -27,7 +27,7 @@
   "leader_team": [
     {
       "species": "Geodude/Pidgey",
-      "level": 10,
+      "level": 9,
       "types": ["Rock", "Flying"],
       "ability": "Tangled Feet",
       "moves": [
@@ -39,7 +39,7 @@
     },
     {
       "species": "Diglett/Onix",
-      "level": 14,
+      "level": 12,
       "types": ["Ground", "Rock"],
       "ability": "Sturdy",
       "is_ace": true,
@@ -51,7 +51,7 @@
       ]
     }
   ],
-  "threat_analysis": "Brock's Classic Hard Mode lineup pairs Rock with Flying and Ground bodies. Geodude/Pidgey eliminates Rock's Ground/Grass weakness via Flying typing and pressures Fighting types with STAB Gust. The Ace, Diglett/Onix (Lv. 14), carries Sturdy, surviving any lethal hit at 1 HP. Dig allows invulnerability turns while Bind chips and prevents switching. Rock Tomb drops Speed on hit.",
+  "threat_analysis": "Brock's Classic lineup pairs Rock with Flying and Ground bodies. Geodude/Pidgey eliminates Rock's Ground/Grass weakness via Flying typing and pressures Fighting types with STAB Gust. The Ace, Diglett/Onix (Lv. 12), carries Sturdy, surviving any lethal hit at 1 HP. Dig allows invulnerability turns while Bind chips and prevents switching. Rock Tomb drops Speed on hit.",
   "tactical_counter_plan": [
     "Bulbasaur Team Strategy: Lead with Bulbasaur. Use Leech Seed on turn 1. Leech Seed damage triggers at the end of the turn, completely nullifying Sturdy and bypassing Dig. Follow up with Vine Whip (4x super effective on Diglett/Onix).",
     "Squirtle Team Strategy: Lead with Squirtle (or Squirtle/Tangela fusion). Water Gun cleanly 2HKOs both leads. High base Defense shrugs off Rock Tomb and Bind.",

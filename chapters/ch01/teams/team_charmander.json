@@ -3,14 +3,14 @@
   "name": "Team Charmander: Hyper-Offense & Early Fusion Breakers",
   "archetype": "High-velocity physical breakers, Mankey/Spearow hybrid speed, and sleep status control to bypass Rock weaknesses.",
   "gym_duel_core": [2, 3],
-  "gym_duel_rationale": "Brock enforces a strict 2v2 duel. Charmander takes 4x lethal rock damage and must be safely benched! Duel with Butterfree/Beedrill (Compound Eyes Sleep Powder + Confusion targeting Brock's low SpD) and Mankey/Spearow (weight-scaled Low Kick to crush Onix).",
+  "gym_duel_rationale": "Brock enforces a strict 2v2 duel. Charmander takes 4x lethal rock damage and must be safely benched! Duel with Butterfree/Beedrill (Confusion targeting Brock's low SpD) and Mankey/Spearow (weight-scaled Low Kick to crush Onix).",
   "roster": [
     {
       "slot": 1,
       "species": "Charmander",
       "types": ["Fire"],
       "status": "Active in Party (Starter Anchor)",
-      "current_level": 13,
+      "current_level": 12,
       "ability": "Blaze",
       "held_item": "Oran Berry",
       "role": "Fire Sweeper (Benched for Brock)",
@@ -27,7 +27,7 @@
       "species": "Mankey/Spearow",
       "types": ["Fighting", "Flying"],
       "status": "Active in Party (Route 22 Splice)",
-      "current_level": 13,
+      "current_level": 12,
       "ability": "Defiant",
       "held_item": "Oran Berry",
       "role": "High-Speed Physical Breaker & Gym Duelist",
@@ -50,7 +50,7 @@
       "role": "Special Brock Pivot & Gym Duelist",
       "current_reached_moveset": [
         "Confusion",
-        "Sleep Powder",
+        "Gust",
         "Twineedle",
         "Fury Attack"
       ],
@@ -69,7 +69,7 @@
         "Vine Whip",
         "Sleep Powder",
         "Gust",
-        "Quick Attack"
+        "Sand Attack"
       ],
       "progression_notes": "Grass/Flying typing gives complete immunity to Ground-type attacks and provides secondary Sleep Powder backup."
     }

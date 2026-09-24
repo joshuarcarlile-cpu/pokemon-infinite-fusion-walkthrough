@@ -10,24 +10,24 @@
       "species": "Squirtle",
       "types": ["Water"],
       "status": "Active in Party (Starter Anchor)",
-      "current_level": 13,
+      "current_level": 12,
       "ability": "Torrent",
       "held_item": "Oran Berry",
       "role": "Primary Water Tank & Gym Duelist",
       "current_reached_moveset": [
         "Water Gun",
         "Withdraw",
-        "Bubble",
+        "Tail Whip",
         "Tackle"
       ],
-      "progression_notes": "Water Gun easily defeats Brock's Rock/Ground lineup. Withdraw boosts already formidable 65 Defense. Fuses with Tangela in Chapter 2 for unmatched Water/Grass bulk."
+      "progression_notes": "Water Gun easily defeats Brock's Rock/Ground lineup. Withdraw boosts already formidable 65 Defense. Tail Whip softens Brock's bulky rock armor. Fuses with Tangela in Chapter 2 for unmatched Water/Grass bulk."
     },
     {
       "slot": 2,
       "species": "Mankey/Spearow",
       "types": ["Fighting", "Flying"],
       "status": "Active in Party (Route 22 Splice)",
-      "current_level": 13,
+      "current_level": 12,
       "ability": "Defiant",
       "held_item": "Oran Berry",
       "role": "High-Speed Physical Breaker & Gym Duelist",
@@ -44,7 +44,7 @@
       "species": "Pichu",
       "types": ["Electric"],
       "status": "Active in Party (Viridian Forest Catch)",
-      "current_level": 13,
+      "current_level": 12,
       "ability": "Static",
       "held_item": "Oran Berry",
       "role": "Electric Status Disruptor & Special Setup",
@@ -52,9 +52,9 @@
         "Thunder Shock",
         "Charm",
         "Sweet Kiss",
-        "Nasty Plot"
+        "Tail Whip"
       ],
-      "progression_notes": "Caught in Viridian Forest. Nasty Plot doubles Special Attack while Charm halves enemy physical attack. Evolves into Pikachu at Lv. 15 in Chapter 2, then fuses with Kadabra."
+      "progression_notes": "Caught in Viridian Forest. Charm halves enemy physical attack while Sweet Kiss confuses dangerous foes. Evolves into Pikachu at Lv. 15 in Chapter 2, then fuses with Kadabra."
     },
     {
       "slot": 4,
@@ -64,14 +64,14 @@
       "current_level": 11,
       "ability": "Compound Eyes",
       "held_item": "Pecha Berry",
-      "role": "Fast Status Disruptor & Forest Sweeper",
+      "role": "Fast Special Disruptor & Forest Sweeper",
       "current_reached_moveset": [
         "Confusion",
-        "Sleep Powder",
+        "Gust",
         "Twineedle",
         "Fury Attack"
       ],
-      "progression_notes": "Compound Eyes Sleep Powder guarantees early captures and disables tough wild encounters."
+      "progression_notes": "Early double-bug fusion pairs Confusion targeting low SpD with twin-strike physical poison to sweep early trainers."
     }
   ],
   "flex_bench": [

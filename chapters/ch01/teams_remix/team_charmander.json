@@ -10,7 +10,7 @@
       "species": "Charmander",
       "types": ["Fire"],
       "status": "Active in Party (Starter Anchor)",
-      "current_level": 13,
+      "current_level": 12,
       "ability": "Blaze",
       "held_item": "Oran Berry",
       "role": "Fire Wallbreaker & Brock Finisher",
@@ -20,14 +20,14 @@
         "Smokescreen",
         "Growl"
       ],
-      "progression_notes": "All 4 moves learned naturally by Lv. 13. Ember deals 2x super-effective damage into Steelix/Mime Jr. while Smokescreen disrupts Brock's accuracy."
+      "progression_notes": "All 4 moves learned naturally by Lv. 12. Ember deals 2x super-effective damage into Steelix/Mime Jr. while Smokescreen disrupts Brock's accuracy."
     },
     {
       "slot": 2,
       "species": "Lotad",
       "types": ["Water", "Grass"],
       "status": "Active in Party (Route 2 Catch)",
-      "current_level": 13,
+      "current_level": 12,
       "ability": "Rain Dish",
       "held_item": "Oran Berry",
       "role": "Water/Grass Pivot & Lead Buffer",
@@ -44,7 +44,7 @@
       "species": "Riolu",
       "types": ["Fighting"],
       "status": "Active in Party (Secret Garden Catch)",
-      "current_level": 13,
+      "current_level": 12,
       "ability": "Steadfast",
       "held_item": "Oran Berry",
       "role": "Physical Fighting Duelist & Counter Punisher",

@@ -53,10 +53,10 @@ def extract_moves_data():
 
     print(f"Extracted {len(move_info)} moves from binary data.")
 
-    # Load species base stats to maintain canonical species ordering
+    # Load species base stats, excluding internal dummy/triple-fusion entries (dex_id >= 1000000)
     with open(BASE_STATS_FILE, "r", encoding="utf-8") as f:
         base_stats = json.load(f)
-    species_list = sorted(list(base_stats.keys()))
+    species_list = sorted([name for name, d in base_stats.items() if d.get("dex_id", 0) < 1000000])
 
     PRE_EVOLUTIONS_FILE = os.path.join(BASE_DIR, "data", "mechanics", "pre_evolutions.json")
     pre_evos = {}
@@ -90,20 +90,21 @@ def extract_moves_data():
         t_id = TYPE_TO_ID.get(inf[0], 0)
         move_table.append([t_id, inf[1], inf[2], inf[3]])
 
-    # Pack learnsets per species as list of packed integers: (min(100, lvl) * 1000 + move_id)
-    species_learnsets = []
+    # Pack learnsets as dictionary keyed by species name: { [speciesName]: [packedInt, ...] }
+    learnsets_dict = {}
     for sp in species_list:
         entries = dedup.get(sp, [])
         packed = []
         for lvl, mv in entries:
             if mv in move_name_to_id:
                 packed.append(min(100, lvl) * 1000 + move_name_to_id[mv])
-        species_learnsets.append(packed)
+        if packed:
+            learnsets_dict[sp] = packed
 
     output_payload = {
         "move_names": all_move_names,
         "move_table": move_table,
-        "species_learnsets": species_learnsets
+        "learnsets": learnsets_dict
     }
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:

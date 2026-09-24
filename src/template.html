@@ -872,7 +872,7 @@
       border-left: 1px solid var(--border-color) !important;
       z-index: 10 !important;
     }
-    .app-container.drawer-pinned .modal-backdrop {
+    .app-container.drawer-pinned .modal-backdrop:not(.open) {
       display: none !important;
     }
   }
@@ -1933,7 +1933,7 @@
 <!-- Floating Species Combobox Dropdown -->
 <div class="species-picker-dropdown" id="species-picker-dropdown" style="display:none;" tabindex="-1"></div>
 
-<div class="modal-backdrop" id="modal-backdrop" onclick="closeDrawer()"></div>
+<div class="modal-backdrop" id="modal-backdrop" onclick="handleBackdropClick()"></div>
 
 <script>
 // Embedded Compressed Data Payload
@@ -2060,11 +2060,11 @@ function togglePinDrawer() {
   if (isDrawerPinned && window.innerWidth >= 1200) {
     container.classList.add("drawer-pinned");
     overlay.classList.add("open");
-    document.getElementById("modal-backdrop").classList.remove("open");
   } else {
     container.classList.remove("drawer-pinned");
   }
   updatePinButtonState();
+  updateBackdropVisibility();
 }
 
 function updatePinButtonState() {
@@ -2715,12 +2715,50 @@ function toggleCaught(monKey, checkbox) {
   updateChapterHud();
 }
 
+function updateBackdropVisibility() {
+  const backdrop = document.getElementById("modal-backdrop");
+  if (!backdrop) return;
+  const cheatModal = document.getElementById("cheat-modal");
+  const matrixModal = document.getElementById("matrix-modal");
+  const moveModal = document.getElementById("move-picker-modal");
+  const drawerOverlay = document.getElementById("drawer-overlay");
+  
+  const isCheatOpen = cheatModal && cheatModal.classList.contains("open");
+  const isMatrixOpen = matrixModal && matrixModal.classList.contains("open");
+  const isMoveOpen = moveModal && moveModal.classList.contains("open");
+  const isDrawerOpen = drawerOverlay && drawerOverlay.classList.contains("open");
+  const isDrawerUnpinned = isDrawerOpen && (!isDrawerPinned || window.innerWidth < 1200);
+
+  if (isCheatOpen || isMatrixOpen || isMoveOpen || isDrawerUnpinned) {
+    backdrop.classList.add("open");
+  } else {
+    backdrop.classList.remove("open");
+  }
+}
+
+function handleBackdropClick() {
+  const moveModal = document.getElementById("move-picker-modal");
+  if (moveModal && moveModal.classList.contains("open")) {
+    closeMovePicker();
+    return;
+  }
+  const matrixModal = document.getElementById("matrix-modal");
+  if (matrixModal && matrixModal.classList.contains("open")) {
+    toggleMatrixModal(false);
+    return;
+  }
+  const cheatModal = document.getElementById("cheat-modal");
+  if (cheatModal && cheatModal.classList.contains("open")) {
+    toggleCheatSheet();
+    return;
+  }
+  closeDrawer();
+}
+
 function openDrawer(tab) {
   document.getElementById("drawer-overlay").classList.add("open");
-  if (!isDrawerPinned || window.innerWidth < 1200) {
-    document.getElementById("modal-backdrop").classList.add("open");
-  }
   setDrawerTab(tab);
+  updateBackdropVisibility();
 }
 
 function closeDrawer() {
@@ -2730,24 +2768,20 @@ function closeDrawer() {
   document.getElementById("drawer-overlay").classList.remove("open");
   const cheatModal = document.getElementById("cheat-modal");
   if (cheatModal) cheatModal.classList.remove("open");
-  document.getElementById("modal-backdrop").classList.remove("open");
+  updateBackdropVisibility();
 }
 
 function toggleCheatSheet() {
   const modal = document.getElementById("cheat-modal");
-  const backdrop = document.getElementById("modal-backdrop");
   if (!modal) return;
   const isOpen = modal.classList.contains("open");
   if (isOpen) {
     modal.classList.remove("open");
-    if (!document.getElementById("drawer-overlay").classList.contains("open")) {
-      backdrop.classList.remove("open");
-    }
   } else {
     renderCheatSheetTable();
     modal.classList.add("open");
-    backdrop.classList.add("open");
   }
+  updateBackdropVisibility();
 }
 
 function renderCheatSheetTable() {
@@ -3040,7 +3074,7 @@ const TYPE_CHART = {
   Fairy:    { Fire: 0.5, Fighting: 2, Poison: 0.5, Dragon: 2, Steel: 0.5, Dark: 2 },
   Dark:     { Fighting: 0.5, Psychic: 2, Ghost: 2, Dark: 0.5, Fairy: 0.5 }
 };
-const ALL_TYPES = ["Normal", "Fire", "Water", "Grass", "Electric", "Ice", "Fighting", "Poison", "Ground", "Flying", "Psychic", "Bug", "Rock", "Ghost", "Dragon", "Steel", "Fairy", "Dark"];
+const ALL_TYPES = ["Normal", "Fire", "Water", "Grass", "Electric", "Ice", "Fighting", "Poison", "Ground", "Flying", "Psychic", "Bug", "Rock", "Ghost", "Dragon", "Steel", "Dark", "Fairy"];
 
 const TYPE_COLORS = {
   Normal: "#94a3b8",
@@ -3400,20 +3434,19 @@ function getMoveDetails(moveName) {
 }
 
 function getLegalMovesForSpecies(speciesName, cap) {
-  if (!APP_DATA || !APP_DATA.moves || !APP_DATA.base_stats) return [];
+  if (!APP_DATA || !APP_DATA.moves) return [];
   const moveNames = APP_DATA.moves.move_names || [];
   const moveTable = APP_DATA.moves.move_table || [];
-  const speciesLearnsets = APP_DATA.moves.species_learnsets || [];
-  const speciesList = Object.keys(APP_DATA.base_stats).sort();
+  const learnsets = APP_DATA.moves.learnsets || {};
   const preEvos = APP_DATA.pre_evolutions || {};
 
   const targets = [speciesName, ...(preEvos[speciesName] || [])];
   const legalMap = {};
 
   targets.forEach(sp => {
-    const spIdx = speciesList.indexOf(sp);
-    if (spIdx !== -1 && speciesLearnsets[spIdx]) {
-      speciesLearnsets[spIdx].forEach(p => {
+    const spMoves = learnsets[sp];
+    if (spMoves && Array.isArray(spMoves)) {
+      spMoves.forEach(p => {
         const lvl = Math.floor(p / 1000);
         const mid = p % 1000;
         if (lvl <= cap && mid < moveNames.length) {
@@ -3594,20 +3627,21 @@ function renderDrawerTeam() {
   }
 
   const gymPresets = [
-    { cap: 14, label: "14 (Brock)" },
-    { cap: 21, label: "21 (Misty)" },
+    { cap: 12, label: "12 (Brock)" },
+    { cap: 22, label: "22 (Misty)" },
     { cap: 26, label: "26 (Surge)" },
-    { cap: 33, label: "33 (Erika)" },
-    { cap: 40, label: "40 (Koga)" },
-    { cap: 47, label: "47 (Sabrina)" },
-    { cap: 50, label: "50 (Blaine)" },
-    { cap: 53, label: "53 (Giovanni)" },
-    { cap: 56, label: "56 (E4)" },
-    { cap: 60, label: "60 (Champ)" },
-    { cap: 68, label: "68 (Whitney)" },
-    { cap: 75, label: "75 (Clair)" },
-    { cap: 80, label: "80 (Chrono)" },
-    { cap: 90, label: "90 (Red)" },
+    { cap: 35, label: "35 (Erika)" },
+    { cap: 38, label: "38 (Koga)" },
+    { cap: 45, label: "45 (Sabrina)" },
+    { cap: 51, label: "51 (Blaine)" },
+    { cap: 54, label: "54 (Giovanni)" },
+    { cap: 62, label: "62 (E4/Champ)" },
+    { cap: 62, label: "62 (Whitney)" },
+    { cap: 63, label: "63 (Kurt)" },
+    { cap: 64, label: "64 (Falkner)" },
+    { cap: 65, label: "65 (Pryce)" },
+    { cap: 67, label: "67 (Morty)" },
+    { cap: 68, label: "68 (Clair)" },
     { cap: 100, label: "100 (Max)" }
   ];
 
@@ -3757,7 +3791,7 @@ function renderDrawerTeam() {
               if (!mv) {
                 return `<button class="move-btn empty" onclick="openMovePicker(${sIdx}, ${mIdx})">+ Move ${mIdx + 1}</button>`;
               }
-              const isStab = types.includes(mv.type);
+              const isStab = types.includes(mv.type) && mv.cat !== 2 && (mv.pwr > 0);
               const catIcon = mv.cat === 0 ? "⚔️" : (mv.cat === 1 ? "🔮" : "🛡️");
               return `
                 <button class="move-btn" onclick="openMovePicker(${sIdx}, ${mIdx})">
@@ -3900,17 +3934,20 @@ function repositionSpeciesDropdown() {
   const spaceBelow = window.innerHeight - rect.bottom;
 
   dropdown.style.display = "flex";
-  dropdown.style.left = Math.max(10, Math.min(rect.left, window.innerWidth - 270)) + "px";
-  dropdown.style.width = Math.max(rect.width, 250) + "px";
+  const w = Math.max(rect.width, 260);
+  dropdown.style.width = w + "px";
+  dropdown.style.left = Math.max(10, Math.min(rect.left, window.innerWidth - w - 12)) + "px";
 
   if (spaceBelow < 260 && rect.top > 260) {
-    const h = Math.min(250, rect.top - 16);
-    dropdown.style.top = (rect.top - h - 4) + "px";
-    dropdown.style.maxHeight = h + "px";
+    const maxH = Math.min(250, rect.top - 16);
+    dropdown.style.top = "auto";
+    dropdown.style.bottom = (window.innerHeight - rect.top + 4) + "px";
+    dropdown.style.maxHeight = maxH + "px";
   } else {
-    const h = Math.min(260, Math.max(120, spaceBelow - 16));
+    const maxH = Math.min(260, Math.max(120, spaceBelow - 16));
+    dropdown.style.bottom = "auto";
     dropdown.style.top = (rect.bottom + 4) + "px";
-    dropdown.style.maxHeight = h + "px";
+    dropdown.style.maxHeight = maxH + "px";
   }
 }
 
@@ -3957,7 +3994,9 @@ function filterSpeciesCombobox(query) {
   const part = activeSpeciesCombobox.part;
   const rawQ = (query || "").trim();
   const cleanQ = rawQ.toLowerCase().replace(/^#/, "");
-  const speciesKeys = Object.keys(APP_DATA.base_stats);
+  const speciesKeys = Object.keys(APP_DATA.base_stats).filter(function(s) {
+    return (APP_DATA.base_stats[s] && (APP_DATA.base_stats[s].dex_id || 0) < 1000000);
+  });
   const allowNone = (part === "body" && ctx === "team");
 
   let results = [];
@@ -4041,6 +4080,7 @@ function filterSpeciesCombobox(query) {
 
   dropdown.innerHTML = html;
   dropdown.scrollTop = 0;
+  repositionSpeciesDropdown();
 }
 
 function selectSpeciesFromCombobox(speciesName) {
@@ -4133,8 +4173,7 @@ function openMovePicker(slotIdx, moveIdx) {
   filterMovePickerList("");
 
   if (modal) modal.classList.add("open");
-  const backdrop = document.getElementById("modal-backdrop");
-  if (backdrop) backdrop.classList.add("open");
+  updateBackdropVisibility();
   if (searchEl) setTimeout(() => searchEl.focus(), 100);
 }
 
@@ -4142,15 +4181,7 @@ function closeMovePicker() {
   activeMovePickerSlot = null;
   const modal = document.getElementById("move-picker-modal");
   if (modal) modal.classList.remove("open");
-  const backdrop = document.getElementById("modal-backdrop");
-  // Only close backdrop if drawer or cheat sheet is not open
-  const cheatModal = document.getElementById("cheat-modal");
-  const matrixModal = document.getElementById("matrix-modal");
-  if ((!cheatModal || !cheatModal.classList.contains("open")) &&
-      (!matrixModal || !matrixModal.classList.contains("open")) &&
-      !isDrawerPinned) {
-    // leave drawer backdrop logic to drawer
-  }
+  updateBackdropVisibility();
 }
 
 function filterMovePickerList(query) {
@@ -4172,7 +4203,7 @@ function filterMovePickerList(query) {
   const types = slot ? getMonEffectiveTypes(slot.head, slot.body) : [];
 
   container.innerHTML = filtered.map(m => {
-    const isStab = types.includes(m.type);
+    const isStab = types.includes(m.type) && m.cat !== 2 && (m.pwr > 0);
     const catIcon = m.cat === 0 ? "⚔️ Phys" : (m.cat === 1 ? "🔮 Spec" : "🛡️ Status");
     return `
       <div class="move-picker-item" onclick="selectMove('${m.name}')">
@@ -4248,19 +4279,15 @@ function importActiveGuideTeam() {
 
 function toggleMatrixModal(open) {
   const modal = document.getElementById("matrix-modal");
-  const backdrop = document.getElementById("modal-backdrop");
   if (!modal) return;
   const isOpen = (open !== undefined) ? open : !modal.classList.contains("open");
   if (isOpen) {
     renderMatrixModal();
     modal.classList.add("open");
-    if (backdrop) backdrop.classList.add("open");
   } else {
     modal.classList.remove("open");
-    if (backdrop && (!isDrawerPinned || window.innerWidth < 1200)) {
-      backdrop.classList.remove("open");
-    }
   }
+  updateBackdropVisibility();
 }
 
 function renderMatrixModal() {
@@ -4673,6 +4700,20 @@ document.addEventListener("click", function(e) {
 window.addEventListener("resize", function() {
   if (activeSpeciesCombobox) repositionSpeciesDropdown();
 });
+
+const drawerContent = document.getElementById("drawer-content");
+if (drawerContent) {
+  drawerContent.addEventListener("scroll", function() {
+    if (activeSpeciesCombobox && activeSpeciesCombobox.inputEl) {
+      const r = activeSpeciesCombobox.inputEl.getBoundingClientRect();
+      if (r.bottom < 60 || r.top > window.innerHeight - 30) {
+        closeSpeciesCombobox(true);
+      } else {
+        repositionSpeciesDropdown();
+      }
+    }
+  }, { passive: true });
+}
 
 async function bootApp() {
   initTheme();

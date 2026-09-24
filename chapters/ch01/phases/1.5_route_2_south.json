@@ -1,0 +1,31 @@
+{
+  "name": "Route 2 (South)",
+  "summary": "Short pastoral route connecting northern Viridian City to the southern entrance of Viridian Forest.",
+  "items": [
+    {"name": "Antidote", "method": "North fence of Route 2 (South)", "type": "Consumable"},
+    {"name": "Ether", "method": "Next to elderly man's house", "type": "Consumable"}
+  ],
+  "trainers": [],
+  "encounters": {
+    "Grass": [
+      {"dex_id": "010", "name": "Caterpie", "types": ["Bug"], "levels": "4-5", "rates": "5% Morning / 10% Day / 5% Night"},
+      {"dex_id": "013", "name": "Weedle", "types": ["Bug", "Poison"], "levels": "4-5", "rates": "5% Morning / 5% Day / 10% Night"},
+      {"dex_id": "016", "name": "Pidgey", "types": ["Normal", "Flying"], "levels": "2-3", "rates": "45% Morning / 40% Day"},
+      {"dex_id": "019", "name": "Rattata", "types": ["Normal"], "levels": "2-5", "rates": "45% Morning / 35% Day / 45% Night"},
+      {"dex_id": "161", "name": "Sentret", "types": ["Normal"], "levels": "2-5", "rates": "10% Day"},
+      {"dex_id": "163", "name": "Hoothoot", "types": ["Normal", "Flying"], "levels": "2-3", "rates": "40% Night"}
+    ],
+    "Poké Radar": [
+      {"dex_id": "417", "name": "Fletchling", "types": ["Normal", "Flying"], "levels": "2-5", "rates": "50% Radar"}
+    ]
+  },
+  "move_tutors": [
+    {
+      "name": "Fury Cutter Move Tutor",
+      "location": "Inside the entrance gate leading from Route 2 into Viridian Forest",
+      "cost": "200 Pokedollars",
+      "notes": "Teaches Bug-type physical move Fury Cutter (base power doubles with consecutive hits)."
+    }
+  ],
+  "navigation_notes": "Route 2 (South) leads directly from Viridian City to the southern gate of Viridian Forest. Note: The eastern branch of Route 2 and Diglett's Cave require Cut (Shears), which unlocks in Chapter 3."
+}
